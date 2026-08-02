@@ -1,7 +1,5 @@
 # Silksong Randomizer Notes
 
-Room-by-room notes extracted from the source PDF.
-
 ## Bone Bottom
 
 - [Moss Grotto West](./bone-bottom/moss-grotto-west.md)
