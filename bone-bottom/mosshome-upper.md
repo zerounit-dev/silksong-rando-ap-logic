@@ -1,4 +1,4 @@
-# Mosshome Upper
+# Mosshome Upper (Mosstown_02)
 
 ## Subrooms
 
@@ -8,27 +8,27 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| LF | left floor | main area | [mosshome middle](./mosshome-middle.md) -C | none |
-| L | left | main area | [the big fall](./the-big-fall.md) -UR | none |
-| RF | right floor | bottom right area | [mosshome side room](./mosshome-side-room.md) -C | none |
-| R | right | bottom right area | [mosshome druid](./mosshome-druid.md) -L | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| LF | left floor | main area | [Mosshome Middle (Mosstown_01)](mosshome-middle.md) | C | none |  |
+| L | left | main area | [The Big Fall (Aspid_01)](the-big-fall.md) | MR | none |  |
+| RF | right floor | bottom right area | [Mosshome Side Room (Bone_05b)](mosshome-side-room.md) | C | none |  |
+| R | right | bottom right area | [Mosshome Druid (Mosstown_02c)](mosshome-druid.md) | L | none |  |
 
 ## Subroom Connections
 
-| alias | name | source | destination | requirements |
-| --- | --- | --- | --- | --- |
-| RS | right silk blockade | main area | bottom right area | can break silk blockade |
-| RS | right silk blockade | bottom right area | main area | can break silk blockade |
-| LS | left silk blockade | main area | upper left area | can break silk blockade |
-| LS | left silk blockade | upper left area | main area | none (cut to open pathway) |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| RS | right silk blockade | main area | bottom right area | can break silk blockade |  |
+| RS | right silk blockade | bottom right area | main area | can break silk blockade |  |
+| LS | left silk blockade | main area | upper left area | can break silk blockade |  |
+| LS | left silk blockade | upper left area | main area | none (cut to open pathway) |  |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| silk spear | main area | none |  |
-| frayed rosary string the marrow | upper left area | none | seems to be misnamed in the apworld |
-| rosary cache bone bottom 16 | main area | none |  |
-| rosary cache bone bottom 17 | main area | none |  |
+| silkspear | main area | none |  |
+| frayed rosary string bone bottom silkspear passage | upper left area | none | seems to be misnamed in the apworld |
+| rosary cache mosshome 3 | main area | none |  |
+| rosary cache mosshome 4 | main area | none |  |

@@ -1,4 +1,4 @@
-# Wormways Flea Rescue
+# Wormways Flea Rescue (Crawl_06)
 
 ## Subrooms
 
@@ -7,19 +7,19 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left | entrance | [wormways shaft](./wormways-shaft.md) -MR | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left | entrance | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | MR | none |  |
 
 ## Subroom Connections
 
-| alias | name | source | destination | requirements |
-| --- | --- | --- | --- | --- |
-| D | dash | entrance | main area | any horizontal movement tech (small low gap) |
-| D | dash | main area | entrance | any horizontal movement tech (small low gap) |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| D | dash | entrance | main area | none | spike pogo |
+| D | dash | main area | entrance | none | spike pogo |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
 | flea wormways snacc | main area | none |  |

@@ -1,4 +1,4 @@
-# Wormways Lower East
+# Wormways Lower East (Crawl_07)
 
 ## Subrooms
 
@@ -9,31 +9,31 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| C | ceiling | ceiling exit area | [wormways middle](./wormways-middle.md) -F | none |
-| L | left | left exit area | [wormways lower west](./wormways-lower-west.md) -R | none |
-| F | floor | floor exit area | [bonegrave](../bone-bottom/bonegrave.md) -C | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| C | ceiling | ceiling exit area | [Wormways Middle (Crawl_03b)](wormways-middle.md) | F | none |  |
+| L | left | left exit area | [Wormways Lower West (Crawl_09)](wormways-lower-west.md) | R | none |  |
+| F | floor | floor exit area | [Bonegrave (Bonegrave)](../bone-bottom/bonegrave.md) | C | none |  |
 
 ## Subroom Connections
 
-| alias | name | source | destination | requirements |
-| --- | --- | --- | --- | --- |
-| CC | ceiling climb | ceiling exit area | tunnels | cling grip |
-| CC | ceiling climb | tunnels | ceiling exit area | cling grip |
-| LC | left climb | left exit area | tunnels | cling grip |
-| LC | left climb | tunnels | left exit area | cling grip |
-| RC | floor climb | floor exit area | tunnels | cling grip |
-| RC | floor climb | tunnels | floor exit area | cling grip |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| CC | ceiling climb | ceiling exit area | tunnels | cling grip |  |
+| CC | ceiling climb | tunnels | ceiling exit area | cling grip |  |
+| LC | left climb | left exit area | tunnels | cling grip |  |
+| LC | left climb | tunnels | left exit area | cling grip |  |
+| RC | floor climb | floor exit area | tunnels | cling grip |  |
+| RC | floor climb | tunnels | floor exit area | cling grip |  |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| plasmium spot | tunnels | need phial | NOT CURRENTLY RANDOMIZED |
+| plasmium pustule lower east | tunnels | needle phial AND red tool slot | NOT CURRENTLY RANDOMIZED; Not included in Archipelago world |
 
 ## Notes
 
-this one seems a bit tricky, but also it's just a bit late
-i think you need cling grip to from any one point to another in here
+this one seems a bit tricky, but also it's just a bit late
+i think you need cling grip to from any one point to another in here
 TODO: review the mapping in here

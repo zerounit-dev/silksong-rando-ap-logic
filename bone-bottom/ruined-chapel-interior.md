@@ -7,13 +7,21 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| CD | chapel door | ritual chamber | [ruined chapel](./ruined-chapel.md) -CD | TODO |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| CD | chapel door | ritual chamber | [Ruined Chapel (Tut_03)](ruined-chapel.md) | CD | TODO | TODO |
 
 ## Subroom Connections
 
-| source | alias | name | destination | requirements |
-| --- | --- | --- | --- | --- |
-| ritual chamber | SS | silk soar spot | crest chamber | silk soar |
-| crest chamber | SS | silk soar spot | ritual chamber | silk soar |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| SS | silk soar spot | ritual chamber | crest chamber | silk soar |  |
+| SS | silk soar spot | crest chamber | ritual chamber | silk soar |  |
+
+## Check Locations
+
+No check locations defined.
+
+## Notes
+
+**UNABLE TO ACCESS IN LOGIC AUDIT MODE**

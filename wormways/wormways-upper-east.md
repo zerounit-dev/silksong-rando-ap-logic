@@ -1,4 +1,4 @@
-# Wormways Upper East
+# Wormways Upper East (Crawl_01)
 
 ## Subrooms
 
@@ -7,24 +7,21 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left | lower area | [wormways shaft](./wormways-shaft.md) -UR | none |
-| R | right | upper area | [the big fall](../bone-bottom/the-big-fall.md) -UL | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left | lower area | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | UR | none |  |
+| R | right | upper area | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | UL | none |  |
 
 ## Subroom Connections
 
-| alias | name | source | destinatio n | requirements |
-| --- | --- | --- | --- | --- |
-| LD | left dash | lower area | upper area | run OR dash OR cling grip OR faydown cloak OR sharpdart OR clawline |
-| LD | left dash | upper area | lower area | none (falling) |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| LD | left dash | lower area | upper area | run OR dash OR cling grip OR drifter's cloak OR faydown cloak OR sharpdart OR clawline |  |
+| LD | left dash | upper area | lower area | none (falling) |  |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
 | dead bugs purse | upper area | none | STILL MARKED AS ??? ON TRACKER |
 | shakra shop items | upper area |  | :) |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |

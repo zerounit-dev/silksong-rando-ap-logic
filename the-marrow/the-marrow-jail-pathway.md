@@ -1,4 +1,4 @@
-# The Marrow Jail Pathway
+# The Marrow Jail Pathway (Bone_08)
 
 ## Subrooms
 
@@ -7,25 +7,25 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| UL | upper left | upper area | [the marrow lower pogo](./the-marrow-lower-pogo.md) -UR |  |
-| LL | lower left | lower area | [the marrow lower pogo](./the-marrow-lower-pogo.md) -LR |  |
-| UR | upper right | upper area | TODO |  |
-| MR | middle right | lower area | TODO |  |
-| LR | lower right | lower area | [the marrow jail](./the-marrow-jail.md) -L |  |
-| F | floor | lower area | the marrow lava dock -C |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| UL | upper left | upper area | [The Marrow Lower Pogo (Bone_07)](the-marrow-lower-pogo.md) | UR |  |  |
+| LL | lower left | lower area | [The Marrow Lower Pogo (Bone_07)](the-marrow-lower-pogo.md) | LR |  |  |
+| UR | upper right | upper area | TODO |  |  | bellhart |
+| MR | middle right | lower area | TODO |  |  | hunter's march |
+| JD | lower right | lower area | [The Marrow Jail (Bone_12)](the-marrow-jail.md) | L |  |  |
+| F | floor | lower area | [The Marrow Lava Docks (Bone_09)](the-marrow-lava-docks.md) | C |  |  |
 
 ## Subroom Connections
 
-| alias | name | source | destination | requirements |
-| --- | --- | --- | --- | --- |
-| PS | platform switch | upper area | lower area | none (falling) |
-| PS | platform switch | lower area | upper area | platform switch activated (at top of area) |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| PS | platform switch | upper area | lower area | none (falling) |  |
+| PS | platform switch | lower area | upper area | platform switch activated (at top of area) |  |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
 | platform switch | upper area | none |  |
 | rosary cache the marrow 8 | lower area | none |  |

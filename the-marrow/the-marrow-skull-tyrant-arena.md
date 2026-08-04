@@ -1,15 +1,23 @@
-# The Marrow Skull Tyrant Arena
+# The Marrow Skull Tyrant Arena (Bone_15)
+
+## Subrooms
+
+No subrooms defined.
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| F | floor |  | the marrow lava track -C | none |
-| L | left |  | [the marrow flea caravan](./the-marrow-flea-caravan.md) -R | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| F | floor |  | [The Marrow Lava Track (Bone_16)](the-marrow-lava-track.md) | C | none |  |
+| L | left |  | [The Marrow Flea Caravan (Bone_10)](the-marrow-flea-caravan.md) | R | none |  |
+
+## Subroom Connections
+
+No subroom connections defined.
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
 | silk spool |  | none | NOT RANDOMIZED YET |
 | skull tyrant boss fight |  | none | NOT RANDOMIZED YET |

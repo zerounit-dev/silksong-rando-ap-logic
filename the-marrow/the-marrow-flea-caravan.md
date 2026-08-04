@@ -1,4 +1,4 @@
-# The Marrow Flea Caravan
+# The Marrow Flea Caravan (Bone_10)
 
 ## Subrooms
 
@@ -7,23 +7,23 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left | main area | [the marrow shaft](./the-marrow-shaft.md) -LR | none |
-| R | right | behind metal gate | [the marrow skull tyrant arena](./the-marrow-skull-tyrant-arena.md) -L | none |
-| F | floor | main area | [the marrow lava intro](./the-marrow-lava-intro.md) -RC | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left | main area | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | LR | none |  |
+| R | right | behind metal gate | [The Marrow Skull Tyrant Arena (Bone_15)](the-marrow-skull-tyrant-arena.md) | L | none |  |
+| F | floor | main area | [The Marrow Lava Intro (Bone_02)](the-marrow-lava-intro.md) | RC | none |  |
 
 ## Subroom Connections
 
-| alias | name | source | destination | requirements |
-| --- | --- | --- | --- | --- |
-| DS | door switch | main area | behind metal gate | door switch activated |
-| DS | door switch | behind metal gate | main area | none (can flip switch from this side) |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| DS | door switch | main area | behind metal gate | door switch activated |  |
+| DS | door switch | behind metal gate | main area | none (can flip switch from this side) |  |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| "frayed rosary string bone bottom" |  | none | probably misnamed in the apworld |
-| rosary dish |  | none | NOT CURRENTLY RANDOMIZED |
-| wish survivor's camp supplies |  | TODO | TODO |
+| frayed rosary string the marrow flea caravan passage |  | none |  |
+| rosary dish |  | none | NOT CURRENTLY RANDOMIZED; TODO; Not included in Archipelago world |
+| wish survivor's camp supplies |  | TODO | TODO; TODO |

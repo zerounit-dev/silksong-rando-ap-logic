@@ -1,4 +1,4 @@
-# Wormways Laboratory (Crawl_08)
+# The Marrow Shaft Side Room (Bone_17)
 
 ## Subrooms
 
@@ -8,7 +8,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| F | floor |  | [Wormways Upper West (Crawl_03)](wormways-upper-west.md) | C |  |  |
+| R | right |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | LL | none |  |
 
 ## Subroom Connections
 
@@ -18,7 +18,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| needle phial |  | none |  |
-| plasmium phial |  | filled needle phial |  |
-| wish missing assitant |  | TODO | TODO |
-| wish alchemist assistant |  |  | Not included in Archipelago world |
+| shard pendant |  | none |  |

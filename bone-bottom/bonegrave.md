@@ -1,4 +1,4 @@
-# Bonegrave
+# Bonegrave (Bonegrave)
 
 ## Subrooms
 
@@ -8,28 +8,28 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| UR | upper right | upper right exit | [bone bottom](./bone-bottom.md) -UL | none |
-| LR | lower right | graveyard | [bone bottom](./bone-bottom.md) -LL | none |
-| C | ceiling | upper left exit | [wormways lower east](../wormways/wormways-lower-east.md) -F | none |
-| GD | grave door | graveyard | TODO | no wanderer's crest |
-| LL | lower left | graveyard | [bonegrave passage](./bonegrave-passage.md) -R | TODO (steel soul only?) |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| UR | upper right | upper right exit | [Bone Bottom (Bonetown)](bone-bottom.md) | UL | none |  |
+| LR | lower right | graveyard | [Bone Bottom (Bonetown)](bone-bottom.md) | LL | none |  |
+| C | ceiling | upper left exit | [Wormways Lower East (Crawl_07)](../wormways/wormways-lower-east.md) | F | silk soar OR cling grip |  |
+| CD | chapel door | graveyard | [Chapel of the Wanderer (Chapel_Wanderer)](chapel-of-the-wanderer.md) | CD | no wanderer's crest OR wanderer's door override | "wanderer's door override" is meant to cover any situation that would require the door to stay open, such as rosary cache rando |
+| LL | lower left | graveyard | [Bonegrave Passage](bonegrave-passage.md) | R | steel soul |  |
 
 ## Subroom Connections
 
-| alias | name | source | destination | requirements |
-| --- | --- | --- | --- | --- |
-| CL | climb | graveyard | upper right exit | cling grip OR silk soar |
-| CL | climb | upper right exit | graveyard | none (falling) |
-| BW | breakable wall | upper left exit | upper right exit | none (break wall from this side) |
-| BW | breakable wall | upper right exit | upper left exit | wall broken from other side |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| CL | climb | graveyard | upper right exit | cling grip OR silk soar |  |
+| CL | climb | upper right exit | graveyard | none (falling) |  |
+| BW | breakable wall | upper left exit | upper right exit | none (break wall from this side) |  |
+| BW | breakable wall | upper right exit | upper left exit | wall broken from other side |  |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
 | boneyard mossberry | graveyard | none | can be gotten with only jump -tested |
-| rosaries on grave | graveyard | none | NOT CURRENTLY RANDOMIZED |
-| rosary cache bone bottom 6 | upper right exit | none | MARKED AS ??? ON TRACKER |
-| rosary cache bone bottom 7 | upper right exit | none | MARKED AS ??? ON TRACKER |
+| rosary cache bone bottom 6 | upper right exit | none |  |
+| rosary cache bone bottom 7 | upper right exit | none |  |
+| rosaries on grave | graveyard | none | NOT CURRENTLY RANDOMIZED; Not included in Archipelago world |

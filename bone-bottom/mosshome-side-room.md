@@ -1,14 +1,22 @@
-# Mosshome Side Room
+# Mosshome Side Room (Bone_05b)
+
+## Subrooms
+
+No subrooms defined.
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left |  | [mosshome middle](./mosshome-middle.md) -UR | none |
-| C | ceiling |  | [mosshome upper](./mosshome-upper.md) -RF | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Mosshome Middle (Mosstown_01)](mosshome-middle.md) | UR | none |  |
+| C | ceiling |  | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | RF | none |  |
+
+## Subroom Connections
+
+No subroom connections defined.
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
 | mosshome mossberry |  | none |  |

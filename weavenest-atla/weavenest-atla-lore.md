@@ -1,4 +1,4 @@
-# Weavenest Atla Lore
+# Weavenest Atla Lore (Weave_08)
 
 ## Subrooms
 
@@ -7,21 +7,21 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left | main area | [weavenest atla hallway](./weavenest-atla-hallway.md) -R | none |
-| R | right | right exit | [weavenest atla mask shard](./weavenest-atla-mask-shard.md) -L | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left | main area | [Weavenest Atla Hallway (Weave_13)](weavenest-atla-hallway.md) | R | none |  |
+| R | right | right exit | [Weavenest Atla Mask Shard (Weave_05b)](weavenest-atla-mask-shard.md) | L | none |  |
 
 ## Subroom Connections
 
-| alias | name | source | destinatio n | requirements |
-| --- | --- | --- | --- | --- |
-| CL | climb pit | main area | right exit | dash OR horizontal movement tech OR faydown cloak |
-| CL | climb pit | right exit | main area | cling grip AND ( dash OR horizontal movement tech OR faydown cloak ) |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| CL | climb pit | main area | right exit | none (falling) | need to pogo spikes to get down without movement tech |
+| CL | climb pit | right exit | main area | cling grip AND ( dash OR horizontal movement tech OR faydown cloak ) |  |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| rune harp weavenest atla |  | none |  |
-| readable lore tablet |  | none | NOT ACTUALL A CHECK |
+| rune harp weavenest atla | main area | none |  |
+| readable lore tablet | main area | none | NOT ACTUALLY A CHECK |

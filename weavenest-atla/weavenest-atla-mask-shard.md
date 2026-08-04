@@ -1,13 +1,21 @@
-# Weavenest Atla Mask Shard
+# Weavenest Atla Mask Shard (Weave_05b)
+
+## Subrooms
+
+No subrooms defined.
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left |  | [weavenest atla lore](./weavenest-atla-lore.md) -R | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Weavenest Atla Lore (Weave_08)](weavenest-atla-lore.md) | R | none |  |
+
+## Subroom Connections
+
+No subroom connections defined.
 
 ## Check Locations
 
-| check | subroo m | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| weavenest alta mask shard |  | cling grip AND ( clawline OR ( faydown cloak AND dash ) ) | NEEDS VERIFICATION BY SOMEONE BETTER THAN ME |
+| weavenest alta mask shard |  | silk soar OR ( cling grip AND ( drifter's cloak OR faydown cloak OR clawline OR sharpdart OR  ) ) | NEEDS VERIFICATION BY SOMEONE BETTER THAN ME |

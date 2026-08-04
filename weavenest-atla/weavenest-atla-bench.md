@@ -1,11 +1,23 @@
-# Weavenest Atla Bench
+# Weavenest Atla Bench (Weave_07)
+
+## Subrooms
+
+No subrooms defined.
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| R | right |  | [weavenest atla teleporter](./weavenest-atla-teleporter.md) -LL | none |
-| L | left |  | [weavenest atla grotto](./weavenest-atla-grotto.md) -R | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | LL | none |  |
+| L | left |  | [Weavenest Atla Grotto (Weave_03)](weavenest-atla-grotto.md) | R | none |  |
+
+## Subroom Connections
+
+No subroom connections defined.
+
+## Check Locations
+
+No check locations defined.
 
 ## Notes
 

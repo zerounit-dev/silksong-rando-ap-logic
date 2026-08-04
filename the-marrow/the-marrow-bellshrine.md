@@ -1,4 +1,4 @@
-# Wormways Laboratory (Crawl_08)
+# The Marrow Bellshrine
 
 ## Subrooms
 
@@ -8,7 +8,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| F | floor |  | [Wormways Upper West (Crawl_03)](wormways-upper-west.md) | C |  |  |
+| L | left |  | [The Marrow Bellway (Bone_05)](the-marrow-bellway.md) | R | none |  |
+| R | right |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | UL | bell must be rung |  |
 
 ## Subroom Connections
 
@@ -18,7 +19,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| needle phial |  | none |  |
-| plasmium phial |  | filled needle phial |  |
-| wish missing assitant |  | TODO | TODO |
-| wish alchemist assistant |  |  | Not included in Archipelago world |
+| ring bell switch |  |  | this opens the right exit |

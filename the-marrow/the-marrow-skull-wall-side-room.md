@@ -1,4 +1,4 @@
-# The Marrow Skull Wall Side Room
+# The Marrow Skull Wall Side Room (Bone_18)
 
 ## Subrooms
 
@@ -7,21 +7,21 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left | lower level | [the marrow skull wall](./the-marrow-skull-wall.md) -R | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left | lower level | [The Marrow Skull Wall (Bone_06)](the-marrow-skull-wall.md) | R | none |  |
 
 ## Subroom Connections
 
-| alias | name | source | destination | requirements |
-| --- | --- | --- | --- | --- |
-| CG | climb | lower level | upper level | cling grip or silk soar |
-| CG | climb | upper level | lower level | cling grip or silk soar |
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| CG | climb | lower level | upper level | cling grip or silk soar |  |
+| CG | climb | upper level | lower level | cling grip or silk soar |  |
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| lore tablet | lower level |  | NOT ACTUALLY A CHECK |
-| memory locket 3 | upper level |  | not on the tracker |
-| gauntlet fight | upper level |  | not on the tracker / what are the trigger conditions? |
+| lore tablet | lower level |  | NOT ACTUALLY A CHECK; Not included in Archipelago world |
+| memory locket the marrow | upper level |  | on the tracker but appears to be inaccessible ; TODO |
+| gauntlet fight | upper level |  | not on the tracker / what are the trigger conditions?; TODO; Not included in Archipelago world |

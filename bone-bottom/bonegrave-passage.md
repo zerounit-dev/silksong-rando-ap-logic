@@ -1,13 +1,21 @@
 # Bonegrave Passage
 
+## Subrooms
+
+No subrooms defined.
+
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| R | right |  | [bonegrave](./bonegrave.md) -LL | TODO |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Bonegrave (Bonegrave)](bonegrave.md) | LL | steel soul | Needs verification |
+
+## Subroom Connections
+
+No subroom connections defined.
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| summoned savior boss fight |  | TODO (steel soul only?) |  |
+| summoned savior boss fight |  | TODO (steel soul only?) | TODO |

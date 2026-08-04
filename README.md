@@ -1,73 +1,147 @@
 # Silksong Randomizer Notes
 
-Room-by-room notes extracted from the source PDF.
+Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Bone Bottom
 
-- [Moss Grotto West](./bone-bottom/moss-grotto-west.md)
-- [Moss Grotto East](./bone-bottom/moss-grotto-east.md)
-- [Ruined Chapel](./bone-bottom/ruined-chapel.md)
+- [Moss Grotto Center (Tut_01)](./bone-bottom/moss-grotto-center.md)
+- [Moss Grotto West (Tut_02)](./bone-bottom/moss-grotto-west.md)
+- [Moss Grotto East (Tut_01b)](./bone-bottom/moss-grotto-east.md)
+- [Ruined Chapel (Tut_03)](./bone-bottom/ruined-chapel.md)
 - [Ruined Chapel Interior](./bone-bottom/ruined-chapel-interior.md)
-- [Bone Bottom](./bone-bottom/bone-bottom.md)
-- [Bone Bottom Bellway](./bone-bottom/bone-bottom-bellway.md)
-- [Bonegrave](./bone-bottom/bonegrave.md)
+- [Bone Bottom (Bonetown)](./bone-bottom/bone-bottom.md)
+- [Bone Bottom Bellway (Bellway_01)](./bone-bottom/bone-bottom-bellway.md)
+- [Bonegrave (Bonegrave)](./bone-bottom/bonegrave.md)
 - [Bonegrave Passage](./bone-bottom/bonegrave-passage.md)
-- [Wanderer'S Grave](./bone-bottom/wanderer-s-grave.md)
-- [Mosshome Lower](./bone-bottom/mosshome-lower.md)
-- [Mosshome Middle](./bone-bottom/mosshome-middle.md)
-- [Mosshome Upper](./bone-bottom/mosshome-upper.md)
-- [Mosshome Druid](./bone-bottom/mosshome-druid.md)
-- [Mosshome Side Room](./bone-bottom/mosshome-side-room.md)
-- [Mosshome Basement](./bone-bottom/mosshome-basement.md)
-- [Mosshome Spool](./bone-bottom/mosshome-spool.md)
-- [The Big Fall](./bone-bottom/the-big-fall.md)
+- [Chapel of the Wanderer (Chapel_Wanderer)](./bone-bottom/chapel-of-the-wanderer.md)
+- [Mosshome Upper (Mosstown_02)](./bone-bottom/mosshome-upper.md)
+- [Mosshome Middle (Mosstown_01)](./bone-bottom/mosshome-middle.md)
+- [Mosshome Lower (Bone_11)](./bone-bottom/mosshome-lower.md)
+- [Mosshome Side Room (Bone_05b)](./bone-bottom/mosshome-side-room.md)
+- [Mosshome Druid (Mosstown_02c)](./bone-bottom/mosshome-druid.md)
+- [Mosshome Spool (Bone_11b)](./bone-bottom/mosshome-spool.md)
+- [Mosshome Basement (Bone_01b)](./bone-bottom/mosshome-basement.md)
+- [The Big Fall (Aspid_01)](./bone-bottom/the-big-fall.md)
 
 ## The Marrow
 
-- [The Marrow Entrance](./the-marrow/the-marrow-entrance.md)
-- [The Marrow Falling Rocks](./the-marrow/the-marrow-falling-rocks.md)
-- [The Marrow Bell Bench](./the-marrow/the-marrow-bell-bench.md)
-- [The Marrow Lava Intro](./the-marrow/the-marrow-lava-intro.md)
-- [The Marrow Shaft](./the-marrow/the-marrow-shaft.md)
-- [The Marrow Vertical Shaft Side Room](./the-marrow/the-marrow-vertical-shaft-side-room.md)
-- [The Marrow Flea Caravan](./the-marrow/the-marrow-flea-caravan.md)
-- [The Marrow Shakra Intro](./the-marrow/the-marrow-shakra-intro.md)
-- [The Marrow Bellway](./the-marrow/the-marrow-bellway.md)
-- [The Marrow Grand Gate Bell](./the-marrow/the-marrow-grand-gate-bell.md)
-- [The Marrow Skull Wall](./the-marrow/the-marrow-skull-wall.md)
-- [The Marrow Skull Wall Side Room](./the-marrow/the-marrow-skull-wall-side-room.md)
-- [The Marrow Mr Burns House](./the-marrow/the-marrow-mr-burns-house.md)
-- [The Marrow Lower Pogo](./the-marrow/the-marrow-lower-pogo.md)
-- [The Marrow Upper Pogo](./the-marrow/the-marrow-upper-pogo.md)
-- [The Marrow Jail Pathway](./the-marrow/the-marrow-jail-pathway.md)
-- [The Marrow Jail](./the-marrow/the-marrow-jail.md)
-- [The Marrow Lava Docks](./the-marrow/the-marrow-lava-docks.md)
-- [The Marrow Skull Tyrant Arena](./the-marrow/the-marrow-skull-tyrant-arena.md)
+- [The Marrow Entrance (Bone_01)](./the-marrow/the-marrow-entrance.md)
+- [The Marrow Bell Bench (Bone_01c)](./the-marrow/the-marrow-bell-bench.md)
+- [The Marrow Lava Intro (Bone_02)](./the-marrow/the-marrow-lava-intro.md)
+- [The Marrow Lava Track (Bone_16)](./the-marrow/the-marrow-lava-track.md)
+- [The Marrow Flea Caravan (Bone_10)](./the-marrow/the-marrow-flea-caravan.md)
+- [The Marrow Shaft (Bone_03)](./the-marrow/the-marrow-shaft.md)
+- [The Marrow Shaft Side Room (Bone_17)](./the-marrow/the-marrow-shaft-side-room.md)
+- [The Marrow Shakra Intro (Bone_04)](./the-marrow/the-marrow-shakra-intro.md)
+- [The Marrow Bellway (Bone_05)](./the-marrow/the-marrow-bellway.md)
+- [The Marrow Bellshrine](./the-marrow/the-marrow-bellshrine.md)
+- [The Marrow Skull Wall (Bone_06)](./the-marrow/the-marrow-skull-wall.md)
+- [The Marrow Skull Wall Side Room (Bone_18)](./the-marrow/the-marrow-skull-wall-side-room.md)
+- [The Marrow Mr Burns House (Bone_14)](./the-marrow/the-marrow-mr-burns-house.md)
+- [The Marrow Lower Pogo (Bone_07)](./the-marrow/the-marrow-lower-pogo.md)
+- [The Marrow Upper Pogo (Bone_19)](./the-marrow/the-marrow-upper-pogo.md)
+- [The Marrow Jail Pathway (Bone_08)](./the-marrow/the-marrow-jail-pathway.md)
+- [The Marrow Jail (Bone_12)](./the-marrow/the-marrow-jail.md)
+- [The Marrow Lava Docks (Bone_09)](./the-marrow/the-marrow-lava-docks.md)
+- [The Marrow Skull Tyrant Arena (Bone_15)](./the-marrow/the-marrow-skull-tyrant-arena.md)
 
 ## Weavenest Atla
 
-- [Weavenest Atla Entrance](./weavenest-atla/weavenest-atla-entrance.md)
-- [Weavenest Atla Teleporter](./weavenest-atla/weavenest-atla-teleporter.md)
-- [Weavenest Atla Power](./weavenest-atla/weavenest-atla-power.md)
-- [Weavenest Atla Hallway](./weavenest-atla/weavenest-atla-hallway.md)
-- [Weavenest Atla Lore](./weavenest-atla/weavenest-atla-lore.md)
-- [Weavenest Atla Mask Shard](./weavenest-atla/weavenest-atla-mask-shard.md)
-- [Weavenest Atla Eva](./weavenest-atla/weavenest-atla-eva.md)
-- [Weavenest Atla Spool](./weavenest-atla/weavenest-atla-spool.md)
-- [Weavenest Atla Snare](./weavenest-atla/weavenest-atla-snare.md)
-- [Weavenest Atla Bench](./weavenest-atla/weavenest-atla-bench.md)
-- [Weavenest Atla Grotto](./weavenest-atla/weavenest-atla-grotto.md)
+- [Weavenest Atla Entrance (Weave_04)](./weavenest-atla/weavenest-atla-entrance.md)
+- [Weavenest Atla Teleporter (Weave_02)](./weavenest-atla/weavenest-atla-teleporter.md)
+- [Weavenest Atla Power (Weave_12)](./weavenest-atla/weavenest-atla-power.md)
+- [Weavenest Atla Eva (Weave_10)](./weavenest-atla/weavenest-atla-eva.md)
+- [Weavenest Atla Bench (Weave_07)](./weavenest-atla/weavenest-atla-bench.md)
+- [Weavenest Atla Grotto (Weave_03)](./weavenest-atla/weavenest-atla-grotto.md)
+- [Weavenest Atla Hallway (Weave_13)](./weavenest-atla/weavenest-atla-hallway.md)
+- [Weavenest Atla Lore (Weave_08)](./weavenest-atla/weavenest-atla-lore.md)
+- [Weavenest Atla Mask Shard (Weave_05b)](./weavenest-atla/weavenest-atla-mask-shard.md)
+- [Weavenest Atla Snare (Weave_14)](./weavenest-atla/weavenest-atla-snare.md)
+- [Weavenest Atla Spool (Weave_11)](./weavenest-atla/weavenest-atla-spool.md)
 
 ## Wormways
 
-- [Wormways Craggler Hallway](./wormways/wormways-craggler-hallway.md)
-- [Wormways Shaft](./wormways/wormways-shaft.md)
-- [Wormways Middle](./wormways/wormways-middle.md)
-- [Wormways Upper West](./wormways/wormways-upper-west.md)
-- [Wormways Flea Rescue](./wormways/wormways-flea-rescue.md)
-- [Wormways Laboratory](./wormways/wormways-laboratory.md)
-- [Wormways Upper East](./wormways/wormways-upper-east.md)
+- [Wormways Craggler Hallway (Crawl_04)](./wormways/wormways-craggler-hallway.md)
+- [Wormways Shaft (Crawl_02)](./wormways/wormways-shaft.md)
+- [Wormways Flea Rescue (Crawl_06)](./wormways/wormways-flea-rescue.md)
+- [Wormways Middle (Crawl_03b)](./wormways/wormways-middle.md)
+- [Wormways Upper West (Crawl_03)](./wormways/wormways-upper-west.md)
+- [Wormways Upper East (Crawl_01)](./wormways/wormways-upper-east.md)
+- [Wormways Laboratory (Crawl_08)](./wormways/wormways-laboratory.md)
+- [Wormways Lower East (Crawl_07)](./wormways/wormways-lower-east.md)
+- [Wormways Lower West (Crawl_09)](./wormways/wormways-lower-west.md)
 - [Wormways Weavenest](./wormways/wormways-weavenest.md)
-- [Wormways Lower East](./wormways/wormways-lower-east.md)
-- [Wormways Lower West](./wormways/wormways-lower-west.md)
-- [Wormways Zango Arena](./wormways/wormways-zango-arena.md)
+- [Wormways Zango Arena (Crawl_10)](./wormways/wormways-zango-arena.md)
+
+## Deep Docks
+
+No rooms defined.
+
+## Far Fields
+
+No rooms defined.
+
+## Hunter's March
+
+No rooms defined.
+
+## The Abyss
+
+No rooms defined.
+
+## Shellwood
+
+No rooms defined.
+
+## Bellhart
+
+No rooms defined.
+
+## Greymoor
+
+No rooms defined.
+
+## Verdania
+
+No rooms defined.
+
+## Blasted Steps
+
+No rooms defined.
+
+## Sinner's Road
+
+No rooms defined.
+
+## Underworks
+
+No rooms defined.
+
+## Bilewater
+
+No rooms defined.
+
+## Sands of Karak
+
+No rooms defined.
+
+## The Slab
+
+No rooms defined.
+
+## Mount Fay
+
+No rooms defined.
+
+## Putrified Ducts
+
+No rooms defined.
+
+## The Cradle
+
+- [Test room](./the-cradle/test-room.md)
+
+## Fast Travel
+
+- [Bellway Menu](./fast-travel/bellway-menu.md)
+- [Ventrica Menu](./fast-travel/ventrica-menu.md)

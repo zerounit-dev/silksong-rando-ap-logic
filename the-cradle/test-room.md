@@ -1,14 +1,15 @@
-# Wormways Weavenest
+# Test room
 
 ## Subrooms
 
-No subrooms defined.
+- testing
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| WD | weaver door |  | [Wormways Upper West (Crawl_03)](wormways-upper-west.md) | WD | needolin |  |
+| T | testing |  | TODO |  |  |  |
+| ? | testing |  | TODO |  |  |  |
 
 ## Subroom Connections
 
@@ -16,6 +17,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | Notes |
-| --- | --- | --- | --- |
-| sharpdart |  | none |  |
+No check locations defined.
+
+## Notes
+
+this is a **test** page

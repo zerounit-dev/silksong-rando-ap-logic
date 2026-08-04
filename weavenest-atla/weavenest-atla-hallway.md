@@ -1,8 +1,20 @@
-# Weavenest Atla Hallway
+# Weavenest Atla Hallway (Weave_13)
+
+## Subrooms
+
+No subrooms defined.
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left |  | [weavenest atla teleporter](./weavenest-atla-teleporter.md)-MR | none |
-| R | right |  | [weavenest atla lore](./weavenest-atla-lore.md) -L | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | MR | none |  |
+| R | right |  | [Weavenest Atla Lore (Weave_08)](weavenest-atla-lore.md) | L | none |  |
+
+## Subroom Connections
+
+No subroom connections defined.
+
+## Check Locations
+
+No check locations defined.

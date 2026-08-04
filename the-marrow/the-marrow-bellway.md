@@ -1,4 +1,4 @@
-# The Marrow Bellway
+# The Marrow Bellway (Bone_05)
 
 ## Subrooms
 
@@ -8,15 +8,15 @@
 
 ## Room Transitions
 
-| alias | name | from subroom | destination | requirements |
-| --- | --- | --- | --- | --- |
-| L | left | left area | [mosshome middle](../bone-bottom/mosshome-middle.md) -LR | none |
-| F | floor | left area | [the marrow shakra intro](./the-marrow-shakra-intro.md) -C | none |
-| R | right | right area | [the marrow grand gate bell](./the-marrow-grand-gate-bell.md) -L | none |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| L | left | left area | [Mosshome Middle (Mosstown_01)](../bone-bottom/mosshome-middle.md) | LR | none |  |
+| F | floor | left area | [The Marrow Shakra Intro (Bone_04)](the-marrow-shakra-intro.md) | C | none |  |
+| R | right | right area | [The Marrow Bellshrine](the-marrow-bellshrine.md) | L | none |  |
 
 ## Subroom Connections
 
-| alias | name | source | destination | requirements | notes |
+| Alias | Name | Source | Destination | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- |
 | LB | left boss fight | left area | boss room | none |  |
 | LB | left boss fight | boss room | left area | none | boss fight doesn't start automatically so can leave any time |
@@ -25,7 +25,7 @@
 
 ## Check Locations
 
-| check | subroom | requirements | notes |
+| Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
 | bell beast boss fight | boss room | silk spear | sharpdart doesn't work |
 | silk heart bell beast | boss room | bell beast defeated |  |
