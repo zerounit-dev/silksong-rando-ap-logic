@@ -1,4 +1,4 @@
-# The Marrow Bellshrine (Bellshrine)
+# Deep Docks Bellway Flea Rescue (Dock_16)
 
 ## Subrooms
 
@@ -8,8 +8,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [The Marrow Bellway (Bone_05)](the-marrow-bellway.md) | R | none |  |
-| R | right |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | UL | bell must be rung |  |
+| R | right1 |  | [Deep Docks Bellway (Bellway_02)](deep-docks-bellway.md) | L | none | Needs verification |
 
 ## Subroom Connections
 
@@ -19,4 +18,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| ring bell switch |  |  | this opens the right exit |
+| flea rescue |  |  | Needs verification |

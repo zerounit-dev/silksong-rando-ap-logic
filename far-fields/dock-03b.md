@@ -1,4 +1,4 @@
-# The Marrow Bellshrine (Bellshrine)
+# Dock_03b (Dock_03b)
 
 ## Subrooms
 
@@ -8,8 +8,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [The Marrow Bellway (Bone_05)](the-marrow-bellway.md) | R | none |  |
-| R | right |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | UL | bell must be rung |  |
+| L | left1 |  | [Deep Docks Chains Upper East (Dock_03)](../deep-docks/deep-docks-chains-upper-east.md) | R |  | Needs verification |
+| R | right1 |  | TODO |  |  | Needs verification |
 
 ## Subroom Connections
 
@@ -19,4 +19,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| ring bell switch |  |  | this opens the right exit |
+| warding bell |  | none | Needs verification |

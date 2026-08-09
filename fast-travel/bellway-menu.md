@@ -10,7 +10,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | BB | bone bottom |  | [Bone Bottom Bellway (Bellway_01)](../bone-bottom/bone-bottom-bellway.md) | BB |  | TODO |
 | TM | the marrow |  | TODO |  |  | TODO |
-| DD | deep docks |  | TODO |  |  | TODO |
+| DD | deep docks |  | [Deep Docks Bellway (Bellway_02)](../deep-docks/deep-docks-bellway.md) | BB |  | TODO |
 | FF | far fields |  | TODO |  |  | TODO |
 | GM | greymoor |  | TODO |  |  | TODO |
 | BH | bellhart |  | TODO |  |  | TODO |

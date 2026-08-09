@@ -32,3 +32,5 @@
 ## Notes
 
 ROOM BUG: fighting moss mother without breaking the vines on the right side of the arena (by approaching from the left), you get locked into the arena with darkness still covering the area.
+
+Ascend rope AND the ceiling are valid exits - but I believe they take you to the same bot1 exit on the other side.

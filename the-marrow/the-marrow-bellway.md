@@ -12,7 +12,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | L | left | left area | [Mosshome Middle (Mosstown_01)](../bone-bottom/mosshome-middle.md) | LR | none |  |
 | F | floor | left area | [The Marrow Shakra Intro (Bone_04)](the-marrow-shakra-intro.md) | C | none |  |
-| R | right | right area | [The Marrow Bellshrine](the-marrow-bellshrine.md) | L | none |  |
+| R | right | right area | [The Marrow Bellshrine (Bellshrine)](the-marrow-bellshrine.md) | L | none |  |
 
 ## Subroom Connections
 

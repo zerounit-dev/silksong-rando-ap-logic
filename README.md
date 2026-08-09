@@ -34,7 +34,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [The Marrow Shaft Side Room (Bone_17)](./the-marrow/the-marrow-shaft-side-room.md)
 - [The Marrow Shakra Intro (Bone_04)](./the-marrow/the-marrow-shakra-intro.md)
 - [The Marrow Bellway (Bone_05)](./the-marrow/the-marrow-bellway.md)
-- [The Marrow Bellshrine](./the-marrow/the-marrow-bellshrine.md)
+- [The Marrow Bellshrine (Bellshrine)](./the-marrow/the-marrow-bellshrine.md)
 - [The Marrow Skull Wall (Bone_06)](./the-marrow/the-marrow-skull-wall.md)
 - [The Marrow Skull Wall Side Room (Bone_18)](./the-marrow/the-marrow-skull-wall-side-room.md)
 - [The Marrow Mr Burns House (Bone_14)](./the-marrow/the-marrow-mr-burns-house.md)
@@ -70,20 +70,51 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Wormways Laboratory (Crawl_08)](./wormways/wormways-laboratory.md)
 - [Wormways Lower East (Crawl_07)](./wormways/wormways-lower-east.md)
 - [Wormways Lower West (Crawl_09)](./wormways/wormways-lower-west.md)
-- [Wormways Weavenest](./wormways/wormways-weavenest.md)
+- [Wormways Weavenest (Crawl_05)](./wormways/wormways-weavenest.md)
 - [Wormways Zango Arena (Crawl_10)](./wormways/wormways-zango-arena.md)
 
 ## Deep Docks
 
-No rooms defined.
+- [Deep Docks Entrance (Dock_08)](./deep-docks/deep-docks-entrance.md)
+- [Deep Docks Sauna (Dock_10)](./deep-docks/deep-docks-sauna.md)
+- [Deep Docks Bench Shaft (Dock_01)](./deep-docks/deep-docks-bench-shaft.md)
+- [Deep Docks Map Shop (Bone_East_01)](./deep-docks/deep-docks-map-shop.md)
+- [Deep Docks Map Shop Side Room (Dock_05)](./deep-docks/deep-docks-map-shop-side-room.md)
+- [Deep Docks Bellway (Bellway_02)](./deep-docks/deep-docks-bellway.md)
+- [Deep Docks Bellway Flea Rescue (Dock_16)](./deep-docks/deep-docks-bellway-flea-rescue.md)
+- [Deep Docks Lace Intro (Bone_East_12)](./deep-docks/deep-docks-lace-intro.md)
+- [Deep Docks Bellshrine (Bellshrine_05)](./deep-docks/deep-docks-bellshrine.md)
+- [Deep Docks Spire Lower (Bone_East_03)](./deep-docks/deep-docks-spire-lower.md)
+- [Is this still Deep Docks? (East) (Bone_East_04)](./deep-docks/is-this-still-deep-docks-east.md)
+- [Is this still Deep Docks? (West) (Bone_East_04b)](./deep-docks/is-this-still-deep-docks-west.md)
+- ["Deep Docks" March Side Room (Bone_East_04c)](./deep-docks/deep-docks-march-side-room.md)
+- [Deep Docks Upper Spire (Bone_East_05)](./deep-docks/deep-docks-upper-spire.md)
+- [Deep Docks Forge (Room_Forge)](./deep-docks/deep-docks-forge.md)
+- [Deep Docks Lower West Shaft (Dock_04)](./deep-docks/deep-docks-lower-west-shaft.md)
+- [Deep Docks Spool East (Bone_East_13)](./deep-docks/deep-docks-spool-east.md)
+- [Deep Docks Church (Dock_06_Church)](./deep-docks/deep-docks-church.md)
+- [Deep Docks Chains Flow West (Dock_02)](./deep-docks/deep-docks-chains-flow-west.md)
+- [Deep Docks Flea Rescue East (Dock_03d)](./deep-docks/deep-docks-flea-rescue-east.md)
+- [Deep Docks Chains Center (Dock_02b)](./deep-docks/deep-docks-chains-center.md)
+- [Deep Docks Chains Upper East (Dock_03)](./deep-docks/deep-docks-chains-upper-east.md)
+- [Deep Docks Chains Lower East (Dock_03c)](./deep-docks/deep-docks-chains-lower-east.md)
+- [Deep Docks Forebrothers (Dock_09)](./deep-docks/deep-docks-forebrothers.md)
+- [Deep Docks Lower East Shaft (Dock_15)](./deep-docks/deep-docks-lower-east-shaft.md)
+- [Deep Docks Memory Hole (Dock_13)](./deep-docks/deep-docks-memory-hole.md)
+- [Deep Docks Silkeater Room (Dock_14)](./deep-docks/deep-docks-silkeater-room.md)
+- [Deep Docks Magma Slug Tunnels (Dock_11)](./deep-docks/deep-docks-magma-slug-tunnels.md)
+- [Deep Docks Diving Bell (Dock_12)](./deep-docks/deep-docks-diving-bell.md)
 
 ## Far Fields
 
-No rooms defined.
+- [Far Fields Entrance (Bone_East_02)](./far-fields/far-fields-entrance.md)
+- [Far Fields Dock Loopback (Bone_East_15)](./far-fields/far-fields-dock-loopback.md)
+- [Dock_03b (Dock_03b)](./far-fields/dock-03b.md)
+- [Weavenest Cindril Entrance (Bone_East_Weavehome)](./far-fields/weavenest-cindril-entrance.md)
 
 ## Hunter's March
 
-No rooms defined.
+- [Hunter's March Deep Dock Passage (Ant_05b)](./hunter-s-march/hunter-s-march-deep-dock-passage.md)
 
 ## The Abyss
 
@@ -139,9 +170,10 @@ No rooms defined.
 
 ## The Cradle
 
-- [Test room](./the-cradle/test-room.md)
+No rooms defined.
 
 ## Fast Travel
 
+- [Test room](./fast-travel/test-room.md)
 - [Bellway Menu](./fast-travel/bellway-menu.md)
 - [Ventrica Menu](./fast-travel/ventrica-menu.md)

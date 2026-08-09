@@ -19,12 +19,29 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | C | ceiling | top area | blasted bridge | F | silk soar |  |
 | UR | upper right | upper right ledge | shellwood grand gate bell | L | none |  |
-| MR | middle right | middle right ledge | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | L | breakable wall -must be opened from the other side (NEEDS VERIFICATION) | Needs verification |
+| MR | middle right | middle right ledge | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | L | breakable wall -must be opened from the other side (NEEDS VERIFICATION) | NEEDS VERIFICATION; TODO; Needs verification |
 | LR | lower right | lower right area | [Mosshome Lower (Bone_11)](mosshome-lower.md) | L | none |  |
 | UL | upper left | upper left ledge | [Wormways Upper East (Crawl_01)](../wormways/wormways-upper-east.md) | R | none |  |
 | LL | lower left | lower left area | [Wormways Craggler Hallway (Crawl_04)](../wormways/wormways-craggler-hallway.md) | R | none |  |
 | LF | left floor | bottom area | [Bone Bottom (Bonetown)](bone-bottom.md) | LC | none |  |
 | RF | right floor | lower right area | [Bone Bottom (Bonetown)](bone-bottom.md) | RC | none |  |
+|  | bot5 |  | [Bone Bottom (Bonetown)](bone-bottom.md) |  |  | Needs verification |
+|  | top1 |  | TODO |  |  | Needs verification |
+|  | right3 |  | TODO |  |  | Needs verification |
+|  | bot3 |  | [Bone Bottom (Bonetown)](bone-bottom.md) |  |  | Needs verification |
+|  | left2 |  | TODO |  |  | Needs verification |
+|  | top4 |  | TODO |  |  | Needs verification |
+|  | top3 |  | TODO |  |  | Needs verification |
+|  | right2 |  | TODO |  |  | Needs verification |
+|  | top5 |  | TODO |  |  | Needs verification |
+|  | bot4 |  | [Bone Bottom (Bonetown)](bone-bottom.md) |  |  | Needs verification |
+|  | top6 |  | TODO |  |  | Needs verification |
+|  | bot2 |  | [Bone Bottom (Bonetown)](bone-bottom.md) |  |  | Needs verification |
+|  | right4 |  | TODO |  |  | Needs verification |
+|  | left1 |  | TODO |  |  | Needs verification |
+|  | top2 |  | TODO |  |  | Needs verification |
+|  | bot1 |  | [Bone Bottom (Bonetown)](bone-bottom.md) |  |  | Needs verification |
+|  | top7 |  | TODO |  |  | Needs verification |
 
 ## Subroom Connections
 
@@ -44,7 +61,7 @@
 | S3 | upper zone silk soar | upper silk soar only zone | top area | silk soar |  |
 | LC | lower crossing | lower left area | lower right area | easy skips enabled OR silk soar OR horizontal movement tech OR dash OR run OR cling grip OR faydown cloak OR silk soar |  |
 | LC | lower crossing | lower right area | lower left area | easy skips enabled OR silk soar OR horizontal movement tech OR dash OR run OR cling grip OR faydown cloak |  |
-| WC | wish climb | wish ledge | upper left ledge | silk soar OR cling grip |  |
+| WC | wish climb | wish ledge | upper left ledge | silk soar OR cling grip | can't be collected unless the wish has been started from bellhart |
 | UC | upper crossing | upper left ledge | upper right ledge | silk soar OR cling grip OR faydown cloak OR clawline OR sharpdart OR dash |  |
 | UC | upper crossing | upper right ledge | upper left ledge | silk soar OR cling grip OR faydown cloak OR clawline OR sharpdart OR dash |  |
 

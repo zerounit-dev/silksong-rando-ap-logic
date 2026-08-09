@@ -8,7 +8,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | ML | none | Imported destination text: weavenest atla teleporter - ML |
+| R | right |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | ML | none |  |
 | C | ceiling |  | [Weavenest Atla Snare (Weave_14)](weavenest-atla-snare.md) | F | silk soar OR ( faydown cloak + cling grip ) |  |
 
 ## Subroom Connections

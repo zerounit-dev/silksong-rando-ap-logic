@@ -1,0 +1,34 @@
+# Hunter's March Deep Dock Passage (Ant_05b)
+
+## Subrooms
+
+- before gate
+- right of gauntlet
+- gauntlet
+- left of gauntlet
+
+## Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | before gate | TODO |  |  | Needs verification |
+| LF | bot1 | left of gauntlet | [Is this still Deep Docks? (West) (Bone_East_04b)](../deep-docks/is-this-still-deep-docks-west.md) | C |  | Needs verification |
+| RF | bot2 | right of gauntlet | [Is this still Deep Docks? (East) (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | C |  | Needs verification |
+
+## Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | Notes |
+| --- | --- | --- | --- | --- | --- |
+| BG | bone gate | before gate | right of gauntlet | none (switch is on this side) | Needs verification |
+| BG | bone gate | right of gauntlet | before gate | switched flipped | Needs verification |
+| RG | right gauntlet | right of gauntlet | gauntlet | none (starts gauntlet) | Needs verification |
+| RG | right gauntlet | gauntlet | right of gauntlet | defeat gauntlet | Needs verification |
+| LG | left gauntlet | left of gauntlet | gauntlet | none (starts gauntlet) | Needs verification |
+| LG | left gauntlet | gauntlet | left of gauntlet | defeat gauntlet | Needs verification |
+
+## Check Locations
+
+| Check | Subroom | Requirements | Notes |
+| --- | --- | --- | --- |
+| bone switch | before gate | none | Needs verification; Not included in Archipelago world |
+| gauntlet fight | gauntlet | none | Needs verification; Not included in Archipelago world |

@@ -11,8 +11,8 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | C | ceiling | main area | [The Marrow Jail Pathway (Bone_08)](the-marrow-jail-pathway.md) | F | none |  |
 | L | left | main area | [The Marrow Lava Track (Bone_16)](the-marrow-lava-track.md) | R | none |  |
-| LR | lower right | main area | TODO |  |  |  |
-| UR | upper right | elevated platforms | TODO |  |  |  |
+| LR | lower right | main area | [Deep Docks Entrance (Dock_08)](../deep-docks/deep-docks-entrance.md) | LL | none |  |
+| UR | upper right | elevated platforms | [Deep Docks Entrance (Dock_08)](../deep-docks/deep-docks-entrance.md) | UL | none |  |
 
 ## Subroom Connections
 

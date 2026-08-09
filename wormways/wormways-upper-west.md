@@ -13,7 +13,7 @@
 | F | floor | main area | [Wormways Middle (Crawl_03b)](wormways-middle.md) | C |  |  |
 | R | right | main area | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | UL |  |  |
 | C | ceiling | main area | [Wormways Laboratory (Crawl_08)](wormways-laboratory.md) | F | silk soar OR cling grip |  |
-| WD | weaver door | weavenest landing | [Wormways Weavenest](wormways-weavenest.md) | WD | needolin |  |
+| WD | weaver door | weavenest landing | [Wormways Weavenest (Crawl_05)](wormways-weavenest.md) | WD | needolin |  |
 
 ## Subroom Connections
 

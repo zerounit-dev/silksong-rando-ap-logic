@@ -1,4 +1,4 @@
-# Bonegrave Passage
+# Deep Docks Map Shop Side Room (Dock_05)
 
 ## Subrooms
 
@@ -8,7 +8,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [Bonegrave (Bonegrave)](bonegrave.md) | LL | steel soul |  |
+| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR |  | Needs verification |
 
 ## Subroom Connections
 
@@ -16,6 +16,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | Notes |
-| --- | --- | --- | --- |
-| summoned savior boss fight |  | TODO (steel soul only?) | TODO |
+No check locations defined.
+
+## Notes
+
+nothing to see here - just murder sleeping dudes

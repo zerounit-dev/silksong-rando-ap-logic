@@ -11,7 +11,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | LF | left floor | main area | [Mosshome Middle (Mosstown_01)](mosshome-middle.md) | C | none |  |
-| L | left | main area | [The Big Fall (Aspid_01)](the-big-fall.md) | MR | none |  |
+| L | left | main area | [The Big Fall (Aspid_01)](the-big-fall.md) | MR | break wall | wall can be broken from this side |
 | RF | right floor | bottom right area | [Mosshome Side Room (Bone_05b)](mosshome-side-room.md) | C | none |  |
 | R | right | bottom right area | [Mosshome Druid (Mosstown_02c)](mosshome-druid.md) | L | none |  |
 
@@ -32,3 +32,7 @@
 | frayed rosary string bone bottom silkspear passage | upper left area | none | seems to be misnamed in the apworld |
 | rosary cache mosshome 3 | main area | none |  |
 | rosary cache mosshome 4 | main area | none |  |
+
+## Notes
+
+known silk blockade breakers = silk spear, sharpdart, rune rage

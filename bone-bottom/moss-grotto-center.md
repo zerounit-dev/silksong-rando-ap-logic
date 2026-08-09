@@ -18,7 +18,7 @@
 | UL | upper left | upper crossing | [Ruined Chapel (Tut_03)](ruined-chapel.md) | R | break vines |  |
 | LR | lower right | lower crossing | [Moss Grotto East (Tut_01b)](moss-grotto-east.md) | LL | none |  |
 | UR | upper right | upper crossing | [Moss Grotto East (Tut_01b)](moss-grotto-east.md) | UL | none |  |
-| C | ceiling | up and away | [Bone Bottom (Bonetown)](bone-bottom.md) | F | has loading zone blocker until you first leave moss grotto | maybe see if removing this loading zone makes sense? |
+| C | ceiling | up and away | [Bone Bottom (Bonetown)](bone-bottom.md) | RF | has loading zone blocker until you first leave moss grotto | maybe see if removing this loading zone makes sense? |
 
 ## Subroom Connections
 
@@ -41,7 +41,7 @@
 | --- | --- | --- | --- |
 | frayed rosary string moss grotto | rock bottom | none |  |
 | shell shard cache moss grotto 1 | lower crossing | none |  |
-| moss grotto beast shard | rock bottom | none | NOT YET RANDOMIZED right at game start jump into right room and again into right into upper right room ; Not included in Archipelago world |
+| moss grotto beast shard | rock bottom | none | NOT YET RANDOMIZED  right at game start jump into right room and again into right into upper right room ; Not included in Archipelago world |
 | moss grotto rosary chest | side room | none | NOT YET RANDOMIZED; Not included in Archipelago world |
 
 ## Notes

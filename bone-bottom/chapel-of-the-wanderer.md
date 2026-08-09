@@ -8,7 +8,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| CD | chapel door |  | [Bonegrave (Bonegrave)](bonegrave.md) | CD | none | apworld may force open; Needs verification |
+| CD | chapel door |  | [Bonegrave (Bonegrave)](bonegrave.md) | CD | none | apworld may force open |
 
 ## Subroom Connections
 
@@ -18,7 +18,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | Notes |
 | --- | --- | --- | --- |
-| wanderer's crest |  | none | Needs verification |
+| wanderer's crest |  | none |  |
 | rosary cache bongrave 1 |  | none |  |
 | rosary cache bongrave 2 |  | none |  |
 | rosary cache bongrave 3 |  | none |  |
