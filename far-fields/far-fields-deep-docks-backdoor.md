@@ -1,4 +1,4 @@
-# The Marrow Mr Burns House (Bone_14)
+# Far Fields Deep Docks Backdoor (Dock_03b)
 
 ## Subrooms
 
@@ -8,8 +8,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | UR | none |  |  |  |
-| R | right |  | [The Marrow Lower Pogo (Bone_07)](the-marrow-lower-pogo.md) | L | none |  |  |  |
+| L | left1 |  | [Deep Docks Chains Upper East (Dock_03)](../deep-docks/deep-docks-chains-upper-east.md) | R |  |  |  |  |
+| R | right1 |  | TODO |  |  |  |  |  |
 
 ## Subroom Connections
 
@@ -19,6 +19,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache the marrow 10 |  | none |  |  | Included |  |
-| shell shard cache the marrow 5 |  |  |  |  | Included |  |
-| shell shard cache the marrow 6 |  |  |  |  | Included |  |
+| warding bell |  | none |  |  | Included |  |

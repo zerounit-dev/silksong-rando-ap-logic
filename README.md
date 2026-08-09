@@ -76,7 +76,6 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Deep Docks
 
 - [Deep Docks Entrance (Dock_08)](./deep-docks/deep-docks-entrance.md)
-- [Deep Docks Sauna (Dock_10)](./deep-docks/deep-docks-sauna.md)
 - [Deep Docks Bench Shaft (Dock_01)](./deep-docks/deep-docks-bench-shaft.md)
 - [Deep Docks Map Shop (Bone_East_01)](./deep-docks/deep-docks-map-shop.md)
 - [Deep Docks Map Shop Side Room (Dock_05)](./deep-docks/deep-docks-map-shop-side-room.md)
@@ -94,12 +93,13 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Deep Docks Spool East (Bone_East_13)](./deep-docks/deep-docks-spool-east.md)
 - [Deep Docks Church (Dock_06_Church)](./deep-docks/deep-docks-church.md)
 - [Deep Docks Chains Flow West (Dock_02)](./deep-docks/deep-docks-chains-flow-west.md)
-- [Deep Docks Flea Rescue East (Dock_03d)](./deep-docks/deep-docks-flea-rescue-east.md)
+- [Deep Docks Chains Flea Rescue (Dock_03d)](./deep-docks/deep-docks-chains-flea-rescue.md)
 - [Deep Docks Chains Center (Dock_02b)](./deep-docks/deep-docks-chains-center.md)
 - [Deep Docks Chains Upper East (Dock_03)](./deep-docks/deep-docks-chains-upper-east.md)
 - [Deep Docks Chains Lower East (Dock_03c)](./deep-docks/deep-docks-chains-lower-east.md)
 - [Deep Docks Forebrothers (Dock_09)](./deep-docks/deep-docks-forebrothers.md)
 - [Deep Docks Lower East Shaft (Dock_15)](./deep-docks/deep-docks-lower-east-shaft.md)
+- [Deep Docks Sauna (Dock_10)](./deep-docks/deep-docks-sauna.md)
 - [Deep Docks Memory Hole (Dock_13)](./deep-docks/deep-docks-memory-hole.md)
 - [Deep Docks Silkeater Room (Dock_14)](./deep-docks/deep-docks-silkeater-room.md)
 - [Deep Docks Magma Slug Tunnels (Dock_11)](./deep-docks/deep-docks-magma-slug-tunnels.md)
@@ -108,8 +108,8 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Far Fields
 
 - [Far Fields Entrance (Bone_East_02)](./far-fields/far-fields-entrance.md)
-- [Far Fields Dock Loopback (Bone_East_15)](./far-fields/far-fields-dock-loopback.md)
-- [Dock_03b (Dock_03b)](./far-fields/dock-03b.md)
+- [Far Fields Deep Docks Loopback (Bone_East_15)](./far-fields/far-fields-deep-docks-loopback.md)
+- [Far Fields Deep Docks Backdoor (Dock_03b)](./far-fields/far-fields-deep-docks-backdoor.md)
 - [Weavenest Cindril Entrance (Bone_East_Weavehome)](./far-fields/weavenest-cindril-entrance.md)
 
 ## Hunter's March

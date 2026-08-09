@@ -6,9 +6,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [Bonegrave (Bonegrave)](bonegrave.md) | LL | steel soul |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Bonegrave (Bonegrave)](bonegrave.md) | LL | steel soul |  |  |  |
 
 ## Subroom Connections
 
@@ -16,6 +16,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | Notes |
-| --- | --- | --- | --- |
-| summoned savior boss fight |  | TODO (steel soul only?) | TODO |
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| summoned savior boss fight |  | TODO (steel soul only?) | TODO |  | Included |  |

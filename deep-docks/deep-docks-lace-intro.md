@@ -9,26 +9,26 @@
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | left area | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | LR |  | Needs verification |
-| R | right1 | right area | [Deep Docks Bellshrine (Bellshrine_05)](deep-docks-bellshrine.md) | L |  | Needs verification |
-| F | bot1 | left area | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | C | airlock lever | Needs verification |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | left area | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | LR | none |  |  |  |
+| R | right1 | right area | [Deep Docks Bellshrine (Bellshrine_05)](deep-docks-bellshrine.md) | L | none |  |  |  |
+| F | bot1 | left area | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | C | airlock lever |  |  |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- |
-| SP | lever platform jump | left area | switch platform | run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR beast crest | Needs verification |
-| SP | lever platform jump | switch platform | left area | none (falling) | Needs verification |
-| BL | boss arena left | left area | boss arena | gate switch flipped | Needs verification |
-| BL | boss arena left | boss arena | left area | gate switch flipped AND defeat lace | Needs verification |
-| BR | boss arena right | boss arena | right area | defeat lace | Needs verification |
-| BR | boss arena right | right area | boss arena | none | NEEDS VERIFICATION; TODO; Needs verification |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SP | lever platform jump | left area | switch platform | run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR beast crest |  |  |  |
+| SP | lever platform jump | switch platform | left area | none (falling) |  |  |  |
+| BL | boss arena left | left area | boss arena | gate switch flipped |  |  |  |
+| BL | boss arena left | boss arena | left area | gate switch flipped AND defeat lace |  |  |  |
+| BR | boss arena right | boss arena | right area | defeat lace |  |  |  |
+| BR | boss arena right | right area | boss arena | none | TODO | Needs verification | NEEDS VERIFICATION |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | Notes |
-| --- | --- | --- | --- |
-| gate switch | switch platform | none | Needs verification; Not included in Archipelago world |
-| lace 1 boss fight | boss arena | none | Needs verification |
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| gate switch | switch platform | none |  |  | Not included |  |
+| lace 1 boss fight | boss arena | none |  |  | Included |  |

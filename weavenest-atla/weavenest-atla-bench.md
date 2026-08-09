@@ -6,10 +6,10 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | LL | none |  |
-| L | left |  | [Weavenest Atla Grotto (Weave_03)](weavenest-atla-grotto.md) | R | none |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | LL | none |  |  |  |
+| L | left |  | [Weavenest Atla Grotto (Weave_03)](weavenest-atla-grotto.md) | R | none |  |  |  |
 
 ## Subroom Connections
 

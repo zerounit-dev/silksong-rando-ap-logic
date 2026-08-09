@@ -6,9 +6,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR |  | Needs verification |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR | none |  | Needs verification |  |
 
 ## Subroom Connections
 

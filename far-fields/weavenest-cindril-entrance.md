@@ -7,20 +7,20 @@
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | entrance | TODO |  | needolin | Needs verification |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | entrance | TODO |  | needolin |  |  |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- |
-| RN | run | entrance | secret room | run AND silkspeed anklets AND yellow slot AND flea brew AND red slot AND can refill flea brew | need to check if there are platforming requirements; TODO; Needs verification |
-| RN | run | secret room | entrance | none | Needs verification |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RN | run | entrance | secret room | run AND silkspeed anklets AND yellow slot AND flea brew AND red slot AND can refill flea brew | TODO |  | need to check if there are platforming requirements |
+| RN | run | secret room | entrance | none |  |  |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | Notes |
-| --- | --- | --- | --- |
-| silkspeed anklets |  |  | Needs verification |
-| relic rune harp weavenest cindril |  |  | Needs verification |
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| silkspeed anklets |  |  |  |  | Included |  |
+| relic rune harp weavenest cindril |  |  |  |  | Included |  |

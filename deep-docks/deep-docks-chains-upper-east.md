@@ -9,28 +9,28 @@
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | upper left hallway | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | UR | none | TODO; Needs verification |
-| F | bot1 | behind ring gate | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | RC | none | TODO; Needs verification |
-| R | right1 | chain platforms | [Dock_03b (Dock_03b)](../far-fields/dock-03b.md) | L | none | TODO; Needs verification |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | upper left hallway | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | UR | none |  |  |  |
+| F | bot1 | behind ring gate | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | RC | none |  |  |  |
+| R | right1 | chain platforms | [Far Fields Deep Docks Backdoor (Dock_03b)](../far-fields/far-fields-deep-docks-backdoor.md) | L | none |  |  |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- |
-| DS | open door switch | upper left hallway | chain platforms | none (switch is on this side) | Needs verification |
-| DS | open door switch | chain platforms | upper left hallway | door opened from the other side | Needs verification |
-| BW | break wall | chain platforms | lower left chest room | break wall (from this side) | Needs verification |
-| BW | break wall | lower left chest room | chain platforms | wall broken | Needs verification |
-| RG | open ring gate | chain platforms | behind ring gate | clawline | Needs verification |
-| RG | open ring gate | behind ring gate | chain platforms | gate opened from the other side | Needs verification |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| DS | open door switch | upper left hallway | chain platforms | none (switch is on this side) |  |  |  |
+| DS | open door switch | chain platforms | upper left hallway | door opened from the other side |  |  |  |
+| BW | break wall | chain platforms | lower left chest room | break wall (from this side) |  |  |  |
+| BW | break wall | lower left chest room | chain platforms | wall broken |  |  |  |
+| RG | open ring gate | chain platforms | behind ring gate | clawline |  |  |  |
+| RG | open ring gate | behind ring gate | chain platforms | gate opened from the other side |  |  |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | Notes |
-| --- | --- | --- | --- |
-| craftmetal deep docks | lower left chest room | none | its freeeeee, right? :); Needs verification |
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| craftmetal deep docks | lower left chest room | none |  |  | Included | its freeeeee, right? :) |
 
 ## Notes
 

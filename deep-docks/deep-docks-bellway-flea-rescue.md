@@ -6,9 +6,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Deep Docks Bellway (Bellway_02)](deep-docks-bellway.md) | L | none | Needs verification |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Deep Docks Bellway (Bellway_02)](deep-docks-bellway.md) | L | none |  | Needs verification |  |
 
 ## Subroom Connections
 
@@ -16,6 +16,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | Notes |
-| --- | --- | --- | --- |
-| flea rescue |  |  | Needs verification |
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| flea rescue |  | none |  | Needs verification | Included |  |

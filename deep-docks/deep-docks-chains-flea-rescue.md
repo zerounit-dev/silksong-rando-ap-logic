@@ -1,4 +1,4 @@
-# "Deep Docks" March Side Room (Bone_East_04c)
+# Deep Docks Chains Flea Rescue (Dock_03d)
 
 ## Subrooms
 
@@ -8,7 +8,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Is this still Deep Docks? (East) (Bone_East_04)](is-this-still-deep-docks-east.md) | UR |  |  |  |  |
+| F | bot1 |  | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | LC | none |  |  |  |
 
 ## Subroom Connections
 
@@ -17,7 +17,3 @@ No subroom connections defined.
 ## Check Locations
 
 No check locations defined.
-
-## Notes
-
-just a camp? no enemies? did we find bush girl here at some point?
