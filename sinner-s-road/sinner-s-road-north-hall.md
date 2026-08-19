@@ -37,5 +37,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Sinner’s Road #6 |  |  |  |  | Included |  |
-| Shell Shard Cache: Sinner’s Road #7 |  |  |  |  | Included |  |
+| Shell Shard Cache: Sinner’s Road #6 | left area | swim |  |  | Included |  |
+| Shell Shard Cache: Sinner’s Road #7 | left area | swim |  |  | Included |  |
