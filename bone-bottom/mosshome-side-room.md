@@ -1,5 +1,7 @@
 # Mosshome Side Room (Bone_05b)
 
+**Game ID:** Bone_05b
+
 ## Subrooms
 
 No subrooms defined.

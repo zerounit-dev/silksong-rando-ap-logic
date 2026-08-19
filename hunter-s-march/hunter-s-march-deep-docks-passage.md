@@ -1,4 +1,6 @@
-# Hunter's March Deep Dock Passage (Ant_05b)
+# Hunter's March Deep Docks Passage (Ant_05b)
+
+**Game ID:** Ant_05b
 
 ## Subrooms
 
@@ -11,9 +13,9 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | before gate | TODO |  |  |  | Needs verification |  |
-| LF | bot1 | left of gauntlet | [Is this still Deep Docks? (West) (Bone_East_04b)](../deep-docks/is-this-still-deep-docks-west.md) | C |  |  | Needs verification |  |
-| RF | bot2 | right of gauntlet | [Is this still Deep Docks? (East) (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | C |  |  | Needs verification |  |
+| R | right1 | before gate | [Hunter's March Shaft (Ant_14)](hunter-s-march-shaft.md) | L4 | none |  | Needs verification |  |
+| LF | bot1 | left of gauntlet | [Is this still Deep Docks? (West) (Bone_East_04b)](../deep-docks/is-this-still-deep-docks-west.md) | C | none |  | Needs verification |  |
+| RF | bot2 | right of gauntlet | [Is this still Deep Docks? (East) (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | C | none |  | Needs verification |  |
 
 ## Subroom Connections
 

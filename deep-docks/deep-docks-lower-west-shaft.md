@@ -1,5 +1,7 @@
 # Deep Docks Lower West Shaft (Dock_04)
 
+**Game ID:** Dock_04
+
 ## Subrooms
 
 No subrooms defined.

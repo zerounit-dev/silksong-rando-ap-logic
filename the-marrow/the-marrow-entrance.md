@@ -1,5 +1,7 @@
 # The Marrow Entrance (Bone_01)
 
+**Game ID:** Bone_01
+
 ## Subrooms
 
 - before gauntlet
@@ -11,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LL | lower left | before gauntlet | [Bone Bottom (Bonetown)](../bone-bottom/bone-bottom.md) | LR | none |  |  |  |
+| LL | lower left | before gauntlet | [Bone Bottom Town (Bonetown)](../bone-bottom/bone-bottom-town.md) | LR | none |  |  |  |
 | LR | lower right | after gauntlet | [The Marrow Bell Bench (Bone_01c)](the-marrow-bell-bench.md) | LL | none |  |  |  |
 | UR | upper right | before gauntlet | [The Marrow Bell Bench (Bone_01c)](the-marrow-bell-bench.md) | UL | none (breakable wall) |  |  |  |
 | C | ceiling | ceiling exit | [The Marrow Shakra Intro (Bone_04)](the-marrow-shakra-intro.md) | F | none |  |  |  |

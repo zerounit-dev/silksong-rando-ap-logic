@@ -1,5 +1,7 @@
 # The Marrow Skull Wall Side Room (Bone_18)
 
+**Game ID:** Bone_18
+
 ## Subrooms
 
 - lower level

@@ -1,5 +1,7 @@
 # The Marrow Lava Track (Bone_16)
 
+**Game ID:** Bone_16
+
 ## Subrooms
 
 - left track
@@ -19,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LT | lava track | right track | left track | activate track |  |  |  |
-| LT | lava track | left track | right track | activate track |  |  |  |
+| LT | lava track | right track | left track | activate track OR ( clawline AND shaman crest ) |  |  |  |
+| LT | lava track | left track | right track | activate track OR ( clawline AND shaman crest ) |  |  |  |
 | CR | climb right | right track | right maze | cling grip OR silk soar |  |  |  |
 | CR | climb right | right maze | right track | none (falling) |  |  |  |
 | CL | climb left | right maze | left maze | cling grip OR faydown cloak |  |  |  |

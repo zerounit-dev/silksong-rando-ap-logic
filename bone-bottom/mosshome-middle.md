@@ -1,5 +1,7 @@
 # Mosshome Middle (Mosstown_01)
 
+**Game ID:** Mosstown_01
+
 ## Subrooms
 
 - main area

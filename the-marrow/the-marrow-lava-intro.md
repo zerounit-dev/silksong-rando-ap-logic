@@ -1,5 +1,7 @@
 # The Marrow Lava Intro (Bone_02)
 
+**Game ID:** Bone_02
+
 ## Subrooms
 
 No subrooms defined.

@@ -1,5 +1,7 @@
 # Deep Docks Chains Lower East (Dock_03c)
 
+**Game ID:** Dock_03c
+
 ## Subrooms
 
 - upper chains
@@ -24,7 +26,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SP | open spool door | spool fragment area | upper chains | open airlock door |  |  | one-way |
-| SP | open spool door | upper chains | spool fragment area | ??? | TODO | Needs verification | NEED SOMEONE BETTER THAN ME TO FIGURE OUT THE COMBINATIONS |
+| SP | open spool door | upper chains | spool fragment area | can pogo  AND cling grip  AND ( clawline OR ( dash AND ( run OR sharpdart OR drifter's cloak ) ) ) |  | Needs verification | run or sharpdart or drifter's cloak  or clawline to get to the initial wall to cling grip. clawline or dash to get to pogo area. then free. |
 | C1 | upper to middle chains | middle chains | upper chains | run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR silk soar OR clawline OR sharpdart |  |  |  |
 | C1 | upper to middle chains | upper chains | middle chains | none (falling) |  |  |  |
 | C2 | lower to middle chains | lower chains | middle chains | silk soar OR cling grip OR faydown cloak |  |  |  |

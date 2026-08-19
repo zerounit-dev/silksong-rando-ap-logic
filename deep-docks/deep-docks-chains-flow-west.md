@@ -1,5 +1,7 @@
 # Deep Docks Chains Flow West (Dock_02)
 
+**Game ID:** Dock_02
+
 ## Subrooms
 
 - main area
@@ -32,6 +34,8 @@
 | shard bundle deep docks 1 | main area | none |  |  | Included | MARKED AS ??? ON TRACKER can fall and grab the ledge to this one |
 | shell shard cache deep docks 5 | main area | none |  |  | Included | MARKED AS ??? ON TRACKER |
 | flintstone journal collection point | main area | none |  |  | Not included |  |
+| rosary cache deep docks 1 | main area | none |  |  | Included | MARKED AS ??? ON TRACKER |
+| rosary cache deep docks 2 | main area | none |  |  | Included | MARKED AS ??? ON TRACKER |
 
 ## Notes
 

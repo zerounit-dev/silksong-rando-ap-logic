@@ -1,5 +1,7 @@
 # Mosshome Basement (Bone_01b)
 
+**Game ID:** Bone_01b
+
 ## Subrooms
 
 No subrooms defined.
@@ -8,7 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LL | lower left |  | [Bone Bottom (Bonetown)](bone-bottom.md) | UR | none |  |  |  |
+| LL | lower left |  | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | UR | none |  |  |  |
 | UL | upper left |  | [Mosshome Spool (Bone_11b)](mosshome-spool.md) | R | none |  |  | Imported destination text: mosshome spool fragment |
 
 ## Subroom Connections

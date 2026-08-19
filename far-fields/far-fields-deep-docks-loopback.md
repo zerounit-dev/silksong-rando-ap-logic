@@ -1,5 +1,7 @@
 # Far Fields Deep Docks Loopback (Bone_East_15)
 
+**Game ID:** Bone_East_15
+
 ## Subrooms
 
 - spike exit
@@ -11,9 +13,9 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | bell bench | [Is this still Deep Docks? (East) (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | LR |  |  |  |  |
-| F | bot1 | ground | [Far Fields Entrance (Bone_East_02)](far-fields-entrance.md) | C |  |  |  |  |
-| R | right1 | spike exit | TODO |  |  |  |  |  |
+| L | left1 | bell bench | [Is this still Deep Docks? (East) (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | LR | none |  |  |  |
+| F | bot1 | ground | [Far Fields Entrance East (Bone_East_02)](far-fields-entrance-east.md) | C | none |  |  |  |
+| R | right1 | spike exit | [Far Fields Fort Upper Passage (Bone_East_17)](far-fields-fort-upper-passage.md) | L | none |  |  |  |
 
 ## Subroom Connections
 

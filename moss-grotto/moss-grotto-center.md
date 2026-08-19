@@ -1,5 +1,7 @@
 # Moss Grotto Center (Tut_01)
 
+**Game ID:** Tut_01
+
 ## Subrooms
 
 - rock bottom
@@ -18,7 +20,7 @@
 | UL | upper left | upper crossing | [Ruined Chapel (Tut_03)](ruined-chapel.md) | R | break vines |  |  |  |
 | LR | lower right | lower crossing | [Moss Grotto East (Tut_01b)](moss-grotto-east.md) | LL | none |  |  |  |
 | UR | upper right | upper crossing | [Moss Grotto East (Tut_01b)](moss-grotto-east.md) | UL | none |  |  |  |
-| C | ceiling | up and away | [Bone Bottom (Bonetown)](bone-bottom.md) | RF | has loading zone blocker until you first leave moss grotto |  |  | maybe see if removing this loading zone makes sense? |
+| C | ceiling | up and away | [Bone Bottom Town (Bonetown)](../bone-bottom/bone-bottom-town.md) | RF | has loading zone blocker until you first leave moss grotto |  |  | maybe see if removing this loading zone makes sense? |
 
 ## Subroom Connections
 

@@ -1,5 +1,7 @@
 # Deep Docks Sauna (Dock_10)
 
+**Game ID:** Dock_10
+
 ## Subrooms
 
 No subrooms defined.

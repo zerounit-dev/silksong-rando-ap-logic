@@ -1,5 +1,7 @@
 # Ruined Chapel (Tut_03)
 
+**Game ID:** Tut_03
+
 ## Subrooms
 
 - chapel
@@ -11,7 +13,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right | bench room | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | UL | none |  |  |  |
-| AR | ascend rope | chapel | [Bone Bottom (Bonetown)](bone-bottom.md) | DR | none |  |  |  |
+| AR | ascend rope | chapel | [Bone Bottom Town (Bonetown)](../bone-bottom/bone-bottom-town.md) | DR | none |  |  |  |
 | CD | chapel door | chapel | [Ruined Chapel Interior](ruined-chapel-interior.md) | CD | unknown OR ruined chapel access override |  |  | randomizer currently forces the door open under some conditions |
 
 ## Subroom Connections

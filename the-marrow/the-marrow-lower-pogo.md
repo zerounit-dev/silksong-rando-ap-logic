@@ -1,5 +1,7 @@
 # The Marrow Lower Pogo (Bone_07)
 
+**Game ID:** Bone_07
+
 ## Subrooms
 
 No subrooms defined.

@@ -1,5 +1,7 @@
 # Weavenest Atla Entrance (Weave_04)
 
+**Game ID:** Weave_04
+
 ## Subrooms
 
 No subrooms defined.
@@ -8,7 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WD | weavenest door |  | [Moss Grotto East (Tut_01b)](../bone-bottom/moss-grotto-east.md) | WD | needolin |  |  |  |
+| WD | weavenest door |  | [Moss Grotto East (Tut_01b)](../moss-grotto/moss-grotto-east.md) | WD | needolin |  |  |  |
 | R | right |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | UL | none |  |  |  |
 
 ## Subroom Connections

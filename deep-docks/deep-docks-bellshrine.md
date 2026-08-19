@@ -1,5 +1,7 @@
 # Deep Docks Bellshrine (Bellshrine_05)
 
+**Game ID:** Bellshrine_05
+
 ## Subrooms
 
 No subrooms defined.
@@ -9,7 +11,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Deep Docks Lace Intro (Bone_East_12)](deep-docks-lace-intro.md) | R | none |  |  |  |
-| R | right1 |  | [Far Fields Entrance (Bone_East_02)](../far-fields/far-fields-entrance.md) | L | deep docks bellshrine activated |  |  |  |
+| R | right1 |  | [Far Fields Entrance East (Bone_East_02)](../far-fields/far-fields-entrance-east.md) | L | deep docks bellshrine activated |  |  |  |
 
 ## Subroom Connections
 

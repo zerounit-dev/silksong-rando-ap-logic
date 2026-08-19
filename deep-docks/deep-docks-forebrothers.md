@@ -1,5 +1,7 @@
 # Deep Docks Forebrothers (Dock_09)
 
+**Game ID:** Dock_09
+
 ## Subrooms
 
 - right area
@@ -27,3 +29,5 @@
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | forebrothers boss fight | boss area | none |  |  | Included |  |
+| rosary cache 1 |  |  | TODO |  | Included |  |
+| rosary cache 2 |  |  | TODO |  | Included |  |

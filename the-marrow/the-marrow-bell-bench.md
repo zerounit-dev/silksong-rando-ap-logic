@@ -1,5 +1,7 @@
 # The Marrow Bell Bench (Bone_01c)
 
+**Game ID:** Bone_01c
+
 ## Subrooms
 
 - falling rocks

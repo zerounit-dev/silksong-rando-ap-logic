@@ -1,5 +1,7 @@
 # The Marrow Jail (Bone_12)
 
+**Game ID:** Bone_12
+
 ## Subrooms
 
 No subrooms defined.

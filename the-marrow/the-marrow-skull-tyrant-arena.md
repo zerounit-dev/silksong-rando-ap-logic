@@ -1,5 +1,7 @@
 # The Marrow Skull Tyrant Arena (Bone_15)
 
+**Game ID:** Bone_15
+
 ## Subrooms
 
 No subrooms defined.

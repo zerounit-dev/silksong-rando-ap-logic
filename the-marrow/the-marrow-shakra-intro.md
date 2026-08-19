@@ -1,5 +1,7 @@
 # The Marrow Shakra Intro (Bone_04)
 
+**Game ID:** Bone_04
+
 ## Subrooms
 
 - behind gate

@@ -1,5 +1,7 @@
 # Deep Docks Diving Bell (Dock_12)
 
+**Game ID:** Dock_12
+
 ## Subrooms
 
 No subrooms defined.

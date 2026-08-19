@@ -1,5 +1,7 @@
 # Mosshome Upper (Mosstown_02)
 
+**Game ID:** Mosstown_02
+
 ## Subrooms
 
 - main area

@@ -1,5 +1,7 @@
 # Deep Docks Lace Intro (Bone_East_12)
 
+**Game ID:** Bone_East_12
+
 ## Subrooms
 
 - left area

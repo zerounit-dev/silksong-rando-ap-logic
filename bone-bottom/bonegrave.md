@@ -1,5 +1,7 @@
 # Bonegrave (Bonegrave)
 
+**Game ID:** Bonegrave
+
 ## Subrooms
 
 - upper left exit
@@ -10,8 +12,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | upper right | upper right exit | [Bone Bottom (Bonetown)](bone-bottom.md) | UL | none |  |  |  |
-| LR | lower right | graveyard | [Bone Bottom (Bonetown)](bone-bottom.md) | LL | none |  |  |  |
+| UR | upper right | upper right exit | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | UL | none |  |  |  |
+| LR | lower right | graveyard | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | LL | none |  |  |  |
 | C | ceiling | upper left exit | [Wormways Lower East (Crawl_07)](../wormways/wormways-lower-east.md) | F | silk soar OR cling grip |  |  |  |
 | CD | chapel door | graveyard | [Chapel of the Wanderer (Chapel_Wanderer)](chapel-of-the-wanderer.md) | CD | no wanderer's crest OR wanderer's door override |  |  | "wanderer's door override" is meant to cover any situation that would require the door to stay open, such as rosary cache rando |
 | LL | lower left | graveyard | [Bonegrave Passage](bonegrave-passage.md) | R | steel soul |  |  |  |

@@ -1,5 +1,7 @@
 # Weavenest Atla Mask Shard (Weave_05b)
 
+**Game ID:** Weave_05b
+
 ## Subrooms
 
 No subrooms defined.

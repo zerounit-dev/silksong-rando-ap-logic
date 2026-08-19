@@ -1,5 +1,7 @@
 # Weavenest Atla Bench (Weave_07)
 
+**Game ID:** Weave_07
+
 ## Subrooms
 
 No subrooms defined.

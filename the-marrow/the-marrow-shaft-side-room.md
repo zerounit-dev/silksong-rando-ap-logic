@@ -1,5 +1,7 @@
 # The Marrow Shaft Side Room (Bone_17)
 
+**Game ID:** Bone_17
+
 ## Subrooms
 
 No subrooms defined.

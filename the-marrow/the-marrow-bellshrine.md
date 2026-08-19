@@ -1,5 +1,7 @@
 # The Marrow Bellshrine (Bellshrine)
 
+**Game ID:** Bellshrine
+
 ## Subrooms
 
 No subrooms defined.

@@ -1,5 +1,7 @@
 # Chapel of the Wanderer (Chapel_Wanderer)
 
+**Game ID:** Chapel_Wanderer
+
 ## Subrooms
 
 No subrooms defined.

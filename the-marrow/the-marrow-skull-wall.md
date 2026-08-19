@@ -1,5 +1,7 @@
 # The Marrow Skull Wall (Bone_06)
 
+**Game ID:** Bone_06
+
 ## Subrooms
 
 No subrooms defined.

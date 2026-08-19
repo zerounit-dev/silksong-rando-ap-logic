@@ -1,5 +1,7 @@
 # Mosshome Druid (Mosstown_02c)
 
+**Game ID:** Mosstown_02c
+
 ## Subrooms
 
 No subrooms defined.

@@ -1,0 +1,21 @@
+# Choral Chambers Grindle (Song_08)
+
+**Game ID:** Song_08
+
+## Subrooms
+
+No subrooms defined.
+
+## Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S4L | none |  |  |  |
+
+## Subroom Connections
+
+No subroom connections defined.
+
+## Check Locations
+
+No check locations defined.

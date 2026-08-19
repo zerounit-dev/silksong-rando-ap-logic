@@ -1,5 +1,7 @@
 # The Marrow Upper Pogo (Bone_19)
 
+**Game ID:** Bone_19
+
 ## Subrooms
 
 No subrooms defined.

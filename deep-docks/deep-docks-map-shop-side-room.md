@@ -1,5 +1,7 @@
 # Deep Docks Map Shop Side Room (Dock_05)
 
+**Game ID:** Dock_05
+
 ## Subrooms
 
 No subrooms defined.

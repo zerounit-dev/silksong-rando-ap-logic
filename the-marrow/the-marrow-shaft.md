@@ -1,5 +1,7 @@
 # The Marrow Shaft (Bone_03)
 
+**Game ID:** Bone_03
+
 ## Subrooms
 
 - lower shaft

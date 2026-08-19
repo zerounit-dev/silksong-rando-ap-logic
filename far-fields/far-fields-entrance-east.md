@@ -1,4 +1,6 @@
-# Far Fields Entrance (Bone_East_02)
+# Far Fields Entrance East (Bone_East_02)
+
+**Game ID:** Bone_East_02
 
 ## Subrooms
 
@@ -10,7 +12,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | C | top1 | main pathway | [Far Fields Deep Docks Loopback (Bone_East_15)](far-fields-deep-docks-loopback.md) | F | silk soar OR faydown cloak OR ( cling grip AND ( run OR dash OR drifter's cloak OR  OR sharpdart OR clawline ) ) |  |  | car barely make it up with faydown cloak |
-| R | right1 | main pathway | TODO |  | none | TODO |  |  |
+| R | right1 | main pathway | [Far Fields Entrance West (Bone_East_02b)](far-fields-entrance-west.md) | L | none |  |  |  |
 | L | left1 | deep docks platform | [Deep Docks Bellshrine (Bellshrine_05)](../deep-docks/deep-docks-bellshrine.md) | R | deep docks bellshrine activated |  |  |  |
 
 ## Subroom Connections

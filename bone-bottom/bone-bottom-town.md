@@ -1,4 +1,6 @@
-# Bone Bottom (Bonetown)
+# Bone Bottom Town (Bonetown)
+
+**Game ID:** Bonetown
 
 ## Subrooms
 
@@ -15,8 +17,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | upper left | upper left platforms | [Bonegrave (Bonegrave)](bonegrave.md) | UR | none |  |  |  |
 | LL | lower left | ground level | [Bonegrave (Bonegrave)](bonegrave.md) | LR | door opened from other side |  |  |  |
-| DR | descend rope | ground level | [Ruined Chapel (Tut_03)](ruined-chapel.md) | AR | none |  |  |  |
-| RF | right floor | ground level | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | C | none |  |  |  |
+| DR | descend rope | ground level | [Ruined Chapel (Tut_03)](../moss-grotto/ruined-chapel.md) | AR | none |  |  |  |
+| RF | right floor | ground level | [Moss Grotto Center (Tut_01)](../moss-grotto/moss-grotto-center.md) | C | none |  |  |  |
 | BD | bellway door | ground level | [Bone Bottom Bellway (Bellway_01)](bone-bottom-bellway.md) | BD | none |  |  |  |
 | LR | lower right | ground level | [The Marrow Entrance (Bone_01)](../the-marrow/the-marrow-entrance.md) | LL | none |  |  |  |
 | UR | upper right | upper right platforms | [Mosshome Basement (Bone_01b)](mosshome-basement.md) | LL | none |  |  |  |

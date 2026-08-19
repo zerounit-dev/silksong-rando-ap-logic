@@ -1,5 +1,7 @@
 # The Marrow Jail Pathway (Bone_08)
 
+**Game ID:** Bone_08
+
 ## Subrooms
 
 - upper area
@@ -11,8 +13,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | upper left | upper area | [The Marrow Lower Pogo (Bone_07)](the-marrow-lower-pogo.md) | UR |  |  |  |  |
 | LL | lower left | lower area | [The Marrow Lower Pogo (Bone_07)](the-marrow-lower-pogo.md) | LR |  |  |  |  |
-| UR | upper right | upper area | TODO |  |  |  |  | bellhart |
-| MR | middle right | lower area | TODO |  |  |  |  | hunter's march |
+| UR | upper right | upper area | TODO |  |  | TODO |  | bellhart |
+| MR | middle right | lower area | [Hunter's March Entrance (Ant_02)](../hunter-s-march/hunter-s-march-entrance.md) | L | none | TODO |  | hunter's march |
 | JD | lower right | lower area | [The Marrow Jail (Bone_12)](the-marrow-jail.md) | L |  |  |  |  |
 | F | floor | lower area | [The Marrow Lava Docks (Bone_09)](the-marrow-lava-docks.md) | C |  |  |  |  |
 

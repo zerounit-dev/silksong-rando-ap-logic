@@ -1,5 +1,7 @@
 # Bone Bottom Bellway (Bellway_01)
 
+**Game ID:** Bellway_01
+
 ## Subrooms
 
 No subrooms defined.
@@ -8,7 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BD | bellway door |  | [Bone Bottom (Bonetown)](bone-bottom.md) | BD | none |  |  |  |
+| BD | bellway door |  | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | BD | none |  |  |  |
 | BB | bell beast |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BB | bell beast available AND bone bottom bellway unlocked | TODO |  |  |
 
 ## Subroom Connections
