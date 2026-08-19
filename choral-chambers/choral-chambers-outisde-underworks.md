@@ -2,6 +2,8 @@
 
 **Game ID:** Under_07b
 
+**Contributors:** samupo
+
 ## Subrooms
 
 No subrooms defined.
@@ -10,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 |  | TODO |  | Only opened from the other side |  |  |  |
+| B | bot1 |  | [Underworks Outside Choral Chambers (Under_07c)](../underworks/underworks-outside-choral-chambers.md) | T | Only opened from the other side |  |  |  |
 | L | left1 |  | [Choral Chambers Below Ventrica (Song_01)](choral-chambers-below-ventrica.md) | R | none |  |  |  |
 
 ## Subroom Connections

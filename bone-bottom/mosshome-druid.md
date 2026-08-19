@@ -2,6 +2,8 @@
 
 **Game ID:** Mosstown_02c
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

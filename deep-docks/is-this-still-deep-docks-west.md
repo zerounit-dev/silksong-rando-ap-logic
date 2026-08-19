@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_04b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - side room

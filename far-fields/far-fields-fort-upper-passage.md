@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_17
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - left exit area

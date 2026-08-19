@@ -2,6 +2,8 @@
 
 **Game ID:** Crawl_09
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - left exit area

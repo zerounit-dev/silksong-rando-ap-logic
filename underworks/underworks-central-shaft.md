@@ -2,6 +2,8 @@
 
 **Game ID:** Under_05
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Wisp Thicket

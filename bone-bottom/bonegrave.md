@@ -2,6 +2,8 @@
 
 **Game ID:** Bonegrave
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - upper left exit

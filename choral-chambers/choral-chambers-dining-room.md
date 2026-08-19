@@ -2,6 +2,8 @@
 
 **Game ID:** Song_09b
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Diner

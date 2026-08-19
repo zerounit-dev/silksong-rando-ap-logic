@@ -2,6 +2,8 @@
 
 **Game ID:** Weave_08
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - main area

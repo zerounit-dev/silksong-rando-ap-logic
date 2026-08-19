@@ -2,6 +2,8 @@
 
 **Game ID:** Crawl_04
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

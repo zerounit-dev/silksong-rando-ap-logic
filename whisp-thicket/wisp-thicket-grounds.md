@@ -2,6 +2,8 @@
 
 **Game ID:** Wisp_02
 
+**Contributors:** samupo
+
 ## Subrooms
 
 No subrooms defined.

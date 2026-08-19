@@ -2,6 +2,8 @@
 
 **Game ID:** Dock_08
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - main pathway

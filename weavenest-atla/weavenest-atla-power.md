@@ -2,6 +2,8 @@
 
 **Game ID:** Weave_12
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

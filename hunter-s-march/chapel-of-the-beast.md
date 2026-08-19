@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_19
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - chapel entrance

@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_12
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - left area
@@ -26,7 +28,7 @@
 | BL | boss arena left | left area | boss arena | gate switch flipped |  |  |  |
 | BL | boss arena left | boss arena | left area | gate switch flipped AND defeat lace |  |  |  |
 | BR | boss arena right | boss arena | right area | defeat lace |  |  |  |
-| BR | boss arena right | right area | boss arena | none | TODO | Needs verification | NEEDS VERIFICATION |
+| BR | boss arena right | right area | boss arena | none |  | Verified | NEEDS VERIFICATION |
 
 ## Check Locations
 

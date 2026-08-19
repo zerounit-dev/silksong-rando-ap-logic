@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_Weavehome
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - entrance

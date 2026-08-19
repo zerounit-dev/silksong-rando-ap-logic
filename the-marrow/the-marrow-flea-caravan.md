@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_10
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - main area

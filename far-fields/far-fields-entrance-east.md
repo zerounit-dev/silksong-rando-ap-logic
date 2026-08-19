@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_02
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - deep docks platform

@@ -2,6 +2,8 @@
 
 **Game ID:** Dock_06_Church
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

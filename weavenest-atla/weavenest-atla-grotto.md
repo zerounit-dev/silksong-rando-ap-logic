@@ -2,6 +2,8 @@
 
 **Game ID:** Weave_03
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - pathway

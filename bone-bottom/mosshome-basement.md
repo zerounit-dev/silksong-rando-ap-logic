@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_01b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

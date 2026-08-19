@@ -2,6 +2,8 @@
 
 **Game ID:** Tut_01
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - rock bottom

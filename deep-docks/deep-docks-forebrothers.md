@@ -2,6 +2,8 @@
 
 **Game ID:** Dock_09
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - right area
@@ -12,7 +14,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | right area | [Deep Docks Chains Flow West (Dock_02)](deep-docks-chains-flow-west.md) | LL | none |  |  |  |
+| R | right1 | right area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | LL | none |  |  |  |
 | L | left1 | left area | [Deep Docks Lower East Shaft (Dock_15)](deep-docks-lower-east-shaft.md) | UR | none |  |  |  |
 
 ## Subroom Connections

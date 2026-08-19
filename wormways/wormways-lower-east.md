@@ -2,6 +2,8 @@
 
 **Game ID:** Crawl_07
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - ceiling exit area

@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_02
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - before door

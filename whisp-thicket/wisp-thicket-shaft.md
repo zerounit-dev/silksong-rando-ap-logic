@@ -2,6 +2,8 @@
 
 **Game ID:** Wisp_08
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Bottom

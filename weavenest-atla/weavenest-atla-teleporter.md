@@ -2,6 +2,8 @@
 
 **Game ID:** Weave_02
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - upper telepad

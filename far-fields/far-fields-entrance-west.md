@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_02b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - lower walkway

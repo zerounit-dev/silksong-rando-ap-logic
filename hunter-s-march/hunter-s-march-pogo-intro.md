@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_03
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - flea rescue area

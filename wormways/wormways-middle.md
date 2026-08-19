@@ -2,6 +2,8 @@
 
 **Game ID:** Crawl_03b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - right area

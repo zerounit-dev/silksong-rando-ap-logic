@@ -17,7 +17,7 @@ No subrooms defined.
 | SW | shellwood |  | TODO |  |  | TODO |  |  |
 | BS | blasted steps |  | TODO |  |  | TODO |  |  |
 | TS | the slab |  | TODO |  |  | TODO |  |  |
-| GB | grand bellway |  | TODO |  |  | TODO |  |  |
+| GB | grand bellway |  | [Grand Bellway (Bellway_City)](../choral-chambers/grand-bellway.md) | BW |  | TODO |  |  |
 | BW | bilewater |  | TODO |  |  | TODO |  |  |
 | PD | putrified ducts |  | TODO |  |  | TODO |  |  |
 

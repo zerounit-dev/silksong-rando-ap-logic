@@ -95,7 +95,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Deep Docks Lower West Shaft (Dock_04)](./deep-docks/deep-docks-lower-west-shaft.md)
 - [Deep Docks Spool East (Bone_East_13)](./deep-docks/deep-docks-spool-east.md)
 - [Deep Docks Church (Dock_06_Church)](./deep-docks/deep-docks-church.md)
-- [Deep Docks Chains Flow West (Dock_02)](./deep-docks/deep-docks-chains-flow-west.md)
+- [Deep Docks Chains West (Dock_02)](./deep-docks/deep-docks-chains-west.md)
 - [Deep Docks Chains Flea Rescue (Dock_03d)](./deep-docks/deep-docks-chains-flea-rescue.md)
 - [Deep Docks Chains Center (Dock_02b)](./deep-docks/deep-docks-chains-center.md)
 - [Deep Docks Chains Upper East (Dock_03)](./deep-docks/deep-docks-chains-upper-east.md)
@@ -211,7 +211,7 @@ No rooms defined.
 
 ## The Slab
 
-No rooms defined.
+- [Slab Bridge (Slab_01)](./the-slab/slab-bridge.md)
 
 ## Sands of Karak
 
@@ -225,7 +225,6 @@ No rooms defined.
 
 - [Choral Chambers Spa (Song_10)](./choral-chambers/choral-chambers-spa.md)
 - [Choral Chambers Outside Spa (Song_04)](./choral-chambers/choral-chambers-outside-spa.md)
-- [Slab Bridge (Slab_01)](./choral-chambers/slab-bridge.md)
 - [Choral Chambers Western Shaft (Song_12)](./choral-chambers/choral-chambers-western-shaft.md)
 - [Choral Chambers Shop (Song_28)](./choral-chambers/choral-chambers-shop.md)
 - [Choral Chambers Cogheart Room (Song_26)](./choral-chambers/choral-chambers-cogheart-room.md)

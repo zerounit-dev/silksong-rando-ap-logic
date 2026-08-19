@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_05b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - before gate

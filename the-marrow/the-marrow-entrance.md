@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_01
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - before gauntlet

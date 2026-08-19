@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_05
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - left flea platform

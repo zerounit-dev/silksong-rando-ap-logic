@@ -2,6 +2,8 @@
 
 **Game ID:** Mosstown_01
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - main area

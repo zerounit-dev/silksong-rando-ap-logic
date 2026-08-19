@@ -2,6 +2,8 @@
 
 **Game ID:** Crawl_06
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - entrance

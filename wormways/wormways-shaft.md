@@ -2,6 +2,8 @@
 
 **Game ID:** Crawl_02
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - lower area

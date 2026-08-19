@@ -2,6 +2,8 @@
 
 **Game ID:** Library_02
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Top
@@ -13,10 +15,10 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left1 | Top | TODO |  |  |  |  |  |
-| TL | left2 |  | TODO |  |  |  |  |  |
-| BR | right1 |  | TODO |  |  |  |  |  |
-| TR | right2 | Top | [Songclave (Song_Enclave)](songclave.md) | BL |  |  |  |  |
+| BL | left1 | Top | [Rotating Tunnel (Song_20b)](rotating-tunnel.md) | RH |  | TODO |  |  |
+| TL | left2 |  | [Rotating Tunnel (Song_20b)](rotating-tunnel.md) | R1 |  | TODO |  |  |
+| BR | right1 |  | TODO |  |  | TODO |  |  |
+| TR | right2 | Top | [Songclave (Song_Enclave)](songclave.md) | BL |  | TODO |  |  |
 
 ## Subroom Connections
 

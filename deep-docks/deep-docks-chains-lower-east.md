@@ -2,6 +2,8 @@
 
 **Game ID:** Dock_03c
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - upper chains

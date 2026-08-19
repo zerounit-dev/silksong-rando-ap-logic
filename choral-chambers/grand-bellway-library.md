@@ -2,6 +2,8 @@
 
 **Game ID:** Library_03
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Bottom

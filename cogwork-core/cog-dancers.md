@@ -2,6 +2,8 @@
 
 **Game ID:** Cog_Dancers
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - BaseLeft

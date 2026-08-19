@@ -2,6 +2,8 @@
 
 **Game ID:** Dock_03b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - upper area

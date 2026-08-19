@@ -2,6 +2,8 @@
 
 **Game ID:** Song_01c
 
+**Contributors:** samupo
+
 ## Subrooms
 
 No subrooms defined.

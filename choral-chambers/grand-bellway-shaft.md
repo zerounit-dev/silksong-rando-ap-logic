@@ -2,6 +2,8 @@
 
 **Game ID:** Song_20
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Top
@@ -15,11 +17,11 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Upper Left | TODO |  | none |  |  |  |
+| UL | left1 | Upper Left | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | R | none |  |  |  |
 | T | top1 | Top | [Rotating Tunnel (Song_20b)](rotating-tunnel.md) | B | none |  |  |  |
-| UR | right4 | Upper Right | TODO |  | none |  |  |  |
+| UR | right4 | Upper Right | [Grand Bellway Library (Library_03)](grand-bellway-library.md) | L | none |  |  |  |
 | RS | right5 | Right Stage | TODO |  | none |  |  |  |
-| BR | right6 | Bottom Right | TODO |  | none |  |  |  |
+| BR | right6 | Bottom Right | [Grand Bellway (Bellway_City)](grand-bellway.md) | L | none |  |  |  |
 | BL | left2 | Bottom Left | [Grand Bellway Side Room (Song_24)](grand-bellway-side-room.md) | R | none |  |  |  |
 
 ## Subroom Connections

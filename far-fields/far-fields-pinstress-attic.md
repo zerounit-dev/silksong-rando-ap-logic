@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_09b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - bottom left area

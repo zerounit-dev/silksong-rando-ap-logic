@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_21
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - right of door

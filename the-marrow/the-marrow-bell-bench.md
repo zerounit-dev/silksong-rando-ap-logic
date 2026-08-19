@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_01c
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - falling rocks

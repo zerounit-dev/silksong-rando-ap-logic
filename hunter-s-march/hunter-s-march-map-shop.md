@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_04_mid
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - left exit area

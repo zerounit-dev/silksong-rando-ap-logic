@@ -2,6 +2,8 @@
 
 **Game ID:** Room_Forge
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - left area
@@ -14,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | right area | [Deep Docks Chains Flow West (Dock_02)](deep-docks-chains-flow-west.md) | UL |  |  |  |  |
+| R | right1 | right area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | UL |  |  |  |  |
 | L | left1 | left area | [Deep Docks Lower West Shaft (Dock_04)](deep-docks-lower-west-shaft.md) | UR |  |  |  |  |
 | C | top1 | left area | [Deep Docks Lace Intro (Bone_East_12)](deep-docks-lace-intro.md) | F |  |  |  | activate airlock |
 

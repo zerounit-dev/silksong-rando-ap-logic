@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_05c
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - statue area

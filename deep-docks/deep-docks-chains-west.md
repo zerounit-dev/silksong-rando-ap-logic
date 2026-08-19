@@ -1,6 +1,8 @@
-# Deep Docks Chains Flow West (Dock_02)
+# Deep Docks Chains West (Dock_02)
 
 **Game ID:** Dock_02
+
+**Contributors:** herounit
 
 ## Subrooms
 

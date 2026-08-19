@@ -2,6 +2,8 @@
 
 **Game ID:** Bonetown
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - sky

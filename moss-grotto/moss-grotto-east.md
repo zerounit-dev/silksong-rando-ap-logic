@@ -2,6 +2,8 @@
 
 **Game ID:** Tut_01b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

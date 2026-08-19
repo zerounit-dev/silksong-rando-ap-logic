@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_15
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - spike exit

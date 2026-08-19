@@ -2,6 +2,8 @@
 
 **Game ID:** Dock_02b
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - upper left hallway
@@ -17,9 +19,9 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | upper left hallway | [Deep Docks Chains Flow West (Dock_02)](deep-docks-chains-flow-west.md) | UR | none |  |  |  |
-| ML | left2 | middle left exit area | [Deep Docks Chains Flow West (Dock_02)](deep-docks-chains-flow-west.md) | MR | none |  |  |  |
-| LL | left3 | lower left area | [Deep Docks Chains Flow West (Dock_02)](deep-docks-chains-flow-west.md) | LR | none |  |  |  |
+| UL | left1 | upper left hallway | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | UR | none |  |  |  |
+| ML | left2 | middle left exit area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | MR | none |  |  |  |
+| LL | left3 | lower left area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | LR | none |  |  |  |
 | UR | right1 | upper chain platforms | [Deep Docks Chains Upper East (Dock_03)](deep-docks-chains-upper-east.md) | L | break wall (from this side) |  |  | can't enter from the other side until this is broken |
 | LR | right2 | lower right area | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | L | break wall (from other side) |  |  |  |
 

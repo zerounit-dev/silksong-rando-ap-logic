@@ -2,6 +2,8 @@
 
 **Game ID:** Wisp_04
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Bench

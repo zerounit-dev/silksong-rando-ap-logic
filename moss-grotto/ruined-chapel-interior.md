@@ -1,5 +1,7 @@
 # Ruined Chapel Interior
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - ritual chamber

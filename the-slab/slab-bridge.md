@@ -2,6 +2,8 @@
 
 **Game ID:** Slab_01
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Left
@@ -12,7 +14,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Left | TODO |  | none |  |  |  |
-| R | right1 | Right | [Choral Chambers Outside Spa (Song_04)](choral-chambers-outside-spa.md) | L | none |  |  |  |
+| R | right1 | Right | [Choral Chambers Outside Spa (Song_04)](../choral-chambers/choral-chambers-outside-spa.md) | L | none |  |  |  |
 
 ## Subroom Connections
 

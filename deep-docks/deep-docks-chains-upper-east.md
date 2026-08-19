@@ -2,6 +2,8 @@
 
 **Game ID:** Dock_03
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - upper left hallway

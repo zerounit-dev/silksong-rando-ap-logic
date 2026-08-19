@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_20
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - left entrance

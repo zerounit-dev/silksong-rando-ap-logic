@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_04
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - right exit platform

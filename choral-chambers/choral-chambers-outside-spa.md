@@ -2,6 +2,8 @@
 
 **Game ID:** Song_04
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Base
@@ -14,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Left | [Choral Chambers Above Ventrica (Song_03)](choral-chambers-above-ventrica.md) | T | none |  | Verified |  |
-| L | left1 | Top | [Slab Bridge (Slab_01)](slab-bridge.md) | R | none |  | Verified |  |
+| L | left1 | Top | [Slab Bridge (Slab_01)](../the-slab/slab-bridge.md) | R | none |  | Verified |  |
 | R1 | right1 | Top | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | BL | none |  | Verified |  |
 | R2 | right2 | Base | [Choral Chambers Spa (Song_10)](choral-chambers-spa.md) | L | none |  | Verified |  |
 

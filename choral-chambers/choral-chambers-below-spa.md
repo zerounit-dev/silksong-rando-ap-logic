@@ -2,6 +2,8 @@
 
 **Game ID:** Song_02
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Left

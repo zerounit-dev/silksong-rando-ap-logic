@@ -2,6 +2,8 @@
 
 **Game ID:** Aspid_01
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - top area

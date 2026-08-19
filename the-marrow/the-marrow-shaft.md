@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_03
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - lower shaft
@@ -18,13 +20,6 @@
 | LR | lower right | lower shaft | [The Marrow Flea Caravan (Bone_10)](the-marrow-flea-caravan.md) | L | none |  |  |  |
 | UR | upper right | upper shaft | [The Marrow Mr Burns House (Bone_14)](the-marrow-mr-burns-house.md) | L | none |  |  |  |
 | C | ceiling | upper shaft | [The Marrow Skull Wall (Bone_06)](the-marrow-skull-wall.md) | F | none |  |  |  |
-|  | bot1 |  | TODO |  |  |  | Needs verification |  |
-|  | right1 |  | TODO |  |  |  | Needs verification |  |
-|  | top1 |  | TODO |  |  |  | Needs verification |  |
-|  | left1 |  | TODO |  |  |  | Needs verification |  |
-|  | left2 |  | TODO |  |  |  | Needs verification |  |
-|  | left4 |  | TODO |  |  |  | Needs verification |  |
-|  | right3 |  | TODO |  |  |  | Needs verification |  |
 
 ## Subroom Connections
 

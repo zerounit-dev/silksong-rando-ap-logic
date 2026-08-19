@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_09
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - elevated platforms

@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_18
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - lower level

@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_05
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - left area

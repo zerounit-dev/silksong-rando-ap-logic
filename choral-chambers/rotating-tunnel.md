@@ -2,6 +2,8 @@
 
 **Game ID:** Song_20b
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Top Platform
@@ -14,9 +16,9 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Top Platform | [Memorium Entrance Tunnel (Song_25)](memorium-entrance-tunnel.md) | B | none |  | Verified |  |
-| L1 | left2 | Central Area | TODO |  | ledge grab or dash or faydown cloak or clawline or sharpdart or drifter's cloak or silk soar or enemy pogo |  | Verified |  |
+| L1 | left2 | Central Area | [Songclave Silk Shop (Song_29)](songclave-silk-shop.md) | R | ledge grab or dash or faydown cloak or clawline or sharpdart or drifter's cloak or silk soar or enemy pogo |  | Verified |  |
 | R1 | right2 | Central Area | [Songclave Steam Tunnel (Library_02)](songclave-steam-tunnel.md) | TL | none |  | Verified |  |
-| B | bot1 | Bottom Area | TODO |  | none |  | Verified |  |
+| B | bot1 | Bottom Area | [Grand Bellway Shaft (Song_20)](grand-bellway-shaft.md) | T | none |  | Verified |  |
 | RH | right3 | Horizontal Tunnel | [Songclave Steam Tunnel (Library_02)](songclave-steam-tunnel.md) | BL | none |  | Verified | both sides have levers making the tunnel horizontal |
 | LH | left4 | Horizontal Tunnel | TODO |  | none |  | Verified | both sides have levers making the tunnel horizontal |
 

@@ -2,6 +2,8 @@
 
 **Game ID:** Under_08
 
+**Contributors:** samupo
+
 ## Subrooms
 
 - Base

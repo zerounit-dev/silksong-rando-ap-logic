@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_08
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - upper area

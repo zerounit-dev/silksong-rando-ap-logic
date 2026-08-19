@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_13
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - the floor is lava

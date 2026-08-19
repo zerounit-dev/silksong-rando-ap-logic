@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_04
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - behind gate

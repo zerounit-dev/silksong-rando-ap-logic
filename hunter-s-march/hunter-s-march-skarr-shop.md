@@ -2,6 +2,8 @@
 
 **Game ID:** Ant_Merchant
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - storage room

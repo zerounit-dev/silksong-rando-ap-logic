@@ -2,6 +2,8 @@
 
 **Game ID:** Chapel_Wanderer
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

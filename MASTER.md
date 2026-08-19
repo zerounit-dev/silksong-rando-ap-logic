@@ -8,6 +8,8 @@ Compiled from the database-generated room notes.
 
 **Game ID:** Tut_01
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - rock bottom
@@ -61,6 +63,8 @@ not having the west part as part of this area causes the graph to be more comple
 
 **Game ID:** Tut_02
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -92,6 +96,8 @@ somehow missed this being its own room before
 ### Moss Grotto East (Tut_01b)
 
 **Game ID:** Tut_01b
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -159,6 +165,8 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 
 ### Ruined Chapel Interior
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - ritual chamber
@@ -190,6 +198,8 @@ No check locations defined.
 ### Bone Bottom Town (Bonetown)
 
 **Game ID:** Bonetown
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -267,6 +277,8 @@ No check locations defined.
 
 **Game ID:** Bellway_01
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -289,6 +301,8 @@ No check locations defined.
 ### Bonegrave (Bonegrave)
 
 **Game ID:** Bonegrave
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -326,6 +340,8 @@ No check locations defined.
 
 ### Bonegrave Passage
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -349,6 +365,8 @@ No subroom connections defined.
 ### Chapel of the Wanderer (Chapel_Wanderer)
 
 **Game ID:** Chapel_Wanderer
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -381,6 +399,8 @@ need see if there are other checks in here
 ### Mosshome Upper (Mosstown_02)
 
 **Game ID:** Mosstown_02
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -423,6 +443,8 @@ known silk blockade breakers = silk spear, sharpdart, rune rage
 
 **Game ID:** Mosstown_01
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - main area
@@ -455,6 +477,8 @@ known silk blockade breakers = silk spear, sharpdart, rune rage
 ### Mosshome Lower (Bone_11)
 
 **Game ID:** Bone_11
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -489,6 +513,8 @@ known silk blockade breakers = silk spear, sharpdart, rune rage
 
 **Game ID:** Bone_05b
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -513,6 +539,8 @@ No subroom connections defined.
 ### Mosshome Druid (Mosstown_02c)
 
 **Game ID:** Mosstown_02c
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -540,6 +568,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_11b
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -565,6 +595,8 @@ No subroom connections defined.
 ### Mosshome Basement (Bone_01b)
 
 **Game ID:** Bone_01b
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -592,6 +624,8 @@ No subroom connections defined.
 ### The Big Fall (Aspid_01)
 
 **Game ID:** Aspid_01
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -655,6 +689,8 @@ No subroom connections defined.
 
 **Game ID:** Weave_04
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -677,6 +713,8 @@ No check locations defined.
 ### Weavenest Atla Teleporter (Weave_02)
 
 **Game ID:** Weave_02
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -715,6 +753,8 @@ No check locations defined.
 
 **Game ID:** Weave_12
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -739,6 +779,8 @@ No subroom connections defined.
 ### Weavenest Atla Eva (Weave_10)
 
 **Game ID:** Weave_10
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -768,6 +810,8 @@ No subroom connections defined.
 
 **Game ID:** Weave_07
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -794,6 +838,8 @@ no checks but there is a bench
 ### Weavenest Atla Grotto (Weave_03)
 
 **Game ID:** Weave_03
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -828,6 +874,8 @@ no checks but there is a bench
 
 **Game ID:** Weave_13
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -850,6 +898,8 @@ No check locations defined.
 ### Weavenest Atla Lore (Weave_08)
 
 **Game ID:** Weave_08
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -881,6 +931,8 @@ No check locations defined.
 
 **Game ID:** Weave_05b
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -905,6 +957,8 @@ No subroom connections defined.
 
 **Game ID:** Weave_14
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -928,6 +982,8 @@ No subroom connections defined.
 ### Weavenest Atla Spool (Weave_11)
 
 **Game ID:** Weave_11
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -955,6 +1011,8 @@ No subroom connections defined.
 ### The Marrow Entrance (Bone_01)
 
 **Game ID:** Bone_01
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -997,6 +1055,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_01c
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - falling rocks
@@ -1032,6 +1092,8 @@ While falling rocks and the bell bench are the same in-game room, there is no co
 
 **Game ID:** Bone_02
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1060,6 +1122,8 @@ no checks
 ### The Marrow Lava Track (Bone_16)
 
 **Game ID:** Bone_16
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1100,6 +1164,8 @@ no checks
 
 **Game ID:** Bone_10
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - main area
@@ -1132,6 +1198,8 @@ no checks
 
 **Game ID:** Bone_03
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - lower shaft
@@ -1148,13 +1216,6 @@ no checks
 | LR | lower right | lower shaft | [The Marrow Flea Caravan (Bone_10)](#the-marrow-flea-caravan-bone10) | L | none |  |  |  |
 | UR | upper right | upper shaft | [The Marrow Mr Burns House (Bone_14)](#the-marrow-mr-burns-house-bone14) | L | none |  |  |  |
 | C | ceiling | upper shaft | [The Marrow Skull Wall (Bone_06)](#the-marrow-skull-wall-bone06) | F | none |  |  |  |
-|  | bot1 |  | TODO |  |  |  | Needs verification |  |
-|  | right1 |  | TODO |  |  |  | Needs verification |  |
-|  | top1 |  | TODO |  |  |  | Needs verification |  |
-|  | left1 |  | TODO |  |  |  | Needs verification |  |
-|  | left2 |  | TODO |  |  |  | Needs verification |  |
-|  | left4 |  | TODO |  |  |  | Needs verification |  |
-|  | right3 |  | TODO |  |  |  | Needs verification |  |
 
 #### Subroom Connections
 
@@ -1174,6 +1235,8 @@ no checks
 ### The Marrow Shaft Side Room (Bone_17)
 
 **Game ID:** Bone_17
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1198,6 +1261,8 @@ No subroom connections defined.
 ### The Marrow Shakra Intro (Bone_04)
 
 **Game ID:** Bone_04
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1241,6 +1306,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_05
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - left area
@@ -1275,6 +1342,8 @@ No subroom connections defined.
 
 **Game ID:** Bellshrine
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1299,6 +1368,8 @@ No subroom connections defined.
 ### The Marrow Skull Wall (Bone_06)
 
 **Game ID:** Bone_06
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1325,6 +1396,8 @@ No subroom connections defined.
 ### The Marrow Skull Wall Side Room (Bone_18)
 
 **Game ID:** Bone_18
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1356,6 +1429,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_14
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1382,6 +1457,8 @@ No subroom connections defined.
 ### The Marrow Lower Pogo (Bone_07)
 
 **Game ID:** Bone_07
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1411,6 +1488,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_19
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1437,6 +1516,8 @@ No subroom connections defined.
 ### The Marrow Jail Pathway (Bone_08)
 
 **Game ID:** Bone_08
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1473,6 +1554,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_12
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1498,6 +1581,8 @@ No subroom connections defined.
 ### The Marrow Lava Docks (Bone_09)
 
 **Game ID:** Bone_09
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1530,6 +1615,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_15
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1559,6 +1646,8 @@ No subroom connections defined.
 
 **Game ID:** Crawl_04
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1584,6 +1673,8 @@ No subroom connections defined.
 ### Wormways Shaft (Crawl_02)
 
 **Game ID:** Crawl_02
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1623,6 +1714,8 @@ No subroom connections defined.
 
 **Game ID:** Crawl_06
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - entrance
@@ -1651,6 +1744,8 @@ No subroom connections defined.
 
 **Game ID:** Crawl_03b
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - right area
@@ -1678,6 +1773,8 @@ No check locations defined.
 ### Wormways Upper West (Crawl_03)
 
 **Game ID:** Crawl_03
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1713,6 +1810,8 @@ No check locations defined.
 
 **Game ID:** Crawl_01
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - lower area
@@ -1743,6 +1842,8 @@ No check locations defined.
 
 **Game ID:** Crawl_08
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1769,6 +1870,8 @@ No subroom connections defined.
 ### Wormways Lower East (Crawl_07)
 
 **Game ID:** Crawl_07
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1814,6 +1917,8 @@ TODO: review the mapping in here
 
 **Game ID:** Crawl_09
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - left exit area
@@ -1855,6 +1960,8 @@ TODO: review the mapping in here
 
 **Game ID:** Crawl_05
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1878,6 +1985,8 @@ No subroom connections defined.
 ### Wormways Zango Arena (Crawl_10)
 
 **Game ID:** Crawl_10
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1904,6 +2013,8 @@ No subroom connections defined.
 ### Deep Docks Entrance (Dock_08)
 
 **Game ID:** Dock_08
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -1943,6 +2054,8 @@ No subroom connections defined.
 
 **Game ID:** Dock_01
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -1972,6 +2085,8 @@ No subroom connections defined.
 ### Deep Docks Map Shop (Bone_East_01)
 
 **Game ID:** Bone_East_01
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2008,6 +2123,8 @@ No subroom connections defined.
 
 **Game ID:** Dock_05
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2033,6 +2150,8 @@ nothing to see here - just murder sleeping dudes
 ### Deep Docks Bellway (Bellway_02)
 
 **Game ID:** Bellway_02
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2060,6 +2179,8 @@ No subroom connections defined.
 
 **Game ID:** Dock_16
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2083,6 +2204,8 @@ No subroom connections defined.
 ### Deep Docks Lace Intro (Bone_East_12)
 
 **Game ID:** Bone_East_12
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2108,7 +2231,7 @@ No subroom connections defined.
 | BL | boss arena left | left area | boss arena | gate switch flipped |  |  |  |
 | BL | boss arena left | boss arena | left area | gate switch flipped AND defeat lace |  |  |  |
 | BR | boss arena right | boss arena | right area | defeat lace |  |  |  |
-| BR | boss arena right | right area | boss arena | none | TODO | Needs verification | NEEDS VERIFICATION |
+| BR | boss arena right | right area | boss arena | none |  | Verified | NEEDS VERIFICATION |
 
 #### Check Locations
 
@@ -2120,6 +2243,8 @@ No subroom connections defined.
 ### Deep Docks Bellshrine (Bellshrine_05)
 
 **Game ID:** Bellshrine_05
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2147,6 +2272,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_East_03
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2169,6 +2296,8 @@ No check locations defined.
 ### Is this still Deep Docks? (East) (Bone_East_04)
 
 **Game ID:** Bone_East_04
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2195,6 +2324,8 @@ No check locations defined.
 ### Is this still Deep Docks? (West) (Bone_East_04b)
 
 **Game ID:** Bone_East_04b
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2230,6 +2361,8 @@ No check locations defined.
 
 **Game ID:** Bone_East_04c
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2255,6 +2388,8 @@ just a camp? no enemies? did we find bush girl here at some point?
 ### Deep Docks Upper Spire (Bone_East_05)
 
 **Game ID:** Bone_East_05
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2291,6 +2426,8 @@ just a camp? no enemies? did we find bush girl here at some point?
 
 **Game ID:** Room_Forge
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - left area
@@ -2303,7 +2440,7 @@ just a camp? no enemies? did we find bush girl here at some point?
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | right area | [Deep Docks Chains Flow West (Dock_02)](#deep-docks-chains-flow-west-dock02) | UL |  |  |  |  |
+| R | right1 | right area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | UL |  |  |  |  |
 | L | left1 | left area | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | UR |  |  |  |  |
 | C | top1 | left area | [Deep Docks Lace Intro (Bone_East_12)](#deep-docks-lace-intro-boneeast12) | F |  |  |  | activate airlock |
 
@@ -2339,6 +2476,8 @@ just a camp? no enemies? did we find bush girl here at some point?
 
 **Game ID:** Dock_04
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2363,6 +2502,8 @@ No check locations defined.
 ### Deep Docks Spool East (Bone_East_13)
 
 **Game ID:** Bone_East_13
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2396,6 +2537,8 @@ No check locations defined.
 
 **Game ID:** Dock_06_Church
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2425,9 +2568,11 @@ No subroom connections defined.
 
 might need to revise the subrooms later
 
-### Deep Docks Chains Flow West (Dock_02)
+### Deep Docks Chains West (Dock_02)
 
 **Game ID:** Dock_02
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2472,6 +2617,8 @@ need to verify how this room works - thought it had some of the platforms go awa
 
 **Game ID:** Dock_03d
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2494,6 +2641,8 @@ No check locations defined.
 
 **Game ID:** Dock_02b
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - upper left hallway
@@ -2509,9 +2658,9 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | upper left hallway | [Deep Docks Chains Flow West (Dock_02)](#deep-docks-chains-flow-west-dock02) | UR | none |  |  |  |
-| ML | left2 | middle left exit area | [Deep Docks Chains Flow West (Dock_02)](#deep-docks-chains-flow-west-dock02) | MR | none |  |  |  |
-| LL | left3 | lower left area | [Deep Docks Chains Flow West (Dock_02)](#deep-docks-chains-flow-west-dock02) | LR | none |  |  |  |
+| UL | left1 | upper left hallway | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | UR | none |  |  |  |
+| ML | left2 | middle left exit area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | MR | none |  |  |  |
+| LL | left3 | lower left area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | LR | none |  |  |  |
 | UR | right1 | upper chain platforms | [Deep Docks Chains Upper East (Dock_03)](#deep-docks-chains-upper-east-dock03) | L | break wall (from this side) |  |  | can't enter from the other side until this is broken |
 | LR | right2 | lower right area | [Deep Docks Chains Lower East (Dock_03c)](#deep-docks-chains-lower-east-dock03c) | L | break wall (from other side) |  |  |  |
 
@@ -2560,6 +2709,8 @@ the switch to lower the middle chain section makes some of this logic difficult 
 
 **Game ID:** Dock_03
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - upper left hallway
@@ -2599,6 +2750,8 @@ the floor/lower half of this area is closed off initially
 ### Deep Docks Chains Lower East (Dock_03c)
 
 **Game ID:** Dock_03c
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2645,6 +2798,8 @@ the floor/lower half of this area is closed off initially
 
 **Game ID:** Dock_09
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - right area
@@ -2655,7 +2810,7 @@ the floor/lower half of this area is closed off initially
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | right area | [Deep Docks Chains Flow West (Dock_02)](#deep-docks-chains-flow-west-dock02) | LL | none |  |  |  |
+| R | right1 | right area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | LL | none |  |  |  |
 | L | left1 | left area | [Deep Docks Lower East Shaft (Dock_15)](#deep-docks-lower-east-shaft-dock15) | UR | none |  |  |  |
 
 #### Subroom Connections
@@ -2678,6 +2833,8 @@ the floor/lower half of this area is closed off initially
 ### Deep Docks Lower East Shaft (Dock_15)
 
 **Game ID:** Dock_15
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2712,6 +2869,8 @@ No check locations defined.
 
 **Game ID:** Dock_10
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2734,6 +2893,8 @@ No check locations defined.
 ### Deep Docks Memory Hole (Dock_13)
 
 **Game ID:** Dock_13
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2763,6 +2924,8 @@ No check locations defined.
 
 **Game ID:** Dock_14
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2786,6 +2949,8 @@ No subroom connections defined.
 ### Deep Docks Magma Slug Tunnels (Dock_11)
 
 **Game ID:** Dock_11
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2823,6 +2988,8 @@ No subroom connections defined.
 
 **Game ID:** Dock_12
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2847,6 +3014,8 @@ No check locations defined.
 ### Far Fields Entrance East (Bone_East_02)
 
 **Game ID:** Bone_East_02
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2875,6 +3044,8 @@ No check locations defined.
 ### Far Fields Entrance West (Bone_East_02b)
 
 **Game ID:** Bone_East_02b
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -2917,6 +3088,8 @@ No check locations defined.
 
 **Game ID:** Bone_East_16
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2944,6 +3117,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_East_17b
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -2970,6 +3145,8 @@ No subroom connections defined.
 ### Far Fields Fort Upper Passage (Bone_East_17)
 
 **Game ID:** Bone_East_17
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3007,6 +3184,8 @@ No subroom connections defined.
 
 **Game ID:** Bone_East_07
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -3040,6 +3219,8 @@ No subroom connections defined.
 ### Far Fields Pilgrim's Rest (Bone_East_10)
 
 **Game ID:** Bone_East_10
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3076,6 +3257,8 @@ No check locations defined.
 
 **Game ID:** Bone_East_10_Church
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - main floor
@@ -3108,6 +3291,8 @@ No check locations defined.
 
 **Game ID:** Bone_East_10_Room
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -3132,6 +3317,8 @@ No subroom connections defined.
 ### Far Fields Chorus (Bone_East_08)
 
 **Game ID:** Bone_East_08
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3176,6 +3363,8 @@ No subroom connections defined.
 ### Far Fields Pinstress Attic (Bone_East_09b)
 
 **Game ID:** Bone_East_09b
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3243,6 +3432,8 @@ No check locations defined.
 
 **Game ID:** Bone_East_20
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - right side
@@ -3272,6 +3463,8 @@ No check locations defined.
 
 **Game ID:** Bone_East_22
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -3300,6 +3493,8 @@ this is the room where you get progressive curveclaw (curvesickle) in act 3
 
 **Game ID:** Bone_East_21
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -3323,6 +3518,8 @@ No subroom connections defined.
 ### Far Fields Bellway (Bellway_03)
 
 **Game ID:** Bellway_03
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3358,6 +3555,8 @@ No subroom connections defined.
 ### Far Fields Deep Docks Loopback (Bone_East_15)
 
 **Game ID:** Bone_East_15
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3399,6 +3598,8 @@ No subroom connections defined.
 
 **Game ID:** Dock_03b
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - upper area
@@ -3428,6 +3629,8 @@ No subroom connections defined.
 ### Weavenest Cindril Entrance (Bone_East_Weavehome)
 
 **Game ID:** Bone_East_Weavehome
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3459,6 +3662,8 @@ No subroom connections defined.
 ### Chapel of the Beast (Ant_19)
 
 **Game ID:** Ant_19
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3496,6 +3701,8 @@ No subroom connections defined.
 
 **Game ID:** Ant_20
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - left entrance
@@ -3531,6 +3738,8 @@ No subroom connections defined.
 
 **Game ID:** Ant_02
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - before door
@@ -3564,6 +3773,8 @@ No subroom connections defined.
 
 **Game ID:** Ant_03
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - flea rescue area
@@ -3595,6 +3806,8 @@ No subroom connections defined.
 ### Hunter's March Early Pathway West (Ant_04_left)
 
 **Game ID:** Ant_04_left
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3635,6 +3848,8 @@ No subroom connections defined.
 
 **Game ID:** Ant_04_mid
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - left exit area
@@ -3670,6 +3885,8 @@ No subroom connections defined.
 ### Hunter's March Early Pathway East (Ant_04)
 
 **Game ID:** Ant_04
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3726,6 +3943,8 @@ No subroom connections defined.
 
 **Game ID:** Ant_14
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - L4 exit platform
@@ -3772,6 +3991,8 @@ No check locations defined.
 
 **Game ID:** Ant_17
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -3796,6 +4017,8 @@ No subroom connections defined.
 ### Hunter's March Skarr Shop (Ant_Merchant)
 
 **Game ID:** Ant_Merchant
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3829,6 +4052,8 @@ No subroom connections defined.
 ### Hunter's March Treasure Vault (Ant_21)
 
 **Game ID:** Ant_21
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3864,6 +4089,8 @@ No subroom connections defined.
 
 **Game ID:** Ant_05c
 
+**Contributors:** herounit
+
 #### Subrooms
 
 - statue area
@@ -3890,6 +4117,8 @@ No check locations defined.
 ### Hunter's March Deep Docks Passage (Ant_05b)
 
 **Game ID:** Ant_05b
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -3928,6 +4157,8 @@ No check locations defined.
 
 **Game ID:** Ant_09
 
+**Contributors:** herounit
+
 #### Subrooms
 
 No subrooms defined.
@@ -3963,6 +4194,8 @@ No check locations defined.
 
 **Game ID:** Song_01c
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -3985,6 +4218,8 @@ No check locations defined.
 ### Grand Gate Courtroom (Song_19_entrance)
 
 **Game ID:** Song_19_entrance
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4012,6 +4247,8 @@ No subroom connections defined.
 ### Grand Elevator (Under_01)
 
 **Game ID:** Under_01
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4043,6 +4280,8 @@ No check locations defined.
 
 **Game ID:** Under_01b
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4065,6 +4304,8 @@ No check locations defined.
 ### Confession Toll (Under_08)
 
 **Game ID:** Under_08
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4104,6 +4345,8 @@ No check locations defined.
 
 **Game ID:** Under_06
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Center
@@ -4135,6 +4378,8 @@ No check locations defined.
 
 **Game ID:** Under_16
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4159,6 +4404,8 @@ No subroom connections defined.
 ### Underworks Outside Choral Chambers (Under_07c)
 
 **Game ID:** Under_07c
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4188,6 +4435,8 @@ No subroom connections defined.
 ### Underworks Shaft (Under_02)
 
 **Game ID:** Under_02
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4231,6 +4480,8 @@ No check locations defined.
 
 **Game ID:** Under_07
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4256,6 +4507,8 @@ No subroom connections defined.
 ### Underworks Central Shaft (Under_05)
 
 **Game ID:** Under_05
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4293,6 +4546,8 @@ No check locations defined.
 
 **Game ID:** Under_04
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4319,6 +4574,8 @@ No subroom connections defined.
 
 **Game ID:** Under_14
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4343,6 +4600,8 @@ No subroom connections defined.
 
 **Game ID:** Under_03d
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4364,6 +4623,8 @@ No check locations defined.
 ### Underworks Saw Intro (Under_03b)
 
 **Game ID:** Under_03b
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4393,6 +4654,8 @@ No check locations defined.
 ### Underworks Saw Shaft (Under_03c)
 
 **Game ID:** Under_03c
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4425,6 +4688,8 @@ No check locations defined.
 
 **Game ID:** Under_03
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4448,6 +4713,8 @@ No subroom connections defined.
 ### Underworks Wisp Thicket Passage (Under_23)
 
 **Game ID:** Under_23
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4477,6 +4744,8 @@ No subroom connections defined.
 
 **Game ID:** Wisp_07
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4500,6 +4769,8 @@ No subroom connections defined.
 ### Wisp Thicket Shaft (Wisp_08)
 
 **Game ID:** Wisp_08
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4530,6 +4801,8 @@ No subroom connections defined.
 ### Wisp Thicket Bench (Wisp_04)
 
 **Game ID:** Wisp_04
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4566,6 +4839,8 @@ No check locations defined.
 
 **Game ID:** Wisp_02
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4592,6 +4867,8 @@ No subroom connections defined.
 
 **Game ID:** Belltown_08
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4616,6 +4893,8 @@ No subroom connections defined.
 ### Wisp Thicket Secret Path (Wisp_05)
 
 **Game ID:** Wisp_05
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4645,6 +4924,8 @@ No subroom connections defined.
 ### Wisp Thicket Cave (Wisp_09)
 
 **Game ID:** Wisp_09
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4679,6 +4960,35 @@ No subroom connections defined.
 
 ## The Slab
 
+### Slab Bridge (Slab_01)
+
+**Game ID:** Slab_01
+
+**Contributors:** samupo
+
+#### Subrooms
+
+- Left
+- Right
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Left | TODO |  | none |  |  |  |
+| R | right1 | Right | [Choral Chambers Outside Spa (Song_04)](#choral-chambers-outside-spa-song04) | L | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| H | Horizontal | Left | Right | cling grip or ledge grab or faydown cloak or clawline |  | Verified | You can jump off of the left obstacle and use clawline twice, this cannot be done from the other side |
+| H | Horizontal | Right | Left | cling grip or ledge grab or faydown cloak |  | Verified |  |
+
+#### Check Locations
+
+No check locations defined.
+
 ## Sands of Karak
 
 ## Mount Fay
@@ -4688,6 +4998,8 @@ No subroom connections defined.
 ### Choral Chambers Spa (Song_10)
 
 **Game ID:** Song_10
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4715,6 +5027,8 @@ No check locations defined.
 ### Choral Chambers Outside Spa (Song_04)
 
 **Game ID:** Song_04
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4749,36 +5063,11 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Heavy Rosary Necklace: Choral Chambers | Base | cling grip or silk soar |  |  | Included | Secret hidden by breaking the ceiling |
 
-### Slab Bridge (Slab_01)
-
-**Game ID:** Slab_01
-
-#### Subrooms
-
-- Left
-- Right
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left | TODO |  | none |  |  |  |
-| R | right1 | Right | [Choral Chambers Outside Spa (Song_04)](#choral-chambers-outside-spa-song04) | L | none |  |  |  |
-
-#### Subroom Connections
-
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | cling grip or ledge grab or faydown cloak or clawline |  | Verified | You can jump off of the left obstacle and use clawline twice, this cannot be done from the other side |
-| H | Horizontal | Right | Left | cling grip or ledge grab or faydown cloak |  | Verified |  |
-
-#### Check Locations
-
-No check locations defined.
-
 ### Choral Chambers Western Shaft (Song_12)
 
 **Game ID:** Song_12
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4826,6 +5115,8 @@ No check locations defined.
 
 **Game ID:** Song_28
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4847,6 +5138,8 @@ No check locations defined.
 ### Choral Chambers Cogheart Room (Song_26)
 
 **Game ID:** Song_26
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4870,6 +5163,8 @@ No check locations defined.
 
 **Game ID:** Song_08
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4891,6 +5186,8 @@ No check locations defined.
 ### Choral Chambers Flea Room (Song_14)
 
 **Game ID:** Song_14
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4916,6 +5213,8 @@ No subroom connections defined.
 
 **Game ID:** Song_13
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -4938,6 +5237,8 @@ No check locations defined.
 ### Choral Chambers Maintenance Tunnel (Song_15)
 
 **Game ID:** Song_15
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -4969,6 +5270,8 @@ No check locations defined.
 ### Choral Chambers Flea Shaft (Song_11)
 
 **Game ID:** Song_11
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5023,6 +5326,8 @@ No check locations defined.
 
 **Game ID:** Hang_07
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -5033,7 +5338,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Choral Chambers Flea Shaft (Song_11)](#choral-chambers-flea-shaft-song11) | S3R | one way entrance, opens from the other side |  | Verified | one way entrance, opens from the other side |
 | R | right1 |  | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | L | none |  | Verified |  |
-| B | bot1 |  | TODO |  | none |  | Verified |  |
+| B | bot1 |  | [Choral Chambers Over Dininig (Song_09)](#choral-chambers-over-dininig-song09) | T | none |  | Verified |  |
 | T | top1 |  | TODO |  | one way entrance, opens from the other side |  | Verified | one way entrance, opens from the other side |
 
 #### Subroom Connections
@@ -5047,6 +5352,8 @@ No check locations defined.
 ### Corridor to High Halls (Song_17)
 
 **Game ID:** Song_17
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5070,6 +5377,8 @@ No check locations defined.
 ### Choral Chambers Over Dininig (Song_09)
 
 **Game ID:** Song_09
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5106,6 +5415,8 @@ No check locations defined.
 
 **Game ID:** Song_09b
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Diner
@@ -5133,6 +5444,8 @@ No check locations defined.
 ### Choral Chambers Eastern Shaft (Song_05)
 
 **Game ID:** Song_05
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5171,6 +5484,8 @@ No check locations defined.
 
 **Game ID:** Song_07
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -5194,6 +5509,8 @@ No subroom connections defined.
 ### Choral Chambers Below Dining (Song_18)
 
 **Game ID:** Song_18
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5222,6 +5539,8 @@ No check locations defined.
 
 **Game ID:** Song_02
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Left
@@ -5249,6 +5568,8 @@ No check locations defined.
 
 **Game ID:** Song_03
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Top
@@ -5275,6 +5596,8 @@ No check locations defined.
 ### Choral Chambers Ventrica Room (Song_01b)
 
 **Game ID:** Song_01b
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5309,6 +5632,8 @@ No check locations defined.
 ### Choral Chambers Below Ventrica (Song_01)
 
 **Game ID:** Song_01
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5357,6 +5682,8 @@ No check locations defined.
 
 **Game ID:** Under_07b
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -5365,7 +5692,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 |  | TODO |  | Only opened from the other side |  |  |  |
+| B | bot1 |  | [Underworks Outside Choral Chambers (Under_07c)](#underworks-outside-choral-chambers-under07c) | T | Only opened from the other side |  |  |  |
 | L | left1 |  | [Choral Chambers Below Ventrica (Song_01)](#choral-chambers-below-ventrica-song01) | R | none |  |  |  |
 
 #### Subroom Connections
@@ -5380,6 +5707,8 @@ No check locations defined.
 
 **Game ID:** Song_Enclave
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Base
@@ -5389,11 +5718,11 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left2 | Base | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | TP | none |  | Verified |  |
+| BL | left2 | Base | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | TR | none |  | Verified |  |
 | TL | left1 | Top Platform | [Memorium Entrance Tunnel (Song_25)](#memorium-entrance-tunnel-song25) | R | none |  | Verified |  |
-| B | bot1 | Base | TODO |  | none |  | Verified |  |
 | T | top1 | Top Platform | [Songclave Tube (Song_Enclave_Tube)](#songclave-tube-songenclavetube) | B | none |  | Verified |  |
 | D | door1 | Base | TODO |  | none |  | Verified |  |
+| B | bot1 | Base | TODO |  | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5412,6 +5741,8 @@ No check locations defined.
 
 **Game ID:** Song_Enclave_Tube
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -5421,7 +5752,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 |  | [Songclave (Song_Enclave)](#songclave-songenclave) | T | none |  |  |  |
-| V | door_tubeEnter |  | TODO |  | ventrica | TODO |  | ventrica, repeat for each possible exit |
+| V | door_tubeEnter |  | [Ventrica Menu](#ventrica-menu) | FS | ventrica | TODO |  | ventrica, repeat for each possible exit |
 
 #### Subroom Connections
 
@@ -5437,6 +5768,8 @@ No subroom connections defined.
 
 **Game ID:** Song_25
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Base
@@ -5450,7 +5783,7 @@ No subroom connections defined.
 | L | left1 | Base | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | R | none |  | Verified |  |
 | T | top1 | Base | TODO |  | (silk soar or faydown cloak) and breaking wall |  | Verified |  |
 | R | right1 | Base | [Songclave (Song_Enclave)](#songclave-songenclave) | TL | none |  | Verified |  |
-| B | bot1 | Base | TODO |  | none |  | Verified |  |
+| B | bot1 | Base | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | T | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5467,6 +5800,8 @@ No check locations defined.
 
 **Game ID:** Library_02
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Top
@@ -5478,10 +5813,10 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left1 | Top | TODO |  |  |  |  |  |
-| TL | left2 |  | TODO |  |  |  |  |  |
-| BR | right1 |  | TODO |  |  |  |  |  |
-| TR | right2 | Top | [Songclave (Song_Enclave)](#songclave-songenclave) | BL |  |  |  |  |
+| BL | left1 | Top | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | RH |  | TODO |  |  |
+| TL | left2 |  | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | R1 |  | TODO |  |  |
+| BR | right1 |  | TODO |  |  | TODO |  |  |
+| TR | right2 | Top | [Songclave (Song_Enclave)](#songclave-songenclave) | BL |  | TODO |  |  |
 
 #### Subroom Connections
 
@@ -5495,6 +5830,8 @@ No check locations defined.
 
 **Game ID:** Song_20b
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Top Platform
@@ -5507,9 +5844,9 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Top Platform | [Memorium Entrance Tunnel (Song_25)](#memorium-entrance-tunnel-song25) | B | none |  | Verified |  |
-| L1 | left2 | Central Area | TODO |  | ledge grab or dash or faydown cloak or clawline or sharpdart or drifter's cloak or silk soar or enemy pogo |  | Verified |  |
+| L1 | left2 | Central Area | [Songclave Silk Shop (Song_29)](#songclave-silk-shop-song29) | R | ledge grab or dash or faydown cloak or clawline or sharpdart or drifter's cloak or silk soar or enemy pogo |  | Verified |  |
 | R1 | right2 | Central Area | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | TL | none |  | Verified |  |
-| B | bot1 | Bottom Area | TODO |  | none |  | Verified |  |
+| B | bot1 | Bottom Area | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | T | none |  | Verified |  |
 | RH | right3 | Horizontal Tunnel | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | BL | none |  | Verified | both sides have levers making the tunnel horizontal |
 | LH | left4 | Horizontal Tunnel | TODO |  | none |  | Verified | both sides have levers making the tunnel horizontal |
 
@@ -5528,6 +5865,8 @@ No check locations defined.
 ### Songclave Silk Shop (Song_29)
 
 **Game ID:** Song_29
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5551,6 +5890,8 @@ No check locations defined.
 
 **Game ID:** Song_20
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Top
@@ -5564,11 +5905,11 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Upper Left | TODO |  | none |  |  |  |
+| UL | left1 | Upper Left | [Choral Chambers East to West (Song_27)](#choral-chambers-east-to-west-song27) | R | none |  |  |  |
 | T | top1 | Top | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | B | none |  |  |  |
-| UR | right4 | Upper Right | TODO |  | none |  |  |  |
+| UR | right4 | Upper Right | [Grand Bellway Library (Library_03)](#grand-bellway-library-library03) | L | none |  |  |  |
 | RS | right5 | Right Stage | TODO |  | none |  |  |  |
-| BR | right6 | Bottom Right | TODO |  | none |  |  |  |
+| BR | right6 | Bottom Right | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | L | none |  |  |  |
 | BL | left2 | Bottom Left | [Grand Bellway Side Room (Song_24)](#grand-bellway-side-room-song24) | R | none |  |  |  |
 
 #### Subroom Connections
@@ -5595,6 +5936,8 @@ No check locations defined.
 
 **Game ID:** Song_24
 
+**Contributors:** samupo
+
 #### Subrooms
 
 No subrooms defined.
@@ -5619,6 +5962,8 @@ No subroom connections defined.
 
 **Game ID:** Bellway_City
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Base
@@ -5630,8 +5975,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Secret Tunnel | TODO |  |  | TODO |  |  |
 | L | left1 | Base | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | BR | none |  | Verified |  |
-| BW | door_fastTravelExit | Base | [Bellway Menu](#bellway-menu) |  | rosaries | TODO |  |  |
-| VT | door_tubeEnter | Base | [Ventrica Menu](#ventrica-menu) |  | rosaries | TODO |  |  |
+| BW | door_fastTravelExit | Base | [Bellway Menu](#bellway-menu) | GB | rosaries | TODO |  |  |
+| VT | door_tubeEnter | Base | [Ventrica Menu](#ventrica-menu) | GB | rosaries | TODO |  |  |
 
 #### Subroom Connections
 
@@ -5651,6 +5996,8 @@ No subroom connections defined.
 ### Grand Bellway Library (Library_03)
 
 **Game ID:** Library_03
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5680,6 +6027,8 @@ No subroom connections defined.
 
 **Game ID:** Song_27
 
+**Contributors:** samupo
+
 #### Subrooms
 
 - Left Side
@@ -5690,7 +6039,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Left Side | [Choral Chambers Below Dining (Song_18)](#choral-chambers-below-dining-song18) | B | One way, can't be used at all from this side even if you entered from it! | TODO |  | One way, can't be used at all from this side even if you entered from it! |
-| R | right1 | Right Side | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | UL |  |  |  |  |
+| R | right1 | Right Side | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | UL |  | TODO |  |  |
 | L | left1 | Left Side | [Choral Chambers Eastern Shaft (Song_05)](#choral-chambers-eastern-shaft-song05) | R2 | none |  |  | one way door |
 
 #### Subroom Connections
@@ -5715,6 +6064,8 @@ Door on the east can be only opened from the west
 ### Cog Dancers (Cog_Dancers)
 
 **Game ID:** Cog_Dancers
+
+**Contributors:** samupo
 
 #### Subrooms
 
@@ -5789,7 +6140,7 @@ No subrooms defined.
 | SW | shellwood |  | TODO |  |  | TODO |  |  |
 | BS | blasted steps |  | TODO |  |  | TODO |  |  |
 | TS | the slab |  | TODO |  |  | TODO |  |  |
-| GB | grand bellway |  | TODO |  |  | TODO |  |  |
+| GB | grand bellway |  | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | BW |  | TODO |  |  |
 | BW | bilewater |  | TODO |  |  | TODO |  |  |
 | PD | putrified ducts |  | TODO |  |  | TODO |  |  |
 
@@ -5818,9 +6169,9 @@ No subrooms defined.
 | T | terminus |  | TODO |  |  | TODO |  |  |
 | M | memorium |  | TODO |  |  | TODO |  |  |
 | HH | high halls |  | TODO |  |  | TODO |  |  |
-| FS | first shrine |  | TODO |  |  | TODO |  |  |
-| CC | choral chambers |  | TODO |  |  | TODO |  |  |
-| GB | grand bellway |  | TODO |  |  | TODO |  |  |
+| FS | first shrine |  | [Songclave Tube (Song_Enclave_Tube)](#songclave-tube-songenclavetube) | V |  | TODO |  |  |
+| CC | choral chambers |  | [Choral Chambers Ventrica Room (Song_01b)](#choral-chambers-ventrica-room-song01b) | V |  | TODO |  |  |
+| GB | grand bellway |  | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | VT |  | TODO |  |  |
 | UW | underworks |  | TODO |  |  | TODO |  |  |
 
 #### Subroom Connections

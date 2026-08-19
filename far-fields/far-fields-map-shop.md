@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_21
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

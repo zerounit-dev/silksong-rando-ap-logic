@@ -2,6 +2,8 @@
 
 **Game ID:** Bellshrine_05
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.

@@ -2,6 +2,8 @@
 
 **Game ID:** Bone_East_10_Church
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - main floor
