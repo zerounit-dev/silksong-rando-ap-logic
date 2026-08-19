@@ -15,9 +15,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 |  | [Far Fields Pinstress Attic (Bone_East_09b)](far-fields-pinstress-attic.md) | F | blocked from other side by blast rock |  |  |  |
 | UL | left3 | upper left platform | [Far Fields Pinstress Mask Shard (Bone_East_20)](far-fields-pinstress-mask-shard.md) | R |  |  |  |  |
-| LR | right2 |  | TODO |  |  |  |  |  |
+| LR | right2 |  | [Bone_East_14 (Bone_East_14)](bone-east-14.md) | LL |  |  |  |  |
 | LL | left2 |  | [Far Fields Chorus (Bone_East_08)](far-fields-chorus.md) | R |  |  |  |  |
-| UR | right1 |  | TODO |  |  |  |  |  |
+| UR | right1 |  | [Bone_East_14 (Bone_East_14)](bone-east-14.md) | UL |  |  |  |  |
 | D | door1 |  | TODO |  |  |  |  |  |
 
 ## Subroom Connections

@@ -41,3 +41,4 @@
 | map bench pins | main area |  |  |  | Included | shakra's shop |
 | map bellway pins | main area |  |  |  | Included | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
 | mosshome middle door switch | behind gate | none |  |  | Not included |  |
+| volatile flintbeetle 2 | main area | none | TODO |  | Included | this one swaps position based on when [GAME STATE] - wiki says when the shortcut after bellshrine is opened |

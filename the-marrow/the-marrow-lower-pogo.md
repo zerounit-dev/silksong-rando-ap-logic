@@ -14,7 +14,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left |  | [The Marrow Mr Burns House (Bone_14)](the-marrow-mr-burns-house.md) | R | none |  |  |  |
 | UR | upper right |  | [The Marrow Jail Pathway (Bone_08)](the-marrow-jail-pathway.md) | UL | none |  |  |  |
-| LR | upper left |  | [The Marrow Jail Pathway (Bone_08)](the-marrow-jail-pathway.md) | LL | none |  |  |  |
+| LR | lower right |  | [The Marrow Jail Pathway (Bone_08)](the-marrow-jail-pathway.md) | LL | none |  |  |  |
 | C | ceiling |  | [The Marrow Upper Pogo (Bone_19)](the-marrow-upper-pogo.md) | F | none |  |  |  |
 
 ## Subroom Connections
@@ -27,3 +27,4 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | craft metal |  | none |  |  | Included |  |
 | shell shard cache the marrow 4 |  | none |  |  | Included | MARKED AS ??? ON TRACKER |
+| volatile flintbeetle 3 |  | none |  |  | Included | this one has a stable position |

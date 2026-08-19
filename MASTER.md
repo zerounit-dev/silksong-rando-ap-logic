@@ -1049,6 +1049,7 @@ No subroom connections defined.
 | shell shard cache the marrow 1 | before gauntlet | none |  |  | Included |  |
 | rosary cache the marrow 1 | after gauntlet | none |  |  | Included |  |
 | rosary cache the marrow 2 | after gauntlet | none |  |  | Included |  |
+| volatile flintbeetle 1 | before gauntlet | none |  |  | Included | stable position |
 | door switch | after gauntlet | none |  |  | Not included |  |
 
 ### The Marrow Bell Bench (Bone_01c)
@@ -1301,6 +1302,7 @@ No subroom connections defined.
 | map bench pins | main area |  |  |  | Included | shakra's shop |
 | map bellway pins | main area |  |  |  | Included | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
 | mosshome middle door switch | behind gate | none |  |  | Not included |  |
+| volatile flintbeetle 2 | main area | none | TODO |  | Included | this one swaps position based on when [GAME STATE] - wiki says when the shortcut after bellshrine is opened |
 
 ### The Marrow Bellway (Bone_05)
 
@@ -1392,6 +1394,7 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | flea the marrow |  | none |  |  | Included |  |
+| volatile flintbeetle 2 |  | none |  |  | Included | this one swaps position based on when [GAME STATE] - wiki says when the shortcut after bellshrine is opened |
 
 ### The Marrow Skull Wall Side Room (Bone_18)
 
@@ -1470,7 +1473,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left |  | [The Marrow Mr Burns House (Bone_14)](#the-marrow-mr-burns-house-bone14) | R | none |  |  |  |
 | UR | upper right |  | [The Marrow Jail Pathway (Bone_08)](#the-marrow-jail-pathway-bone08) | UL | none |  |  |  |
-| LR | upper left |  | [The Marrow Jail Pathway (Bone_08)](#the-marrow-jail-pathway-bone08) | LL | none |  |  |  |
+| LR | lower right |  | [The Marrow Jail Pathway (Bone_08)](#the-marrow-jail-pathway-bone08) | LL | none |  |  |  |
 | C | ceiling |  | [The Marrow Upper Pogo (Bone_19)](#the-marrow-upper-pogo-bone19) | F | none |  |  |  |
 
 #### Subroom Connections
@@ -1483,6 +1486,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | craft metal |  | none |  |  | Included |  |
 | shell shard cache the marrow 4 |  | none |  |  | Included | MARKED AS ??? ON TRACKER |
+| volatile flintbeetle 3 |  | none |  |  | Included | this one has a stable position |
 
 ### The Marrow Upper Pogo (Bone_19)
 
@@ -3011,6 +3015,84 @@ No check locations defined.
 
 ## Far Fields
 
+### Bone_East_11 (Bone_East_11)
+
+**Game ID:** Bone_East_11
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C | top1 |  | TODO |  |  |  |  |  |
+| LR | right2 |  | [Far Fields Pilgrim's Rest (Bone_East_10)](#far-fields-pilgrims-rest-boneeast10) | UL |  |  |  |  |
+| F | bot1 |  | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | C |  |  |  |  |
+| UR | right1 |  | TODO |  |  |  |  |  |
+| L | left1 |  | [Hunter's March Deep Entrance (Ant_09)](#hunters-march-deep-entrance-ant09) | R |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Bone_East_14 (Bone_East_14)
+
+**Game ID:** Bone_East_14
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UR | right1 |  | [Far Fields East Skull Room (Bone_East_14b)](#far-fields-east-skull-room-boneeast14b) | UL |  |  |  |  |
+| LR | right2 |  | [Far Fields East Skull Room (Bone_East_14b)](#far-fields-east-skull-room-boneeast14b) | LL |  |  |  |  |
+| LL | left2 |  | [Far Fields Pinstress Room (Bone_East_09)](#far-fields-pinstress-room-boneeast09) | LR |  |  |  |  |
+| UL | left1 |  | [Far Fields Pinstress Room (Bone_East_09)](#far-fields-pinstress-room-boneeast09) | UR |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Collectable Item Pickup |  |  |  |  | Included |  |
+
+### Far Fields East Skull Room (Bone_East_14b)
+
+**Game ID:** Bone_East_14b
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | left2 |  | [Bone_East_14 (Bone_East_14)](#boneeast14-boneeast14) | LR |  |  |  |  |
+| UL | left1 |  | [Bone_East_14 (Bone_East_14)](#boneeast14-boneeast14) | UR |  |  |  |  |
+| D | door1 |  | [Far Fields Lava Challenge (Bone_East_LavaChallenge)](#far-fields-lava-challenge-boneeastlavachallenge) | L |  |  |  |  |
+| R | right1 |  | [Weavenest Cindril Entrance (Bone_East_Weavehome)](#weavenest-cindril-entrance-boneeastweavehome) | L |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
 ### Far Fields Entrance East (Bone_East_02)
 
 **Game ID:** Bone_East_02
@@ -3194,7 +3276,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 |  | TODO |  |  |  |  |  |
+| C | top1 |  | [Bone_East_11 (Bone_East_11)](#boneeast11-boneeast11) | F |  |  |  |  |
 | R1 | right1 |  | [Far Fields Pilgrim's Rest (Bone_East_10)](#far-fields-pilgrims-rest-boneeast10) | LL |  |  |  |  |
 | R4 | right4 |  | [Far Fields Target Practice (Bone_East_22)](#far-fields-target-practice-boneeast22) | L |  |  |  |  |
 | R2 | right2 |  | [Far Fields Bellway (Bellway_03)](#far-fields-bellway-bellway03) | L |  |  |  |  |
@@ -3234,7 +3316,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | upper left exit | TODO |  | none |  | Verified |  |
+| UL | left1 | upper left exit | [Bone_East_11 (Bone_East_11)](#boneeast11-boneeast11) | LR | none |  | Verified |  |
 | LL | left2 | main floor | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | R1 | none |  | Verified |  |
 | D | door1 | main floor | TODO |  | none (rosary gated) |  | Verified |  |
 | UR | right1 | upper right exit | TODO |  | must be opened from other side |  | Verified |  |
@@ -3412,9 +3494,9 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 |  | [Far Fields Pinstress Attic (Bone_East_09b)](#far-fields-pinstress-attic-boneeast09b) | F | blocked from other side by blast rock |  |  |  |
 | UL | left3 | upper left platform | [Far Fields Pinstress Mask Shard (Bone_East_20)](#far-fields-pinstress-mask-shard-boneeast20) | R |  |  |  |  |
-| LR | right2 |  | TODO |  |  |  |  |  |
+| LR | right2 |  | [Bone_East_14 (Bone_East_14)](#boneeast14-boneeast14) | LL |  |  |  |  |
 | LL | left2 |  | [Far Fields Chorus (Bone_East_08)](#far-fields-chorus-boneeast08) | R |  |  |  |  |
-| UR | right1 |  | TODO |  |  |  |  |  |
+| UR | right1 |  | [Bone_East_14 (Bone_East_14)](#boneeast14-boneeast14) | UL |  |  |  |  |
 | D | door1 |  | TODO |  |  |  |  |  |
 
 #### Subroom Connections
@@ -3458,6 +3540,33 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak | TODO | Needs verification | Included | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
 | random silk | left side | none |  | Verified | Not included | NOT YET RANDOMIZED |
+
+### Far Fields Lava Challenge (Bone_East_LavaChallenge)
+
+**Game ID:** Bone_East_LavaChallenge
+
+**Contributors:** herounit
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Far Fields East Skull Room (Bone_East_14b)](#far-fields-east-skull-room-boneeast14b) | D |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| shell shard cache far fields 8 |  |  | TODO |  | Included |  |
+| mask shard far fields skull cave |  |  | TODO |  | Included |  |
 
 ### Far Fields Target Practice (Bone_East_22)
 
@@ -3641,7 +3750,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | entrance | TODO |  | needolin |  |  |  |
+| L | left1 | entrance | [Far Fields East Skull Room (Bone_East_14b)](#far-fields-east-skull-room-boneeast14b) | R | needolin |  |  |  |
 
 #### Subroom Connections
 
@@ -4168,7 +4277,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Hunter's March Statue (Ant_05c)](#hunters-march-statue-ant05c) | R |  |  |  |  |
-| R | right1 |  | TODO |  |  |  |  |  |
+| R | right1 |  | [Bone_East_11 (Bone_East_11)](#boneeast11-boneeast11) | L |  |  |  |  |
 
 #### Subroom Connections
 
@@ -4183,6 +4292,30 @@ No check locations defined.
 ## Bellhart
 
 ## Greymoor
+
+### Greymoor Bone Scroll Room (Greymoor_21)
+
+**Game ID:** Greymoor_21
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T | top |  | greymoor lower halfway home path | D | Ledge grab OR faydown cloack OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
 
 ## Verdania
 
@@ -4956,7 +5089,495 @@ No subroom connections defined.
 
 ## Sinner's Road
 
+### Sinner's Road Bench (Dust_10)
+
+**Game ID:** Dust_10
+
+**Contributors:** herchey
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Sinner's Road Vertical Hall West (Dust_02)](#sinners-road-vertical-hall-west-dust02) | ML | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rosary Cache: Sinner’s Road #8 |  | Silk soar OR (Faywing cloak AND cling grip) |  |  | Included |  |
+| Map Purchase: Sinner's Road |  | Silk Soar OR (crest pogo AND (swim OR ledge grab)) |  |  | Included |  |
+
+### Sinner's Road Chef's Kitchen (Dust_Chef)
+
+**Game ID:** Dust_Chef
+
+**Contributors:** herchey
+
+#### Subrooms
+
+- lower
+- upper
+- basement
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left | lower | [Sinner's Road Hanging Cages (Dust_04)](#sinners-road-hanging-cages-dust04) | R | none |  |  |  |
+| H | hatch | basement | [Sinner's Road Muckroach Cages (Dust_03)](#sinners-road-muckroach-cages-dust03) | C | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LU | lower to upper | lower | upper | faydown cloak OR silk soar |  |  |  |
+| LU | lower to upper | upper | lower | none |  |  |  |
+| BL | basement to lower | basement | lower | scuttlebrace OR cling grip OR silk soar |  |  |  |
+| BL | basement to lower | lower | basement | none (IMPOSSIBLE!!!) |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boss: Disgraced Chef Lugoli | upper | Silk soar OR faydown cloak |  |  | Included |  |
+
+### Sinner's Road Entrance (Dust_01)
+
+**Game ID:** Dust_01
+
+**Contributors:** herchey
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | TODO |  | ledge grab | TODO |  |  |
+| R | right |  | [Sinner's Road Vertical Hall West (Dust_02)](#sinners-road-vertical-hall-west-dust02) | LL | ledge grab |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Frayed Rosary String: Sinner's Road |  | left attack |  |  | Included |  |
+
+### Sinner's Road Flea Rescue (Dust_12)
+
+**Game ID:** Dust_12
+
+**Contributors:** herchey
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | MR | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Flea: Sinner's Road |  | left attack |  |  | Included |  |
+
+### Sinner's Road Hanging Cages (Dust_04)
+
+**Game ID:** Dust_04
+
+**Contributors:** herchey
+
+#### Subrooms
+
+- lower entry
+- right ledge
+- shard ledge
+- upper entry
+- shack
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | lower left | lower entry | [Sinner's Road Vertical Hall West (Dust_02)](#sinners-road-vertical-hall-west-dust02) | MR | none |  |  |  |
+| R | right | right ledge | [Sinner's Road Chef's Kitchen (Dust_Chef)](#sinners-road-chefs-kitchen-dustchef) | L | none |  |  |  |
+| UL | upper left | upper entry | [Sinner's Road Vertical Hall West (Dust_02)](#sinners-road-vertical-hall-west-dust02) | UR | none |  |  |  |
+| S | shack | shack | [Sinner's Road Shack (dust_shack)](#sinners-road-shack-dustshack) | L | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RSL | right ledge to shard ledge | right ledge | shard ledge | Faydown cloak OR silk soar OR (cling grip AND crest pogo AND (clawline OR sharpdart)) |  |  |  |
+| RSL | right ledge to shard ledge | shard ledge | right ledge | none |  |  |  |
+| UES | upper entry to shack | upper entry | shack | Clawline OR ((Cling grip OR silk soar) AND crest pogo AND (drifter’s cloak OR sharpdart)) |  |  |  |
+| UES | upper entry to shack | shack | upper entry | Run AND (faydown cloak OR clawline OR sharpdart) |  |  |  |
+| RLS | right ledge to shack | right ledge | shack | silk soar |  |  |  |
+| RLS | right ledge to shack | shack | right ledge | none |  |  |  |
+| LRL | lower entry to right ledge | lower entry | right ledge | Clawline OR (crest pogo AND (cling grip OR ledge grab OR silk soar OR hunter’s crest OR beast crest OR architect’s crest OR shaman’s crest OR reaper’s crest)) |  |  |  |
+| LRL | lower entry to right ledge | right ledge | lower entry | Crest pogo OR swim OR clawline |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wish: My Missing Brother | upper entry | Complete My Missing Courier Wish |  |  | Included |  |
+| Shell Shard Cache: Sinner’s Road #4 | shard ledge | none |  |  | Included |  |
+| Shell Shard Cache: Sinner’s Road #5 | shard ledge | none |  |  | Included |  |
+
+### Sinner's Road Muckroach Cages (Dust_03)
+
+**Game ID:** Dust_03
+
+**Contributors:** herchey
+
+#### Subrooms
+
+- left half
+- right half
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](#sinners-road-chefs-kitchen-dustchef) | H | (faydown cloak AND cling grip) OR silk soar |  |  |  |
+| LR | lower right | right half | [Sinner's Road Spike Basement (Dust_Barb)](#sinners-road-spike-basement-dustbarb) | C | none |  |  |  |
+| L | left | left half | [Sinner's Road Vertical Hall West (Dust_02)](#sinners-road-vertical-hall-west-dust02) | LR | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LR | left to right | left half | right half | none |  |  |  |
+| LR | left to right | right half | left half | Cling grip OR ledge grab OR silk soar OR dash OR crest pogo OR faydown cloak |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Shell Shard Cache: Sinner’s Road #1 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak | TODO |  | Included | Check subroom |
+| Shell Shard Cache: Sinner’s Road #2 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak | TODO |  | Included |  |
+| Shell Shard Cache: Sinner’s Road #3 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak | TODO |  | Included |  |
+| Rosary Cache: Sinner’s Road #4 | left half | Ledge grab OR silk soar OR faydown cloak OR scuttlebrace | TODO |  | Included |  |
+
+### Sinner's Road North Hall (Dust_05)
+
+**Game ID:** Dust_05
+
+**Contributors:** herchey
+
+#### Subrooms
+
+- behind left wall
+- left area
+- middle area
+- right door platform
+- hatch
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left | behind left wall | TODO |  | none |  |  |  |
+| C | center | hatch | [Sinner's Road Vertical Hall West (Dust_02)](#sinners-road-vertical-hall-west-dust02) | C | none |  |  |  |
+| R | right | right door platform | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | L | faydown cloak OR (crest pogo AND drifter’s cloak) OR (clawline AND (ledge grab OR cling grip) |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LWL | Behind left wall to left area | behind left wall | left area | right attack |  |  |  |
+| LWL | Behind left wall to left area | left area | behind left wall | Left attack AND (Silk soar OR faydown cloak OR cling grip OR scuttlebrace) |  |  |  |
+| LAM | Left area to middle area | left area | middle area | clawline OR crest pogo OR (sharpdart AND 12 silk AND (drifter’s cloak OR faydown cloak)) OR (drifter’s cloak AND ((cling grip AND ledge grab) OR faydown cloak)) OR (swim and ledge grab) |  |  |  |
+| LAM | Left area to middle area | middle area | left area | clawline OR crest pogo OR (sharpdart AND (drifter’s cloak OR faydown cloak)) OR (drifter’s cloak AND faydown cloak) OR (swim and (ledge grab OR cling grip)) |  |  |  |
+| MAH | Middle area to hatch | middle area | hatch | none |  |  | Technically "any attack" is the requirement |
+| MAH | Middle area to hatch | hatch | middle area | Ledge grab OR cling grip OR faydown cloak OR silk soar |  |  |  |
+| MAR | Middle area to right door platform | middle area | right door platform | (swim AND faydown cloak) OR (clawline AND (drifter’s cloak OR sharpdart OR rest pogo)) OR (drifter’s cloak AND (sharpdart OR crest pogo)) OR (sharpdart AND crest pogo) |  |  |  |
+| MAR | Middle area to right door platform | right door platform | middle area | Crest pogo OR swim OR (drifter’s cloak AND (run OR dash OR ledge grab OR sharpdart OR clawline OR faydown cloak)) OR (run AND (faydown cloak OR sharpdart OR clawline)) |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Shell Shard Cache: Sinner’s Road #6 |  |  |  |  | Included |  |
+| Shell Shard Cache: Sinner’s Road #7 |  |  |  |  | Included |  |
+
+### Sinner's Road Spike Basement (Dust_Barb)
+
+**Game ID:** Dust_Barb
+
+**Contributors:** herchey
+
+#### Subrooms
+
+- upper
+- lower
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C | ceiling | upper | [Sinner's Road Muckroach Cages (Dust_03)](#sinners-road-muckroach-cages-dust03) | LR | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UL | Upper to lower | upper | lower | none |  |  |  |
+| UL | Upper to lower | lower | upper | Silk soar OR cling grip |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Barbed Bracelet | lower | none |  |  | Included |  |
+
+### Sinner's Road Styx Room (Dust_11)
+
+**Game ID:** Dust_11
+
+**Contributors:** herchey
+
+#### Subrooms
+
+- left
+- right
+- cage
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left | left | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | LR | none |  |  |  |
+| B | basement | cage | TODO |  | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LR | left to right | left | right | (Swim OR (reaper’s crest AND ledge grab) OR architect’s crest OR beast crest OR hunter’s crest) AND right attack |  |  |  |
+| LR | left to right | right | left | Spike pogo OR Faydown cloak OR (silk soar AND drifter’s cloak) OR (cling grip AND (sharpdart OR clawline OR dash)) (impossible without left to right first) |  |  |  |
+| CR | cage to right | cage | right | right attack |  |  |  |
+| CR | cage to right | right | cage | None (impossible without cage to right first) |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Sinner's Road Vertical Hall East (Dust_06)
+
+**Game ID:** Dust_06
+
+**Contributors:** herchey
+
+#### Subrooms
+
+- lower
+- middle
+- upper
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left | upper | [Sinner's Road North Hall (Dust_05)](#sinners-road-north-hall-dust05) | R | none |  |  |  |
+| LR | lower right | lower | [Sinner's Road Styx Room (Dust_11)](#sinners-road-styx-room-dust11) | L | none |  |  |  |
+| MR | middle right | upper | [Sinner's Road Flea Rescue (Dust_12)](#sinners-road-flea-rescue-dust12) | L | none |  |  |  |
+| UR | upper right | upper | [Bilewater Entrance (Shadow_05)](#bilewater-entrance-shadow05) | L | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rosary Cache: Sinner’s Road #5 | upper | none |  |  | Included |  |
+| Rosary Cache: Sinner’s Road #6 | upper | none |  |  | Included |  |
+| Rosary Cache: Sinner’s Road #7 | upper | none |  |  | Included |  |
+| Shard Bundle: Sinner’s Road | upper | Ledge grab OR cling grip OR faydown cloak OR silk soar OR scuttlebrace |  |  | Included |  |
+| Simple Key: Roachkeeper | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  |  | Included |  |
+
+### Sinner's Road Vertical Hall West (Dust_02)
+
+**Game ID:** Dust_02
+
+**Contributors:** herchey
+
+#### Subrooms
+
+- basement
+- lower
+- middle right
+- middle left
+- upper right
+- top
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | lower left | lower | [Sinner's Road Entrance (Dust_01)](#sinners-road-entrance-dust01) | R | none |  |  |  |
+| ML | middle left | middle left | [Sinner's Road Bench (Dust_10)](#sinners-road-bench-dust10) | R | none |  |  |  |
+| C | ceiling | top | [Sinner's Road North Hall (Dust_05)](#sinners-road-north-hall-dust05) | C | none |  |  |  |
+| LR | lower right | lower | [Sinner's Road Muckroach Cages (Dust_03)](#sinners-road-muckroach-cages-dust03) | L | none |  |  |  |
+| MR | middle right | middle right | [Sinner's Road Hanging Cages (Dust_04)](#sinners-road-hanging-cages-dust04) | LL | none |  |  |  |
+| UR | upper right | top | [Sinner's Road Hanging Cages (Dust_04)](#sinners-road-hanging-cages-dust04) | UL | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| BL | basement to lower | lower | basement | none |  |  | Technically "any attack" is a requirement |
+| BL | basement to lower | basement | lower | cling grip |  |  |  |
+| LMR | low to mid right | lower | middle right | noneCling grip OR silk soar OR (scuttlebrace AND faydown cloak) |  |  |  |
+| LMR | low to mid right | middle right | lower | none |  |  |  |
+| MRL | mid right to mid left | middle right | middle left | silk soar |  |  |  |
+| MRL | mid right to mid left | middle left | middle right | none |  |  |  |
+| LUR | mid left to upper right | middle left | upper right | Cling grip OR faydown cloak |  |  |  |
+| LUR | mid left to upper right | upper right | middle left | none |  |  |  |
+| URT | upper right to top | upper right | top | Silk soar OR (cling grip AND crest pogo |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rosary Cache: Sinner’s Road #1 | lower | Ledge grab OR cling grip OR faydown cloak |  |  | Included |  |
+| Rosary Cache: Sinner’s Road #2 | upper right | none |  |  | Included |  |
+| Rosary Cache: Sinner’s Road #3 | upper right | none |  |  | Included |  |
+
+### Sinner's Road Shack (dust_shack)
+
+**Game ID:** dust_shack
+
+**Contributors:** herchey
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Sinner's Road Hanging Cages (Dust_04)](#sinners-road-hanging-cages-dust04) | S | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tacks |  | Complete Roach Guts OR reach act 3 |  |  | Included |  |
+
 ## Bilewater
+
+### Bellway (Bellway_Shadow)
+
+**Game ID:** Bellway_Shadow
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| FT | door_fastTravelExit |  | TODO |  |  |  |  |  |
+| L | left1 |  | TODO |  |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Entrance (Shadow_05)
+
+**Game ID:** Shadow_05
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | TODO |  |  |  |  |  |
+| L | left |  | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | UR |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### New room
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+No room transitions defined.
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### New room
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+No room transitions defined.
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
 
 ## The Slab
 

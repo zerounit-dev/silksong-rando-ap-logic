@@ -39,4 +39,5 @@
 | shell shard cache the marrow 1 | before gauntlet | none |  |  | Included |  |
 | rosary cache the marrow 1 | after gauntlet | none |  |  | Included |  |
 | rosary cache the marrow 2 | after gauntlet | none |  |  | Included |  |
+| volatile flintbeetle 1 | before gauntlet | none |  |  | Included | stable position |
 | door switch | after gauntlet | none |  |  | Not included |  |

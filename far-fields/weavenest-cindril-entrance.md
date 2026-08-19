@@ -13,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | entrance | TODO |  | needolin |  |  |  |
+| L | left1 | entrance | [Far Fields East Skull Room (Bone_East_14b)](far-fields-east-skull-room.md) | R | needolin |  |  |  |
 
 ## Subroom Connections
 

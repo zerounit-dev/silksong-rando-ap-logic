@@ -110,6 +110,9 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Far Fields
 
+- [Bone_East_11 (Bone_East_11)](./far-fields/bone-east-11.md)
+- [Bone_East_14 (Bone_East_14)](./far-fields/bone-east-14.md)
+- [Far Fields East Skull Room (Bone_East_14b)](./far-fields/far-fields-east-skull-room.md)
 - [Far Fields Entrance East (Bone_East_02)](./far-fields/far-fields-entrance-east.md)
 - [Far Fields Entrance West (Bone_East_02b)](./far-fields/far-fields-entrance-west.md)
 - [Far Fields Fort Lower Passage (Bone_East_16)](./far-fields/far-fields-fort-lower-passage.md)
@@ -123,6 +126,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Far Fields Pinstress Attic (Bone_East_09b)](./far-fields/far-fields-pinstress-attic.md)
 - [Far Fields Pinstress Room (Bone_East_09)](./far-fields/far-fields-pinstress-room.md)
 - [Far Fields Pinstress Mask Shard (Bone_East_20)](./far-fields/far-fields-pinstress-mask-shard.md)
+- [Far Fields Lava Challenge (Bone_East_LavaChallenge)](./far-fields/far-fields-lava-challenge.md)
 - [Far Fields Target Practice (Bone_East_22)](./far-fields/far-fields-target-practice.md)
 - [Far Fields Map Shop (Bone_East_21)](./far-fields/far-fields-map-shop.md)
 - [Far Fields Bellway (Bellway_03)](./far-fields/far-fields-bellway.md)
@@ -157,7 +161,7 @@ No rooms defined.
 
 ## Greymoor
 
-No rooms defined.
+- [Greymoor Bone Scroll Room (Greymoor_21)](./greymoor/greymoor-bone-scroll-room.md)
 
 ## Verdania
 
@@ -203,11 +207,25 @@ No rooms defined.
 
 ## Sinner's Road
 
-No rooms defined.
+- [Sinner's Road Bench (Dust_10)](./sinner-s-road/sinner-s-road-bench.md)
+- [Sinner's Road Chef's Kitchen (Dust_Chef)](./sinner-s-road/sinner-s-road-chef-s-kitchen.md)
+- [Sinner's Road Entrance (Dust_01)](./sinner-s-road/sinner-s-road-entrance.md)
+- [Sinner's Road Flea Rescue (Dust_12)](./sinner-s-road/sinner-s-road-flea-rescue.md)
+- [Sinner's Road Hanging Cages (Dust_04)](./sinner-s-road/sinner-s-road-hanging-cages.md)
+- [Sinner's Road Muckroach Cages (Dust_03)](./sinner-s-road/sinner-s-road-muckroach-cages.md)
+- [Sinner's Road North Hall (Dust_05)](./sinner-s-road/sinner-s-road-north-hall.md)
+- [Sinner's Road Spike Basement (Dust_Barb)](./sinner-s-road/sinner-s-road-spike-basement.md)
+- [Sinner's Road Styx Room (Dust_11)](./sinner-s-road/sinner-s-road-styx-room.md)
+- [Sinner's Road Vertical Hall East (Dust_06)](./sinner-s-road/sinner-s-road-vertical-hall-east.md)
+- [Sinner's Road Vertical Hall West (Dust_02)](./sinner-s-road/sinner-s-road-vertical-hall-west.md)
+- [Sinner's Road Shack (dust_shack)](./sinner-s-road/sinner-s-road-shack.md)
 
 ## Bilewater
 
-No rooms defined.
+- [Bellway (Bellway_Shadow)](./bilewater/bellway.md)
+- [Bilewater Entrance (Shadow_05)](./bilewater/bilewater-entrance.md)
+- [New room](./bilewater/new-room.md)
+- [New room](./bilewater/new-room-7a1d0ba9.md)
 
 ## The Slab
 

@@ -25,3 +25,4 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | flea the marrow |  | none |  |  | Included |  |
+| volatile flintbeetle 2 |  | none |  |  | Included | this one swaps position based on when [GAME STATE] - wiki says when the shortcut after bellshrine is opened |

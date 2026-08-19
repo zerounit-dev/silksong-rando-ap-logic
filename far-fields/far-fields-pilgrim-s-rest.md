@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | upper left exit | TODO |  | none |  | Verified |  |
+| UL | left1 | upper left exit | [Bone_East_11 (Bone_East_11)](bone-east-11.md) | LR | none |  | Verified |  |
 | LL | left2 | main floor | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R1 | none |  | Verified |  |
 | D | door1 | main floor | TODO |  | none (rosary gated) |  | Verified |  |
 | UR | right1 | upper right exit | TODO |  | must be opened from other side |  | Verified |  |

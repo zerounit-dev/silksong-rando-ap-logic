@@ -1,8 +1,6 @@
-# Hunter's March Deep Entrance (Ant_09)
+# Bellway (Bellway_Shadow)
 
-**Game ID:** Ant_09
-
-**Contributors:** herounit
+**Game ID:** Bellway_Shadow
 
 ## Subrooms
 
@@ -12,8 +10,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Hunter's March Statue (Ant_05c)](hunter-s-march-statue.md) | R |  |  |  |  |
-| R | right1 |  | [Bone_East_11 (Bone_East_11)](../far-fields/bone-east-11.md) | L |  |  |  |  |
+| FT | door_fastTravelExit |  | TODO |  |  |  |  |  |
+| L | left1 |  | TODO |  |  |  |  |  |
 
 ## Subroom Connections
 

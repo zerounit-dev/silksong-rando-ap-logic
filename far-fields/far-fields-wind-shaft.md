@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 |  | TODO |  |  |  |  |  |
+| C | top1 |  | [Bone_East_11 (Bone_East_11)](bone-east-11.md) | F |  |  |  |  |
 | R1 | right1 |  | [Far Fields Pilgrim's Rest (Bone_East_10)](far-fields-pilgrim-s-rest.md) | LL |  |  |  |  |
 | R4 | right4 |  | [Far Fields Target Practice (Bone_East_22)](far-fields-target-practice.md) | L |  |  |  |  |
 | R2 | right2 |  | [Far Fields Bellway (Bellway_03)](far-fields-bellway.md) | L |  |  |  |  |

@@ -1,8 +1,6 @@
-# Hunter's March Deep Entrance (Ant_09)
+# Bilewater Entrance (Shadow_05)
 
-**Game ID:** Ant_09
-
-**Contributors:** herounit
+**Game ID:** Shadow_05
 
 ## Subrooms
 
@@ -12,8 +10,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Hunter's March Statue (Ant_05c)](hunter-s-march-statue.md) | R |  |  |  |  |
-| R | right1 |  | [Bone_East_11 (Bone_East_11)](../far-fields/bone-east-11.md) | L |  |  |  |  |
+| R | right |  | TODO |  |  |  |  |  |
+| L | left |  | [Sinner's Road Vertical Hall East (Dust_06)](../sinner-s-road/sinner-s-road-vertical-hall-east.md) | UR |  |  |  |  |
 
 ## Subroom Connections
 
