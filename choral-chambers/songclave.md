@@ -2,8 +2,6 @@
 
 **Game ID:** Song_Enclave
 
-**Contributors:** samupo
-
 ## Subrooms
 
 - Base
@@ -13,11 +11,11 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left2 | Base | [Songclave Steam Tunnel (Library_02)](songclave-steam-tunnel.md) | TR | none |  | Verified |  |
+| BL | left2 | Base | [Songclave Steam Tunnel (Library_02)](../whispering-vaults/songclave-steam-tunnel.md) | TR | none |  | Verified |  |
 | TL | left1 | Top Platform | [Memorium Entrance Tunnel (Song_25)](memorium-entrance-tunnel.md) | R | none |  | Verified |  |
+| B | bot1 | Base | [Whispering Vaults Hell (Library_04)](../whispering-vaults/whispering-vaults-hell.md) | T | none |  | Verified |  |
 | T | top1 | Top Platform | [Songclave Tube (Song_Enclave_Tube)](songclave-tube.md) | B | none |  | Verified |  |
-| D | door1 | Base | TODO |  | none |  | Verified |  |
-| B | bot1 | Base | TODO |  | none |  | Verified |  |
+| D | door1 | Base | TODO |  | none | TODO | Verified |  |
 
 ## Subroom Connections
 

@@ -21,8 +21,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | top area | blasted bridge | F | silk soar |  |  |  |
-| UR | upper right | upper right ledge | shellwood grand gate bell | L | none |  |  |  |
+| C | ceiling | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B | silk soar |  |  |  |
+| UR | upper right | upper right ledge | TODO |  | none |  |  |  |
 | MR | middle right | middle right ledge | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | L | breakable wall -must be opened from the other side (NEEDS VERIFICATION) | TODO | Needs verification | NEEDS VERIFICATION |
 | LR | lower right | lower right area | [Mosshome Lower (Bone_11)](mosshome-lower.md) | L | none |  |  |  |
 | UL | upper left | upper left ledge | [Wormways Upper East (Crawl_01)](../wormways/wormways-upper-east.md) | R | none |  |  |  |

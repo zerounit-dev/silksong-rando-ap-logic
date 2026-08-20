@@ -24,12 +24,11 @@
 | BD | bellway door | ground level | [Bone Bottom Bellway (Bellway_01)](bone-bottom-bellway.md) | BD | none |  |  |  |
 | LR | lower right | ground level | [The Marrow Entrance (Bone_01)](../the-marrow/the-marrow-entrance.md) | LL | none |  |  |  |
 | UR | upper right | upper right platforms | [Mosshome Basement (Bone_01b)](mosshome-basement.md) | LL | none |  |  |  |
-| RC | right ceiling | upper right platforms | [The Big Fall (Aspid_01)](the-big-fall.md) | RF | none |  |  |  |
-| T3 | left ceiling | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | LF | silk soar |  |  |  |
-| T5 | top5 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  | TODO | Needs verification | all part of the |
-| T2 | top2 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  | TODO | Needs verification |  |
-| T4 | top4 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  | TODO | Needs verification |  |
-| T1 | top1 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  | TODO | Needs verification |  |
+| LC | left ceiling | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | LF | silk soar |  | Needs verification |  |
+| RC | right ceiling | upper right platforms | [The Big Fall (Aspid_01)](the-big-fall.md) | RF | none |  | Needs verification |  |
+| T3 | top3 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  |  |  |  |
+| T4 | top4 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  |  | Needs verification |  |
+| T5 | top5 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  |  | Needs verification | all part of the |
 
 ## Subroom Connections
 

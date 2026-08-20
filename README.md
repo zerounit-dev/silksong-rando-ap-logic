@@ -26,20 +26,6 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Mosshome Basement (Bone_01b)](./bone-bottom/mosshome-basement.md)
 - [The Big Fall (Aspid_01)](./bone-bottom/the-big-fall.md)
 
-## Weavenest Atla
-
-- [Weavenest Atla Entrance (Weave_04)](./weavenest-atla/weavenest-atla-entrance.md)
-- [Weavenest Atla Teleporter (Weave_02)](./weavenest-atla/weavenest-atla-teleporter.md)
-- [Weavenest Atla Power (Weave_12)](./weavenest-atla/weavenest-atla-power.md)
-- [Weavenest Atla Eva (Weave_10)](./weavenest-atla/weavenest-atla-eva.md)
-- [Weavenest Atla Bench (Weave_07)](./weavenest-atla/weavenest-atla-bench.md)
-- [Weavenest Atla Grotto (Weave_03)](./weavenest-atla/weavenest-atla-grotto.md)
-- [Weavenest Atla Hallway (Weave_13)](./weavenest-atla/weavenest-atla-hallway.md)
-- [Weavenest Atla Lore (Weave_08)](./weavenest-atla/weavenest-atla-lore.md)
-- [Weavenest Atla Mask Shard (Weave_05b)](./weavenest-atla/weavenest-atla-mask-shard.md)
-- [Weavenest Atla Snare (Weave_14)](./weavenest-atla/weavenest-atla-snare.md)
-- [Weavenest Atla Spool (Weave_11)](./weavenest-atla/weavenest-atla-spool.md)
-
 ## The Marrow
 
 - [The Marrow Entrance (Bone_01)](./the-marrow/the-marrow-entrance.md)
@@ -61,6 +47,20 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [The Marrow Jail (Bone_12)](./the-marrow/the-marrow-jail.md)
 - [The Marrow Lava Docks (Bone_09)](./the-marrow/the-marrow-lava-docks.md)
 - [The Marrow Skull Tyrant Arena (Bone_15)](./the-marrow/the-marrow-skull-tyrant-arena.md)
+
+## Weavenest Atla
+
+- [Weavenest Atla Entrance (Weave_04)](./weavenest-atla/weavenest-atla-entrance.md)
+- [Weavenest Atla Teleporter (Weave_02)](./weavenest-atla/weavenest-atla-teleporter.md)
+- [Weavenest Atla Power (Weave_12)](./weavenest-atla/weavenest-atla-power.md)
+- [Weavenest Atla Eva (Weave_10)](./weavenest-atla/weavenest-atla-eva.md)
+- [Weavenest Atla Bench (Weave_07)](./weavenest-atla/weavenest-atla-bench.md)
+- [Weavenest Atla Grotto (Weave_03)](./weavenest-atla/weavenest-atla-grotto.md)
+- [Weavenest Atla Hallway (Weave_13)](./weavenest-atla/weavenest-atla-hallway.md)
+- [Weavenest Atla Lore (Weave_08)](./weavenest-atla/weavenest-atla-lore.md)
+- [Weavenest Atla Mask Shard (Weave_05b)](./weavenest-atla/weavenest-atla-mask-shard.md)
+- [Weavenest Atla Snare (Weave_14)](./weavenest-atla/weavenest-atla-snare.md)
+- [Weavenest Atla Spool (Weave_11)](./weavenest-atla/weavenest-atla-spool.md)
 
 ## Wormways
 
@@ -153,47 +153,50 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Shellwood
 
-No rooms defined.
+- [Cling Grip Room (Shellwood_10)](./shellwood/cling-grip-room.md)
+- [Cling grip Side room (Shellwood_11)](./shellwood/cling-grip-side-room.md)
+- [Greyroot (Room_Witch)](./shellwood/greyroot.md)
+- [Greyroots Basement Tall room (Mosstown_03)](./shellwood/greyroots-basement-tall-room.md)
+- [Long Pin (Belltown_Room_shellwood)](./shellwood/long-pin.md)
+- [Shellgrave (Shellgrave)](./shellwood/shellgrave.md)
+- [Shellwood Bellshrine (Bellshrine_03)](./shellwood/shellwood-bellshrine.md)
+- [Shellwood Bellway
+ (Shellwood_19)](./shellwood/shellwood-bellway.md)
+- [Shellwood Big Room Left (Shellwood_02)](./shellwood/shellwood-big-room-left.md)
+- [Shellwood Connection To Blasted steps (Shellwood_08)](./shellwood/shellwood-connection-to-blasted-steps.md)
+- [Shellwood Diddy Basement Main (Shellwood_25)](./shellwood/shellwood-diddy-basement-main.md)
+- [Shellwood Flower Pogo Upper Hall (Shellwood_20)](./shellwood/shellwood-flower-pogo-upper-hall.md)
+- [Shellwood Greyroot entrance (Shellwood_Witch)](./shellwood/shellwood-greyroot-entrance.md)
+- [Shellwood Hidden Bellhart Connection (Shellwood_15)](./shellwood/shellwood-hidden-bellhart-connection.md)
+- [Shellwood Left side Long pond room (Shellwood_04b)](./shellwood/shellwood-left-side-long-pond-room.md)
+- [Shellwood Lower Left Tall Room (Shellwood_03)](./shellwood/shellwood-lower-left-tall-room.md)
+- [Shellwood Lower Toll bench (Shellwood_08c)](./shellwood/shellwood-lower-toll-bench.md)
+- [Shellwood Mask Shard Room (Shellwood_14)](./shellwood/shellwood-mask-shard-room.md)
+- [Shellwood Right Side Big room (Shellwood_01)](./shellwood/shellwood-right-side-big-room.md)
+- [Shellwood Sister Splinter Bench (Shellwood_01b)](./shellwood/shellwood-sister-splinter-bench.md)
+- [Shellwood Top Room (Shellwood_26)](./shellwood/shellwood-top-room.md)
+- [Shellwood Upper Bellhart Entrance (Shellwood_13)](./shellwood/shellwood-upper-bellhart-entrance.md)
+- [Sister Splinter (Shellwood_18)](./shellwood/sister-splinter.md)
+- [Witch Chapel (Shellwood_25b)](./shellwood/witch-chapel.md)
+- [shellwood Far Left Tall Room (Shellwood_04c)](./shellwood/shellwood-far-left-tall-room.md)
+- [shellwood Shakra (Shellwood_16)](./shellwood/shellwood-shakra.md)
 
 ## Bellhart
 
-No rooms defined.
+- [Bellhart Bellway (Belltown_basement)](./bellhart/bellhart-bellway.md)
+- [Bellhart Hallway to Shellwood (Belltown_07)](./bellhart/bellhart-hallway-to-shellwood.md)
+- [Bellhart Lower (Belltown_basement_03)](./bellhart/bellhart-lower.md)
+- [Bellhart Pinsmith (Belltown_Room_pinsmith)](./bellhart/bellhart-pinsmith.md)
+- [Bellhart Relic Shop (Belltown_Room_Relic)](./bellhart/bellhart-relic-shop.md)
+- [Bellhart Right Entrance (Belltown_06)](./bellhart/bellhart-right-entrance.md)
+- [Belltown (Belltown)](./bellhart/belltown.md)
+- [Upper Bellhart (Belltown_04)](./bellhart/upper-bellhart.md)
+- [Widow Boss Fight (Belltown_Shrine)](./bellhart/widow-boss-fight.md)
+- [Bellhome (Belltown_room_spare)](./bellhart/bellhome.md)
 
 ## Greymoor
 
 - [Greymoor Bone Scroll Room (Greymoor_21)](./greymoor/greymoor-bone-scroll-room.md)
-
-## Verdania
-
-No rooms defined.
-
-## Blasted Steps
-
-No rooms defined.
-
-## Grand Gate
-
-- [Grand Gate Maintenance Room (Song_01c)](./grand-gate/grand-gate-maintenance-room.md)
-- [Grand Gate Courtroom (Song_19_entrance)](./grand-gate/grand-gate-courtroom.md)
-- [Grand Elevator (Under_01)](./grand-gate/grand-elevator.md)
-
-## Underworks
-
-- [Broken Elevator (Under_01b)](./underworks/broken-elevator.md)
-- [Confession Toll (Under_08)](./underworks/confession-toll.md)
-- [Underworks Below Confession (Under_06)](./underworks/underworks-below-confession.md)
-- [Underworks Map Room (Under_16)](./underworks/underworks-map-room.md)
-- [Underworks Outside Choral Chambers (Under_07c)](./underworks/underworks-outside-choral-chambers.md)
-- [Underworks Shaft (Under_02)](./underworks/underworks-shaft.md)
-- [Underworks Western Gauntlet (Under_07)](./underworks/underworks-western-gauntlet.md)
-- [Underworks Central Shaft (Under_05)](./underworks/underworks-central-shaft.md)
-- [Underworks Crushing Path (Under_04)](./underworks/underworks-crushing-path.md)
-- [Underworks Delver's Drill (Under_14)](./underworks/underworks-delver-s-drill.md)
-- [Underworks Gym (Under_03d)](./underworks/underworks-gym.md)
-- [Underworks Saw Intro (Under_03b)](./underworks/underworks-saw-intro.md)
-- [Underworks Saw Shaft (Under_03c)](./underworks/underworks-saw-shaft.md)
-- [Underworks Shard Room (Under_03)](./underworks/underworks-shard-room.md)
-- [Underworks Wisp Thicket Passage (Under_23)](./underworks/underworks-wisp-thicket-passage.md)
 
 ## Whisp Thicket
 
@@ -204,6 +207,37 @@ No rooms defined.
 - [Father of the Flame (Belltown_08)](./whisp-thicket/father-of-the-flame.md)
 - [Wisp Thicket Secret Path (Wisp_05)](./whisp-thicket/wisp-thicket-secret-path.md)
 - [Wisp Thicket Cave (Wisp_09)](./whisp-thicket/wisp-thicket-cave.md)
+
+## Verdania
+
+No rooms defined.
+
+## Blasted Steps
+
+- [Blasted Steps Bellway (Bellway_08)](./blasted-steps/blasted-steps-bellway.md)
+- [Blasted Steps Grindle (Coral_42)](./blasted-steps/blasted-steps-grindle.md)
+- [Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](./blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits.md)
+- [Blasted Steps Map Edge (Coral_19)](./blasted-steps/blasted-steps-map-edge.md)
+- [Blasted Steps Mask Shard (Coral_19b)](./blasted-steps/blasted-steps-mask-shard.md)
+- [Blasted Steps Shakra Room (Coral_12)](./blasted-steps/blasted-steps-shakra-room.md)
+- [Blasted Steps Shell / Beast Shard (Coral_36)](./blasted-steps/blasted-steps-shell-beast-shard.md)
+- [Blasted Steps Steel Soul (Coral_37)](./blasted-steps/blasted-steps-steel-soul.md)
+- [Blasted Steps Thin Long Vertical (Coral_35)](./blasted-steps/blasted-steps-thin-long-vertical.md)
+- [Blasted Steps Toll Bench Bottom (Coral_02)](./blasted-steps/blasted-steps-toll-bench-bottom.md)
+- [Blasted Steps Wide Long Vertical (Coral_03)](./blasted-steps/blasted-steps-wide-long-vertical.md)
+- [Great Conchflies (Coral_11)](./blasted-steps/great-conchflies.md)
+- [Horizontal Room with Sand Pit (Coral_11b)](./blasted-steps/horizontal-room-with-sand-pit.md)
+- [Last Judge Arena (Coral_Judge_Arena)](./blasted-steps/last-judge-arena.md)
+- [Lumble the Lucky (Coral_33)](./blasted-steps/lumble-the-lucky.md)
+- [Pinstress Room (Room_Pinstress)](./blasted-steps/pinstress-room.md)
+- [Pre Last Judge Room (Coral_32)](./blasted-steps/pre-last-judge-room.md)
+- [Windy Pinstress Entrance (Coral_34)](./blasted-steps/windy-pinstress-entrance.md)
+
+## Grand Gate
+
+- [Grand Gate Maintenance Room (Song_01c)](./grand-gate/grand-gate-maintenance-room.md)
+- [Grand Gate Courtroom (Song_19_entrance)](./grand-gate/grand-gate-courtroom.md)
+- [Grand Elevator (Under_01)](./grand-gate/grand-elevator.md)
 
 ## Sinner's Road
 
@@ -220,27 +254,35 @@ No rooms defined.
 - [Sinner's Road Vertical Hall West (Dust_02)](./sinner-s-road/sinner-s-road-vertical-hall-west.md)
 - [Sinner's Road Shack (dust_shack)](./sinner-s-road/sinner-s-road-shack.md)
 
-## Bilewater
+## The Mist
 
-- [Bellway (Bellway_Shadow)](./bilewater/bellway.md)
-- [Bilewater Entrance (Shadow_05)](./bilewater/bilewater-entrance.md)
-- [New room](./bilewater/new-room.md)
-- [New room](./bilewater/new-room-7a1d0ba9.md)
+- [Mist Entrance (Dust_Maze_09_entrance)](./the-mist/mist-entrance.md)
+- [The Mist Room 5 (Dust_Maze_05)](./the-mist/the-mist-room-5.md)
 
-## The Slab
+## Underworks
 
-- [Slab Bridge (Slab_01)](./the-slab/slab-bridge.md)
-
-## Sands of Karak
-
-No rooms defined.
-
-## Mount Fay
-
-No rooms defined.
+- [Vaults Cauldron Entrance (Library_11)](./underworks/vaults-cauldron-entrance.md)
+- [Broken Elevator (Under_01b)](./underworks/broken-elevator.md)
+- [Confession Toll (Under_08)](./underworks/confession-toll.md)
+- [Underworks Below Confession (Under_06)](./underworks/underworks-below-confession.md)
+- [Underworks Map Room (Under_16)](./underworks/underworks-map-room.md)
+- [Underworks Outside Choral Chambers (Under_07c)](./underworks/underworks-outside-choral-chambers.md)
+- [Underworks Shaft (Under_02)](./underworks/underworks-shaft.md)
+- [Underworks Western Gauntlet (Under_07)](./underworks/underworks-western-gauntlet.md)
+- [Underworks Central Shaft (Under_05)](./underworks/underworks-central-shaft.md)
+- [Underworks Crushing Path (Under_04)](./underworks/underworks-crushing-path.md)
+- [Underworks Delver's Drill (Under_14)](./underworks/underworks-delver-s-drill.md)
+- [Underworks Gym (Under_03d)](./underworks/underworks-gym.md)
+- [Underworks Saw Intro (Under_03b)](./underworks/underworks-saw-intro.md)
+- [Underworks Saw Shaft (Under_03c)](./underworks/underworks-saw-shaft.md)
+- [Underworks Shard Room (Under_03)](./underworks/underworks-shard-room.md)
+- [Underworks Wisp Thicket Passage (Under_23)](./underworks/underworks-wisp-thicket-passage.md)
+- [Library_12b (Library_12b-0)](./underworks/library-12b.md)
 
 ## Choral Chambers
 
+- [Bellshrine_Enclave (Bellshrine_Enclave)](./choral-chambers/bellshrine-enclave.md)
+- [Songclave (Song_Enclave)](./choral-chambers/songclave.md)
 - [Choral Chambers Spa (Song_10)](./choral-chambers/choral-chambers-spa.md)
 - [Choral Chambers Outside Spa (Song_04)](./choral-chambers/choral-chambers-outside-spa.md)
 - [Choral Chambers Western Shaft (Song_12)](./choral-chambers/choral-chambers-western-shaft.md)
@@ -263,21 +305,14 @@ No rooms defined.
 - [Choral Chambers Ventrica Room (Song_01b)](./choral-chambers/choral-chambers-ventrica-room.md)
 - [Choral Chambers Below Ventrica (Song_01)](./choral-chambers/choral-chambers-below-ventrica.md)
 - [Choral Chambers Outisde Underworks (Under_07b)](./choral-chambers/choral-chambers-outisde-underworks.md)
-- [Songclave (Song_Enclave)](./choral-chambers/songclave.md)
 - [Songclave Tube (Song_Enclave_Tube)](./choral-chambers/songclave-tube.md)
 - [Memorium Entrance Tunnel (Song_25)](./choral-chambers/memorium-entrance-tunnel.md)
-- [Songclave Steam Tunnel (Library_02)](./choral-chambers/songclave-steam-tunnel.md)
 - [Rotating Tunnel (Song_20b)](./choral-chambers/rotating-tunnel.md)
 - [Songclave Silk Shop (Song_29)](./choral-chambers/songclave-silk-shop.md)
 - [Grand Bellway Shaft (Song_20)](./choral-chambers/grand-bellway-shaft.md)
 - [Grand Bellway Side Room (Song_24)](./choral-chambers/grand-bellway-side-room.md)
 - [Grand Bellway (Bellway_City)](./choral-chambers/grand-bellway.md)
-- [Grand Bellway Library (Library_03)](./choral-chambers/grand-bellway-library.md)
 - [Choral Chambers East to West (Song_27)](./choral-chambers/choral-chambers-east-to-west.md)
-
-## White Ward
-
-No rooms defined.
 
 ## Cogwork Core
 
@@ -285,13 +320,60 @@ No rooms defined.
 
 ## Whispering Vaults
 
-No rooms defined.
+- [Whispering Vaults Hell (Library_04)](./whispering-vaults/whispering-vaults-hell.md)
+- [Grand Bellway Library (Library_03)](./whispering-vaults/grand-bellway-library.md)
+- [Vaultkeeper Cauldron Entrance (Library_10)](./whispering-vaults/vaultkeeper-cauldron-entrance.md)
+- [Songclave Steam Tunnel (Library_02)](./whispering-vaults/songclave-steam-tunnel.md)
+- [Whispering Vaults Below Bench (Library_06)](./whispering-vaults/whispering-vaults-below-bench.md)
+- [Whispering Vaults Bench (Library_08)](./whispering-vaults/whispering-vaults-bench.md)
+- [Whispering Vaults East To West (Library_05)](./whispering-vaults/whispering-vaults-east-to-west.md)
+- [Whispering Vaults Flea Shaft (Library_01)](./whispering-vaults/whispering-vaults-flea-shaft.md)
+- [Whispering Vaults Jumps (Library_09)](./whispering-vaults/whispering-vaults-jumps.md)
+- [Whispering Vaults Silkeater (Library_14)](./whispering-vaults/whispering-vaults-silkeater.md)
+- [Whispering Vaults Totally Not White Palace (Library_07)](./whispering-vaults/whispering-vaults-totally-not-white-palace.md)
+- [Whispering Vaults Vaultborn Lever (Library_15)](./whispering-vaults/whispering-vaults-vaultborn-lever.md)
+- [Trobbio (Library_13)](./whispering-vaults/trobbio.md)
+- [Trobbio Entrance (Library_13b)](./whispering-vaults/trobbio-entrance.md)
+- [Whispering Vaults Music Box (Library_16)](./whispering-vaults/whispering-vaults-music-box.md)
 
-## High Halls
+## White Ward
 
-No rooms defined.
+- [Ward_05 (Ward_05)](./white-ward/ward-05.md)
+- [Whiteward Entrance (Ward_01)](./white-ward/whiteward-entrance.md)
+- [Whiteward Silkeater (Ward_04)](./white-ward/whiteward-silkeater.md)
+- [Unravelled Arena (Ward_02)](./white-ward/unravelled-arena.md)
+- [Whiteward Map Room (Ward_02b)](./white-ward/whiteward-map-room.md)
 
-## Memorium
+## Bilewater
+
+- [Bellway (Bellway_Shadow)](./bilewater/bellway.md)
+- [Bilewater Entrance (Shadow_05)](./bilewater/bilewater-entrance.md)
+- [New room](./bilewater/new-room.md)
+- [Shadow_22 (Shadow_22)](./bilewater/shadow-22.md)
+- [New room](./bilewater/new-room-7a1d0ba9.md)
+
+## Sands of Karak
+
+- [Coral Tower (Coral_Tower_01)](./sands-of-karak/coral-tower.md)
+- [Coral Tower Entrance (Coral_28)](./sands-of-karak/coral-tower-entrance.md)
+- [Crustnut (Coral_41)](./sands-of-karak/crustnut.md)
+- [Sands of Karak Bellshrine (Bellshrine_Coral)](./sands-of-karak/sands-of-karak-bellshrine.md)
+- [Sands of Karak Elevator to Blasted Steps (Coral_38)](./sands-of-karak/sands-of-karak-elevator-to-blasted-steps.md)
+- [Sands of Karak Entrance (Coral_25)](./sands-of-karak/sands-of-karak-entrance.md)
+- [Sands of Karak Lower Left Long Room (Coral_23)](./sands-of-karak/sands-of-karak-lower-left-long-room.md)
+- [Sands of Karak Lower Right Long Room (Coral_24)](./sands-of-karak/sands-of-karak-lower-right-long-room.md)
+- [Sands of Karak Right Side Tall room (Coral_26)](./sands-of-karak/sands-of-karak-right-side-tall-room.md)
+- [Sands of Karak Tall Centre Room (Coral_35b)](./sands-of-karak/sands-of-karak-tall-centre-room.md)
+- [Sands of Karak Upper Left Long Room (Coral_27)](./sands-of-karak/sands-of-karak-upper-left-long-room.md)
+- [Sands of Karak Upper Right Long Room (Coral_44)](./sands-of-karak/sands-of-karak-upper-right-long-room.md)
+- [Sands of Shakra (Coral_40)](./sands-of-karak/sands-of-shakra.md)
+- [Watcher at the Edge (Coral_39)](./sands-of-karak/watcher-at-the-edge.md)
+
+## The Slab
+
+- [Slab Bridge (Slab_01)](./the-slab/slab-bridge.md)
+
+## Mount Fay
 
 No rooms defined.
 

@@ -2,8 +2,6 @@
 
 **Game ID:** Bone_08
 
-**Contributors:** herounit
-
 ## Subrooms
 
 - upper area
@@ -15,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | upper left | upper area | [The Marrow Lower Pogo (Bone_07)](the-marrow-lower-pogo.md) | UR |  |  |  |  |
 | LL | lower left | lower area | [The Marrow Lower Pogo (Bone_07)](the-marrow-lower-pogo.md) | LR |  |  |  |  |
-| UR | upper right | upper area | TODO |  |  | TODO |  | bellhart |
+| UR | upper right | upper area | [Bellhart Lower (Belltown_basement_03)](../bellhart/bellhart-lower.md) | L |  | TODO |  | bellhart |
 | MR | middle right | lower area | [Hunter's March Entrance (Ant_02)](../hunter-s-march/hunter-s-march-entrance.md) | L | none | TODO |  | hunter's march |
 | JD | lower right | lower area | [The Marrow Jail (Bone_12)](the-marrow-jail.md) | L |  |  |  |  |
 | F | floor | lower area | [The Marrow Lava Docks (Bone_09)](the-marrow-lava-docks.md) | C |  |  |  |  |
