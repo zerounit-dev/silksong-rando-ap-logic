@@ -2029,8 +2029,8 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LL | left1 | gauntlet right | [The Marrow Lava Docks (Bone_09)](#the-marrow-lava-docks-bone09) | LR | none |  | Needs verification |  |
-| UL | left2 | main pathway | [The Marrow Lava Docks (Bone_09)](#the-marrow-lava-docks-bone09) | UR | none |  | Needs verification |  |
+| UL | left2 | gauntlet left | [The Marrow Lava Docks (Bone_09)](#the-marrow-lava-docks-bone09) | UR | none |  | Needs verification |  |
+| LL | left1 | main pathway | [The Marrow Lava Docks (Bone_09)](#the-marrow-lava-docks-bone09) | LR | none |  | Needs verification |  |
 | R | right1 | main pathway | [Deep Docks Bench Shaft (Dock_01)](#deep-docks-bench-shaft-dock01) | L | none |  | Needs verification |  |
 
 #### Subroom Connections
@@ -3101,21 +3101,24 @@ No check locations defined.
 
 - deep docks platform
 - main pathway
+- ceiling exit platform
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 | main pathway | [Far Fields Deep Docks Loopback (Bone_East_15)](#far-fields-deep-docks-loopback-boneeast15) | F | silk soar OR faydown cloak OR ( cling grip AND ( run OR dash OR drifter's cloak OR  OR sharpdart OR clawline ) ) |  |  | car barely make it up with faydown cloak |
-| R | right1 | main pathway | [Far Fields Entrance West (Bone_East_02b)](#far-fields-entrance-west-boneeast02b) | L | none |  |  |  |
-| L | left1 | deep docks platform | [Deep Docks Bellshrine (Bellshrine_05)](#deep-docks-bellshrine-bellshrine05) | R | deep docks bellshrine activated |  |  |  |
+| C | top1 | main pathway | [Far Fields Deep Docks Loopback (Bone_East_15)](#far-fields-deep-docks-loopback-boneeast15) | F | silk soar OR faydown cloak OR cling grip |  | Verified | car barely make it up with faydown cloak |
+| R | right1 | main pathway | [Far Fields Entrance West (Bone_East_02b)](#far-fields-entrance-west-boneeast02b) | L | none |  | Verified |  |
+| L | left1 | deep docks platform | [Deep Docks Bellshrine (Bellshrine_05)](#deep-docks-bellshrine-bellshrine05) | R | deep docks bellshrine activated |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | deep docks platform | main pathway | run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline |  | Needs verification | couldn't get beast crest pogo to work, but might be possible |
-| RJ | running jump | main pathway | deep docks platform | none |  |  |  |
+| RJ | running jump | deep docks platform | main pathway | run OR faydown cloak OR sharpdart  OR clawline OR ( ledge grab AND ( dash OR drifter's cloak ) ) |  | Verified | couldn't get beast crest pogo to work, but might be possible |
+| RJ | running jump | main pathway | deep docks platform | none |  | Verified |  |
+| V1 | vertical 1 | main pathway | ceiling exit platform | silk soar OR faydown cloak OR clawline OR ( ledge grab AND ( run OR dash OR drifter's cloak  OR sharpdart ) ) |  | Verified |  |
+| V1 | vertical 1 | ceiling exit platform | main pathway | none (falling) |  | Verified |  |
 
 #### Check Locations
 
@@ -3133,36 +3136,39 @@ No check locations defined.
 - upper right platforms
 - lower right exit platform
 - upper left platforms
+- check alcove
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | upper right platforms | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L1 | none |  |  |  |
-| LR | right2 | lower right exit platform | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L2 | none |  |  |  |
-| L | left1 | lower walkway | [Far Fields Entrance East (Bone_East_02)](#far-fields-entrance-east-boneeast02) | R | none |  |  |  |
-| C | top3 | upper right platforms | [Far Fields Fort Lower Passage (Bone_East_16)](#far-fields-fort-lower-passage-boneeast16) | F | none |  |  |  |
+| UR | right1 | upper right platforms | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L1 | none |  | Verified |  |
+| LR | right2 | lower right exit platform | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L2 | none |  | Verified |  |
+| L | left1 | lower walkway | [Far Fields Entrance East (Bone_East_02)](#far-fields-entrance-east-boneeast02) | R | none |  | Verified |  |
+| C | top3 | upper right platforms | [Far Fields Fort Lower Passage (Bone_East_16)](#far-fields-fort-lower-passage-boneeast16) | F | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | lower walkway | upper right platforms | run OR dash OR clawline OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak |  |  |  |
-| V1 | vertical 1 | upper right platforms | lower walkway | none (falling) |  |  |  |
-| LC | lava crossing | lower walkway | lower right exit platform | run OR dash OR clawline OR sharpdart OR cling grip OR silk soar |  |  |  |
-| LC | lava crossing | lower right exit platform | lower walkway | run OR dash OR clawline OR sharpdart OR cling grip |  |  |  |
-| V2 | vertical 2 | lower walkway | upper left platforms | silk soar |  |  |  |
-| V2 | vertical 2 | upper left platforms | lower walkway | none (falling) |  |  |  |
-| UC | lower crossing | upper right platforms | upper left platforms | run OR dash OR clawline OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak |  |  |  |
-| UC | lower crossing | upper left platforms | upper right platforms | run OR dash OR clawline OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak |  |  |  |
-| V3 | vertical 3 | lower right exit platform | upper right platforms | cling grip OR silk soar |  |  |  |
-| V3 | vertical 3 | upper right platforms | lower right exit platform | none (falling) |  |  |  |
+| V1 | vertical 1 | lower walkway | upper right platforms | run OR clawline OR ( ledge grab AND ( dash OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak |  | Verified |  |
+| V1 | vertical 1 | upper right platforms | lower walkway | none (falling) |  | Verified |  |
+| LC | lava crossing | lower walkway | lower right exit platform | run OR dash OR clawline OR sharpdart OR cling grip OR silk soar OR drifter's cloak  OR faydown cloak |  | Verified |  |
+| LC | lava crossing | lower right exit platform | lower walkway | run OR dash OR clawline OR sharpdart OR cling grip OR silk soar OR drifter's cloak  OR faydown cloak |  | Verified |  |
+| V2 | vertical 2 | lower walkway | upper left platforms | silk soar |  | Verified |  |
+| V2 | vertical 2 | upper left platforms | lower walkway | none (falling) |  | Verified |  |
+| UC | upper crossing | upper right platforms | upper left platforms | run OR dash OR clawline OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak |  | Verified |  |
+| UC | upper crossing | upper left platforms | upper right platforms | run OR dash OR clawline OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak |  | Verified |  |
+| V3 | vertical 3 | lower right exit platform | upper right platforms | cling grip OR silk soar |  | Verified |  |
+| V3 | vertical 3 | upper right platforms | lower right exit platform | none (falling) |  | Verified |  |
+| AC | alcove access | lower walkway | check alcove | ledge grab OR silk soar OR faydown cloak OR clawline OR shaman's crest |  | Verified | i love shamans pogo |
+| AC | alcove access | check alcove | lower walkway | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| shell shard cache far fields 1 | lower walkway | none |  |  | Included |  |
+| shell shard cache far fields 1 | check alcove | none |  | Verified | Included |  |
 
 ### Far Fields Fort Lower Passage (Bone_East_16)
 
@@ -3172,26 +3178,30 @@ No check locations defined.
 
 #### Subrooms
 
-No subrooms defined.
+- the pit of despair
+- the highest highs
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Far Fields Entrance West (Bone_East_02b)](#far-fields-entrance-west-boneeast02b) | C | none |  |  |  |
-| R | right1 |  | [Far Fields Fort Flea Rescue (Bone_East_17b)](#far-fields-fort-flea-rescue-boneeast17b) | L | none |  |  | break wall (can be broken from either side) |
+| F | bot1 | the pit of despair | [Far Fields Entrance West (Bone_East_02b)](#far-fields-entrance-west-boneeast02b) | C | none |  | Verified |  |
+| R | right1 | the highest highs | [Far Fields Fort Flea Rescue (Bone_East_17b)](#far-fields-fort-flea-rescue-boneeast17b) | L | none (break wall) |  | Verified | can be broken from either side |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| MJ | massive jump | the pit of despair | the highest highs | ledge grab OR clawline OR shaman's crest OR faydown cloak OR silk soar OR scuttlebrace OR cling grip |  | Verified |  |
+| MJ | massive jump | the highest highs | the pit of despair | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache far fields 11 |  | none |  |  | Included |  |
-| rosary cache far fields 12 |  | none |  |  | Included |  |
-| rosary cache far fields 13 |  | none |  |  | Included |  |
+| rosary cache far fields 11 | the highest highs | none |  | Verified | Included |  |
+| rosary cache far fields 12 | the highest highs | none |  | Verified | Included |  |
+| rosary cache far fields 13 | the highest highs | none |  | Verified | Included |  |
 
 ### Far Fields Fort Flea Rescue (Bone_East_17b)
 
@@ -3201,26 +3211,44 @@ No subroom connections defined.
 
 #### Subrooms
 
-No subrooms defined.
+- left exit area
+- ceiling exit area
+- flea rescue area
+- camp
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Far Fields Fort Lower Passage (Bone_East_16)](#far-fields-fort-lower-passage-boneeast16) | R | none |  |  | break wall |
-| C | top1 |  | [Far Fields Fort Upper Passage (Bone_East_17)](#far-fields-fort-upper-passage-boneeast17) | B | none |  |  | break wall (can be broken from either side) |
+| L | left1 | left exit area | [Far Fields Fort Lower Passage (Bone_East_16)](#far-fields-fort-lower-passage-boneeast16) | R | none |  | Verified | break wall |
+| C | top1 | ceiling exit area | [Far Fields Fort Upper Passage (Bone_East_17)](#far-fields-fort-upper-passage-boneeast17) | B | none |  | Verified | break wall (can be broken from either side) |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| S1 | shaft 1 | left exit area | flea rescue area | ledge grab OR faydown cloak OR silk soar OR clawline |  | Verified |  |
+| S1 | shaft 1 | flea rescue area | left exit area | none (falling) |  | Verified |  |
+| S2 | shaft 2 | left exit area | camp | ledge grab OR faydown cloak OR silk soar OR clawline |  | Verified |  |
+| S2 | shaft 2 | camp | left exit area | none (falling) |  | Verified |  |
+| FA | flea ascend | flea rescue area | ceiling exit area | ledge grab OR faydown cloak OR silk soar OR clawline |  | Verified |  |
+| FA | flea ascend | ceiling exit area | flea rescue area | none (falling) |  | Verified |  |
+| CA | camp ascend | camp | ceiling exit area | ledge grab OR faydown cloak OR silk soar OR clawline OR cling grip |  | Verified |  |
+| CA | camp ascend | ceiling exit area | camp | none (falling) |  | Verified |  |
+| MC | middling crossing | camp | flea rescue area | ledge grab OR run OR dash OR sharpdart OR drifter's cloak OR faydown cloak OR cling grip OR silk soar OR scuttlebrace |  | Verified |  |
+| MC | middling crossing | flea rescue area | camp | ledge grab OR run OR sharpdart OR clawline OR faydown cloak OR cling grip OR silk soar OR scuttlebrace |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flea rescue |  | none |  |  | Included | break cage |
-| rosary cache far fields 16 |  | none |  |  | Included |  |
-| rosary cache far fields 17 |  | none |  |  | Included |  |
+| flea rescue | flea rescue area | none |  | Verified | Included | break cage |
+| rosary cache far fields 16 | camp | none |  | Verified | Included |  |
+| rosary cache far fields 17 | camp | none |  | Verified | Included |  |
+
+#### Notes
+
+this had no subrooms before ledge grab...
 
 ### Far Fields Fort Upper Passage (Bone_East_17)
 
@@ -3232,33 +3260,36 @@ No subroom connections defined.
 
 - left exit area
 - right exit area
-- lower area
+- main area
+- check niche
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | left exit area | [Far Fields Deep Docks Loopback (Bone_East_15)](#far-fields-deep-docks-loopback-boneeast15) | R | platforms lowered from above |  |  |  |
-| B | bot1 | lower area | [Far Fields Fort Flea Rescue (Bone_East_17b)](#far-fields-fort-flea-rescue-boneeast17b) | C | none |  |  |  |
-| R | right1 | right exit area | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L4 | none |  |  |  |
+| L | left1 | left exit area | [Far Fields Deep Docks Loopback (Bone_East_15)](#far-fields-deep-docks-loopback-boneeast15) | R | platforms lowered from above |  | Verified |  |
+| B | bot1 | main area | [Far Fields Fort Flea Rescue (Bone_East_17b)](#far-fields-fort-flea-rescue-boneeast17b) | C | none |  | Verified |  |
+| R | right1 | right exit area | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L4 | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LP | lower platforms | left exit area | lower area | none (switch is on this side) |  |  |  |
-| LP | lower platforms | lower area | left exit area | platform switch flipped |  |  |  |
-| RJ | running jump | lower area | right exit area | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart |  |  |  |
-| RJ | running jump | right exit area | lower area | none (falling) |  |  |  |
+| LP | lower platforms | left exit area | main area | none (switch is on this side) |  | Verified |  |
+| LP | lower platforms | main area | left exit area | platform switch flipped |  | Verified |  |
+| RJ | running jump | main area | right exit area | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart |  | Verified | silk soar doesn't get enough horizontal distance without one of the skills that just gets you there |
+| RJ | running jump | right exit area | main area | none (falling) |  | Verified |  |
+| AC | access niche | main area | check niche | ledge grab OR run OR dash OR silk soar OR beast crest OR shaman crest OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
+| AC | access niche | check niche | main area | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache far fields 14 | lower area | none |  |  | Included |  |
-| rosary cache far fields 15 | lower area | none |  |  | Included |  |
-| lower platform switch | left exit area | none |  |  | Included |  |
-| rosary chest | left exit area | none |  |  | Not included | NOT YET RANDOMIZED |
+| rosary cache far fields 14 | check niche | none |  | Verified | Included |  |
+| rosary cache far fields 15 | main area | none |  | Verified | Included |  |
+| lower platform switch | left exit area | none |  | Verified | Included |  |
+| rosary chest | left exit area | none |  | Verified | Not included | NOT YET RANDOMIZED |
 
 ### Far Fields Wind Shaft (Bone_East_07)
 
@@ -3676,30 +3707,30 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | bell bench | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | LR | none |  |  |  |
-| F | bot1 | ground | [Far Fields Entrance East (Bone_East_02)](#far-fields-entrance-east-boneeast02) | C | none |  |  |  |
-| R | right1 | spike exit | [Far Fields Fort Upper Passage (Bone_East_17)](#far-fields-fort-upper-passage-boneeast17) | L | none |  |  |  |
+| L | left1 | bell bench | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | LR | none |  | Verified |  |
+| F | bot1 | ground | [Far Fields Entrance East (Bone_East_02)](#far-fields-entrance-east-boneeast02) | C | none |  | Verified |  |
+| R | right1 | spike exit | [Far Fields Fort Upper Passage (Bone_East_17)](#far-fields-fort-upper-passage-boneeast17) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SF | spike float | ground | spike exit | ( cling grip AND drifter's cloak ) OR ( silk soar AND drifter's cloak ) |  |  |  |
-| SF | spike float | spike exit | ground | none (falling) | TODO |  | can barely ledge grab by falling to jump down |
-| BG | bell bench gate | before gate | bell bench | none (switch is on this side) |  |  |  |
-| BG | bell bench gate | bell bench | before gate | gate switch flipped |  |  |  |
-| CG | cling grip | ground | before gate | cling grip OR silk soar |  |  |  |
-| CG | cling grip | before gate | ground | none (falling) |  |  |  |
+| SF | spike float | ground | spike exit | ( cling grip AND drifter's cloak ) OR ( silk soar AND drifter's cloak ) |  | Verified | exit silk soar early and land on platform |
+| SF | spike float | spike exit | ground | none (falling) |  | Verified | can barely ledge grab by falling to jump down |
+| BG | bell bench gate | before gate | bell bench | none (switch is on this side) |  | Verified |  |
+| BG | bell bench gate | bell bench | before gate | gate switch flipped |  | Verified |  |
+| CG | cling grip | ground | before gate | cling grip OR silk soar OR scuttlebrace |  | Verified |  |
+| CG | cling grip | before gate | ground | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache far fields 9 | ground | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| rosary cache far fields 10 | ground | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| gate switch | before gate | none |  |  | Not included |  |
-| bench pay lock | bell bench | none |  |  | Not included |  |
-| bench :) | bell bench | unlock bench lock |  |  | Not included |  |
+| rosary cache far fields 9 | ground | none |  | Verified | Included | MARKED AS ??? ON TRACKER |
+| rosary cache far fields 10 | ground | none |  | Verified | Included | MARKED AS ??? ON TRACKER |
+| gate switch | before gate | none |  | Verified | Not included |  |
+| bench pay lock | bell bench | none |  | Verified | Not included |  |
+| bench :) | bell bench | unlock bench lock |  | Verified | Not included |  |
 
 ### Far Fields Deep Docks Backdoor (Dock_03b)
 
