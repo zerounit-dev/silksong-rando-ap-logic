@@ -2,7 +2,7 @@
 
 **Game ID:** Aspid_01
 
-**Contributors:** herounit
+**Contributors:** herounit, super epicguy
 
 ## Subrooms
 
@@ -21,14 +21,23 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B | silk soar |  |  |  |
-| UR | upper right | upper right ledge | TODO |  | none |  |  |  |
-| MR | middle right | middle right ledge | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | L | breakable wall -must be opened from the other side (NEEDS VERIFICATION) | TODO | Needs verification | NEEDS VERIFICATION |
+| T1 | top1 | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B1 | silk soar |  |  |  |
+| T2 | top2 | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B2 | silk soar |  |  |  |
+| T3 | top3 | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B3 | silk soar |  |  |  |
+| T4 | top4 | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B4 | silk soar |  |  |  |
+| T5 | top5 | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B5 | silk soar |  |  |  |
+| T6 | top6 | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B6 | silk soar |  |  |  |
+| T7 | top7 | top area | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | B7 | silk soar |  |  |  |
+| UR | upper right | upper right ledge | [Shellwood Lower Toll bench (Shellwood_08c)](../shellwood/shellwood-lower-toll-bench.md) | L | none |  |  |  |
+| MR | middle right | middle right ledge | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | L | breakable wall -must be opened from the other side |  | Verified |  |
 | LR | lower right | lower right area | [Mosshome Lower (Bone_11)](mosshome-lower.md) | L | none |  |  |  |
 | UL | upper left | upper left ledge | [Wormways Upper East (Crawl_01)](../wormways/wormways-upper-east.md) | R | none |  |  |  |
 | LL | lower left | lower left area | [Wormways Craggler Hallway (Crawl_04)](../wormways/wormways-craggler-hallway.md) | R | none |  |  |  |
-| LF | left floor | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | LC | none |  |  |  |
-| RF | right floor | lower right area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | RC | none |  |  |  |
+| B1 | bot1 | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T1 | none |  |  |  |
+| B2 | right floor | lower right area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T2 | none |  |  |  |
+| B3 | left floor | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T3 | none |  |  |  |
+| B4 | bot4 | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T4 | none |  |  |  |
+| B5 | bot5 | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T5 | none |  |  |  |
 
 ## Subroom Connections
 
@@ -59,3 +68,4 @@
 | rosary cache moss grotto | lower left area | none |  |  | Included |  |
 | choral commandment moss grotto | middle right ledge | none |  |  | Included |  |
 | wish my missing courier | wish ledge | none |  |  | Included |  |
+| one way break from moss |  |  |  |  | Included |  |

@@ -1,8 +1,8 @@
-# Greymoor Bone Scroll Room (Greymoor_21)
+# High Halls Baby Room (Hang_16)
 
-**Game ID:** Greymoor_21
+**Game ID:** Hang_16
 
-**Contributors:** isssma
+**Contributors:** samupo
 
 ## Subrooms
 
@@ -12,7 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+| R | right1 |  | [High Halls Big Shaft (Hang_08)](high-halls-big-shaft.md) | L | none |  | Verified |  |
+| S | door1 |  | TODO |  | faydown cloaka and cling grip | TODO |  | Secret door to Hang_14 (not in the map, doesn't have any checks) |
 
 ## Subroom Connections
 
@@ -22,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
+| Relic Psalm Cylinder (High Halls) |  | none |  | Verified | Included |  |

@@ -1,8 +1,8 @@
-# Greymoor Bone Scroll Room (Greymoor_21)
+# Whiteward Junk Dump (Ward_07)
 
-**Game ID:** Greymoor_21
+**Game ID:** Ward_07
 
-**Contributors:** isssma
+**Contributors:** skai
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+| B | Bottom |  | [Whiteward Descent Connection (Ward_03)](whiteward-descent-connection.md) | T | Nothing |  |  |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
+| Whiteward Top Right - Lore |  | Nothing |  |  | Included |  |

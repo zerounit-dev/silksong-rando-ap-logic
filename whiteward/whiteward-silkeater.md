@@ -1,8 +1,8 @@
-# Greymoor Bone Scroll Room (Greymoor_21)
+# Whiteward Silkeater (Ward_04)
 
-**Game ID:** Greymoor_21
+**Game ID:** Ward_04
 
-**Contributors:** isssma
+**Contributors:** skai
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+| L | Left |  | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | MR | Nothing |  |  |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
+| White Ward: Silkeater |  | Cling Grip or Scuttlebrace OR Silk Soar or (Faydown AND Ledge Grab) |  |  | Included |  |

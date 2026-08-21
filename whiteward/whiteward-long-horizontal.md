@@ -1,8 +1,8 @@
-# Greymoor Bone Scroll Room (Greymoor_21)
+# Whiteward Long Horizontal (Ward_05)
 
-**Game ID:** Greymoor_21
+**Game ID:** Ward_05
 
-**Contributors:** isssma
+**Contributors:** skai
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+| L | Left |  | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | TR | Nothing |  |  |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
+| Choral Commandment #3 |  | Nothing |  |  | Included |  |

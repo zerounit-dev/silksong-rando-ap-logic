@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Deep Docks Bellway (Bellway_02)](deep-docks-bellway.md) | L | none |  | Needs verification |  |
+| R | right1 |  | [Deep Docks Bellway (Bellway_02)](deep-docks-bellway.md) | L | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flea rescue |  | none |  | Needs verification | Included |  |
+| flea rescue |  | ledge grab OR faydown cloak OR clawline OR silk soar |  | Verified | Included |  |
+
+## Notes
+
+ledge grab is the only real requirement in this room

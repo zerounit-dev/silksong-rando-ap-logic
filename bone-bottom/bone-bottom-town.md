@@ -2,8 +2,6 @@
 
 **Game ID:** Bonetown
 
-**Contributors:** herounit
-
 ## Subrooms
 
 - sky
@@ -24,28 +22,29 @@
 | BD | bellway door | ground level | [Bone Bottom Bellway (Bellway_01)](bone-bottom-bellway.md) | BD | none |  |  |  |
 | LR | lower right | ground level | [The Marrow Entrance (Bone_01)](../the-marrow/the-marrow-entrance.md) | LL | none |  |  |  |
 | UR | upper right | upper right platforms | [Mosshome Basement (Bone_01b)](mosshome-basement.md) | LL | none |  |  |  |
-| LC | left ceiling | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | LF | silk soar |  | Needs verification |  |
-| RC | right ceiling | upper right platforms | [The Big Fall (Aspid_01)](the-big-fall.md) | RF | none |  | Needs verification |  |
-| T3 | top3 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  |  |  |  |
-| T4 | top4 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  |  | Needs verification |  |
-| T5 | top5 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) |  |  |  | Needs verification | all part of the |
+| RC | right ceiling | upper right platforms | [The Big Fall (Aspid_01)](the-big-fall.md) | RF | none |  |  |  |
+| T1 | top1 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B1 |  | TODO | Needs verification |  |
+| T2 | top2 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B2 |  | TODO | Needs verification |  |
+| T3 | left ceiling | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B3 | silk soar |  |  |  |
+| T4 | top4 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B4 |  | TODO | Needs verification |  |
+| T5 | top5 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B5 |  | TODO | Needs verification | all part of the |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CC | climb chapel | ground level | chapel roof | silk soar OR ( cling grip AND ( LL door NOT opened OR faydown cloak ) ) |  |  |  |
+| CC | climb chapel | ground level | chapel roof | silk soar OR ( cling grip AND ( LL door NOT opened OR faydown cloak ) ) OR (scuttlebrace AND dash AND faydown cloak) |  |  |  |
 | SM | soar to middle platforms | ground level | upper middle platforms | silk soar |  |  |  |
 | SS | soar to sky exit | ground level | sky | silk soar |  |  |  |
 | SR | soar to right platforms | ground level | upper right platforms | silk soar |  |  |  |
 | EV | elevator | ground level | upper right platforms | elevator switch flipped |  |  |  |
 | CC | climb chapel | chapel roof | ground level | none |  |  |  |
-| CR | climb roof | chapel roof | upper left platforms | silk soar OR cling grip |  |  |  |
+| CR | climb roof | chapel roof | upper left platforms | silk soar OR cling grip OR (scuttlebrace AND dash AND (((faydown cloak OR shaman OR flea brew)) AND easy skips) OR (hard skips AND (hunter OR reaper OR wanderer OR beast OR architect) OR (silk storm OR rune rage)) |  |  | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
 | CR | climb roof | upper left platforms | chapel roof | none |  |  |  |
-| MD | middle platform drift | upper middle platforms | chapel roof | drifter's cloak OR clawline OR ( dash + sharpdart ) |  |  |  |
+| MD | middle platform drift | upper middle platforms | chapel roof | drifter's cloak OR clawline OR sharpdart OR beast OR architect OR (shaman AND (ledge grab AND easy skips) OR hard skips) OR ((hunter OR nude) AND dash) OR (dash AND (scuttlebrace OR flea brew OR silkspeed anklets OR faydown cloak)) OR (run AND flea brew AND easy skips) |  |  | Beast and architect can just spam pogo |
 | SM | soar to middle platforms | upper middle platforms | ground level | none |  |  |  |
-| CL | clawline across the sky | upper middle platforms | upper right platforms | clawline |  |  |  |
-| CL | clawline across the sky | upper right platforms | upper middle platforms | clawline |  |  |  |
+| CL | clawline across the sky | upper middle platforms | upper right platforms | clawline OR (dash AND (sharpdart OR drifter's cloak)) OR (run AND sharpdart OR (easy skips OR faydown cloak) AND drifters cloak) |  |  |  |
+| CL | clawline across the sky | upper right platforms | upper middle platforms | clawline OR (dash AND (sharpdart OR drifter's cloak)) OR (run AND sharpdart OR (easy skips OR faydown cloak) AND drifters cloak) |  |  |  |
 | SR | soar to right platforms | upper right platforms | ground level | none |  |  |  |
 | DL | sky drift to right platforms | sky | upper right platforms | drifter's cloak OR horizontal movement tech |  |  |  |
 | DR | sky drift to middle platforms | sky | upper middle platforms | drifter's cloak OR horizontal movement tech |  |  |  |

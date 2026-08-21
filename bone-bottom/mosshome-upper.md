@@ -2,13 +2,14 @@
 
 **Game ID:** Mosstown_02
 
-**Contributors:** herounit
+**Contributors:** herounit, super epicguy
 
 ## Subrooms
 
 - main area
 - bottom right area
 - upper left area
+- upper main area
 
 ## Room Transitions
 
@@ -25,8 +26,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | RS | right silk blockade | main area | bottom right area | can break silk blockade |  |  |  |
 | RS | right silk blockade | bottom right area | main area | can break silk blockade |  |  |  |
-| LS | left silk blockade | main area | upper left area | can break silk blockade |  |  |  |
-| LS | left silk blockade | upper left area | main area | none (cut to open pathway) |  |  |  |
+| LS | left silk blockade | upper main area | upper left area | can break silk blockade |  |  |  |
+| LS | left silk blockade | upper left area | upper main area | none (broken silk blockade) |  |  |  |
+| RB | rope barrier | upper left area | main area | none (cut the rope) |  |  |  |
+| RB | rope barrier | main area | upper left area | rope cut from other side AND (ledge grab OR height gain) |  |  |  |
+| RP | right platforms | main area | upper main area | ledge grab OR any height gain OR easy skips |  |  |  |
+| RP | right platforms | upper main area | main area | none |  |  |  |
 
 ## Check Locations
 
@@ -39,4 +44,4 @@
 
 ## Notes
 
-known silk blockade breakers = silk spear, sharpdart, rune rage
+known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot, pimpillo, and needle strikes from hunter, reaper, beast, and shaman

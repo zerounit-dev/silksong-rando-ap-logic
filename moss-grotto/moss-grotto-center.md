@@ -2,7 +2,7 @@
 
 **Game ID:** Tut_01
 
-**Contributors:** herounit
+**Contributors:** herounit, super epicguy
 
 ## Subrooms
 
@@ -29,15 +29,15 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | S1 | shaft 1 | up and away | upper crossing | none (falling) |  |  |  |
-| S1 | shaft 1 | upper crossing | up and away | silk soar OR ( cling grip AND ( faydown cloak OR run OR dash OR sharpdart OR clawline) ) |  |  | might be some crest options - basically anything that give ANY horizontal distance will enable this claw grip |
+| S1 | shaft 1 | upper crossing | up and away | silk soar OR ( cling grip AND ( easy skips OR faydown cloak OR run OR dash OR sharpdart OR clawline) OR (scuttlebrace AND dash) |  |  | Easy skip is a heal boost or a reverse dslash boost with Shaman's |
 | S2 | shaft 2 | upper crossing | center shaft | none (falling) |  |  |  |
-| S2 | shaft 2 | center shaft | upper crossing | silk soar OR cling grip |  |  |  |
+| S2 | shaft 2 | center shaft | upper crossing | silk soar OR cling grip OR (dash AND scuttlebrace) |  |  |  |
 | SV | side room vines | center shaft | side room | break vines |  |  |  |
 | SV | side room vines | side room | center shaft | break vines |  |  |  |
 | S3 | shaft 3 | center shaft | lower crossing | none (falling) |  |  |  |
-| S3 | shaft 3 | lower crossing | center shaft | silk soar OR cling grip |  |  |  |
+| S3 | shaft 3 | lower crossing | center shaft | silk soar OR cling grip OR (scuttlebrace AND dash AND (sharpdart OR clawline OR faydown cloak) AND easy skips) |  |  |  |
 | S4 | shaft 4 | lower crossing | rock bottom | none (falling) |  |  |  |
-| S4 | shaft 4 | rock bottom | lower crossing | silk soar OR ( cling grip AND faydown cloak ) |  |  |  |
+| S4 | shaft 4 | rock bottom | lower crossing | silk soar OR ( cling grip AND faydown cloak ) OR (scuttlebrace AND dash AND faydown cloak AND ((drifters cloak AND ledge grab) OR clawline OR sharpdart) AND easy skips) |  |  |  |
 
 ## Check Locations
 

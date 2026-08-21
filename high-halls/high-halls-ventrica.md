@@ -1,8 +1,8 @@
-# Greymoor Bone Scroll Room (Greymoor_21)
+# High Halls Ventrica (Hang_06b)
 
-**Game ID:** Greymoor_21
+**Game ID:** Hang_06b
 
-**Contributors:** isssma
+**Contributors:** samupo
 
 ## Subrooms
 
@@ -12,7 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+| L | left1 |  | [High Halls Vault (Hang_06)](high-halls-vault.md) | R | none |  | Verified |  |
+| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | HH | rosaries |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +23,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
+| High Halls - Map Purchase |  | rosaries |  | Verified | Included |  |
+| High Halls - Ventrica |  | rosaries |  | Verified | Included |  |

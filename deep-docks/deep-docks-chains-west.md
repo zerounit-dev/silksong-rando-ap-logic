@@ -14,11 +14,11 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | main area | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | R |  |  |  |  |
-| LL | left2 | lower left exit | [Deep Docks Forebrothers (Dock_09)](deep-docks-forebrothers.md) | R |  |  |  |  |
-| UR | right1 | main area | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | UL |  |  |  |  |
-| MR | right2 | middle crossing | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | ML |  |  |  |  |
-| LR | right3 | middle crossing | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | LL |  |  |  |  |
+| UL | left1 | main area | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | R | none |  |  |  |
+| LL | left2 | lower left exit | [Deep Docks Forebrothers (Dock_09)](deep-docks-forebrothers.md) | R | none |  |  |  |
+| UR | right1 | main area | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | UL | none |  |  |  |
+| MR | right2 | middle crossing | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | ML | none |  |  |  |
+| LR | right3 | middle crossing | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | LL | none |  |  |  |
 
 ## Subroom Connections
 

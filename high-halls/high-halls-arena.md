@@ -1,6 +1,6 @@
-# Corridor to High Halls (Song_17)
+# High Halls Arena (Hang_04)
 
-**Game ID:** Song_17
+**Game ID:** Hang_04
 
 **Contributors:** samupo
 
@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S3L |  |  |  |  |
-| L | left1 |  | [High Halls Entrance (Hang_01)](high-halls-entrance.md) | BR |  |  |  |  |
+| L | left1 |  | [High Halls Conductor (Hang_12)](high-halls-conductor.md) | R | gauntlet |  |  |  |
+| R | right1 |  | [High Halls Vault (Hang_06)](high-halls-vault.md) | L | gauntlet |  |  |  |
 
 ## Subroom Connections
 

@@ -2,6 +2,8 @@
 
 **Game ID:** Tut_03
 
+**Contributors:** herounit
+
 ## Subrooms
 
 - chapel

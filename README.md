@@ -12,17 +12,17 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Bone Bottom
 
-- [Bone Bottom Town (Bonetown)](./bone-bottom/bone-bottom-town.md)
 - [Bone Bottom Bellway (Bellway_01)](./bone-bottom/bone-bottom-bellway.md)
-- [Bonegrave (Bonegrave)](./bone-bottom/bonegrave.md)
 - [Bonegrave Passage](./bone-bottom/bonegrave-passage.md)
 - [Chapel of the Wanderer (Chapel_Wanderer)](./bone-bottom/chapel-of-the-wanderer.md)
-- [Mosshome Upper (Mosstown_02)](./bone-bottom/mosshome-upper.md)
+- [Bone Bottom Town (Bonetown)](./bone-bottom/bone-bottom-town.md)
 - [Mosshome Middle (Mosstown_01)](./bone-bottom/mosshome-middle.md)
+- [Bonegrave (Bonegrave)](./bone-bottom/bonegrave.md)
 - [Mosshome Lower (Bone_11)](./bone-bottom/mosshome-lower.md)
 - [Mosshome Side Room (Bone_05b)](./bone-bottom/mosshome-side-room.md)
 - [Mosshome Druid (Mosstown_02c)](./bone-bottom/mosshome-druid.md)
 - [Mosshome Spool (Bone_11b)](./bone-bottom/mosshome-spool.md)
+- [Mosshome Upper (Mosstown_02)](./bone-bottom/mosshome-upper.md)
 - [Mosshome Basement (Bone_01b)](./bone-bottom/mosshome-basement.md)
 - [The Big Fall (Aspid_01)](./bone-bottom/the-big-fall.md)
 
@@ -196,7 +196,10 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Greymoor
 
+- [Greymoor Bellshrine (Bellshrine_02)](./greymoor/greymoor-bellshrine.md)
 - [Greymoor Bone Scroll Room (Greymoor_21)](./greymoor/greymoor-bone-scroll-room.md)
+- [Greymoor Lower Halfway Home Path (Greymoor_13)](./greymoor/greymoor-lower-halfway-home-path.md)
+- [Greymoor West Bellshrine Room  (Greymoor_01)](./greymoor/greymoor-west-bellshrine-room.md)
 
 ## Whisp Thicket
 
@@ -282,6 +285,7 @@ No rooms defined.
 ## Choral Chambers
 
 - [Bellshrine_Enclave (Bellshrine_Enclave)](./choral-chambers/bellshrine-enclave.md)
+- [High Halls Entrance (Hang_01)](./choral-chambers/high-halls-entrance.md)
 - [Songclave (Song_Enclave)](./choral-chambers/songclave.md)
 - [Choral Chambers Spa (Song_10)](./choral-chambers/choral-chambers-spa.md)
 - [Choral Chambers Outside Spa (Song_04)](./choral-chambers/choral-chambers-outside-spa.md)
@@ -336,13 +340,32 @@ No rooms defined.
 - [Trobbio Entrance (Library_13b)](./whispering-vaults/trobbio-entrance.md)
 - [Whispering Vaults Music Box (Library_16)](./whispering-vaults/whispering-vaults-music-box.md)
 
-## White Ward
+## Whiteward
 
-- [Ward_05 (Ward_05)](./white-ward/ward-05.md)
-- [Whiteward Entrance (Ward_01)](./white-ward/whiteward-entrance.md)
-- [Whiteward Silkeater (Ward_04)](./white-ward/whiteward-silkeater.md)
-- [Unravelled Arena (Ward_02)](./white-ward/unravelled-arena.md)
-- [Whiteward Map Room (Ward_02b)](./white-ward/whiteward-map-room.md)
+- [Whiteward Descent (Ward_06)](./whiteward/whiteward-descent.md)
+- [Whiteward Descent Connection (Ward_03)](./whiteward/whiteward-descent-connection.md)
+- [Whiteward Entrance (Ward_01)](./whiteward/whiteward-entrance.md)
+- [Whiteward Junk Dump (Ward_07)](./whiteward/whiteward-junk-dump.md)
+- [Whiteward Long Horizontal (Ward_05)](./whiteward/whiteward-long-horizontal.md)
+- [Whiteward Silkeater (Ward_04)](./whiteward/whiteward-silkeater.md)
+- [Whiteward Unravelled Arena Room (Ward_02)](./whiteward/whiteward-unravelled-arena-room.md)
+- [Whiteward Map Room (Ward_02b)](./whiteward/whiteward-map-room.md)
+
+## High Halls
+
+- [High Halls Small Slide (Hang_02)](./high-halls/high-halls-small-slide.md)
+- [High Halls Shaft Top (Hang_03_top)](./high-halls/high-halls-shaft-top.md)
+- [High Halls Shaft Bottom (Hang_03)](./high-halls/high-halls-shaft-bottom.md)
+- [High Halls Small Room (Hang_15)](./high-halls/high-halls-small-room.md)
+- [High Halls Big Slide (Hang_13)](./high-halls/high-halls-big-slide.md)
+- [High Halls Big Shaft (Hang_08)](./high-halls/high-halls-big-shaft.md)
+- [High Halls Flooded Room (Hang_10)](./high-halls/high-halls-flooded-room.md)
+- [High Halls Cogfly Room (Hang_09)](./high-halls/high-halls-cogfly-room.md)
+- [High Halls Baby Room (Hang_16)](./high-halls/high-halls-baby-room.md)
+- [High Halls Vault (Hang_06)](./high-halls/high-halls-vault.md)
+- [High Halls Ventrica (Hang_06b)](./high-halls/high-halls-ventrica.md)
+- [High Halls Conductor (Hang_12)](./high-halls/high-halls-conductor.md)
+- [High Halls Arena (Hang_04)](./high-halls/high-halls-arena.md)
 
 ## Bilewater
 
@@ -351,6 +374,10 @@ No rooms defined.
 - [New room](./bilewater/new-room.md)
 - [Shadow_22 (Shadow_22)](./bilewater/shadow-22.md)
 - [New room](./bilewater/new-room-7a1d0ba9.md)
+
+## Memorium
+
+No rooms defined.
 
 ## Sands of Karak
 

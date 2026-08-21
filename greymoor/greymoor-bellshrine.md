@@ -1,6 +1,6 @@
-# Greymoor Bone Scroll Room (Greymoor_21)
+# Greymoor Bellshrine (Bellshrine_02)
 
-**Game ID:** Greymoor_21
+**Game ID:** Bellshrine_02
 
 **Contributors:** isssma
 
@@ -12,7 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+| L | left |  | [Greymoor West Bellshrine Room  (Greymoor_01)](greymoor-west-bellshrine-room.md) | MR | Activating the Bellshrine:Greymoor check |  | Verified |  |
+| R | right |  | greymoor east bellshrine room | ML | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
+| Greymoor - Bellshrine (ring bell switch) |  | none |  | Verified | Included | Opens up room transition: L |
