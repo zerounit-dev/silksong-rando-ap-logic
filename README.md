@@ -79,6 +79,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Deep Docks
 
 - [Deep Docks Entrance (Dock_08)](./deep-docks/deep-docks-entrance.md)
+- [Diving Bell Deep Docks (Room_Diving_Bell)](./deep-docks/diving-bell-deep-docks.md)
 - [Deep Docks Bench Shaft (Dock_01)](./deep-docks/deep-docks-bench-shaft.md)
 - [Deep Docks Map Shop (Bone_East_01)](./deep-docks/deep-docks-map-shop.md)
 - [Deep Docks Map Shop Side Room (Dock_05)](./deep-docks/deep-docks-map-shop-side-room.md)
@@ -437,10 +438,23 @@ No rooms defined.
 
 ## The Abyss
 
+- [Abyss Bottom Left Lore Room (Abyss_06)](./the-abyss/abyss-bottom-left-lore-room.md)
+- [Abyss Collapsing Hallway (Abyss_07)](./the-abyss/abyss-collapsing-hallway.md)
+- [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](./the-abyss/abyss-diving-bell-broken.md)
+- [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](./the-abyss/abyss-diving-bell-fixed.md)
 - [Abyss Drop Down From Escape Hall (Abyss_11)](./the-abyss/abyss-drop-down-from-escape-hall.md)
+- [Abyss Escape (Abyss_09)](./the-abyss/abyss-escape.md)
 - [Abyss Escape Hallway (Abyss_13)](./the-abyss/abyss-escape-hallway.md)
+- [Abyss Final Bench (Abyss_12)](./the-abyss/abyss-final-bench.md)
+- [Abyss Hallway To Upper Big Room (Abyss_02)](./the-abyss/abyss-hallway-to-upper-big-room.md)
 - [Abyss Landing Zone (Abyss_03)](./the-abyss/abyss-landing-zone.md)
+- [Abyss Lower Big Room (Abyss_05)](./the-abyss/abyss-lower-big-room.md)
+- [Abyss Tall Room (Abyss_01)](./the-abyss/abyss-tall-room.md)
 - [Abyss Upper Big Room (Abyss_02b)](./the-abyss/abyss-upper-big-room.md)
+- [Arcane Egg Room (Abyss_04)](./the-abyss/arcane-egg-room.md)
+- [Weavenest Absolom (Abyss_08)](./the-abyss/weavenest-absolom.md)
+- [Abyss_Cocoon (Abyss_Cocoon)](./the-abyss/abyss-cocoon.md)
+- [Last_Dive (Last_Dive)](./the-abyss/last-dive.md)
 
 ## Fast Travel
 

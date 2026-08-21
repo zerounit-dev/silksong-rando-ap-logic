@@ -2086,6 +2086,31 @@ No subroom connections defined.
 | gauntlet | gauntlet | none |  | Needs verification | Not included |  |
 | mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification | Included |  |
 
+### Diving Bell Deep Docks (Room_Diving_Bell)
+
+**Game ID:** Room_Diving_Bell
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Deep Docks Diving Bell (Dock_12)](#deep-docks-diving-bell-dock12) | D | None |  | Verified |  |
+| D | door_cinematicEnd |  | [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](#abyss-diving-bell-fixed-roomdivingbellabyssfixed) | B | ACT3 AND Mallow is in control room above |  | Needs verification |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
 ### Deep Docks Bench Shaft (Dock_01)
 
 **Game ID:** Dock_01
@@ -11342,6 +11367,111 @@ No subroom connections defined.
 
 ## The Abyss
 
+### Abyss Bottom Left Lore Room (Abyss_06)
+
+**Game ID:** Abyss_06
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Abyss Tall Room (Abyss_01)](#abyss-tall-room-abyss01) | L | None |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lore: Abyss #3 |  | ( Faydown Cloak AND ( Reaper Crest OR Cling Grip ) ) OR ( Silk Soar AND ( ( Easy Skips AND Ledge grab ) OR Cling Grip OR Clawline OR Scuttlebrace ) |  | Verified | Included |  |
+
+### Abyss Collapsing Hallway (Abyss_07)
+
+**Game ID:** Abyss_07
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Left
+- Right
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Left | [Abyss Tall Room (Abyss_01)](#abyss-tall-room-abyss01) | LR | None |  | Verified |  |
+| R | right1 | Right | [Abyss Final Bench (Abyss_12)](#abyss-final-bench-abyss12) | L | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| CR | Crossing | Left | Right | Everbloom OR Clawline OR ( ( Sprint OR Dash OR Sharpdart ) AND Faydown Cloak AND Drifters Cloak ) |  | Verified |  |
+| CR | Crossing | Right | Left | Everbloom OR Clawline OR ( ( Sprint OR Dash OR Sharpdart ) AND Faydown Cloak AND Drifters Cloak ) |  | Verified |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)
+
+**Game ID:** Room_Diving_Bell_Abyss
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Abyss Landing Zone (Abyss_03)](#abyss-landing-zone-abyss03) | D1 | None |  | Verified |  |
+| D | door_wakeOnGround |  | TODO |  |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)
+
+**Game ID:** Room_Diving_Bell_Abyss_Fixed
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Abyss Landing Zone (Abyss_03)](#abyss-landing-zone-abyss03) | D2 | None |  | Verified |  |
+| B | door_cinematicEnd |  | [Diving Bell Deep Docks (Room_Diving_Bell)](#diving-bell-deep-docks-roomdivingbell) | D | None | TODO |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
 ### Abyss Drop Down From Escape Hall (Abyss_11)
 
 **Game ID:** Abyss_11
@@ -11366,6 +11496,34 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SH | Shaft | Top | Bottom | None |  |  | Spike Pogo |
 | SH | Shaft | Bottom | Top | Silk Soar AND ( Cling Grip OR ( Reaper Crest AND Ledge Grab ) OR Scuttlebrace |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Abyss Escape (Abyss_09)
+
+**Game ID:** Abyss_09
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Start
+- End
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C | top1 | End | [Deep Docks Church (Dock_06_Church)](#deep-docks-church-dock06church) | F | ( Faydown Cloak AND ( Cling grip OR Scuttlebrace ) ) OR Silk Soar |  |  |  |
+| F | bot1 | Start | [Abyss Escape Hallway (Abyss_13)](#abyss-escape-hallway-abyss13) | C | None |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TE | The Escape | Start | End | ( Silk Soar AND Drifters Cloak AND Cling Grip AND Faydown Cloak AND ( Easy Skips OR Clawline ) |  | Verified | One way |
 
 #### Check Locations
 
@@ -11399,6 +11557,63 @@ No check locations defined.
 | WR | Whole Room | Left Exit | Right Exit | Clawline OR ( Drifters Cloak AND Faydown Cloak AND ( Beast Crest or Reaper Crest OR Wanderer Crest OR Witch Crest OR Shamen Crest  OR ( ( Hunter Crest OR Architect Crest ) AND ( Dash OR Sharpdart ) |  |  |  |
 | EL | Escape Ledge | Left Exit | Escape Ledge | Silk Soar OR Cling Grip |  |  |  |
 | EL | Escape Ledge | Escape Ledge | Left Exit | None |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Abyss Final Bench (Abyss_12)
+
+**Game ID:** Abyss_12
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right2 |  | [Abyss Lower Big Room (Abyss_05)](#abyss-lower-big-room-abyss05) | L | None |  |  |  |
+| L | left1 |  | [Abyss Collapsing Hallway (Abyss_07)](#abyss-collapsing-hallway-abyss07) | R | None |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Map: Abyss |  | Silk Soar OR Cling Grip OR ( Faydown Cloak AND Scuttlebrace ) |  |  | Included |  |
+| Bench: Final Bench |  | None |  |  | Not included |  |
+
+### Abyss Hallway To Upper Big Room (Abyss_02)
+
+**Game ID:** Abyss_02
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Left Exit
+- Right Exit
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Left Exit | [Abyss Upper Big Room (Abyss_02b)](#abyss-upper-big-room-abyss02b) | R | None |  | Verified |  |
+| R | right1 | Right Exit | [Abyss Landing Zone (Abyss_03)](#abyss-landing-zone-abyss03) | LL | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| WR | Whole Room | Left Exit | Right Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( Medium Skip AND Drifters Cloak ) OR Dash OR Reaper Crest OR Beast Crest OR Shaman Crest |  | Verified |  |
+| WR | Whole Room | Right Exit | Left Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( Medium Skip AND Drifters Cloak ) OR Dash OR Reaper Crest OR Beast Crest OR Shaman Crest |  | Verified |  |
 
 #### Check Locations
 
@@ -11446,6 +11661,84 @@ No check locations defined.
 | Shell Shard Cache: Abyss #3 | Shard room | None |  |  | Included |  |
 | Shell Shard Cache: Abyss #4 | Shard room | None |  |  | Included |  |
 
+### Abyss Lower Big Room (Abyss_05)
+
+**Game ID:** Abyss_05
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Start
+- End
+- Hidden Shellshards
+- Centre Platform
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | End | [Weavenest Absolom (Abyss_08)](#weavenest-absolom-abyss08) | L | Needolin |  | Verified |  |
+| L | left2 | Start | [Abyss Final Bench (Abyss_12)](#abyss-final-bench-abyss12) | R | None |  | Verified |  |
+| DI | Dive | Start | [Last_Dive (Last_Dive)](#lastdive-lastdive) | D | Everbloom |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TV | The Void | Start | Centre Platform | ( Everbloom AND ( Faydown Cloak AND ( Drifters Cloak OR Dash OR Clawline OR Sharpdart ) AND Cling Grip ) OR ( Clawline AND Faydown Cloak AND Cling Grip ) |  | Verified |  |
+| TV | The Void | Centre Platform | Start | Clawline OR Drifters Cloak |  | Verified |  |
+| UV | Upper Void | Centre Platform | Hidden Shellshards | Clawline OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
+| DR | Drop | Hidden Shellshards | Start | Clawline OR Drifters Cloak |  | Verified |  |
+| TR | Top Right | Centre Platform | End | Silk Soar OR ( Clawline AND Cling Grip AND Faydown Cloak ) |  | Verified |  |
+| TR | Top Right | End | Centre Platform | None |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Shell Shard Cache: Abyss_05 #1 | Centre Platform | None | TODO | Needs verification | Included |  |
+| Shell Shard Cache: Abyss_05 #2 | Centre Platform | None | TODO | Needs verification | Included |  |
+| Shell Shard Cache: Abyss_05 #3 | Centre Platform | None | TODO | Needs verification | Included |  |
+| Shell Shard Cache: Abyss_05 #4 | Hidden Shellshards | None |  | Verified | Included |  |
+| Shell Shard Cache: Abyss_05 #5 | Hidden Shellshards | None |  | Verified | Included |  |
+
+### Abyss Tall Room (Abyss_01)
+
+**Game ID:** Abyss_01
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Bottom
+- Top
+- Spike Platform
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UR | right2 | Top | [Abyss Upper Big Room (Abyss_02b)](#abyss-upper-big-room-abyss02b) | L | None |  | Verified |  |
+| L | left1 | Bottom | [Abyss Bottom Left Lore Room (Abyss_06)](#abyss-bottom-left-lore-room-abyss06) | R | None |  | Verified |  |
+| LR | right4 | Bottom | [Abyss Collapsing Hallway (Abyss_07)](#abyss-collapsing-hallway-abyss07) | L | None |  | Verified |  |
+| MR | right3 | Spike Platform | [Arcane Egg Room (Abyss_04)](#arcane-egg-room-abyss04) | L | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SS | Silk Soar | Bottom | Top | Silk Soar |  | Verified |  |
+| SS | Silk Soar | Top | Bottom | None |  | Verified |  |
+| US | Upper Spikes | Top | Spike Platform | Easy Skips OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
+| US | Upper Spikes | Spike Platform | Top | Cling Grip AND ( Easy Skips OR Clawline ) |  | Verified |  |
+| LS | Lower Spikes | Bottom | Spike Platform | Silk Soar AND ( Easy Skips OR Drifters Cloak OR Clawline ) |  | Verified |  |
+| LS | Lower Spikes | Spike Platform | Bottom | Easy Skips OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
+
+#### Check Locations
+
+No check locations defined.
+
 ### Abyss Upper Big Room (Abyss_02b)
 
 **Game ID:** Abyss_02b
@@ -11480,6 +11773,135 @@ No check locations defined.
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Lore: Abyss #1 | Upper Zone | None |  |  | Included |  |
+
+### Arcane Egg Room (Abyss_04)
+
+**Game ID:** Abyss_04
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Start
+- End
+- Entrance
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Entrance | [Abyss Tall Room (Abyss_01)](#abyss-tall-room-abyss01) | MR | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| WR | Whole Room | Start | End | Clawline AND Cling Grip AND Faydown Cloak |  | Verified |  |
+| EX | Exit | End | Start | ( Cling Grip AND ( Faydown Cloak OR Clawline ) ) |  | Verified |  |
+| EX | Exit | Start | End | Silk Soar AND Easy Skips |  | Verified |  |
+| SP | Spikes | Entrance | Start | Sprint OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
+| SP | Spikes | Start | Entrance | None |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Arcane Egg | End | None |  | Verified | Included |  |
+
+### Weavenest Absolom (Abyss_08)
+
+**Game ID:** Abyss_08
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- The Void
+- Entrance Zone
+- Passageways
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Entrance Zone | [Abyss Lower Big Room (Abyss_05)](#abyss-lower-big-room-abyss05) | R | Needolin |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| US | Upper Shaft | Entrance Zone | Passageways | None |  | Verified |  |
+| US | Upper Shaft | Passageways | Entrance Zone | Silk Soar |  | Verified |  |
+| LS | Lower Shaft | Passageways | The Void | None |  | Verified |  |
+| LS | Lower Shaft | The Void | Passageways | Silk Soar AND ( Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart ) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Farsight | Entrance Zone | Silk Soar OR Clawline OR ( Faydown Cloak AND ( Dash OR Drifters Cloak ) |  | Verified | Included |  |
+| Silk Soar | The Void | None |  | Verified | Included |  |
+| Journal Entry: Void Tentrils | Passageways | Silk Soar OR ( Faydown Cloak AND ( Cling grip OR Scuttlebrace ) |  | Verified | Not included |  |
+
+### Abyss_Cocoon (Abyss_Cocoon)
+
+**Game ID:** Abyss_Cocoon
+
+**Contributors:** Pxyl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  | door_test |  | TODO |  |  | TODO |  | No clue what this is |
+| D | door_entry |  | [Last_Dive (Last_Dive)](#lastdive-lastdive) | D2 | None |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boss: Lost Lace |  | Cling Grip OR Faydown Cloak OR Silk Soar |  |  | Included | Only include as a check for win cons like flea hunt |
+
+#### Notes
+
+Absolute Cinema ( Seriously yhough the room doesnt exist in the map links )
+
+### Last_Dive (Last_Dive)
+
+**Game ID:** Last_Dive
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | door_cutscenePosition |  | [Abyss Lower Big Room (Abyss_05)](#abyss-lower-big-room-abyss05) | DI | None |  |  |  |
+| D2 | door_cutscenePosition2 |  | [Abyss_Cocoon (Abyss_Cocoon)](#abysscocoon-abysscocoon) | D | None |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+#### Notes
+
+Cut Scene That leads into Lost Lace Boss Arena
 
 ## Fast Travel
 
