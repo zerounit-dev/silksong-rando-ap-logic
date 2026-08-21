@@ -10644,6 +10644,696 @@ No subroom connections defined.
 
 No check locations defined.
 
+### Slab Arena (Slab_16)
+
+**Game ID:** Slab_16
+
+#### Subrooms
+
+- Bottom Tunnel
+- Right Entrance
+- Arena
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B | bot1 | Bottom Tunnel | [Slab Chilly Prison (Slab_15)](#slab-chilly-prison-slab15) | T | none |  |  |  |
+| L | left1 | Bottom Tunnel | [Slab Chilly Prison (Slab_15)](#slab-chilly-prison-slab15) | L | cling grip | TODO |  | Naked. Temporarily moved to room below instead of Peak_01 |
+| T | top1 | Arena | [Slab Chilly Top (Slab_22)](#slab-chilly-top-slab22) | BL | cling grip or silk soar |  |  | Naked |
+| R | right1 | Right Entrance | [Slab Cell (Slab_03)](#slab-cell-slab03) | L0L | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| A | Arena | Arena | Right Entrance | Key of Heretic Owned |  |  |  |
+| A | Arena | Right Entrance | Arena | Key of Heretic Owned |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Key of Heretic | Arena | gauntlet |  |  | Included |  |
+
+### Slab Cell (Slab_03)
+
+**Game ID:** Slab_03
+
+#### Subrooms
+
+- L0L
+- L0R
+- L1
+- L2L
+- L2R
+- L3L
+- L3R
+- Key of Heretic Bridge
+- L4
+- L5L
+- L5R
+- L6
+- L7
+- L8
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CPT | door_slabCaged | L1 | TODO |  | Captured Event |  |  | no destination, logically equivalent to L1 since you need to go up to reach L0 |
+| L0L | left1 | L0L | [Slab Arena (Slab_16)](#slab-arena-slab16) | R | none |  |  |  |
+| L0R | right1 | L0R | [Slab Why Room (Slab_17)](#slab-why-room-slab17) | L | Apostate Key Owned |  |  |  |
+| L1L | left2 | L1 | [Slab Chilly Prison (Slab_15)](#slab-chilly-prison-slab15) | R | none |  |  |  |
+| L1R | right2 | L1 | [Slab Secret Side Room (Slab_18)](#slab-secret-side-room-slab18) | L | One way (opens from the other side) |  |  | One way (opens from the other side) |
+| L2L | left3 | L2L | [Slab Indolent Room (Slab_14)](#slab-indolent-room-slab14) | R | none |  |  |  |
+| L2R | right3 | L2R | [Slab Grindle (Slab_20)](#slab-grindle-slab20) | L | none |  |  |  |
+| L3L | left4 | L3L | [Slab Flea Prison (Slab_13)](#slab-flea-prison-slab13) | R | none |  |  |  |
+| L3R | right4 | L3R | [Slab Cavern Exit (Slab_23)](#slab-cavern-exit-slab23) | L | none |  |  |  |
+| L4L | left5 | L4 | [Slab Infleatween Top (Slab_04)](#slab-infleatween-top-slab04) | R | none |  |  |  |
+| L4R | right5 | L4 | [Slab Entrance (Slab_02)](#slab-entrance-slab02) | L | opens from the other side |  |  |  |
+| L5L | left6 | L5L | [Slab Infleatween Bottom (Slab_05)](#slab-infleatween-bottom-slab05) | R | Key of Apostate Owned |  |  |  |
+| L5R | right8 | L5R | [Slab Cave Entrance (Slab_08)](#slab-cave-entrance-slab08) | L | none |  |  |  |
+| L6R | right7 | L6 | [Slab Prelude (Slab_19b)](#slab-prelude-slab19b) | L | Key of Heretic Owned |  |  |  |
+| L7L | left7 | L7 | [Slab Poodle (Slab_07)](#slab-poodle-slab07) | R1 | Breakable Wall (opened from the other side) |  |  |  |
+| L8L | left8 | L8 | [Slab Poodle (Slab_07)](#slab-poodle-slab07) | R2 | none |  |  |  |
+| L8R | right9 | L8 | [Slab Window (Slab_12)](#slab-window-slab12) | L | Breakable Wall (from this side) |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| L0 | L0 - L0 | L0L | L0R | ledge grab or cling grip |  |  | Naked |
+| 0L1 | L0l - L1 | L0L | L1 | none |  |  | falling |
+| 0R1 | L0R - L1 | L0R | L1 | none |  |  | falling |
+| 0L1 | L0l - L1 | L1 | L0L | cling grip or silk soar |  |  | Naked |
+| 0R1 | L0R - L1 | L1 | L0R | cling grip or silk soar |  |  | Naked |
+| 2L1 | L2L - L1 | L2L | L1 | cling grip or silk soar |  |  | Naked. One way only |
+| 2R1 | L2R - L1 | L2R | L1 | cling grip or silk soar |  |  | Naked. One way only |
+| L2 | L2 - L2 | L2L | L2R | ledge grab or silk soar |  |  | Naked |
+| L2 | L2 - L2 | L2R | L2L | ledge grab or silk soar |  |  | Naked |
+| 2FL | L2L to L3L | L2L | L3L | none |  |  | falling |
+| 2FR | L2L to L3R | L2L | L3R | none |  |  | falling |
+| 2DL | L2R to L3L | L2R | L3L | none |  |  | falling |
+| 2DR | L2R to L3R | L2R | L3R | none |  |  | falling |
+| L3 | L3 - L3 | L3L | L3R | cling grip or silk soar or dash |  |  | Naked. When you are still naked the bridge should be closed enabling you to just walk over it but added prior transitions to still have a valid path. |
+| BR1 | Bridge1 | L3L | Key of Heretic Bridge | Key of Heretic Owned |  |  |  |
+| BR2 | Bridge2 | L3R | Key of Heretic Bridge | Key of Heretic Owned |  |  |  |
+| BL4 | Bridge to L4 | L4 | Key of Heretic Bridge | none |  |  | falling, one way lever |
+| 5R4 | L5R to L4 | L5R | L4 | cling grip |  |  | one way lever |
+| 5L4 | L5L to L4 | L5L | L4 | cling grip and faydown |  |  | one way lever |
+| L5 | L5 | L5L | L5R | (dash and ledge grab) or faydown or clawline or cling grip |  |  |  |
+| L5 | L5 | L5R | L5L | ledge grab or faydown or clawline or dash |  |  |  |
+| 5LF | L5L to L6 | L5L | L6 | none |  |  | falling |
+| 5LF | L5L to L6 | L6 | L5L | (cling grip or silk soar) and (ledge grab or faydown or clawline or dash) |  |  |  |
+| 5RF | L5R to L6 | L5R | L6 | none |  |  | falling |
+| 5RF | L5R to L6 | L6 | L5R | cling grip or silk soar |  |  |  |
+| L6F | L6 to L8 | L6 | L8 | swim |  |  | L7 is non existant until opened |
+| L7F | L7 to L8 | L7 | L8 | swim |  |  | falling |
+| L7U | L7 to L6 | L7 | L6 | cling grip |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Slab Chilly Prison (Slab_15)
+
+**Game ID:** Slab_15
+
+#### Subrooms
+
+- Top
+- Left
+- Right
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Left | [Slab Arena (Slab_16)](#slab-arena-slab16) | L | none | TODO |  | Temporarily moved to room above instead of Peak_01 |
+| B | bot1 | Left | [Slab Indolent Room (Slab_14)](#slab-indolent-room-slab14) | T | none |  |  |  |
+| T | top1 | Top | [Slab Arena (Slab_16)](#slab-arena-slab16) | B | cling grip |  |  | Naked |
+| R | right1 | Right | [Slab Cell (Slab_03)](#slab-cell-slab03) | L1L | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| H | Indolent Key | Left | Right | Indolent Key Owned |  |  | Naked |
+| H | Indolent Key | Right | Left | Indolent Key Owned |  |  |  |
+| T | Top | Right | Top | cling grip |  |  | Naked |
+| T | Top | Top | Right | none |  |  | falling |
+
+#### Check Locations
+
+No check locations defined.
+
+### Slab Bellway (Slab_06)
+
+**Game ID:** Slab_06
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T | top1 |  | [Slab Infleatween Bottom (Slab_05)](#slab-infleatween-bottom-slab05) | B | none |  |  |  |
+| NI | door1 |  | TODO |  |  | TODO |  | Not implemented as far as I know |
+| L | left1 |  | TODO |  | none | TODO |  | To Peaks_01 |
+| BW | door_fastTravelExit |  | [Bellway Menu](#bellway-menu) | TS | bellway available |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Flea: The Slab - Bellway |  | (cling grip and faydown) or silk soar |  |  | Included |  |
+| The Slab - Bellway |  | rosaries |  |  | Included |  |
+
+### Slab Cave Entrance (Slab_08)
+
+**Game ID:** Slab_08
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | door1 |  | [Slab Quiet Cell (Slab_Cell_Quiet)](#slab-quiet-cell-slabcellquiet) | B | (faydown and cling grip) or silk soar |  |  |  |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L5R | Key of Heretic Owned |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Left Orders |  | none |  |  | Included |  |
+| The Slab - Right Orders |  | none |  |  | Included |  |
+
+### Slab Cavern Exit (Slab_23)
+
+**Game ID:** Slab_23
+
+#### Subrooms
+
+- Left
+- Right
+- Cavern
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Left | [Slab Cell (Slab_03)](#slab-cell-slab03) | L3R | none |  |  |  |
+| R | right1 | Right | [Slab Shaft (Slab_21)](#slab-shaft-slab21) | BL | none |  |  |  |
+| D1 | door1 | Left | [Slab Penitent Cell (Slab_Cell_Creature)](#slab-penitent-cell-slabcellcreature) | L | none |  |  |  |
+| D2 | door2 | Cavern | [Slab Quiet Cell (Slab_Cell_Quiet)](#slab-quiet-cell-slabcellquiet) | T |  | TODO |  | Cavern door, for alternate entry, TBD |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| H | Indolent Door | Left | Right | Indolent Key Owned |  |  |  |
+| H | Indolent Door | Right | Left | Indolent Key Owned |  |  |  |
+| V | Cavern | Cavern | Left | ledge grab or faydown or clawline or silk soar |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Slab Chilly Top (Slab_22)
+
+**Game ID:** Slab_22
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BL | bot1 |  | [Slab Arena (Slab_16)](#slab-arena-slab16) | T | cling grip and dash |  |  | Naked |
+| BR | bot2 |  | [Slab Shaft (Slab_21)](#slab-shaft-slab21) | T | dash and (cling grip or ledge grab) |  |  | Naked |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Frayed Rosary String #3 |  | cling grip and dash |  |  | Included | Naked |
+
+### Slab Entrance (Slab_02)
+
+**Game ID:** Slab_02
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L4R | one way door (opens from this side) |  |  |  |
+| R | right1 |  | [Slab Bridge (Slab_01)](#slab-bridge-slab01) | L | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Frayed Rosary String #1 |  | none |  |  | Included |  |
+
+### Slab First Sinner Antechamber (Slab_10c)
+
+**Game ID:** Slab_10c
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Prelude (Slab_19b)](#slab-prelude-slab19b) | R | cling grip |  |  |  |
+| D | door1 |  | TODO |  | none |  |  | First Sinner boss fight |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Weaver Gate Inscription |  | faydown |  |  | Included |  |
+| Rune Rage |  | faydown |  |  | Included |  |
+| Boss: First Sinner |  | faydown |  |  | Included |  |
+
+### Slab Flea Cell (Slab_Cell)
+
+**Game ID:** Slab_Cell
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Flea Prison (Slab_13)](#slab-flea-prison-slab13) | D | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Flea: The Slab |  | none |  |  | Included |  |
+
+### Slab Flea Prison (Slab_13)
+
+**Game ID:** Slab_13
+
+#### Subrooms
+
+- Top
+- Secret
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Secret | TODO |  | none | TODO |  | Goes outside to Peak_01 |
+| B | bot1 | Secret | [Slab Infleatween Top (Slab_04)](#slab-infleatween-top-slab04) | T | none |  |  |  |
+| R | right1 | Top | [Slab Cell (Slab_03)](#slab-cell-slab03) | L3L | none |  |  |  |
+| D | door1 | Top | [Slab Flea Cell (Slab_Cell)](#slab-flea-cell-slabcell) | L | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Spool Fragment | Secret | cling grip | TODO |  | Included | Not actually in this room, but logic'ed until Peak_01 is done |
+
+### Slab Grindle (Slab_20)
+
+**Game ID:** Slab_20
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L2R | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Map Pickup |  | none |  |  | Included |  |
+
+### Slab Indolent Room (Slab_14)
+
+**Game ID:** Slab_14
+
+#### Subrooms
+
+- Left
+- Right
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T | top1 | Left | [Slab Chilly Prison (Slab_15)](#slab-chilly-prison-slab15) | B | silk soar |  |  |  |
+| R | right1 | Right | [Slab Cell (Slab_03)](#slab-cell-slab03) | L2L | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| D | Indolent Door | Left | Right | Indolent Key Owned |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Indolent Key | Left | none |  |  | Not included | Not randomized |
+
+### Slab Infleatween Bottom (Slab_05)
+
+**Game ID:** Slab_05
+
+#### Subrooms
+
+- Top
+- Bottom
+- Mid
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B | bot1 | Bottom | [Slab Bellway (Slab_06)](#slab-bellway-slab06) | T | none |  |  |  |
+| T | top1 | Top | [Slab Infleatween Top (Slab_04)](#slab-infleatween-top-slab04) | B | none |  |  |  |
+| R | right1 | Mid | [Slab Cell (Slab_03)](#slab-cell-slab03) | L5L | Key of the Apostate Owned |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V | Vertical | Bottom | Mid | cling grip or silk soar |  |  |  |
+| V | Vertical | Mid | Bottom | none |  |  | falling |
+| V2 | Vertical 2 | Mid | Bottom | none |  |  | falling |
+| V2 | Vertical 2 | Bottom | Mid | ledge grab or faydown or silk soar |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Shell Shard Cache #1 | Top | none |  |  | Included |  |
+| The Slab - Shell Shard Cache #2 | Top | none |  |  | Included |  |
+| The Slab - Shell Shard Cache #3 | Top | none |  |  | Included |  |
+
+### Slab Infleatween Top (Slab_04)
+
+**Game ID:** Slab_04
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L4L | none |  |  |  |
+| T | top1 |  | [Slab Flea Prison (Slab_13)](#slab-flea-prison-slab13) | B | (cling grip and (ledge grab or dash)) or silk soar |  |  |  |
+| NI | door1 |  | TODO |  |  | TODO |  | Not implemented as far as I know |
+| B | bot1 |  | [Slab Infleatween Bottom (Slab_05)](#slab-infleatween-bottom-slab05) | T | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Shard Bundle |  | ledge grab or cling grip or clawline or faydown |  |  | Included |  |
+
+### Slab Penitent Cell (Slab_Cell_Creature)
+
+**Game ID:** Slab_Cell_Creature
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Cavern Exit (Slab_23)](#slab-cavern-exit-slab23) | D1 | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Slab Poodle (Slab_07)
+
+**Game ID:** Slab_07
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R1 | right1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L7L | swim and faydown and clawline and cling grip |  |  |  |
+| R2 | right2 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L8L | swim |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Slab Prelude (Slab_19b)
+
+**Game ID:** Slab_19b
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L6R | Key of Heretic Owned |  |  |  |
+| R | right1 |  | [Slab First Sinner Antechamber (Slab_10c)](#slab-first-sinner-antechamber-slab10c) | L | (faydown and cling grip) or silk soar |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Rosary Chest |  | none |  |  | Included |  |
+| The Slab - Rosary Cache #2 |  | none |  |  | Included |  |
+| The Slab - Rosary Cache #3 |  | none |  |  | Included |  |
+| The Slab - Rosary Cache #4 |  | none |  |  | Included |  |
+| The Slab - Rosary Cache #5 |  | none |  |  | Included |  |
+
+### Slab Quiet Cell (Slab_Cell_Quiet)
+
+**Game ID:** Slab_Cell_Quiet
+
+#### Subrooms
+
+- Top
+- Bottom
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T | left1 | Top | [Slab Cavern Exit (Slab_23)](#slab-cavern-exit-slab23) | D2 | none |  |  |  |
+| B | left2 | Bottom | [Slab Cave Entrance (Slab_08)](#slab-cave-entrance-slab08) | D | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V | Vertical | Bottom | Top | cling grip or silk soar |  |  |  |
+| V | Vertical | Top | Bottom | none |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Memory Locket | Top | none |  |  | Included |  |
+
+### Slab Secret Side Room (Slab_18)
+
+**Game ID:** Slab_18
+
+#### Subrooms
+
+- Top
+- Bottom
+- Corpse
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Top | [Slab Shaft (Slab_21)](#slab-shaft-slab21) | UL | none |  |  |  |
+| L | left1 | Bottom | [Slab Cell (Slab_03)](#slab-cell-slab03) | L1R | breakable wall (opens from this side) |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TC | Top to Corpse | Top | Corpse | none |  |  | falling |
+| TC | Top to Corpse | Corpse | Top | cling grip |  |  |  |
+| CB | Corpse to Bottom | Corpse | Bottom |  |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Shell Shard Cache #6 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  | Included | Naked |
+| The Slab - Shell Shard Cache #7 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  | Included | Naked |
+| The Slab - Frayed Rosary String #2 | Corpse | none |  |  | Included |  |
+| The Slab - Rosary Cache #1 | Corpse | none |  |  | Included |  |
+
+### Slab Shaft (Slab_21)
+
+**Game ID:** Slab_21
+
+#### Subrooms
+
+- Top
+- Mid
+- Bottom
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BL | left3 | Bottom | [Slab Cavern Exit (Slab_23)](#slab-cavern-exit-slab23) | R | none |  |  | Naked. Logic accounting for not being able to do more. |
+| T | top1 | Top | [Slab Chilly Top (Slab_22)](#slab-chilly-top-slab22) | BR | cling grip or silk soar |  |  | Naked. Logic accounting for not being able to do more. |
+| UL | left1 | Mid | [Slab Secret Side Room (Slab_18)](#slab-secret-side-room-slab18) | R | none |  |  | Naked. Logic accounting for not being able to do more. |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V1 | Vertical 1 | Bottom | Mid | cling grip and dash |  |  | Naked |
+| V1 | Vertical 1 | Mid | Bottom | none |  |  | falling |
+| V2 | Vertical 2 | Mid | Top | cling grip |  |  | Naked |
+| V2 | Vertical 2 | Top | Mid | none |  |  | falling |
+
+#### Check Locations
+
+No check locations defined.
+
+### Slab Why Room (Slab_17)
+
+**Game ID:** Slab_17
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L0R | Key of the Apostate Owned |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab (Key of Apostate) - Mask Shard |  | cling grip and dash and faydown and clawline and spike pogo and drifter's cloak | TODO |  | Included | Not actually tested, placeholded everything |
+
+### Slab Window (Slab_12)
+
+**Game ID:** Slab_12
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L8R | none | TODO |  | There's a breakable wall on the other side and it hasn't been tested on this side |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Slab - Shell Shard Cache #4 |  | swim |  |  | Included |  |
+| The Slab - Shell Shard Cache #5 |  | swim |  |  | Included |  |
+| Relic: Weaver Effigy (Atla, The Slab) |  | cling grip and (dash or clawline or faydown cloak) |  |  | Included |  |
+
 ## Mount Fay
 
 ## Putrified Ducts
@@ -10651,6 +11341,145 @@ No check locations defined.
 ## The Cradle
 
 ## The Abyss
+
+### Abyss Drop Down From Escape Hall (Abyss_11)
+
+**Game ID:** Abyss_11
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Top
+- Bottom
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Top | [Abyss Escape Hallway (Abyss_13)](#abyss-escape-hallway-abyss13) | L | None |  |  |  |
+| F | bot1 | Bottom | [Abyss Upper Big Room (Abyss_02b)](#abyss-upper-big-room-abyss02b) | C | None |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SH | Shaft | Top | Bottom | None |  |  | Spike Pogo |
+| SH | Shaft | Bottom | Top | Silk Soar AND ( Cling Grip OR ( Reaper Crest AND Ledge Grab ) OR Scuttlebrace |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Abyss Escape Hallway (Abyss_13)
+
+**Game ID:** Abyss_13
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Escape Ledge
+- Left Exit
+- Right Exit
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Abyss Drop Down From Escape Hall (Abyss_11)](#abyss-drop-down-from-escape-hall-abyss11) | R | None |  |  |  |
+| R | right1 |  | [Abyss Landing Zone (Abyss_03)](#abyss-landing-zone-abyss03) | UL | None |  |  |  |
+| C | top1 |  | TODO |  | None |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| WR | Whole Room | Right Exit | Left Exit | Clawline OR ( Drifters Cloak AND Faydown Cloak AND ( Beast Crest or Reaper Crest OR Wanderer Crest OR Witch Crest OR Shamen Crest  OR ( ( Hunter Crest OR Architect Crest ) AND ( Dash OR Sharpdart ) |  |  |  |
+| WR | Whole Room | Left Exit | Right Exit | Clawline OR ( Drifters Cloak AND Faydown Cloak AND ( Beast Crest or Reaper Crest OR Wanderer Crest OR Witch Crest OR Shamen Crest  OR ( ( Hunter Crest OR Architect Crest ) AND ( Dash OR Sharpdart ) |  |  |  |
+| EL | Escape Ledge | Left Exit | Escape Ledge | Silk Soar OR Cling Grip |  |  |  |
+| EL | Escape Ledge | Escape Ledge | Left Exit | None |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Abyss Landing Zone (Abyss_03)
+
+**Game ID:** Abyss_03
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Landing Zone
+- Shard room
+- Lower Exit
+- Upper Exit
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UL | left2 | Upper Exit | [Abyss Escape Hallway (Abyss_13)](#abyss-escape-hallway-abyss13) | R | None |  |  |  |
+| D1 | door1 | Landing Zone | TODO |  |  | TODO |  | What tf are we doing with this thinggg |
+| D2 | door2 | Landing Zone | TODO |  |  | TODO |  |  |
+| LL | left1 | Lower Exit | TODO |  | None |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RD | Right Drop | Landing Zone | Shard room | None ( Spike Pogo ) |  |  |  |
+| RD | Right Drop | Shard room | Landing Zone | Cling Grip OR Faydown Cloak   OR ( Scuttlebrace AND Clawline ) |  |  | Faydown Cloak barely clips the hazard respawn without ledge grab |
+| LD | Left Drop | Landing Zone | Lower Exit | None |  |  |  |
+| LD | Left Drop | Lower Exit | Landing Zone | Reaper Crest OR Cling Grip OR Faydown Cloak OR Silk Soar OR Scuttlebrace |  |  | Silk Soar up to first Platform then Spike pogo with any crest to get up |
+| SE | Silk Soar Escape | Landing Zone | Upper Exit | Silk Soar AND ( Beast Crest OR Dash OR Clawline OR Faydown Cloak |  |  |  |
+| SE | Silk Soar Escape | Upper Exit | Landing Zone | None |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Shell Shard Cache: Abyss #1 | Shard room | None |  |  | Included |  |
+| Shell Shard Cache: Abyss #2 | Shard room | None |  |  | Included |  |
+| Shell Shard Cache: Abyss #3 | Shard room | None |  |  | Included |  |
+| Shell Shard Cache: Abyss #4 | Shard room | None |  |  | Included |  |
+
+### Abyss Upper Big Room (Abyss_02b)
+
+**Game ID:** Abyss_02b
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Upper Zone
+- Right Exit
+- Left Exit
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left2 | Left Exit | TODO |  |  |  |  |  |
+| C | top1 | Upper Zone | [Abyss Drop Down From Escape Hall (Abyss_11)](#abyss-drop-down-from-escape-hall-abyss11) | F |  |  |  |  |
+| R | right1 | Right Exit | TODO |  |  |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| WR | Whole Room | Left Exit | Right Exit | Faydown Cloak OR ( Silk Soar AND ( Ledge grab OR Cling Grip OR Clawline OR Dash OR Drifters Cloak OR Sharpdart ) |  |  |  |
+| WR | Whole Room | Right Exit | Left Exit | Cling Grip OR Faydown Cloak OR Clawline |  |  |  |
+| SS | Silk Soar Shaft | Right Exit | Upper Zone | Silk Soar AND ( Faydown Cloak OR Drifters Cloak OR Clawline OR Clinggrip OR Scuttlebrace ) |  |  |  |
+| SS | Silk Soar Shaft | Upper Zone | Right Exit | None |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lore: Abyss #1 | Upper Zone | None |  |  | Included |  |
 
 ## Fast Travel
 

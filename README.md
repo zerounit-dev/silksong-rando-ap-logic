@@ -399,6 +399,29 @@ No rooms defined.
 ## The Slab
 
 - [Slab Bridge (Slab_01)](./the-slab/slab-bridge.md)
+- [Slab Arena (Slab_16)](./the-slab/slab-arena.md)
+- [Slab Cell (Slab_03)](./the-slab/slab-cell.md)
+- [Slab Chilly Prison (Slab_15)](./the-slab/slab-chilly-prison.md)
+- [Slab Bellway (Slab_06)](./the-slab/slab-bellway.md)
+- [Slab Cave Entrance (Slab_08)](./the-slab/slab-cave-entrance.md)
+- [Slab Cavern Exit (Slab_23)](./the-slab/slab-cavern-exit.md)
+- [Slab Chilly Top (Slab_22)](./the-slab/slab-chilly-top.md)
+- [Slab Entrance (Slab_02)](./the-slab/slab-entrance.md)
+- [Slab First Sinner Antechamber (Slab_10c)](./the-slab/slab-first-sinner-antechamber.md)
+- [Slab Flea Cell (Slab_Cell)](./the-slab/slab-flea-cell.md)
+- [Slab Flea Prison (Slab_13)](./the-slab/slab-flea-prison.md)
+- [Slab Grindle (Slab_20)](./the-slab/slab-grindle.md)
+- [Slab Indolent Room (Slab_14)](./the-slab/slab-indolent-room.md)
+- [Slab Infleatween Bottom (Slab_05)](./the-slab/slab-infleatween-bottom.md)
+- [Slab Infleatween Top (Slab_04)](./the-slab/slab-infleatween-top.md)
+- [Slab Penitent Cell (Slab_Cell_Creature)](./the-slab/slab-penitent-cell.md)
+- [Slab Poodle (Slab_07)](./the-slab/slab-poodle.md)
+- [Slab Prelude (Slab_19b)](./the-slab/slab-prelude.md)
+- [Slab Quiet Cell (Slab_Cell_Quiet)](./the-slab/slab-quiet-cell.md)
+- [Slab Secret Side Room (Slab_18)](./the-slab/slab-secret-side-room.md)
+- [Slab Shaft (Slab_21)](./the-slab/slab-shaft.md)
+- [Slab Why Room (Slab_17)](./the-slab/slab-why-room.md)
+- [Slab Window (Slab_12)](./the-slab/slab-window.md)
 
 ## Mount Fay
 
@@ -414,7 +437,10 @@ No rooms defined.
 
 ## The Abyss
 
-No rooms defined.
+- [Abyss Drop Down From Escape Hall (Abyss_11)](./the-abyss/abyss-drop-down-from-escape-hall.md)
+- [Abyss Escape Hallway (Abyss_13)](./the-abyss/abyss-escape-hallway.md)
+- [Abyss Landing Zone (Abyss_03)](./the-abyss/abyss-landing-zone.md)
+- [Abyss Upper Big Room (Abyss_02b)](./the-abyss/abyss-upper-big-room.md)
 
 ## Fast Travel
 
