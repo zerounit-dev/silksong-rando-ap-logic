@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | TR | Nothing |  |  |  |
+| L | Left |  | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | TR | Nothing |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Choral Commandment #3 |  | Nothing |  |  | Included |  |
+| Choral Commandment #3 |  | Nothing |  | Verified | Included |  |

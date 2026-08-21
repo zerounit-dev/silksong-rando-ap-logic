@@ -7221,7 +7221,7 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | Secret | TODO |  | none | TODO |  | has to be checked from white ward |
+| T | top1 | Secret | [Whiteward Unravelled Arena Room (Ward_02)](#whiteward-unravelled-arena-room-ward02) | B | none | TODO |  | has to be checked from white ward |
 | B | bot1 | Base | TODO |  | none |  |  |  |
 
 #### Subroom Connections
@@ -9341,33 +9341,61 @@ No subroom connections defined.
 
 ## Whiteward
 
-### Whiteward Descent (Ward_06)
+### Whiteward Entrance (Ward_01)
 
-**Game ID:** Ward_06
+**Game ID:** Ward_01
 
 **Contributors:** skai
 
 #### Subrooms
 
-No subrooms defined.
+- Top Third
+- Middle Third (Left)
+- Middle Third (Right)
+- Bottom Third (Left)
+- Elevator Shaft
+- Vertical Shaft (Upper)
+- Vertical Shaft (Lower)
+- Pit
+- Top Right (Entrance)
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | Top |  | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | B | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  |  |  |
-| B | Bottom |  | Under_17 | T | Nothing (Fall) |  |  |  |
+| TL | Top Left | Top Third | [Choral Chambers Eastern Shaft (Song_05)](#choral-chambers-eastern-shaft-song05) | R1 | Nothing |  | Verified |  |
+| TR | Top Right | Top Right (Entrance) | [Whiteward Long Horizontal (Ward_05)](#whiteward-long-horizontal-ward05) | L | Nothing |  | Verified |  |
+| ML | Middle Left | Middle Third (Left) | [Whiteward Map Room (Ward_02b)](#whiteward-map-room-ward02b) | R | Nothing |  | Verified |  |
+| MR | Middle Right | Middle Third (Right) | [Whiteward Silkeater (Ward_04)](#whiteward-silkeater-ward04) | L | Break Wall |  | Verified |  |
+| BL | Bottom Left | Bottom Third (Left) | [Whiteward Unravelled Arena Room (Ward_02)](#whiteward-unravelled-arena-room-ward02) | R | Nothing |  | Verified |  |
+| BR | Bottom Right | Vertical Shaft (Lower) | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | L | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TES | Top to Elevator Shaft | Top Third | Elevator Shaft | White Key Used |  | Verified |  |
+| TES | Top to Elevator Shaft | Elevator Shaft | Top Third | White Key Used |  | Verified |  |
+| EBL | Elevator to Bottom Left | Elevator Shaft | Bottom Third (Left) | White Key Used |  | Verified |  |
+| EBL | Elevator to Bottom Left | Bottom Third (Left) | Elevator Shaft | White Key Used |  | Verified |  |
+| MLR | Middle Left to Right | Middle Third (Left) | Middle Third (Right) | Nothing (Jump) |  | Verified |  |
+| MLR | Middle Left to Right | Middle Third (Right) | Middle Third (Left) | Nothing (Jump) |  | Verified |  |
+| RVL | Right to Vertical Lower | Middle Third (Right) | Vertical Shaft (Lower) | Nothing (Fall) |  | Verified |  |
+| RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip OR (Scuttlebrace AND (Flea Brew Stall OR Heal Stall OR Faydown)) OR Silk Soar |  | Verified |  |
+| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip AND Easy Tool  Skip) |  | Verified |  |
+| RVU | Right to Vertical Upper | Vertical Shaft (Upper) | Middle Third (Right) | Nothing (Fall) |  | Verified |  |
+| VTR | Vertical to Top Right (Entrance) | Vertical Shaft (Upper) | Top Right (Entrance) | Silk Soar OR (Faydown AND Cling Grip AND Easy Tool Skip) |  | Verified |  |
+| VTR | Vertical to Top Right (Entrance) | Top Right (Entrance) | Vertical Shaft (Upper) | Nothing (Fall) |  | Verified |  |
+| ETP | Elevator to Pit | Elevator Shaft | Pit | Set Elevator to Top AND White Key Used |  | Verified |  |
+| ETP | Elevator to Pit | Pit | Elevator Shaft | Set Elevator to Top AND (Cling Grip OR Scuttlebrace OR Silk Soar) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward Descent -  Breakable Wall |  | Nothing |  |  | Included |  |
-| Whiteward Descent - Rosary String Small Half |  | Nothing |  |  | Included |  |
+| Whiteward - Spool Fragment | Pit | Nothing |  | Verified | Included |  |
+| Whiteward Bench | Top Third | White Key |  | Verified | Included |  |
+| Whiteward - Map Purchase | Vertical Shaft (Lower) | Nothing |  | Verified | Included |  |
 
 ### Whiteward Descent Connection (Ward_03)
 
@@ -9391,90 +9419,69 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left | Bottom (Left) | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | BR | Nothing |  |  |  |
-| B | Bottom | Bottom Right (Lower) | [Whiteward Descent (Ward_06)](#whiteward-descent-ward06) | T | Nothing |  |  |  |
-| T | Top | Top | [Whiteward Junk Dump (Ward_07)](#whiteward-junk-dump-ward07) | B | Nothing |  |  |  |
+| L | Left | Bottom (Left) | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | BR | Nothing |  | Verified |  |
+| B | Bottom | Bottom Right (Lower) | [Whiteward Descent (Ward_06)](#whiteward-descent-ward06) | T | Nothing |  | Verified |  |
+| T | Top | Top | [Whiteward Junk Dump (Ward_07)](#whiteward-junk-dump-ward07) | B | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLS | Bottom Left to Spikes | Bottom (Left) | Spikes | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Tool Skip) |  |  |  |
-| BLS | Bottom Left to Spikes | Spikes | Bottom (Left) | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Tool Skip) |  |  |  |
-| SBR | Spikes to Bottom Right | Spikes | Bottom (Middle) | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Tool Skip) |  |  |  |
-| SBR | Spikes to Bottom Right | Bottom (Middle) | Spikes | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Tool Skip) |  |  |  |
-| BMA | Bottom to Ascent | Bottom (Middle) | Ascent | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  |  |  |
-| BMA | Bottom to Ascent | Ascent | Bottom (Middle) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  |  |  |
-| AML | Ascent to Middle Left | Ascent | Middle (Left) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  |  |  |
-| AML | Ascent to Middle Left | Middle (Left) | Ascent | Nothing (Fall) |  |  |  |
-| AMR | Ascent to Middle Right | Ascent | Middle (Right) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  |  |  |
-| AMR | Ascent to Middle Right | Middle (Right) | Ascent | Nothing (Fall) |  |  |  |
-| MRB | Middle Right to Bottom | Bottom Right (Lower) | Middle (Right) | (Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip) |  |  |  |
-| MRB | Middle Right to Bottom | Middle (Right) | Bottom Right (Lower) | Nothing (Fall) |  |  |  |
-| AAT | Ascent to Top | Ascent | Top | Cling Grip OR Silk Soar OR Faydown |  |  |  |
-| AAT | Ascent to Top | Top | Ascent | Cling Grip OR Silk Soar OR Faydown |  |  |  |
-| BUL | Bottom Right Upper to Lower | Bottom Right (Lower) | Bottom Right (Upper) | Cling Grip OR Silk Soar |  |  |  |
-| BUL | Bottom Right Upper to Lower | Bottom Right (Upper) | Bottom Right (Lower) | Nothing (Fall) |  |  |  |
+| BLS | Bottom Left to Spikes | Bottom (Left) | Spikes | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
+| BLS | Bottom Left to Spikes | Spikes | Bottom (Left) | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
+| SBR | Spikes to Bottom Right | Spikes | Bottom (Middle) | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
+| SBR | Spikes to Bottom Right | Bottom (Middle) | Spikes | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
+| BMA | Bottom to Ascent | Bottom (Middle) | Ascent | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
+| BMA | Bottom to Ascent | Ascent | Bottom (Middle) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
+| AML | Ascent to Middle Left | Ascent | Middle (Left) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
+| AML | Ascent to Middle Left | Middle (Left) | Ascent | Nothing (Fall) |  | Verified |  |
+| AMR | Ascent to Middle Right | Ascent | Middle (Right) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
+| AMR | Ascent to Middle Right | Middle (Right) | Ascent | Nothing (Fall) |  | Verified |  |
+| MRB | Middle Right to Bottom | Bottom Right (Lower) | Middle (Right) | (Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip) |  | Verified |  |
+| MRB | Middle Right to Bottom | Middle (Right) | Bottom Right (Lower) | Nothing (Fall) |  | Verified |  |
+| AAT | Ascent to Top | Ascent | Top | Cling Grip OR Silk Soar OR Faydown |  | Verified |  |
+| AAT | Ascent to Top | Top | Ascent | Cling Grip OR Silk Soar OR Faydown |  | Verified |  |
+| BUL | Bottom Right Upper to Lower | Bottom Right (Lower) | Bottom Right (Upper) | Cling Grip OR Silk Soar |  | Verified |  |
+| BUL | Bottom Right Upper to Lower | Bottom Right (Upper) | Bottom Right (Lower) | Nothing (Fall) |  | Verified |  |
 
 #### Check Locations
 
 No check locations defined.
 
-### Whiteward Entrance (Ward_01)
+### Whiteward Descent (Ward_06)
 
-**Game ID:** Ward_01
+**Game ID:** Ward_06
 
 **Contributors:** skai
 
 #### Subrooms
 
-- Top Third
-- Middle Third (Left)
-- Middle Third (Right)
-- Bottom Third (Left)
-- Elevator Shaft
-- Vertical Shaft (Upper)
-- Vertical Shaft (Lower)
-- Pit
-- Top Right (Entrance)
+- Descent Rosary Side
+- Descent Upper
+- Descent Lower
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TL | Top Left | Top Third | [Choral Chambers Eastern Shaft (Song_05)](#choral-chambers-eastern-shaft-song05) | R1 | Nothing |  |  |  |
-| TR | Top Right | Top Right (Entrance) | ward-05 | L | Nothing |  |  |  |
-| ML | Middle Left | Middle Third (Left) | [Whiteward Map Room (Ward_02b)](#whiteward-map-room-ward02b) | R | Nothing |  |  |  |
-| MR | Middle Right | Middle Third (Right) | [Whiteward Silkeater (Ward_04)](#whiteward-silkeater-ward04) | L | Break Wall |  |  |  |
-| BL | Bottom Left | Bottom Third (Left) | Unravelled Arena | R | Nothing |  |  |  |
-| BR | Bottom Right | Vertical Shaft (Lower) | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | L | Nothing |  |  |  |
+| T | Top | Descent Upper | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | B | Nothing |  | Verified |  |
+| B | Bottom | Descent Lower | Under_17 | T | Nothing (Fall) |  | Verified | The Cauldron is undone as of now so the game name for the room destination is listed. |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TES | Top to Elevator Shaft | Top Third | Elevator Shaft | White Key Used |  |  |  |
-| TES | Top to Elevator Shaft | Elevator Shaft | Top Third | White Key Used |  |  |  |
-| EBL | Elevator to Bottom Left | Elevator Shaft | Bottom Third (Left) | White Key Used |  |  |  |
-| EBL | Elevator to Bottom Left | Bottom Third (Left) | Elevator Shaft | White Key Used |  |  |  |
-| MLR | Middle Left to Right | Middle Third (Left) | Middle Third (Right) | Nothing (Jump) |  |  |  |
-| MLR | Middle Left to Right | Middle Third (Right) | Middle Third (Left) | Nothing (Jump) |  |  |  |
-| RVL | Right to Vertical Lower | Middle Third (Right) | Vertical Shaft (Lower) | Nothing (Fall) |  |  |  |
-| RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip OR (Scuttlebrace AND (Flea Brew Stall OR Heal Stall OR Faydown)) OR Silk Soar |  |  |  |
-| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip AND Precise Movement) |  |  |  |
-| RVU | Right to Vertical Upper | Vertical Shaft (Upper) | Middle Third (Right) | Nothing (Fall) |  |  |  |
-| VTR | Vertical to Top Right (Entrance) | Vertical Shaft (Upper) | Top Right (Entrance) | Silk Soar OR (Faydown AND Cling Grip AND Precise Movement) |  |  |  |
-| VTR | Vertical to Top Right (Entrance) | Top Right (Entrance) | Vertical Shaft (Upper) | Nothing (Fall) |  |  |  |
-| ETP | Elevator to Pit | Elevator Shaft | Pit | Set Elevator to Top |  |  |  |
-| ETP | Elevator to Pit | Pit | Elevator Shaft | Cling Grip OR Scuttlebrace OR Silk Soar |  |  |  |
+| LTR | Descent Lower to Rosaries | Descent Lower | Descent Rosary Side | Wall Broken FROM Right OR Wall Broken FROM Left |  | Verified |  |
+| LTR | Descent Lower to Rosaries | Descent Rosary Side | Descent Lower | Wall Broken FROM Left OR Wall Broken FROM Right |  | Verified |  |
+| LTU | Descent Lower to Upper | Descent Lower | Descent Upper | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
+| LTU | Descent Lower to Upper | Descent Upper | Descent Lower | Nothing (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silk Spool #15 | Pit | Nothing |  |  | Included |  |
-| Whiteward Bench | Top Third | White Key |  |  | Included |  |
-| Map Purchase: Whiteward | Vertical Shaft (Lower) | Nothing |  |  | Included |  |
+| Whiteward Descent - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | Included |  |
+| Whiteward Descent - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | Included |  |
 
 ### Whiteward Junk Dump (Ward_07)
 
@@ -9490,7 +9497,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom |  | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | T | Nothing |  |  |  |
+| B | Bottom |  | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | T | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -9500,7 +9507,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward Top Right - Lore |  | Nothing |  |  | Included |  |
+| Whiteward Top Right - Lore |  | Nothing |  | Verified | Included |  |
 
 ### Whiteward Long Horizontal (Ward_05)
 
@@ -9516,7 +9523,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | TR | Nothing |  |  |  |
+| L | Left |  | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | TR | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -9526,7 +9533,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Choral Commandment #3 |  | Nothing |  |  | Included |  |
+| Choral Commandment #3 |  | Nothing |  | Verified | Included |  |
 
 ### Whiteward Silkeater (Ward_04)
 
@@ -9542,7 +9549,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | MR | Nothing |  |  |  |
+| L | Left |  | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | MR | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -9552,7 +9559,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| White Ward: Silkeater |  | Cling Grip or Scuttlebrace OR Silk Soar or (Faydown AND Ledge Grab) |  |  | Included |  |
+| White Ward: Silkeater |  | Cling Grip OR Scuttlebrace OR Silk Soar OR (Faydown AND Ledge Grab) |  | Verified | Included |  |
 
 ### Whiteward Unravelled Arena Room (Ward_02)
 
@@ -9572,27 +9579,28 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | Top | Vertical Left | [Whiteward Map Room (Ward_02b)](#whiteward-map-room-ward02b) | B | Silk Soar OR Faydown OR Cling Grip OR Scuttlebrace |  |  |  |
-| R | Right | Surgery Tables (Right) | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | BL | Nothing |  |  |  |
-| B | Bottom | Unravelled Arena | [Confession Toll (Under_08)](#confession-toll-under08) | T | Beat Unravelled Arena |  |  |  |
+| T | Top | Vertical Left | [Whiteward Map Room (Ward_02b)](#whiteward-map-room-ward02b) | B | Silk Soar OR Faydown OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| R | Right | Surgery Tables (Right) | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | BL | Nothing |  | Verified |  |
+| B | Bottom | Unravelled Arena | [Confession Toll (Under_08)](#confession-toll-under08) | T | Beat Unravelled Arena |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | Ledge Grab OR Faydown OR Clawline OR Silk Soar OR (Proficient Movement AND Scuttlebrace) |  |  |  |
-| SLV | Surgery Left to Vertical | Vertical Left | Surgery Tables (Left) | Nothing (Falling) |  |  |  |
-| SRL | Surgery Right to Left | Surgery Tables (Right) | Surgery Tables (Left) | (Nothing AND NOT Key Inserted) OR (Faydown OR Clawline OR Sharpdart) |  |  |  |
-| SKS | Surgery to Key Shaft | Surgery Tables (Left) | Key Shaft | Nothing (Falling) |  |  |  |
-| SKS | Surgery to Key Shaft | Key Shaft | Surgery Tables (Left) | Silk Soar |  |  |  |
-| KSA | Key Shaft to Arena | Key Shaft | Unravelled Arena | Nothing (Falling) |  |  |  |
-| KSA | Key Shaft to Arena | Unravelled Arena | Key Shaft | Silk Soar |  |  |  |
+| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | Ledge Grab OR Faydown OR Clawline OR Silk Soar OR (Proficient Movement AND Scuttlebrace) |  | Verified |  |
+| SLV | Surgery Left to Vertical | Vertical Left | Surgery Tables (Left) | Nothing (Falling) |  | Verified |  |
+| SRL | Surgery Right to Left | Surgery Tables (Right) | Surgery Tables (Left) | (Nothing AND NOT Key Inserted) OR (Faydown OR Clawline OR Sharpdart) |  | Verified |  |
+| SRL | Surgery Right to Left | Surgery Tables (Left) | Surgery Tables (Right) | (Nothing AND NOT Key Inserted) OR (Faydown OR Clawline OR Sharpdart) |  | Verified |  |
+| SKS | Surgery to Key Shaft | Surgery Tables (Left) | Key Shaft | Nothing (Falling) |  | Verified |  |
+| SKS | Surgery to Key Shaft | Key Shaft | Surgery Tables (Left) | Silk Soar |  | Verified |  |
+| KSA | Key Shaft to Arena | Key Shaft | Unravelled Arena | Nothing (Falling) |  | Verified |  |
+| KSA | Key Shaft to Arena | Unravelled Arena | Key Shaft | Silk Soar |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| White Ward: Silk Heart | Unravelled Arena | Beat Unravelled Arena |  |  | Included |  |
+| White Ward: Silk Heart | Unravelled Arena | Beat Unravelled Arena |  | Verified | Included |  |
 
 ### Whiteward Map Room (Ward_02b)
 
@@ -9612,26 +9620,26 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom | Lower Tunnels | Unravelled Arena | T | Nothing |  |  |  |
-| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | ML | Break 4x Wall |  |  |  |
+| B | Bottom | Lower Tunnels | [Whiteward Unravelled Arena Room (Ward_02)](#whiteward-unravelled-arena-room-ward02) | T | Nothing |  | Verified |  |
+| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | ML | Break 4x Wall |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LUT | Lower to Upper Tunnels | Lower Tunnels | Upper Tunnels | Cling Grip or Scuttlebrace or Silk Soar |  |  |  |
-| LUT | Lower to Upper Tunnels | Upper Tunnels | Lower Tunnels | Nothing (Falling) |  |  |  |
-| UCT | Upper to Center Tunnels | Center Tunnels | Upper Tunnels | Cling Grip or Scuttlebrace or Silk Soar |  |  |  |
-| UCT | Upper to Center Tunnels | Upper Tunnels | Center Tunnels | Nothing (Falling) |  |  |  |
-| CTH | Center to Top Horizontal | Center Tunnels | Top Horizontal | Cling Grip or Scuttlebrace or Silk Soar |  |  |  |
-| CTH | Center to Top Horizontal | Top Horizontal | Center Tunnels | Nothing (Falling) |  |  |  |
-| TTP | Top to Pickup Section | Top Horizontal | Pickup Section | Nothing (Falling) |  |  |  |
+| LUT | Lower to Upper Tunnels | Lower Tunnels | Upper Tunnels | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |
+| LUT | Lower to Upper Tunnels | Upper Tunnels | Lower Tunnels | Nothing (Falling) |  | Verified |  |
+| UCT | Upper to Center Tunnels | Center Tunnels | Upper Tunnels | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |
+| UCT | Upper to Center Tunnels | Upper Tunnels | Center Tunnels | Nothing (Falling) |  | Verified |  |
+| CTH | Center to Top Horizontal | Center Tunnels | Top Horizontal | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |
+| CTH | Center to Top Horizontal | Top Horizontal | Center Tunnels | Nothing (Falling) |  | Verified |  |
+| TTP | Top to Pickup Section | Top Horizontal | Pickup Section | Nothing (Falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map: Whiteward | Pickup Section | Nothing |  |  | Included |  |
+| Map: Whiteward | Pickup Section | Nothing |  | Verified | Included |  |
 
 ## High Halls
 

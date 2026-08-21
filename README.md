@@ -342,9 +342,9 @@ No rooms defined.
 
 ## Whiteward
 
-- [Whiteward Descent (Ward_06)](./whiteward/whiteward-descent.md)
-- [Whiteward Descent Connection (Ward_03)](./whiteward/whiteward-descent-connection.md)
 - [Whiteward Entrance (Ward_01)](./whiteward/whiteward-entrance.md)
+- [Whiteward Descent Connection (Ward_03)](./whiteward/whiteward-descent-connection.md)
+- [Whiteward Descent (Ward_06)](./whiteward/whiteward-descent.md)
 - [Whiteward Junk Dump (Ward_07)](./whiteward/whiteward-junk-dump.md)
 - [Whiteward Long Horizontal (Ward_05)](./whiteward/whiteward-long-horizontal.md)
 - [Whiteward Silkeater (Ward_04)](./whiteward/whiteward-silkeater.md)

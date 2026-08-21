@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom |  | [Whiteward Descent Connection (Ward_03)](whiteward-descent-connection.md) | T | Nothing |  |  |  |
+| B | Bottom |  | [Whiteward Descent Connection (Ward_03)](whiteward-descent-connection.md) | T | Nothing |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward Top Right - Lore |  | Nothing |  |  | Included |  |
+| Whiteward Top Right - Lore |  | Nothing |  | Verified | Included |  |
