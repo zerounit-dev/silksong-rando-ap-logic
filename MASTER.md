@@ -13125,9 +13125,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosaries Looking Over The Sinner's Bench | door | Silk soar OR (Faydown AND cling grip right) |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #8 |
+| 1 | Sinner's Road - Rosaries Looking Over The Sinner's Bench | door | Silk soar OR (Faydown AND cling grip right) |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #8 |
 | 2 | Sinner's Road - Map Purchase | bench | none |  | Verified | collectible | ✓ |  |
-| 3 | Please Help Me Fix This Bench, Shakra | bench | Spend 40 Rosaries AND complete Unclogging The Overly Complicated Bench |  | Verified | bench | ✓ | Formerly: Sinner's Road Bench |
+| 3 | Sinner's Road - Please Help Me Fix This Bench, Shakra | bench | Spend 40 Rosaries AND complete Unclogging The Overly Complicated Bench |  | Verified | bench | ✓ | Formerly: Sinner's Road Bench |
 | 4 | Craw Summons | bench | Craw Summons Ready |  | Verified | collectible |  |  |
 | 5 | Unclogging The Overly Complicated Bench | end | break vines right |  | Verified | blockade | ✓ | Formerly: Sinner's Road Bench |
 
@@ -13216,7 +13216,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Caged Rosaries In the Sinner's Entryway | center | break wall left |  | Verified | collectible | ✓ | Formerly: Frayed Rosary String: Sinner's Road |
+| 1 | Sinner's Road - Caged Rosaries In the Entryway | center | break wall left |  | Verified | collectible | ✓ | Formerly: Frayed Rosary String: Sinner's Road |
 | 2 | Disease, the Muckroach | center | none |  | Verified | enemy | ✓ | Formerly: Muckroach 1 |
 | 3 | Gag, the Muckroach | center | attack up OR have Tool: Conchcutter OR faydown cloak OR silk soar OR cling grip either |  | Verified | enemy | ✓ | Formerly: Muckroach 2 |
 | 4 | Toilet, the Muckroach | center | none |  | Verified | enemy | ✓ | Formerly: Muckroach 3 |
@@ -13255,7 +13255,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sinner's Flea |  | complete Break Wall Flea Cage |  | Verified | collectible | ✓ | Formerly: Flea: Sinner's Road |
+| 1 | Sinner's Road - Sinner's Flea |  | complete Break Wall Flea Cage |  | Verified | collectible | ✓ | Formerly: Flea: Sinner's Road |
 | 2 | Break Wall Flea Cage |  | break wall left |  | Verified | blockade | ✓ |  |
 | 3 | DermiTitus, the Muckroach |  | none |  | Verified | enemy | ✓ | Formerly: Muckroach 1 |
 | 4 | Muckroach 2 |  | invalid |  | Verified | enemy | ✓ | Caged and invincible. |
@@ -13325,8 +13325,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | My Missing Brother Wish Granted | upper entry | complete THE My Missing Brother Wish Promised |  | Verified | event |  |  |
-| 2 | Shell Shards Lugoli Probably Threw Out: The First | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #4 |
-| 3 | Shell Shards Lugoli Probably Threw Out: The Second | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #5 |
+| 2 | Sinner's Road - Shell Shards Lugoli Probably Threw Out: The First | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #4 |
+| 3 | Sinner's Road - Shell Shards Lugoli Probably Threw Out: The Second | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #5 |
 | 4 | Upper Entry Switch | upper entry | hit switch left OR hit switch up |  | Verified | switch |  |  |
 | 5 | Roachfeeder 1 | plat above upper door | prereq THE my missing brother wish promised |  | Verified | enemy | ✓ | Spawn conditions: Save Courier Tall accepted=true, Save Courier Tall completed=false |
 | 6 | Roachcatcher 1 | plat above upper door | prereq THE my missing brother wish promised |  | Verified | enemy | ✓ | Spawn conditions: Save Courier Tall accepted=true, Save Courier Tall completed=false |
@@ -13409,10 +13409,10 @@ No check locations defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | A Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #1 |
-| 2 | A Few More Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #2 |
-| 3 | Last Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #3 |
-| 4 | Rosary Cache: Sinner’s Road #4 | attic | none |  | Verified | collectible | ✓ |  |
+| 1 | Sinner's Road - A Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #1 |
+| 2 | Sinner's Road - A Few More Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #2 |
+| 3 | Sinner's Road - Last Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #3 |
+| 4 | Sinner's Road - Rosary Cache: Sinner’s Road #4 | attic | none |  | Verified | collectible | ✓ |  |
 | 5 | Roachcatcher 1 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 6 | Muckroach 1 | attic | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 7 | Roachcatcher 2 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
@@ -13504,9 +13504,9 @@ this room has a few disabled battle scenes which is why there are so many disabl
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Left Shards In the Hall of the Spike Swingers | left area | swim AND attack up |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #6 |
-| 2 | Right Shards In the Hall of the Spike Swingers | left area | attack up AND (swim OR clawline left OR sharpdart OR (run AND drifter's cloak)) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #7 |
-| 3 | That Chest In the Halls of the Spike Swingers That's RIGHT THERE | chest plat | none |  | Verified | collectible | ✓ | Formerly: Sinner's Road - Rosary Chest |
+| 1 | Sinner's Road - Left Shards In the Hall of the Spike Swingers | left area | swim AND attack up |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #6 |
+| 2 | Sinner's Road - Right Shards In the Hall of the Spike Swingers | left area | attack up AND (swim OR clawline left OR sharpdart OR (run AND drifter's cloak)) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #7 |
+| 3 | Sinner's Road - That Chest In the Halls of the Spike Swingers That's RIGHT THERE | chest plat | none |  | Verified | collectible | ✓ | Formerly: Sinner's Road - Rosary Chest |
 | 4 | The Lever Gettin' You Outta The North Hall | right door | hit switch up OR hit switch right OR hit switch left |  | Verified | switch | ✓ | Formerly: North Hall Door Switch |
 | 5 | Garmond and Zaza Act 3 Meeting Sinner's Road | right plat | Act 3 |  | Verified | event | ✓ |  |
 | 6 | Secret Wall To The Mists Left | behind left wall | break wall right |  | Verified | blockade | ✓ |  |
@@ -13667,11 +13667,11 @@ this room has a few disabled battle scenes which is why there are so many disabl
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Eastern Sinner's Cage Rosary Primus | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #5 |
-| 2 | Eastern Sinner's Cage Rosary Secundus | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #6 |
-| 3 | Eastern Sinner's Cage Rosary Tertius | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #7 |
-| 4 | Shards on Bilewater's Doorstep | bilewater door | none |  | Verified | collectible | ✓ | Formerly: Shard Bundle: Sinner’s Road |
-| 5 | Key Hoarding Roachkeeper In the Attic | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  | Verified | collectible | ✓ | Formerly: Simple Key: Roachkeeper |
+| 1 | Sinner's Road - Eastern Sinner's Cage Rosary Primus | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #5 |
+| 2 | Sinner's Road - Eastern Sinner's Cage Rosary Secundus | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #6 |
+| 3 | Sinner's Road - Eastern Sinner's Cage Rosary Tertius | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #7 |
+| 4 | Sinner's Road - Shards on Bilewater's Doorstep | bilewater door | none |  | Verified | collectible | ✓ | Formerly: Shard Bundle: Sinner’s Road |
+| 5 | Sinner's Road - Key Hoarding Roachkeeper In the Attic | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  | Verified | collectible | ✓ | Formerly: Simple Key: Roachkeeper |
 | 6 | Ahmed, the Roachkeeper | upper | ((cling grip either AND faydown cloak) OR (Cling grip both AND (dash OR drifter’s cloak OR clawline left OR sharpdart OR silk soar))) AND hit lever up |  | Verified | enemy | ✓ | Formerly: Roachkeeper 1 |
 | 7 | Hyakinthos, the Roachfeeder | low mid cage | none |  | Verified | enemy | ✓ | Formerly: Roachfeeder 1 |
 | 8 | Dominic, the Roachfeeder | upper | none |  | Verified | enemy | ✓ | Formerly: Roachfeeder 2 |
@@ -13743,9 +13743,9 @@ this room has a few disabled battle scenes which is why there are so many disabl
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Gross Rosaries In the Sinner's Basement | basement | (swim AND (Ledge grab left OR cling grip left))  OR  (faydown cloak AND ((drifter's cloak AND ledge grab left) OR clawline left OR sharpdart OR swim)) OR (clawline left AND (drifter's cloak AND ledge grab left)) |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #1 |
-| 2 | First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison | rosary cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #2 |
-| 3 | Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison | rosary cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #3 |
+| 1 | Sinner's Road - Gross Rosaries In the Sinner's Basement | basement | (swim AND (Ledge grab left OR cling grip left))  OR  (faydown cloak AND ((drifter's cloak AND ledge grab left) OR clawline left OR sharpdart OR swim)) OR (clawline left AND (drifter's cloak AND ledge grab left)) |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #1 |
+| 2 | Sinner's Road - First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison | rosary cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #2 |
+| 3 | Sinner's Road - Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison | rosary cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #3 |
 | 4 | Lever That Gets You A Shortcut To The Bullshit Bench Door | lever room | flip switch either |  | Verified | lock | ✓ |  |
 | 5 | Amy, the Roachcatcher | middle right | none |  | Verified | enemy | ✓ | Formerly: Roachcatcher 1 |
 | 6 | Puddles, the Mite | basement | none |  | Verified | enemy | ✓ | Formerly: Mite 1 |
@@ -19582,7 +19582,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Flea That Bilewater Thieves Stole | upper | none |  | Verified | collectible | ✓ | Formerly: Flea: Bilewater - Thieves |
+| 1 | Bilewater - The Flea That Bilewater Thieves Stole | upper | none |  | Verified | collectible | ✓ | Formerly: Flea: Bilewater - Thieves |
 | 2 | Snitchfly 1 | upper | none |  | Verified | enemy | ✓ |  |
 | 3 | Snitchfly 2 | upper | none |  | Verified | enemy | ✓ |  |
 | 4 | Snitchfly 3 | upper | none |  | Verified | enemy | ✓ |  |
@@ -19899,7 +19899,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Flea That Couldn't Make It Past All The Bilewater Traps | flea room | break vines left |  | Verified | collectible | ✓ | Formerly: Flea: Bilehaven |
+| 1 | Bilewater - The Flea That Couldn't Make It Past All The Bilewater Traps | flea room | break vines left |  | Verified | collectible | ✓ | Formerly: Flea: Bilehaven |
 | 2 | Bilewater - Shell Shard Cache #1 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 3 | Bilewater - Shell Shard Cache #2 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 4 | Stilkin 1 | below flea | none |  | Verified | enemy | ✓ |  |
@@ -19948,7 +19948,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Locket At The End of A LONG Hallway of Moths | right | none |  | Verified | collectible | ✓ | Formerly: Bilewater East - Memory Locket |
+| 1 | Bilewater - Locket At The End of A LONG Hallway of Moths | right | none |  | Verified | collectible | ✓ | Formerly: Bilewater East - Memory Locket |
 | 2 | Bilewater East - Breakable Wall | behind wall | prereq Bilewater East Bench Left Exit Wall IN Bilewater East Bench |  | Verified | blockade | ✓ |  |
 | 3 | Mothleaf Lagnia 1 | center ground | none |  | Verified | enemy | ✓ |  |
 | 4 | Mothleaf Lagnia 2 | center ground | none |  | Verified | enemy | ✓ |  |
@@ -19989,9 +19989,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | First Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #5 |
-| 2 | Second Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #6 |
-| 3 | Third Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #7 |
+| 1 | Bilewater - First Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #5 |
+| 2 | Bilewater - Second Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #6 |
+| 3 | Bilewater - Third Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #7 |
 | 4 | Mothleaf Lagnia 1 |  | none |  | Verified | enemy | ✓ |  |
 | 5 | Mothleaf Lagnia 2 |  | none |  | Verified | enemy | ✓ |  |
 | 6 | Mothleaf Lagnia 3 |  | none |  | Verified | enemy | ✓ |  |
@@ -20126,8 +20126,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Box Of Rosaries Right Inside Bilewater | left rosary platform | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #1 |
-| 2 | A Few Remaining Rosaries Next To A Dead Guy In Bilewater | middle quarter | (Faydown cloak AND (ledge grab right OR scuttlebrace OR (proficient movement AND easy beast pogo))) OR silk soar OR cling grip either |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #2 |
+| 1 | Bilewater - Box Of Rosaries Right Inside Bilewater | left rosary platform | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #1 |
+| 2 | Bilewater - A Few Remaining Rosaries Next To A Dead Guy In Bilewater | middle quarter | (Faydown cloak AND (ledge grab right OR scuttlebrace OR (proficient movement AND easy beast pogo))) OR silk soar OR cling grip either |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #2 |
 | 3 | Mosquitony, the Swamp Squit | top mid plat | none |  | Verified | enemy | ✓ | Formerly: Swamp Squit 1 |
 | 4 | Colt, the Swamp Squit | top mid plat | none |  | Verified | enemy | ✓ | Formerly: Swamp Squit 2 |
 | 5 | Gideon, the Swamp Squit | middle quarter | none |  | Verified | enemy | ✓ | Formerly: Swamp Squit 3 |
@@ -20668,9 +20668,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Memory Locket Annoyingly Nearby the Twisted Chud | bottom floor | cling grip AND (swim OR clawline OR easy hunter pogo OR easy beast pogo OR easy architect pogo OR ((easy wanderer pogo OR easy witch pogo OR easy reaper pogo) AND (dash OR faydown cloak OR drifter's cloak))) |  | Verified | collectible | ✓ | Formerly: Bilewater West - Memory Locket |
-| 2 | First Quick Rosaries In The Western Bilewater Rooms | bottom floor | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #6 |
-| 3 | Other Quick Rosaries In The Western Bilewater Rooms | bottom floor | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #7 |
+| 1 | Bilewater - Memory Locket Annoyingly Nearby the Twisted Chud | bottom floor | cling grip AND (swim OR clawline OR easy hunter pogo OR easy beast pogo OR easy architect pogo OR ((easy wanderer pogo OR easy witch pogo OR easy reaper pogo) AND (dash OR faydown cloak OR drifter's cloak))) |  | Verified | collectible | ✓ | Formerly: Bilewater West - Memory Locket |
+| 2 | Bilewater - First Quick Rosaries In The Western Bilewater Rooms | bottom floor | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #6 |
+| 3 | Bilewater - Other Quick Rosaries In The Western Bilewater Rooms | bottom floor | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #7 |
 | 4 | Twisted Bud | bud hall | complete bud hall wall 3 |  | Verified | collectible | ✓ |  |
 | 5 | lowerable hatch | right room | attack left |  | Verified | blockade | ✓ |  |
 | 6 | breakable wall to bud | bud wall plat | attack left |  | Verified | blockade | ✓ |  |
@@ -20733,7 +20733,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea Is Tired Of Organ Music | flea hall plat | (swim OR cling grip OR faydown cloak OR (silk soar AND (clawline OR ((drifter's cloak OR sharpdart) AND ledge grab)))) AND break vines left |  | Verified | collectible | ✓ | Formerly: Flea Rescue |
+| 1 | Exhaust Organ - Flea Is Tired Of Organ Music | flea hall plat | (swim OR cling grip OR faydown cloak OR (silk soar AND (clawline OR ((drifter's cloak OR sharpdart) AND ledge grab)))) AND break vines left |  | Verified | collectible | ✓ | Formerly: Flea Rescue |
 
 <a name="room-bilewater--exhaust-organ-interior"></a>
 
@@ -20771,8 +20771,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TE | top to elevator | top layer | elevator | complete Boss: Phantom |  | Verified | ✓ |  |
 | TE | top to elevator | elevator | top layer | complete Boss: Phantom |  | Verified | ✓ |  |
-| GBE | ground to broken elevator | ground floor | broken elevator | (cling grip either AND complete Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar |  | Verified | ✓ |  |
-| GBE | ground to broken elevator | broken elevator | ground floor | complete Fix The Broken Elevator |  | Verified | ✓ |  |
+| GBE | ground to broken elevator | ground floor | broken elevator | (cling grip either AND complete Exhaust Organ - Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar |  | Verified | ✓ |  |
+| GBE | ground to broken elevator | broken elevator | ground floor | complete Exhaust Organ - Fix The Broken Elevator |  | Verified | ✓ |  |
 | GRC | ground to right column | ground floor | right column | cling grip |  | Verified | ✓ |  |
 | GRC | ground to right column | right column | ground floor | none |  | Verified | ✓ |  |
 | MRC | maze to right column | maze | right column | cling grip AND faydown cloak |  | Verified | ✓ |  |
@@ -20781,16 +20781,16 @@ No subroom connections defined.
 | MT | maze to top | top layer | maze | cling grip |  | Verified | ✓ |  |
 | GB | ground to bench room | ground floor | bench room | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
 | GB | ground to bench room | bench room | ground floor | none |  | Verified | ✓ |  |
-| MBE | maze to broken elevator | maze | broken elevator | complete Fix The Broken Elevator |  | Verified | ✓ |  |
+| MBE | maze to broken elevator | maze | broken elevator | complete Exhaust Organ - Fix The Broken Elevator |  | Verified | ✓ |  |
 | MBE | maze to broken elevator | broken elevator | maze | none |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Silk Grub Listening To Mozart In the Cocoon | maze | none |  | Verified | collectible | ✓ | Formerly: Silk Grub Large Cocoon |
-| 2 | Backstage Organ Bench | bench room | silk soar OR cling grip |  | Verified | bench | ✓ | Formerly: Organ Bench |
-| 3 | Fix The Broken Elevator | broken elevator | attack left OR attack up |  | Verified | blockade | ✓ |  |
+| 1 | Exhaust Organ - Silk Grub Listening To Mozart In the Cocoon | maze | none |  | Verified | collectible | ✓ | Formerly: Silk Grub Large Cocoon |
+| 2 | Exhaust Organ - Backstage Organ Bench | bench room | silk soar OR cling grip |  | Verified | bench | ✓ | Formerly: Organ Bench |
+| 3 | Exhaust Organ - Fix The Broken Elevator | broken elevator | attack left OR attack up |  | Verified | blockade | ✓ |  |
 | 4 | Boss: Phantom | top layer | ( dash OR run ) AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 5 | Phantom 1 | top layer | dash OR run |  | Verified | enemy | ✓ |  |
 | 6 | Drapefly 1 | ground floor | none |  | Verified | enemy | ✓ |  |

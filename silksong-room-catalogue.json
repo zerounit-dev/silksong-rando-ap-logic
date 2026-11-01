@@ -37351,7 +37351,7 @@
       "checks": [
         {
           "id": "cd3ea9f7-9c81-4f17-ab6a-f934d827e893",
-          "friendlyName": "Rosaries Looking Over The Sinner\u0027s Bench",
+          "friendlyName": "Sinner\u0027s Road - Rosaries Looking Over The Sinner\u0027s Bench",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -37372,7 +37372,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:16:38.5907831Z",
-          "updatedUtc": "2026-10-25T04:32:55.0230855Z"
+          "updatedUtc": "2026-11-01T22:58:44.978144Z"
         },
         {
           "id": "6f27232d-812c-4d07-92de-18d811846d34",
@@ -37401,7 +37401,7 @@
         },
         {
           "id": "ba67de0c-f1ae-493e-970f-6e5131bcebe0",
-          "friendlyName": "Please Help Me Fix This Bench, Shakra",
+          "friendlyName": "Sinner\u0027s Road - Please Help Me Fix This Bench, Shakra",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -37422,7 +37422,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-19T00:36:09.0466226Z",
-          "updatedUtc": "2026-10-25T04:35:44.6400031Z"
+          "updatedUtc": "2026-11-01T22:58:30.9931654Z"
         },
         {
           "id": "b9643ff6-1197-477b-8396-9255648b0138",
@@ -103448,7 +103448,7 @@
       "checks": [
         {
           "id": "c244998e-45ab-4fda-a19f-bee26bc4f451",
-          "friendlyName": "Caged Rosaries In the Sinner\u0027s Entryway",
+          "friendlyName": "Sinner\u0027s Road - Caged Rosaries In the Entryway",
           "inGameId": "Collectable Item Pickup",
           "inGamePositionX": 76.43,
           "inGamePositionY": 2.28219533,
@@ -103469,7 +103469,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T23:45:16.7599806Z",
-          "updatedUtc": "2026-10-25T05:29:39.0516923Z"
+          "updatedUtc": "2026-11-01T22:57:58.1047988Z"
         },
         {
           "id": "14801876-90cd-4111-81b8-2d9953ab43de",
@@ -112897,7 +112897,7 @@
       "checks": [
         {
           "id": "c78d1856-fabb-4e42-9989-ab5c5a9dd965",
-          "friendlyName": "Sinner\u0027s Flea",
+          "friendlyName": "Sinner\u0027s Road - Sinner\u0027s Flea",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -112918,7 +112918,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:21:57.6133582Z",
-          "updatedUtc": "2026-10-29T03:04:16.9719997Z"
+          "updatedUtc": "2026-11-01T22:58:17.4958715Z"
         },
         {
           "id": "854e2b8b-6065-4ad9-9f9f-2a5c52b7c791",
@@ -117311,7 +117311,7 @@
         },
         {
           "id": "b60aef63-d800-4533-b5da-2f92e49fd03d",
-          "friendlyName": "Shell Shards Lugoli Probably Threw Out: The First",
+          "friendlyName": "Sinner\u0027s Road - Shell Shards Lugoli Probably Threw Out: The First",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -117332,11 +117332,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:36:32.3989438Z",
-          "updatedUtc": "2026-10-29T03:09:04.172614Z"
+          "updatedUtc": "2026-11-01T22:59:04.18355Z"
         },
         {
           "id": "1308d6f0-ec57-461f-864e-90b5ec0e262f",
-          "friendlyName": "Shell Shards Lugoli Probably Threw Out: The Second",
+          "friendlyName": "Sinner\u0027s Road - Shell Shards Lugoli Probably Threw Out: The Second",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -117357,7 +117357,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:37:27.0760466Z",
-          "updatedUtc": "2026-10-29T03:09:19.2019011Z"
+          "updatedUtc": "2026-11-01T22:59:13.8632368Z"
         },
         {
           "id": "ad245e19-e723-42a6-9fcd-3bccf57710be",
@@ -141572,7 +141572,7 @@
       "checks": [
         {
           "id": "187bb7ea-5661-4d8c-8d62-387908c6c1ed",
-          "friendlyName": "A Few Spare Shards In The Muckroach Kennel Attic",
+          "friendlyName": "Sinner\u0027s Road - A Few Spare Shards In The Muckroach Kennel Attic",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -141593,11 +141593,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:58:29.2916427Z",
-          "updatedUtc": "2026-11-01T20:15:39.2882581Z"
+          "updatedUtc": "2026-11-01T22:59:21.8629796Z"
         },
         {
           "id": "a67ed585-6e59-474b-b95e-0213e2b6da17",
-          "friendlyName": "A Few More Spare Shards In The Muckroach Kennel Attic",
+          "friendlyName": "Sinner\u0027s Road - A Few More Spare Shards In The Muckroach Kennel Attic",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -141618,11 +141618,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:58:30.7684093Z",
-          "updatedUtc": "2026-11-01T20:15:47.8066117Z"
+          "updatedUtc": "2026-11-01T22:59:23.7546801Z"
         },
         {
           "id": "b23a4fc4-ff1c-43f2-ab7b-9b6c23b5221e",
-          "friendlyName": "Last Few Spare Shards In The Muckroach Kennel Attic",
+          "friendlyName": "Sinner\u0027s Road - Last Few Spare Shards In The Muckroach Kennel Attic",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -141643,11 +141643,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:58:31.5510485Z",
-          "updatedUtc": "2026-11-01T20:15:51.609914Z"
+          "updatedUtc": "2026-11-01T22:59:26.0440692Z"
         },
         {
           "id": "898e5e64-3ce0-49b3-8194-b6d14ac2fa7d",
-          "friendlyName": "Rosary Cache: Sinner\u2019s Road #4",
+          "friendlyName": "Sinner\u0027s Road - Rosary Cache: Sinner\u2019s Road #4",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -141668,7 +141668,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:59:03.5560832Z",
-          "updatedUtc": "2026-10-23T03:18:45.6640566Z"
+          "updatedUtc": "2026-11-01T22:59:40.135293Z"
         },
         {
           "id": "eeb134cc-1e5b-4695-8845-78a18b31b2e3",
@@ -145803,7 +145803,7 @@
       "checks": [
         {
           "id": "25a64445-92a1-4a31-9b48-788d8369ee10",
-          "friendlyName": "The Flea That Bilewater Thieves Stole",
+          "friendlyName": "Bilewater - The Flea That Bilewater Thieves Stole",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -145824,7 +145824,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:49:30.5852285Z",
-          "updatedUtc": "2026-11-01T18:18:48.7851977Z"
+          "updatedUtc": "2026-11-01T23:02:37.9795247Z"
         },
         {
           "id": "90a21b82-b7f4-49d6-8408-7fe08050392e",
@@ -153466,7 +153466,7 @@
       "checks": [
         {
           "id": "2aefa858-0b94-4d5d-af26-e3b6737a9a52",
-          "friendlyName": "Left Shards In the Hall of the Spike Swingers ",
+          "friendlyName": "Sinner\u0027s Road - Left Shards In the Hall of the Spike Swingers ",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -153487,11 +153487,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:13:38.6000156Z",
-          "updatedUtc": "2026-10-29T01:53:05.6135744Z"
+          "updatedUtc": "2026-11-01T23:00:03.036597Z"
         },
         {
           "id": "0a762857-5444-4a97-aaec-38b634caa605",
-          "friendlyName": "Right Shards In the Hall of the Spike Swingers ",
+          "friendlyName": "Sinner\u0027s Road - Right Shards In the Hall of the Spike Swingers ",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -153512,11 +153512,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:13:40.3104231Z",
-          "updatedUtc": "2026-11-01T21:53:56.6220323Z"
+          "updatedUtc": "2026-11-01T23:00:04.9148667Z"
         },
         {
           "id": "13246f9a-a98b-4803-854c-e2a30f8ddb15",
-          "friendlyName": "That Chest In the Halls of the Spike Swingers That\u0027s RIGHT THERE",
+          "friendlyName": "Sinner\u0027s Road - That Chest In the Halls of the Spike Swingers That\u0027s RIGHT THERE",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -153537,7 +153537,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T06:30:09.4818049Z",
-          "updatedUtc": "2026-10-29T01:54:07.2646028Z"
+          "updatedUtc": "2026-11-01T23:00:07.0746432Z"
         },
         {
           "id": "734a3d27-bc3c-4b7b-8011-b66b2d59c1d6",
@@ -180982,7 +180982,7 @@
       "checks": [
         {
           "id": "f272a0fc-a61c-4fd8-a1e6-73a2efce1084",
-          "friendlyName": "Eastern Sinner\u0027s Cage Rosary Primus",
+          "friendlyName": "Sinner\u0027s Road - Eastern Sinner\u0027s Cage Rosary Primus",
           "inGameId": "rosary_string_medium",
           "inGamePositionX": 10.9260359,
           "inGamePositionY": 82.3458252,
@@ -181003,11 +181003,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:00:10.6761108Z",
-          "updatedUtc": "2026-11-01T18:08:45.330659Z"
+          "updatedUtc": "2026-11-01T23:00:32.4619263Z"
         },
         {
           "id": "74ffa4f1-4974-40dc-8fd3-46cd84dd5486",
-          "friendlyName": "Eastern Sinner\u0027s Cage Rosary Secundus",
+          "friendlyName": "Sinner\u0027s Road - Eastern Sinner\u0027s Cage Rosary Secundus",
           "inGameId": "rosary_string_small",
           "inGamePositionX": 11.8,
           "inGamePositionY": 83.66,
@@ -181028,11 +181028,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:15:06.1310968Z",
-          "updatedUtc": "2026-11-01T18:08:58.925456Z"
+          "updatedUtc": "2026-11-01T23:00:34.0243029Z"
         },
         {
           "id": "c75eb85b-c102-4610-8c3c-68ffde71cddd",
-          "friendlyName": "Eastern Sinner\u0027s Cage Rosary Tertius",
+          "friendlyName": "Sinner\u0027s Road - Eastern Sinner\u0027s Cage Rosary Tertius",
           "inGameId": "rosary_string_small_half",
           "inGamePositionX": 12.62,
           "inGamePositionY": 84.72,
@@ -181053,11 +181053,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:15:07.7540558Z",
-          "updatedUtc": "2026-11-01T18:08:55.4817331Z"
+          "updatedUtc": "2026-11-01T23:00:36.5105645Z"
         },
         {
           "id": "890f63bb-e718-4415-a3e2-85ecaf6ac7f5",
-          "friendlyName": "Shards on Bilewater\u0027s Doorstep",
+          "friendlyName": "Sinner\u0027s Road - Shards on Bilewater\u0027s Doorstep",
           "inGameId": "Collectable Item Pickup",
           "inGamePositionX": 26.11,
           "inGamePositionY": 96.27748,
@@ -181078,11 +181078,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:15:42.9129532Z",
-          "updatedUtc": "2026-11-01T18:09:02.3961133Z"
+          "updatedUtc": "2026-11-01T23:00:38.2852051Z"
         },
         {
           "id": "b08ca6ef-95fe-4e21-8813-7cfe691aa778",
-          "friendlyName": "Key Hoarding Roachkeeper In the Attic",
+          "friendlyName": "Sinner\u0027s Road - Key Hoarding Roachkeeper In the Attic",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -181103,7 +181103,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:15:55.6201136Z",
-          "updatedUtc": "2026-10-25T03:49:11.1900509Z"
+          "updatedUtc": "2026-11-01T23:01:03.890665Z"
         },
         {
           "id": "17f40eec-ecfa-49ff-9847-f6ea28d20998",
@@ -189202,7 +189202,7 @@
       "checks": [
         {
           "id": "c365d492-1522-49b8-9bae-8232cce1bf87",
-          "friendlyName": "Gross Rosaries In the Sinner\u0027s Basement",
+          "friendlyName": "Sinner\u0027s Road - Gross Rosaries In the Sinner\u0027s Basement",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -189223,11 +189223,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:55:04.5787998Z",
-          "updatedUtc": "2026-10-29T01:43:15.7349104Z"
+          "updatedUtc": "2026-11-01T23:01:11.1869806Z"
         },
         {
           "id": "18fa3c25-7b0c-4626-a24a-e3a6a3bdfe9e",
-          "friendlyName": "First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
+          "friendlyName": "Sinner\u0027s Road - First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -189248,11 +189248,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:55:08.0766995Z",
-          "updatedUtc": "2026-10-29T01:37:08.2170148Z"
+          "updatedUtc": "2026-11-01T23:01:18.698014Z"
         },
         {
           "id": "66ddda0c-35c8-40bb-8d9a-ab76185aee1f",
-          "friendlyName": "Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
+          "friendlyName": "Sinner\u0027s Road - Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -189273,7 +189273,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:55:09.2678479Z",
-          "updatedUtc": "2026-10-29T01:36:26.5329768Z"
+          "updatedUtc": "2026-11-01T23:01:26.4931214Z"
         },
         {
           "id": "55e83ab7-dcc7-4c8b-bb6f-3e56ef380942",
@@ -203984,7 +203984,7 @@
       "checks": [
         {
           "id": "d48ac773-f3b2-45f1-8a97-cc1581366cfc",
-          "friendlyName": "The Flea That Couldn\u0027t Make It Past All The Bilewater Traps",
+          "friendlyName": "Bilewater - The Flea That Couldn\u0027t Make It Past All The Bilewater Traps",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -204005,7 +204005,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:34:50.5478172Z",
-          "updatedUtc": "2026-11-01T18:19:40.4032124Z"
+          "updatedUtc": "2026-11-01T23:03:15.9754212Z"
         },
         {
           "id": "c39bce1c-a7f1-494d-9c21-7b4747393d55",
@@ -212940,7 +212940,7 @@
       "checks": [
         {
           "id": "ae4e611a-6312-4691-8a71-b799955a9d8d",
-          "friendlyName": "Locket At The End of A LONG Hallway of Moths",
+          "friendlyName": "Bilewater - Locket At The End of A LONG Hallway of Moths",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -212961,7 +212961,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:49:16.1290715Z",
-          "updatedUtc": "2026-11-01T19:30:31.6172947Z"
+          "updatedUtc": "2026-11-01T23:03:34.1998868Z"
         },
         {
           "id": "e54fabb5-6feb-4208-b76e-a4564c41552e",
@@ -220666,7 +220666,7 @@
       "checks": [
         {
           "id": "4a563e5f-fc7f-48d4-af88-9982b7017ce1",
-          "friendlyName": "First Third Of The Shards In A Mothed Up Bilewater Closet",
+          "friendlyName": "Bilewater - First Third Of The Shards In A Mothed Up Bilewater Closet",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -220687,11 +220687,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:48:11.4080484Z",
-          "updatedUtc": "2026-11-01T19:20:07.6663999Z"
+          "updatedUtc": "2026-11-01T23:03:37.8468057Z"
         },
         {
           "id": "49536835-e23d-4b59-bc32-ac0824befde0",
-          "friendlyName": "Second Third Of The Shards In A Mothed Up Bilewater Closet",
+          "friendlyName": "Bilewater - Second Third Of The Shards In A Mothed Up Bilewater Closet",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -220712,11 +220712,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:48:15.6388136Z",
-          "updatedUtc": "2026-11-01T19:18:44.7450685Z"
+          "updatedUtc": "2026-11-01T23:03:39.0777581Z"
         },
         {
           "id": "00e06698-22a8-46bf-a22d-c89954daa14b",
-          "friendlyName": "Third Third Of The Shards In A Mothed Up Bilewater Closet",
+          "friendlyName": "Bilewater - Third Third Of The Shards In A Mothed Up Bilewater Closet",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -220737,7 +220737,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:48:17.8490642Z",
-          "updatedUtc": "2026-11-01T19:18:41.007203Z"
+          "updatedUtc": "2026-11-01T23:03:40.5568701Z"
         },
         {
           "id": "a9351ba5-2318-483f-b98f-e169e04152c1",
@@ -236217,19 +236217,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 212,
       "sceneMaxY": 55,
-      "sceneImagePixelsPerUnitX": 6.036446789504227,
-      "sceneImagePixelsPerUnitY": 6.179536762520436,
-      "sceneImagePixelOffsetX": 14962.095858486582,
-      "sceneImagePixelOffsetY": 7709.52745626301,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 14918.065440105214,
+      "sceneImagePixelOffsetY": 7718.738166259038,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "db065a4bc09d70327283088a7d08a288e76625601ed58aad9532400afd7c6a3e",
+      "sceneImageCropHash": "9ad088c134248849efeda743e5025f29b1ed94f75e39415e1a2655c2d71ca618",
       "sortOrder": 17,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:06:38.4221676Z",
-      "updatedUtc": "2026-10-11T01:30:07.0601385Z",
+      "updatedUtc": "2026-11-01T23:04:07.5556285Z",
       "subrooms": [
         {
           "id": "5d1e139d-70b8-4d69-8e8d-845cfc90e4c8",
@@ -236657,7 +236657,7 @@
       "checks": [
         {
           "id": "6eb888f4-e75a-486f-9596-177063f0e3cf",
-          "friendlyName": "Box Of Rosaries Right Inside Bilewater",
+          "friendlyName": "Bilewater - Box Of Rosaries Right Inside Bilewater",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -236678,11 +236678,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:28:43.470997Z",
-          "updatedUtc": "2026-10-29T02:26:53.9076197Z"
+          "updatedUtc": "2026-11-01T23:03:57.1208281Z"
         },
         {
           "id": "0bc94da8-2b18-4f84-992b-35841e39b6c4",
-          "friendlyName": "A Few Remaining Rosaries Next To A Dead Guy In Bilewater",
+          "friendlyName": "Bilewater - A Few Remaining Rosaries Next To A Dead Guy In Bilewater",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -236703,7 +236703,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:28:46.2764703Z",
-          "updatedUtc": "2026-10-29T02:26:25.9377258Z"
+          "updatedUtc": "2026-11-01T23:03:52.7773313Z"
         },
         {
           "id": "e65e2c3f-c78c-4fe3-9359-caea33227666",
@@ -239857,19 +239857,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 320,
       "sceneMaxY": 74,
-      "sceneImagePixelsPerUnitX": 6.680449232493762,
-      "sceneImagePixelsPerUnitY": 6.389435340141652,
-      "sceneImagePixelOffsetX": 15676.848182269794,
-      "sceneImagePixelOffsetY": 9247.989166204407,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 15708.530933543352,
+      "sceneImagePixelOffsetY": 9251.545625336044,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "c168b519931f0135c105a92d5186f7119ccc96ca006fc38a2b13543992f3bce5",
+      "sceneImageCropHash": "bdcfcd57633cf0a8321aa202add38b4505895147eb06e373ffd99af8d79ff20a",
       "sortOrder": 18,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:15:03.400926Z",
-      "updatedUtc": "2026-10-11T01:32:24.5103174Z",
+      "updatedUtc": "2026-11-01T23:04:26.1085423Z",
       "subrooms": [],
       "transitions": [
         {
@@ -254901,19 +254901,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 87,
       "sceneMaxY": 177,
-      "sceneImagePixelsPerUnitX": 5.01784148460173,
-      "sceneImagePixelsPerUnitY": 6.733105318902795,
-      "sceneImagePixelOffsetX": 14862.675570824182,
-      "sceneImagePixelOffsetY": 9712.458775496714,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 14767.538391154008,
+      "sceneImagePixelOffsetY": 9737.732498726604,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "d24b25507184689182ce958269c6af78670a0ac11b6a0cfe95b2dd6a71c854b6",
+      "sceneImageCropHash": "3fd15899923a9cad4c58cdf6ea892599fb1e51dda3c357e068a88bfefd64fbae",
       "sortOrder": 20,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T22:53:18.3795228Z",
-      "updatedUtc": "2026-10-11T01:32:33.9234277Z",
+      "updatedUtc": "2026-11-01T23:04:50.4566509Z",
       "subrooms": [
         {
           "id": "d9e709b1-c448-43ab-81f3-cf255b9cc294",
@@ -257572,19 +257572,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 29,
       "sceneMaxY": 113,
-      "sceneImagePixelsPerUnitX": 6.429888074437481,
-      "sceneImagePixelsPerUnitY": 6.358758582995122,
-      "sceneImagePixelOffsetX": 15312.335859508925,
-      "sceneImagePixelOffsetY": 9196.923149682207,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 15319.623518771448,
+      "sceneImagePixelOffsetY": 9197.636756483771,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "56f089ef97cda14c7d244296e6725efae8736819bfdcc9c608615d8741812508",
+      "sceneImageCropHash": "9b23ca00e82844be4788bd54f1051b72784a9fbf7eb3ad65770f2ce36e5e7d3c",
       "sortOrder": 21,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:25:57.1405698Z",
-      "updatedUtc": "2026-10-11T01:32:38.0886706Z",
+      "updatedUtc": "2026-11-01T23:05:04.2018786Z",
       "subrooms": [
         {
           "id": "37275f57-0816-4e35-9589-11cf9f6a801c",
@@ -262640,19 +262640,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 210,
       "sceneMaxY": 48,
-      "sceneImagePixelsPerUnitX": 6.417158126343059,
-      "sceneImagePixelsPerUnitY": 5.974732071041714,
-      "sceneImagePixelOffsetX": 16063.721813722246,
-      "sceneImagePixelOffsetY": 10520.692255094858,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 16057.280033628309,
+      "sceneImagePixelOffsetY": 10511.050604581023,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "c14c47f22dcc9e139c1fd89561fcaafcd6a899c3dd3a4940b0a761a3746f4e12",
+      "sceneImageCropHash": "892986a3f2a1695be56bc3c9fc28bfbfa088c231bb52de1fd9acc9d751359a22",
       "sortOrder": 22,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:14:32.9172758Z",
-      "updatedUtc": "2026-10-11T01:32:48.2284417Z",
+      "updatedUtc": "2026-11-01T23:05:14.6492032Z",
       "subrooms": [
         {
           "id": "d204fe4b-ebe4-482d-b33b-67121cc3dd93",
@@ -266414,19 +266414,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 29,
       "sceneMaxY": 71,
-      "sceneImagePixelsPerUnitX": 7.068600464543422,
-      "sceneImagePixelsPerUnitY": 7.6297100341713575,
-      "sceneImagePixelOffsetX": 14693.690197477576,
-      "sceneImagePixelOffsetY": 9535.878120401801,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 14712.02856400126,
+      "sceneImagePixelOffsetY": 9552.843142039646,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "be6e8a3840488b5d20592b61ef3265f43018223974c64c16d40567a7ab3ef1d4",
+      "sceneImageCropHash": "f65151d0a7d730ede9e50dde462c3af7fc3ecb4778edff047a66d71b42425b63",
       "sortOrder": 23,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:15:41.3094288Z",
-      "updatedUtc": "2026-10-11T01:32:52.9108995Z",
+      "updatedUtc": "2026-11-01T23:05:34.257729Z",
       "subrooms": [
         {
           "id": "ee7518be-268f-4c32-934a-3d33d1af80d3",
@@ -267029,19 +267029,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 80,
       "sceneMaxY": 96,
-      "sceneImagePixelsPerUnitX": 6.283006528346739,
-      "sceneImagePixelsPerUnitY": 6.223693596421999,
-      "sceneImagePixelOffsetX": 17387.734507449914,
-      "sceneImagePixelOffsetY": 10213.33432417922,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 17429.09677043879,
+      "sceneImagePixelOffsetY": 10205.226245120515,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "0106a4ed4ba6d1016e82a7149666151aed49aad24fbed1906a318699945d7dad",
+      "sceneImageCropHash": "9fa7f4486501ba6633e103f23f2a158cb4ba7a07a630b8e85df8e68f3e8b54c0",
       "sortOrder": 24,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:17:52.2069495Z",
-      "updatedUtc": "2026-10-11T01:32:57.5705139Z",
+      "updatedUtc": "2026-11-01T23:05:45.7396272Z",
       "subrooms": [
         {
           "id": "c652c474-7d61-45f6-9227-d74cfee75838",
@@ -272335,19 +272335,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 177,
       "sceneMaxY": 68,
-      "sceneImagePixelsPerUnitX": 6.209142246605595,
-      "sceneImagePixelsPerUnitY": 4.631874105811344,
-      "sceneImagePixelOffsetX": 17107.02710606834,
-      "sceneImagePixelOffsetY": 7707.542333558712,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 17107.331033775554,
+      "sceneImagePixelOffsetY": 7599.217435739453,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "d93c06459e21899e25a4a2abe09d8a17756ad9c7a3b3ac87eadf9a58a8efc205",
+      "sceneImageCropHash": "5f390c891a3e5bb5c9e811e1340b6f8c1377a125bd671fde206c5f3e5bd9fa9f",
       "sortOrder": 26,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:29:40.9004874Z",
-      "updatedUtc": "2026-08-28T02:35:50.0303641Z",
+      "updatedUtc": "2026-11-01T23:05:55.8711864Z",
       "subrooms": [
         {
           "id": "d1bfc1c0-5617-40e8-9bba-d722a621b4b0",
@@ -275317,39 +275317,39 @@
       "inGameId": "Shadow_04b",
       "contributors": "Herchey and the Tonight Show Band",
       "comments": null,
-      "sceneMinX": 0,
-      "sceneMinY": 0,
+      "sceneMinX": 54,
+      "sceneMinY": 42,
       "sceneMaxX": 185,
       "sceneMaxY": 74,
-      "sceneImagePixelsPerUnitX": 3.667894637552812,
-      "sceneImagePixelsPerUnitY": 2.840481672861297,
-      "sceneImagePixelOffsetX": 14172.099337344765,
-      "sceneImagePixelOffsetY": 8414.751044323322,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 13732.282755843198,
+      "sceneImagePixelOffsetY": 8131.229057331214,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "189478a59bb78bf66155ee2c2ed9d704859f4dc0b2791b7298a7ceb39422aea9",
+      "sceneImageCropHash": "3efe11d56b2230fd975e0d375991c194360de75fce870bce645317250e35adea",
       "sortOrder": 27,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:07:16.3298697Z",
-      "updatedUtc": "2026-08-28T02:35:50.0303641Z",
+      "updatedUtc": "2026-11-01T23:06:28.635046Z",
       "subrooms": [
         {
           "id": "4f682608-d898-4c9d-beea-ff5514f1f858",
           "referenceId": "left",
           "friendlyName": "left",
           "notes": "",
-          "sceneUnitX": 0,
-          "sceneUnitY": 47.449,
-          "sceneUnitWidth": 23.44368572998047,
-          "sceneUnitHeight": 19.302000000000007,
+          "sceneUnitX": 54,
+          "sceneUnitY": 64.07905065917969,
+          "sceneUnitWidth": 22.659847457885746,
+          "sceneUnitHeight": 9.920949340820314,
           "enableAnnotation": true,
           "sortOrder": 0,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:17:44.4728571Z",
-          "updatedUtc": "2026-09-24T02:16:35.03781Z"
+          "updatedUtc": "2026-11-01T23:08:13.1231822Z"
         },
         {
           "id": "62cbd6ad-c130-45ea-9356-cae9b1625219",
@@ -275357,47 +275357,47 @@
           "friendlyName": "right",
           "notes": "",
           "sceneUnitX": 171.605,
-          "sceneUnitY": 21.469,
+          "sceneUnitY": 50.06158590698242,
           "sceneUnitWidth": 13.39500000000001,
-          "sceneUnitHeight": 28.59258590698242,
+          "sceneUnitHeight": 9.545559539794922,
           "enableAnnotation": true,
           "sortOrder": 1,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:17:47.8648717Z",
-          "updatedUtc": "2026-09-24T02:16:45.7376081Z"
+          "updatedUtc": "2026-11-01T23:07:51.6798246Z"
         },
         {
           "id": "47d1e262-4ad6-4e68-94bd-f31b000442a1",
           "referenceId": "mid left",
           "friendlyName": "mid left",
           "notes": "",
-          "sceneUnitX": 34.10166931152344,
-          "sceneUnitY": 37.52939987182617,
-          "sceneUnitWidth": 27.224838256835938,
-          "sceneUnitHeight": 12.53218603515625,
+          "sceneUnitX": 86.33959579467773,
+          "sceneUnitY": 59.607145446777345,
+          "sceneUnitWidth": 21.35540771484375,
+          "sceneUnitHeight": 7.14385455322266,
           "enableAnnotation": true,
           "sortOrder": 2,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T04:12:31.9292585Z",
-          "updatedUtc": "2026-10-11T04:12:54.1786098Z"
+          "updatedUtc": "2026-11-01T23:08:08.8698152Z"
         },
         {
           "id": "bf17d162-e0be-4100-a746-728c31b6bd3b",
           "referenceId": "mid right",
           "friendlyName": "mid right",
           "notes": "",
-          "sceneUnitX": 94.32630920410156,
-          "sceneUnitY": 12.779548645019531,
-          "sceneUnitWidth": 58.57466125488281,
-          "sceneUnitHeight": 8.68945135498047,
+          "sceneUnitX": 122.36907196044922,
+          "sceneUnitY": 50.06158590698242,
+          "sceneUnitWidth": 34.177467346191406,
+          "sceneUnitHeight": 9.545559539794922,
           "enableAnnotation": true,
           "sortOrder": 3,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T04:12:49.7505276Z",
-          "updatedUtc": "2026-10-11T04:12:58.2136728Z"
+          "updatedUtc": "2026-11-01T23:07:47.1612335Z"
         }
       ],
       "transitions": [
@@ -275412,8 +275412,8 @@
           "localPositionX": 61.5,
           "localPositionY": 68,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 1.909515142440796,
-          "annotationSceneUnitY": 53.18309783935547,
+          "annotationSceneUnitX": 61.5,
+          "annotationSceneUnitY": 68,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "left",
           "destinationRoomReferenceText": "Bilewater Organ Entrance",
@@ -275426,7 +275426,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T23:07:16.3298697Z",
-          "updatedUtc": "2026-09-24T02:18:03.9585133Z",
+          "updatedUtc": "2026-11-01T23:08:23.4342827Z",
           "isUnsafeArrival": false
         },
         {
@@ -275440,8 +275440,8 @@
           "localPositionX": 94.23125,
           "localPositionY": 13.5887184,
           "localPositionZ": 0.966390252,
-          "annotationSceneUnitX": 183.49794006347656,
-          "annotationSceneUnitY": 31.084087371826172,
+          "annotationSceneUnitX": 185.5,
+          "annotationSceneUnitY": 58,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "right",
           "destinationRoomReferenceText": "Bilewater Lower Bloatroach Tower",
@@ -275454,7 +275454,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T23:07:16.3298697Z",
-          "updatedUtc": "2026-09-24T02:17:57.0683662Z",
+          "updatedUtc": "2026-11-01T23:08:27.6866367Z",
           "isUnsafeArrival": false
         }
       ],
@@ -275487,15 +275487,15 @@
           "requirements": "clawline OR sharpdart OR dash OR drifter\u0027s cloak OR (faydown cloak AND (run OR enemy pogo)) OR swim OR ((run OR proficient movement) AND easy beast pogo)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 41.213924407958984,
-          "sceneUnitY": 63.89765167236328,
+          "sceneUnitX": 83.78948211669922,
+          "sceneUnitY": 71.60848236083984,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T04:34:57.0022541Z",
-          "updatedUtc": "2026-11-01T17:31:58.1715889Z"
+          "updatedUtc": "2026-11-01T23:08:15.760363Z"
         },
         {
           "id": "b6008256-6008-4f55-b2c9-1bc9556396c1",
@@ -275506,15 +275506,15 @@
           "requirements": "clawline OR easy beast pogo OR (sharpdart AND proficient movement) OR (dash AND proficient movement) OR (faydown cloak AND (enemy pogo OR drifter\u0027s cloak))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 41.213924407958984,
-          "sceneUnitY": 63.89765167236328,
+          "sceneUnitX": 83.78948211669922,
+          "sceneUnitY": 71.60848236083984,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T04:35:03.7773568Z",
-          "updatedUtc": "2026-11-01T17:37:55.9133714Z"
+          "updatedUtc": "2026-11-01T23:08:15.760363Z"
         },
         {
           "id": "f70a177c-2ca9-4e02-aaad-5ba4f75fa6ec",
@@ -275544,15 +275544,15 @@
           "requirements": "scuttlebrace OR clawline OR sharpdart OR drifter\u0027s cloak OR faydown cloak OR dash OR swim OR easy beast pogo",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 62.9975700378418,
-          "sceneUnitY": 19.627660751342773,
+          "sceneUnitX": 109.21987915039062,
+          "sceneUnitY": 49.79689025878906,
           "sortOrder": 2,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T04:34:26.3109526Z",
-          "updatedUtc": "2026-11-01T17:32:19.0445022Z"
+          "updatedUtc": "2026-11-01T23:08:31.5153828Z"
         },
         {
           "id": "1c5eed7f-adad-439b-869c-a518f24bf5e9",
@@ -275563,15 +275563,15 @@
           "requirements": "cling grip AND (clawline OR sharpdart OR (faydown cloak AND (scuttlebrace OR swim OR drifter\u0027s cloak OR enemy pogo)))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 62.9975700378418,
-          "sceneUnitY": 19.627660751342773,
+          "sceneUnitX": 109.21987915039062,
+          "sceneUnitY": 49.79689025878906,
           "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T04:34:29.739908Z",
-          "updatedUtc": "2026-11-01T17:30:01.0045189Z"
+          "updatedUtc": "2026-11-01T23:08:31.5153828Z"
         },
         {
           "id": "cf287769-253e-4346-b89c-a20080e576d1",
@@ -275582,15 +275582,15 @@
           "requirements": "faydown cloak OR enemy pogo OR clawline OR sharpdart OR (run AND proficient movement) OR dash OR easy beast pogo",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 170.51040649414062,
-          "sceneUnitY": 10.726805686950684,
+          "sceneUnitX": 162.99462890625,
+          "sceneUnitY": 46.845001220703125,
           "sortOrder": 4,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T04:27:23.5867047Z",
-          "updatedUtc": "2026-11-01T17:32:29.8963556Z"
+          "updatedUtc": "2026-11-01T23:07:55.922716Z"
         },
         {
           "id": "b77554fe-9859-4e4b-abee-8fe7df40a2ac",
@@ -275601,15 +275601,15 @@
           "requirements": "faydown cloak OR drifter\u0027s cloak OR run OR sharpdart OR clawline OR enemy pogo OR swim OR scuttlebrace OR easy beast pogo",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 170.51040649414062,
-          "sceneUnitY": 10.726805686950684,
+          "sceneUnitX": 162.99462890625,
+          "sceneUnitY": 46.845001220703125,
           "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T04:27:24.8170544Z",
-          "updatedUtc": "2026-11-01T17:30:01.0045189Z"
+          "updatedUtc": "2026-11-01T23:07:55.922716Z"
         }
       ],
       "checks": [
@@ -275648,8 +275648,8 @@
           "localPositionX": 111.96,
           "localPositionY": 60.89,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 108.43898010253906,
-          "annotationSceneUnitY": 19.39342498779297,
+          "annotationSceneUnitX": 111.96,
+          "annotationSceneUnitY": 60.89,
           "subroomReferenceText": "mid right",
           "requirements": "none",
           "notes": "",
@@ -275661,7 +275661,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:59.1057339Z",
-          "updatedUtc": "2026-10-11T04:25:02.9958284Z"
+          "updatedUtc": "2026-11-01T23:07:15.4872574Z"
         },
         {
           "id": "8925dfe1-fe22-4ee5-9fcd-7f6f02058018",
@@ -275673,8 +275673,8 @@
           "localPositionX": 164.89,
           "localPositionY": 58.33,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 161.63636779785156,
-          "annotationSceneUnitY": 34.54411315917969,
+          "annotationSceneUnitX": 164.89,
+          "annotationSceneUnitY": 58.33,
           "subroomReferenceText": "right",
           "requirements": "none",
           "notes": "",
@@ -275686,7 +275686,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:59.1057339Z",
-          "updatedUtc": "2026-10-11T04:25:03.8795804Z"
+          "updatedUtc": "2026-11-01T23:07:19.4174415Z"
         },
         {
           "id": "ae414676-037a-4a52-907b-39b8175834bd",
@@ -275748,8 +275748,8 @@
           "localPositionX": -42.3,
           "localPositionY": 30.4,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 120.70838165283203,
-          "annotationSceneUnitY": 18.450870513916016,
+          "annotationSceneUnitX": -42.3,
+          "annotationSceneUnitY": 30.4,
           "subroomReferenceText": "mid right",
           "requirements": "none",
           "notes": "",
@@ -275761,7 +275761,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:59.1057339Z",
-          "updatedUtc": "2026-10-11T04:25:04.579928Z"
+          "updatedUtc": "2026-11-01T23:07:22.5218193Z"
         },
         {
           "id": "3c05b5a9-3430-45fa-ad9a-b62719be1fc9",
@@ -275773,8 +275773,8 @@
           "localPositionX": 115.385628,
           "localPositionY": 63.6173248,
           "localPositionZ": 0.006787793,
-          "annotationSceneUnitX": 108.43898010253906,
-          "annotationSceneUnitY": 17.519561767578125,
+          "annotationSceneUnitX": 115.385628,
+          "annotationSceneUnitY": 63.6173248,
           "subroomReferenceText": "mid right",
           "requirements": "none",
           "notes": "",
@@ -275786,7 +275786,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:59.1057339Z",
-          "updatedUtc": "2026-10-11T04:25:05.2617294Z"
+          "updatedUtc": "2026-11-01T23:07:28.8953686Z"
         },
         {
           "id": "ba32fb61-6f52-4cf3-963c-99a2fc4b5d49",
@@ -275823,8 +275823,8 @@
           "localPositionX": 125.703896,
           "localPositionY": 61.670002,
           "localPositionZ": 0.006538441,
-          "annotationSceneUnitX": 158.76170349121094,
-          "annotationSceneUnitY": 33.925697326660156,
+          "annotationSceneUnitX": 125.703896,
+          "annotationSceneUnitY": 61.670002,
           "subroomReferenceText": "right",
           "requirements": "none",
           "notes": "",
@@ -275836,7 +275836,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:59.1057339Z",
-          "updatedUtc": "2026-10-11T04:25:06.2327586Z"
+          "updatedUtc": "2026-11-01T23:07:31.8192846Z"
         },
         {
           "id": "a363a7e9-0c95-484e-8995-c19738eabd7b",
@@ -275873,8 +275873,8 @@
           "localPositionX": 97.46,
           "localPositionY": 62.22,
           "localPositionZ": 0.006580922,
-          "annotationSceneUnitX": 123.03620147705078,
-          "annotationSceneUnitY": 17.191726684570312,
+          "annotationSceneUnitX": 97.46,
+          "annotationSceneUnitY": 62.22,
           "subroomReferenceText": "mid right",
           "requirements": "none",
           "notes": "",
@@ -275886,7 +275886,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:59.1057339Z",
-          "updatedUtc": "2026-10-11T04:25:07.4976354Z"
+          "updatedUtc": "2026-11-01T23:07:35.190427Z"
         },
         {
           "id": "defef7b0-f66c-4441-900e-988e2cefc4e8",
@@ -277502,7 +277502,7 @@
       "checks": [
         {
           "id": "2a61a319-4c9a-47a6-b52e-7f690f970ed1",
-          "friendlyName": "Memory Locket Annoyingly Nearby the Twisted Chud",
+          "friendlyName": "Bilewater - Memory Locket Annoyingly Nearby the Twisted Chud",
           "inGameId": "Collectable Item Pickup",
           "inGamePositionX": 17.713,
           "inGamePositionY": 23.86,
@@ -277523,11 +277523,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T23:20:14.109514Z",
-          "updatedUtc": "2026-10-29T02:40:25.2377317Z"
+          "updatedUtc": "2026-11-01T23:09:48.824116Z"
         },
         {
           "id": "e4d4f63c-cb45-477c-af0b-1d006a233ffc",
-          "friendlyName": "First Quick Rosaries In The Western Bilewater Rooms",
+          "friendlyName": "Bilewater - First Quick Rosaries In The Western Bilewater Rooms",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -277548,11 +277548,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:45:07.3658243Z",
-          "updatedUtc": "2026-10-29T02:38:52.225336Z"
+          "updatedUtc": "2026-11-01T23:09:50.0859925Z"
         },
         {
           "id": "3ab058e8-75ec-4fd6-83d6-fa2b4cf36950",
-          "friendlyName": "Other Quick Rosaries In The Western Bilewater Rooms",
+          "friendlyName": "Bilewater - Other Quick Rosaries In The Western Bilewater Rooms",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -277573,7 +277573,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:45:09.62378Z",
-          "updatedUtc": "2026-10-29T02:38:40.2917283Z"
+          "updatedUtc": "2026-11-01T23:09:59.8753371Z"
         },
         {
           "id": "356ae035-f627-4735-971a-5671d5af3fef",
@@ -281520,7 +281520,7 @@
       "checks": [
         {
           "id": "e7a0ca17-c356-467c-8d59-b19ac3e1413c",
-          "friendlyName": "Flea Is Tired Of Organ Music",
+          "friendlyName": "Exhaust Organ - Flea Is Tired Of Organ Music",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -281541,7 +281541,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-28T01:40:42.3447856Z",
-          "updatedUtc": "2026-10-08T00:48:13.7468178Z"
+          "updatedUtc": "2026-11-01T23:10:26.8532849Z"
         },
         {
           "id": "023f2006-3ba4-46cf-9528-569750d12bdf",
@@ -282515,7 +282515,7 @@
           "friendlyName": "ground to broken elevator",
           "sourceSubroomReferenceText": "ground floor",
           "destinationSubroomReferenceText": "broken elevator",
-          "requirements": "(cling grip either AND complete Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar",
+          "requirements": "(cling grip either AND complete Exhaust Organ - Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 68.31756591796875,
@@ -282526,7 +282526,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-19T00:17:33.3264849Z",
-          "updatedUtc": "2026-11-01T18:51:10.4728791Z"
+          "updatedUtc": "2026-11-01T23:37:31.0866106Z"
         },
         {
           "id": "1b70125f-aafd-48fc-8079-8ff8189f7cb7",
@@ -282534,7 +282534,7 @@
           "friendlyName": "ground to broken elevator",
           "sourceSubroomReferenceText": "broken elevator",
           "destinationSubroomReferenceText": "ground floor",
-          "requirements": "complete Fix The Broken Elevator",
+          "requirements": "complete Exhaust Organ - Fix The Broken Elevator",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 68.31756591796875,
@@ -282545,7 +282545,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-19T00:24:19.7398766Z",
-          "updatedUtc": "2026-10-11T05:33:04.1444Z"
+          "updatedUtc": "2026-11-01T23:37:30.1165071Z"
         },
         {
           "id": "46076e17-1447-4be6-b19e-376135f5a03b",
@@ -282705,7 +282705,7 @@
           "friendlyName": "maze to broken elevator",
           "sourceSubroomReferenceText": "maze",
           "destinationSubroomReferenceText": "broken elevator",
-          "requirements": "complete Fix The Broken Elevator",
+          "requirements": "complete Exhaust Organ - Fix The Broken Elevator",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 86.9783935546875,
@@ -282716,7 +282716,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T03:13:24.2765478Z",
-          "updatedUtc": "2026-11-01T19:08:59.2574926Z"
+          "updatedUtc": "2026-11-01T23:37:27.2096395Z"
         },
         {
           "id": "c63b46b4-b1e0-410b-ac82-47d9c75d6760",
@@ -282741,7 +282741,7 @@
       "checks": [
         {
           "id": "7d7c4478-0149-47d7-ac35-e9df62c3d1e1",
-          "friendlyName": "Silk Grub Listening To Mozart In the Cocoon",
+          "friendlyName": "Exhaust Organ - Silk Grub Listening To Mozart In the Cocoon",
           "inGameId": "Silk Grub Large Cocoon",
           "inGamePositionX": 135.53,
           "inGamePositionY": 40.37,
@@ -282762,11 +282762,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T14:31:05.2837298Z",
-          "updatedUtc": "2026-11-01T19:09:24.1144372Z"
+          "updatedUtc": "2026-11-01T23:10:32.6570524Z"
         },
         {
           "id": "a4c573a9-2c07-4187-806e-23476b6037f7",
-          "friendlyName": "Backstage Organ Bench",
+          "friendlyName": "Exhaust Organ - Backstage Organ Bench",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -282787,11 +282787,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-18T23:03:01.1923708Z",
-          "updatedUtc": "2026-10-29T02:36:28.3812376Z"
+          "updatedUtc": "2026-11-01T23:10:34.0536872Z"
         },
         {
           "id": "d9fb8511-f11f-478b-ba67-266f70bbb2d2",
-          "friendlyName": "Fix The Broken Elevator",
+          "friendlyName": "Exhaust Organ - Fix The Broken Elevator",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -282812,7 +282812,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-18T23:23:25.9384098Z",
-          "updatedUtc": "2026-11-01T19:09:05.4269169Z"
+          "updatedUtc": "2026-11-01T23:10:38.3288931Z"
         },
         {
           "id": "08249538-131e-4561-818a-5f5b6e95dfac",

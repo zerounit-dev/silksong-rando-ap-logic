@@ -35,7 +35,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Locket At The End of A LONG Hallway of Moths | right | none |  | Verified | collectible | ✓ | Formerly: Bilewater East - Memory Locket |
+| 1 | Bilewater - Locket At The End of A LONG Hallway of Moths | right | none |  | Verified | collectible | ✓ | Formerly: Bilewater East - Memory Locket |
 | 2 | Bilewater East - Breakable Wall | behind wall | prereq Bilewater East Bench Left Exit Wall IN Bilewater East Bench |  | Verified | blockade | ✓ |  |
 | 3 | Mothleaf Lagnia 1 | center ground | none |  | Verified | enemy | ✓ |  |
 | 4 | Mothleaf Lagnia 2 | center ground | none |  | Verified | enemy | ✓ |  |

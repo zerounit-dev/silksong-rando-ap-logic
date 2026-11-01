@@ -45,8 +45,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Box Of Rosaries Right Inside Bilewater | left rosary platform | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #1 |
-| 2 | A Few Remaining Rosaries Next To A Dead Guy In Bilewater | middle quarter | (Faydown cloak AND (ledge grab right OR scuttlebrace OR (proficient movement AND easy beast pogo))) OR silk soar OR cling grip either |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #2 |
+| 1 | Bilewater - Box Of Rosaries Right Inside Bilewater | left rosary platform | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #1 |
+| 2 | Bilewater - A Few Remaining Rosaries Next To A Dead Guy In Bilewater | middle quarter | (Faydown cloak AND (ledge grab right OR scuttlebrace OR (proficient movement AND easy beast pogo))) OR silk soar OR cling grip either |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #2 |
 | 3 | Mosquitony, the Swamp Squit | top mid plat | none |  | Verified | enemy | ✓ | Formerly: Swamp Squit 1 |
 | 4 | Colt, the Swamp Squit | top mid plat | none |  | Verified | enemy | ✓ | Formerly: Swamp Squit 2 |
 | 5 | Gideon, the Swamp Squit | middle quarter | none |  | Verified | enemy | ✓ | Formerly: Swamp Squit 3 |

@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sinner's Flea |  | complete Break Wall Flea Cage |  | Verified | collectible | ✓ | Formerly: Flea: Sinner's Road |
+| 1 | Sinner's Road - Sinner's Flea |  | complete Break Wall Flea Cage |  | Verified | collectible | ✓ | Formerly: Flea: Sinner's Road |
 | 2 | Break Wall Flea Cage |  | break wall left |  | Verified | blockade | ✓ |  |
 | 3 | DermiTitus, the Muckroach |  | none |  | Verified | enemy | ✓ | Formerly: Muckroach 1 |
 | 4 | Muckroach 2 |  | invalid |  | Verified | enemy | ✓ | Caged and invincible. |

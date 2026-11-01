@@ -57,9 +57,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Left Shards In the Hall of the Spike Swingers | left area | swim AND attack up |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #6 |
-| 2 | Right Shards In the Hall of the Spike Swingers | left area | attack up AND (swim OR clawline left OR sharpdart OR (run AND drifter's cloak)) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #7 |
-| 3 | That Chest In the Halls of the Spike Swingers That's RIGHT THERE | chest plat | none |  | Verified | collectible | ✓ | Formerly: Sinner's Road - Rosary Chest |
+| 1 | Sinner's Road - Left Shards In the Hall of the Spike Swingers | left area | swim AND attack up |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #6 |
+| 2 | Sinner's Road - Right Shards In the Hall of the Spike Swingers | left area | attack up AND (swim OR clawline left OR sharpdart OR (run AND drifter's cloak)) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #7 |
+| 3 | Sinner's Road - That Chest In the Halls of the Spike Swingers That's RIGHT THERE | chest plat | none |  | Verified | collectible | ✓ | Formerly: Sinner's Road - Rosary Chest |
 | 4 | The Lever Gettin' You Outta The North Hall | right door | hit switch up OR hit switch right OR hit switch left |  | Verified | switch | ✓ | Formerly: North Hall Door Switch |
 | 5 | Garmond and Zaza Act 3 Meeting Sinner's Road | right plat | Act 3 |  | Verified | event | ✓ |  |
 | 6 | Secret Wall To The Mists Left | behind left wall | break wall right |  | Verified | blockade | ✓ |  |

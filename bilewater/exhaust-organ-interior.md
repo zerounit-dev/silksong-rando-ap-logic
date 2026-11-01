@@ -30,8 +30,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TE | top to elevator | top layer | elevator | complete Boss: Phantom |  | Verified | ✓ |  |
 | TE | top to elevator | elevator | top layer | complete Boss: Phantom |  | Verified | ✓ |  |
-| GBE | ground to broken elevator | ground floor | broken elevator | (cling grip either AND complete Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar |  | Verified | ✓ |  |
-| GBE | ground to broken elevator | broken elevator | ground floor | complete Fix The Broken Elevator |  | Verified | ✓ |  |
+| GBE | ground to broken elevator | ground floor | broken elevator | (cling grip either AND complete Exhaust Organ - Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar |  | Verified | ✓ |  |
+| GBE | ground to broken elevator | broken elevator | ground floor | complete Exhaust Organ - Fix The Broken Elevator |  | Verified | ✓ |  |
 | GRC | ground to right column | ground floor | right column | cling grip |  | Verified | ✓ |  |
 | GRC | ground to right column | right column | ground floor | none |  | Verified | ✓ |  |
 | MRC | maze to right column | maze | right column | cling grip AND faydown cloak |  | Verified | ✓ |  |
@@ -40,16 +40,16 @@
 | MT | maze to top | top layer | maze | cling grip |  | Verified | ✓ |  |
 | GB | ground to bench room | ground floor | bench room | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
 | GB | ground to bench room | bench room | ground floor | none |  | Verified | ✓ |  |
-| MBE | maze to broken elevator | maze | broken elevator | complete Fix The Broken Elevator |  | Verified | ✓ |  |
+| MBE | maze to broken elevator | maze | broken elevator | complete Exhaust Organ - Fix The Broken Elevator |  | Verified | ✓ |  |
 | MBE | maze to broken elevator | broken elevator | maze | none |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Silk Grub Listening To Mozart In the Cocoon | maze | none |  | Verified | collectible | ✓ | Formerly: Silk Grub Large Cocoon |
-| 2 | Backstage Organ Bench | bench room | silk soar OR cling grip |  | Verified | bench | ✓ | Formerly: Organ Bench |
-| 3 | Fix The Broken Elevator | broken elevator | attack left OR attack up |  | Verified | blockade | ✓ |  |
+| 1 | Exhaust Organ - Silk Grub Listening To Mozart In the Cocoon | maze | none |  | Verified | collectible | ✓ | Formerly: Silk Grub Large Cocoon |
+| 2 | Exhaust Organ - Backstage Organ Bench | bench room | silk soar OR cling grip |  | Verified | bench | ✓ | Formerly: Organ Bench |
+| 3 | Exhaust Organ - Fix The Broken Elevator | broken elevator | attack left OR attack up |  | Verified | blockade | ✓ |  |
 | 4 | Boss: Phantom | top layer | ( dash OR run ) AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 5 | Phantom 1 | top layer | dash OR run |  | Verified | enemy | ✓ |  |
 | 6 | Drapefly 1 | ground floor | none |  | Verified | enemy | ✓ |  |

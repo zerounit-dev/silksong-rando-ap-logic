@@ -109265,8 +109265,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-bench::collectible/rosaries-looking-over-the-sinner-s-bench",
-          "name": "Rosaries Looking Over The Sinner's Bench",
+          "id": "location:sinner-s-road/sinner-s-road-bench::collectible/sinner-s-road-rosaries-looking-over-the-sinner-s-bench",
+          "name": "Sinner's Road - Rosaries Looking Over The Sinner's Bench",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-bench#door",
@@ -109301,8 +109301,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-bench::bench/please-help-me-fix-this-bench-shakra",
-          "name": "Please Help Me Fix This Bench, Shakra",
+          "id": "location:sinner-s-road/sinner-s-road-bench::bench/sinner-s-road-please-help-me-fix-this-bench-shakra",
+          "name": "Sinner's Road - Please Help Me Fix This Bench, Shakra",
           "in_game_id": null,
           "location_type": "bench",
           "node_id": "sinner-s-road/sinner-s-road-bench#bench",
@@ -109897,8 +109897,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-entrance::collectible/caged-rosaries-in-the-sinner-s-entryway",
-          "name": "Caged Rosaries In the Sinner's Entryway",
+          "id": "location:sinner-s-road/sinner-s-road-entrance::collectible/sinner-s-road-caged-rosaries-in-the-entryway",
+          "name": "Sinner's Road - Caged Rosaries In the Entryway",
           "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-entrance#center",
@@ -110145,8 +110145,8 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-flea-rescue::collectible/sinner-s-flea",
-          "name": "Sinner's Flea",
+          "id": "location:sinner-s-road/sinner-s-road-flea-rescue::collectible/sinner-s-road-sinner-s-flea",
+          "name": "Sinner's Road - Sinner's Flea",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-flea-rescue#room",
@@ -110887,8 +110887,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-hanging-cages::collectible/shell-shards-lugoli-probably-threw-out-the-first",
-          "name": "Shell Shards Lugoli Probably Threw Out: The First",
+          "id": "location:sinner-s-road/sinner-s-road-hanging-cages::collectible/sinner-s-road-shell-shards-lugoli-probably-threw-out-the-first",
+          "name": "Sinner's Road - Shell Shards Lugoli Probably Threw Out: The First",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-hanging-cages#shard-ledge",
@@ -110905,8 +110905,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-hanging-cages::collectible/shell-shards-lugoli-probably-threw-out-the-second",
-          "name": "Shell Shards Lugoli Probably Threw Out: The Second",
+          "id": "location:sinner-s-road/sinner-s-road-hanging-cages::collectible/sinner-s-road-shell-shards-lugoli-probably-threw-out-the-second",
+          "name": "Sinner's Road - Shell Shards Lugoli Probably Threw Out: The Second",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-hanging-cages#shard-ledge",
@@ -111457,8 +111457,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/a-few-spare-shards-in-the-muckroach-kennel-attic",
-          "name": "A Few Spare Shards In The Muckroach Kennel Attic",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/sinner-s-road-a-few-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "Sinner's Road - A Few Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#attic",
@@ -111475,8 +111475,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/a-few-more-spare-shards-in-the-muckroach-kennel-attic",
-          "name": "A Few More Spare Shards In The Muckroach Kennel Attic",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/sinner-s-road-a-few-more-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "Sinner's Road - A Few More Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#attic",
@@ -111493,8 +111493,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/last-few-spare-shards-in-the-muckroach-kennel-attic",
-          "name": "Last Few Spare Shards In The Muckroach Kennel Attic",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/sinner-s-road-last-few-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "Sinner's Road - Last Few Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#attic",
@@ -111511,8 +111511,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/rosary-cache-sinner-s-road-4",
-          "name": "Rosary Cache: Sinner’s Road #4",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/sinner-s-road-rosary-cache-sinner-s-road-4",
+          "name": "Sinner's Road - Rosary Cache: Sinner’s Road #4",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#attic",
@@ -112582,8 +112582,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/left-shards-in-the-hall-of-the-spike-swingers",
-          "name": "Left Shards In the Hall of the Spike Swingers ",
+          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/sinner-s-road-left-shards-in-the-hall-of-the-spike-swingers",
+          "name": "Sinner's Road - Left Shards In the Hall of the Spike Swingers ",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-north-hall#left-area",
@@ -112600,8 +112600,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/right-shards-in-the-hall-of-the-spike-swingers",
-          "name": "Right Shards In the Hall of the Spike Swingers ",
+          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/sinner-s-road-right-shards-in-the-hall-of-the-spike-swingers",
+          "name": "Sinner's Road - Right Shards In the Hall of the Spike Swingers ",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-north-hall#left-area",
@@ -112618,8 +112618,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/that-chest-in-the-halls-of-the-spike-swingers-that-s-right-there",
-          "name": "That Chest In the Halls of the Spike Swingers That's RIGHT THERE",
+          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/sinner-s-road-that-chest-in-the-halls-of-the-spike-swingers-that-s-right-there",
+          "name": "Sinner's Road - That Chest In the Halls of the Spike Swingers That's RIGHT THERE",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-north-hall#chest-plat",
@@ -114008,8 +114008,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-primus",
-          "name": "Eastern Sinner's Cage Rosary Primus",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-eastern-sinner-s-cage-rosary-primus",
+          "name": "Sinner's Road - Eastern Sinner's Cage Rosary Primus",
           "in_game_id": "rosary_string_medium",
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper-mid-cage",
@@ -114026,8 +114026,8 @@
           "is_out_of_bounds": false
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-secundus",
-          "name": "Eastern Sinner's Cage Rosary Secundus",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-eastern-sinner-s-cage-rosary-secundus",
+          "name": "Sinner's Road - Eastern Sinner's Cage Rosary Secundus",
           "in_game_id": "rosary_string_small",
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper-mid-cage",
@@ -114044,8 +114044,8 @@
           "is_out_of_bounds": false
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-tertius",
-          "name": "Eastern Sinner's Cage Rosary Tertius",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-eastern-sinner-s-cage-rosary-tertius",
+          "name": "Sinner's Road - Eastern Sinner's Cage Rosary Tertius",
           "in_game_id": "rosary_string_small_half",
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper-mid-cage",
@@ -114062,8 +114062,8 @@
           "is_out_of_bounds": false
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/shards-on-bilewater-s-doorstep",
-          "name": "Shards on Bilewater's Doorstep",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-shards-on-bilewater-s-doorstep",
+          "name": "Sinner's Road - Shards on Bilewater's Doorstep",
           "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#bilewater-door",
@@ -114080,8 +114080,8 @@
           "is_out_of_bounds": false
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/key-hoarding-roachkeeper-in-the-attic",
-          "name": "Key Hoarding Roachkeeper In the Attic",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-key-hoarding-roachkeeper-in-the-attic",
+          "name": "Sinner's Road - Key Hoarding Roachkeeper In the Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper",
@@ -114875,8 +114875,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/gross-rosaries-in-the-sinner-s-basement",
-          "name": "Gross Rosaries In the Sinner's Basement",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/sinner-s-road-gross-rosaries-in-the-sinner-s-basement",
+          "name": "Sinner's Road - Gross Rosaries In the Sinner's Basement",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#basement",
@@ -114893,8 +114893,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/first-half-of-the-rosaries-they-took-from-the-gay-frog-when-they-put-him-in-prison",
-          "name": "First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/sinner-s-road-first-half-of-the-rosaries-they-took-from-the-gay-frog-when-they-put-him-in-prison",
+          "name": "Sinner's Road - First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#rosary-cage",
@@ -114911,8 +114911,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/second-half-of-the-rosaries-they-took-from-the-gay-frog-when-they-put-him-in-prison",
-          "name": "Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/sinner-s-road-second-half-of-the-rosaries-they-took-from-the-gay-frog-when-they-put-him-in-prison",
+          "name": "Sinner's Road - Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#rosary-cage",
@@ -158404,8 +158404,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-flea-rescue::collectible/the-flea-that-bilewater-thieves-stole",
-          "name": "The Flea That Bilewater Thieves Stole",
+          "id": "location:bilewater/bilewater-flea-rescue::collectible/bilewater-the-flea-that-bilewater-thieves-stole",
+          "name": "Bilewater - The Flea That Bilewater Thieves Stole",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "bilewater/bilewater-flea-rescue#upper",
@@ -161096,8 +161096,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-lower-trap-gauntlet-hall::collectible/the-flea-that-couldn-t-make-it-past-all-the-bilewater-traps",
-          "name": "The Flea That Couldn't Make It Past All The Bilewater Traps",
+          "id": "location:bilewater/bilewater-lower-trap-gauntlet-hall::collectible/bilewater-the-flea-that-couldn-t-make-it-past-all-the-bilewater-traps",
+          "name": "Bilewater - The Flea That Couldn't Make It Past All The Bilewater Traps",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#flea-room",
@@ -161476,8 +161476,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-mothleaf-hall::collectible/locket-at-the-end-of-a-long-hallway-of-moths",
-          "name": "Locket At The End of A LONG Hallway of Moths",
+          "id": "location:bilewater/bilewater-mothleaf-hall::collectible/bilewater-locket-at-the-end-of-a-long-hallway-of-moths",
+          "name": "Bilewater - Locket At The End of A LONG Hallway of Moths",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "bilewater/bilewater-mothleaf-hall#right",
@@ -161760,8 +161760,8 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/first-third-of-the-shards-in-a-mothed-up-bilewater-closet",
-          "name": "First Third Of The Shards In A Mothed Up Bilewater Closet",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-first-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "Bilewater - First Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "node_id": "bilewater/bilewater-northeast-tiny-room#room",
@@ -161778,8 +161778,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/second-third-of-the-shards-in-a-mothed-up-bilewater-closet",
-          "name": "Second Third Of The Shards In A Mothed Up Bilewater Closet",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-second-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "Bilewater - Second Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "node_id": "bilewater/bilewater-northeast-tiny-room#room",
@@ -161796,8 +161796,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/third-third-of-the-shards-in-a-mothed-up-bilewater-closet",
-          "name": "Third Third Of The Shards In A Mothed Up Bilewater Closet",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-third-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "Bilewater - Third Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "node_id": "bilewater/bilewater-northeast-tiny-room#room",
@@ -162352,8 +162352,8 @@
       "scene_max_y": 55,
       "scene_width": 212,
       "scene_height": 55,
-      "image_pixel_width": 1280,
-      "image_pixel_height": 340,
+      "image_pixel_width": 1346,
+      "image_pixel_height": 349,
       "nodes": [
         {
           "id": "bilewater/bilewater-sinner-s-entrance#left-quarter",
@@ -162371,14 +162371,14 @@
           "image_normalized_min_y": 0.77121713811701,
           "image_normalized_max_x": 0.17178422100139112,
           "image_normalized_max_y": 0.9081789536909624,
-          "image_pixel_x": 37.95716483637972,
-          "image_pixel_y": 262.2138269597834,
-          "image_pixel_width": 181.92663804540092,
-          "image_pixel_height": 46.56701729514383,
-          "image_pixel_min_x": 37.95716483637972,
-          "image_pixel_min_y": 262.2138269597834,
-          "image_pixel_max_x": 219.88380288178064,
-          "image_pixel_max_y": 308.7808442549272
+          "image_pixel_x": 39.91433114825554,
+          "image_pixel_y": 269.1547812028365,
+          "image_pixel_width": 191.3072303196169,
+          "image_pixel_height": 47.7996736353094,
+          "image_pixel_min_x": 39.91433114825554,
+          "image_pixel_min_y": 269.1547812028365,
+          "image_pixel_max_x": 231.22156146787245,
+          "image_pixel_max_y": 316.95445483814586
         },
         {
           "id": "bilewater/bilewater-sinner-s-entrance#left-rosary-platform",
@@ -162396,14 +162396,14 @@
           "image_normalized_min_y": 0.5486541748046875,
           "image_normalized_max_x": 0.16068030303379274,
           "image_normalized_max_y": 0.7027362476695668,
-          "image_pixel_x": 134.60568985849056,
-          "image_pixel_y": 186.54241943359375,
-          "image_pixel_width": 71.06509802476415,
-          "image_pixel_height": 52.38790477405895,
-          "image_pixel_min_x": 134.60568985849056,
-          "image_pixel_min_y": 186.54241943359375,
-          "image_pixel_max_x": 205.67078788325472,
-          "image_pixel_max_y": 238.9303242076527
+          "image_pixel_x": 141.54629574181897,
+          "image_pixel_y": 191.48030700683594,
+          "image_pixel_width": 74.72939214166605,
+          "image_pixel_height": 53.77464342984286,
+          "image_pixel_min_x": 141.54629574181897,
+          "image_pixel_min_y": 191.48030700683594,
+          "image_pixel_max_x": 216.27568788348503,
+          "image_pixel_max_y": 245.2549504366788
         },
         {
           "id": "bilewater/bilewater-sinner-s-entrance#middle-quarter",
@@ -162421,14 +162421,14 @@
           "image_normalized_min_y": 0.6202144276012074,
           "image_normalized_max_x": 0.5390398997180866,
           "image_normalized_max_y": 0.7712181818181818,
-          "image_pixel_x": 315.6174684920401,
-          "image_pixel_y": 210.8729053844105,
-          "image_pixel_width": 374.35360314711085,
-          "image_pixel_height": 51.341276433771306,
-          "image_pixel_min_x": 315.6174684920401,
-          "image_pixel_min_y": 210.8729053844105,
-          "image_pixel_max_x": 689.971071639151,
-          "image_pixel_max_y": 262.2141818181818
+          "image_pixel_x": 331.89149421116093,
+          "image_pixel_y": 216.45483523282138,
+          "image_pixel_width": 393.6562108093837,
+          "image_pixel_height": 52.700310221724074,
+          "image_pixel_min_x": 331.89149421116093,
+          "image_pixel_min_y": 216.45483523282138,
+          "image_pixel_max_x": 725.5477050205446,
+          "image_pixel_max_y": 269.15514545454545
         },
         {
           "id": "bilewater/bilewater-sinner-s-entrance#right-quarter",
@@ -162446,14 +162446,14 @@
           "image_normalized_min_y": 0.20021501853249285,
           "image_normalized_max_x": 0.8741844102391656,
           "image_normalized_max_y": 0.36826956398703836,
-          "image_pixel_x": 900.5979495872641,
-          "image_pixel_y": 68.07310630104757,
-          "image_pixel_width": 218.3580955188679,
-          "image_pixel_height": 57.138545454545465,
-          "image_pixel_min_x": 900.5979495872641,
-          "image_pixel_min_y": 68.07310630104757,
-          "image_pixel_max_x": 1118.956045106132,
-          "image_pixel_max_y": 125.21165175559304
+          "image_pixel_x": 947.0350313628575,
+          "image_pixel_y": 69.87504146784,
+          "image_pixel_width": 229.61718481905953,
+          "image_pixel_height": 58.65103636363637,
+          "image_pixel_min_x": 947.0350313628575,
+          "image_pixel_min_y": 69.87504146784,
+          "image_pixel_max_x": 1176.652216181917,
+          "image_pixel_max_y": 128.52607783147639
         },
         {
           "id": "bilewater/bilewater-sinner-s-entrance#right-door",
@@ -162471,14 +162471,14 @@
           "image_normalized_min_y": 0.24695871526544744,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.36826956398703836,
-          "image_pixel_x": 1188.6272847877358,
-          "image_pixel_y": 83.96596319025213,
-          "image_pixel_width": 91.37271521226415,
-          "image_pixel_height": 41.245688565340906,
-          "image_pixel_min_x": 1188.6272847877358,
-          "image_pixel_min_y": 83.96596319025213,
-          "image_pixel_max_x": 1280,
-          "image_pixel_max_y": 125.21165175559304
+          "image_pixel_x": 1249.9158791596035,
+          "image_pixel_y": 86.18859162764116,
+          "image_pixel_width": 96.08412084039652,
+          "image_pixel_height": 42.337486203835226,
+          "image_pixel_min_x": 1249.9158791596035,
+          "image_pixel_min_y": 86.18859162764116,
+          "image_pixel_max_x": 1346,
+          "image_pixel_max_y": 128.52607783147639
         },
         {
           "id": "bilewater/bilewater-sinner-s-entrance#top-mid-plat",
@@ -162496,14 +162496,14 @@
           "image_normalized_min_y": 0.2689998973499645,
           "image_normalized_max_x": 0.6662067917158019,
           "image_normalized_max_y": 0.4803165089000355,
-          "image_pixel_x": 733.5828327682783,
-          "image_pixel_y": 91.45996509898792,
-          "image_pixel_width": 119.1618606279481,
-          "image_pixel_height": 71.84764792702416,
-          "image_pixel_min_x": 733.5828327682783,
-          "image_pixel_min_y": 91.45996509898792,
-          "image_pixel_max_x": 852.7446933962265,
-          "image_pixel_max_y": 163.30761302601206
+          "image_pixel_x": 771.4081975828927,
+          "image_pixel_y": 93.8809641751376,
+          "image_pixel_width": 125.30614406657668,
+          "image_pixel_height": 73.74949743097478,
+          "image_pixel_min_x": 771.4081975828927,
+          "image_pixel_min_y": 93.8809641751376,
+          "image_pixel_max_x": 896.7143416494694,
+          "image_pixel_max_y": 167.6304616061124
         }
       ],
       "transitions": [
@@ -162523,8 +162523,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.34545454545454546,
-          "image_pixel_x": 1280,
-          "image_pixel_y": 117.45454545454545,
+          "image_pixel_x": 1346,
+          "image_pixel_y": 120.56363636363636,
           "is_out_of_bounds": false
         },
         {
@@ -162544,7 +162544,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 0.8727272727272727,
           "image_pixel_x": 0,
-          "image_pixel_y": 296.7272727272727,
+          "image_pixel_y": 304.58181818181816,
           "is_out_of_bounds": false
         }
       ],
@@ -162560,8 +162560,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.1337336594203733,
           "image_normalized_y": 0.753740761496804,
-          "image_pixel_x": 171.17908405807782,
-          "image_pixel_y": 256.2718589089134,
+          "image_pixel_x": 180.00550557982245,
+          "image_pixel_y": 263.0555257623846,
           "is_out_of_bounds": false
         },
         {
@@ -162575,8 +162575,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.1337336594203733,
           "image_normalized_y": 0.753740761496804,
-          "image_pixel_x": 171.17908405807782,
-          "image_pixel_y": 256.2718589089134,
+          "image_pixel_x": 180.00550557982245,
+          "image_pixel_y": 263.0555257623846,
           "is_out_of_bounds": false
         },
         {
@@ -162590,8 +162590,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.21465463458367115,
           "image_normalized_y": 0.8267418601296165,
-          "image_pixel_x": 274.7579322670991,
-          "image_pixel_y": 281.0922324440696,
+          "image_pixel_x": 288.9251381496214,
+          "image_pixel_y": 288.5329091852362,
           "is_out_of_bounds": false
         },
         {
@@ -162605,8 +162605,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.21465463458367115,
           "image_normalized_y": 0.8267418601296165,
-          "image_pixel_x": 274.7579322670991,
-          "image_pixel_y": 281.0922324440696,
+          "image_pixel_x": 288.9251381496214,
+          "image_pixel_y": 288.5329091852362,
           "is_out_of_bounds": false
         },
         {
@@ -162620,8 +162620,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.2068036637216244,
           "image_normalized_y": 0.6747359535910866,
-          "image_pixel_x": 264.70868956367923,
-          "image_pixel_y": 229.41022422096944,
+          "image_pixel_x": 278.35773136930646,
+          "image_pixel_y": 235.48284780328922,
           "is_out_of_bounds": false
         },
         {
@@ -162635,8 +162635,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.2068036637216244,
           "image_normalized_y": 0.6747359535910866,
-          "image_pixel_x": 264.70868956367923,
-          "image_pixel_y": 229.41022422096944,
+          "image_pixel_x": 278.35773136930646,
+          "image_pixel_y": 235.48284780328922,
           "is_out_of_bounds": false
         },
         {
@@ -162650,8 +162650,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6427181171921065,
           "image_normalized_y": 0.653285702792081,
-          "image_pixel_x": 822.6791900058963,
-          "image_pixel_y": 222.11713894930753,
+          "image_pixel_x": 865.0985857405753,
+          "image_pixel_y": 227.99671027443625,
           "is_out_of_bounds": false
         },
         {
@@ -162665,8 +162665,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6427181171921065,
           "image_normalized_y": 0.653285702792081,
-          "image_pixel_x": 822.6791900058963,
-          "image_pixel_y": 222.11713894930753,
+          "image_pixel_x": 865.0985857405753,
+          "image_pixel_y": 227.99671027443625,
           "is_out_of_bounds": false
         },
         {
@@ -162680,8 +162680,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.9116427583514519,
           "image_normalized_y": 0.28055302013050426,
-          "image_pixel_x": 1166.9027306898583,
-          "image_pixel_y": 95.38802684437145,
+          "image_pixel_x": 1227.0711527410542,
+          "image_pixel_y": 97.91300402554599,
           "is_out_of_bounds": false
         },
         {
@@ -162695,8 +162695,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.9116427583514519,
           "image_normalized_y": 0.28055302013050426,
-          "image_pixel_x": 1166.9027306898583,
-          "image_pixel_y": 95.38802684437145,
+          "image_pixel_x": 1227.0711527410542,
+          "image_pixel_y": 97.91300402554599,
           "is_out_of_bounds": false
         },
         {
@@ -162710,8 +162710,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.659365456059294,
           "image_normalized_y": 0.1217804648659446,
-          "image_pixel_x": 843.9877837558963,
-          "image_pixel_y": 41.405358054421164,
+          "image_pixel_x": 887.5059038558097,
+          "image_pixel_y": 42.50138223821467,
           "is_out_of_bounds": false
         },
         {
@@ -162725,8 +162725,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.659365456059294,
           "image_normalized_y": 0.1217804648659446,
-          "image_pixel_x": 843.9877837558963,
-          "image_pixel_y": 41.405358054421164,
+          "image_pixel_x": 887.5059038558097,
+          "image_pixel_y": 42.50138223821467,
           "is_out_of_bounds": false
         },
         {
@@ -162740,8 +162740,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.5281406978391251,
           "image_normalized_y": 0.44395325400612573,
-          "image_pixel_x": 676.0200932340802,
-          "image_pixel_y": 150.94410636208275,
+          "image_pixel_x": 710.8773792914624,
+          "image_pixel_y": 154.93968564813787,
           "is_out_of_bounds": false
         },
         {
@@ -162755,15 +162755,15 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.5281406978391251,
           "image_normalized_y": 0.44395325400612573,
-          "image_pixel_x": 676.0200932340802,
-          "image_pixel_y": 150.94410636208275,
+          "image_pixel_x": 710.8773792914624,
+          "image_pixel_y": 154.93968564813787,
           "is_out_of_bounds": false
         }
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-sinner-s-entrance::collectible/box-of-rosaries-right-inside-bilewater",
-          "name": "Box Of Rosaries Right Inside Bilewater",
+          "id": "location:bilewater/bilewater-sinner-s-entrance::collectible/bilewater-box-of-rosaries-right-inside-bilewater",
+          "name": "Bilewater - Box Of Rosaries Right Inside Bilewater",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "bilewater/bilewater-sinner-s-entrance#left-rosary-platform",
@@ -162780,8 +162780,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:bilewater/bilewater-sinner-s-entrance::collectible/a-few-remaining-rosaries-next-to-a-dead-guy-in-bilewater",
-          "name": "A Few Remaining Rosaries Next To A Dead Guy In Bilewater",
+          "id": "location:bilewater/bilewater-sinner-s-entrance::collectible/bilewater-a-few-remaining-rosaries-next-to-a-dead-guy-in-bilewater",
+          "name": "Bilewater - A Few Remaining Rosaries Next To A Dead Guy In Bilewater",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "bilewater/bilewater-sinner-s-entrance#middle-quarter",
@@ -162811,8 +162811,8 @@
           "in_game_z": 0.00636343751,
           "image_normalized_x": 0.6687668113207547,
           "image_normalized_y": 0.6807481818181819,
-          "image_pixel_x": 856.021518490566,
-          "image_pixel_y": 231.45438181818184,
+          "image_pixel_x": 900.1601280377358,
+          "image_pixel_y": 237.58111545454548,
           "is_out_of_bounds": false
         },
         {
@@ -162829,8 +162829,8 @@
           "in_game_z": 0.00640547276,
           "image_normalized_x": 0.7230067688679245,
           "image_normalized_y": 0.6512727272727272,
-          "image_pixel_x": 925.4486641509434,
-          "image_pixel_y": 221.43272727272725,
+          "image_pixel_x": 973.1671108962263,
+          "image_pixel_y": 227.2941818181818,
           "is_out_of_bounds": false
         },
         {
@@ -162847,8 +162847,8 @@
           "in_game_z": 0.006173563,
           "image_normalized_x": 0.45919811320754716,
           "image_normalized_y": 0.5817454254545454,
-          "image_pixel_x": 587.7735849056604,
-          "image_pixel_y": 197.79344465454545,
+          "image_pixel_x": 618.0806603773585,
+          "image_pixel_y": 203.02915348363635,
           "is_out_of_bounds": false
         },
         {
@@ -162865,8 +162865,8 @@
           "in_game_z": 0.006038033,
           "image_normalized_x": 0.6434905660377358,
           "image_normalized_y": 0.44982636363636364,
-          "image_pixel_x": 823.6679245283018,
-          "image_pixel_y": 152.94096363636365,
+          "image_pixel_x": 866.1383018867924,
+          "image_pixel_y": 156.9894009090909,
           "is_out_of_bounds": false
         },
         {
@@ -162883,8 +162883,8 @@
           "in_game_z": 0.006937341,
           "image_normalized_x": 0.855754716981132,
           "image_normalized_y": 0.35866553636363635,
-          "image_pixel_x": 1095.366037735849,
-          "image_pixel_y": 121.94628236363636,
+          "image_pixel_x": 1151.8458490566038,
+          "image_pixel_y": 125.1742721909091,
           "is_out_of_bounds": false
         },
         {
@@ -162901,8 +162901,8 @@
           "in_game_z": -0.12875,
           "image_normalized_x": 0.48056603773584905,
           "image_normalized_y": 0.44327272727272726,
-          "image_pixel_x": 615.1245283018868,
-          "image_pixel_y": 150.71272727272728,
+          "image_pixel_x": 646.8418867924528,
+          "image_pixel_y": 154.70218181818183,
           "is_out_of_bounds": false
         }
       ]
@@ -162920,8 +162920,8 @@
       "scene_max_y": 74,
       "scene_width": 320,
       "scene_height": 74,
-      "image_pixel_width": 2138,
-      "image_pixel_height": 473,
+      "image_pixel_width": 2032,
+      "image_pixel_height": 470,
       "nodes": [
         {
           "id": "bilewater/bilewater-slubberlug-river#room",
@@ -162967,7 +162967,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 0.7432432432432432,
           "image_pixel_x": 0,
-          "image_pixel_y": 351.554054054054,
+          "image_pixel_y": 349.3243243243243,
           "is_out_of_bounds": false
         }
       ],
@@ -162987,8 +162987,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.9664792999999999,
           "image_normalized_y": 0.13794182432432434,
-          "image_pixel_x": 2066.3327434,
-          "image_pixel_y": 65.24648290540541,
+          "image_pixel_x": 1963.8859375999998,
+          "image_pixel_y": 64.83265743243244,
           "is_out_of_bounds": false
         },
         {
@@ -163006,7 +163006,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163024,7 +163024,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163042,7 +163042,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163060,7 +163060,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163078,7 +163078,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163096,7 +163096,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163114,7 +163114,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163132,7 +163132,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163150,7 +163150,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163168,7 +163168,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 473,
+          "image_pixel_y": 470,
           "is_out_of_bounds": false
         },
         {
@@ -163528,8 +163528,8 @@
       "scene_max_y": 177,
       "scene_width": 87,
       "scene_height": 177,
-      "image_pixel_width": 437,
-      "image_pixel_height": 1192,
+      "image_pixel_width": 552,
+      "image_pixel_height": 1124,
       "nodes": [
         {
           "id": "bilewater/bilewater-upper-bloatroach-tower#lower-left",
@@ -163547,14 +163547,14 @@
           "image_normalized_min_y": 0.815145402983757,
           "image_normalized_max_x": 0.7314995250482669,
           "image_normalized_max_y": 0.9453050847457627,
-          "image_pixel_x": 46.728862068965526,
-          "image_pixel_y": 971.6533203566383,
-          "image_pixel_width": 272.93643037712707,
-          "image_pixel_height": 155.15034066031075,
-          "image_pixel_min_x": 46.728862068965526,
-          "image_pixel_min_y": 971.6533203566383,
-          "image_pixel_max_x": 319.6652924460926,
-          "image_pixel_max_y": 1126.803661016949
+          "image_pixel_x": 59.02593103448277,
+          "image_pixel_y": 916.2234329537429,
+          "image_pixel_width": 344.76180679216054,
+          "image_pixel_height": 146.29948230049436,
+          "image_pixel_min_x": 59.02593103448277,
+          "image_pixel_min_y": 916.2234329537429,
+          "image_pixel_max_x": 403.7877378266433,
+          "image_pixel_max_y": 1062.5229152542372
         },
         {
           "id": "bilewater/bilewater-upper-bloatroach-tower#lower-right",
@@ -163572,14 +163572,14 @@
           "image_normalized_min_y": 0.8850352088367872,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.9453050847457628,
-          "image_pixel_x": 349.15797701149427,
-          "image_pixel_y": 1054.9619689334504,
-          "image_pixel_width": 87.84202298850575,
-          "image_pixel_height": 71.84169208349886,
-          "image_pixel_min_x": 349.15797701149427,
-          "image_pixel_min_y": 1054.9619689334504,
-          "image_pixel_max_x": 437,
-          "image_pixel_max_y": 1126.8036610169493
+          "image_pixel_x": 441.0416551724138,
+          "image_pixel_y": 994.7795747325488,
+          "image_pixel_width": 110.95834482758622,
+          "image_pixel_height": 67.74334052168851,
+          "image_pixel_min_x": 441.0416551724138,
+          "image_pixel_min_y": 994.7795747325488,
+          "image_pixel_max_x": 552,
+          "image_pixel_max_y": 1062.5229152542372
         },
         {
           "id": "bilewater/bilewater-upper-bloatroach-tower#middle-left",
@@ -163597,14 +163597,14 @@
           "image_normalized_min_y": 0.47137288135593214,
           "image_normalized_max_x": 0.6926206896551723,
           "image_normalized_max_y": 0.6459623985506047,
-          "image_pixel_x": 114.06704597701149,
-          "image_pixel_y": 561.8764745762711,
-          "image_pixel_width": 188.6081954022988,
-          "image_pixel_height": 208.1107044960497,
-          "image_pixel_min_x": 114.06704597701149,
-          "image_pixel_min_y": 561.8764745762711,
-          "image_pixel_max_x": 302.6752413793103,
-          "image_pixel_max_y": 769.9871790723208
+          "image_pixel_x": 144.0846896551724,
+          "image_pixel_y": 529.8231186440677,
+          "image_pixel_width": 238.24193103448272,
+          "image_pixel_height": 196.23861732681195,
+          "image_pixel_min_x": 144.0846896551724,
+          "image_pixel_min_y": 529.8231186440677,
+          "image_pixel_max_x": 382.3266206896551,
+          "image_pixel_max_y": 726.0617359708797
         },
         {
           "id": "bilewater/bilewater-upper-bloatroach-tower#middle-right",
@@ -163622,14 +163622,14 @@
           "image_normalized_min_y": 0.6546045197740114,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.7240225988700566,
-          "image_pixel_x": 221.16255762771078,
-          "image_pixel_y": 780.2885875706215,
-          "image_pixel_width": 215.83744237228922,
-          "image_pixel_height": 82.74635028248586,
-          "image_pixel_min_x": 221.16255762771078,
-          "image_pixel_min_y": 780.2885875706215,
-          "image_pixel_max_x": 437,
-          "image_pixel_max_y": 863.0349378531074
+          "image_pixel_x": 279.3632306876347,
+          "image_pixel_y": 735.7754802259888,
+          "image_pixel_width": 272.6367693123653,
+          "image_pixel_height": 78.0259209039548,
+          "image_pixel_min_x": 279.3632306876347,
+          "image_pixel_min_y": 735.7754802259888,
+          "image_pixel_max_x": 552,
+          "image_pixel_max_y": 813.8014011299435
         },
         {
           "id": "bilewater/bilewater-upper-bloatroach-tower#upper-left",
@@ -163647,14 +163647,14 @@
           "image_normalized_min_y": 0.41463806669590836,
           "image_normalized_max_x": 0.3502252732200184,
           "image_normalized_max_y": 0.45848022598870053,
-          "image_pixel_x": 46.728862068965526,
-          "image_pixel_y": 494.24857550152274,
-          "image_pixel_width": 106.31958232818252,
-          "image_pixel_height": 52.259853877008275,
-          "image_pixel_min_x": 46.728862068965526,
-          "image_pixel_min_y": 494.24857550152274,
-          "image_pixel_max_x": 153.04844439714805,
-          "image_pixel_max_y": 546.508429378531
+          "image_pixel_x": 59.02593103448277,
+          "image_pixel_y": 466.053186966201,
+          "image_pixel_width": 134.2984197829674,
+          "image_pixel_height": 49.278587045098405,
+          "image_pixel_min_x": 59.02593103448277,
+          "image_pixel_min_y": 466.053186966201,
+          "image_pixel_max_x": 193.32435081745015,
+          "image_pixel_max_y": 515.3317740112994
         },
         {
           "id": "bilewater/bilewater-upper-bloatroach-tower#upper-right",
@@ -163672,14 +163672,14 @@
           "image_normalized_min_y": 0.2051368325443591,
           "image_normalized_max_x": 0.912005632773213,
           "image_normalized_max_y": 0.24840791346663135,
-          "image_pixel_x": 247.50176883565968,
-          "image_pixel_y": 244.52310439287606,
-          "image_pixel_width": 151.0446926862344,
-          "image_pixel_height": 51.57912845934852,
-          "image_pixel_min_x": 247.50176883565968,
-          "image_pixel_min_y": 244.52310439287606,
-          "image_pixel_max_x": 398.5464615218941,
-          "image_pixel_max_y": 296.1022328522246
+          "image_pixel_x": 312.6338132660964,
+          "image_pixel_y": 230.57379977985963,
+          "image_pixel_width": 190.79329602471714,
+          "image_pixel_height": 48.63669495663401,
+          "image_pixel_min_x": 312.6338132660964,
+          "image_pixel_min_y": 230.57379977985963,
+          "image_pixel_max_x": 503.4271092908135,
+          "image_pixel_max_y": 279.2104947364936
         },
         {
           "id": "bilewater/bilewater-upper-bloatroach-tower#top",
@@ -163697,14 +163697,14 @@
           "image_normalized_min_y": 0.049148300946769065,
           "image_normalized_max_x": 0.6074638805170169,
           "image_normalized_max_y": 0.17987767451227046,
-          "image_pixel_x": 153.05045977011494,
-          "image_pixel_y": 58.58477472854872,
-          "image_pixel_width": 112.41125601582144,
-          "image_pixel_height": 155.82941329007767,
-          "image_pixel_min_x": 153.05045977011494,
-          "image_pixel_min_y": 58.58477472854872,
-          "image_pixel_max_x": 265.46171578593635,
-          "image_pixel_max_y": 214.4141880186264
+          "image_pixel_x": 193.32689655172413,
+          "image_pixel_y": 55.24269026416843,
+          "image_pixel_width": 141.99316549366918,
+          "image_pixel_height": 146.93981588762358,
+          "image_pixel_min_x": 193.32689655172413,
+          "image_pixel_min_y": 55.24269026416843,
+          "image_pixel_max_x": 335.32006204539334,
+          "image_pixel_max_y": 202.182506151792
         }
       ],
       "transitions": [
@@ -163724,8 +163724,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.7005649717514124,
-          "image_pixel_x": 437,
-          "image_pixel_y": 835.0734463276835,
+          "image_pixel_x": 552,
+          "image_pixel_y": 787.4350282485875,
           "is_out_of_bounds": false
         },
         {
@@ -163744,8 +163744,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.22033898305084745,
-          "image_pixel_x": 437,
-          "image_pixel_y": 262.64406779661016,
+          "image_pixel_x": 552,
+          "image_pixel_y": 247.66101694915253,
           "is_out_of_bounds": false
         },
         {
@@ -163764,8 +163764,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.9548022598870056,
-          "image_pixel_x": 437,
-          "image_pixel_y": 1138.1242937853108,
+          "image_pixel_x": 552,
+          "image_pixel_y": 1073.1977401129943,
           "is_out_of_bounds": false
         },
         {
@@ -163784,8 +163784,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.20114942528735633,
           "image_normalized_y": 0.6497175141242938,
-          "image_pixel_x": 87.90229885057471,
-          "image_pixel_y": 774.4632768361582,
+          "image_pixel_x": 111.0344827586207,
+          "image_pixel_y": 730.2824858757062,
           "is_out_of_bounds": false
         },
         {
@@ -163804,8 +163804,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.20114942528735633,
           "image_normalized_y": 0.4406779661016949,
-          "image_pixel_x": 87.90229885057471,
-          "image_pixel_y": 525.2881355932203,
+          "image_pixel_x": 111.0344827586207,
+          "image_pixel_y": 495.32203389830505,
           "is_out_of_bounds": false
         },
         {
@@ -163824,8 +163824,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.20114942528735633,
           "image_normalized_y": 0.9265536723163842,
-          "image_pixel_x": 87.90229885057471,
-          "image_pixel_y": 1104.4519774011299,
+          "image_pixel_x": 111.0344827586207,
+          "image_pixel_y": 1041.446327683616,
           "is_out_of_bounds": false
         },
         {
@@ -163844,7 +163844,7 @@
           "in_game_z": 0,
           "image_normalized_x": 0.5402298850574713,
           "image_normalized_y": 0,
-          "image_pixel_x": 236.08045977011494,
+          "image_pixel_x": 298.2068965517241,
           "image_pixel_y": 0,
           "is_out_of_bounds": false
         }
@@ -163861,8 +163861,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.7145208161452721,
           "image_normalized_y": 0.9194065298737779,
-          "image_pixel_x": 312.2455966554839,
-          "image_pixel_y": 1095.9325836095434,
+          "image_pixel_x": 394.41549051219016,
+          "image_pixel_y": 1033.4129395781263,
           "is_out_of_bounds": false
         },
         {
@@ -163876,8 +163876,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.7145208161452721,
           "image_normalized_y": 0.9194065298737779,
-          "image_pixel_x": 312.2455966554839,
-          "image_pixel_y": 1095.9325836095434,
+          "image_pixel_x": 394.41549051219016,
+          "image_pixel_y": 1033.4129395781263,
           "is_out_of_bounds": false
         },
         {
@@ -163891,8 +163891,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8793990036536907,
           "image_normalized_y": 0.7767833774372682,
-          "image_pixel_x": 384.2973645966629,
-          "image_pixel_y": 925.9257859052237,
+          "image_pixel_x": 485.4282500168373,
+          "image_pixel_y": 873.1045162394895,
           "is_out_of_bounds": false
         },
         {
@@ -163906,8 +163906,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8793990036536907,
           "image_normalized_y": 0.7767833774372682,
-          "image_pixel_x": 384.2973645966629,
-          "image_pixel_y": 925.9257859052237,
+          "image_pixel_x": 485.4282500168373,
+          "image_pixel_y": 873.1045162394895,
           "is_out_of_bounds": false
         },
         {
@@ -163921,8 +163921,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.7476421663130837,
           "image_normalized_y": 0.6442737256066274,
-          "image_pixel_x": 326.7196266788176,
-          "image_pixel_y": 767.9742809230999,
+          "image_pixel_x": 412.6984758048222,
+          "image_pixel_y": 724.1636675818493,
           "is_out_of_bounds": false
         },
         {
@@ -163936,8 +163936,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.7476421663130837,
           "image_normalized_y": 0.6442737256066274,
-          "image_pixel_x": 326.7196266788176,
-          "image_pixel_y": 767.9742809230999,
+          "image_pixel_x": 412.6984758048222,
+          "image_pixel_y": 724.1636675818493,
           "is_out_of_bounds": false
         },
         {
@@ -163951,8 +163951,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6011307815025593,
           "image_normalized_y": 0.1808674268129855,
-          "image_pixel_x": 262.6941515166184,
-          "image_pixel_y": 215.59397276107873,
+          "image_pixel_x": 331.8241913894127,
+          "image_pixel_y": 203.2949877377957,
           "is_out_of_bounds": false
         },
         {
@@ -163966,8 +163966,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6011307815025593,
           "image_normalized_y": 0.1808674268129855,
-          "image_pixel_x": 262.6941515166184,
-          "image_pixel_y": 215.59397276107873,
+          "image_pixel_x": 331.8241913894127,
+          "image_pixel_y": 203.2949877377957,
           "is_out_of_bounds": false
         },
         {
@@ -163981,8 +163981,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.3737010736575072,
           "image_normalized_y": 0.5118969847253487,
-          "image_pixel_x": 163.30736918833065,
-          "image_pixel_y": 610.1812057926156,
+          "image_pixel_x": 206.28299265894398,
+          "image_pixel_y": 575.372210831292,
           "is_out_of_bounds": false
         },
         {
@@ -163996,8 +163996,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.3737010736575072,
           "image_normalized_y": 0.5118969847253487,
-          "image_pixel_x": 163.30736918833065,
-          "image_pixel_y": 610.1812057926156,
+          "image_pixel_x": 206.28299265894398,
+          "image_pixel_y": 575.372210831292,
           "is_out_of_bounds": false
         },
         {
@@ -164011,8 +164011,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.3807532211829876,
           "image_normalized_y": 0.2891886220813471,
-          "image_pixel_x": 166.38915765696558,
-          "image_pixel_y": 344.71283752096576,
+          "image_pixel_x": 210.17577809300914,
+          "image_pixel_y": 325.04801121943416,
           "is_out_of_bounds": false
         },
         {
@@ -164026,8 +164026,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.3807532211829876,
           "image_normalized_y": 0.2891886220813471,
-          "image_pixel_x": 166.38915765696558,
-          "image_pixel_y": 344.71283752096576,
+          "image_pixel_x": 210.17577809300914,
+          "image_pixel_y": 325.04801121943416,
           "is_out_of_bounds": false
         },
         {
@@ -164041,8 +164041,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4900604774212015,
           "image_normalized_y": 0.351581638142214,
-          "image_pixel_x": 214.15642863306505,
-          "image_pixel_y": 419.0853126655191,
+          "image_pixel_x": 270.5133835365032,
+          "image_pixel_y": 395.1777612718485,
           "is_out_of_bounds": false
         },
         {
@@ -164056,8 +164056,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4900604774212015,
           "image_normalized_y": 0.351581638142214,
-          "image_pixel_x": 214.15642863306505,
-          "image_pixel_y": 419.0853126655191,
+          "image_pixel_x": 270.5133835365032,
+          "image_pixel_y": 395.1777612718485,
           "is_out_of_bounds": false
         }
       ],
@@ -164094,8 +164094,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.5422337413793104,
           "image_normalized_y": 0.4938033333333333,
-          "image_pixel_x": 236.95614498275862,
-          "image_pixel_y": 588.6135733333333,
+          "image_pixel_x": 299.3130252413793,
+          "image_pixel_y": 555.0349466666667,
           "is_out_of_bounds": false
         },
         {
@@ -164112,8 +164112,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.5641486942528735,
           "image_normalized_y": 0.9187387005649718,
-          "image_pixel_x": 246.5329793885057,
-          "image_pixel_y": 1095.1365310734463,
+          "image_pixel_x": 311.41007922758615,
+          "image_pixel_y": 1032.6622994350282,
           "is_out_of_bounds": false
         },
         {
@@ -164130,8 +164130,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.6299042103448276,
           "image_normalized_y": 0.6981560661016949,
-          "image_pixel_x": 275.26813992068963,
-          "image_pixel_y": 832.2020307932203,
+          "image_pixel_x": 347.7071241103448,
+          "image_pixel_y": 784.7274182983051,
           "is_out_of_bounds": false
         },
         {
@@ -164148,8 +164148,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.6764724137931034,
           "image_normalized_y": 0.772819604519774,
-          "image_pixel_x": 295.6184448275862,
-          "image_pixel_y": 921.2009685875706,
+          "image_pixel_x": 373.4127724137931,
+          "image_pixel_y": 868.649235480226,
           "is_out_of_bounds": false
         }
       ]
@@ -164167,8 +164167,8 @@
       "scene_max_y": 113,
       "scene_width": 29,
       "scene_height": 113,
-      "image_pixel_width": 186,
-      "image_pixel_height": 719,
+      "image_pixel_width": 184,
+      "image_pixel_height": 718,
       "nodes": [
         {
           "id": "bilewater/bilewater-upper-east-column#low-left-door",
@@ -164187,13 +164187,13 @@
           "image_normalized_max_x": 0.5246111113449623,
           "image_normalized_max_y": 0.9633692386931022,
           "image_pixel_x": 0,
-          "image_pixel_y": 651.4932202955263,
-          "image_pixel_width": 97.57766671016299,
-          "image_pixel_height": 41.16926232481425,
+          "image_pixel_y": 650.5871101143085,
+          "image_pixel_width": 96.52844448747307,
+          "image_pixel_height": 41.11200326733884,
           "image_pixel_min_x": 0,
-          "image_pixel_min_y": 651.4932202955263,
-          "image_pixel_max_x": 97.57766671016299,
-          "image_pixel_max_y": 692.6624826203405
+          "image_pixel_min_y": 650.5871101143085,
+          "image_pixel_max_x": 96.52844448747307,
+          "image_pixel_max_y": 691.6991133816474
         },
         {
           "id": "bilewater/bilewater-upper-east-column#low-right-door",
@@ -164211,14 +164211,14 @@
           "image_normalized_min_y": 0.9061150442477877,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.9633716814159292,
-          "image_pixel_x": 109.99078737456223,
-          "image_pixel_y": 651.4967168141593,
-          "image_pixel_width": 76.00921262543777,
-          "image_pixel_height": 41.167522123893804,
-          "image_pixel_min_x": 109.99078737456223,
-          "image_pixel_min_y": 651.4967168141593,
-          "image_pixel_max_x": 186,
-          "image_pixel_max_y": 692.6642389380531
+          "image_pixel_x": 108.80809073612608,
+          "image_pixel_y": 650.5906017699116,
+          "image_pixel_width": 75.19190926387392,
+          "image_pixel_height": 41.11026548672566,
+          "image_pixel_min_x": 108.80809073612608,
+          "image_pixel_min_y": 650.5906017699116,
+          "image_pixel_max_x": 184,
+          "image_pixel_max_y": 691.7008672566373
         },
         {
           "id": "bilewater/bilewater-upper-east-column#up-left-door",
@@ -164236,14 +164236,14 @@
           "image_normalized_min_y": 0.13807964601769906,
           "image_normalized_max_x": 0.8057523590614055,
           "image_normalized_max_y": 0.6106597749153069,
-          "image_pixel_x": 17.387793103448274,
-          "image_pixel_y": 99.27926548672563,
-          "image_pixel_width": 132.48214568197315,
-          "image_pixel_height": 339.78511267738,
-          "image_pixel_min_x": 17.387793103448274,
-          "image_pixel_min_y": 99.27926548672563,
-          "image_pixel_max_x": 149.86993878542143,
-          "image_pixel_max_y": 439.0643781641057
+          "image_pixel_x": 17.200827586206895,
+          "image_pixel_y": 99.14118584070793,
+          "image_pixel_width": 131.0576064810917,
+          "image_pixel_height": 339.31253254848247,
+          "image_pixel_min_x": 17.200827586206895,
+          "image_pixel_min_y": 99.14118584070793,
+          "image_pixel_max_x": 148.2584340672986,
+          "image_pixel_max_y": 438.4537183891904
         },
         {
           "id": "bilewater/bilewater-upper-east-column#up-right-door",
@@ -164261,14 +164261,14 @@
           "image_normalized_min_y": 0.04557522123893798,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.09161946902654863,
-          "image_pixel_x": 109.99013793103448,
-          "image_pixel_y": 32.76858407079641,
-          "image_pixel_width": 76.0098620689655,
-          "image_pixel_height": 33.10581415929205,
-          "image_pixel_min_x": 109.99013793103448,
-          "image_pixel_min_y": 32.76858407079641,
-          "image_pixel_max_x": 186,
-          "image_pixel_max_y": 65.87439823008846
+          "image_pixel_x": 108.80744827586207,
+          "image_pixel_y": 32.723008849557466,
+          "image_pixel_width": 75.19255172413793,
+          "image_pixel_height": 33.059769911504446,
+          "image_pixel_min_x": 108.80744827586207,
+          "image_pixel_min_y": 32.723008849557466,
+          "image_pixel_max_x": 184,
+          "image_pixel_max_y": 65.7827787610619
         }
       ],
       "transitions": [
@@ -164289,7 +164289,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 0.168141592920354,
           "image_pixel_x": 0,
-          "image_pixel_y": 120.89380530973452,
+          "image_pixel_y": 120.72566371681417,
           "is_out_of_bounds": false
         },
         {
@@ -164309,7 +164309,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 0.9380530973451328,
           "image_pixel_x": 0,
-          "image_pixel_y": 674.4601769911504,
+          "image_pixel_y": 673.5221238938053,
           "is_out_of_bounds": false
         },
         {
@@ -164328,8 +164328,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.9380530973451328,
-          "image_pixel_x": 186,
-          "image_pixel_y": 674.4601769911504,
+          "image_pixel_x": 184,
+          "image_pixel_y": 673.5221238938053,
           "is_out_of_bounds": false
         },
         {
@@ -164348,8 +164348,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.07079646017699115,
-          "image_pixel_x": 186,
-          "image_pixel_y": 50.902654867256636,
+          "image_pixel_x": 184,
+          "image_pixel_y": 50.83185840707964,
           "is_out_of_bounds": false
         }
       ],
@@ -164365,8 +164365,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.5032853093640558,
           "image_normalized_y": 0.9796431338892574,
-          "image_pixel_x": 93.61106754171438,
-          "image_pixel_y": 704.363413266376,
+          "image_pixel_x": 92.60449692298627,
+          "image_pixel_y": 703.3837701324868,
           "is_out_of_bounds": false
         },
         {
@@ -164380,8 +164380,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.5032853093640558,
           "image_normalized_y": 0.9796431338892574,
-          "image_pixel_x": 93.61106754171438,
-          "image_pixel_y": 704.363413266376,
+          "image_pixel_x": 92.60449692298627,
+          "image_pixel_y": 703.3837701324868,
           "is_out_of_bounds": false
         },
         {
@@ -164395,8 +164395,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4268505162206189,
           "image_normalized_y": 0.553663304421754,
-          "image_pixel_x": 79.39419601703511,
-          "image_pixel_y": 398.08391587924115,
+          "image_pixel_x": 78.54049498459388,
+          "image_pixel_y": 397.53025257481943,
           "is_out_of_bounds": false
         },
         {
@@ -164410,8 +164410,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4268505162206189,
           "image_normalized_y": 0.553663304421754,
-          "image_pixel_x": 79.39419601703511,
-          "image_pixel_y": 398.08391587924115,
+          "image_pixel_x": 78.54049498459388,
+          "image_pixel_y": 397.53025257481943,
           "is_out_of_bounds": false
         },
         {
@@ -164425,8 +164425,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4831716932099441,
           "image_normalized_y": 0.1171490829602807,
-          "image_pixel_x": 89.86993493704959,
-          "image_pixel_y": 84.23019064844182,
+          "image_pixel_x": 88.90359155062971,
+          "image_pixel_y": 84.11304156548155,
           "is_out_of_bounds": false
         },
         {
@@ -164440,8 +164440,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4831716932099441,
           "image_normalized_y": 0.1171490829602807,
-          "image_pixel_x": 89.86993493704959,
-          "image_pixel_y": 84.23019064844182,
+          "image_pixel_x": 88.90359155062971,
+          "image_pixel_y": 84.11304156548155,
           "is_out_of_bounds": false
         }
       ],
@@ -164460,8 +164460,8 @@
           "in_game_z": 0.00631509628,
           "image_normalized_x": 0.4893103448275862,
           "image_normalized_y": 0.9291150530973452,
-          "image_pixel_x": 91.01172413793103,
-          "image_pixel_y": 668.0337231769912,
+          "image_pixel_x": 90.03310344827585,
+          "image_pixel_y": 667.1046081238939,
           "is_out_of_bounds": false
         },
         {
@@ -164478,8 +164478,8 @@
           "in_game_z": 0.006513089,
           "image_normalized_x": 0.3996551724137931,
           "image_normalized_y": 0.5782904159292036,
-          "image_pixel_x": 74.33586206896553,
-          "image_pixel_y": 415.7908090530974,
+          "image_pixel_x": 73.53655172413794,
+          "image_pixel_y": 415.2125186371682,
           "is_out_of_bounds": false
         },
         {
@@ -164496,8 +164496,8 @@
           "in_game_z": 0.006293808,
           "image_normalized_x": 0.643103448275862,
           "image_normalized_y": 0.22761061946902653,
-          "image_pixel_x": 119.61724137931033,
-          "image_pixel_y": 163.65203539823008,
+          "image_pixel_x": 118.3310344827586,
+          "image_pixel_y": 163.42442477876105,
           "is_out_of_bounds": false
         },
         {
@@ -164514,8 +164514,8 @@
           "in_game_z": 0.006831769,
           "image_normalized_x": 0.5596551724137931,
           "image_normalized_y": 0.9114159353982301,
-          "image_pixel_x": 104.09586206896553,
-          "image_pixel_y": 655.3080575513275,
+          "image_pixel_x": 102.97655172413793,
+          "image_pixel_y": 654.3966416159292,
           "is_out_of_bounds": false
         },
         {
@@ -164532,8 +164532,8 @@
           "in_game_z": 0.006437163,
           "image_normalized_x": 0.48551724137931035,
           "image_normalized_y": 0.5940707964601769,
-          "image_pixel_x": 90.30620689655173,
-          "image_pixel_y": 427.1369026548672,
+          "image_pixel_x": 89.3351724137931,
+          "image_pixel_y": 426.542831858407,
           "is_out_of_bounds": false
         },
         {
@@ -164550,8 +164550,8 @@
           "in_game_z": 0.006,
           "image_normalized_x": 0.7106896551724138,
           "image_normalized_y": 0.595221238938053,
-          "image_pixel_x": 132.18827586206896,
-          "image_pixel_y": 427.96407079646013,
+          "image_pixel_x": 130.76689655172413,
+          "image_pixel_y": 427.3688495575221,
           "is_out_of_bounds": false
         }
       ]
@@ -164569,8 +164569,8 @@
       "scene_max_y": 48,
       "scene_width": 210,
       "scene_height": 48,
-      "image_pixel_width": 1348,
-      "image_pixel_height": 287,
+      "image_pixel_width": 1334,
+      "image_pixel_height": 305,
       "nodes": [
         {
           "id": "bilewater/bilewater-upper-trap-gauntlet-hall#top-floor",
@@ -164588,14 +164588,14 @@
           "image_normalized_min_y": 0.08774654070536296,
           "image_normalized_max_x": 0.9200023106166295,
           "image_normalized_max_y": 0.2357836564381917,
-          "image_pixel_x": 1106.9750267392112,
-          "image_pixel_y": 25.18325718243917,
-          "image_pixel_width": 133.1880879720052,
-          "image_pixel_height": 42.486652215321854,
-          "image_pixel_min_x": 1106.9750267392112,
-          "image_pixel_min_y": 25.18325718243917,
-          "image_pixel_max_x": 1240.1631147112164,
-          "image_pixel_max_y": 67.66990939776102
+          "image_pixel_x": 1095.4782534644717,
+          "image_pixel_y": 26.762694915135704,
+          "image_pixel_width": 131.804828898112,
+          "image_pixel_height": 45.15132029851277,
+          "image_pixel_min_x": 1095.4782534644717,
+          "image_pixel_min_y": 26.762694915135704,
+          "image_pixel_max_x": 1227.2830823625836,
+          "image_pixel_max_y": 71.91401521364847
         },
         {
           "id": "bilewater/bilewater-upper-trap-gauntlet-hall#right-door",
@@ -164613,14 +164613,14 @@
           "image_normalized_min_y": 0.7183847030003866,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.8634611070156097,
-          "image_pixel_x": 1246.5488603864396,
-          "image_pixel_y": 206.17640976111096,
-          "image_pixel_width": 101.45113961356026,
-          "image_pixel_height": 41.63692795236905,
-          "image_pixel_min_x": 1246.5488603864396,
-          "image_pixel_min_y": 206.17640976111096,
-          "image_pixel_max_x": 1348,
-          "image_pixel_max_y": 247.81333771348
+          "image_pixel_x": 1233.6025072370255,
+          "image_pixel_y": 219.10733441511792,
+          "image_pixel_width": 100.39749276297432,
+          "image_pixel_height": 44.24830322464307,
+          "image_pixel_min_x": 1233.6025072370255,
+          "image_pixel_min_y": 219.10733441511792,
+          "image_pixel_max_x": 1333.9999999999998,
+          "image_pixel_max_y": 263.35563763976097
         },
         {
           "id": "bilewater/bilewater-upper-trap-gauntlet-hall#left-door",
@@ -164639,13 +164639,13 @@
           "image_normalized_max_x": 0.08373865400041852,
           "image_normalized_max_y": 0.7364692687988281,
           "image_pixel_x": 0,
-          "image_pixel_y": 162.75666459401447,
-          "image_pixel_width": 112.87970559256416,
-          "image_pixel_height": 48.61001555124919,
+          "image_pixel_y": 172.96439965565997,
+          "image_pixel_width": 111.70736443655831,
+          "image_pixel_height": 51.65872732798259,
           "image_pixel_min_x": 0,
-          "image_pixel_min_y": 162.75666459401447,
-          "image_pixel_max_x": 112.87970559256416,
-          "image_pixel_max_y": 211.36668014526367
+          "image_pixel_min_y": 172.96439965565997,
+          "image_pixel_max_x": 111.70736443655831,
+          "image_pixel_max_y": 224.62312698364258
         },
         {
           "id": "bilewater/bilewater-upper-trap-gauntlet-hall#mid-rightmost",
@@ -164663,14 +164663,14 @@
           "image_normalized_min_y": 0.5671041666666666,
           "image_normalized_max_x": 0.9082050141834077,
           "image_normalized_max_y": 0.718375,
-          "image_pixel_x": 1088.333186267671,
-          "image_pixel_y": 162.75889583333333,
-          "image_pixel_width": 135.9271728515625,
-          "image_pixel_height": 43.41472916666667,
-          "image_pixel_min_x": 1088.333186267671,
-          "image_pixel_min_y": 162.75889583333333,
-          "image_pixel_max_x": 1224.2603591192335,
-          "image_pixel_max_y": 206.173625
+          "image_pixel_x": 1077.0300226120721,
+          "image_pixel_y": 172.96677083333333,
+          "image_pixel_width": 134.51546630859374,
+          "image_pixel_height": 46.13760416666666,
+          "image_pixel_min_x": 1077.0300226120721,
+          "image_pixel_min_y": 172.96677083333333,
+          "image_pixel_max_x": 1211.5454889206658,
+          "image_pixel_max_y": 219.104375
         },
         {
           "id": "bilewater/bilewater-upper-trap-gauntlet-hall#mid",
@@ -164688,14 +164688,14 @@
           "image_normalized_min_y": 0.5112065474192301,
           "image_normalized_max_x": 0.506625475202288,
           "image_normalized_max_y": 0.718375,
-          "image_pixel_x": 554.0854791550408,
-          "image_pixel_y": 146.71627910931903,
-          "image_pixel_width": 128.84566141764324,
-          "image_pixel_height": 59.45734589068095,
-          "image_pixel_min_x": 554.0854791550408,
-          "image_pixel_min_y": 146.71627910931903,
-          "image_pixel_max_x": 682.9311405726841,
-          "image_pixel_max_y": 206.173625
+          "image_pixel_x": 548.3308821905226,
+          "image_pixel_y": 155.91799696286517,
+          "image_pixel_width": 127.50750172932943,
+          "image_pixel_height": 63.1863780371348,
+          "image_pixel_min_x": 548.3308821905226,
+          "image_pixel_min_y": 155.91799696286517,
+          "image_pixel_max_x": 675.838383919852,
+          "image_pixel_max_y": 219.10437499999998
         }
       ],
       "transitions": [
@@ -164715,8 +164715,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.7916666666666666,
-          "image_pixel_x": 1348,
-          "image_pixel_y": 227.20833333333331,
+          "image_pixel_x": 1334,
+          "image_pixel_y": 241.45833333333331,
           "is_out_of_bounds": false
         },
         {
@@ -164736,7 +164736,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 0.6458333333333334,
           "image_pixel_x": 0,
-          "image_pixel_y": 185.35416666666669,
+          "image_pixel_y": 196.97916666666669,
           "is_out_of_bounds": false
         }
       ],
@@ -164752,8 +164752,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8799944196428572,
           "image_normalized_y": 0.8436606824398041,
-          "image_pixel_x": 1186.2324776785715,
-          "image_pixel_y": 242.13061586022377,
+          "image_pixel_x": 1173.9125558035714,
+          "image_pixel_y": 257.31650814414024,
           "is_out_of_bounds": false
         },
         {
@@ -164767,8 +164767,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8799944196428572,
           "image_normalized_y": 0.8436606824398041,
-          "image_pixel_x": 1186.2324776785715,
-          "image_pixel_y": 242.13061586022377,
+          "image_pixel_x": 1173.9125558035714,
+          "image_pixel_y": 257.31650814414024,
           "is_out_of_bounds": false
         },
         {
@@ -164782,8 +164782,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.9748285202752976,
           "image_normalized_y": 0.3867465655008952,
-          "image_pixel_x": 1314.0688453311013,
-          "image_pixel_y": 110.99626429875693,
+          "image_pixel_x": 1300.421246047247,
+          "image_pixel_y": 117.95770247777304,
           "is_out_of_bounds": false
         },
         {
@@ -164797,8 +164797,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.9748285202752976,
           "image_normalized_y": 0.3867465655008952,
-          "image_pixel_x": 1314.0688453311013,
-          "image_pixel_y": 110.99626429875693,
+          "image_pixel_x": 1300.421246047247,
+          "image_pixel_y": 117.95770247777304,
           "is_out_of_bounds": false
         },
         {
@@ -164812,8 +164812,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6811410813104539,
           "image_normalized_y": 0.4768360455830892,
-          "image_pixel_x": 918.1781776064919,
-          "image_pixel_y": 136.8519450823466,
+          "image_pixel_x": 908.6422024681456,
+          "image_pixel_y": 145.4349939028422,
           "is_out_of_bounds": false
         },
         {
@@ -164827,8 +164827,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6811410813104539,
           "image_normalized_y": 0.4768360455830892,
-          "image_pixel_x": 918.1781776064919,
-          "image_pixel_y": 136.8519450823466,
+          "image_pixel_x": 908.6422024681456,
+          "image_pixel_y": 145.4349939028422,
           "is_out_of_bounds": false
         },
         {
@@ -164842,8 +164842,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.21083188738141742,
           "image_normalized_y": 0.5317283868789673,
-          "image_pixel_x": 284.2013841901507,
-          "image_pixel_y": 152.6060470342636,
+          "image_pixel_x": 281.2497377668108,
+          "image_pixel_y": 162.17715799808502,
           "is_out_of_bounds": false
         },
         {
@@ -164857,8 +164857,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.21083188738141742,
           "image_normalized_y": 0.5317283868789673,
-          "image_pixel_x": 284.2013841901507,
-          "image_pixel_y": 152.6060470342636,
+          "image_pixel_x": 281.2497377668108,
+          "image_pixel_y": 162.17715799808502,
           "is_out_of_bounds": false
         }
       ],
@@ -164877,8 +164877,8 @@
           "in_game_z": 0.006899374,
           "image_normalized_x": 0.3804761904761905,
           "image_normalized_y": 0.7756025395833334,
-          "image_pixel_x": 512.8819047619048,
-          "image_pixel_y": 222.5979288604167,
+          "image_pixel_x": 507.55523809523817,
+          "image_pixel_y": 236.55877457291666,
           "is_out_of_bounds": false
         },
         {
@@ -164895,8 +164895,8 @@
           "in_game_z": 0.00680783531,
           "image_normalized_x": 0.7950476190476191,
           "image_normalized_y": 0.77560251875,
-          "image_pixel_x": 1071.7241904761906,
-          "image_pixel_y": 222.59792288124999,
+          "image_pixel_x": 1060.593523809524,
+          "image_pixel_y": 236.55876821875,
           "is_out_of_bounds": false
         },
         {
@@ -164949,8 +164949,8 @@
           "in_game_z": 0.006701188,
           "image_normalized_x": 0.8447013476190476,
           "image_normalized_y": 0.6204954395833333,
-          "image_pixel_x": 1138.657416590476,
-          "image_pixel_y": 178.08219116041667,
+          "image_pixel_x": 1126.8315977238094,
+          "image_pixel_y": 189.25110907291665,
           "is_out_of_bounds": false
         },
         {
@@ -164967,8 +164967,8 @@
           "in_game_z": 0.00648043,
           "image_normalized_x": 0.47636838571428575,
           "image_normalized_y": 0.5774498375,
-          "image_pixel_x": 642.1445839428571,
-          "image_pixel_y": 165.7281033625,
+          "image_pixel_x": 635.4754265428572,
+          "image_pixel_y": 176.1222004375,
           "is_out_of_bounds": false
         },
         {
@@ -164985,8 +164985,8 @@
           "in_game_z": 0.006364663,
           "image_normalized_x": 0.9015237714285715,
           "image_normalized_y": 0.22375965208333337,
-          "image_pixel_x": 1215.2540438857145,
-          "image_pixel_y": 64.21902014791668,
+          "image_pixel_x": 1202.6327110857144,
+          "image_pixel_y": 68.24669388541668,
           "is_out_of_bounds": false
         }
       ]
@@ -165004,8 +165004,8 @@
       "scene_max_y": 71,
       "scene_width": 29,
       "scene_height": 71,
-      "image_pixel_width": 205,
-      "image_pixel_height": 542,
+      "image_pixel_width": 184,
+      "image_pixel_height": 451,
       "nodes": [
         {
           "id": "bilewater/bilewater-upper-west-column#lower",
@@ -165023,14 +165023,14 @@
           "image_normalized_min_y": 0.8346338028169014,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.9377605633802817,
-          "image_pixel_x": 120.92629616309857,
-          "image_pixel_y": 452.3715211267605,
-          "image_pixel_width": 84.07370383690144,
-          "image_pixel_height": 55.894704225352115,
-          "image_pixel_min_x": 120.92629616309857,
-          "image_pixel_min_y": 452.3715211267605,
-          "image_pixel_max_x": 205,
-          "image_pixel_max_y": 508.26622535211266
+          "image_pixel_x": 108.53872436102506,
+          "image_pixel_y": 376.4198450704225,
+          "image_pixel_width": 75.46127563897495,
+          "image_pixel_height": 46.51016901408451,
+          "image_pixel_min_x": 108.53872436102506,
+          "image_pixel_min_y": 376.4198450704225,
+          "image_pixel_max_x": 184,
+          "image_pixel_max_y": 422.93001408450704
         },
         {
           "id": "bilewater/bilewater-upper-west-column#upper",
@@ -165048,14 +165048,14 @@
           "image_normalized_min_y": 0.16195774647887326,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.7860244128804811,
-          "image_pixel_x": 30.94793103448276,
-          "image_pixel_y": 87.78109859154931,
-          "image_pixel_width": 174.05206896551724,
-          "image_pixel_height": 338.2441331896714,
-          "image_pixel_min_x": 30.94793103448276,
-          "image_pixel_min_y": 87.78109859154931,
-          "image_pixel_max_x": 205,
-          "image_pixel_max_y": 426.0252317812207
+          "image_pixel_x": 27.777655172413795,
+          "image_pixel_y": 73.04294366197185,
+          "image_pixel_width": 156.2223448275862,
+          "image_pixel_height": 281.45406654712514,
+          "image_pixel_min_x": 27.777655172413795,
+          "image_pixel_min_y": 73.04294366197185,
+          "image_pixel_max_x": 184,
+          "image_pixel_max_y": 354.49701020909697
         }
       ],
       "transitions": [
@@ -165075,8 +165075,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.4084507042253521,
-          "image_pixel_x": 205,
-          "image_pixel_y": 221.38028169014086,
+          "image_pixel_x": 184,
+          "image_pixel_y": 184.21126760563382,
           "is_out_of_bounds": false
         },
         {
@@ -165095,8 +165095,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.8873239436619719,
-          "image_pixel_x": 205,
-          "image_pixel_y": 480.92957746478874,
+          "image_pixel_x": 184,
+          "image_pixel_y": 400.1830985915493,
           "is_out_of_bounds": false
         }
       ],
@@ -165112,8 +165112,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6908835049333244,
           "image_normalized_y": 0.7188278251970318,
-          "image_pixel_x": 141.6311185113315,
-          "image_pixel_y": 389.60468125679125,
+          "image_pixel_x": 127.12256490773169,
+          "image_pixel_y": 324.19134916386133,
           "is_out_of_bounds": false
         },
         {
@@ -165127,8 +165127,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6908835049333244,
           "image_normalized_y": 0.7188278251970318,
-          "image_pixel_x": 141.6311185113315,
-          "image_pixel_y": 389.60468125679125,
+          "image_pixel_x": 127.12256490773169,
+          "image_pixel_y": 324.19134916386133,
           "is_out_of_bounds": false
         }
       ],
@@ -165165,8 +165165,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.534482824137931,
           "image_normalized_y": 0.37090220985915495,
-          "image_pixel_x": 109.56897894827586,
-          "image_pixel_y": 201.028997743662,
+          "image_pixel_x": 98.34483964137931,
+          "image_pixel_y": 167.2768966464789,
           "is_out_of_bounds": false
         },
         {
@@ -165183,8 +165183,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.606896551724138,
           "image_normalized_y": 0.4030281394366197,
-          "image_pixel_x": 124.4137931034483,
-          "image_pixel_y": 218.44125157464788,
+          "image_pixel_x": 111.6689655172414,
+          "image_pixel_y": 181.7656908859155,
           "is_out_of_bounds": false
         },
         {
@@ -165201,8 +165201,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.23758620689655172,
           "image_normalized_y": 0.8280958521126761,
-          "image_pixel_x": 48.7051724137931,
-          "image_pixel_y": 448.82795184507046,
+          "image_pixel_x": 43.715862068965514,
+          "image_pixel_y": 373.47122930281694,
           "is_out_of_bounds": false
         }
       ]
@@ -165220,8 +165220,8 @@
       "scene_max_y": 96,
       "scene_width": 80,
       "scene_height": 96,
-      "image_pixel_width": 503,
-      "image_pixel_height": 597,
+      "image_pixel_width": 508,
+      "image_pixel_height": 610,
       "nodes": [
         {
           "id": "bilewater/bilewater-vertical-sac-pogo-room#upper-platform",
@@ -165239,14 +165239,14 @@
           "image_normalized_min_y": 0.04047916666666677,
           "image_normalized_max_x": 0.5943577251434327,
           "image_normalized_max_y": 0.10005208333333337,
-          "image_pixel_x": 177.52127500000003,
-          "image_pixel_y": 24.16606250000006,
-          "image_pixel_width": 121.4406607471466,
-          "image_pixel_height": 35.56503124999996,
-          "image_pixel_min_x": 177.52127500000003,
-          "image_pixel_min_y": 24.16606250000006,
-          "image_pixel_max_x": 298.96193574714664,
-          "image_pixel_max_y": 59.73109375000002
+          "image_pixel_x": 179.28590000000003,
+          "image_pixel_y": 24.69229166666673,
+          "image_pixel_width": 122.64782437286375,
+          "image_pixel_height": 36.33947916666663,
+          "image_pixel_min_x": 179.28590000000003,
+          "image_pixel_min_y": 24.69229166666673,
+          "image_pixel_max_x": 301.93372437286376,
+          "image_pixel_max_y": 61.031770833333354
         },
         {
           "id": "bilewater/bilewater-vertical-sac-pogo-room#low-left-platform",
@@ -165264,14 +165264,14 @@
           "image_normalized_min_y": 0.8742078344027201,
           "image_normalized_max_x": 0.26682932376861573,
           "image_normalized_max_y": 0.9383710473775864,
-          "image_pixel_x": 64.81518726348877,
-          "image_pixel_y": 521.9020771384239,
-          "image_pixel_width": 69.39996259212494,
-          "image_pixel_height": 38.30543814599514,
-          "image_pixel_min_x": 64.81518726348877,
-          "image_pixel_min_y": 521.9020771384239,
-          "image_pixel_max_x": 134.2151498556137,
-          "image_pixel_max_y": 560.2075152844191
+          "image_pixel_x": 65.45947341918945,
+          "image_pixel_y": 533.2667789856592,
+          "image_pixel_width": 70.08982305526733,
+          "image_pixel_height": 39.139559914668396,
+          "image_pixel_min_x": 65.45947341918945,
+          "image_pixel_min_y": 533.2667789856592,
+          "image_pixel_max_x": 135.54929647445678,
+          "image_pixel_max_y": 572.4063389003277
         },
         {
           "id": "bilewater/bilewater-vertical-sac-pogo-room#low-right-door-platform",
@@ -165289,14 +165289,14 @@
           "image_normalized_min_y": 0.8876883288224539,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.9383750000000001,
-          "image_pixel_x": 431.2625281333923,
-          "image_pixel_y": 529.9499323070049,
-          "image_pixel_width": 71.73747186660766,
-          "image_pixel_height": 30.25994269299507,
-          "image_pixel_min_x": 431.2625281333923,
-          "image_pixel_min_y": 529.9499323070049,
-          "image_pixel_max_x": 503,
-          "image_pixel_max_y": 560.209875
+          "image_pixel_x": 435.54943199157714,
+          "image_pixel_y": 541.4898805816969,
+          "image_pixel_width": 72.45056800842285,
+          "image_pixel_height": 30.91886941830317,
+          "image_pixel_min_x": 435.54943199157714,
+          "image_pixel_min_y": 541.4898805816969,
+          "image_pixel_max_x": 508,
+          "image_pixel_max_y": 572.40875
         },
         {
           "id": "bilewater/bilewater-vertical-sac-pogo-room#up-left-door-platform",
@@ -165315,13 +165315,13 @@
           "image_normalized_max_x": 0.43498795833587645,
           "image_normalized_max_y": 0.39901041666666665,
           "image_pixel_x": 0,
-          "image_pixel_y": 190.23778124999995,
-          "image_pixel_width": 218.79894304294587,
-          "image_pixel_height": 47.971437500000036,
+          "image_pixel_y": 194.38031249999995,
+          "image_pixel_width": 220.97388283462524,
+          "image_pixel_height": 49.0160416666667,
           "image_pixel_min_x": 0,
-          "image_pixel_min_y": 190.23778124999995,
-          "image_pixel_max_x": 218.79894304294587,
-          "image_pixel_max_y": 238.20921875
+          "image_pixel_min_y": 194.38031249999995,
+          "image_pixel_max_x": 220.97388283462524,
+          "image_pixel_max_y": 243.39635416666664
         },
         {
           "id": "bilewater/bilewater-vertical-sac-pogo-room#climb-start-wall",
@@ -165339,14 +165339,14 @@
           "image_normalized_min_y": 0.7934373021125793,
           "image_normalized_max_x": 0.8573750000000001,
           "image_normalized_max_y": 0.9653352648019791,
-          "image_pixel_x": 386.37088527679447,
-          "image_pixel_y": 473.68206936120987,
-          "image_pixel_width": 44.88873972320558,
-          "image_pixel_height": 102.62308372557163,
-          "image_pixel_min_x": 386.37088527679447,
-          "image_pixel_min_y": 473.68206936120987,
-          "image_pixel_max_x": 431.259625,
-          "image_pixel_max_y": 576.3051530867815
+          "image_pixel_x": 390.2115501403809,
+          "image_pixel_y": 483.9967542886734,
+          "image_pixel_width": 45.33494985961916,
+          "image_pixel_height": 104.85775724053383,
+          "image_pixel_min_x": 390.2115501403809,
+          "image_pixel_min_y": 483.9967542886734,
+          "image_pixel_max_x": 435.54650000000004,
+          "image_pixel_max_y": 588.8545115292072
         }
       ],
       "transitions": [
@@ -165367,7 +165367,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 0.3645833333333333,
           "image_pixel_x": 0,
-          "image_pixel_y": 217.65625,
+          "image_pixel_y": 222.39583333333331,
           "is_out_of_bounds": false
         },
         {
@@ -165386,8 +165386,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.56875,
           "image_normalized_y": 0.08333333333333333,
-          "image_pixel_x": 286.08125,
-          "image_pixel_y": 49.75,
+          "image_pixel_x": 288.925,
+          "image_pixel_y": 50.83333333333333,
           "is_out_of_bounds": false
         },
         {
@@ -165406,8 +165406,8 @@
           "in_game_z": 0,
           "image_normalized_x": 1,
           "image_normalized_y": 0.8958333333333334,
-          "image_pixel_x": 503,
-          "image_pixel_y": 534.8125,
+          "image_pixel_x": 508,
+          "image_pixel_y": 546.4583333333334,
           "is_out_of_bounds": false
         },
         {
@@ -165427,7 +165427,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 0.6666666666666666,
           "image_pixel_x": 0,
-          "image_pixel_y": 398,
+          "image_pixel_y": 406.66666666666663,
           "is_out_of_bounds": false
         }
       ],
@@ -165443,8 +165443,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.5133010864257812,
           "image_normalized_y": 0.9005248546600342,
-          "image_pixel_x": 258.19044647216793,
-          "image_pixel_y": 537.6133382320404,
+          "image_pixel_x": 260.75695190429684,
+          "image_pixel_y": 549.3201613426208,
           "is_out_of_bounds": false
         },
         {
@@ -165458,8 +165458,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.5133010864257812,
           "image_normalized_y": 0.9005248546600342,
-          "image_pixel_x": 258.19044647216793,
-          "image_pixel_y": 537.6133382320404,
+          "image_pixel_x": 260.75695190429684,
+          "image_pixel_y": 549.3201613426208,
           "is_out_of_bounds": false
         },
         {
@@ -165473,8 +165473,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8822759628295899,
           "image_normalized_y": 0.9784145653247833,
-          "image_pixel_x": 443.7848093032837,
-          "image_pixel_y": 584.1134954988956,
+          "image_pixel_x": 448.19618911743163,
+          "image_pixel_y": 596.8328848481178,
           "is_out_of_bounds": false
         },
         {
@@ -165488,8 +165488,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8822759628295899,
           "image_normalized_y": 0.9784145653247833,
-          "image_pixel_x": 443.7848093032837,
-          "image_pixel_y": 584.1134954988956,
+          "image_pixel_x": 448.19618911743163,
+          "image_pixel_y": 596.8328848481178,
           "is_out_of_bounds": false
         },
         {
@@ -165503,8 +165503,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.5498773574829101,
           "image_normalized_y": 0.5315084060033163,
-          "image_pixel_x": 276.5883108139038,
-          "image_pixel_y": 317.3105183839798,
+          "image_pixel_x": 279.3376976013183,
+          "image_pixel_y": 324.22012766202295,
           "is_out_of_bounds": false
         },
         {
@@ -165518,8 +165518,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.5498773574829101,
           "image_normalized_y": 0.5315084060033163,
-          "image_pixel_x": 276.5883108139038,
-          "image_pixel_y": 317.3105183839798,
+          "image_pixel_x": 279.3376976013183,
+          "image_pixel_y": 324.22012766202295,
           "is_out_of_bounds": false
         },
         {
@@ -165533,8 +165533,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.387497615814209,
           "image_normalized_y": 0.7376498579978943,
-          "image_pixel_x": 194.9113007545471,
-          "image_pixel_y": 440.3769652247429,
+          "image_pixel_x": 196.84878883361816,
+          "image_pixel_y": 449.9664133787155,
           "is_out_of_bounds": false
         },
         {
@@ -165548,8 +165548,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.3847174644470215,
           "image_normalized_y": 0.24175413449605307,
-          "image_pixel_x": 193.5128846168518,
-          "image_pixel_y": 144.32721829414368,
+          "image_pixel_x": 195.4364719390869,
+          "image_pixel_y": 147.47002204259238,
           "is_out_of_bounds": false
         },
         {
@@ -165563,8 +165563,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.3847174644470215,
           "image_normalized_y": 0.24175413449605307,
-          "image_pixel_x": 193.5128846168518,
-          "image_pixel_y": 144.32721829414368,
+          "image_pixel_x": 195.4364719390869,
+          "image_pixel_y": 147.47002204259238,
           "is_out_of_bounds": false
         }
       ],
@@ -165637,8 +165637,8 @@
           "in_game_z": 0.00634401757,
           "image_normalized_x": 0.47096481375000004,
           "image_normalized_y": 0.6770585979166667,
-          "image_pixel_x": 236.89530131625003,
-          "image_pixel_y": 404.20398295625,
+          "image_pixel_x": 239.25012538500002,
+          "image_pixel_y": 413.0057447291667,
           "is_out_of_bounds": false
         },
         {
@@ -165655,8 +165655,8 @@
           "in_game_z": 0.006619578,
           "image_normalized_x": 0.407467,
           "image_normalized_y": 0.36869120625,
-          "image_pixel_x": 204.955901,
-          "image_pixel_y": 220.10865013125002,
+          "image_pixel_x": 206.99323600000002,
+          "image_pixel_y": 224.90163581250002,
           "is_out_of_bounds": false
         },
         {
@@ -165673,8 +165673,8 @@
           "in_game_z": 0.00641015451,
           "image_normalized_x": 0.29554982125,
           "image_normalized_y": 0.7603125,
-          "image_pixel_x": 148.66156008875,
-          "image_pixel_y": 453.90656249999995,
+          "image_pixel_x": 150.139309195,
+          "image_pixel_y": 463.790625,
           "is_out_of_bounds": false
         }
       ]
@@ -165852,8 +165852,8 @@
       "scene_max_y": 68,
       "scene_width": 177,
       "scene_height": 68,
-      "image_pixel_width": 1099,
-      "image_pixel_height": 315,
+      "image_pixel_width": 1124,
+      "image_pixel_height": 432,
       "nodes": [
         {
           "id": "bilewater/bilewater-weavenest-murglin#low-hall",
@@ -165871,14 +165871,14 @@
           "image_normalized_min_y": 0.47950000000000004,
           "image_normalized_max_x": 0.7338748699985655,
           "image_normalized_max_y": 0.5879852941176471,
-          "image_pixel_x": 339.63446327683613,
-          "image_pixel_y": 151.04250000000002,
-          "image_pixel_width": 466.8940188515875,
-          "image_pixel_height": 34.172867647058816,
-          "image_pixel_min_x": 339.63446327683613,
-          "image_pixel_min_y": 151.04250000000002,
-          "image_pixel_max_x": 806.5284821284235,
-          "image_pixel_max_y": 185.21536764705883
+          "image_pixel_x": 347.3604519774011,
+          "image_pixel_y": 207.144,
+          "image_pixel_width": 477.5149019009866,
+          "image_pixel_height": 46.86564705882352,
+          "image_pixel_min_x": 347.3604519774011,
+          "image_pixel_min_y": 207.144,
+          "image_pixel_max_x": 824.8753538783877,
+          "image_pixel_max_y": 254.00964705882353
         },
         {
           "id": "bilewater/bilewater-weavenest-murglin#left-hall",
@@ -165896,14 +165896,14 @@
           "image_normalized_min_y": 0.1400582369636087,
           "image_normalized_max_x": 0.3090395480225989,
           "image_normalized_max_y": 0.28353511585908775,
-          "image_pixel_x": 48.56326748152911,
-          "image_pixel_y": 44.11834464353674,
-          "image_pixel_width": 291.0711957953071,
-          "image_pixel_height": 45.19521685207591,
-          "image_pixel_min_x": 48.56326748152911,
-          "image_pixel_min_y": 44.11834464353674,
-          "image_pixel_max_x": 339.63446327683624,
-          "image_pixel_max_y": 89.31356149561265
+          "image_pixel_x": 49.66798239239191,
+          "image_pixel_y": 60.505158368278956,
+          "image_pixel_width": 297.69246958500923,
+          "image_pixel_height": 61.98201168284697,
+          "image_pixel_min_x": 49.66798239239191,
+          "image_pixel_min_y": 60.505158368278956,
+          "image_pixel_max_x": 347.36045197740117,
+          "image_pixel_max_y": 122.48717005112593
         },
         {
           "id": "bilewater/bilewater-weavenest-murglin#tool-room",
@@ -165921,14 +165921,14 @@
           "image_normalized_min_y": 0.1400588235294118,
           "image_normalized_max_x": 0.7908460669221178,
           "image_normalized_max_y": 0.2835294117647059,
-          "image_pixel_x": 383.9607966101695,
-          "image_pixel_y": 44.11852941176471,
-          "image_pixel_width": 485.17903093723794,
-          "image_pixel_height": 45.19323529411765,
-          "image_pixel_min_x": 383.9607966101695,
-          "image_pixel_min_y": 44.11852941176471,
-          "image_pixel_max_x": 869.1398275474074,
-          "image_pixel_max_y": 89.31176470588235
+          "image_pixel_x": 392.6951186440678,
+          "image_pixel_y": 60.5054117647059,
+          "image_pixel_width": 496.21586057639263,
+          "image_pixel_height": 61.979294117647065,
+          "image_pixel_min_x": 392.6951186440678,
+          "image_pixel_min_y": 60.5054117647059,
+          "image_pixel_max_x": 888.9109792204604,
+          "image_pixel_max_y": 122.48470588235296
         },
         {
           "id": "bilewater/bilewater-weavenest-murglin#waterfall",
@@ -165946,14 +165946,14 @@
           "image_normalized_min_y": 0.1400588235294118,
           "image_normalized_max_x": 1,
           "image_normalized_max_y": 0.6579746919519761,
-          "image_pixel_x": 996.2859476380429,
-          "image_pixel_y": 44.11852941176471,
-          "image_pixel_width": 102.71405236195709,
-          "image_pixel_height": 163.14349855310775,
-          "image_pixel_min_x": 996.2859476380429,
-          "image_pixel_min_y": 44.11852941176471,
-          "image_pixel_max_x": 1099,
-          "image_pixel_max_y": 207.26202796487246
+          "image_pixel_x": 1018.9494132349047,
+          "image_pixel_y": 60.5054117647059,
+          "image_pixel_width": 105.05058676509533,
+          "image_pixel_height": 223.73965515854778,
+          "image_pixel_min_x": 1018.9494132349047,
+          "image_pixel_min_y": 60.5054117647059,
+          "image_pixel_max_x": 1124,
+          "image_pixel_max_y": 284.24506692325366
         }
       ],
       "transitions": [
@@ -165974,7 +165974,7 @@
           "image_normalized_x": 0,
           "image_normalized_y": 0.16176470588235295,
           "image_pixel_x": 0,
-          "image_pixel_y": 50.95588235294118,
+          "image_pixel_y": 69.88235294117648,
           "is_out_of_bounds": false
         }
       ],
@@ -165990,8 +165990,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.2181976232151527,
           "image_normalized_y": 0.5074989655438591,
-          "image_pixel_x": 239.79918791345284,
-          "image_pixel_y": 159.86217414631562,
+          "image_pixel_x": 245.25412849383164,
+          "image_pixel_y": 219.2395531149471,
           "is_out_of_bounds": false
         },
         {
@@ -166005,8 +166005,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.2181976232151527,
           "image_normalized_y": 0.5074989655438591,
-          "image_pixel_x": 239.79918791345284,
-          "image_pixel_y": 159.86217414631562,
+          "image_pixel_x": 245.25412849383164,
+          "image_pixel_y": 219.2395531149471,
           "is_out_of_bounds": false
         },
         {
@@ -166020,8 +166020,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6219224660410045,
           "image_normalized_y": 0.39572564293356505,
-          "image_pixel_x": 683.492790179064,
-          "image_pixel_y": 124.65357752407299,
+          "image_pixel_x": 699.0408518300891,
+          "image_pixel_y": 170.9534777473001,
           "is_out_of_bounds": false
         },
         {
@@ -166035,8 +166035,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6219224660410045,
           "image_normalized_y": 0.39572564293356505,
-          "image_pixel_x": 683.492790179064,
-          "image_pixel_y": 124.65357752407299,
+          "image_pixel_x": 699.0408518300891,
+          "image_pixel_y": 170.9534777473001,
           "is_out_of_bounds": false
         },
         {
@@ -166050,8 +166050,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8550161587989936,
           "image_normalized_y": 0.20920467376708984,
-          "image_pixel_x": 939.662758520094,
-          "image_pixel_y": 65.8994722366333,
+          "image_pixel_x": 961.0381624900689,
+          "image_pixel_y": 90.37641906738281,
           "is_out_of_bounds": false
         },
         {
@@ -166065,8 +166065,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8550161587989936,
           "image_normalized_y": 0.20920467376708984,
-          "image_pixel_x": 939.662758520094,
-          "image_pixel_y": 65.8994722366333,
+          "image_pixel_x": 961.0381624900689,
+          "image_pixel_y": 90.37641906738281,
           "is_out_of_bounds": false
         }
       ],
@@ -166085,8 +166085,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.4330056497175141,
           "image_normalized_y": 0.19739705882352943,
-          "image_pixel_x": 475.873209039548,
-          "image_pixel_y": 62.18007352941177,
+          "image_pixel_x": 486.6983502824858,
+          "image_pixel_y": 85.27552941176471,
           "is_out_of_bounds": false
         },
         {
@@ -166139,8 +166139,8 @@
           "in_game_z": 0.002064111,
           "image_normalized_x": 0.16203389830508474,
           "image_normalized_y": 0.1295588235294118,
-          "image_pixel_x": 178.07525423728814,
-          "image_pixel_y": 40.81102941176472,
+          "image_pixel_x": 182.12610169491526,
+          "image_pixel_y": 55.9694117647059,
           "is_out_of_bounds": false
         },
         {
@@ -166157,8 +166157,8 @@
           "in_game_z": 0.006,
           "image_normalized_x": 0.7017514124293784,
           "image_normalized_y": 0.46035294117647063,
-          "image_pixel_x": 771.2248022598869,
-          "image_pixel_y": 145.01117647058825,
+          "image_pixel_x": 788.7685875706213,
+          "image_pixel_y": 198.8724705882353,
           "is_out_of_bounds": false
         },
         {
@@ -166175,8 +166175,8 @@
           "in_game_z": 0.00282931444,
           "image_normalized_x": 0.4417585875706215,
           "image_normalized_y": 0.39304382352941175,
-          "image_pixel_x": 485.492687740113,
-          "image_pixel_y": 123.8088044117647,
+          "image_pixel_x": 496.53665242937853,
+          "image_pixel_y": 169.79493176470586,
           "is_out_of_bounds": false
         }
       ]
@@ -166188,114 +166188,114 @@
       "room_group_name": "Bilewater",
       "in_game_id": "Shadow_04b",
       "is_metadata_only": false,
-      "scene_min_x": 0,
-      "scene_min_y": 0,
+      "scene_min_x": 54,
+      "scene_min_y": 42,
       "scene_max_x": 185,
       "scene_max_y": 74,
-      "scene_width": 185,
-      "scene_height": 74,
-      "image_pixel_width": 679,
-      "image_pixel_height": 210,
+      "scene_width": 131,
+      "scene_height": 32,
+      "image_pixel_width": 832,
+      "image_pixel_height": 203,
       "nodes": [
         {
           "id": "bilewater/bilewater-west-hall#left",
           "name": "left",
-          "annotation_x": 0,
-          "annotation_y": 47.449,
-          "annotation_width": 23.44368572998047,
-          "annotation_height": 19.302000000000007,
+          "annotation_x": 54,
+          "annotation_y": 64.07905065917969,
+          "annotation_width": 22.659847457885746,
+          "annotation_height": 9.920949340820314,
           "annotation_enabled": true,
           "image_normalized_x": 0,
-          "image_normalized_y": 0.0979594594594594,
-          "image_normalized_width": 0.126722625567462,
-          "image_normalized_height": 0.2608378378378379,
+          "image_normalized_y": 0,
+          "image_normalized_width": 0.17297593479302095,
+          "image_normalized_height": 0.3100296669006348,
           "image_normalized_min_x": 0,
-          "image_normalized_min_y": 0.0979594594594594,
-          "image_normalized_max_x": 0.126722625567462,
-          "image_normalized_max_y": 0.3587972972972973,
+          "image_normalized_min_y": 0,
+          "image_normalized_max_x": 0.17297593479302095,
+          "image_normalized_max_y": 0.3100296669006348,
           "image_pixel_x": 0,
-          "image_pixel_y": 20.571486486486474,
-          "image_pixel_width": 86.0446627603067,
-          "image_pixel_height": 54.77594594594596,
+          "image_pixel_y": 0,
+          "image_pixel_width": 143.91597774779342,
+          "image_pixel_height": 62.93602238082887,
           "image_pixel_min_x": 0,
-          "image_pixel_min_y": 20.571486486486474,
-          "image_pixel_max_x": 86.0446627603067,
-          "image_pixel_max_y": 75.34743243243244
+          "image_pixel_min_y": 0,
+          "image_pixel_max_x": 143.91597774779342,
+          "image_pixel_max_y": 62.93602238082887
         },
         {
           "id": "bilewater/bilewater-west-hall#right",
           "name": "right",
           "annotation_x": 171.605,
-          "annotation_y": 21.469,
+          "annotation_y": 50.06158590698242,
           "annotation_width": 13.39500000000001,
-          "annotation_height": 28.59258590698242,
+          "annotation_height": 9.545559539794922,
           "annotation_enabled": true,
-          "image_normalized_x": 0.9275945945945946,
-          "image_normalized_y": 0.32349208233807536,
-          "image_normalized_width": 0.07240540540540547,
-          "image_normalized_height": 0.386386296040303,
-          "image_normalized_min_x": 0.9275945945945946,
-          "image_normalized_min_y": 0.32349208233807536,
+          "image_normalized_x": 0.8977480916030534,
+          "image_normalized_y": 0.44977670478820797,
+          "image_normalized_width": 0.10225190839694664,
+          "image_normalized_height": 0.2982987356185913,
+          "image_normalized_min_x": 0.8977480916030534,
+          "image_normalized_min_y": 0.44977670478820797,
           "image_normalized_max_x": 1,
-          "image_normalized_max_y": 0.7098783783783784,
-          "image_pixel_x": 629.8367297297298,
-          "image_pixel_y": 67.93333729099582,
-          "image_pixel_width": 49.16327027027031,
-          "image_pixel_height": 81.14112216846362,
-          "image_pixel_min_x": 629.8367297297298,
-          "image_pixel_min_y": 67.93333729099582,
-          "image_pixel_max_x": 679.0000000000001,
-          "image_pixel_max_y": 149.07445945945943
+          "image_normalized_max_y": 0.7480754404067993,
+          "image_pixel_x": 746.9264122137404,
+          "image_pixel_y": 91.30467107200622,
+          "image_pixel_width": 85.07358778625961,
+          "image_pixel_height": 60.55464333057404,
+          "image_pixel_min_x": 746.9264122137404,
+          "image_pixel_min_y": 91.30467107200622,
+          "image_pixel_max_x": 832,
+          "image_pixel_max_y": 151.85931440258025
         },
         {
           "id": "bilewater/bilewater-west-hall#mid-left",
           "name": "mid left",
-          "annotation_x": 34.10166931152344,
-          "annotation_y": 37.52939987182617,
-          "annotation_width": 27.224838256835938,
-          "annotation_height": 12.53218603515625,
+          "annotation_x": 86.33959579467773,
+          "annotation_y": 59.607145446777345,
+          "annotation_width": 21.35540771484375,
+          "annotation_height": 7.14385455322266,
           "annotation_enabled": true,
-          "image_normalized_x": 0.18433334762985643,
-          "image_normalized_y": 0.32349208233807536,
-          "image_normalized_width": 0.14716128787478885,
-          "image_normalized_height": 0.16935386533994934,
-          "image_normalized_min_x": 0.18433334762985643,
-          "image_normalized_min_y": 0.32349208233807536,
-          "image_normalized_max_x": 0.3314946355046453,
-          "image_normalized_max_y": 0.4928459476780247,
-          "image_pixel_x": 125.16234304067251,
-          "image_pixel_y": 67.93333729099582,
-          "image_pixel_width": 99.92251446698164,
-          "image_pixel_height": 35.56431172138936,
-          "image_pixel_min_x": 125.16234304067251,
-          "image_pixel_min_y": 67.93333729099582,
-          "image_pixel_max_x": 225.08485750765414,
-          "image_pixel_max_y": 103.49764901238518
+          "image_normalized_x": 0.2468671434708224,
+          "image_normalized_y": 0.22653124999999985,
+          "image_normalized_width": 0.16301837950262404,
+          "image_normalized_height": 0.22324545478820812,
+          "image_normalized_min_x": 0.2468671434708224,
+          "image_normalized_min_y": 0.22653124999999985,
+          "image_normalized_max_x": 0.40988552297344644,
+          "image_normalized_max_y": 0.44977670478820797,
+          "image_pixel_x": 205.39346336772422,
+          "image_pixel_y": 45.98584374999997,
+          "image_pixel_width": 135.6312917461832,
+          "image_pixel_height": 45.31882732200625,
+          "image_pixel_min_x": 205.39346336772422,
+          "image_pixel_min_y": 45.98584374999997,
+          "image_pixel_max_x": 341.0247551139074,
+          "image_pixel_max_y": 91.30467107200622
         },
         {
           "id": "bilewater/bilewater-west-hall#mid-right",
           "name": "mid right",
-          "annotation_x": 94.32630920410156,
-          "annotation_y": 12.779548645019531,
-          "annotation_width": 58.57466125488281,
-          "annotation_height": 8.68945135498047,
+          "annotation_x": 122.36907196044922,
+          "annotation_y": 50.06158590698242,
+          "annotation_width": 34.177467346191406,
+          "annotation_height": 9.545559539794922,
           "annotation_enabled": true,
-          "image_normalized_x": 0.5098719416437922,
-          "image_normalized_y": 0.7098783783783784,
-          "image_normalized_width": 0.3166197905669341,
-          "image_normalized_height": 0.11742501831054689,
-          "image_normalized_min_x": 0.5098719416437922,
-          "image_normalized_min_y": 0.7098783783783784,
-          "image_normalized_max_x": 0.8264917322107264,
-          "image_normalized_max_y": 0.8273033966889253,
-          "image_pixel_x": 346.2030483761349,
-          "image_pixel_y": 149.07445945945946,
-          "image_pixel_width": 214.98483779494828,
-          "image_pixel_height": 24.659253845214845,
-          "image_pixel_min_x": 346.2030483761349,
-          "image_pixel_min_y": 149.07445945945946,
-          "image_pixel_max_x": 561.1878861710832,
-          "image_pixel_max_y": 173.7337133046743
+          "image_normalized_x": 0.5219013126751849,
+          "image_normalized_y": 0.44977670478820797,
+          "image_normalized_width": 0.26089669729917103,
+          "image_normalized_height": 0.2982987356185913,
+          "image_normalized_min_x": 0.5219013126751849,
+          "image_normalized_min_y": 0.44977670478820797,
+          "image_normalized_max_x": 0.7827980099743559,
+          "image_normalized_max_y": 0.7480754404067993,
+          "image_pixel_x": 434.2218921457538,
+          "image_pixel_y": 91.30467107200622,
+          "image_pixel_width": 217.0660521529103,
+          "image_pixel_height": 60.55464333057404,
+          "image_pixel_min_x": 434.2218921457538,
+          "image_pixel_min_y": 91.30467107200622,
+          "image_pixel_max_x": 651.2879442986641,
+          "image_pixel_max_y": 151.85931440258025
         }
       ],
       "transitions": [
@@ -166307,16 +166307,16 @@
           "is_unsafe_arrival": false,
           "source_node_id": "bilewater/bilewater-west-hall#left",
           "target": "bilewater/bilewater-organ-entrance@ur",
-          "annotation_x": 1.909515142440796,
-          "annotation_y": 53.18309783935547,
+          "annotation_x": 61.5,
+          "annotation_y": 68,
           "annotation_enabled": true,
           "in_game_x": 61.5,
           "in_game_y": 68,
           "in_game_z": 0,
-          "image_normalized_x": 0.3324324324324324,
-          "image_normalized_y": 0.08108108108108109,
-          "image_pixel_x": 225.7216216216216,
-          "image_pixel_y": 17.027027027027028,
+          "image_normalized_x": 0.05725190839694656,
+          "image_normalized_y": 0.1875,
+          "image_pixel_x": 47.63358778625954,
+          "image_pixel_y": 38.0625,
           "is_out_of_bounds": false
         },
         {
@@ -166327,16 +166327,16 @@
           "is_unsafe_arrival": false,
           "source_node_id": "bilewater/bilewater-west-hall#right",
           "target": "bilewater/bilewater-lower-bloatroach-tower@ll",
-          "annotation_x": 183.49794006347656,
-          "annotation_y": 31.084087371826172,
+          "annotation_x": 185.5,
+          "annotation_y": 58,
           "annotation_enabled": true,
           "in_game_x": 185.5,
           "in_game_y": 58,
           "in_game_z": 0,
           "image_normalized_x": 1,
-          "image_normalized_y": 0.21621621621621623,
-          "image_pixel_x": 679,
-          "image_pixel_y": 45.40540540540541,
+          "image_normalized_y": 0.5,
+          "image_pixel_x": 832,
+          "image_pixel_y": 101.5,
           "is_out_of_bounds": false
         }
       ],
@@ -166347,13 +166347,13 @@
           "name": "left to mid left",
           "source_node_id": "bilewater/bilewater-west-hall#left",
           "target_node_id": "bilewater/bilewater-west-hall#mid-left",
-          "annotation_x": 41.213924407958984,
-          "annotation_y": 63.89765167236328,
+          "annotation_x": 83.78948211669922,
+          "annotation_y": 71.60848236083984,
           "annotation_enabled": true,
-          "image_normalized_x": 0.22277796977275127,
-          "image_normalized_y": 0.13651822064373945,
-          "image_pixel_x": 151.2662414756981,
-          "image_pixel_y": 28.668826335185283,
+          "image_normalized_x": 0.2274006268450322,
+          "image_normalized_y": 0.07473492622375488,
+          "image_pixel_x": 189.1973215350668,
+          "image_pixel_y": 15.171190023422241,
           "is_out_of_bounds": false
         },
         {
@@ -166362,13 +166362,13 @@
           "name": "left to mid left",
           "source_node_id": "bilewater/bilewater-west-hall#mid-left",
           "target_node_id": "bilewater/bilewater-west-hall#left",
-          "annotation_x": 41.213924407958984,
-          "annotation_y": 63.89765167236328,
+          "annotation_x": 83.78948211669922,
+          "annotation_y": 71.60848236083984,
           "annotation_enabled": true,
-          "image_normalized_x": 0.22277796977275127,
-          "image_normalized_y": 0.13651822064373945,
-          "image_pixel_x": 151.2662414756981,
-          "image_pixel_y": 28.668826335185283,
+          "image_normalized_x": 0.2274006268450322,
+          "image_normalized_y": 0.07473492622375488,
+          "image_pixel_x": 189.1973215350668,
+          "image_pixel_y": 15.171190023422241,
           "is_out_of_bounds": false
         },
         {
@@ -166377,13 +166377,13 @@
           "name": "mid left to mid right",
           "source_node_id": "bilewater/bilewater-west-hall#mid-left",
           "target_node_id": "bilewater/bilewater-west-hall#mid-right",
-          "annotation_x": 62.9975700378418,
-          "annotation_y": 19.627660751342773,
+          "annotation_x": 109.21987915039062,
+          "annotation_y": 49.79689025878906,
           "annotation_enabled": true,
-          "image_normalized_x": 0.34052740560995565,
-          "image_normalized_y": 0.7347613411980707,
-          "image_pixel_x": 231.2181084091599,
-          "image_pixel_y": 154.29988165159483,
+          "image_normalized_x": 0.4215257950411498,
+          "image_normalized_y": 0.7563471794128418,
+          "image_pixel_x": 350.7094614742366,
+          "image_pixel_y": 153.53847742080688,
           "is_out_of_bounds": false
         },
         {
@@ -166392,13 +166392,13 @@
           "name": "mid left to mid right",
           "source_node_id": "bilewater/bilewater-west-hall#mid-right",
           "target_node_id": "bilewater/bilewater-west-hall#mid-left",
-          "annotation_x": 62.9975700378418,
-          "annotation_y": 19.627660751342773,
+          "annotation_x": 109.21987915039062,
+          "annotation_y": 49.79689025878906,
           "annotation_enabled": true,
-          "image_normalized_x": 0.34052740560995565,
-          "image_normalized_y": 0.7347613411980707,
-          "image_pixel_x": 231.2181084091599,
-          "image_pixel_y": 154.29988165159483,
+          "image_normalized_x": 0.4215257950411498,
+          "image_normalized_y": 0.7563471794128418,
+          "image_pixel_x": 350.7094614742366,
+          "image_pixel_y": 153.53847742080688,
           "is_out_of_bounds": false
         },
         {
@@ -166407,13 +166407,13 @@
           "name": "right to mid",
           "source_node_id": "bilewater/bilewater-west-hall#mid-right",
           "target_node_id": "bilewater/bilewater-west-hall#right",
-          "annotation_x": 170.51040649414062,
-          "annotation_y": 10.726805686950684,
+          "annotation_x": 162.99462890625,
+          "annotation_y": 46.845001220703125,
           "annotation_enabled": true,
-          "image_normalized_x": 0.9216778729413007,
-          "image_normalized_y": 0.8550431663925583,
-          "image_pixel_x": 625.8192757271431,
-          "image_pixel_y": 179.55906494243723,
+          "image_normalized_x": 0.8320200679866412,
+          "image_normalized_y": 0.8485937118530273,
+          "image_pixel_x": 692.2406965648854,
+          "image_pixel_y": 172.26452350616455,
           "is_out_of_bounds": false
         },
         {
@@ -166422,13 +166422,13 @@
           "name": "right to mid",
           "source_node_id": "bilewater/bilewater-west-hall#right",
           "target_node_id": "bilewater/bilewater-west-hall#mid-right",
-          "annotation_x": 170.51040649414062,
-          "annotation_y": 10.726805686950684,
+          "annotation_x": 162.99462890625,
+          "annotation_y": 46.845001220703125,
           "annotation_enabled": true,
-          "image_normalized_x": 0.9216778729413007,
-          "image_normalized_y": 0.8550431663925583,
-          "image_pixel_x": 625.8192757271431,
-          "image_pixel_y": 179.55906494243723,
+          "image_normalized_x": 0.8320200679866412,
+          "image_normalized_y": 0.8485937118530273,
+          "image_pixel_x": 692.2406965648854,
+          "image_pixel_y": 172.26452350616455,
           "is_out_of_bounds": false
         }
       ],
@@ -166439,16 +166439,16 @@
           "in_game_id": "Swamp Mosquito",
           "location_type": "enemy",
           "node_id": "bilewater/bilewater-west-hall#mid-right",
-          "annotation_x": 108.43898010253906,
-          "annotation_y": 19.39342498779297,
+          "annotation_x": 111.96,
+          "annotation_y": 60.89,
           "annotation_enabled": true,
           "in_game_x": 111.96,
           "in_game_y": 60.89,
           "in_game_z": 0,
-          "image_normalized_x": 0.6051891891891892,
-          "image_normalized_y": 0.17716216216216216,
-          "image_pixel_x": 410.9234594594595,
-          "image_pixel_y": 37.204054054054055,
+          "image_normalized_x": 0.442442748091603,
+          "image_normalized_y": 0.4096875,
+          "image_pixel_x": 368.1123664122137,
+          "image_pixel_y": 83.1665625,
           "is_out_of_bounds": false
         },
         {
@@ -166457,16 +166457,16 @@
           "in_game_id": "Swamp Mosquito (1)",
           "location_type": "enemy",
           "node_id": "bilewater/bilewater-west-hall#right",
-          "annotation_x": 161.63636779785156,
-          "annotation_y": 34.54411315917969,
+          "annotation_x": 164.89,
+          "annotation_y": 58.33,
           "annotation_enabled": true,
           "in_game_x": 164.89,
           "in_game_y": 58.33,
           "in_game_z": 0,
-          "image_normalized_x": 0.8912972972972972,
-          "image_normalized_y": 0.2117567567567568,
-          "image_pixel_x": 605.1908648648648,
-          "image_pixel_y": 44.468918918918924,
+          "image_normalized_x": 0.8464885496183205,
+          "image_normalized_y": 0.48968750000000005,
+          "image_pixel_x": 704.2784732824427,
+          "image_pixel_y": 99.4065625,
           "is_out_of_bounds": false
         },
         {
@@ -166475,8 +166475,8 @@
           "in_game_id": "Swamp Muckman",
           "location_type": "enemy",
           "node_id": "bilewater/bilewater-west-hall#mid-right",
-          "annotation_x": 120.70838165283203,
-          "annotation_y": 18.450870513916016,
+          "annotation_x": -42.3,
+          "annotation_y": 30.4,
           "annotation_enabled": true,
           "in_game_x": -42.3,
           "in_game_y": 30.4,
@@ -166493,16 +166493,16 @@
           "in_game_id": "Swamp Mosquito",
           "location_type": "enemy",
           "node_id": "bilewater/bilewater-west-hall#mid-right",
-          "annotation_x": 108.43898010253906,
-          "annotation_y": 17.519561767578125,
+          "annotation_x": 115.385628,
+          "annotation_y": 63.6173248,
           "annotation_enabled": true,
           "in_game_x": 115.385628,
           "in_game_y": 63.6173248,
           "in_game_z": 0.006787793,
-          "image_normalized_x": 0.6237060972972973,
-          "image_normalized_y": 0.14030642162162163,
-          "image_pixel_x": 423.4964400648649,
-          "image_pixel_y": 29.46434854054054,
+          "image_normalized_x": 0.46859258015267174,
+          "image_normalized_y": 0.32445860000000004,
+          "image_pixel_x": 389.8690266870229,
+          "image_pixel_y": 65.8650958,
           "is_out_of_bounds": false
         },
         {
@@ -166511,16 +166511,16 @@
           "in_game_id": "Swamp Mosquito (1)",
           "location_type": "enemy",
           "node_id": "bilewater/bilewater-west-hall#right",
-          "annotation_x": 158.76170349121094,
-          "annotation_y": 33.925697326660156,
+          "annotation_x": 125.703896,
+          "annotation_y": 61.670002,
           "annotation_enabled": true,
           "in_game_x": 125.703896,
           "in_game_y": 61.670002,
           "in_game_z": 0.006538441,
-          "image_normalized_x": 0.6794805189189189,
-          "image_normalized_y": 0.16662159459459464,
-          "image_pixel_x": 461.36727234594593,
-          "image_pixel_y": 34.99053486486488,
+          "image_normalized_x": 0.5473579847328244,
+          "image_normalized_y": 0.3853124375000001,
+          "image_pixel_x": 455.4018432977099,
+          "image_pixel_y": 78.21842481250002,
           "is_out_of_bounds": false
         },
         {
@@ -166529,16 +166529,16 @@
           "in_game_id": "Swamp Muckman",
           "location_type": "enemy",
           "node_id": "bilewater/bilewater-west-hall#mid-right",
-          "annotation_x": 123.03620147705078,
-          "annotation_y": 17.191726684570312,
+          "annotation_x": 97.46,
+          "annotation_y": 62.22,
           "annotation_enabled": true,
           "in_game_x": 97.46,
           "in_game_y": 62.22,
           "in_game_z": 0.006580922,
-          "image_normalized_x": 0.5268108108108108,
-          "image_normalized_y": 0.1591891891891892,
-          "image_pixel_x": 357.70454054054056,
-          "image_pixel_y": 33.42972972972973,
+          "image_normalized_x": 0.3317557251908396,
+          "image_normalized_y": 0.36812500000000004,
+          "image_pixel_x": 276.0207633587786,
+          "image_pixel_y": 74.729375,
           "is_out_of_bounds": false
         }
       ]
@@ -166961,8 +166961,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/memory-locket-annoyingly-nearby-the-twisted-chud",
-          "name": "Memory Locket Annoyingly Nearby the Twisted Chud",
+          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/bilewater-memory-locket-annoyingly-nearby-the-twisted-chud",
+          "name": "Bilewater - Memory Locket Annoyingly Nearby the Twisted Chud",
           "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "node_id": "bilewater/bilewater-west-secret-rooms#bottom-floor",
@@ -166979,8 +166979,8 @@
           "is_out_of_bounds": false
         },
         {
-          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/first-quick-rosaries-in-the-western-bilewater-rooms",
-          "name": "First Quick Rosaries In The Western Bilewater Rooms",
+          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/bilewater-first-quick-rosaries-in-the-western-bilewater-rooms",
+          "name": "Bilewater - First Quick Rosaries In The Western Bilewater Rooms",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "bilewater/bilewater-west-secret-rooms#bottom-floor",
@@ -166997,8 +166997,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/other-quick-rosaries-in-the-western-bilewater-rooms",
-          "name": "Other Quick Rosaries In The Western Bilewater Rooms",
+          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/bilewater-other-quick-rosaries-in-the-western-bilewater-rooms",
+          "name": "Bilewater - Other Quick Rosaries In The Western Bilewater Rooms",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "bilewater/bilewater-west-secret-rooms#bottom-floor",
@@ -167628,8 +167628,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/exhaust-organ-exterior::collectible/flea-is-tired-of-organ-music",
-          "name": "Flea Is Tired Of Organ Music",
+          "id": "location:bilewater/exhaust-organ-exterior::collectible/exhaust-organ-flea-is-tired-of-organ-music",
+          "name": "Exhaust Organ - Flea Is Tired Of Organ Music",
           "in_game_id": null,
           "location_type": "collectible",
           "node_id": "bilewater/exhaust-organ-exterior#flea-hall-plat",
@@ -168115,8 +168115,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/exhaust-organ-interior::collectible/silk-grub-listening-to-mozart-in-the-cocoon",
-          "name": "Silk Grub Listening To Mozart In the Cocoon",
+          "id": "location:bilewater/exhaust-organ-interior::collectible/exhaust-organ-silk-grub-listening-to-mozart-in-the-cocoon",
+          "name": "Exhaust Organ - Silk Grub Listening To Mozart In the Cocoon",
           "in_game_id": "Silk Grub Large Cocoon",
           "location_type": "collectible",
           "node_id": "bilewater/exhaust-organ-interior#maze",
@@ -168133,8 +168133,8 @@
           "is_out_of_bounds": false
         },
         {
-          "id": "location:bilewater/exhaust-organ-interior::bench/backstage-organ-bench",
-          "name": "Backstage Organ Bench",
+          "id": "location:bilewater/exhaust-organ-interior::bench/exhaust-organ-backstage-organ-bench",
+          "name": "Exhaust Organ - Backstage Organ Bench",
           "in_game_id": null,
           "location_type": "bench",
           "node_id": "bilewater/exhaust-organ-interior#bench-room",
@@ -168151,8 +168151,8 @@
           "is_out_of_bounds": null
         },
         {
-          "id": "location:bilewater/exhaust-organ-interior::blockade/fix-the-broken-elevator",
-          "name": "Fix The Broken Elevator",
+          "id": "location:bilewater/exhaust-organ-interior::blockade/exhaust-organ-fix-the-broken-elevator",
+          "name": "Exhaust Organ - Fix The Broken Elevator",
           "in_game_id": null,
           "location_type": "blockade",
           "node_id": "bilewater/exhaust-organ-interior#broken-elevator",

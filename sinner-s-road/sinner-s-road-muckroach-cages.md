@@ -35,10 +35,10 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | A Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #1 |
-| 2 | A Few More Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #2 |
-| 3 | Last Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #3 |
-| 4 | Rosary Cache: Sinner’s Road #4 | attic | none |  | Verified | collectible | ✓ |  |
+| 1 | Sinner's Road - A Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #1 |
+| 2 | Sinner's Road - A Few More Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #2 |
+| 3 | Sinner's Road - Last Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #3 |
+| 4 | Sinner's Road - Rosary Cache: Sinner’s Road #4 | attic | none |  | Verified | collectible | ✓ |  |
 | 5 | Roachcatcher 1 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 6 | Muckroach 1 | attic | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 7 | Roachcatcher 2 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |

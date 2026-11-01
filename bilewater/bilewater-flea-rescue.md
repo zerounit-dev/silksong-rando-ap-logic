@@ -28,7 +28,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Flea That Bilewater Thieves Stole | upper | none |  | Verified | collectible | ✓ | Formerly: Flea: Bilewater - Thieves |
+| 1 | Bilewater - The Flea That Bilewater Thieves Stole | upper | none |  | Verified | collectible | ✓ | Formerly: Flea: Bilewater - Thieves |
 | 2 | Snitchfly 1 | upper | none |  | Verified | enemy | ✓ |  |
 | 3 | Snitchfly 2 | upper | none |  | Verified | enemy | ✓ |  |
 | 4 | Snitchfly 3 | upper | none |  | Verified | enemy | ✓ |  |

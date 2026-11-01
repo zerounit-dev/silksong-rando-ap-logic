@@ -58,8 +58,8 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | My Missing Brother Wish Granted | upper entry | complete THE My Missing Brother Wish Promised |  | Verified | event |  |  |
-| 2 | Shell Shards Lugoli Probably Threw Out: The First | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #4 |
-| 3 | Shell Shards Lugoli Probably Threw Out: The Second | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #5 |
+| 2 | Sinner's Road - Shell Shards Lugoli Probably Threw Out: The First | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #4 |
+| 3 | Sinner's Road - Shell Shards Lugoli Probably Threw Out: The Second | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #5 |
 | 4 | Upper Entry Switch | upper entry | hit switch left OR hit switch up |  | Verified | switch |  |  |
 | 5 | Roachfeeder 1 | plat above upper door | prereq THE my missing brother wish promised |  | Verified | enemy | ✓ | Spawn conditions: Save Courier Tall accepted=true, Save Courier Tall completed=false |
 | 6 | Roachcatcher 1 | plat above upper door | prereq THE my missing brother wish promised |  | Verified | enemy | ✓ | Spawn conditions: Save Courier Tall accepted=true, Save Courier Tall completed=false |

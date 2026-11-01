@@ -54,11 +54,11 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Eastern Sinner's Cage Rosary Primus | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #5 |
-| 2 | Eastern Sinner's Cage Rosary Secundus | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #6 |
-| 3 | Eastern Sinner's Cage Rosary Tertius | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #7 |
-| 4 | Shards on Bilewater's Doorstep | bilewater door | none |  | Verified | collectible | ✓ | Formerly: Shard Bundle: Sinner’s Road |
-| 5 | Key Hoarding Roachkeeper In the Attic | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  | Verified | collectible | ✓ | Formerly: Simple Key: Roachkeeper |
+| 1 | Sinner's Road - Eastern Sinner's Cage Rosary Primus | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #5 |
+| 2 | Sinner's Road - Eastern Sinner's Cage Rosary Secundus | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #6 |
+| 3 | Sinner's Road - Eastern Sinner's Cage Rosary Tertius | upper mid cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #7 |
+| 4 | Sinner's Road - Shards on Bilewater's Doorstep | bilewater door | none |  | Verified | collectible | ✓ | Formerly: Shard Bundle: Sinner’s Road |
+| 5 | Sinner's Road - Key Hoarding Roachkeeper In the Attic | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  | Verified | collectible | ✓ | Formerly: Simple Key: Roachkeeper |
 | 6 | Ahmed, the Roachkeeper | upper | ((cling grip either AND faydown cloak) OR (Cling grip both AND (dash OR drifter’s cloak OR clawline left OR sharpdart OR silk soar))) AND hit lever up |  | Verified | enemy | ✓ | Formerly: Roachkeeper 1 |
 | 7 | Hyakinthos, the Roachfeeder | low mid cage | none |  | Verified | enemy | ✓ | Formerly: Roachfeeder 1 |
 | 8 | Dominic, the Roachfeeder | upper | none |  | Verified | enemy | ✓ | Formerly: Roachfeeder 2 |

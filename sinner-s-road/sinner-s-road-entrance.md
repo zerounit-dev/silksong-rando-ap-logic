@@ -32,7 +32,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Caged Rosaries In the Sinner's Entryway | center | break wall left |  | Verified | collectible | ✓ | Formerly: Frayed Rosary String: Sinner's Road |
+| 1 | Sinner's Road - Caged Rosaries In the Entryway | center | break wall left |  | Verified | collectible | ✓ | Formerly: Frayed Rosary String: Sinner's Road |
 | 2 | Disease, the Muckroach | center | none |  | Verified | enemy | ✓ | Formerly: Muckroach 1 |
 | 3 | Gag, the Muckroach | center | attack up OR have Tool: Conchcutter OR faydown cloak OR silk soar OR cling grip either |  | Verified | enemy | ✓ | Formerly: Muckroach 2 |
 | 4 | Toilet, the Muckroach | center | none |  | Verified | enemy | ✓ | Formerly: Muckroach 3 |

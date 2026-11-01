@@ -51,7 +51,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Flea That Couldn't Make It Past All The Bilewater Traps | flea room | break vines left |  | Verified | collectible | ✓ | Formerly: Flea: Bilehaven |
+| 1 | Bilewater - The Flea That Couldn't Make It Past All The Bilewater Traps | flea room | break vines left |  | Verified | collectible | ✓ | Formerly: Flea: Bilehaven |
 | 2 | Bilewater - Shell Shard Cache #1 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 3 | Bilewater - Shell Shard Cache #2 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 4 | Stilkin 1 | below flea | none |  | Verified | enemy | ✓ |  |

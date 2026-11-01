@@ -140058,8 +140058,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-bench::collectible/rosaries-looking-over-the-sinner-s-bench",
-          "name": "Rosaries Looking Over The Sinner's Bench",
+          "id": "location:sinner-s-road/sinner-s-road-bench::collectible/sinner-s-road-rosaries-looking-over-the-sinner-s-bench",
+          "name": "Sinner's Road - Rosaries Looking Over The Sinner's Bench",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -140106,8 +140106,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-bench::bench/please-help-me-fix-this-bench-shakra",
-          "name": "Please Help Me Fix This Bench, Shakra",
+          "id": "location:sinner-s-road/sinner-s-road-bench::bench/sinner-s-road-please-help-me-fix-this-bench-shakra",
+          "name": "Sinner's Road - Please Help Me Fix This Bench, Shakra",
           "in_game_id": null,
           "location_type": "bench",
           "has_persisted_state": true,
@@ -140714,8 +140714,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-entrance::collectible/caged-rosaries-in-the-sinner-s-entryway",
-          "name": "Caged Rosaries In the Sinner's Entryway",
+          "id": "location:sinner-s-road/sinner-s-road-entrance::collectible/sinner-s-road-caged-rosaries-in-the-entryway",
+          "name": "Sinner's Road - Caged Rosaries In the Entryway",
           "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -140995,8 +140995,8 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-flea-rescue::collectible/sinner-s-flea",
-          "name": "Sinner's Flea",
+          "id": "location:sinner-s-road/sinner-s-road-flea-rescue::collectible/sinner-s-road-sinner-s-flea",
+          "name": "Sinner's Road - Sinner's Flea",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142034,8 +142034,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-hanging-cages::collectible/shell-shards-lugoli-probably-threw-out-the-first",
-          "name": "Shell Shards Lugoli Probably Threw Out: The First",
+          "id": "location:sinner-s-road/sinner-s-road-hanging-cages::collectible/sinner-s-road-shell-shards-lugoli-probably-threw-out-the-first",
+          "name": "Sinner's Road - Shell Shards Lugoli Probably Threw Out: The First",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142055,8 +142055,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-hanging-cages::collectible/shell-shards-lugoli-probably-threw-out-the-second",
-          "name": "Shell Shards Lugoli Probably Threw Out: The Second",
+          "id": "location:sinner-s-road/sinner-s-road-hanging-cages::collectible/sinner-s-road-shell-shards-lugoli-probably-threw-out-the-second",
+          "name": "Sinner's Road - Shell Shards Lugoli Probably Threw Out: The Second",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142694,8 +142694,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/a-few-spare-shards-in-the-muckroach-kennel-attic",
-          "name": "A Few Spare Shards In The Muckroach Kennel Attic",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/sinner-s-road-a-few-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "Sinner's Road - A Few Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142715,8 +142715,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/a-few-more-spare-shards-in-the-muckroach-kennel-attic",
-          "name": "A Few More Spare Shards In The Muckroach Kennel Attic",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/sinner-s-road-a-few-more-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "Sinner's Road - A Few More Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142736,8 +142736,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/last-few-spare-shards-in-the-muckroach-kennel-attic",
-          "name": "Last Few Spare Shards In The Muckroach Kennel Attic",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/sinner-s-road-last-few-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "Sinner's Road - Last Few Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142757,8 +142757,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/rosary-cache-sinner-s-road-4",
-          "name": "Rosary Cache: Sinner’s Road #4",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/sinner-s-road-rosary-cache-sinner-s-road-4",
+          "name": "Sinner's Road - Rosary Cache: Sinner’s Road #4",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -144066,8 +144066,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/left-shards-in-the-hall-of-the-spike-swingers",
-          "name": "Left Shards In the Hall of the Spike Swingers ",
+          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/sinner-s-road-left-shards-in-the-hall-of-the-spike-swingers",
+          "name": "Sinner's Road - Left Shards In the Hall of the Spike Swingers ",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -144090,8 +144090,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/right-shards-in-the-hall-of-the-spike-swingers",
-          "name": "Right Shards In the Hall of the Spike Swingers ",
+          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/sinner-s-road-right-shards-in-the-hall-of-the-spike-swingers",
+          "name": "Sinner's Road - Right Shards In the Hall of the Spike Swingers ",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -144127,8 +144127,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/that-chest-in-the-halls-of-the-spike-swingers-that-s-right-there",
-          "name": "That Chest In the Halls of the Spike Swingers That's RIGHT THERE",
+          "id": "location:sinner-s-road/sinner-s-road-north-hall::collectible/sinner-s-road-that-chest-in-the-halls-of-the-spike-swingers-that-s-right-there",
+          "name": "Sinner's Road - That Chest In the Halls of the Spike Swingers That's RIGHT THERE",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -145707,8 +145707,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-primus",
-          "name": "Eastern Sinner's Cage Rosary Primus",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-eastern-sinner-s-cage-rosary-primus",
+          "name": "Sinner's Road - Eastern Sinner's Cage Rosary Primus",
           "in_game_id": "rosary_string_medium",
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -145728,8 +145728,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-secundus",
-          "name": "Eastern Sinner's Cage Rosary Secundus",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-eastern-sinner-s-cage-rosary-secundus",
+          "name": "Sinner's Road - Eastern Sinner's Cage Rosary Secundus",
           "in_game_id": "rosary_string_small",
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -145749,8 +145749,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-tertius",
-          "name": "Eastern Sinner's Cage Rosary Tertius",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-eastern-sinner-s-cage-rosary-tertius",
+          "name": "Sinner's Road - Eastern Sinner's Cage Rosary Tertius",
           "in_game_id": "rosary_string_small_half",
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -145770,8 +145770,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/shards-on-bilewater-s-doorstep",
-          "name": "Shards on Bilewater's Doorstep",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-shards-on-bilewater-s-doorstep",
+          "name": "Sinner's Road - Shards on Bilewater's Doorstep",
           "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -145791,8 +145791,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/key-hoarding-roachkeeper-in-the-attic",
-          "name": "Key Hoarding Roachkeeper In the Attic",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/sinner-s-road-key-hoarding-roachkeeper-in-the-attic",
+          "name": "Sinner's Road - Key Hoarding Roachkeeper In the Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -146680,8 +146680,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/gross-rosaries-in-the-sinner-s-basement",
-          "name": "Gross Rosaries In the Sinner's Basement",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/sinner-s-road-gross-rosaries-in-the-sinner-s-basement",
+          "name": "Sinner's Road - Gross Rosaries In the Sinner's Basement",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -146730,8 +146730,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/first-half-of-the-rosaries-they-took-from-the-gay-frog-when-they-put-him-in-prison",
-          "name": "First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/sinner-s-road-first-half-of-the-rosaries-they-took-from-the-gay-frog-when-they-put-him-in-prison",
+          "name": "Sinner's Road - First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -146751,8 +146751,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/second-half-of-the-rosaries-they-took-from-the-gay-frog-when-they-put-him-in-prison",
-          "name": "Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::collectible/sinner-s-road-second-half-of-the-rosaries-they-took-from-the-gay-frog-when-they-put-him-in-prison",
+          "name": "Sinner's Road - Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -197058,8 +197058,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-flea-rescue::collectible/the-flea-that-bilewater-thieves-stole",
-          "name": "The Flea That Bilewater Thieves Stole",
+          "id": "location:bilewater/bilewater-flea-rescue::collectible/bilewater-the-flea-that-bilewater-thieves-stole",
+          "name": "Bilewater - The Flea That Bilewater Thieves Stole",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -200168,8 +200168,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-lower-trap-gauntlet-hall::collectible/the-flea-that-couldn-t-make-it-past-all-the-bilewater-traps",
-          "name": "The Flea That Couldn't Make It Past All The Bilewater Traps",
+          "id": "location:bilewater/bilewater-lower-trap-gauntlet-hall::collectible/bilewater-the-flea-that-couldn-t-make-it-past-all-the-bilewater-traps",
+          "name": "Bilewater - The Flea That Couldn't Make It Past All The Bilewater Traps",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -200627,8 +200627,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-mothleaf-hall::collectible/locket-at-the-end-of-a-long-hallway-of-moths",
-          "name": "Locket At The End of A LONG Hallway of Moths",
+          "id": "location:bilewater/bilewater-mothleaf-hall::collectible/bilewater-locket-at-the-end-of-a-long-hallway-of-moths",
+          "name": "Bilewater - Locket At The End of A LONG Hallway of Moths",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -200924,8 +200924,8 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/first-third-of-the-shards-in-a-mothed-up-bilewater-closet",
-          "name": "First Third Of The Shards In A Mothed Up Bilewater Closet",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-first-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "Bilewater - First Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "has_persisted_state": false,
@@ -200962,8 +200962,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/second-third-of-the-shards-in-a-mothed-up-bilewater-closet",
-          "name": "Second Third Of The Shards In A Mothed Up Bilewater Closet",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-second-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "Bilewater - Second Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "has_persisted_state": false,
@@ -201000,8 +201000,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/third-third-of-the-shards-in-a-mothed-up-bilewater-closet",
-          "name": "Third Third Of The Shards In A Mothed Up Bilewater Closet",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-third-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "Bilewater - Third Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "has_persisted_state": false,
@@ -202307,8 +202307,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-sinner-s-entrance::collectible/box-of-rosaries-right-inside-bilewater",
-          "name": "Box Of Rosaries Right Inside Bilewater",
+          "id": "location:bilewater/bilewater-sinner-s-entrance::collectible/bilewater-box-of-rosaries-right-inside-bilewater",
+          "name": "Bilewater - Box Of Rosaries Right Inside Bilewater",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -202328,8 +202328,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/bilewater-sinner-s-entrance::collectible/a-few-remaining-rosaries-next-to-a-dead-guy-in-bilewater",
-          "name": "A Few Remaining Rosaries Next To A Dead Guy In Bilewater",
+          "id": "location:bilewater/bilewater-sinner-s-entrance::collectible/bilewater-a-few-remaining-rosaries-next-to-a-dead-guy-in-bilewater",
+          "name": "Bilewater - A Few Remaining Rosaries Next To A Dead Guy In Bilewater",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -207391,8 +207391,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/memory-locket-annoyingly-nearby-the-twisted-chud",
-          "name": "Memory Locket Annoyingly Nearby the Twisted Chud",
+          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/bilewater-memory-locket-annoyingly-nearby-the-twisted-chud",
+          "name": "Bilewater - Memory Locket Annoyingly Nearby the Twisted Chud",
           "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -207476,8 +207476,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/first-quick-rosaries-in-the-western-bilewater-rooms",
-          "name": "First Quick Rosaries In The Western Bilewater Rooms",
+          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/bilewater-first-quick-rosaries-in-the-western-bilewater-rooms",
+          "name": "Bilewater - First Quick Rosaries In The Western Bilewater Rooms",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -207497,8 +207497,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/other-quick-rosaries-in-the-western-bilewater-rooms",
-          "name": "Other Quick Rosaries In The Western Bilewater Rooms",
+          "id": "location:bilewater/bilewater-west-secret-rooms::collectible/bilewater-other-quick-rosaries-in-the-western-bilewater-rooms",
+          "name": "Bilewater - Other Quick Rosaries In The Western Bilewater Rooms",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -208298,8 +208298,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/exhaust-organ-exterior::collectible/flea-is-tired-of-organ-music",
-          "name": "Flea Is Tired Of Organ Music",
+          "id": "location:bilewater/exhaust-organ-exterior::collectible/exhaust-organ-flea-is-tired-of-organ-music",
+          "name": "Exhaust Organ - Flea Is Tired Of Organ Music",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -208513,12 +208513,12 @@
           "source_node_id": "bilewater/exhaust-organ-interior#ground-floor",
           "target_node_id": "bilewater/exhaust-organ-interior#broken-elevator",
           "requirement": {
-            "raw": "(cling grip either AND complete Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar",
+            "raw": "(cling grip either AND complete Exhaust Organ - Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:either",
-                "dependency:location:bilewater/exhaust-organ-interior::blockade/fix-the-broken-elevator"
+                "dependency:location:bilewater/exhaust-organ-interior::blockade/exhaust-organ-fix-the-broken-elevator"
               ],
               [
                 "capability:faydown-cloak",
@@ -208543,11 +208543,11 @@
           "source_node_id": "bilewater/exhaust-organ-interior#broken-elevator",
           "target_node_id": "bilewater/exhaust-organ-interior#ground-floor",
           "requirement": {
-            "raw": "complete Fix The Broken Elevator",
+            "raw": "complete Exhaust Organ - Fix The Broken Elevator",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:bilewater/exhaust-organ-interior::blockade/fix-the-broken-elevator"
+                "dependency:location:bilewater/exhaust-organ-interior::blockade/exhaust-organ-fix-the-broken-elevator"
               ]
             ],
             "unresolved_reasons": []
@@ -208798,11 +208798,11 @@
           "source_node_id": "bilewater/exhaust-organ-interior#maze",
           "target_node_id": "bilewater/exhaust-organ-interior#broken-elevator",
           "requirement": {
-            "raw": "complete Fix The Broken Elevator",
+            "raw": "complete Exhaust Organ - Fix The Broken Elevator",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:bilewater/exhaust-organ-interior::blockade/fix-the-broken-elevator"
+                "dependency:location:bilewater/exhaust-organ-interior::blockade/exhaust-organ-fix-the-broken-elevator"
               ]
             ],
             "unresolved_reasons": []
@@ -208836,8 +208836,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/exhaust-organ-interior::collectible/silk-grub-listening-to-mozart-in-the-cocoon",
-          "name": "Silk Grub Listening To Mozart In the Cocoon",
+          "id": "location:bilewater/exhaust-organ-interior::collectible/exhaust-organ-silk-grub-listening-to-mozart-in-the-cocoon",
+          "name": "Exhaust Organ - Silk Grub Listening To Mozart In the Cocoon",
           "in_game_id": "Silk Grub Large Cocoon",
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -208857,8 +208857,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/exhaust-organ-interior::bench/backstage-organ-bench",
-          "name": "Backstage Organ Bench",
+          "id": "location:bilewater/exhaust-organ-interior::bench/exhaust-organ-backstage-organ-bench",
+          "name": "Exhaust Organ - Backstage Organ Bench",
           "in_game_id": null,
           "location_type": "bench",
           "has_persisted_state": true,
@@ -208883,8 +208883,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/exhaust-organ-interior::blockade/fix-the-broken-elevator",
-          "name": "Fix The Broken Elevator",
+          "id": "location:bilewater/exhaust-organ-interior::blockade/exhaust-organ-fix-the-broken-elevator",
+          "name": "Exhaust Organ - Fix The Broken Elevator",
           "in_game_id": null,
           "location_type": "blockade",
           "has_persisted_state": true,
