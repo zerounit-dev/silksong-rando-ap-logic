@@ -136629,8 +136629,8 @@
           "is_unsafe_arrival": false,
           "source_node_id": "choral-chambers/choral-chambers-east-to-west#left-side",
           "target": "choral-chambers/choral-chambers-below-dining@b",
-          "annotation_x": 57.023162841796875,
-          "annotation_y": 15.594252586364746,
+          "annotation_x": 56.5,
+          "annotation_y": 15.5,
           "annotation_enabled": true,
           "in_game_x": 56.5,
           "in_game_y": 15.5,
@@ -167472,8 +167472,8 @@
       "scene_max_y": 229,
       "scene_width": 160,
       "scene_height": 229,
-      "image_pixel_width": 1640,
-      "image_pixel_height": 1200,
+      "image_pixel_width": 1280,
+      "image_pixel_height": 1832,
       "nodes": [
         {
           "id": "bilewater/exhaust-organ-interior#top-elevator",
@@ -167491,14 +167491,14 @@
           "image_normalized_min_y": 0.02620524017467251,
           "image_normalized_max_x": 0.410675,
           "image_normalized_max_y": 0.5465804403380015,
-          "image_pixel_x": 199.46500000000003,
-          "image_pixel_y": 31.44628820960701,
-          "image_pixel_width": 474.042,
-          "image_pixel_height": 624.4502401959948,
-          "image_pixel_min_x": 199.46500000000003,
-          "image_pixel_min_y": 31.44628820960701,
-          "image_pixel_max_x": 673.5070000000001,
-          "image_pixel_max_y": 655.8965284056018
+          "image_pixel_x": 155.68,
+          "image_pixel_y": 48.00800000000004,
+          "image_pixel_width": 369.984,
+          "image_pixel_height": 953.3273666992186,
+          "image_pixel_min_x": 155.68,
+          "image_pixel_min_y": 48.00800000000004,
+          "image_pixel_max_x": 525.664,
+          "image_pixel_max_y": 1001.3353666992186
         },
         {
           "id": "bilewater/exhaust-organ-interior#top-layer",
@@ -167516,14 +167516,14 @@
           "image_normalized_min_y": 0.497235807860262,
           "image_normalized_max_x": 0.7922500000000001,
           "image_normalized_max_y": 0.5465807860262009,
-          "image_pixel_x": 673.5070000000001,
-          "image_pixel_y": 596.6829694323144,
-          "image_pixel_width": 625.7830000000001,
-          "image_pixel_height": 59.21397379912662,
-          "image_pixel_min_x": 673.5070000000001,
-          "image_pixel_min_y": 596.6829694323144,
-          "image_pixel_max_x": 1299.2900000000002,
-          "image_pixel_max_y": 655.896943231441
+          "image_pixel_x": 525.664,
+          "image_pixel_y": 910.936,
+          "image_pixel_width": 488.41600000000005,
+          "image_pixel_height": 90.39999999999998,
+          "image_pixel_min_x": 525.664,
+          "image_pixel_min_y": 910.936,
+          "image_pixel_max_x": 1014.08,
+          "image_pixel_max_y": 1001.336
         },
         {
           "id": "bilewater/exhaust-organ-interior#ground-floor",
@@ -167542,13 +167542,13 @@
           "image_normalized_max_x": 0.88258125,
           "image_normalized_max_y": 1,
           "image_pixel_x": 0,
-          "image_pixel_y": 1110.7755458515285,
-          "image_pixel_width": 1447.43325,
-          "image_pixel_height": 89.22445414847162,
+          "image_pixel_y": 1695.784,
+          "image_pixel_width": 1129.704,
+          "image_pixel_height": 136.216,
           "image_pixel_min_x": 0,
-          "image_pixel_min_y": 1110.7755458515285,
-          "image_pixel_max_x": 1447.43325,
-          "image_pixel_max_y": 1200
+          "image_pixel_min_y": 1695.784,
+          "image_pixel_max_x": 1129.704,
+          "image_pixel_max_y": 1832
         },
         {
           "id": "bilewater/exhaust-organ-interior#maze",
@@ -167566,14 +167566,14 @@
           "image_normalized_min_y": 0.6374149881554483,
           "image_normalized_max_x": 0.7922499999999999,
           "image_normalized_max_y": 0.8397720857312065,
-          "image_pixel_x": 763.393768157959,
-          "image_pixel_y": 764.8979857865379,
-          "image_pixel_width": 535.8962318420408,
-          "image_pixel_height": 242.82851709090988,
-          "image_pixel_min_x": 763.393768157959,
-          "image_pixel_min_y": 764.8979857865379,
-          "image_pixel_max_x": 1299.29,
-          "image_pixel_max_y": 1007.7265028774477
+          "image_pixel_x": 595.8195263671876,
+          "image_pixel_y": 1167.7442583007812,
+          "image_pixel_width": 418.26047363281236,
+          "image_pixel_height": 370.71820275878906,
+          "image_pixel_min_x": 595.8195263671876,
+          "image_pixel_min_y": 1167.7442583007812,
+          "image_pixel_max_x": 1014.0799999999999,
+          "image_pixel_max_y": 1538.4624610595702
         },
         {
           "id": "bilewater/exhaust-organ-interior#bench-room",
@@ -167591,14 +167591,14 @@
           "image_normalized_min_y": 0.8397720857312064,
           "image_normalized_max_x": 0.3422853384017944,
           "image_normalized_max_y": 0.9256462882096069,
-          "image_pixel_x": 314.0257049789429,
-          "image_pixel_y": 1007.7265028774477,
-          "image_pixel_width": 247.32225,
-          "image_pixel_height": 103.04904297408059,
-          "image_pixel_min_x": 314.0257049789429,
-          "image_pixel_min_y": 1007.7265028774477,
-          "image_pixel_max_x": 561.3479549789429,
-          "image_pixel_max_y": 1110.7755458515282
+          "image_pixel_x": 245.0932331542969,
+          "image_pixel_y": 1538.4624610595702,
+          "image_pixel_width": 193.032,
+          "image_pixel_height": 157.32153894042972,
+          "image_pixel_min_x": 245.0932331542969,
+          "image_pixel_min_y": 1538.4624610595702,
+          "image_pixel_max_x": 438.1252331542969,
+          "image_pixel_max_y": 1695.7839999999999
         },
         {
           "id": "bilewater/exhaust-organ-interior#right-column",
@@ -167616,14 +167616,14 @@
           "image_normalized_min_y": 0.7103177532879026,
           "image_normalized_max_x": 0.8825812499999999,
           "image_normalized_max_y": 0.925646288209607,
-          "image_pixel_x": 1299.2899999999997,
-          "image_pixel_y": 852.3813039454831,
-          "image_pixel_width": 148.14325000000002,
-          "image_pixel_height": 258.3942419060453,
-          "image_pixel_min_x": 1299.2899999999997,
-          "image_pixel_min_y": 852.3813039454831,
-          "image_pixel_max_x": 1447.4332499999998,
-          "image_pixel_max_y": 1110.7755458515285
+          "image_pixel_x": 1014.0799999999999,
+          "image_pixel_y": 1301.3021240234375,
+          "image_pixel_width": 115.62400000000002,
+          "image_pixel_height": 394.4818759765625,
+          "image_pixel_min_x": 1014.0799999999999,
+          "image_pixel_min_y": 1301.3021240234375,
+          "image_pixel_max_x": 1129.704,
+          "image_pixel_max_y": 1695.784
         },
         {
           "id": "bilewater/exhaust-organ-interior#broken-elevator",
@@ -167641,14 +167641,14 @@
           "image_normalized_min_y": 0.7294403809126808,
           "image_normalized_max_x": 0.4654840049743653,
           "image_normalized_max_y": 0.8188982301403862,
-          "image_pixel_x": 651.9061622619629,
-          "image_pixel_y": 875.328457095217,
-          "image_pixel_width": 111.48760589599617,
-          "image_pixel_height": 107.34941907324645,
-          "image_pixel_min_x": 651.9061622619629,
-          "image_pixel_min_y": 875.328457095217,
-          "image_pixel_max_x": 763.393768157959,
-          "image_pixel_max_y": 982.6778761684634
+          "image_pixel_x": 508.8048095703125,
+          "image_pixel_y": 1336.3347778320312,
+          "image_pixel_width": 87.01471679687506,
+          "image_pixel_height": 163.88677978515625,
+          "image_pixel_min_x": 508.8048095703125,
+          "image_pixel_min_y": 1336.3347778320312,
+          "image_pixel_max_x": 595.8195263671876,
+          "image_pixel_max_y": 1500.2215576171875
         }
       ],
       "transitions": [
@@ -167668,8 +167668,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.175,
           "image_normalized_y": 0.0611353711790393,
-          "image_pixel_x": 287,
-          "image_pixel_y": 73.36244541484716,
+          "image_pixel_x": 224,
+          "image_pixel_y": 112,
           "is_out_of_bounds": false
         },
         {
@@ -167688,8 +167688,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.25625,
           "image_normalized_y": 0.6899563318777293,
-          "image_pixel_x": 420.24999999999994,
-          "image_pixel_y": 827.9475982532751,
+          "image_pixel_x": 328,
+          "image_pixel_y": 1264,
           "is_out_of_bounds": false
         },
         {
@@ -167708,8 +167708,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.025,
           "image_normalized_y": 0.9650655021834061,
-          "image_pixel_x": 41,
-          "image_pixel_y": 1158.0786026200874,
+          "image_pixel_x": 32,
+          "image_pixel_y": 1768,
           "is_out_of_bounds": false
         }
       ],
@@ -167725,8 +167725,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.41362676620483396,
           "image_normalized_y": 0.49452006244242974,
-          "image_pixel_x": 678.3478965759277,
-          "image_pixel_y": 593.4240749309157,
+          "image_pixel_x": 529.4422607421875,
+          "image_pixel_y": 905.9607543945312,
           "is_out_of_bounds": false
         },
         {
@@ -167740,8 +167740,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.41362676620483396,
           "image_normalized_y": 0.49452006244242974,
-          "image_pixel_x": 678.3478965759277,
-          "image_pixel_y": 593.4240749309157,
+          "image_pixel_x": 529.4422607421875,
+          "image_pixel_y": 905.9607543945312,
           "is_out_of_bounds": false
         },
         {
@@ -167755,8 +167755,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4269847869873047,
           "image_normalized_y": 0.883524340833639,
-          "image_pixel_x": 700.2550506591797,
-          "image_pixel_y": 1060.2292090003668,
+          "image_pixel_x": 546.54052734375,
+          "image_pixel_y": 1618.6165924072266,
           "is_out_of_bounds": false
         },
         {
@@ -167770,8 +167770,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4269847869873047,
           "image_normalized_y": 0.883524340833639,
-          "image_pixel_x": 700.2550506591797,
-          "image_pixel_y": 1060.2292090003668,
+          "image_pixel_x": 546.54052734375,
+          "image_pixel_y": 1618.6165924072266,
           "is_out_of_bounds": false
         },
         {
@@ -167785,8 +167785,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8333621025085449,
           "image_normalized_y": 0.9261358585940699,
-          "image_pixel_x": 1366.7138481140137,
-          "image_pixel_y": 1111.363030312884,
+          "image_pixel_x": 1066.7034912109375,
+          "image_pixel_y": 1696.680892944336,
           "is_out_of_bounds": false
         },
         {
@@ -167800,8 +167800,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.8333621025085449,
           "image_normalized_y": 0.9261358585940699,
-          "image_pixel_x": 1366.7138481140137,
-          "image_pixel_y": 1111.363030312884,
+          "image_pixel_x": 1066.7034912109375,
+          "image_pixel_y": 1696.680892944336,
           "is_out_of_bounds": false
         },
         {
@@ -167815,8 +167815,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.7915279865264893,
           "image_normalized_y": 0.7673246391996026,
-          "image_pixel_x": 1298.1058979034424,
-          "image_pixel_y": 920.7895670395231,
+          "image_pixel_x": 1013.1558227539062,
+          "image_pixel_y": 1405.7387390136719,
           "is_out_of_bounds": false
         },
         {
@@ -167830,8 +167830,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.7915279865264893,
           "image_normalized_y": 0.7673246391996026,
-          "image_pixel_x": 1298.1058979034424,
-          "image_pixel_y": 920.7895670395231,
+          "image_pixel_x": 1013.1558227539062,
+          "image_pixel_y": 1405.7387390136719,
           "is_out_of_bounds": false
         },
         {
@@ -167845,8 +167845,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6074580669403076,
           "image_normalized_y": 0.5890273381528897,
-          "image_pixel_x": 996.2312297821044,
-          "image_pixel_y": 706.8328057834676,
+          "image_pixel_x": 777.5463256835938,
+          "image_pixel_y": 1079.0980834960938,
           "is_out_of_bounds": false
         },
         {
@@ -167860,8 +167860,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.6074580669403076,
           "image_normalized_y": 0.5890273381528897,
-          "image_pixel_x": 996.2312297821044,
-          "image_pixel_y": 706.8328057834676,
+          "image_pixel_x": 777.5463256835938,
+          "image_pixel_y": 1079.0980834960938,
           "is_out_of_bounds": false
         },
         {
@@ -167875,8 +167875,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.3474046468734741,
           "image_normalized_y": 0.9121198196077972,
-          "image_pixel_x": 569.7436208724976,
-          "image_pixel_y": 1094.5437835293567,
+          "image_pixel_x": 444.6779479980469,
+          "image_pixel_y": 1671.0035095214844,
           "is_out_of_bounds": false
         },
         {
@@ -167890,8 +167890,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.3474046468734741,
           "image_normalized_y": 0.9121198196077972,
-          "image_pixel_x": 569.7436208724976,
-          "image_pixel_y": 1094.5437835293567,
+          "image_pixel_x": 444.6779479980469,
+          "image_pixel_y": 1671.0035095214844,
           "is_out_of_bounds": false
         },
         {
@@ -167905,8 +167905,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4712562084197998,
           "image_normalized_y": 0.7881414421781182,
-          "image_pixel_x": 772.8601818084717,
-          "image_pixel_y": 945.7697306137419,
+          "image_pixel_x": 603.2079467773438,
+          "image_pixel_y": 1443.8751220703125,
           "is_out_of_bounds": false
         },
         {
@@ -167920,8 +167920,8 @@
           "annotation_enabled": true,
           "image_normalized_x": 0.4712562084197998,
           "image_normalized_y": 0.7881414421781182,
-          "image_pixel_x": 772.8601818084717,
-          "image_pixel_y": 945.7697306137419,
+          "image_pixel_x": 603.2079467773438,
+          "image_pixel_y": 1443.8751220703125,
           "is_out_of_bounds": false
         }
       ],
@@ -167940,8 +167940,8 @@
           "in_game_z": 0.035,
           "image_normalized_x": 0.8470625,
           "image_normalized_y": 0.8237117903930131,
-          "image_pixel_x": 1389.1825000000001,
-          "image_pixel_y": 988.4541484716158,
+          "image_pixel_x": 1084.24,
+          "image_pixel_y": 1509.04,
           "is_out_of_bounds": false
         },
         {
@@ -168012,8 +168012,8 @@
           "in_game_z": 0.006,
           "image_normalized_x": 0.484,
           "image_normalized_y": 0.5448034934497816,
-          "image_pixel_x": 793.76,
-          "image_pixel_y": 653.7641921397379,
+          "image_pixel_x": 619.52,
+          "image_pixel_y": 998.0799999999999,
           "is_out_of_bounds": false
         },
         {
@@ -168030,8 +168030,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.293875,
           "image_normalized_y": 0.936593886462882,
-          "image_pixel_x": 481.955,
-          "image_pixel_y": 1123.9126637554584,
+          "image_pixel_x": 376.15999999999997,
+          "image_pixel_y": 1715.84,
           "is_out_of_bounds": false
         },
         {
@@ -168048,8 +168048,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.8263125,
           "image_normalized_y": 0.8951528384279477,
-          "image_pixel_x": 1355.1525,
-          "image_pixel_y": 1074.1834061135373,
+          "image_pixel_x": 1057.68,
+          "image_pixel_y": 1639.92,
           "is_out_of_bounds": false
         },
         {
@@ -168066,8 +168066,8 @@
           "in_game_z": 0,
           "image_normalized_x": 0.618,
           "image_normalized_y": 0.8095633187772925,
-          "image_pixel_x": 1013.52,
-          "image_pixel_y": 971.475982532751,
+          "image_pixel_x": 791.04,
+          "image_pixel_y": 1483.12,
           "is_out_of_bounds": false
         }
       ]

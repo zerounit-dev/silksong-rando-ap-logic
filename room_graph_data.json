@@ -91394,14 +91394,14 @@
           "source_node_id": "greymoor/greymoor-craw-lake#lil-top",
           "target": "greymoor/greymoor-weaver-shrine@b",
           "requirement": {
-            "raw": "silk soar OR ledge grab OR faydown cloak OR cling grip right OR (ledge grab right AND (cling grip left OR ledge grab left OR easy [beast, shaman] pogo))",
+            "raw": "silk soar OR ledge grab right OR faydown cloak OR cling grip right OR (ledge grab right AND (cling grip left OR ledge grab left OR easy [beast, shaman] pogo))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:faydown-cloak"
@@ -91531,14 +91531,14 @@
           "source_node_id": "greymoor/greymoor-craw-lake#lower-left-section",
           "target_node_id": "greymoor/greymoor-craw-lake#craw-building-lower-left",
           "requirement": {
-            "raw": "swim OR clawline x 3 OR ((progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 right AND (sharpdart x 1 OR clawline right x 2) AND faydown cloak) OR (progressive swift step 1 AND (clawline right x 1 OR sharpdart x 1) AND (drifters cloak)) OR cbt pogo off craw OR (hard pogo off craw AND faydown cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart x 1 OR clawline right x 1 OR progressive swift step 2 right)) OR prereq balloon lever IN greymoor craw nest ",
+            "raw": "swim OR clawline right x 3 OR ((progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 right AND (sharpdart x 1 OR clawline right x 2) AND faydown cloak) OR (progressive swift step 1 AND (clawline right x 1 OR sharpdart x 1) AND (drifters cloak)) OR cbt pogo off craw OR (hard pogo off craw AND faydown cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart x 1 OR clawline right x 1 OR progressive swift step 2 right)) OR prereq balloon lever IN greymoor craw nest ",
             "mode": "expression",
             "dnf": [
               [
                 "capability:swim"
               ],
               [
-                "capability:clawline:none:3"
+                "capability:clawline:right:3"
               ],
               [
                 "capability:dash:right",
@@ -91621,14 +91621,14 @@
           "source_node_id": "greymoor/greymoor-craw-lake#craw-building-lower-left",
           "target_node_id": "greymoor/greymoor-craw-lake#lower-left-section",
           "requirement": {
-            "raw": "swim OR clawline x 3 OR ((progressive swift step 2 left OR sharpdart x 1 OR clawline left x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 left AND (sharpdart x 1 OR clawline left x 1)  AND faydown cloak) OR (progressive swift step 1 AND (sharpdart x 1 OR clawline left x 1) AND (drifters cloak OR faydown cloak)) OR prereq balloon lever IN greymoor craw nest",
+            "raw": "swim OR clawline left x 3 OR ((progressive swift step 2 left OR sharpdart x 1 OR clawline left x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 left AND (sharpdart x 1 OR clawline left x 1)  AND faydown cloak) OR (progressive swift step 1 AND (sharpdart x 1 OR clawline left x 1) AND (drifters cloak OR faydown cloak)) OR prereq balloon lever IN greymoor craw nest",
             "mode": "expression",
             "dnf": [
               [
                 "capability:swim"
               ],
               [
-                "capability:clawline:none:3"
+                "capability:clawline:left:3"
               ],
               [
                 "capability:dash:left",
@@ -91955,14 +91955,14 @@
           "source_node_id": "greymoor/greymoor-craw-lake#stupid-platform-i-hate",
           "target_node_id": "greymoor/greymoor-craw-lake#flea-room",
           "requirement": {
-            "raw": "drifters cloak OR clawline x 2 OR progressive swift step 2 right OR (clawline right x 1 AND (cling grip right OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab right OR cling grip right OR sharpdart x 1)) OR medium scuttlebrace OR prereq balloon lever IN greymoor craw nest",
+            "raw": "drifters cloak OR clawline right x 2 OR progressive swift step 2 right OR (clawline right x 1 AND (cling grip right OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab right OR cling grip right OR sharpdart x 1)) OR medium scuttlebrace OR prereq balloon lever IN greymoor craw nest",
             "mode": "expression",
             "dnf": [
               [
                 "capability:drifters-cloak"
               ],
               [
-                "capability:clawline:none:2"
+                "capability:clawline:right:2"
               ],
               [
                 "capability:dash:right"
@@ -92176,7 +92176,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake#right-top-craw-nest",
           "target_node_id": "greymoor/greymoor-craw-lake#left-top-craw-nest",
           "requirement": {
-            "raw": "(progressive swift step 1 left AND faydown cloak AND (drifters cloak OR sharpdart x 1)) OR (clawline x 1 AND ((progressive swift step 2 left AND ledge grab left) OR (progressive swift step 1 left AND (medium beast pogo OR faydown cloak)) OR (faydown cloak AND (drifters cloak OR easy beast pogo)))) OR (progressive swift step 2 left AND faydown cloak AND flea brew) OR (sharpdart x 1 AND faydown cloak AND drifters cloak) OR (prereq balloon lever IN greymoor craw nest AND (clawline x 1 OR faydown cloak OR sharpdart x 1 OR (drifters cloak AND progressive swift step 1 left) OR progressive swift step 2 left))",
+            "raw": "(progressive swift step 1 left AND faydown cloak AND (drifters cloak OR sharpdart x 1)) OR (clawline left x 1 AND ((progressive swift step 2 left AND ledge grab left) OR (progressive swift step 1 left AND (medium beast pogo OR faydown cloak)) OR (faydown cloak AND (drifters cloak OR easy beast pogo)))) OR (progressive swift step 2 left AND faydown cloak AND flea brew) OR (sharpdart x 1 AND faydown cloak AND drifters cloak) OR (prereq balloon lever IN greymoor craw nest AND (clawline left x 1 OR faydown cloak OR sharpdart x 1 OR (drifters cloak AND progressive swift step 1 left) OR progressive swift step 2 left))",
             "mode": "expression",
             "dnf": [
               [
@@ -92190,27 +92190,27 @@
                 "capability:sharpdart:1"
               ],
               [
-                "capability:clawline:none:1",
+                "capability:clawline:left:1",
                 "capability:dash:left",
                 "capability:ledge-grab:left"
               ],
               [
-                "capability:clawline:none:1",
+                "capability:clawline:left:1",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:medium"
               ],
               [
-                "capability:clawline:none:1",
+                "capability:clawline:left:1",
                 "capability:sprint:left",
                 "capability:faydown-cloak"
               ],
               [
-                "capability:clawline:none:1",
+                "capability:clawline:left:1",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak"
               ],
               [
-                "capability:clawline:none:1",
+                "capability:clawline:left:1",
                 "capability:faydown-cloak",
                 "capability:crest-pogo:beast:easy"
               ],
@@ -92226,7 +92226,7 @@
               ],
               [
                 "dependency:location:greymoor/greymoor-craw-nest::switch/balloon-lever",
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "dependency:location:greymoor/greymoor-craw-nest::switch/balloon-lever",
@@ -92541,7 +92541,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake#upper-craw-nest",
           "target_node_id": "greymoor/greymoor-craw-lake#spiked-room",
           "requirement": {
-            "raw": "((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever ",
+            "raw": "((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever ",
             "mode": "expression",
             "dnf": [
               [
@@ -92557,7 +92557,7 @@
               [
                 "capability:crest-pogo:beast:easy",
                 "capability:faydown-cloak",
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "dependency:location:greymoor/greymoor-craw-lake::switch/spike-room-lever"
               ],
               [
@@ -92962,12 +92962,12 @@
           "source_node_id": "greymoor/greymoor-craw-lake#middle-craw-nest-left",
           "target_node_id": "greymoor/greymoor-craw-lake#stupid-platform-i-hate",
           "requirement": {
-            "raw": "(faydown cloak AND (clawline x 2 OR sharpdart x 2 OR (clawline x 1 AND (sharpdart x 1 OR (drifters cloak AND ((progressive swift step 1 AND ledge grab right) OR flea brew)))) OR (sharpdart x 1 AND drifters cloak AND ledge grab right AND (progressive swift step 1 OR flea brew)))) OR prereq balloon lever IN greymoor craw nest ",
+            "raw": "(faydown cloak AND (clawline right x 2 OR sharpdart x 2 OR (clawline right x 1 AND (sharpdart x 1 OR (drifters cloak AND ((progressive swift step 1 AND ledge grab right) OR flea brew)))) OR (sharpdart x 1 AND drifters cloak AND ledge grab right AND (progressive swift step 1 OR flea brew)))) OR prereq balloon lever IN greymoor craw nest ",
             "mode": "expression",
             "dnf": [
               [
                 "capability:faydown-cloak",
-                "capability:clawline:none:2"
+                "capability:clawline:right:2"
               ],
               [
                 "capability:faydown-cloak",
@@ -92975,19 +92975,19 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:clawline:none:1",
+                "capability:clawline:right:1",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:clawline:none:1",
+                "capability:clawline:right:1",
                 "capability:drifters-cloak",
                 "capability:sprint:none",
                 "capability:ledge-grab:right"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:clawline:none:1",
+                "capability:clawline:right:1",
                 "capability:drifters-cloak",
                 "capability:flea-brew-jump"
               ],
@@ -93024,11 +93024,11 @@
           "source_node_id": "greymoor/greymoor-craw-lake#stupid-platform-i-hate",
           "target_node_id": "greymoor/greymoor-craw-lake#middle-craw-nest-left",
           "requirement": {
-            "raw": "clawline x 2 OR sharpdart x 2 OR drifters cloak OR (faydown cloak AND (progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR (progressive swift step 1 AND (flea brew OR easy [hunter, beast, architect] pogo)))) OR ((clawline left x 1 OR sharpdart x 1) AND (easy beast pogo OR progressive swift step 1)) OR (easy beast pogo AND progressive swift step 2 left) OR prereq balloon lever IN greymoor craw nest",
+            "raw": "clawline left x 2 OR sharpdart x 2 OR drifters cloak OR (faydown cloak AND (progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR (progressive swift step 1 AND (flea brew OR easy [hunter, beast, architect] pogo)))) OR ((clawline left x 1 OR sharpdart x 1) AND (easy beast pogo OR progressive swift step 1)) OR (easy beast pogo AND progressive swift step 2 left) OR prereq balloon lever IN greymoor craw nest",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:2"
+                "capability:clawline:left:2"
               ],
               [
                 "capability:sharpdart:2"
@@ -93235,7 +93235,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake#middle-craw-nest",
           "target_node_id": "greymoor/greymoor-craw-lake#flea-room",
           "requirement": {
-            "raw": "prereq balloon lever IN greymoor craw nest OR ((cling grip right OR medium scuttlebrace) AND (clawline x 2 OR (faydown cloak AND (sharpdart x 2  OR (drifters cloak AND (flea brew OR progressive swift step 1 right OR sharpdart x 1 OR clawline x 1)))) OR ((clawline x 1 OR sharpdart x 1) AND progressive swift step 2 right)))",
+            "raw": "prereq balloon lever IN greymoor craw nest OR ((cling grip right OR medium scuttlebrace) AND (clawline right x 2 OR (faydown cloak AND (sharpdart x 2  OR (drifters cloak AND (flea brew OR progressive swift step 1 right OR sharpdart x 1 OR clawline right x 1)))) OR ((clawline right x 1 OR sharpdart x 1) AND progressive swift step 2 right)))",
             "mode": "expression",
             "dnf": [
               [
@@ -93243,7 +93243,7 @@
               ],
               [
                 "capability:cling-grip:right",
-                "capability:clawline:none:2"
+                "capability:clawline:right:2"
               ],
               [
                 "capability:cling-grip:right",
@@ -93272,11 +93272,11 @@
                 "capability:cling-grip:right",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:cling-grip:right",
-                "capability:clawline:none:1",
+                "capability:clawline:right:1",
                 "capability:dash:right"
               ],
               [
@@ -93286,7 +93286,7 @@
               ],
               [
                 "capability:scuttlebrace:medium",
-                "capability:clawline:none:2"
+                "capability:clawline:right:2"
               ],
               [
                 "capability:scuttlebrace:medium",
@@ -93315,11 +93315,11 @@
                 "capability:scuttlebrace:medium",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:scuttlebrace:medium",
-                "capability:clawline:none:1",
+                "capability:clawline:right:1",
                 "capability:dash:right"
               ],
               [
@@ -93343,14 +93343,14 @@
           "source_node_id": "greymoor/greymoor-craw-lake#flea-room",
           "target_node_id": "greymoor/greymoor-craw-lake#middle-craw-nest",
           "requirement": {
-            "raw": "drifters cloak OR clawline x 2 OR sharpdart x 2 OR (progressive swift step 2 left AND faydown cloak) OR (progressive swift step 1 AND (clawline left x 1 OR sharpdart x 1 OR (faydown cloak AND flea brew))) OR prereq balloon lever IN greymoor craw nest",
+            "raw": "drifters cloak OR clawline left x 2 OR sharpdart x 2 OR (progressive swift step 2 left AND faydown cloak) OR (progressive swift step 1 AND (clawline left x 1 OR sharpdart x 1 OR (faydown cloak AND flea brew))) OR prereq balloon lever IN greymoor craw nest",
             "mode": "expression",
             "dnf": [
               [
                 "capability:drifters-cloak"
               ],
               [
-                "capability:clawline:none:2"
+                "capability:clawline:left:2"
               ],
               [
                 "capability:sharpdart:2"
@@ -93391,7 +93391,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake#middle-craw-nest",
           "target_node_id": "greymoor/greymoor-craw-lake#lower-flea-room",
           "requirement": {
-            "raw": "(drifters cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR faydown cloak OR (easy beast pogo AND flea brew))) OR (progressive swift step 2 AND (clawline right x 1 OR sharpdart x 1)) OR (faydown cloak AND (clawline right x 2 OR sharpdart)) OR (prereq balloon lever IN greymoor craw nest AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR (faydown cloak AND (ledge grab right OR flea brew))))",
+            "raw": "(drifters cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR faydown cloak OR (easy beast pogo AND flea brew))) OR (progressive swift step 2 right AND (clawline right x 1 OR sharpdart x 1)) OR (faydown cloak AND (clawline right x 2 OR sharpdart)) OR (prereq balloon lever IN greymoor craw nest AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR (faydown cloak AND (ledge grab right OR flea brew))))",
             "mode": "expression",
             "dnf": [
               [
@@ -93416,11 +93416,11 @@
                 "capability:flea-brew-jump"
               ],
               [
-                "capability:dash:none",
+                "capability:dash:right",
                 "capability:clawline:right:1"
               ],
               [
-                "capability:dash:none",
+                "capability:dash:right",
                 "capability:sharpdart:1"
               ],
               [
@@ -93469,7 +93469,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake#lower-flea-room",
           "target_node_id": "greymoor/greymoor-craw-lake#middle-craw-nest",
           "requirement": {
-            "raw": "faydown cloak AND ((clawline left x 2 AND (sharpdart x 1 OR (drifters cloak AND ledge grab left))) OR (sharpdart x 2 AND progressive swift step 2 left AND ledge grab))",
+            "raw": "faydown cloak AND ((clawline left x 2 AND (sharpdart x 1 OR (drifters cloak AND ledge grab left))) OR (sharpdart x 2 AND progressive swift step 2 left AND ledge grab left))",
             "mode": "expression",
             "dnf": [
               [
@@ -93487,7 +93487,7 @@
                 "capability:faydown-cloak",
                 "capability:sharpdart:2",
                 "capability:dash:left",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ]
             ],
             "unresolved_reasons": []
@@ -93954,7 +93954,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake#verdania-ledge",
           "target_node_id": "greymoor/greymoor-craw-lake#craw-building-lower-right",
           "requirement": {
-            "raw": "faydown cloak OR drifters cloak OR clawline x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy [hunter, beast, architect] pogo OR (easy reaper pogo AND ledge grab left) OR swim OR prereq balloon lever IN greymoor craw nest",
+            "raw": "faydown cloak OR drifters cloak OR clawline left x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy [hunter, beast, architect] pogo OR (easy reaper pogo AND ledge grab left) OR swim OR prereq balloon lever IN greymoor craw nest",
             "mode": "expression",
             "dnf": [
               [
@@ -93964,7 +93964,7 @@
                 "capability:drifters-cloak"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:sprint:none"
@@ -94007,7 +94007,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake#craw-building-roof",
           "target_node_id": "greymoor/greymoor-craw-lake#verdania-ledge",
           "requirement": {
-            "raw": "drifters cloak OR clawline right x 2 OR sharpdart x 2 OR (faydown cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 OR (progressive swift step 1 AND (easy [beast, architect] pogo OR (easy reaper pogo AND ledge grab))))) OR (clawline right x 1 AND (progressive swift step 1 OR easy [hunter, beast, architect] pogo)) OR (sharpdart x 1 AND (easy [beast, hunter] pogo OR progressive swift step 1))",
+            "raw": "drifters cloak OR clawline right x 2 OR sharpdart x 2 OR (faydown cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR (progressive swift step 1 AND (easy [beast, architect] pogo OR (easy reaper pogo AND ledge grab right))))) OR (clawline right x 1 AND (progressive swift step 1 OR easy [hunter, beast, architect] pogo)) OR (sharpdart x 1 AND (easy [beast, hunter] pogo OR progressive swift step 1))",
             "mode": "expression",
             "dnf": [
               [
@@ -94029,7 +94029,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:dash:none"
+                "capability:dash:right"
               ],
               [
                 "capability:faydown-cloak",
@@ -94045,7 +94045,7 @@
                 "capability:faydown-cloak",
                 "capability:sprint:none",
                 "capability:crest-pogo:reaper:easy",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:clawline:right:1",
@@ -95544,7 +95544,7 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-craw-nest#craw-lower-nest",
           "requirement": {
-            "raw": "((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline x 1)) OR faydown cloak OR prereq balloon lever ",
+            "raw": "((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1)) OR faydown cloak OR prereq balloon lever ",
             "mode": "expression",
             "dnf": [
               [
@@ -95557,7 +95557,7 @@
               ],
               [
                 "capability:ledge-grab:either",
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:cling-grip:either",
@@ -95569,7 +95569,7 @@
               ],
               [
                 "capability:cling-grip:either",
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:enemy-type-pogo:Mite:easy",
@@ -95581,7 +95581,7 @@
               ],
               [
                 "capability:enemy-type-pogo:Mite:easy",
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:faydown-cloak"
@@ -95606,7 +95606,7 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-craw-nest#craw-lower-nest",
           "requirement": {
-            "raw": "((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline x 1)) OR faydown cloak OR prereq balloon lever ",
+            "raw": "((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1)) OR faydown cloak OR prereq balloon lever ",
             "mode": "expression",
             "dnf": [
               [
@@ -95619,7 +95619,7 @@
               ],
               [
                 "capability:ledge-grab:either",
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:cling-grip:either",
@@ -95631,7 +95631,7 @@
               ],
               [
                 "capability:cling-grip:either",
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:enemy-type-pogo:Mite:easy",
@@ -95643,7 +95643,7 @@
               ],
               [
                 "capability:enemy-type-pogo:Mite:easy",
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:faydown-cloak"
@@ -99008,7 +99008,7 @@
           "source_node_id": "greymoor/greymoor-lower-halfway-home-path#left-section",
           "target_node_id": "greymoor/greymoor-lower-halfway-home-path#center-section",
           "requirement": {
-            "raw": "swim OR progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab right OR progressive swift step 1 right OR faydown cloak)) OR ((faydown cloak OR (flea brew AND cling grip)) AND progressive swift step 1 right)",
+            "raw": "swim OR progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab right OR progressive swift step 1 right OR faydown cloak)) OR ((faydown cloak OR (flea brew AND ledge grab right)) AND progressive swift step 1 right)",
             "mode": "expression",
             "dnf": [
               [
@@ -99041,7 +99041,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:cling-grip:none",
+                "capability:ledge-grab:right",
                 "capability:sprint:right"
               ]
             ],
@@ -99060,7 +99060,7 @@
           "source_node_id": "greymoor/greymoor-lower-halfway-home-path#right-section",
           "target_node_id": "greymoor/greymoor-lower-halfway-home-path#center-section",
           "requirement": {
-            "raw": "((Act 1 OR Act 2) AND (progressive swift step 1 left OR clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy beast pogo OR flea brew OR easy architect needle strike OR (cling grip left AND (easy [hunter, reaper, witch, architect, shaman] pogo OR swim)))) OR (ACT 3 AND ((cling grip AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR (drifters cloak AND (progressive swift step 1 left OR flea brew)))) OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 1 left OR (ledge grab left AND drifters cloak))) OR (silk soar AND ((Clawline left x 2 AND ledge grab left)  OR (clawline left x 1 AND (progressive swift step 2 left OR drifters cloak)))))) ",
+            "raw": "((Act 1 OR Act 2) AND (progressive swift step 1 left OR clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy beast pogo OR flea brew OR easy architect needle strike OR (cling grip left AND (easy [hunter, reaper, witch, architect, shaman] pogo OR swim)))) OR (ACT 3 AND ((cling grip left AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR (drifters cloak AND (progressive swift step 1 left OR flea brew)))) OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 1 left OR (ledge grab left AND drifters cloak))) OR (silk soar AND ((Clawline left x 2 AND ledge grab left)  OR (clawline left x 1 AND (progressive swift step 2 left OR drifters cloak)))))) ",
             "mode": "expression",
             "dnf": [
               [
@@ -99189,28 +99189,28 @@
               ],
               [
                 "state:act-3",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:clawline:left:1"
               ],
               [
                 "state:act-3",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:sharpdart:1"
               ],
               [
                 "state:act-3",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:dash:left"
               ],
               [
                 "state:act-3",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:drifters-cloak",
                 "capability:sprint:left"
               ],
               [
                 "state:act-3",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:drifters-cloak",
                 "capability:flea-brew-jump"
               ],
@@ -101183,7 +101183,7 @@
           "source_node_id": "greymoor/yarnaby-place#upper-shaft",
           "target": "greymoor/pimpillo-room@d",
           "requirement": {
-            "raw": "prereq vine wall AND (silk soar OR cling grip OR easy scuttlebrace)",
+            "raw": "prereq vine wall AND (silk soar OR cling grip left OR easy scuttlebrace)",
             "mode": "expression",
             "dnf": [
               [
@@ -101192,7 +101192,7 @@
               ],
               [
                 "dependency:location:greymoor/yarnaby-place::blockade/vine-wall",
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
               ],
               [
                 "dependency:location:greymoor/yarnaby-place::blockade/vine-wall",
@@ -103031,7 +103031,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake-entrance#middle-section",
           "target_node_id": "greymoor/greymoor-craw-lake-entrance#upper-section",
           "requirement": {
-            "raw": "((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR cling grip OR medium scuttlebrace",
+            "raw": "((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR medium scuttlebrace OR (cling grip left AND (progressive swift step 1 OR sharpdart x 1 OR clawline left x 1))",
             "mode": "expression",
             "dnf": [
               [
@@ -103065,10 +103065,19 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:scuttlebrace:medium"
               ],
               [
-                "capability:scuttlebrace:medium"
+                "capability:cling-grip:left",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:clawline:left:1"
               ]
             ],
             "unresolved_reasons": []
@@ -105023,7 +105032,7 @@
           "source_node_id": "greymoor/greymoor-halfway-home-exterior#building-roof",
           "target_node_id": "greymoor/greymoor-halfway-home-exterior#middle-right-section",
           "requirement": {
-            "raw": "silk soar OR (faydown cloak AND (progressive swift step 2 OR sharpdart OR (ledge grab right AND (progressive swift step 1 right OR clawline right x 1 OR drifters cloak OR medium [shaman, beast] pogo)))) OR (cling grip right AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR faydown cloak OR drifters cloak OR (progressive swift step 1 right AND flea brew)))",
+            "raw": "silk soar OR (faydown cloak AND (progressive swift step 2 right OR sharpdart OR (ledge grab right AND (progressive swift step 1 right OR clawline right x 1 OR drifters cloak OR medium [shaman, beast] pogo)))) OR (cling grip right AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR faydown cloak OR drifters cloak OR (progressive swift step 1 right AND flea brew)))",
             "mode": "expression",
             "dnf": [
               [
@@ -105031,7 +105040,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:dash:none"
+                "capability:dash:right"
               ],
               [
                 "capability:faydown-cloak",
@@ -108985,7 +108994,7 @@
           "source_node_id": "greymoor/greymoor-towers-patio#lower-hanging-platforms",
           "target_node_id": "greymoor/greymoor-towers-patio#left-middle-section",
           "requirement": {
-            "raw": "drifters cloak OR (sharpdart x 3 AND progressive swift step 2) OR sharpdart x 4 OR clawline left x 4 OR (clawline left x 3 AND progressive swift step 2 left)",
+            "raw": "drifters cloak OR (sharpdart x 3 AND progressive swift step 2 left) OR sharpdart x 4 OR clawline left x 4 OR (clawline left x 3 AND progressive swift step 2 left)",
             "mode": "expression",
             "dnf": [
               [
@@ -108993,7 +109002,7 @@
               ],
               [
                 "capability:sharpdart:3",
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:sharpdart:4"
@@ -113146,7 +113155,7 @@
           "source_node_id": "greymoor/greymoor-western-room#upper-section",
           "target_node_id": "greymoor/greymoor-western-room#tiny-platform",
           "requirement": {
-            "raw": "faydown cloak OR clawline right x 2 OR sharpdart x 2 OR ((easy pogo off fluttermite AND (ACT 1 OR ACT 2)) AND (sharpdart x 1 OR clawline x 1)) OR progressive swift step 1 right  OR ledge grab right OR cling grip right OR easy beast pogo OR medium shaman pogo",
+            "raw": "faydown cloak OR clawline right x 2 OR sharpdart x 2 OR ((easy pogo off fluttermite AND (ACT 1 OR ACT 2)) AND (sharpdart x 1 OR clawline right x 1)) OR progressive swift step 1 right  OR ledge grab right OR cling grip right OR easy beast pogo OR medium shaman pogo",
             "mode": "expression",
             "dnf": [
               [
@@ -113166,7 +113175,7 @@
               [
                 "capability:enemy-type-pogo:Mitefly:easy",
                 "state:act-1",
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:enemy-type-pogo:Mitefly:easy",
@@ -113176,7 +113185,7 @@
               [
                 "capability:enemy-type-pogo:Mitefly:easy",
                 "state:act-2",
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:sprint:right"
@@ -115130,7 +115139,7 @@
           "source_node_id": "wisp-thicket/eastern-wisp-thicket#middle-section",
           "target_node_id": "wisp-thicket/eastern-wisp-thicket#unstable-platforms",
           "requirement": {
-            "raw": "((swim OR (clawline right x 3 OR (clawline right x 2 AND (progressive swift step 2 right OR easy [beast, hunter, architect] pogo OR drifters cloak OR faydown cloak)) OR (clawline right x 1 AND (drifters cloak OR (progressive swift step 1 AND flea brew AND faydown cloak) OR (progressive swift step 2 AND faydown cloak))))))",
+            "raw": "((swim OR (clawline right x 3 OR (clawline right x 2 AND (progressive swift step 2 right OR easy [beast, hunter, architect] pogo OR drifters cloak OR faydown cloak)) OR (clawline right x 1 AND (drifters cloak OR (progressive swift step 1 AND flea brew AND faydown cloak) OR (progressive swift step 2 right AND faydown cloak))))))",
             "mode": "expression",
             "dnf": [
               [
@@ -115175,7 +115184,7 @@
               ],
               [
                 "capability:clawline:right:1",
-                "capability:dash:none",
+                "capability:dash:right",
                 "capability:faydown-cloak"
               ]
             ],
@@ -116112,7 +116121,7 @@
           "source_node_id": "wisp-thicket/wisp-thicket-shaft#middle-wisp-platform",
           "target_node_id": "wisp-thicket/wisp-thicket-shaft#top",
           "requirement": {
-            "raw": "(cling grip left AND (faydown cloak OR (spike pogo AND (clawline left x 1 OR sharpdart OR ((easy beast pogo AND ledge grab AND cbt damage boost off wisp) OR medium shaman pogo))))) OR (faydown cloak AND silk soar)",
+            "raw": "(cling grip left AND (faydown cloak OR (spike pogo AND (clawline left x 1 OR sharpdart OR ((easy beast pogo AND ledge grab left AND cbt damage boost off wisp) OR medium shaman pogo))))) OR (faydown cloak AND silk soar)",
             "mode": "expression",
             "dnf": [
               [
@@ -116133,7 +116142,7 @@
                 "capability:cling-grip:left",
                 "capability:spike-pogo",
                 "capability:crest-pogo:beast:easy",
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "technique:damage-boost:Wisp:cbt"
               ],
               [
@@ -116582,12 +116591,12 @@
           "source_node_id": "wisp-thicket/wisp-thicket-bench#bench",
           "target_node_id": "wisp-thicket/wisp-thicket-bench#left",
           "requirement": {
-            "raw": "(intended [hunter, wanderer, reaper, beast, architect, witch, shaman] pogo AND (progressive swift step 2 OR clawline left x 2 OR sharpdart x 2 OR faydown cloak OR (ledge grab left AND (progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo)))) OR (medium [hunter, wanderer, reaper, beast, shaman, witch] pogo AND ((progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo)))",
+            "raw": "(intended [hunter, wanderer, reaper, beast, architect, witch, shaman] pogo AND (progressive swift step 2 left OR clawline left x 2 OR sharpdart x 2 OR faydown cloak OR (ledge grab left AND (progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo)))) OR (medium [hunter, wanderer, reaper, beast, shaman, witch] pogo AND ((progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo)))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:crest-pogo:hunter:intended",
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:hunter:intended",
@@ -116628,7 +116637,7 @@
               ],
               [
                 "capability:crest-pogo:wanderer:intended",
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:wanderer:intended",
@@ -116669,7 +116678,7 @@
               ],
               [
                 "capability:crest-pogo:reaper:intended",
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:reaper:intended",
@@ -116710,7 +116719,7 @@
               ],
               [
                 "capability:crest-pogo:beast:intended",
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:beast:intended",
@@ -116751,7 +116760,7 @@
               ],
               [
                 "capability:crest-pogo:architect:intended",
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:architect:intended",
@@ -116792,7 +116801,7 @@
               ],
               [
                 "capability:crest-pogo:witch:intended",
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:witch:intended",
@@ -116833,7 +116842,7 @@
               ],
               [
                 "capability:crest-pogo:shaman:intended",
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:shaman:intended",
@@ -118275,7 +118284,7 @@
           "source_node_id": "wisp-thicket/wisp-thicket-cave#silver-room",
           "target_node_id": "wisp-thicket/wisp-thicket-cave#middle-platform",
           "requirement": {
-            "raw": "spike pogo OR clawline right x 1  OR sharpdart x 1 OR faydown cloak OR progressive swift step 2 OR (progressive swift step 1 AND ledge grab right) OR (drifters cloak AND cling grip right AND proficient movement)",
+            "raw": "spike pogo OR clawline right x 1  OR sharpdart x 1 OR faydown cloak OR progressive swift step 2 right OR (progressive swift step 1 AND ledge grab right) OR (drifters cloak AND cling grip right AND proficient movement)",
             "mode": "expression",
             "dnf": [
               [
@@ -118291,7 +118300,7 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:right"
               ],
               [
                 "capability:sprint:none",
@@ -173344,17 +173353,20 @@
           "source_node_id": "choral-chambers/choral-chambers-east-to-west#left-side",
           "target_node_id": "choral-chambers/choral-chambers-east-to-west#right-side",
           "requirement": {
-            "raw": "easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace",
+            "raw": "easy pogo off [cogworker, Choir flyer] OR clawline right OR ledge grab either OR faydown cloak OR spike pogo OR easy scuttlebrace OR dash right OR easy [plasmium,voltvessels,thread storm,rune rage] stall OR flea brew OR easy beast pogo OR sharpdart",
             "mode": "expression",
             "dnf": [
               [
                 "capability:enemy-type-pogo:Song Automaton Fly:easy"
               ],
               [
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
+              ],
+              [
                 "capability:clawline:right:1"
               ],
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:either"
               ],
               [
                 "capability:faydown-cloak"
@@ -173363,7 +173375,31 @@
                 "capability:spike-pogo"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:dash:right"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "capability:stall:thread-storm:easy:1"
+              ],
+              [
+                "capability:stall:rune-rage:easy:1"
+              ],
+              [
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:sharpdart:1"
               ]
             ],
             "unresolved_reasons": []
@@ -173381,17 +173417,23 @@
           "source_node_id": "choral-chambers/choral-chambers-east-to-west#right-side",
           "target_node_id": "choral-chambers/choral-chambers-east-to-west#left-side",
           "requirement": {
-            "raw": "easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace",
+            "raw": "easy pogo off [cogworker, Choir flyer, Choir hornhead, Envoy] OR ledge grab either OR faydown cloak OR spike pogo OR easy scuttlebrace OR easy [beast,shaman] pogo OR easy [voltvessels, plasmium, flea brew] stall",
             "mode": "expression",
             "dnf": [
               [
                 "capability:enemy-type-pogo:Song Automaton Fly:easy"
               ],
               [
-                "capability:clawline:left:1"
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
               ],
               [
-                "capability:ledge-grab:none"
+                "capability:enemy-type-pogo:Pilgrim 02 Song:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Song Pilgrim 01:easy"
+              ],
+              [
+                "capability:ledge-grab:either"
               ],
               [
                 "capability:faydown-cloak"
@@ -173400,7 +173442,22 @@
                 "capability:spike-pogo"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "capability:stall:flea-brew:easy:1"
               ]
             ],
             "unresolved_reasons": []

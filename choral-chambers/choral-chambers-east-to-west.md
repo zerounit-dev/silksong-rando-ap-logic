@@ -23,8 +23,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left Side | Right Side | easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace |  | Verified | ✓ |  |
-| H | Horizontal | Right Side | Left Side | easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace |  | Verified | ✓ |  |
+| H | Horizontal | Left Side | Right Side | easy pogo off [cogworker, Choir flyer] OR clawline right OR ledge grab either OR faydown cloak OR spike pogo OR easy scuttlebrace OR dash right OR easy [plasmium,voltvessels,thread storm,rune rage] stall OR flea brew OR easy beast pogo OR sharpdart |  | Verified | ✓ |  |
+| H | Horizontal | Right Side | Left Side | easy pogo off [cogworker, Choir flyer, Choir hornhead, Envoy] OR ledge grab either OR faydown cloak OR spike pogo OR easy scuttlebrace OR easy [beast,shaman] pogo OR easy [voltvessels, plasmium, flea brew] stall |  | Verified | ✓ |  |
 
 ## Check Locations
 

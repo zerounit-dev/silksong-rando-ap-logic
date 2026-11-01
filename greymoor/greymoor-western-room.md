@@ -45,7 +45,7 @@
 | PG4 | platform gap 4 | wood corridor | upper section | nothing |  | Verified | ✓ |  |
 | PG4 | platform gap 4 | upper section | wood corridor | ledge grab left OR ledge grab right OR faydown cloak OR silk soar OR (medium enemy pogo AND prereq Silk Snipper 1) OR cling grip right OR cling grip left |  | Verified | ✓ |  |
 | PG5 | platform gap 5 | tiny platform | upper section | faydown cloak OR clawline left x 1 OR progressive swift step 1 left OR sharpdart x 1 OR ledge grab left OR easy [beast, hunter, architect, reaper] pogo OR medium shaman pogo |  | Verified | ✓ |  |
-| PG5 | platform gap 5 | upper section | tiny platform | faydown cloak OR clawline right x 2 OR sharpdart x 2 OR ((easy pogo off fluttermite AND (ACT 1 OR ACT 2)) AND (sharpdart x 1 OR clawline x 1)) OR progressive swift step 1 right  OR ledge grab right OR cling grip right OR easy beast pogo OR medium shaman pogo |  | Verified | ✓ |  |
+| PG5 | platform gap 5 | upper section | tiny platform | faydown cloak OR clawline right x 2 OR sharpdart x 2 OR ((easy pogo off fluttermite AND (ACT 1 OR ACT 2)) AND (sharpdart x 1 OR clawline right x 1)) OR progressive swift step 1 right  OR ledge grab right OR cling grip right OR easy beast pogo OR medium shaman pogo |  | Verified | ✓ |  |
 | F2 | fall 2 | tiny platform | middle section | nothing |  | Verified | ✓ |  |
 | F2 | fall 2 | middle section | tiny platform | silk soar |  | Verified | ✓ |  |
 

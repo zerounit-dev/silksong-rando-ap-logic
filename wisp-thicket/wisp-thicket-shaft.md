@@ -29,7 +29,7 @@
 | V2 | vertical 2 | low wisp platform | middle wisp platform | spike pogo OR drifters cloak OR progressive swift step 2 right OR faydown cloak OR clawline right x 1 OR sharpdart x 1 |  | Verified | ✓ |  |
 | V2 | vertical 2 | middle wisp platform | low wisp platform | (cling grip left AND (faydown cloak OR cbt damage boost off wisp) AND (spike pogo OR clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left)) OR (silk soar AND cling grip left AND (clawline left x 1 OR sharpdart x 1 OR drifters cloak OR (progressive swift step 2 left AND faydown cloak))) OR (faydown cloak AND spike pogo) |  | Verified | ✓ | the dmamage boost refers to the nuclear explosion from the summoned wisp by the lantern |
 | V3 | vertical hell 3 | Top | middle wisp platform | progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak |  | Verified | ✓ |  |
-| V3 | vertical hell 3 | middle wisp platform | Top | (cling grip left AND (faydown cloak OR (spike pogo AND (clawline left x 1 OR sharpdart OR ((easy beast pogo AND ledge grab AND cbt damage boost off wisp) OR medium shaman pogo))))) OR (faydown cloak AND silk soar) |  | Verified | ✓ |  |
+| V3 | vertical hell 3 | middle wisp platform | Top | (cling grip left AND (faydown cloak OR (spike pogo AND (clawline left x 1 OR sharpdart OR ((easy beast pogo AND ledge grab left AND cbt damage boost off wisp) OR medium shaman pogo))))) OR (faydown cloak AND silk soar) |  | Verified | ✓ |  |
 
 ## Check Locations
 

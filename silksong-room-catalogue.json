@@ -9250,7 +9250,7 @@
           "sourceSubroomReferenceText": "lil top",
           "destinationRoomReferenceText": "greymoor weaver shrine",
           "destinationTransitionAliasText": "B",
-          "requirements": "silk soar OR ledge grab OR faydown cloak OR cling grip right OR (ledge grab right AND (cling grip left OR ledge grab left OR easy [beast, shaman] pogo))",
+          "requirements": "silk soar OR ledge grab right OR faydown cloak OR cling grip right OR (ledge grab right AND (cling grip left OR ledge grab left OR easy [beast, shaman] pogo))",
           "notes": "",
           "sortOrder": 0,
           "isTodo": false,
@@ -9258,7 +9258,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T05:21:10.6255801Z",
-          "updatedUtc": "2026-10-22T07:17:53.9208439Z",
+          "updatedUtc": "2026-11-01T18:56:09.6476305Z",
           "isUnsafeArrival": false
         },
         {
@@ -9409,7 +9409,7 @@
           "friendlyName": "lake gap",
           "sourceSubroomReferenceText": "lower left section",
           "destinationSubroomReferenceText": "craw building lower left",
-          "requirements": "swim OR clawline x 3 OR ((progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 right AND (sharpdart x 1 OR clawline right x 2) AND faydown cloak) OR (progressive swift step 1 AND (clawline right x 1 OR sharpdart x 1) AND (drifters cloak)) OR cbt pogo off craw OR (hard pogo off craw AND faydown cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart x 1 OR clawline right x 1 OR progressive swift step 2 right)) OR prereq balloon lever IN greymoor craw nest ",
+          "requirements": "swim OR clawline right x 3 OR ((progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 right AND (sharpdart x 1 OR clawline right x 2) AND faydown cloak) OR (progressive swift step 1 AND (clawline right x 1 OR sharpdart x 1) AND (drifters cloak)) OR cbt pogo off craw OR (hard pogo off craw AND faydown cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart x 1 OR clawline right x 1 OR progressive swift step 2 right)) OR prereq balloon lever IN greymoor craw nest ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 121.80255889892578,
@@ -9420,7 +9420,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T11:11:06.4428817Z",
-          "updatedUtc": "2026-10-25T19:47:50.5424424Z"
+          "updatedUtc": "2026-11-01T19:01:13.3611691Z"
         },
         {
           "id": "bbfba08f-715d-4ceb-9426-cae645c5382d",
@@ -9428,7 +9428,7 @@
           "friendlyName": "lake gap",
           "sourceSubroomReferenceText": "craw building lower left",
           "destinationSubroomReferenceText": "lower left section",
-          "requirements": "swim OR clawline x 3 OR ((progressive swift step 2 left OR sharpdart x 1 OR clawline left x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 left AND (sharpdart x 1 OR clawline left x 1)  AND faydown cloak) OR (progressive swift step 1 AND (sharpdart x 1 OR clawline left x 1) AND (drifters cloak OR faydown cloak)) OR prereq balloon lever IN greymoor craw nest",
+          "requirements": "swim OR clawline left x 3 OR ((progressive swift step 2 left OR sharpdart x 1 OR clawline left x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 left AND (sharpdart x 1 OR clawline left x 1)  AND faydown cloak) OR (progressive swift step 1 AND (sharpdart x 1 OR clawline left x 1) AND (drifters cloak OR faydown cloak)) OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 121.80255889892578,
@@ -9439,7 +9439,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T11:11:38.8727094Z",
-          "updatedUtc": "2026-10-25T19:57:23.9976143Z"
+          "updatedUtc": "2026-11-01T19:01:09.1123654Z"
         },
         {
           "id": "4da627be-20ea-4869-88ef-7b8b54c6233b",
@@ -9656,7 +9656,7 @@
           "friendlyName": "gap 3",
           "sourceSubroomReferenceText": "stupid platform i hate",
           "destinationSubroomReferenceText": "flea room",
-          "requirements": "drifters cloak OR clawline x 2 OR progressive swift step 2 right OR (clawline right x 1 AND (cling grip right OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab right OR cling grip right OR sharpdart x 1)) OR medium scuttlebrace OR prereq balloon lever IN greymoor craw nest",
+          "requirements": "drifters cloak OR clawline right x 2 OR progressive swift step 2 right OR (clawline right x 1 AND (cling grip right OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab right OR cling grip right OR sharpdart x 1)) OR medium scuttlebrace OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 162.3025360107422,
@@ -9667,7 +9667,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T14:04:47.9248708Z",
-          "updatedUtc": "2026-10-25T03:10:47.6433958Z"
+          "updatedUtc": "2026-11-01T19:01:00.3759902Z"
         },
         {
           "id": "a81bbec7-87fa-4e40-99e6-dab7eca9a424",
@@ -9751,7 +9751,7 @@
           "friendlyName": "gap 5",
           "sourceSubroomReferenceText": "right top craw nest",
           "destinationSubroomReferenceText": "left top craw nest",
-          "requirements": "(progressive swift step 1 left AND faydown cloak AND (drifters cloak OR sharpdart x 1)) OR (clawline x 1 AND ((progressive swift step 2 left AND ledge grab left) OR (progressive swift step 1 left AND (medium beast pogo OR faydown cloak)) OR (faydown cloak AND (drifters cloak OR easy beast pogo)))) OR (progressive swift step 2 left AND faydown cloak AND flea brew) OR (sharpdart x 1 AND faydown cloak AND drifters cloak) OR (prereq balloon lever IN greymoor craw nest AND (clawline x 1 OR faydown cloak OR sharpdart x 1 OR (drifters cloak AND progressive swift step 1 left) OR progressive swift step 2 left))",
+          "requirements": "(progressive swift step 1 left AND faydown cloak AND (drifters cloak OR sharpdart x 1)) OR (clawline left x 1 AND ((progressive swift step 2 left AND ledge grab left) OR (progressive swift step 1 left AND (medium beast pogo OR faydown cloak)) OR (faydown cloak AND (drifters cloak OR easy beast pogo)))) OR (progressive swift step 2 left AND faydown cloak AND flea brew) OR (sharpdart x 1 AND faydown cloak AND drifters cloak) OR (prereq balloon lever IN greymoor craw nest AND (clawline left x 1 OR faydown cloak OR sharpdart x 1 OR (drifters cloak AND progressive swift step 1 left) OR progressive swift step 2 left))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 134.9197998046875,
@@ -9762,7 +9762,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-23T02:13:55.890907Z",
-          "updatedUtc": "2026-10-22T07:26:49.9310314Z"
+          "updatedUtc": "2026-11-01T19:00:50.1521743Z"
         },
         {
           "id": "4766d697-3934-4e6c-a9e4-076cbfd4c25c",
@@ -10017,7 +10017,7 @@
           "friendlyName": "spike lower",
           "sourceSubroomReferenceText": "upper craw nest",
           "destinationSubroomReferenceText": "spiked room",
-          "requirements": "((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever ",
+          "requirements": "((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 103.48405456542969,
@@ -10028,7 +10028,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T21:11:42.0219104Z",
-          "updatedUtc": "2026-10-23T06:53:53.2829481Z"
+          "updatedUtc": "2026-11-01T18:59:55.4407601Z"
         },
         {
           "id": "068a971c-0f79-47e5-89c1-af5cd8d26e4f",
@@ -10302,7 +10302,7 @@
           "friendlyName": "gap 6",
           "sourceSubroomReferenceText": "middle craw nest left",
           "destinationSubroomReferenceText": "stupid platform i hate",
-          "requirements": "(faydown cloak AND (clawline x 2 OR sharpdart x 2 OR (clawline x 1 AND (sharpdart x 1 OR (drifters cloak AND ((progressive swift step 1 AND ledge grab right) OR flea brew)))) OR (sharpdart x 1 AND drifters cloak AND ledge grab right AND (progressive swift step 1 OR flea brew)))) OR prereq balloon lever IN greymoor craw nest ",
+          "requirements": "(faydown cloak AND (clawline right x 2 OR sharpdart x 2 OR (clawline right x 1 AND (sharpdart x 1 OR (drifters cloak AND ((progressive swift step 1 AND ledge grab right) OR flea brew)))) OR (sharpdart x 1 AND drifters cloak AND ledge grab right AND (progressive swift step 1 OR flea brew)))) OR prereq balloon lever IN greymoor craw nest ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 123.31205749511719,
@@ -10313,7 +10313,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:31:48.39611Z",
-          "updatedUtc": "2026-10-23T07:21:39.7821059Z"
+          "updatedUtc": "2026-11-01T18:58:19.7160446Z"
         },
         {
           "id": "fd4303ed-8404-4756-a287-92630c8d8aea",
@@ -10321,7 +10321,7 @@
           "friendlyName": "gap 6",
           "sourceSubroomReferenceText": "stupid platform i hate",
           "destinationSubroomReferenceText": "middle craw nest left",
-          "requirements": "clawline x 2 OR sharpdart x 2 OR drifters cloak OR (faydown cloak AND (progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR (progressive swift step 1 AND (flea brew OR easy [hunter, beast, architect] pogo)))) OR ((clawline left x 1 OR sharpdart x 1) AND (easy beast pogo OR progressive swift step 1)) OR (easy beast pogo AND progressive swift step 2 left) OR prereq balloon lever IN greymoor craw nest",
+          "requirements": "clawline left x 2 OR sharpdart x 2 OR drifters cloak OR (faydown cloak AND (progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR (progressive swift step 1 AND (flea brew OR easy [hunter, beast, architect] pogo)))) OR ((clawline left x 1 OR sharpdart x 1) AND (easy beast pogo OR progressive swift step 1)) OR (easy beast pogo AND progressive swift step 2 left) OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 123.31205749511719,
@@ -10332,7 +10332,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:31:50.8163772Z",
-          "updatedUtc": "2026-10-23T07:31:54.4073471Z"
+          "updatedUtc": "2026-11-01T18:58:04.6102676Z"
         },
         {
           "id": "c6c5b522-babd-45c8-a7bc-2c8bef2fff82",
@@ -10416,7 +10416,7 @@
           "friendlyName": "gap 7",
           "sourceSubroomReferenceText": "middle craw nest",
           "destinationSubroomReferenceText": "flea room",
-          "requirements": "prereq balloon lever IN greymoor craw nest OR ((cling grip right OR medium scuttlebrace) AND (clawline x 2 OR (faydown cloak AND (sharpdart x 2  OR (drifters cloak AND (flea brew OR progressive swift step 1 right OR sharpdart x 1 OR clawline x 1)))) OR ((clawline x 1 OR sharpdart x 1) AND progressive swift step 2 right)))",
+          "requirements": "prereq balloon lever IN greymoor craw nest OR ((cling grip right OR medium scuttlebrace) AND (clawline right x 2 OR (faydown cloak AND (sharpdart x 2  OR (drifters cloak AND (flea brew OR progressive swift step 1 right OR sharpdart x 1 OR clawline right x 1)))) OR ((clawline right x 1 OR sharpdart x 1) AND progressive swift step 2 right)))",
           "notes": "im tired boss, placed scuttlebrace medium cuz i know some of this are between easy or very tight in timing but got no energy atm to test that",
           "enableAnnotation": true,
           "sceneUnitX": 162.70956420898438,
@@ -10427,7 +10427,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:36:56.7345586Z",
-          "updatedUtc": "2026-10-25T03:22:22.1649723Z"
+          "updatedUtc": "2026-11-01T18:57:43.1326935Z"
         },
         {
           "id": "442d9217-00e4-4ea2-8af5-c5772d2d75a6",
@@ -10435,7 +10435,7 @@
           "friendlyName": "gap 7",
           "sourceSubroomReferenceText": "flea room",
           "destinationSubroomReferenceText": "middle craw nest",
-          "requirements": "drifters cloak OR clawline x 2 OR sharpdart x 2 OR (progressive swift step 2 left AND faydown cloak) OR (progressive swift step 1 AND (clawline left x 1 OR sharpdart x 1 OR (faydown cloak AND flea brew))) OR prereq balloon lever IN greymoor craw nest",
+          "requirements": "drifters cloak OR clawline left x 2 OR sharpdart x 2 OR (progressive swift step 2 left AND faydown cloak) OR (progressive swift step 1 AND (clawline left x 1 OR sharpdart x 1 OR (faydown cloak AND flea brew))) OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 162.70956420898438,
@@ -10446,7 +10446,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:36:57.826579Z",
-          "updatedUtc": "2026-10-23T07:29:37.7159418Z"
+          "updatedUtc": "2026-11-01T18:57:27.7899733Z"
         },
         {
           "id": "ab26abe2-ba78-4354-a826-be81c30c1564",
@@ -10454,7 +10454,7 @@
           "friendlyName": "gap 8",
           "sourceSubroomReferenceText": "middle craw nest",
           "destinationSubroomReferenceText": "lower flea room",
-          "requirements": "(drifters cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR faydown cloak OR (easy beast pogo AND flea brew))) OR (progressive swift step 2 AND (clawline right x 1 OR sharpdart x 1)) OR (faydown cloak AND (clawline right x 2 OR sharpdart)) OR (prereq balloon lever IN greymoor craw nest AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR (faydown cloak AND (ledge grab right OR flea brew))))",
+          "requirements": "(drifters cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR faydown cloak OR (easy beast pogo AND flea brew))) OR (progressive swift step 2 right AND (clawline right x 1 OR sharpdart x 1)) OR (faydown cloak AND (clawline right x 2 OR sharpdart)) OR (prereq balloon lever IN greymoor craw nest AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR (faydown cloak AND (ledge grab right OR flea brew))))",
           "notes": "missing balloon reqs",
           "enableAnnotation": true,
           "sceneUnitX": 156.55931091308594,
@@ -10465,7 +10465,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-25T03:22:35.3969134Z",
-          "updatedUtc": "2026-10-25T04:02:28.4606194Z"
+          "updatedUtc": "2026-11-01T18:57:15.7382215Z"
         },
         {
           "id": "b4bb93ac-c30f-4b9c-b8e6-77367b2511de",
@@ -10473,7 +10473,7 @@
           "friendlyName": "gap 8",
           "sourceSubroomReferenceText": "lower flea room",
           "destinationSubroomReferenceText": "middle craw nest",
-          "requirements": "faydown cloak AND ((clawline left x 2 AND (sharpdart x 1 OR (drifters cloak AND ledge grab left))) OR (sharpdart x 2 AND progressive swift step 2 left AND ledge grab))",
+          "requirements": "faydown cloak AND ((clawline left x 2 AND (sharpdart x 1 OR (drifters cloak AND ledge grab left))) OR (sharpdart x 2 AND progressive swift step 2 left AND ledge grab left))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 156.55931091308594,
@@ -10484,7 +10484,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-25T03:22:36.3604181Z",
-          "updatedUtc": "2026-10-25T04:02:29.0248293Z"
+          "updatedUtc": "2026-11-01T18:57:11.2248675Z"
         },
         {
           "id": "c2543b36-75d3-4f7d-ab9b-405a42cb070c",
@@ -10682,7 +10682,7 @@
           "friendlyName": "lage gap 3",
           "sourceSubroomReferenceText": "verdania ledge",
           "destinationSubroomReferenceText": "craw building lower right",
-          "requirements": "faydown cloak OR drifters cloak OR clawline x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy [hunter, beast, architect] pogo OR (easy reaper pogo AND ledge grab left) OR swim OR prereq balloon lever IN greymoor craw nest",
+          "requirements": "faydown cloak OR drifters cloak OR clawline left x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy [hunter, beast, architect] pogo OR (easy reaper pogo AND ledge grab left) OR swim OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 209.92364501953125,
@@ -10693,7 +10693,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-25T16:04:29.9867906Z",
-          "updatedUtc": "2026-10-25T16:29:14.3679199Z"
+          "updatedUtc": "2026-11-01T18:56:59.9867913Z"
         },
         {
           "id": "89bd946b-d58c-4219-8a63-89dd664874b7",
@@ -10701,7 +10701,7 @@
           "friendlyName": "lage gap 4",
           "sourceSubroomReferenceText": "craw building roof",
           "destinationSubroomReferenceText": "verdania ledge",
-          "requirements": "drifters cloak OR clawline right x 2 OR sharpdart x 2 OR (faydown cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 OR (progressive swift step 1 AND (easy [beast, architect] pogo OR (easy reaper pogo AND ledge grab))))) OR (clawline right x 1 AND (progressive swift step 1 OR easy [hunter, beast, architect] pogo)) OR (sharpdart x 1 AND (easy [beast, hunter] pogo OR progressive swift step 1))",
+          "requirements": "drifters cloak OR clawline right x 2 OR sharpdart x 2 OR (faydown cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR (progressive swift step 1 AND (easy [beast, architect] pogo OR (easy reaper pogo AND ledge grab right))))) OR (clawline right x 1 AND (progressive swift step 1 OR easy [hunter, beast, architect] pogo)) OR (sharpdart x 1 AND (easy [beast, hunter] pogo OR progressive swift step 1))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 203.38818359375,
@@ -10712,7 +10712,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-25T16:04:40.0128338Z",
-          "updatedUtc": "2026-10-25T18:05:06.2997476Z"
+          "updatedUtc": "2026-11-01T18:56:33.3684777Z"
         },
         {
           "id": "22fac26d-b6bd-49b6-8646-79828e84d8cb",
@@ -45747,7 +45747,7 @@
           "friendlyName": "muckmaggot parkour",
           "sourceSubroomReferenceText": "middle section",
           "destinationSubroomReferenceText": "unstable platforms",
-          "requirements": "((swim OR (clawline right x 3 OR (clawline right x 2 AND (progressive swift step 2 right OR easy [beast, hunter, architect] pogo OR drifters cloak OR faydown cloak)) OR (clawline right x 1 AND (drifters cloak OR (progressive swift step 1 AND flea brew AND faydown cloak) OR (progressive swift step 2 AND faydown cloak))))))",
+          "requirements": "((swim OR (clawline right x 3 OR (clawline right x 2 AND (progressive swift step 2 right OR easy [beast, hunter, architect] pogo OR drifters cloak OR faydown cloak)) OR (clawline right x 1 AND (drifters cloak OR (progressive swift step 1 AND flea brew AND faydown cloak) OR (progressive swift step 2 right AND faydown cloak))))))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 231.32591247558594,
@@ -45758,7 +45758,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-27T21:22:01.6678478Z",
-          "updatedUtc": "2026-10-27T22:03:42.6237608Z"
+          "updatedUtc": "2026-11-01T19:05:48.1575496Z"
         },
         {
           "id": "b3dde204-cf17-4459-a15c-6948fd1cec4c",
@@ -47166,7 +47166,7 @@
           "annotationSceneUnitX": 33.50125,
           "annotationSceneUnitY": 26.9332237,
           "subroomReferenceText": "craw lower nest",
-          "requirements": "((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline x 1)) OR faydown cloak OR prereq balloon lever ",
+          "requirements": "((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1)) OR faydown cloak OR prereq balloon lever ",
           "notes": "",
           "locationType": "resource",
           "enableAnnotation": true,
@@ -47176,7 +47176,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-26T02:31:47.5922367Z",
-          "updatedUtc": "2026-10-22T01:34:17.9442475Z"
+          "updatedUtc": "2026-11-01T19:05:29.7925346Z"
         },
         {
           "id": "5ed20daa-3419-4c18-9081-d7400f87bdb8",
@@ -47191,7 +47191,7 @@
           "annotationSceneUnitX": 31.991251,
           "annotationSceneUnitY": 25.6435375,
           "subroomReferenceText": "craw lower nest",
-          "requirements": "((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline x 1)) OR faydown cloak OR prereq balloon lever ",
+          "requirements": "((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1)) OR faydown cloak OR prereq balloon lever ",
           "notes": "",
           "locationType": "resource",
           "enableAnnotation": true,
@@ -47201,7 +47201,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-26T02:42:57.4925673Z",
-          "updatedUtc": "2026-10-22T01:34:17.9442475Z"
+          "updatedUtc": "2026-11-01T19:05:32.7318127Z"
         },
         {
           "id": "931fb7f9-edd2-410f-b07c-b1e3022bfb7a",
@@ -55798,7 +55798,7 @@
           "sourceSubroomReferenceText": "upper shaft",
           "destinationRoomReferenceText": "pimpillo room",
           "destinationTransitionAliasText": "D",
-          "requirements": "prereq vine wall AND (silk soar OR cling grip OR easy scuttlebrace)",
+          "requirements": "prereq vine wall AND (silk soar OR cling grip left OR easy scuttlebrace)",
           "notes": "",
           "sortOrder": 2,
           "isTodo": false,
@@ -55806,7 +55806,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-02T21:43:18.169332Z",
-          "updatedUtc": "2026-10-14T01:08:28.6214108Z",
+          "updatedUtc": "2026-11-01T19:05:09.0512892Z",
           "isUnsafeArrival": false
         }
       ],
@@ -56282,7 +56282,7 @@
           "friendlyName": "water gap 1",
           "sourceSubroomReferenceText": "left section",
           "destinationSubroomReferenceText": "center section",
-          "requirements": "swim OR progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab right OR progressive swift step 1 right OR faydown cloak)) OR ((faydown cloak OR (flea brew AND cling grip)) AND progressive swift step 1 right)",
+          "requirements": "swim OR progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab right OR progressive swift step 1 right OR faydown cloak)) OR ((faydown cloak OR (flea brew AND ledge grab right)) AND progressive swift step 1 right)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 70.73564910888672,
@@ -56293,7 +56293,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-03T22:16:05.9365092Z",
-          "updatedUtc": "2026-10-16T22:00:51.7195366Z"
+          "updatedUtc": "2026-11-01T19:04:08.0903725Z"
         },
         {
           "id": "a3471476-ffa5-479a-8dc9-70d5778d28f8",
@@ -56301,7 +56301,7 @@
           "friendlyName": "water gap 2",
           "sourceSubroomReferenceText": "right section",
           "destinationSubroomReferenceText": "center section",
-          "requirements": "((Act 1 OR Act 2) AND (progressive swift step 1 left OR clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy beast pogo OR flea brew OR easy architect needle strike OR (cling grip left AND (easy [hunter, reaper, witch, architect, shaman] pogo OR swim)))) OR (ACT 3 AND ((cling grip AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR (drifters cloak AND (progressive swift step 1 left OR flea brew)))) OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 1 left OR (ledge grab left AND drifters cloak))) OR (silk soar AND ((Clawline left x 2 AND ledge grab left)  OR (clawline left x 1 AND (progressive swift step 2 left OR drifters cloak)))))) ",
+          "requirements": "((Act 1 OR Act 2) AND (progressive swift step 1 left OR clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy beast pogo OR flea brew OR easy architect needle strike OR (cling grip left AND (easy [hunter, reaper, witch, architect, shaman] pogo OR swim)))) OR (ACT 3 AND ((cling grip left AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR (drifters cloak AND (progressive swift step 1 left OR flea brew)))) OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 1 left OR (ledge grab left AND drifters cloak))) OR (silk soar AND ((Clawline left x 2 AND ledge grab left)  OR (clawline left x 1 AND (progressive swift step 2 left OR drifters cloak)))))) ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 127.58282470703125,
@@ -56312,7 +56312,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-03T22:24:06.2754473Z",
-          "updatedUtc": "2026-10-25T20:22:34.683098Z"
+          "updatedUtc": "2026-11-01T19:04:18.5013139Z"
         },
         {
           "id": "2d15884d-fc2d-45c0-9e7b-863a87cf374c",
@@ -83828,7 +83828,7 @@
           "friendlyName": "vertical hell 3",
           "sourceSubroomReferenceText": "middle wisp platform",
           "destinationSubroomReferenceText": "Top",
-          "requirements": "(cling grip left AND (faydown cloak OR (spike pogo AND (clawline left x 1 OR sharpdart OR ((easy beast pogo AND ledge grab AND cbt damage boost off wisp) OR medium shaman pogo))))) OR (faydown cloak AND silk soar)",
+          "requirements": "(cling grip left AND (faydown cloak OR (spike pogo AND (clawline left x 1 OR sharpdart OR ((easy beast pogo AND ledge grab left AND cbt damage boost off wisp) OR medium shaman pogo))))) OR (faydown cloak AND silk soar)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": null,
@@ -83839,7 +83839,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-27T20:50:20.4720963Z",
-          "updatedUtc": "2026-10-28T01:53:08.3853636Z"
+          "updatedUtc": "2026-11-01T18:55:15.2173137Z"
         }
       ],
       "checks": [
@@ -94160,7 +94160,7 @@
           "friendlyName": "upper path",
           "sourceSubroomReferenceText": "Bench",
           "destinationSubroomReferenceText": "Left",
-          "requirements": "(intended [hunter, wanderer, reaper, beast, architect, witch, shaman] pogo AND (progressive swift step 2 OR clawline left x 2 OR sharpdart x 2 OR faydown cloak OR (ledge grab left AND (progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo)))) OR (medium [hunter, wanderer, reaper, beast, shaman, witch] pogo AND ((progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo)))",
+          "requirements": "(intended [hunter, wanderer, reaper, beast, architect, witch, shaman] pogo AND (progressive swift step 2 left OR clawline left x 2 OR sharpdart x 2 OR faydown cloak OR (ledge grab left AND (progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo)))) OR (medium [hunter, wanderer, reaper, beast, shaman, witch] pogo AND ((progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo)))",
           "notes": "intended when hitting the red ball once skip when hitting ball like 3 or more times to move it and skip the ledge grab",
           "enableAnnotation": true,
           "sceneUnitX": 28.970470428466797,
@@ -94171,7 +94171,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-26T18:44:08.4300981Z",
-          "updatedUtc": "2026-10-26T19:22:32.0251365Z"
+          "updatedUtc": "2026-11-01T19:04:56.677566Z"
         }
       ],
       "checks": [
@@ -154449,7 +154449,7 @@
           "friendlyName": "climb",
           "sourceSubroomReferenceText": "middle section",
           "destinationSubroomReferenceText": "upper section",
-          "requirements": "((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR cling grip OR medium scuttlebrace",
+          "requirements": "((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR medium scuttlebrace OR (cling grip left AND (progressive swift step 1 OR sharpdart x 1 OR clawline left x 1))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 66.75825500488281,
@@ -154460,7 +154460,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T07:15:26.1164607Z",
-          "updatedUtc": "2026-10-22T00:03:33.9596133Z"
+          "updatedUtc": "2026-11-01T19:03:39.2951893Z"
         },
         {
           "id": "d9133ae7-6dde-4b40-bb20-dff08031d3f2",
@@ -158480,7 +158480,7 @@
           "friendlyName": "spike 2",
           "sourceSubroomReferenceText": "silver room",
           "destinationSubroomReferenceText": "middle platform",
-          "requirements": "spike pogo OR clawline right x 1  OR sharpdart x 1 OR faydown cloak OR progressive swift step 2 OR (progressive swift step 1 AND ledge grab right) OR (drifters cloak AND cling grip right AND proficient movement)",
+          "requirements": "spike pogo OR clawline right x 1  OR sharpdart x 1 OR faydown cloak OR progressive swift step 2 right OR (progressive swift step 1 AND ledge grab right) OR (drifters cloak AND cling grip right AND proficient movement)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 38.03615951538086,
@@ -158491,7 +158491,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-27T18:32:04.3955494Z",
-          "updatedUtc": "2026-10-27T18:41:43.4865276Z"
+          "updatedUtc": "2026-11-01T19:06:03.8117305Z"
         },
         {
           "id": "b5705d66-9534-4fba-a331-84cfd31919c8",
@@ -213590,7 +213590,7 @@
           "friendlyName": "platform gap 2",
           "sourceSubroomReferenceText": "building roof",
           "destinationSubroomReferenceText": "middle right section",
-          "requirements": "silk soar OR (faydown cloak AND (progressive swift step 2 OR sharpdart OR (ledge grab right AND (progressive swift step 1 right OR clawline right x 1 OR drifters cloak OR medium [shaman, beast] pogo)))) OR (cling grip right AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR faydown cloak OR drifters cloak OR (progressive swift step 1 right AND flea brew)))",
+          "requirements": "silk soar OR (faydown cloak AND (progressive swift step 2 right OR sharpdart OR (ledge grab right AND (progressive swift step 1 right OR clawline right x 1 OR drifters cloak OR medium [shaman, beast] pogo)))) OR (cling grip right AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR faydown cloak OR drifters cloak OR (progressive swift step 1 right AND flea brew)))",
           "notes": "removed the craw enemy pogo since they dissapear when the crawbug clearing wish is completed",
           "enableAnnotation": true,
           "sceneUnitX": 78.87686920166016,
@@ -213601,7 +213601,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-04T04:14:26.4036579Z",
-          "updatedUtc": "2026-10-25T20:37:56.3967977Z"
+          "updatedUtc": "2026-11-01T19:04:34.2164068Z"
         },
         {
           "id": "ca84904a-1b29-4ead-8377-2c5c18d3bc8e",
@@ -246184,7 +246184,7 @@
           "friendlyName": "big gap 1",
           "sourceSubroomReferenceText": "lower hanging platforms",
           "destinationSubroomReferenceText": "left middle section",
-          "requirements": "drifters cloak OR (sharpdart x 3 AND progressive swift step 2) OR sharpdart x 4 OR clawline left x 4 OR (clawline left x 3 AND progressive swift step 2 left)",
+          "requirements": "drifters cloak OR (sharpdart x 3 AND progressive swift step 2 left) OR sharpdart x 4 OR clawline left x 4 OR (clawline left x 3 AND progressive swift step 2 left)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 58.88916778564453,
@@ -246195,7 +246195,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T21:37:36.7958591Z",
-          "updatedUtc": "2026-10-14T01:55:27.8458612Z"
+          "updatedUtc": "2026-11-01T19:04:44.7184347Z"
         },
         {
           "id": "3ee9a8f6-d79a-42ee-b3d8-5dede75e1ffd",
@@ -269871,7 +269871,7 @@
           "friendlyName": "platform gap 5",
           "sourceSubroomReferenceText": "upper section",
           "destinationSubroomReferenceText": "tiny platform",
-          "requirements": "faydown cloak OR clawline right x 2 OR sharpdart x 2 OR ((easy pogo off fluttermite AND (ACT 1 OR ACT 2)) AND (sharpdart x 1 OR clawline x 1)) OR progressive swift step 1 right  OR ledge grab right OR cling grip right OR easy beast pogo OR medium shaman pogo",
+          "requirements": "faydown cloak OR clawline right x 2 OR sharpdart x 2 OR ((easy pogo off fluttermite AND (ACT 1 OR ACT 2)) AND (sharpdart x 1 OR clawline right x 1)) OR progressive swift step 1 right  OR ledge grab right OR cling grip right OR easy beast pogo OR medium shaman pogo",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 64.77098846435547,
@@ -269882,7 +269882,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-10T07:01:17.8050383Z",
-          "updatedUtc": "2026-10-25T21:13:39.4719261Z"
+          "updatedUtc": "2026-11-01T18:52:59.9061853Z"
         },
         {
           "id": "5cc65b62-39a6-4d1c-9e87-feb2ab8dba73",
@@ -281946,19 +281946,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 160,
       "sceneMaxY": 229,
-      "sceneImagePixelsPerUnitX": 10.25,
-      "sceneImagePixelsPerUnitY": 5.240174672489083,
-      "sceneImagePixelOffsetX": 12068.350326816237,
-      "sceneImagePixelOffsetY": 8801.046684475443,
+      "sceneImagePixelsPerUnitX": 8,
+      "sceneImagePixelsPerUnitY": 8,
+      "sceneImagePixelOffsetX": 0,
+      "sceneImagePixelOffsetY": 0,
       "useSceneImage": true,
-      "useUploadedSceneImage": false,
-      "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "92e6c479957512297a4d4e4e6dd1de48d24ccb2fdc9207a107784bdf673822c3",
+      "useUploadedSceneImage": true,
+      "sceneImageOriginalHash": "412c6ab88fbd2790523d9c84f746c43c4c0af25f81145c105b555a1f6f743c96",
+      "sceneImageCropHash": "a755d690c7977457b15dd7ce366c0e0cc68e66729dc5a10ba8516fbf38ec431d",
       "sortOrder": 30,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-21T14:31:05.2837298Z",
-      "updatedUtc": "2026-09-24T03:32:56.4507382Z",
+      "updatedUtc": "2026-11-01T18:57:14.1434532Z",
       "subrooms": [
         {
           "id": "9b51cb50-b6c5-432c-b1ce-c7fd473bd4bd",
@@ -284180,8 +284180,8 @@
           "localPositionX": 56.5,
           "localPositionY": 15.5,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 57.023162841796875,
-          "annotationSceneUnitY": 15.594252586364746,
+          "annotationSceneUnitX": 56.5,
+          "annotationSceneUnitY": 15.5,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "Left Side",
           "destinationRoomReferenceText": "choral chambers below dining",
@@ -284194,7 +284194,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T02:05:03.3043688Z",
-          "updatedUtc": "2026-10-15T22:21:27.9317215Z",
+          "updatedUtc": "2026-11-01T19:02:51.8540964Z",
           "isUnsafeArrival": false
         },
         {
@@ -284261,7 +284261,7 @@
           "friendlyName": "Horizontal",
           "sourceSubroomReferenceText": "Left Side",
           "destinationSubroomReferenceText": "Right Side",
-          "requirements": "easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace",
+          "requirements": "easy pogo off [cogworker, Choir flyer] OR clawline right OR ledge grab either OR faydown cloak OR spike pogo OR easy scuttlebrace OR dash right OR easy [plasmium,voltvessels,thread storm,rune rage] stall OR flea brew OR easy beast pogo OR sharpdart",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 90.93344116210938,
@@ -284272,7 +284272,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T02:13:55.3173964Z",
-          "updatedUtc": "2026-10-17T19:04:06.8357972Z"
+          "updatedUtc": "2026-11-01T19:01:02.2138919Z"
         },
         {
           "id": "ce3a0e52-6b3a-4ad9-92f2-516d25e523b0",
@@ -284280,7 +284280,7 @@
           "friendlyName": "Horizontal",
           "sourceSubroomReferenceText": "Right Side",
           "destinationSubroomReferenceText": "Left Side",
-          "requirements": "easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace",
+          "requirements": "easy pogo off [cogworker, Choir flyer, Choir hornhead, Envoy] OR ledge grab either OR faydown cloak OR spike pogo OR easy scuttlebrace OR easy [beast,shaman] pogo OR easy [voltvessels, plasmium, flea brew] stall",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 90.93344116210938,
@@ -284291,7 +284291,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T02:14:13.6981361Z",
-          "updatedUtc": "2026-10-17T19:04:36.7193889Z"
+          "updatedUtc": "2026-11-01T19:01:31.5535862Z"
         }
       ],
       "checks": [

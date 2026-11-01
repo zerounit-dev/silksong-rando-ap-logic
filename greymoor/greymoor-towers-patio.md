@@ -41,7 +41,7 @@
 | PG1 | platform gap 1 | upper area | lower hanging platforms | nothing (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | upper area | east tower entrance | nothing (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | east tower entrance | upper area | cling grip right OR silk soar OR (easy scuttlebrace AND (clawline left x 2 OR (clawline left x 1 AND (sharpdart x 1 OR drifters cloak OR easy beast pogo OR (ledge grab left AND progressive swift step 2 left))))) |  | Verified | ✓ |  |
-| BG1 | big gap 1 | lower hanging platforms | left middle section | drifters cloak OR (sharpdart x 3 AND progressive swift step 2) OR sharpdart x 4 OR clawline left x 4 OR (clawline left x 3 AND progressive swift step 2 left) |  | Verified | ✓ |  |
+| BG1 | big gap 1 | lower hanging platforms | left middle section | drifters cloak OR (sharpdart x 3 AND progressive swift step 2 left) OR sharpdart x 4 OR clawline left x 4 OR (clawline left x 3 AND progressive swift step 2 left) |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | lower section | left middle section | ledge grab left OR   silk soar OR faydown cloak OR cling grip left OR easy scuttlebrace |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | left middle section | lower section | nothing (just fall) |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | left middle section | fluttermite place | ledge grab left OR cling grip left OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 3 OR drifters cloak OR silk soar OR faydown cloak OR easy beast pogo OR easy architect needle strike |  | Verified | ✓ |  |

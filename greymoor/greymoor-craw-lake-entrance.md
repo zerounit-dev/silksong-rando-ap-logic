@@ -33,7 +33,7 @@
 | ASP | air shaft platform | i should have added this before | lower left section | silk soar OR cling grip left OR easy pogo off craw OR (faydown cloak AND ledge grab left) |  | Verified | ✓ |  |
 | F | fall | lower right section | middle section | silk soar OR hard pogo off craw |  | Verified | ✓ |  |
 | F | fall | middle section | lower right section | nothing (just fall) |  | Verified | ✓ |  |
-| C | climb | middle section | upper section | ((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR cling grip OR medium scuttlebrace |  | Verified | ✓ |  |
+| C | climb | middle section | upper section | ((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR medium scuttlebrace OR (cling grip left AND (progressive swift step 1 OR sharpdart x 1 OR clawline left x 1)) |  | Verified | ✓ |  |
 | C | climb | upper section | middle section | nothing (just fall) |  | Verified | ✓ |  |
 | CD | closed door | the very top | craw lake middle entrance | prereq crawlake door |  | Verified | ✓ |  |
 | CD | closed door | craw lake middle entrance | the very top | prereq crawlake door |  | Verified | ✓ |  |
