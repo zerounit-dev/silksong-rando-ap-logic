@@ -37376,7 +37376,7 @@
         },
         {
           "id": "6f27232d-812c-4d07-92de-18d811846d34",
-          "friendlyName": "Buy Shakra\u0027s Maps! Sinner\u0027s Road Edition",
+          "friendlyName": "Sinner\u0027s Road - Map Purchase",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -37388,7 +37388,7 @@
           "annotationSceneUnitY": 40.08639144897461,
           "subroomReferenceText": "bench",
           "requirements": "none",
-          "notes": "Formerly: Map Purchase: Sinner\u0027s Road",
+          "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
           "sortOrder": 1,
@@ -37397,7 +37397,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:16:57.8809891Z",
-          "updatedUtc": "2026-10-25T04:34:51.5644583Z"
+          "updatedUtc": "2026-11-01T21:56:37.9570681Z"
         },
         {
           "id": "ba67de0c-f1ae-493e-970f-6e5131bcebe0",
@@ -73721,7 +73721,7 @@
           "annotationSceneUnitY": 43.185237884521484,
           "subroomReferenceText": "upper",
           "requirements": "Combat Requirements",
-          "notes": "Formerly: Boss: Disgraced Chef Lugoli",
+          "notes": "",
           "locationType": "boss",
           "enableAnnotation": true,
           "sortOrder": 0,
@@ -73730,7 +73730,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:29:08.0857695Z",
-          "updatedUtc": "2026-10-31T20:03:06.6037399Z"
+          "updatedUtc": "2026-11-01T21:55:53.8209154Z"
         },
         {
           "id": "86aafdfa-848a-414e-a0eb-ac42e799e6c1",
@@ -152809,16 +152809,16 @@
           "referenceId": "right plat",
           "friendlyName": "right plat",
           "notes": "",
-          "sceneUnitX": 289.2349853515625,
-          "sceneUnitY": 15.120322227478027,
-          "sceneUnitWidth": 24.961883544921875,
-          "sceneUnitHeight": 6.071806907653809,
+          "sceneUnitX": 290.1285400390625,
+          "sceneUnitY": 15.800861358642578,
+          "sceneUnitWidth": 24.2200927734375,
+          "sceneUnitHeight": 4.935930252075195,
           "enableAnnotation": true,
           "sortOrder": 7,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T00:28:39.8029669Z",
-          "updatedUtc": "2026-10-11T00:28:43.6544541Z"
+          "updatedUtc": "2026-11-01T21:54:58.4831795Z"
         },
         {
           "id": "7612637f-c8d1-421c-9ce2-804cffed2382",
@@ -153423,6 +153423,44 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-17T03:57:48.2801427Z",
           "updatedUtc": "2026-10-25T02:01:38.3350898Z"
+        },
+        {
+          "id": "0322332b-b5f0-4473-be3e-16da9e07c7de",
+          "alias": "RPD",
+          "friendlyName": "right plat to door",
+          "sourceSubroomReferenceText": "right plat",
+          "destinationSubroomReferenceText": "right door",
+          "requirements": "ledge grab right OR cling grip right OR faydown cloak OR clawline right OR sharpdart OR dash OR easy beast pogo",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 327.911865234375,
+          "sceneUnitY": 18.320035934448242,
+          "sortOrder": 22,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-01T21:58:32.0913491Z",
+          "updatedUtc": "2026-11-01T22:01:00.336929Z"
+        },
+        {
+          "id": "f1485ed3-5eb8-4729-8fe7-6e5310cc3402",
+          "alias": "RPD",
+          "friendlyName": "right plat to door",
+          "sourceSubroomReferenceText": "right door",
+          "destinationSubroomReferenceText": "right plat",
+          "requirements": "none",
+          "notes": "Can be done with regular pogos",
+          "enableAnnotation": true,
+          "sceneUnitX": 327.911865234375,
+          "sceneUnitY": 18.320035934448242,
+          "sortOrder": 23,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-01T21:58:36.0190984Z",
+          "updatedUtc": "2026-11-01T22:01:02.0536999Z"
         }
       ],
       "checks": [
@@ -153464,7 +153502,7 @@
           "annotationSceneUnitX": 14.89747142791748,
           "annotationSceneUnitY": 9.273120880126953,
           "subroomReferenceText": "left area",
-          "requirements": "attack up AND (swim OR clawline left OR sharpdart (run AND drifter\u0027s cloak))",
+          "requirements": "attack up AND (swim OR clawline left OR sharpdart OR (run AND drifter\u0027s cloak))",
           "notes": "Formerly: Shell Shard Cache: Sinner\u2019s Road #7",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -153474,7 +153512,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:13:40.3104231Z",
-          "updatedUtc": "2026-10-29T01:53:15.7983951Z"
+          "updatedUtc": "2026-11-01T21:53:56.6220323Z"
         },
         {
           "id": "13246f9a-a98b-4803-854c-e2a30f8ddb15",
@@ -153563,7 +153601,7 @@
           "localPositionZ": null,
           "annotationSceneUnitX": 304.26251220703125,
           "annotationSceneUnitY": 16.019121170043945,
-          "subroomReferenceText": "right door",
+          "subroomReferenceText": "right plat",
           "requirements": "Act 3",
           "notes": "",
           "locationType": "event",
@@ -153574,7 +153612,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-28T03:27:07.1576655Z",
-          "updatedUtc": "2026-10-11T00:28:29.6593779Z"
+          "updatedUtc": "2026-11-01T21:55:28.392946Z"
         },
         {
           "id": "6d40805f-f98b-480c-adaf-6d976149c1c2",
@@ -231209,7 +231247,7 @@
       "checks": [
         {
           "id": "6f60da61-44ad-4350-97e8-5373bdaa1c38",
-          "friendlyName": "Shakra Sells The Best Map In The Game (It\u0027s Bilewater)",
+          "friendlyName": "Bilewater - Map Purchase",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -231221,7 +231259,7 @@
           "annotationSceneUnitY": 7.210719108581543,
           "subroomReferenceText": "",
           "requirements": "none",
-          "notes": "Formerly: Bilewater - Map Purchase",
+          "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
           "sortOrder": 0,
@@ -231230,7 +231268,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:47:23.3928213Z",
-          "updatedUtc": "2026-11-01T19:14:49.9717926Z"
+          "updatedUtc": "2026-11-01T21:56:27.0881099Z"
         },
         {
           "id": "8de83403-bfb0-46cc-be35-db7eb4ee8cef",

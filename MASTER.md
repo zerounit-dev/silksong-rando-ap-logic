@@ -13126,7 +13126,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosaries Looking Over The Sinner's Bench | door | Silk soar OR (Faydown AND cling grip right) |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #8 |
-| 2 | Buy Shakra's Maps! Sinner's Road Edition | bench | none |  | Verified | collectible | ✓ | Formerly: Map Purchase: Sinner's Road |
+| 2 | Sinner's Road - Map Purchase | bench | none |  | Verified | collectible | ✓ |  |
 | 3 | Please Help Me Fix This Bench, Shakra | bench | Spend 40 Rosaries AND complete Unclogging The Overly Complicated Bench |  | Verified | bench | ✓ | Formerly: Sinner's Road Bench |
 | 4 | Craw Summons | bench | Craw Summons Ready |  | Verified | collectible |  |  |
 | 5 | Unclogging The Overly Complicated Bench | end | break vines right |  | Verified | blockade | ✓ | Formerly: Sinner's Road Bench |
@@ -13169,7 +13169,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Disgraced Chef Lugoli | upper | Combat Requirements |  | Verified | boss | ✓ | Formerly: Boss: Disgraced Chef Lugoli |
+| 1 | Boss: Disgraced Chef Lugoli | upper | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | Unlock the Kitchen Deadbolt | lower | hit switch up OR hit switch left |  | Verified | switch | ✓ | Formerly: Sinner's Road Chef's Kitchen Door Switch |
 | 3 | Makenna, the Roachserver | upper | none |  | Verified | enemy | ✓ | Formerly: Roachserver 1 |
 | 4 | Eden, the Roachserver | upper | none |  | Verified | enemy | ✓ | Formerly: Roachserver 2 |
@@ -13497,16 +13497,18 @@ this room has a few disabled battle scenes which is why there are so many disabl
 | MRK | mid to right keep | right keeper plat | middle area | none |  | Verified | ✓ | Just pogoing them spikey ball pendulums thingermajingers |
 | MKR | mid keeper to right | right keeper plat | right plat | (easy beast pogo OR ledge grab right) AND (drifter's cloak OR clawline right OR sharpdart OR dash right) |  | Verified | ✓ |  |
 | MKR | mid keeper to right | right plat | right keeper plat | (proficient movement AND clawline left) OR ((ledge grab left OR clawline left OR dash left) AND ledge grab) OR (faydown cloak AND drifter's cloak) |  | Verified | ✓ |  |
+| RPD | right plat to door | right plat | right door | ledge grab right OR cling grip right OR faydown cloak OR clawline right OR sharpdart OR dash OR easy beast pogo |  | Verified | ✓ |  |
+| RPD | right plat to door | right door | right plat | none |  | Verified | ✓ | Can be done with regular pogos |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Left Shards In the Hall of the Spike Swingers | left area | swim AND attack up |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #6 |
-| 2 | Right Shards In the Hall of the Spike Swingers | left area | attack up AND (swim OR clawline left OR sharpdart (run AND drifter's cloak)) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #7 |
+| 2 | Right Shards In the Hall of the Spike Swingers | left area | attack up AND (swim OR clawline left OR sharpdart OR (run AND drifter's cloak)) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #7 |
 | 3 | That Chest In the Halls of the Spike Swingers That's RIGHT THERE | chest plat | none |  | Verified | collectible | ✓ | Formerly: Sinner's Road - Rosary Chest |
 | 4 | The Lever Gettin' You Outta The North Hall | right door | hit switch up OR hit switch right OR hit switch left |  | Verified | switch | ✓ | Formerly: North Hall Door Switch |
-| 5 | Garmond and Zaza Act 3 Meeting Sinner's Road | right door | Act 3 |  | Verified | event | ✓ |  |
+| 5 | Garmond and Zaza Act 3 Meeting Sinner's Road | right plat | Act 3 |  | Verified | event | ✓ |  |
 | 6 | Secret Wall To The Mists Left | behind left wall | break wall right |  | Verified | blockade | ✓ |  |
 | 7 | Secret Wall To The Mists Right | behind left wall | break wall left |  | Verified | blockade | ✓ |  |
 | 8 | Secret Wall Logic | behind left wall | complete Secret Wall to The Mists Left OR complete Secret Wall to The Mists Right |  | Verified | logic-point | ✓ |  |
@@ -20070,7 +20072,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shakra Sells The Best Map In The Game (It's Bilewater) |  | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Map Purchase |
+| 1 | Bilewater - Map Purchase |  | none |  | Verified | collectible | ✓ |  |
 | 2 | Dave, The Covetous Pilgrim Who Was Also Looking For Shakra |  | complete Boss: Groal the Great IN Bilewater Groal Arena |  | Verified | enemy | ✓ | Formerly: Covetous Pilgrim 1 |
 
 <a name="room-bilewater--bilewater-sinner-s-entrance"></a>

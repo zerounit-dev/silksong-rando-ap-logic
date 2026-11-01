@@ -38,7 +38,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosaries Looking Over The Sinner's Bench | door | Silk soar OR (Faydown AND cling grip right) |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #8 |
-| 2 | Buy Shakra's Maps! Sinner's Road Edition | bench | none |  | Verified | collectible | ✓ | Formerly: Map Purchase: Sinner's Road |
+| 2 | Sinner's Road - Map Purchase | bench | none |  | Verified | collectible | ✓ |  |
 | 3 | Please Help Me Fix This Bench, Shakra | bench | Spend 40 Rosaries AND complete Unclogging The Overly Complicated Bench |  | Verified | bench | ✓ | Formerly: Sinner's Road Bench |
 | 4 | Craw Summons | bench | Craw Summons Ready |  | Verified | collectible |  |  |
 | 5 | Unclogging The Overly Complicated Bench | end | break vines right |  | Verified | blockade | ✓ | Formerly: Sinner's Road Bench |

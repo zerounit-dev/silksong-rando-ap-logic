@@ -140085,8 +140085,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-bench::collectible/buy-shakra-s-maps-sinner-s-road-edition",
-          "name": "Buy Shakra's Maps! Sinner's Road Edition",
+          "id": "location:sinner-s-road/sinner-s-road-bench::collectible/sinner-s-road-map-purchase",
+          "name": "Sinner's Road - Map Purchase",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -140099,7 +140099,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Formerly: Map Purchase: Sinner's Road",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -140365,7 +140365,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Formerly: Boss: Disgraced Chef Lugoli",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -144002,6 +144002,66 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-north-hall#right-plat>right-door@rpd",
+          "alias": "RPD",
+          "name": "right plat to door",
+          "source_node_id": "sinner-s-road/sinner-s-road-north-hall#right-plat",
+          "target_node_id": "sinner-s-road/sinner-s-road-north-hall#right-door",
+          "requirement": {
+            "raw": "ledge grab right OR cling grip right OR faydown cloak OR clawline right OR sharpdart OR dash OR easy beast pogo",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:clawline:right:1"
+              ],
+              [
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:dash:none"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-north-hall#right-door>right-plat@rpd",
+          "alias": "RPD",
+          "name": "right plat to door",
+          "source_node_id": "sinner-s-road/sinner-s-road-north-hall#right-door",
+          "target_node_id": "sinner-s-road/sinner-s-road-north-hall#right-plat",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Can be done with regular pogos",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "locations": [
@@ -144037,7 +144097,7 @@
           "has_persisted_state": true,
           "node_id": "sinner-s-road/sinner-s-road-north-hall#left-area",
           "requirement": {
-            "raw": "attack up AND (swim OR clawline left OR sharpdart (run AND drifter's cloak))",
+            "raw": "attack up AND (swim OR clawline left OR sharpdart OR (run AND drifter's cloak))",
             "mode": "expression",
             "dnf": [
               [
@@ -144051,6 +144111,11 @@
               [
                 "capability:needle:none:up",
                 "capability:sharpdart:1"
+              ],
+              [
+                "capability:needle:none:up",
+                "capability:sprint:none",
+                "capability:drifters-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -144117,7 +144182,7 @@
           "in_game_id": null,
           "location_type": "event",
           "has_persisted_state": true,
-          "node_id": "sinner-s-road/sinner-s-road-north-hall#right-door",
+          "node_id": "sinner-s-road/sinner-s-road-north-hall#right-plat",
           "requirement": {
             "raw": "Act 3",
             "mode": "expression",
@@ -201524,8 +201589,8 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-shakra-room::collectible/shakra-sells-the-best-map-in-the-game-it-s-bilewater",
-          "name": "Shakra Sells The Best Map In The Game (It's Bilewater)",
+          "id": "location:bilewater/bilewater-shakra-room::collectible/bilewater-map-purchase",
+          "name": "Bilewater - Map Purchase",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -201538,7 +201603,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Formerly: Bilewater - Map Purchase",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",

@@ -32,7 +32,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Disgraced Chef Lugoli | upper | Combat Requirements |  | Verified | boss | ✓ | Formerly: Boss: Disgraced Chef Lugoli |
+| 1 | Boss: Disgraced Chef Lugoli | upper | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | Unlock the Kitchen Deadbolt | lower | hit switch up OR hit switch left |  | Verified | switch | ✓ | Formerly: Sinner's Road Chef's Kitchen Door Switch |
 | 3 | Makenna, the Roachserver | upper | none |  | Verified | enemy | ✓ | Formerly: Roachserver 1 |
 | 4 | Eden, the Roachserver | upper | none |  | Verified | enemy | ✓ | Formerly: Roachserver 2 |
