@@ -96696,8 +96696,8 @@
           "annotationSceneUnitX": 6.567552089691162,
           "annotationSceneUnitY": 29.243350982666016,
           "subroomReferenceText": "upper left alcove",
-          "requirements": "none",
-          "notes": "get there fast - the ants will eat them (v0.4.2)",
+          "requirements": "( ledge grab left OR cling grip left ) AND ( ledge grab right AND cling grip right )",
+          "notes": "get there fast - the ants will eat them (v0.4.2)\n\nrequirements added to ensure hornet can get there in time",
           "locationType": "collectible",
           "enableAnnotation": true,
           "sortOrder": 0,
@@ -96706,7 +96706,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-09T21:46:58.9163298Z",
-          "updatedUtc": "2026-10-07T02:19:30.4746861Z"
+          "updatedUtc": "2026-11-01T02:25:32.6870938Z"
         },
         {
           "id": "0da964ef-6ab7-48b8-9aab-0329576c3b8d",
@@ -96721,8 +96721,8 @@
           "annotationSceneUnitX": 9.020061492919922,
           "annotationSceneUnitY": 30.265228271484375,
           "subroomReferenceText": "upper left alcove",
-          "requirements": "none",
-          "notes": "get there fast - the ants will eat them (v0.4.2)",
+          "requirements": "( ledge grab left OR cling grip left ) AND ( ledge grab right AND cling grip right )",
+          "notes": "get there fast - the ants will eat them (v0.4.2)\n\nrequirements added to ensure hornet can get there in time",
           "locationType": "collectible",
           "enableAnnotation": true,
           "sortOrder": 1,
@@ -96731,7 +96731,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-09T21:47:02.3262844Z",
-          "updatedUtc": "2026-10-07T02:19:33.0832898Z"
+          "updatedUtc": "2026-11-01T02:25:25.7034941Z"
         },
         {
           "id": "215b1b63-7f10-45bc-aa21-42b8c946ab9d",

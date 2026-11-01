@@ -6770,8 +6770,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache hunters march 1 | upper left alcove | none |  | Verified | collectible | ✓ | get there fast - the ants will eat them (v0.4.2) |
-| 2 | rosary cache hunters march 2 | upper left alcove | none |  | Verified | collectible | ✓ | get there fast - the ants will eat them (v0.4.2) |
+| 1 | rosary cache hunters march 1 | upper left alcove | ( ledge grab left OR cling grip left ) AND ( ledge grab right AND cling grip right ) |  | Verified | collectible | ✓ | get there fast - the ants will eat them (v0.4.2)  requirements added to ensure hornet can get there in time |
+| 2 | rosary cache hunters march 2 | upper left alcove | ( ledge grab left OR cling grip left ) AND ( ledge grab right AND cling grip right ) |  | Verified | collectible | ✓ | get there fast - the ants will eat them (v0.4.2)  requirements added to ensure hornet can get there in time |
 | 3 | rosary cache hunters march 3 | upper right platforms | none |  | Verified | collectible | ✓ |  |
 | 4 | rosary necklace hunters march | upper right platforms | none |  | Verified | collectible | ✓ | ants eat them before you can collect (v0.4.2) |
 | 5 | Skarr Stalker 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |

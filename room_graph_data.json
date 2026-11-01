@@ -70361,14 +70361,23 @@
           "has_persisted_state": true,
           "node_id": "hunter-s-march/hunters-march-early-pathway-west#upper-left-alcove",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "( ledge grab left OR cling grip left ) AND ( ledge grab right AND cling grip right )",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:ledge-grab:left",
+                "capability:ledge-grab:right",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:ledge-grab:right",
+                "capability:cling-grip:right"
+              ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "get there fast - the ants will eat them (v0.4.2)",
+          "notes": "get there fast - the ants will eat them (v0.4.2)\n\nrequirements added to ensure hornet can get there in time",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -70382,14 +70391,23 @@
           "has_persisted_state": true,
           "node_id": "hunter-s-march/hunters-march-early-pathway-west#upper-left-alcove",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "( ledge grab left OR cling grip left ) AND ( ledge grab right AND cling grip right )",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:ledge-grab:left",
+                "capability:ledge-grab:right",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:ledge-grab:right",
+                "capability:cling-grip:right"
+              ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "get there fast - the ants will eat them (v0.4.2)",
+          "notes": "get there fast - the ants will eat them (v0.4.2)\n\nrequirements added to ensure hornet can get there in time",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
