@@ -2,7 +2,7 @@
 
 **Game ID:** Bellway_02
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 
@@ -24,13 +24,13 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | E | Entrance | Entry | Bell Beast | Nothing. (Fall) |  | Verified | ✓ |  |
-| E | Entrance | Bell Beast | Entry | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| E | Entrance | Bell Beast | Entry | Ledge Grab right OR Cling Grip right OR Faydown Cloak OR Silk Soar OR ( have crest beast AND hard heal stall AND ((cling grip left AND easy plasmium stall) OR (medium plasmium stall x 3))) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bellway rosary lock | Bell Beast | Spend 40 rosaries |  | Verified | lock |  |  |
+| 1 | bellway rosary lock | Bell Beast | Spend 40 rosaries |  | Verified | lock | ✓ |  |
 | 2 | bellway breakable wall | Bell Beast | Break Wall Left |  | Verified | blockade | ✓ |  |
 | 3 | bellway deep docks | Bell Beast | unlock bellway rosary lock |  | Verified | travel |  |  |
 

@@ -29,9 +29,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lower Fort Sentry's Ration Bonds | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 11 |
-| 2 | Lower Fort Sentry's Personal Rosaries | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 12 |
-| 3 | Last Rosary Stipend - Queen's Final Orders "Live and Hunt for yourself" | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 13 |
+| 1 | Far Fields - Lower Fort Sentry's Rosaries Bonds | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 11 |
+| 2 | Far Fields - Lower Fort Sentry's Personal Rosaries | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 12 |
+| 3 | Far Fields Lower Fort Last Rosaries Stipend - Queen's Final Support | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 13 |
 | 4 | Fertid 1 | the pit of despair | none |  | Verified | enemy | ✓ |  |
 | 5 | Skarr Stalker 1 | the highest highs | Normal World Spawn |  | Verified | enemy | ✓ |  |
 

@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | climb 1 | main floor | flea rescue area | cling grip OR scuttlebrace OR silk soar OR ( faydown cloak AND ledge grab ) |  | Verified | ✓ |  |
+| CG | climb 1 | main floor | flea rescue area | cling grip either OR scuttlebrace OR silk soar OR ( ledge grab left AND (faydown cloak OR easy shaman pogo OR (easy reaper pogo AND reaper longclaw down AND easy [flea brew, thread storm, rune rage] stall))) |  | Verified | ✓ |  |
 | CG | climb 1 | flea rescue area | main floor | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -31,7 +31,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea pilgrims rest | flea rescue area | none |  | Verified | collectible | ✓ |  |
 | 2 | pilgrims rest church door switch | main floor | none (attack) |  | Verified | switch | ✓ | formerly just door switch |
-| 3 | pilgrims rest rhinogrund beast shard | main floor | defeat Rhinogrund pilgrim's rest church |  | Verified | collectible |  | this can be missed - if the switch is flipped and you leave the room (or die) without defeating the rhinogrund or collecting the beast shard, they become unavailable |
+| 3 | pilgrims rest rhinogrund beast shard | main floor | defeat Rhinogrund pilgrim's rest church |  | Verified | collectible |  |  |
 | 4 | Rhinogrund pilgrim's rest church | main floor | Normal World Spawn |  | Verified | miniboss | ✓ | formerly rhinogrund miniboss fight |
 
 ## Room Images

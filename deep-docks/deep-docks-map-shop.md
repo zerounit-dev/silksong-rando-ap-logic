@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_01
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit, Rebel, Gallos
 
 ## Subrooms
 
@@ -30,20 +30,22 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FLL | Floor <> Lower Left | Floor | lower left door | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| FLL | Floor <> Lower Left | Floor | lower left door | Ledge Grab either OR Cling Grip either OR easy Scuttlebrace OR Faydown Cloak OR Silk Soar OR easy [flea brew,plasmium, voltvessels] stall OR (have crest beast AND easy heal stall) OR easy beast needle strike OR easy shaman pogo |  | Verified | ✓ |  |
 | FLL | Floor <> Lower Left | lower left door | Floor | Nothing. (Fall) |  | Verified | ✓ |  |
-| LLC | Lower Left <> Center | lower left door | Center Left | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| LLC | Lower Left <> Center | lower left door | Center Left | ((Ledge Grab right OR cling grip right OR (easy shaman pogo AND easy scuttlebrace) OR (have crest beast AND hard heal stall AND easy plasmium stall)) AND (easy pogo off Flintstone Flyer OR ledge grab left OR cling grip left OR (have crest beast AND hard heal stall AND easy plasmium stall) OR (activate switch to lower lower platform AND (clawline left OR sharpdart OR run OR easy beast needle strike OR (easy beast pogo AND (easy [heal,flea brew] stall OR flea brew)) OR easy plasmium stall x 3 OR (easy scuttlebrace AND (easy shaman pogo OR easy [flea brew, rune rage] stall)))))) OR Faydown Cloak OR Silk Soar OR (have crest beast AND hard heal stall x 2 AND easy plasmium stall x 2) |  | Verified | ✓ |  |
 | LLC | Lower Left <> Center | Center Left | lower left door | Nothing. (Fall) |  | Verified | ✓ |  |
-| CRD | Center <> Lower Right Door | Center Left | Lower Right Door | Sprint OR Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Silk Soar OR ((Medium Voltvessels Stall OR Easy Architect Charge OR (Flea Brew AND Easy Flea Brew Stall)) AND (Ledge Grab OR Cling Grip)) OR Easy Beast Charge OR Easy Beast Pogo OR Activate switch to lower lower platform |  | Verified | ✓ |  |
-| CRD | Center <> Lower Right Door | Lower Right Door | Center Left | Activate switch to lower lower platform OR Sprint OR Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Silk Soar OR Easy Voltvessels Stall OR (Easy Flea Brew Stall AND Flea Brew) OR ((Hard Flintslate Stall OR Easy Hunter Pogo) AND (Ledge Grab OR Cling Grip)) OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR Easy Architect Pogo |  | Verified | ✓ |  |
-| CRS | Center <> Lower Right Switch | Center Left | Lower Right Switch | Nothing. (Fall) |  | Verified | ✓ |  |
-| CRS | Center <> Lower Right Switch | Lower Right Switch | Center Left | Invalid |  | Verified | ✓ |  |
-| SLL | Switch <> Lower Left | Lower Right Switch | lower left door | Silk Soar OR (Activate switch to lower lower platform AND (Cling Grip OR Ledge Grab OR Scuttlebrace OR Faydown Cloak)) OR ((Clawline OR Dash OR Sharpdart) AND (Ledge Grab OR Cling Grip OR Faydown Cloak)) OR Drifter's Cloak OR Sprint OR Easy Beast Crest Pogo OR Easy Beast Charge OR ((Easy Architect Charge OR Easy Voltvessels Stall) AND (Ledge Grab OR Cling Grip)) |  | Verified | ✓ |  |
-| SLL | Switch <> Lower Left | lower left door | Lower Right Switch | Dash OR Sprint OR Sharpdart OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace |  | Verified | ✓ |  |
+| LRD | Center <> Lower Right Door | lower left door | Lower Right Door | (easy shaman pogo AND easy scuttlebrace) OR faydown OR (Dash right AND (ledge grab right OR cling grip right)) OR ((ledge grab right OR cling grip right OR  (have crest beast AND hard heal stall AND easy plasmium stall)) AND (run OR Clawline right OR Sharpdart OR Drifter's Cloak OR easy beast pogo OR (easy flea brew stall AND flea brew))) OR Silk Soar OR Activate switch to lower lower platform |  | Verified | ✓ |  |
+| LRD | Center <> Lower Right Door | Lower Right Door | lower left door | run OR Dash left OR Clawline left OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Silk Soar OR Easy Voltvessels Stall OR (Easy Flea Brew Stall AND Flea Brew) OR ((Hard Flintslate Stall OR Easy Hunter Pogo) AND (Ledge Grab left OR Cling Grip left)) OR easy [architect,Beast] Pogo OR Activate switch to lower lower platform |  | Verified | ✓ |  |
+| SLL | Switch <> Lower Left | lower left door | Lower Right Switch | Dash right OR run OR Sharpdart OR Clawline right OR Faydown Cloak OR Drifter's Cloak OR easy Scuttlebrace OR easy beast pogo OR ledge grab right OR cling grip right OR easy beast pogo |  | Verified | ✓ |  |
+| SLL | Switch <> Lower Left | Lower Right Switch | lower left door | Silk Soar OR clawline left OR sharpdart OR (easy shaman pogo AND easy scuttlebrace) OR easy beast pogo OR faydown OR ((Easy Architect needle strike OR Easy plasmium Stall) AND (Ledge Grab left OR Cling Grip left))  OR (Activate switch to lower lower platform AND (Cling Grip left OR Ledge Grab left OR easy scuttlebrace)) |  | Verified | ✓ |  |
 | SCL | Upper Switch <> Center Left | Center Left | Upper Switch | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
 | SCL | Upper Switch <> Center Left | Upper Switch | Center Left | Nothing. (Fall) |  | Verified | ✓ |  |
-| UCL | Upper <> Center Left | Center Left | upper area | Faydown Cloak OR Silk Soar OR (Activate switch to upper lower platform  AND (Ledge Grab OR Cling Grip OR Easy Beast Charge OR Easy Shaman Pogo)) |  | Verified | ✓ |  |
+| UCL | Upper <> Center Left | Center Left | upper area | (cling grip right AND ((easy heal stall AND have crest beast) OR easy flea brew stall)) OR easy pogo off Flintstone Flyer OR Faydown Cloak OR Silk Soar OR (Activate switch to upper lower platform  AND (Ledge Grab right OR Cling Grip right OR Easy Beast Charge OR Easy Shaman Pogo OR easy plasmium stall x 3 OR (flea brew AND (ledge grab left OR cling grip left)) OR hard voltvessels stall OR (easy beast pogo AND easy heal stall))) |  | Verified | ✓ |  |
 | UCL | Upper <> Center Left | upper area | Center Left | Nothing. (Fall) |  | Verified | ✓ |  |
+| RR | right to right | Lower Right Door | Lower Right Switch | none |  | Verified | ✓ |  |
+| RR | right to right | Lower Right Switch | Lower Right Door | (Activate switch to lower lower platform AND (Cling Grip left OR Ledge Grab left OR easy scuttlebrace)) |  | Verified | ✓ |  |
+| CM | center to right | Center Left | Lower Right Door | none |  | Verified | ✓ |  |
+| ML | middle right to floor | Lower Right Door | Floor | none |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -53,9 +55,9 @@
 | 2 | pin purchase vendor pins | Floor | none |  | Verified | collectible | ✓ | shakra shop |
 | 3 | switch to upper lower platform | Upper Switch | Flip Switch Left |  | Verified | switch | ✓ | NOT CURRENTLY RANDOMIZED |
 | 4 | switch to lower lower platform | Lower Right Switch | Flip Switch Right |  | Verified | switch | ✓ | NOT CURRENTLY RANDOMIZED (doesn't currently really block anything since you can just jump above and fall down) |
-| 5 | Smelt Shoveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Flintstone Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Flintstone Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 5 | Smelt Shoveller 1 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Flintstone Flyer 1 | Center Left | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Flintstone Flyer 2 | Center Left | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

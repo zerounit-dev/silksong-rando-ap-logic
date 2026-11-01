@@ -48,9 +48,9 @@
 | 1 | gurr the outcast boss fight | trapper's arena | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | AP Minor Cache - Rosary Cache: Far Fields #19 | trapper's ledge | none |  | Verified | collectible | ✓ |  |
 | 3 | Grass Doll | trapper's ledge | none |  | Verified | collectible | ✓ |  |
-| 4 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Bone Hunter Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Fertid 1 | left exit area | none |  |  | enemy | ✓ |  |
+| 5 | Flapping Fertid 1 | left exit area | none |  |  | enemy | ✓ |  |
+| 6 | Bone Hunter Trapper 1 | trapper's arena | none |  |  | enemy | ✓ |  |
 
 ## Room Images
 

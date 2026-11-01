@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| AP | arena passage | entrance | arena | silk soar OR faydown cloak |  | Verified | ✓ |  |
-| AP | arena passage | arena | entrance | silk soar OR ( faydown cloak AND ledge grab ) |  | Verified | ✓ |  |
+| AP | arena passage | entrance | arena | silk soar OR faydown cloak OR cling grip right |  | Verified | ✓ |  |
+| AP | arena passage | arena | entrance | silk soar OR ( faydown cloak AND ledge grab either) OR cling grip either |  | Verified | ✓ |  |
 
 ## Check Locations
 

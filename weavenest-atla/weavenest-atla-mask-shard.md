@@ -34,7 +34,7 @@
 | CC | cheese cheater | mask shard spot | starting line | none (falling) |  | Verified | ✓ |  |
 | LP | lava platforms | starting line | first checkpoint | ( run OR dash right OR drifters OR faydown OR sharpdart  OR clawline right OR flea brew OR easy [beast, hunter, architect] pogo OR easy [architect] charge OR medium [wanderer] charge (high fall penalty) ) AND ( ( cling grip right ) OR ( faydown AND cling grip left ) ) |  | Verified | ✓ |  |
 | LG | lower gap | first checkpoint | second checkpoint | intended pogo off skullwing OR clawline left OR ( sharpdart AND dash left )  OR ( faydown AND ( dash left OR sharpdart OR drifters ) ) OR ( dash left AND drifters AND ( ledge grab left OR cling grip left ) ) |  | Verified | ✓ | to test: - stalls - needle strikes |
-| FD1 | faydown is overpowered 1 | first checkpoint | lone pogo fruit | faydown |  | Verified | ✓ |  |
+| FD1 | faydown is overpowered 1 | first checkpoint | lone pogo fruit | faydown OR easy [ reaper, shaman ] pogo |  | Verified | ✓ | courtesy of pilky in the AP server |
 | MGL | middle gap left | second checkpoint | lone pogo fruit | intended pogo off skullwing OR faydown OR clawline right OR easy beast pogo |  | Verified | ✓ | just getting from the small platform to the pogo fruit with or without souls |
 | FD2 | faydown is overpowered 2 | mask shard spot | second checkpoint | none (falling) |  | Verified | ✓ |  |
 | FD2 | faydown is overpowered 2 | second checkpoint | mask shard spot | silk soar OR ( faydown AND cling grip left ) |  | Verified | ✓ |  |
@@ -44,6 +44,7 @@
 | LSL | lower skullwing access left | second checkpoint | lower skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
 | USR | upper skullwing access right | cling wall | upper skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
 | USL | upper skullwing access left | mask shard spot | upper skullwings | dash right OR clawline right OR sharpdart |  | Verified | ✓ | just for skullwing enemy journal access |
+| WLT | why r u like this | lone pogo fruit | mask shard spot | (hard shaman pogo AND ( dash left OR clawline left OR sharpdart ) ) OR ( hard reaper pogo AND flea brew AND dash left AND hard heal stall ) |  | Verified | ✓ | pilky... why...  other stalls may work? i aint testing that - hero, 10/31 |
 
 ## Check Locations
 

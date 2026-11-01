@@ -19,7 +19,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | right exit area | [Far Fields Pinstress Attic (Bone_East_09b)](far-fields-pinstress-attic.md) | L | none |  | Verified | ✓ |  |
 | L | left1 | bellway | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R2 | none |  | Verified | ✓ |  |
-| BB | door_fastTravelExit | bellway | [Bellway Menu](../fast-travel/bellway-menu.md) | FF | unlock bellway far fields |  | Verified | ✓ |  |
+| BB | door_fastTravelExit | bellway | [Bellway Menu](../fast-travel/bellway-menu.md) | FF | unlock bellway far fields |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -39,14 +39,11 @@
 | 1 | bench | bellway | unlock bench rosary lock |  | Verified | bench | ✓ |  |
 | 2 | bench rosary lock | bellway | none |  | Verified | lock | ✓ |  |
 | 3 | bellway rosary lock | bellway | none |  | Verified | lock | ✓ |  |
-| 4 | bellway far fields | bellway | unlock bellway rosary lock |  | Verified | travel |  |  |
+| 4 | bellway far fields | bellway | unlock bellway rosary lock |  | Verified | travel | ✓ |  |
 | 5 | Craw Summons | bellway | craw summons ready |  | Verified | collectible |  |  |
 | 6 | vicious caranid 1 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 | 7 | vicious caranid 2 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 | 8 | vicious caranid 3 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
-| 9 | Vicious Caranid 4 |  |  |  |  | enemy | ✓ |  |
-| 10 | Vicious Caranid 5 |  |  |  |  | enemy | ✓ |  |
-| 11 | Vicious Caranid 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

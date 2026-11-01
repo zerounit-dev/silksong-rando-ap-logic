@@ -39,9 +39,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | flea rescue | flea rescue area | none |  | Verified | collectible | ✓ | break cage |
-| 2 | Fort Barracks Ration Rosaries | camp | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 16 |
-| 3 | Final Rosary Supplement - Queen's Final Chant "Hold fast, steel your mind against thread and my voice may yet reach you" | camp | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 17 |
+| 1 | Far Fields - Fort Flea Rescue - Flea | flea rescue area | none |  | Verified | collectible | ✓ | break cage; formerly flea rescue |
+| 2 | Far Fields - Fort Flea Rescue - Fort Barracks Ration Rosaries | camp | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 16 |
+| 3 | Far Fields - Fort Flea Rescue - Queen's Last Rosaries Stipend | camp | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 17 |
 | 4 | Fertid 1 | camp | none |  | Verified | enemy | ✓ |  |
 | 5 | Skarr Scout 1 | flea rescue area | none |  | Verified | enemy | ✓ |  |
 | 6 | Skarr Scout 2 | camp | none |  | Verified | enemy | ✓ |  |

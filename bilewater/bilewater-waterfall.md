@@ -29,7 +29,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | trails end wish granted | trails end | complete THE trails end wish promised |  | Verified | event | ✓ | cutscene needolin, not real needolin per Moriko - hero, 10/11 |
-| 2 | Throwing Ring | trails end | complete THE trails end wish promised |  | Verified | collectible | ✓ | Dash, clawline, and sharpdart are a bit precise and require you to get nearly the most possible height out of first and second jumps |
+| 2 | Throwing Ring | trails end | complete trails end wish granted |  | Verified | collectible | ✓ | Dash, clawline, and sharpdart are a bit precise and require you to get nearly the most possible height out of first and second jumps |
 
 ## Room Images
 

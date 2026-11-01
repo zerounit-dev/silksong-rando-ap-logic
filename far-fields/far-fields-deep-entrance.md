@@ -67,14 +67,14 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | right exit door switch | right exit area | flip switch down |  | Verified | switch | ✓ |  |
-| 2 | Skarr Gate Watch Spears | lower left alcove | none |  | Verified | collectible | ✓ | formely AP Minor Cache - Shell Shard Cache: Far Fields #4 |
-| 3 | Skarr Sentinel's Trap Shards | lower left alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #5 |
-| 4 | Cage Materials | plains upper left platform | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #6 |
-| 5 | Curveclaw Reserve | lower right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #7 |
-| 6 | Queen's Gate Sentry Funds | upper right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Rosary Cache: Far Fields #20 |
-| 7 | Bounty Rosary Stash - "To be paid in full to the Hunter who fells Gurr" | upper right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Rosary Cache: Far Fields #21 |
-| 8 | Last Beads - "Stand strong my child, forgive the burden I leave on you" | upper right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Rosary Cache: Far Fields #22 |
-| 9 | Queen's Proof of Hero | upper right alcove | none |  | Verified | collectible | ✓ | formerly far fields pale rosary necklace |
+| 2 | Far Fields - Deep Entrance Skarr Gate Watch Spears | lower left alcove | none |  | Verified | collectible | ✓ | formely AP Minor Cache - Shell Shard Cache: Far Fields #4 |
+| 3 | Far Fields - Deep Entrance Skarr Sentinel's Trap Shards | lower left alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #5 |
+| 4 | Far Fields - Deep Entrance -Cage Materials | plains upper left platform | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #6 |
+| 5 | Far Fields - Deep Entrance - Curveclaw Reserve | lower right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #7 |
+| 6 | Far Fields - Deep Entrance -Queen's Gate Sentry Funds | upper right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Rosary Cache: Far Fields #20 |
+| 7 | Far Fields - Deep Entrance -Bounty Rosary Stash - "To be paid in full to the Hunter who fells Gurr" | upper right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Rosary Cache: Far Fields #21 |
+| 8 | Far Fields - Deep Entrance -Last Beads - "Stand strong my child, forgive the burden I leave on you" | upper right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Rosary Cache: Far Fields #22 |
+| 9 | Far Fields - Deep Entrance -Queen's Pearls of Hero | upper right alcove | none |  | Verified | collectible | ✓ | formerly far fields pale rosary necklace |
 | 10 | Hardbone Elder 1ffde | plains | none |  | Verified | enemy | ✓ | shell shards |
 | 11 | Hardbone Hopper 1ffde | plains | none |  | Verified | enemy | ✓ | shell shards |
 | 12 | Hardbone Hopper 2ffde | plains | none |  | Verified | enemy | ✓ | shell shards |
