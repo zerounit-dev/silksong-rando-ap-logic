@@ -8,8 +8,8 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | upper |  |
-| S2 | lower |  |
+| S1 | upper | ✓ |
+| S2 | lower | ✓ |
 
 ## Room Transitions
 
@@ -21,14 +21,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | Upper to lower | upper | lower | none |  | Verified |  |  |
-| UL | Upper to lower | lower | upper | Silk soar OR cling grip |  | Verified |  |  |
+| UL | Upper to lower | upper | lower | none |  | Verified | ✓ |  |
+| UL | Upper to lower | lower | upper | Silk soar OR cling grip both |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Barbed Bracelet | lower | none |  | Verified | collectible |  |  |
+| 1 | Barbed Bracelet | lower | none |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

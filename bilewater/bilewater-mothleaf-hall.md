@@ -24,10 +24,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | left to center | left | center ground | swim OR (clawline OR enemy pogo) |  | Verified | ✓ |  |
-| LC | left to center | center ground | left | swim OR (clawline OR enemy pogo) |  | Verified | ✓ |  |
-| RC | right to center | right | center ground | (drifter's cloak OR faydown cloak OR clawline OR sharpdart) OR swim |  | Verified | ✓ |  |
-| RC | right to center | center ground | right | (drifter's cloak OR faydown cloak OR clawline OR sharpdart) OR swim |  | Verified | ✓ |  |
+| LC | left to center | left | center ground | (clawline right 2 OR sharpdart 2) OR swim OR (dash right AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline right)) OR (easy enemy pogo off Mothleaf Lagnia) |  | Verified | ✓ |  |
+| LC | left to center | center ground | left | (clawline left 2 OR sharpdart 2) OR swim OR (dash left AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline left)) OR (easy enemy pogo off Mothleaf Lagnia) |  | Verified | ✓ |  |
+| RC | right to center | right | center ground | run OR clawline left OR sharpdart OR (easy beast pogo AND ledge grab left) OR faydown cloak OR drifter's cloak |  | Verified | ✓ |  |
+| RC | right to center | center ground | right | (clawline right 2 OR sharpdart 2) OR swim OR easy beast pogo OR (dash right AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline right)) |  | Verified | ✓ |  |
 | RW | right to wall | right | behind wall | prereq Bilewater East - Breakable Wall |  | Verified | ✓ |  |
 | RW | right to wall | behind wall | right | prereq Bilewater East - Breakable Wall |  | Verified | ✓ |  |
 
@@ -35,7 +35,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater East - Memory Locket | right | none |  | Verified | collectible | ✓ |  |
+| 1 | Locket At The End of A LONG Hallway of Moths | right | none |  | Verified | collectible | ✓ | Formerly: Bilewater East - Memory Locket |
 | 2 | Bilewater East - Breakable Wall | behind wall | prereq Bilewater East Bench Left Exit Wall IN Bilewater East Bench |  | Verified | blockade | ✓ |  |
 | 3 | Mothleaf Lagnia 1 | center ground | none |  | Verified | enemy | ✓ |  |
 | 4 | Mothleaf Lagnia 2 | center ground | none |  | Verified | enemy | ✓ |  |

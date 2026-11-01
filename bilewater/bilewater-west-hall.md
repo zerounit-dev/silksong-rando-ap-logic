@@ -24,12 +24,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RM | right to mid | mid right | right | faydown cloak OR enemy pogo OR clawline OR sharpdart OR (run AND proficient movement) OR dash |  | Verified | ✓ |  |
-| RM | right to mid | right | mid right | faydown cloak OR drifter's cloak OR run OR sharpdart OR clawline OR enemy pogo OR swim OR scuttlebrace OR easy beast pogo |  | Verified | ✓ |  |
-| MLR | mid left to mid right | mid left | mid right | scuttlebrace OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR dash OR swim |  | Verified | ✓ |  |
+| LML | left to mid left | left | mid left | clawline OR sharpdart OR dash OR drifter's cloak OR (faydown cloak AND (run OR enemy pogo)) OR swim OR ((run OR proficient movement) AND easy beast pogo) |  | Verified | ✓ |  |
+| LML | left to mid left | mid left | left | clawline OR easy beast pogo OR (sharpdart AND proficient movement) OR (dash AND proficient movement) OR (faydown cloak AND (enemy pogo OR drifter's cloak)) |  | Verified | ✓ |  |
+| MLR | mid left to mid right | mid left | mid right | scuttlebrace OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR dash OR swim OR easy beast pogo |  | Verified | ✓ |  |
 | MLR | mid left to mid right | mid right | mid left | cling grip AND (clawline OR sharpdart OR (faydown cloak AND (scuttlebrace OR swim OR drifter's cloak OR enemy pogo))) |  | Verified | ✓ |  |
-| LML | left to mid left | left | mid left | clawline OR sharpdart OR dash OR drifter's cloak OR (faydown cloak AND (run OR enemy pogo)) OR swim |  | Verified | ✓ |  |
-| LML | left to mid left | mid left | left | clawline OR (sharpdart AND proficient movement) OR (dash AND proficient movement) OR (faydown cloak AND (enemy pogo OR drifter's cloak)) |  | Verified | ✓ |  |
+| RM | right to mid | mid right | right | faydown cloak OR enemy pogo OR clawline OR sharpdart OR (run AND proficient movement) OR dash OR easy beast pogo |  | Verified | ✓ |  |
+| RM | right to mid | right | mid right | faydown cloak OR drifter's cloak OR run OR sharpdart OR clawline OR enemy pogo OR swim OR scuttlebrace OR easy beast pogo |  | Verified | ✓ |  |
 
 ## Check Locations
 

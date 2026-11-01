@@ -22,9 +22,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Shell Shard Cache #5 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
-| 2 | Bilewater - Shell Shard Cache #6 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
-| 3 | Bilewater - Shell Shard Cache #7 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
+| 1 | First Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #5 |
+| 2 | Second Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #6 |
+| 3 | Third Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #7 |
 | 4 | Mothleaf Lagnia 1 |  | none |  | Verified | enemy | ✓ |  |
 | 5 | Mothleaf Lagnia 2 |  | none |  | Verified | enemy | ✓ |  |
 | 6 | Mothleaf Lagnia 3 |  | none |  | Verified | enemy | ✓ |  |

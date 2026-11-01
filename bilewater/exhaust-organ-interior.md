@@ -30,12 +30,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TE | top to elevator | top layer | elevator | complete Boss: Phantom |  | Verified | ✓ |  |
 | TE | top to elevator | elevator | top layer | complete Boss: Phantom |  | Verified | ✓ |  |
-| GBE | ground to broken elevator | ground floor | broken elevator | cling grip OR silk soar |  | Verified | ✓ |  |
+| GBE | ground to broken elevator | ground floor | broken elevator | (cling grip either AND complete Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar |  | Verified | ✓ |  |
 | GBE | ground to broken elevator | broken elevator | ground floor | complete Fix The Broken Elevator |  | Verified | ✓ |  |
 | GRC | ground to right column | ground floor | right column | cling grip |  | Verified | ✓ |  |
 | GRC | ground to right column | right column | ground floor | none |  | Verified | ✓ |  |
 | MRC | maze to right column | maze | right column | cling grip AND faydown cloak |  | Verified | ✓ |  |
-| MRC | maze to right column | right column | maze | cling grip |  | Verified | ✓ |  |
+| MRC | maze to right column | right column | maze | cling grip both OR (cling grip right AND (spike pogo AND (easy [reaper, architect, shaman] pogo OR faydown cloak))) OR (cling grip left AND (proficient movement OR (spike pogo AND easy [hunter, reaper, wanderer, witch, architect, shaman] pogo))) |  | Verified | ✓ |  |
 | MT | maze to top | maze | top layer | cling grip |  | Verified | ✓ |  |
 | MT | maze to top | top layer | maze | cling grip |  | Verified | ✓ |  |
 | GB | ground to bench room | ground floor | bench room | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
@@ -53,7 +53,7 @@
 | 4 | Boss: Phantom | top layer | ( dash OR run ) AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 5 | Phantom 1 | top layer | dash OR run |  | Verified | enemy | ✓ |  |
 | 6 | Drapefly 1 | ground floor | none |  | Verified | enemy | ✓ |  |
-| 7 | Drapefly 2 | right column | none |  | Verified | enemy | ✓ |  |
+| 7 | Drapefly 2 | ground floor | none |  | Verified | enemy | ✓ |  |
 | 8 | Drapefly 3 | maze | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images

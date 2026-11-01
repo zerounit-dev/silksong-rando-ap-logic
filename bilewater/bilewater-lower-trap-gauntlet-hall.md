@@ -30,28 +30,28 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LM | left to mid | left door plat | up left plat | swim OR dash OR run OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
+| LM | left to mid | left door plat | up left plat | swim OR run OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
 | LM | left to mid | up left plat | left door plat | swim OR run OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
-| MF | mid to flea | below flea | flea room | cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| MF | mid to flea | below flea | flea room | cling grip left OR (faydown cloak AND cling grip right) OR scuttlebrace |  | Verified | ✓ |  |
 | MF | mid to flea | flea room | below flea | none |  | Verified | ✓ |  |
 | MBR | mid to bottom right | below flea | bottom | break wall right |  | Verified | ✓ |  |
-| MBR | mid to bottom right | bottom | below flea | cling grip OR scuttlebrace |  | Verified | ✓ |  |
-| MRP | mid to right plat | below flea | right door plat | faydown cloak AND cling grip |  | Verified | ✓ |  |
+| MBR | mid to bottom right | bottom | below flea | cling grip either OR scuttlebrace |  | Verified | ✓ |  |
+| MRP | mid to right plat | below flea | right door plat | faydown cloak AND cling grip right |  | Verified | ✓ |  |
 | MRP | mid to right plat | right door plat | below flea | none |  | Verified | ✓ | falling |
-| WB | wall breakthrough | bottom | bottom right | break wall right |  | Verified | ✓ |  |
-| WB | wall breakthrough | bottom right | bottom | break wall left |  | Verified | ✓ |  |
-| UL | up to low | up left plat | low hall | (swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak) |  | Verified | ✓ |  |
-| UL | up to low | low hall | up left plat | cling grip OR scuttlebrace |  | Verified | ✓ |  |
-| LOM | low to mid | low hall | below flea | cling grip OR scuttlebrace |  | Verified | ✓ |  |
-| LOM | low to mid | below flea | low hall | swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
-| RT | right to top | right door plat | top plat | (faydown cloak AND (cling grip OR ledge grab)) OR (proficient movement AND scuttlebrace AND clawline) |  | Verified | ✓ |  |
+| WB | wall breakthrough | bottom | bottom right | break wall right AND (swim OR (proficient movement AND clawline right AND (faydown OR ledge grab right OR cling grip right))) |  | Verified | ✓ |  |
+| WB | wall breakthrough | bottom right | bottom | break wall left AND (swim OR (proficient movement AND faydown AND (clawline left OR sharpdart))) |  | Verified | ✓ |  |
+| UL | up to low | up left plat | low hall | (swim OR dash right OR scuttlebrace OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak) |  | Verified | ✓ |  |
+| UL | up to low | low hall | up left plat | cling grip left OR (faydown cloak AND cling grip right) OR scuttlebrace |  | Verified | ✓ |  |
+| LOM | low to mid | low hall | below flea | cling grip right OR (faydown cloak AND cling grip left) OR scuttlebrace |  | Verified | ✓ |  |
+| LOM | low to mid | below flea | low hall | swim OR dash left OR clawline left OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
+| RT | right to top | right door plat | top plat | (faydown cloak AND (cling grip either OR ledge grab either)) OR (proficient movement AND scuttlebrace AND clawline) OR (silk soar AND dash left) |  | Verified | ✓ |  |
 | RT | right to top | top plat | right door plat | none |  | Verified | ✓ | falling |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Bilehaven | flea room | break vines left |  | Verified | collectible | ✓ |  |
+| 1 | The Flea That Couldn't Make It Past All The Bilewater Traps | flea room | break vines left |  | Verified | collectible | ✓ | Formerly: Flea: Bilehaven |
 | 2 | Bilewater - Shell Shard Cache #1 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 3 | Bilewater - Shell Shard Cache #2 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 4 | Stilkin 1 | below flea | none |  | Verified | enemy | ✓ |  |

@@ -140303,14 +140303,14 @@
           "source_node_id": "sinner-s-road/sinner-s-road-chef-s-kitchen#basement",
           "target_node_id": "sinner-s-road/sinner-s-road-chef-s-kitchen#lower",
           "requirement": {
-            "raw": "scuttlebrace OR cling grip OR silk soar",
+            "raw": "scuttlebrace OR cling grip either OR silk soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:scuttlebrace:none"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
@@ -141259,24 +141259,19 @@
           "source_node_id": "sinner-s-road/sinner-s-road-hanging-cages#right-ledge",
           "target_node_id": "sinner-s-road/sinner-s-road-hanging-cages#shard-ledge",
           "requirement": {
-            "raw": "Faydown cloak OR silk soar OR (cling grip right AND enemy pogo AND (clawline right OR sharpdart))",
+            "raw": "(Faydown cloak AND (ledge grab either OR cling grip either)) OR silk soar",
             "mode": "expression",
             "dnf": [
               [
-                "capability:faydown-cloak"
+                "capability:faydown-cloak",
+                "capability:ledge-grab:either"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
-              ],
-              [
-                "capability:cling-grip:right",
-                "capability:enemy-pogo:none",
-                "capability:clawline:right:1"
-              ],
-              [
-                "capability:cling-grip:right",
-                "capability:enemy-pogo:none",
-                "capability:sharpdart:1"
               ]
             ],
             "unresolved_reasons": []
@@ -141314,31 +141309,35 @@
           "source_node_id": "sinner-s-road/sinner-s-road-hanging-cages#plat-above-upper-door",
           "target_node_id": "sinner-s-road/sinner-s-road-hanging-cages#shack",
           "requirement": {
-            "raw": "Clawline right x 5 OR ((Cling grip left OR silk soar) AND enemy pogo AND (drifter’s cloak OR sharpdart))",
+            "raw": "Clawline right 3 OR ((Cling grip left OR silk soar) AND (drifter’s cloak OR sharpdart 2 OR clawline right 2))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:right:5"
+                "capability:clawline:right:3"
               ],
               [
                 "capability:cling-grip:left",
-                "capability:enemy-pogo:none",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:cling-grip:left",
-                "capability:enemy-pogo:none",
-                "capability:sharpdart:1"
+                "capability:sharpdart:2"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:clawline:right:2"
               ],
               [
                 "capability:silk-soar",
-                "capability:enemy-pogo:none",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:silk-soar",
-                "capability:enemy-pogo:none",
-                "capability:sharpdart:1"
+                "capability:sharpdart:2"
+              ],
+              [
+                "capability:silk-soar",
+                "capability:clawline:right:2"
               ]
             ],
             "unresolved_reasons": []
@@ -141356,20 +141355,30 @@
           "source_node_id": "sinner-s-road/sinner-s-road-hanging-cages#shack",
           "target_node_id": "sinner-s-road/sinner-s-road-hanging-cages#plat-above-upper-door",
           "requirement": {
-            "raw": "Run left AND (faydown cloak OR clawline x 5 OR sharpdart)",
+            "raw": "(run AND (drifter's cloak OR clawline left OR sharpdart)) OR (dash AND faydown cloak) OR clawline left 2 OR sharpdart 2",
             "mode": "expression",
             "dnf": [
               [
-                "capability:sprint:left",
+                "capability:sprint:none",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:dash:none",
                 "capability:faydown-cloak"
               ],
               [
-                "capability:sprint:left",
-                "capability:clawline:none:5"
+                "capability:clawline:left:2"
               ],
               [
-                "capability:sprint:left",
-                "capability:sharpdart:1"
+                "capability:sharpdart:2"
               ]
             ],
             "unresolved_reasons": []
@@ -141429,7 +141438,7 @@
           "source_node_id": "sinner-s-road/sinner-s-road-hanging-cages#lower-entry",
           "target_node_id": "sinner-s-road/sinner-s-road-hanging-cages#lower-platform",
           "requirement": {
-            "raw": "ledge grab right OR cling grip right OR clawline right OR sharpdart OR run right OR dash right OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike",
+            "raw": "ledge grab right OR cling grip right OR clawline right OR sharpdart OR run OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike",
             "mode": "expression",
             "dnf": [
               [
@@ -141445,10 +141454,7 @@
                 "capability:sharpdart:1"
               ],
               [
-                "capability:sprint:right"
-              ],
-              [
-                "capability:dash:right"
+                "capability:sprint:none"
               ],
               [
                 "capability:drifters-cloak"
@@ -141501,37 +141507,14 @@
           "source_node_id": "sinner-s-road/sinner-s-road-hanging-cages#lower-platform",
           "target_node_id": "sinner-s-road/sinner-s-road-hanging-cages#right-ledge",
           "requirement": {
-            "raw": "clawline right OR enemy pogo OR (faydown cloak AND drifter's cloak AND ledge grab AND (sharpdart OR dash right OR run right))",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:clawline:right:1"
-              ],
-              [
-                "capability:enemy-pogo:none"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:drifters-cloak",
-                "capability:ledge-grab:none",
-                "capability:sharpdart:1"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:drifters-cloak",
-                "capability:ledge-grab:none",
-                "capability:dash:right"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:drifters-cloak",
-                "capability:ledge-grab:none",
-                "capability:sprint:right"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Can be done with just bouncing on the spikes as-is. Keeping notes because I'm weird and paranoid.\n\nFormerly: clawline right OR (faydown cloak AND drifter's cloak AND ledge grab right AND (sharpdart OR dash right OR run right))",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -141544,31 +141527,14 @@
           "source_node_id": "sinner-s-road/sinner-s-road-hanging-cages#right-ledge",
           "target_node_id": "sinner-s-road/sinner-s-road-hanging-cages#lower-platform",
           "requirement": {
-            "raw": "clawline left OR sharpdart OR swim OR enemy pogo OR drifter's cloak OR dash left",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:clawline:left:1"
-              ],
-              [
-                "capability:sharpdart:1"
-              ],
-              [
-                "capability:swim"
-              ],
-              [
-                "capability:enemy-pogo:none"
-              ],
-              [
-                "capability:drifters-cloak"
-              ],
-              [
-                "capability:dash:left"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Same as above.\n\nFormerly: clawline left OR sharpdart OR swim OR enemy pogo OR drifter's cloak OR dash left",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -142380,32 +142346,31 @@
           "source_node_id": "sinner-s-road/sinner-s-road-mist-maze-completed#room",
           "target": "bilewater/exhaust-organ-exterior@l",
           "requirement": {
-            "raw": "cling grip AND (silk soar OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR (enemy pogo AND run)) ",
+            "raw": "cling grip right AND (silk soar OR clawline right OR sharpdart OR drifter's cloak OR faydown cloak OR run) ",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:silk-soar"
               ],
               [
-                "capability:cling-grip:none",
-                "capability:clawline:none:1"
+                "capability:cling-grip:right",
+                "capability:clawline:right:1"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:sharpdart:1"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:drifters-cloak"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none",
-                "capability:enemy-pogo:none",
+                "capability:cling-grip:right",
                 "capability:sprint:none"
               ]
             ],
@@ -142426,7 +142391,7 @@
           "source_node_id": "sinner-s-road/sinner-s-road-mist-maze-completed#room",
           "target": "sinner-s-road/sinner-s-road-north-hall@l",
           "requirement": {
-            "raw": "spike pogo OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR run OR dash OR cling grip",
+            "raw": "spike pogo OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR run OR dash OR cling grip left",
             "mode": "expression",
             "dnf": [
               [
@@ -142454,7 +142419,7 @@
                 "capability:dash:none"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
               ]
             ],
             "unresolved_reasons": []
@@ -142504,12 +142469,12 @@
           "source_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#right-half",
           "target": "sinner-s-road/sinner-s-road-chef-s-kitchen@h",
           "requirement": {
-            "raw": "(faydown cloak AND cling grip) OR silk soar",
+            "raw": "(faydown cloak AND cling grip either) OR silk soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:faydown-cloak",
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
@@ -142596,7 +142561,7 @@
           "source_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#right-half",
           "target_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#left-half",
           "requirement": {
-            "raw": "Cling grip either OR ledge grab left OR silk soar OR dash OR easy pogo off muckroach OR faydown cloak",
+            "raw": "Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR  scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -142609,13 +142574,16 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:dash:none"
+                "capability:sprint:none"
               ],
               [
                 "capability:enemy-type-pogo:Dustroach:easy"
               ],
               [
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -142633,14 +142601,14 @@
           "source_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#left-half",
           "target_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#attic",
           "requirement": {
-            "raw": "Silk soar OR ledge grab both OR cling grip either OR faydown cloak",
+            "raw": "Silk soar OR ledge grab either OR cling grip either OR faydown cloak",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:ledge-grab:both"
+                "capability:ledge-grab:either"
               ],
               [
                 "capability:cling-grip:either"
@@ -142684,16 +142652,14 @@
           "source_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#right-half",
           "target_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#attic",
           "requirement": {
-            "raw": "silk soar OR cling grip either OR faydown cloak ",
+            "raw": "silk soar OR (cling grip either AND faydown cloak)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:cling-grip:either"
-              ],
-              [
+                "capability:cling-grip:either",
                 "capability:faydown-cloak"
               ]
             ],
@@ -142728,8 +142694,8 @@
       ],
       "locations": [
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/shell-shard-cache-sinner-s-road-1",
-          "name": "Shell Shard Cache: Sinner’s Road #1",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/a-few-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "A Few Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142742,15 +142708,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Check subroom",
+          "notes": "Formerly: Shell Shard Cache: Sinner’s Road #1",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/shell-shard-cache-sinner-s-road-2",
-          "name": "Shell Shard Cache: Sinner’s Road #2",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/a-few-more-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "A Few More Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142763,15 +142729,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Shell Shard Cache: Sinner’s Road #2",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/shell-shard-cache-sinner-s-road-3",
-          "name": "Shell Shard Cache: Sinner’s Road #3",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::collectible/last-few-spare-shards-in-the-muckroach-kennel-attic",
+          "name": "Last Few Spare Shards In The Muckroach Kennel Attic",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -142784,7 +142750,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Shell Shard Cache: Sinner’s Road #3",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -143118,12 +143084,10 @@
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#right-half",
           "requirement": {
-            "raw": "invalid",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -143141,62 +143105,56 @@
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#left-half",
           "requirement": {
-            "raw": "invalid",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "disabled - hero, 10/29",
+          "notes": "Formerly: Muckroach 10",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::enemy/roachfeeder-3",
-          "name": "Roachfeeder 3",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::enemy/steven-the-roachfeeder",
+          "name": "Steven, The Roachfeeder",
           "in_game_id": "\"Battle Control\"[0]/\"Roachfeeder Tall\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#left-half",
           "requirement": {
-            "raw": "invalid",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "disabled - hero, 10/29",
+          "notes": "Formerly: Roachfeeder 3",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::enemy/roachfeeder-4",
-          "name": "Roachfeeder 4",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::enemy/dave-the-roachfeeder",
+          "name": "Dave, The Roachfeeder",
           "in_game_id": "\"Battle Control\"[0]/\"Roachfeeder Tall (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#left-half",
           "requirement": {
-            "raw": "invalid",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "disabled - hero, 10/29",
+          "notes": "Formerly: Roachfeeder 4",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -143210,16 +143168,14 @@
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-muckroach-cages#left-half",
           "requirement": {
-            "raw": "invalid",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "disabled - hero, 10/29",
+          "notes": "Formerly: Muckroach 11",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -143272,8 +143228,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::enemy/mite-1",
-          "name": "Mite 1",
+          "id": "location:sinner-s-road/sinner-s-road-muckroach-cages::enemy/paul-the-mite",
+          "name": "Paul, The Mite",
           "in_game_id": "\"Mite (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
@@ -143286,7 +143242,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Mite 1",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -144473,14 +144429,14 @@
           "source_node_id": "sinner-s-road/sinner-s-road-spike-basement#lower",
           "target_node_id": "sinner-s-road/sinner-s-road-spike-basement#upper",
           "requirement": {
-            "raw": "Silk soar OR cling grip",
+            "raw": "Silk soar OR cling grip both",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:both"
               ]
             ],
             "unresolved_reasons": []
@@ -145137,10 +145093,12 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#bilewater-door",
           "target": "bilewater/bilewater-sinner-s-entrance@l",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "break wall right",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:break-wall:right"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -145686,7 +145644,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-primus",
           "name": "Eastern Sinner's Cage Rosary Primus",
-          "in_game_id": "",
+          "in_game_id": "rosary_string_medium",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper-mid-cage",
@@ -145707,7 +145665,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-secundus",
           "name": "Eastern Sinner's Cage Rosary Secundus",
-          "in_game_id": null,
+          "in_game_id": "rosary_string_small",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper-mid-cage",
@@ -145728,7 +145686,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/eastern-sinner-s-cage-rosary-tertius",
           "name": "Eastern Sinner's Cage Rosary Tertius",
-          "in_game_id": null,
+          "in_game_id": "rosary_string_small_half",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper-mid-cage",
@@ -145749,7 +145707,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::collectible/shards-on-bilewater-s-doorstep",
           "name": "Shards on Bilewater's Doorstep",
-          "in_game_id": null,
+          "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#bilewater-door",
@@ -145806,7 +145764,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::enemy/ahmed-the-roachkeeper",
           "name": "Ahmed, the Roachkeeper",
-          "in_game_id": "Roachkeeper",
+          "in_game_id": "\"Roachkeeper Key Control\"[0]/\"Roachkeeper\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper",
@@ -145856,7 +145814,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::enemy/hyakinthos-the-roachfeeder",
           "name": "Hyakinthos, the Roachfeeder",
-          "in_game_id": "Roachfeeder Tall",
+          "in_game_id": "\"Roachfeeder Tall\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#low-mid-cage",
@@ -145877,7 +145835,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::enemy/dominic-the-roachfeeder",
           "name": "Dominic, the Roachfeeder",
-          "in_game_id": "Roachfeeder Tall (1)",
+          "in_game_id": "\"Roachfeeder Tall (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#upper",
@@ -145898,7 +145856,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::enemy/skree-the-mite",
           "name": "Skree, the Mite",
-          "in_game_id": "Mite (1)",
+          "in_game_id": "\"Mite (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#low-mid-cage",
@@ -145919,7 +145877,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::enemy/pretzel-the-mite",
           "name": "Pretzel, the Mite",
-          "in_game_id": "Mite",
+          "in_game_id": "\"Mite\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#above-bw-door",
@@ -145940,7 +145898,7 @@
         {
           "id": "location:sinner-s-road/sinner-s-road-vertical-hall-east::enemy/pockets-the-mite",
           "name": "Pockets, the Mite",
-          "in_game_id": "Mite (2)",
+          "in_game_id": "\"Mite (2)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "sinner-s-road/sinner-s-road-vertical-hall-east#low-door",
@@ -146002,6 +145960,16 @@
         {
           "id": "sinner-s-road/sinner-s-road-vertical-hall-west#rosary-cage",
           "name": "rosary cage",
+          "notes": ""
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-vertical-hall-west#lever-room",
+          "name": "lever room",
+          "notes": ""
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever",
+          "name": "above lever",
           "notes": ""
         }
       ],
@@ -146169,11 +146137,15 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#basement",
           "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#lower",
           "requirement": {
-            "raw": "cling grip",
+            "raw": "cling grip right OR (faydown cloak AND cling grip left)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:left"
               ]
             ],
             "unresolved_reasons": []
@@ -146191,18 +146163,26 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#lower",
           "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#middle-right",
           "requirement": {
-            "raw": "Cling grip OR silk soar OR (scuttlebrace AND faydown cloak)",
+            "raw": "silk soar OR (Cling grip right AND ledge grab left) OR \n(faydown cloak AND (cling grip left OR scuttlebrace)) OR \ncling grip both",
             "mode": "expression",
             "dnf": [
-              [
-                "capability:cling-grip:none"
-              ],
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:scuttlebrace:none",
-                "capability:faydown-cloak"
+                "capability:cling-grip:right",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:cling-grip:both"
               ]
             ],
             "unresolved_reasons": []
@@ -146240,11 +146220,20 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#middle-right",
           "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#upper-right",
           "requirement": {
-            "raw": "silk soar",
+            "raw": "silk soar OR (complete Lever That Gets You A Shortcut To The Bullshit Bench Door AND (cling grip either OR (faydown cloak AND ledge grab either)))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
+              ],
+              [
+                "dependency:location:sinner-s-road/sinner-s-road-vertical-hall-west::lock/lever-that-gets-you-a-shortcut-to-the-bullshit-bench-door",
+                "capability:cling-grip:either"
+              ],
+              [
+                "dependency:location:sinner-s-road/sinner-s-road-vertical-hall-west::lock/lever-that-gets-you-a-shortcut-to-the-bullshit-bench-door",
+                "capability:faydown-cloak",
+                "capability:ledge-grab:either"
               ]
             ],
             "unresolved_reasons": []
@@ -146282,11 +146271,11 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#middle-left",
           "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#upper-right",
           "requirement": {
-            "raw": "Cling grip OR faydown cloak",
+            "raw": "Cling grip right OR faydown cloak",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ],
               [
                 "capability:faydown-cloak"
@@ -146327,41 +146316,11 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#upper-right",
           "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#top",
           "requirement": {
-            "raw": "Silk soar OR (cling grip AND (enemy pogo OR faydown cloak OR (proficient movement AND drifter's cloak) OR clawline OR sharpdart OR dash)) OR (faydown cloak AND ledge grab AND enemy pogo)",
+            "raw": "Silk soar ",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:enemy-pogo:none"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:proficient-movement",
-                "capability:drifters-cloak"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:clawline:none:1"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:sharpdart:1"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:dash:none"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:none",
-                "capability:enemy-pogo:none"
               ]
             ],
             "unresolved_reasons": []
@@ -146441,17 +146400,18 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#middle-left",
           "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#rosary-cage",
           "requirement": {
-            "raw": "faydown cloak OR cling grip OR scuttlebrace",
+            "raw": "faydown cloak OR cling grip right OR (scuttlebrace AND proficient movement)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:none",
+                "capability:proficient-movement"
               ]
             ],
             "unresolved_reasons": []
@@ -146469,15 +146429,180 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#rosary-cage",
           "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#middle-left",
           "requirement": {
-            "raw": "faydown cloak OR cling grip",
+            "raw": "faydown cloak OR cling grip either",
             "mode": "expression",
             "dnf": [
               [
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-vertical-hall-west#top>above-lever@tl",
+          "alias": "TL",
+          "name": "top to lever",
+          "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#top",
+          "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever>top@tl",
+          "alias": "TL",
+          "name": "top to lever",
+          "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever",
+          "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#top",
+          "requirement": {
+            "raw": "silk soar OR (cling grip right AND (faydown cloak OR drifter's cloak OR (dash left AND proficient movement) OR (dash left AND ledge grab left) OR sharpdart OR clawline left OR easy beast pogo))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:dash:left",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:dash:left",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:crest-pogo:beast:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever>lever-room@lr",
+          "alias": "LR",
+          "name": "lever room",
+          "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever",
+          "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#lever-room",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-vertical-hall-west#lever-room>above-lever@lr",
+          "alias": "LR",
+          "name": "lever room",
+          "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#lever-room",
+          "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever",
+          "requirement": {
+            "raw": "silk soar OR cling grip either OR scuttlebrace",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-vertical-hall-west#upper-right>above-lever@url",
+          "alias": "URL",
+          "name": "upper right to lever",
+          "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#upper-right",
+          "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever",
+          "requirement": {
+            "raw": "cling grip right OR scuttlebrace",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever>upper-right@url",
+          "alias": "URL",
+          "name": "upper right to lever",
+          "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#above-lever",
+          "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#upper-right",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
             ],
             "unresolved_reasons": []
           },
@@ -146576,6 +146701,29 @@
             "unresolved_reasons": []
           },
           "notes": "Formerly: Rosary Cache: Sinner’s Road #3",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:sinner-s-road/sinner-s-road-vertical-hall-west::lock/lever-that-gets-you-a-shortcut-to-the-bullshit-bench-door",
+          "name": "Lever That Gets You A Shortcut To The Bullshit Bench Door",
+          "in_game_id": "greymoor_lever_simple_EDITED",
+          "location_type": "lock",
+          "has_persisted_state": true,
+          "node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#lever-room",
+          "requirement": {
+            "raw": "flip switch either",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-switch:either"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -196845,8 +196993,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-flea-rescue::collectible/flea-bilewater-thieves",
-          "name": "Flea: Bilewater - Thieves",
+          "id": "location:bilewater/bilewater-flea-rescue::collectible/the-flea-that-bilewater-thieves-stole",
+          "name": "The Flea That Bilewater Thieves Stole",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -196859,7 +197007,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Flea: Bilewater - Thieves",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -199470,20 +199618,17 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#left-door-plat",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#up-left-plat",
           "requirement": {
-            "raw": "swim OR dash OR run OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo",
+            "raw": "swim OR run OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo",
             "mode": "expression",
             "dnf": [
               [
                 "capability:swim"
               ],
               [
-                "capability:dash:none"
-              ],
-              [
                 "capability:sprint:none"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:sharpdart:1"
@@ -199553,11 +199698,15 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#below-flea",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#flea-room",
           "requirement": {
-            "raw": "cling grip OR scuttlebrace",
+            "raw": "cling grip left OR (faydown cloak AND cling grip right) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right"
               ],
               [
                 "capability:scuttlebrace:none"
@@ -199620,11 +199769,11 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#bottom",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#below-flea",
           "requirement": {
-            "raw": "cling grip OR scuttlebrace",
+            "raw": "cling grip either OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:scuttlebrace:none"
@@ -199645,12 +199794,12 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#below-flea",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#right-door-plat",
           "requirement": {
-            "raw": "faydown cloak AND cling grip",
+            "raw": "faydown cloak AND cling grip right",
             "mode": "expression",
             "dnf": [
               [
                 "capability:faydown-cloak",
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ]
             ],
             "unresolved_reasons": []
@@ -199688,11 +199837,30 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#bottom",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#bottom-right",
           "requirement": {
-            "raw": "break wall right",
+            "raw": "break wall right AND (swim OR (proficient movement AND clawline right AND (faydown OR ledge grab right OR cling grip right)))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:break-wall:right"
+                "capability:break-wall:right",
+                "capability:swim"
+              ],
+              [
+                "capability:break-wall:right",
+                "capability:proficient-movement",
+                "capability:clawline:right:1",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:break-wall:right",
+                "capability:proficient-movement",
+                "capability:clawline:right:1",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:break-wall:right",
+                "capability:proficient-movement",
+                "capability:clawline:right:1",
+                "capability:cling-grip:right"
               ]
             ],
             "unresolved_reasons": []
@@ -199710,11 +199878,24 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#bottom-right",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#bottom",
           "requirement": {
-            "raw": "break wall left",
+            "raw": "break wall left AND (swim OR (proficient movement AND faydown AND (clawline left OR sharpdart)))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:break-wall:left"
+                "capability:break-wall:left",
+                "capability:swim"
+              ],
+              [
+                "capability:break-wall:left",
+                "capability:proficient-movement",
+                "capability:faydown-cloak",
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:break-wall:left",
+                "capability:proficient-movement",
+                "capability:faydown-cloak",
+                "capability:sharpdart:1"
               ]
             ],
             "unresolved_reasons": []
@@ -199732,17 +199913,20 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#up-left-plat",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#low-hall",
           "requirement": {
-            "raw": "(swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak)",
+            "raw": "(swim OR dash right OR scuttlebrace OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:swim"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:right"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:clawline:right:1"
               ],
               [
                 "capability:sharpdart:1"
@@ -199769,11 +199953,15 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#low-hall",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#up-left-plat",
           "requirement": {
-            "raw": "cling grip OR scuttlebrace",
+            "raw": "cling grip left OR (faydown cloak AND cling grip right) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right"
               ],
               [
                 "capability:scuttlebrace:none"
@@ -199794,11 +199982,15 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#low-hall",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#below-flea",
           "requirement": {
-            "raw": "cling grip OR scuttlebrace",
+            "raw": "cling grip right OR (faydown cloak AND cling grip left) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:left"
               ],
               [
                 "capability:scuttlebrace:none"
@@ -199819,17 +200011,17 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#below-flea",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#low-hall",
           "requirement": {
-            "raw": "swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo",
+            "raw": "swim OR dash left OR clawline left OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo",
             "mode": "expression",
             "dnf": [
               [
                 "capability:swim"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:sharpdart:1"
@@ -199859,21 +200051,25 @@
           "source_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#right-door-plat",
           "target_node_id": "bilewater/bilewater-lower-trap-gauntlet-hall#top-plat",
           "requirement": {
-            "raw": "(faydown cloak AND (cling grip OR ledge grab)) OR (proficient movement AND scuttlebrace AND clawline)",
+            "raw": "(faydown cloak AND (cling grip either OR ledge grab either)) OR (proficient movement AND scuttlebrace AND clawline) OR (silk soar AND dash left)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:faydown-cloak",
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:either"
               ],
               [
                 "capability:proficient-movement",
                 "capability:scuttlebrace:none",
                 "capability:clawline:none:1"
+              ],
+              [
+                "capability:silk-soar",
+                "capability:dash:left"
               ]
             ],
             "unresolved_reasons": []
@@ -199907,8 +200103,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-lower-trap-gauntlet-hall::collectible/flea-bilehaven",
-          "name": "Flea: Bilehaven",
+          "id": "location:bilewater/bilewater-lower-trap-gauntlet-hall::collectible/the-flea-that-couldn-t-make-it-past-all-the-bilewater-traps",
+          "name": "The Flea That Couldn't Make It Past All The Bilewater Traps",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -199923,7 +200119,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Flea: Bilehaven",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -200147,17 +200343,36 @@
           "source_node_id": "bilewater/bilewater-mothleaf-hall#left",
           "target_node_id": "bilewater/bilewater-mothleaf-hall#center",
           "requirement": {
-            "raw": "swim OR (clawline OR enemy pogo)",
+            "raw": "(clawline right 2 OR sharpdart 2) OR swim OR (dash right AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline right)) OR (easy enemy pogo off Mothleaf Lagnia)",
             "mode": "expression",
             "dnf": [
+              [
+                "capability:clawline:right:2"
+              ],
+              [
+                "capability:sharpdart:2"
+              ],
               [
                 "capability:swim"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:dash:right",
+                "capability:faydown-cloak"
               ],
               [
-                "capability:enemy-pogo:none"
+                "capability:sprint:none",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:clawline:right:1"
+              ],
+              [
+                "capability:enemy-type-pogo:Swamp Drifter:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -200175,17 +200390,36 @@
           "source_node_id": "bilewater/bilewater-mothleaf-hall#center",
           "target_node_id": "bilewater/bilewater-mothleaf-hall#left",
           "requirement": {
-            "raw": "swim OR (clawline OR enemy pogo)",
+            "raw": "(clawline left 2 OR sharpdart 2) OR swim OR (dash left AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline left)) OR (easy enemy pogo off Mothleaf Lagnia)",
             "mode": "expression",
             "dnf": [
+              [
+                "capability:clawline:left:2"
+              ],
+              [
+                "capability:sharpdart:2"
+              ],
               [
                 "capability:swim"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:dash:left",
+                "capability:faydown-cloak"
               ],
               [
-                "capability:enemy-pogo:none"
+                "capability:sprint:none",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:enemy-type-pogo:Swamp Drifter:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -200203,23 +200437,27 @@
           "source_node_id": "bilewater/bilewater-mothleaf-hall#right",
           "target_node_id": "bilewater/bilewater-mothleaf-hall#center",
           "requirement": {
-            "raw": "(drifter's cloak OR faydown cloak OR clawline OR sharpdart) OR swim",
+            "raw": "run OR clawline left OR sharpdart OR (easy beast pogo AND ledge grab left) OR faydown cloak OR drifter's cloak",
             "mode": "expression",
             "dnf": [
               [
-                "capability:drifters-cloak"
+                "capability:sprint:none"
               ],
               [
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:sharpdart:1"
               ],
               [
-                "capability:swim"
+                "capability:crest-pogo:beast:easy",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:drifters-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -200237,23 +200475,36 @@
           "source_node_id": "bilewater/bilewater-mothleaf-hall#center",
           "target_node_id": "bilewater/bilewater-mothleaf-hall#right",
           "requirement": {
-            "raw": "(drifter's cloak OR faydown cloak OR clawline OR sharpdart) OR swim",
+            "raw": "(clawline right 2 OR sharpdart 2) OR swim OR easy beast pogo OR (dash right AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline right))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:drifters-cloak"
+                "capability:clawline:right:2"
               ],
               [
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:clawline:none:1"
-              ],
-              [
-                "capability:sharpdart:1"
+                "capability:sharpdart:2"
               ],
               [
                 "capability:swim"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:dash:right",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:clawline:right:1"
               ]
             ],
             "unresolved_reasons": []
@@ -200311,8 +200562,8 @@
       ],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-mothleaf-hall::collectible/bilewater-east-memory-locket",
-          "name": "Bilewater East - Memory Locket",
+          "id": "location:bilewater/bilewater-mothleaf-hall::collectible/locket-at-the-end-of-a-long-hallway-of-moths",
+          "name": "Locket At The End of A LONG Hallway of Moths",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -200325,7 +200576,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Bilewater East - Memory Locket",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -200608,8 +200859,8 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-shell-shard-cache-5",
-          "name": "Bilewater - Shell Shard Cache #5",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/first-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "First Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "has_persisted_state": false,
@@ -200639,15 +200890,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Bilewater - Shell Shard Cache #5",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-shell-shard-cache-6",
-          "name": "Bilewater - Shell Shard Cache #6",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/second-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "Second Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "has_persisted_state": false,
@@ -200677,15 +200928,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Bilewater - Shell Shard Cache #6",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/bilewater-shell-shard-cache-7",
-          "name": "Bilewater - Shell Shard Cache #7",
+          "id": "location:bilewater/bilewater-northeast-tiny-room::resource/third-third-of-the-shards-in-a-mothed-up-bilewater-closet",
+          "name": "Third Third Of The Shards In A Mothed Up Bilewater Closet",
           "in_game_id": null,
           "location_type": "resource",
           "has_persisted_state": false,
@@ -200715,7 +200966,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Bilewater - Shell Shard Cache #7",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -201273,8 +201524,8 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:bilewater/bilewater-shakra-room::collectible/bilewater-map-purchase",
-          "name": "Bilewater - Map Purchase",
+          "id": "location:bilewater/bilewater-shakra-room::collectible/shakra-sells-the-best-map-in-the-game-it-s-bilewater",
+          "name": "Shakra Sells The Best Map In The Game (It's Bilewater)",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -201287,15 +201538,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Bilewater - Map Purchase",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:bilewater/bilewater-shakra-room::enemy/covetous-pilgrim-1",
-          "name": "Covetous Pilgrim 1",
+          "id": "location:bilewater/bilewater-shakra-room::enemy/dave-the-covetous-pilgrim-who-was-also-looking-for-shakra",
+          "name": "Dave, The Covetous Pilgrim Who Was Also Looking For Shakra",
           "in_game_id": "Rosary Pilgrim",
           "location_type": "enemy",
           "has_persisted_state": false,
@@ -201310,7 +201561,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Formerly: Covetous Pilgrim 1",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -201390,10 +201641,12 @@
           "source_node_id": "bilewater/bilewater-sinner-s-entrance#left-quarter",
           "target": "sinner-s-road/sinner-s-road-vertical-hall-east@ur",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "break wall left",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:break-wall:left"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -205549,7 +205802,7 @@
           "source_node_id": "bilewater/bilewater-waterfall#left-exit",
           "target_node_id": "bilewater/bilewater-waterfall#trails-end",
           "requirement": {
-            "raw": "faydown cloak \nAND swim \nAND cling grip \nAND ( ledge grab OR dash OR clawline OR sharpdart )",
+            "raw": "faydown cloak \nAND (swim OR (proficient movement AND clawline  right 2 AND cling grip right)) \nAND cling grip \nAND ( ledge grab OR dash OR clawline OR sharpdart )",
             "mode": "expression",
             "dnf": [
               [
@@ -205573,6 +205826,38 @@
               [
                 "capability:faydown-cloak",
                 "capability:swim",
+                "capability:cling-grip:none",
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:clawline:right:2",
+                "capability:cling-grip:right",
+                "capability:cling-grip:none",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:clawline:right:2",
+                "capability:cling-grip:right",
+                "capability:cling-grip:none",
+                "capability:dash:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:clawline:right:2",
+                "capability:cling-grip:right",
+                "capability:cling-grip:none",
+                "capability:clawline:none:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:clawline:right:2",
+                "capability:cling-grip:right",
                 "capability:cling-grip:none",
                 "capability:sharpdart:1"
               ]
@@ -206153,21 +206438,15 @@
       ],
       "connections": [
         {
-          "id": "bilewater/bilewater-west-hall#mid-right>right@rm",
-          "alias": "RM",
-          "name": "right to mid",
-          "source_node_id": "bilewater/bilewater-west-hall#mid-right",
-          "target_node_id": "bilewater/bilewater-west-hall#right",
+          "id": "bilewater/bilewater-west-hall#left>mid-left@lml",
+          "alias": "LML",
+          "name": "left to mid left",
+          "source_node_id": "bilewater/bilewater-west-hall#left",
+          "target_node_id": "bilewater/bilewater-west-hall#mid-left",
           "requirement": {
-            "raw": "faydown cloak OR enemy pogo OR clawline OR sharpdart OR (run AND proficient movement) OR dash",
+            "raw": "clawline OR sharpdart OR dash OR drifter's cloak OR (faydown cloak AND (run OR enemy pogo)) OR swim OR ((run OR proficient movement) AND easy beast pogo)",
             "mode": "expression",
             "dnf": [
-              [
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:enemy-pogo:none"
-              ],
               [
                 "capability:clawline:none:1"
               ],
@@ -206175,11 +206454,29 @@
                 "capability:sharpdart:1"
               ],
               [
-                "capability:sprint:none",
-                "capability:proficient-movement"
+                "capability:dash:none"
               ],
               [
-                "capability:dash:none"
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-pogo:none"
+              ],
+              [
+                "capability:swim"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:crest-pogo:beast:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -206191,41 +206488,36 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bilewater/bilewater-west-hall#right>mid-right@rm",
-          "alias": "RM",
-          "name": "right to mid",
-          "source_node_id": "bilewater/bilewater-west-hall#right",
-          "target_node_id": "bilewater/bilewater-west-hall#mid-right",
+          "id": "bilewater/bilewater-west-hall#mid-left>left@lml",
+          "alias": "LML",
+          "name": "left to mid left",
+          "source_node_id": "bilewater/bilewater-west-hall#mid-left",
+          "target_node_id": "bilewater/bilewater-west-hall#left",
           "requirement": {
-            "raw": "faydown cloak OR drifter's cloak OR run OR sharpdart OR clawline OR enemy pogo OR swim OR scuttlebrace OR easy beast pogo",
+            "raw": "clawline OR easy beast pogo OR (sharpdart AND proficient movement) OR (dash AND proficient movement) OR (faydown cloak AND (enemy pogo OR drifter's cloak))",
             "mode": "expression",
             "dnf": [
-              [
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:drifters-cloak"
-              ],
-              [
-                "capability:sprint:none"
-              ],
-              [
-                "capability:sharpdart:1"
-              ],
               [
                 "capability:clawline:none:1"
               ],
               [
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:sharpdart:1",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:dash:none",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:faydown-cloak",
                 "capability:enemy-pogo:none"
               ],
               [
-                "capability:swim"
-              ],
-              [
-                "capability:scuttlebrace:none"
-              ],
-              [
-                "capability:crest-pogo:beast:easy"
+                "capability:faydown-cloak",
+                "capability:drifters-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -206243,7 +206535,7 @@
           "source_node_id": "bilewater/bilewater-west-hall#mid-left",
           "target_node_id": "bilewater/bilewater-west-hall#mid-right",
           "requirement": {
-            "raw": "scuttlebrace OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR dash OR swim",
+            "raw": "scuttlebrace OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR dash OR swim OR easy beast pogo",
             "mode": "expression",
             "dnf": [
               [
@@ -206266,6 +206558,9 @@
               ],
               [
                 "capability:swim"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -206324,15 +206619,21 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bilewater/bilewater-west-hall#left>mid-left@lml",
-          "alias": "LML",
-          "name": "left to mid left",
-          "source_node_id": "bilewater/bilewater-west-hall#left",
-          "target_node_id": "bilewater/bilewater-west-hall#mid-left",
+          "id": "bilewater/bilewater-west-hall#mid-right>right@rm",
+          "alias": "RM",
+          "name": "right to mid",
+          "source_node_id": "bilewater/bilewater-west-hall#mid-right",
+          "target_node_id": "bilewater/bilewater-west-hall#right",
           "requirement": {
-            "raw": "clawline OR sharpdart OR dash OR drifter's cloak OR (faydown cloak AND (run OR enemy pogo)) OR swim",
+            "raw": "faydown cloak OR enemy pogo OR clawline OR sharpdart OR (run AND proficient movement) OR dash OR easy beast pogo",
             "mode": "expression",
             "dnf": [
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:enemy-pogo:none"
+              ],
               [
                 "capability:clawline:none:1"
               ],
@@ -206340,21 +206641,14 @@
                 "capability:sharpdart:1"
               ],
               [
+                "capability:sprint:none",
+                "capability:proficient-movement"
+              ],
+              [
                 "capability:dash:none"
               ],
               [
-                "capability:drifters-cloak"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:sprint:none"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:enemy-pogo:none"
-              ],
-              [
-                "capability:swim"
+                "capability:crest-pogo:beast:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -206366,33 +206660,41 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bilewater/bilewater-west-hall#mid-left>left@lml",
-          "alias": "LML",
-          "name": "left to mid left",
-          "source_node_id": "bilewater/bilewater-west-hall#mid-left",
-          "target_node_id": "bilewater/bilewater-west-hall#left",
+          "id": "bilewater/bilewater-west-hall#right>mid-right@rm",
+          "alias": "RM",
+          "name": "right to mid",
+          "source_node_id": "bilewater/bilewater-west-hall#right",
+          "target_node_id": "bilewater/bilewater-west-hall#mid-right",
           "requirement": {
-            "raw": "clawline OR (sharpdart AND proficient movement) OR (dash AND proficient movement) OR (faydown cloak AND (enemy pogo OR drifter's cloak))",
+            "raw": "faydown cloak OR drifter's cloak OR run OR sharpdart OR clawline OR enemy pogo OR swim OR scuttlebrace OR easy beast pogo",
             "mode": "expression",
             "dnf": [
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:sprint:none"
+              ],
+              [
+                "capability:sharpdart:1"
+              ],
               [
                 "capability:clawline:none:1"
               ],
               [
-                "capability:sharpdart:1",
-                "capability:proficient-movement"
-              ],
-              [
-                "capability:dash:none",
-                "capability:proficient-movement"
-              ],
-              [
-                "capability:faydown-cloak",
                 "capability:enemy-pogo:none"
               ],
               [
-                "capability:faydown-cloak",
-                "capability:drifters-cloak"
+                "capability:swim"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -208146,11 +208448,16 @@
           "source_node_id": "bilewater/exhaust-organ-interior#ground-floor",
           "target_node_id": "bilewater/exhaust-organ-interior#broken-elevator",
           "requirement": {
-            "raw": "cling grip OR silk soar",
+            "raw": "(cling grip either AND complete Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either",
+                "dependency:location:bilewater/exhaust-organ-interior::blockade/fix-the-broken-elevator"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Citadel Bat:easy"
               ],
               [
                 "capability:silk-soar"
@@ -208258,11 +208565,65 @@
           "source_node_id": "bilewater/exhaust-organ-interior#right-column",
           "target_node_id": "bilewater/exhaust-organ-interior#maze",
           "requirement": {
-            "raw": "cling grip",
+            "raw": "cling grip both OR (cling grip right AND (spike pogo AND (easy [reaper, architect, shaman] pogo OR faydown cloak))) OR (cling grip left AND (proficient movement OR (spike pogo AND easy [hunter, reaper, wanderer, witch, architect, shaman] pogo)))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:both"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:spike-pogo",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:spike-pogo",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:spike-pogo",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:spike-pogo",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:spike-pogo",
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:spike-pogo",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:spike-pogo",
+                "capability:crest-pogo:wanderer:easy"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:spike-pogo",
+                "capability:crest-pogo:witch:easy"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:spike-pogo",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:spike-pogo",
+                "capability:crest-pogo:shaman:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -208563,7 +208924,7 @@
           "in_game_id": "Citadel Bat (2)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "bilewater/exhaust-organ-interior#right-column",
+          "node_id": "bilewater/exhaust-organ-interior#ground-floor",
           "requirement": {
             "raw": "none",
             "mode": "none",

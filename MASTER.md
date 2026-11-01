@@ -13162,7 +13162,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LU | lower to upper | lower | upper | faydown cloak OR silk soar |  | Verified | ✓ |  |
 | LU | lower to upper | upper | lower | none |  | Verified | ✓ |  |
-| BL | basement to lower | basement | lower | scuttlebrace OR cling grip OR silk soar |  | Verified | ✓ |  |
+| BL | basement to lower | basement | lower | scuttlebrace OR cling grip either OR silk soar |  | Verified | ✓ |  |
 | BL | basement to lower | lower | basement | invalid (true one-way) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -13297,16 +13297,16 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RSL | right ledge to shard ledge | right ledge | shard ledge | Faydown cloak OR silk soar OR (cling grip right AND enemy pogo AND (clawline right OR sharpdart)) |  | Verified | ✓ |  |
+| RSL | right ledge to shard ledge | right ledge | shard ledge | (Faydown cloak AND (ledge grab either OR cling grip either)) OR silk soar |  | Verified | ✓ |  |
 | RSL | right ledge to shard ledge | shard ledge | right ledge | none |  | Verified | ✓ |  |
-| UES | upper entry to shack | plat above upper door | shack | Clawline right x 5 OR ((Cling grip left OR silk soar) AND enemy pogo AND (drifter’s cloak OR sharpdart)) |  | Verified | ✓ |  |
-| UES | upper entry to shack | shack | plat above upper door | Run left AND (faydown cloak OR clawline x 5 OR sharpdart) |  | Verified | ✓ |  |
+| UES | upper entry to shack | plat above upper door | shack | Clawline right 3 OR ((Cling grip left OR silk soar) AND (drifter’s cloak OR sharpdart 2 OR clawline right 2)) |  | Verified | ✓ |  |
+| UES | upper entry to shack | shack | plat above upper door | (run AND (drifter's cloak OR clawline left OR sharpdart)) OR (dash AND faydown cloak) OR clawline left 2 OR sharpdart 2 |  | Verified | ✓ |  |
 | RLS | right ledge to shack | right ledge | shack | silk soar |  | Verified | ✓ |  |
 | RLS | right ledge to shack | shack | right ledge | none |  | Verified | ✓ |  |
-| LP | lower entry to lower platform | lower entry | lower platform | ledge grab right OR cling grip right OR clawline right OR sharpdart OR run right OR dash right OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike |  | Verified | ✓ |  |
+| LP | lower entry to lower platform | lower entry | lower platform | ledge grab right OR cling grip right OR clawline right OR sharpdart OR run OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike |  | Verified | ✓ |  |
 | LP | lower entry to lower platform | lower platform | lower entry | none |  | Verified | ✓ |  |
-| PR | lower platform to right ledge | lower platform | right ledge | clawline right OR enemy pogo OR (faydown cloak AND drifter's cloak AND ledge grab AND (sharpdart OR dash right OR run right)) |  | Verified | ✓ |  |
-| PR | lower platform to right ledge | right ledge | lower platform | clawline left OR sharpdart OR swim OR enemy pogo OR drifter's cloak OR dash left |  | Verified | ✓ |  |
+| PR | lower platform to right ledge | lower platform | right ledge | none |  | Verified | ✓ | Can be done with just bouncing on the spikes as-is. Keeping notes because I'm weird and paranoid.  Formerly: clawline right OR (faydown cloak AND drifter's cloak AND ledge grab right AND (sharpdart OR dash right OR run right)) |
+| PR | lower platform to right ledge | right ledge | lower platform | none |  | Verified | ✓ | Same as above.  Formerly: clawline left OR sharpdart OR swim OR enemy pogo OR drifter's cloak OR dash left |
 | UP | upper entry to upper plat | upper entry | plat above upper door | ledge grab right OR cling grip right OR silk soar OR faydown cloak |  | Verified | ✓ |  |
 | UP | upper entry to upper plat | plat above upper door | upper entry | none |  | Verified | ✓ |  |
 | LPM | lower plat to mid left plat | lower platform | middle left plat | silk soar |  | Verified | ✓ |  |
@@ -13357,8 +13357,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | up right |  | [Exhaust Organ Exterior (Dust_09)](#room-bilewater--exhaust-organ-exterior) | L | cling grip AND (silk soar OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR (enemy pogo AND run)) |  | Verified | ✓ |  |
-| LR | low right |  | [Sinner's Road North Hall (Dust_05)](#room-sinner-s-road--sinner-s-road-north-hall) | L | spike pogo OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR run OR dash OR cling grip |  | Verified | ✓ |  |
+| UR | up right |  | [Exhaust Organ Exterior (Dust_09)](#room-bilewater--exhaust-organ-exterior) | L | cling grip right AND (silk soar OR clawline right OR sharpdart OR drifter's cloak OR faydown cloak OR run) |  | Verified | ✓ |  |
+| LR | low right |  | [Sinner's Road North Hall (Dust_05)](#room-sinner-s-road--sinner-s-road-north-hall) | L | spike pogo OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR run OR dash OR cling grip left |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -13390,7 +13390,7 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](#room-sinner-s-road--sinner-s-road-chef-s-kitchen) | H | (faydown cloak AND cling grip) OR silk soar |  | Verified | ✓ |  |
+| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](#room-sinner-s-road--sinner-s-road-chef-s-kitchen) | H | (faydown cloak AND cling grip either) OR silk soar |  | Verified | ✓ |  |
 | LR | lower right | right half | [Sinner's Road Spike Basement (Dust_Barb)](#room-sinner-s-road--sinner-s-road-spike-basement) | C | none |  | Verified | ✓ |  |
 | L | left | left half | [Sinner's Road Vertical Hall West (Dust_02)](#room-sinner-s-road--sinner-s-road-vertical-hall-west) | LR | none |  | Verified | ✓ |  |
 
@@ -13399,19 +13399,19 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LR | left to right | left half | right half | none |  | Verified | ✓ |  |
-| LR | left to right | right half | left half | Cling grip either OR ledge grab left OR silk soar OR dash OR easy pogo off muckroach OR faydown cloak |  | Verified | ✓ |  |
-| LA | left to attic | left half | attic | Silk soar OR ledge grab both OR cling grip either OR faydown cloak |  | Verified | ✓ |  |
+| LR | left to right | right half | left half | Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR  scuttlebrace |  | Verified | ✓ |  |
+| LA | left to attic | left half | attic | Silk soar OR ledge grab either OR cling grip either OR faydown cloak |  | Verified | ✓ |  |
 | LA | left to attic | attic | left half | none |  | Verified | ✓ |  |
-| RA | right to attic | right half | attic | silk soar OR cling grip either OR faydown cloak |  | Verified | ✓ |  |
+| RA | right to attic | right half | attic | silk soar OR (cling grip either AND faydown cloak) |  | Verified | ✓ |  |
 | RA | right to attic | attic | right half | none |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shell Shard Cache: Sinner’s Road #1 | attic | none |  | Verified | collectible | ✓ | Check subroom |
-| 2 | Shell Shard Cache: Sinner’s Road #2 | attic | none |  | Verified | collectible | ✓ |  |
-| 3 | Shell Shard Cache: Sinner’s Road #3 | attic | none |  | Verified | collectible | ✓ |  |
+| 1 | A Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #1 |
+| 2 | A Few More Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #2 |
+| 3 | Last Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #3 |
 | 4 | Rosary Cache: Sinner’s Road #4 | attic | none |  | Verified | collectible | ✓ |  |
 | 5 | Roachcatcher 1 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 6 | Muckroach 1 | attic | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
@@ -13426,14 +13426,14 @@ No check locations defined.
 | 15 | Muckroach 6 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 16 | Muckroach 7 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 17 | Muckroach 8 | left half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
-| 18 | Stupid, the Muckroach | right half | invalid |  | Verified | enemy | ✓ | Formerly: Muckroach 9 |
-| 19 | Useless, the Muckroach | left half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
-| 20 | Roachfeeder 3 | left half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
-| 21 | Roachfeeder 4 | left half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
-| 22 | Spider, the Muckroach | left half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
+| 18 | Stupid, the Muckroach | right half | none |  | Verified | enemy | ✓ | Formerly: Muckroach 9 |
+| 19 | Useless, the Muckroach | left half | none |  | Verified | enemy | ✓ | Formerly: Muckroach 10 |
+| 20 | Steven, The Roachfeeder | left half | none |  | Verified | enemy | ✓ | Formerly: Roachfeeder 3 |
+| 21 | Dave, The Roachfeeder | left half | none |  | Verified | enemy | ✓ | Formerly: Roachfeeder 4 |
+| 22 | Spider, the Muckroach | left half | none |  | Verified | enemy | ✓ | Formerly: Muckroach 11 |
 | 23 | Muckroach 12 | right half | invalid |  | Verified | enemy | ✓ | caged and invincible |
 | 24 | Muckroach 13 | left half | invalid |  | Verified | enemy | ✓ | caged and invincible |
-| 25 | Mite 1 | attic | none |  | Verified | enemy | ✓ |  |
+| 25 | Paul, The Mite | attic | none |  | Verified | enemy | ✓ | Formerly: Mite 1 |
 | 26 | Mite 2 | right half | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
 | 27 | Void Mass 1 | attic | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
@@ -13532,8 +13532,8 @@ this room has a few disabled battle scenes which is why there are so many disabl
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | upper |  |
-| S2 | lower |  |
+| S1 | upper | ✓ |
+| S2 | lower | ✓ |
 
 #### Room Transitions
 
@@ -13545,14 +13545,14 @@ this room has a few disabled battle scenes which is why there are so many disabl
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | Upper to lower | upper | lower | none |  | Verified |  |  |
-| UL | Upper to lower | lower | upper | Silk soar OR cling grip |  | Verified |  |  |
+| UL | Upper to lower | upper | lower | none |  | Verified | ✓ |  |
+| UL | Upper to lower | lower | upper | Silk soar OR cling grip both |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Barbed Bracelet | lower | none |  | Verified | collectible |  |  |
+| 1 | Barbed Bracelet | lower | none |  | Verified | collectible | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-styx-room"></a>
 
@@ -13636,7 +13636,7 @@ this room has a few disabled battle scenes which is why there are so many disabl
 | L | left | left door | [Sinner's Road North Hall (Dust_05)](#room-sinner-s-road--sinner-s-road-north-hall) | R | complete The Lever Gettin' You Outta The North Hall IN Sinner's Road North Hall |  | Verified | ✓ |  |
 | LR | lower right | low door | [Sinner's Road Styx Room (Dust_11)](#room-sinner-s-road--sinner-s-road-styx-room) | L | none |  | Verified | ✓ |  |
 | MR | middle right | mid right door | [Sinner's Road Flea Rescue (Dust_12)](#room-sinner-s-road--sinner-s-road-flea-rescue) | L | none |  | Verified | ✓ |  |
-| UR | upper right | bilewater door | [Bilewater Sinner's Entrance (Shadow_05)](#room-bilewater--bilewater-sinner-s-entrance) | L | none |  | Verified | ✓ |  |
+| UR | upper right | bilewater door | [Bilewater Sinner's Entrance (Shadow_05)](#room-bilewater--bilewater-sinner-s-entrance) | L | break wall right |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -13698,6 +13698,8 @@ this room has a few disabled battle scenes which is why there are so many disabl
 | S5 | upper right | ✓ |
 | S6 | top | ✓ |
 | S7 | rosary cage | ✓ |
+| S8 | lever room | ✓ |
+| S9 | above lever | ✓ |
 
 #### Room Transitions
 
@@ -13715,19 +13717,25 @@ this room has a few disabled battle scenes which is why there are so many disabl
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BL | basement to lower | lower | basement | none |  | Verified | ✓ | Technically "any attack" is a requirement |
-| BL | basement to lower | basement | lower | cling grip |  | Verified | ✓ |  |
-| LMR | low to mid right | lower | middle right | Cling grip OR silk soar OR (scuttlebrace AND faydown cloak) |  | Verified | ✓ |  |
+| BL | basement to lower | basement | lower | cling grip right OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
+| LMR | low to mid right | lower | middle right | silk soar OR (Cling grip right AND ledge grab left) OR  (faydown cloak AND (cling grip left OR scuttlebrace)) OR  cling grip both |  | Verified | ✓ |  |
 | LMR | low to mid right | middle right | lower | none |  | Verified | ✓ |  |
-| MRL | mid right to upper right | middle right | upper right | silk soar |  | Verified | ✓ |  |
+| MRL | mid right to upper right | middle right | upper right | silk soar OR (complete Lever That Gets You A Shortcut To The Bullshit Bench Door AND (cling grip either OR (faydown cloak AND ledge grab either))) |  | Verified | ✓ |  |
 | MRL | mid right to upper right | upper right | middle right | none |  | Verified | ✓ |  |
-| LUR | mid left to upper right | middle left | upper right | Cling grip OR faydown cloak |  | Verified | ✓ |  |
+| LUR | mid left to upper right | middle left | upper right | Cling grip right OR faydown cloak |  | Verified | ✓ |  |
 | LUR | mid left to upper right | upper right | middle left | none |  | Verified | ✓ |  |
-| URT | upper right to top | upper right | top | Silk soar OR (cling grip AND (enemy pogo OR faydown cloak OR (proficient movement AND drifter's cloak) OR clawline OR sharpdart OR dash)) OR (faydown cloak AND ledge grab AND enemy pogo) |  | Verified | ✓ |  |
+| URT | upper right to top | upper right | top | Silk soar |  | Verified | ✓ |  |
 | URT | upper right to top | top | upper right | none |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | middle right | rosary cage | silk soar |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | rosary cage | middle right | none |  | Verified | ✓ |  |
-| MLR | mid left to rosaries | middle left | rosary cage | faydown cloak OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
-| MLR | mid left to rosaries | rosary cage | middle left | faydown cloak OR cling grip |  | Verified | ✓ |  |
+| MLR | mid left to rosaries | middle left | rosary cage | faydown cloak OR cling grip right OR (scuttlebrace AND proficient movement) |  | Verified | ✓ |  |
+| MLR | mid left to rosaries | rosary cage | middle left | faydown cloak OR cling grip either |  | Verified | ✓ |  |
+| TL | top to lever | top | above lever | none |  | Verified | ✓ |  |
+| TL | top to lever | above lever | top | silk soar OR (cling grip right AND (faydown cloak OR drifter's cloak OR (dash left AND proficient movement) OR (dash left AND ledge grab left) OR sharpdart OR clawline left OR easy beast pogo)) |  | Verified | ✓ |  |
+| LR | lever room | above lever | lever room | none |  | Verified | ✓ |  |
+| LR | lever room | lever room | above lever | silk soar OR cling grip either OR scuttlebrace |  | Verified | ✓ |  |
+| URL | upper right to lever | upper right | above lever | cling grip right OR scuttlebrace |  | Verified | ✓ |  |
+| URL | upper right to lever | above lever | upper right | none |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -13736,12 +13744,13 @@ this room has a few disabled battle scenes which is why there are so many disabl
 | 1 | Gross Rosaries In the Sinner's Basement | basement | (swim AND (Ledge grab left OR cling grip left))  OR  (faydown cloak AND ((drifter's cloak AND ledge grab left) OR clawline left OR sharpdart OR swim)) OR (clawline left AND (drifter's cloak AND ledge grab left)) |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #1 |
 | 2 | First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison | rosary cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #2 |
 | 3 | Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison | rosary cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #3 |
-| 4 | Amy, the Roachcatcher | middle right | none |  | Verified | enemy | ✓ | Formerly: Roachcatcher 1 |
-| 5 | Puddles, the Mite | basement | none |  | Verified | enemy | ✓ | Formerly: Mite 1 |
-| 6 | Dickson, the Roachfeeder | top | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 1 |
-| 7 | Liam, the Roachfeeder | rosary cage | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 2 |
-| 8 | Aiden, the Roachfeeder | rosary cage | Black Thread World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 3 |
-| 9 | Creed, the Roachfeeder | upper right | Black Thread World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 4 |
+| 4 | Lever That Gets You A Shortcut To The Bullshit Bench Door | lever room | flip switch either |  | Verified | lock | ✓ |  |
+| 5 | Amy, the Roachcatcher | middle right | none |  | Verified | enemy | ✓ | Formerly: Roachcatcher 1 |
+| 6 | Puddles, the Mite | basement | none |  | Verified | enemy | ✓ | Formerly: Mite 1 |
+| 7 | Dickson, the Roachfeeder | top | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 1 |
+| 8 | Liam, the Roachfeeder | rosary cage | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 2 |
+| 9 | Aiden, the Roachfeeder | rosary cage | Black Thread World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 3 |
+| 10 | Creed, the Roachfeeder | upper right | Black Thread World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 4 |
 
 <a name="room-sinner-s-road--sinner-s-road-shack"></a>
 
@@ -19571,7 +19580,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Bilewater - Thieves | upper | none |  | Verified | collectible | ✓ |  |
+| 1 | The Flea That Bilewater Thieves Stole | upper | none |  | Verified | collectible | ✓ | Formerly: Flea: Bilewater - Thieves |
 | 2 | Snitchfly 1 | upper | none |  | Verified | enemy | ✓ |  |
 | 3 | Snitchfly 2 | upper | none |  | Verified | enemy | ✓ |  |
 | 4 | Snitchfly 3 | upper | none |  | Verified | enemy | ✓ |  |
@@ -19867,28 +19876,28 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LM | left to mid | left door plat | up left plat | swim OR dash OR run OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
+| LM | left to mid | left door plat | up left plat | swim OR run OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
 | LM | left to mid | up left plat | left door plat | swim OR run OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
-| MF | mid to flea | below flea | flea room | cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| MF | mid to flea | below flea | flea room | cling grip left OR (faydown cloak AND cling grip right) OR scuttlebrace |  | Verified | ✓ |  |
 | MF | mid to flea | flea room | below flea | none |  | Verified | ✓ |  |
 | MBR | mid to bottom right | below flea | bottom | break wall right |  | Verified | ✓ |  |
-| MBR | mid to bottom right | bottom | below flea | cling grip OR scuttlebrace |  | Verified | ✓ |  |
-| MRP | mid to right plat | below flea | right door plat | faydown cloak AND cling grip |  | Verified | ✓ |  |
+| MBR | mid to bottom right | bottom | below flea | cling grip either OR scuttlebrace |  | Verified | ✓ |  |
+| MRP | mid to right plat | below flea | right door plat | faydown cloak AND cling grip right |  | Verified | ✓ |  |
 | MRP | mid to right plat | right door plat | below flea | none |  | Verified | ✓ | falling |
-| WB | wall breakthrough | bottom | bottom right | break wall right |  | Verified | ✓ |  |
-| WB | wall breakthrough | bottom right | bottom | break wall left |  | Verified | ✓ |  |
-| UL | up to low | up left plat | low hall | (swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak) |  | Verified | ✓ |  |
-| UL | up to low | low hall | up left plat | cling grip OR scuttlebrace |  | Verified | ✓ |  |
-| LOM | low to mid | low hall | below flea | cling grip OR scuttlebrace |  | Verified | ✓ |  |
-| LOM | low to mid | below flea | low hall | swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
-| RT | right to top | right door plat | top plat | (faydown cloak AND (cling grip OR ledge grab)) OR (proficient movement AND scuttlebrace AND clawline) |  | Verified | ✓ |  |
+| WB | wall breakthrough | bottom | bottom right | break wall right AND (swim OR (proficient movement AND clawline right AND (faydown OR ledge grab right OR cling grip right))) |  | Verified | ✓ |  |
+| WB | wall breakthrough | bottom right | bottom | break wall left AND (swim OR (proficient movement AND faydown AND (clawline left OR sharpdart))) |  | Verified | ✓ |  |
+| UL | up to low | up left plat | low hall | (swim OR dash right OR scuttlebrace OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak) |  | Verified | ✓ |  |
+| UL | up to low | low hall | up left plat | cling grip left OR (faydown cloak AND cling grip right) OR scuttlebrace |  | Verified | ✓ |  |
+| LOM | low to mid | low hall | below flea | cling grip right OR (faydown cloak AND cling grip left) OR scuttlebrace |  | Verified | ✓ |  |
+| LOM | low to mid | below flea | low hall | swim OR dash left OR clawline left OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
+| RT | right to top | right door plat | top plat | (faydown cloak AND (cling grip either OR ledge grab either)) OR (proficient movement AND scuttlebrace AND clawline) OR (silk soar AND dash left) |  | Verified | ✓ |  |
 | RT | right to top | top plat | right door plat | none |  | Verified | ✓ | falling |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Bilehaven | flea room | break vines left |  | Verified | collectible | ✓ |  |
+| 1 | The Flea That Couldn't Make It Past All The Bilewater Traps | flea room | break vines left |  | Verified | collectible | ✓ | Formerly: Flea: Bilehaven |
 | 2 | Bilewater - Shell Shard Cache #1 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 3 | Bilewater - Shell Shard Cache #2 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 4 | Stilkin 1 | below flea | none |  | Verified | enemy | ✓ |  |
@@ -19926,10 +19935,10 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | left to center | left | center ground | swim OR (clawline OR enemy pogo) |  | Verified | ✓ |  |
-| LC | left to center | center ground | left | swim OR (clawline OR enemy pogo) |  | Verified | ✓ |  |
-| RC | right to center | right | center ground | (drifter's cloak OR faydown cloak OR clawline OR sharpdart) OR swim |  | Verified | ✓ |  |
-| RC | right to center | center ground | right | (drifter's cloak OR faydown cloak OR clawline OR sharpdart) OR swim |  | Verified | ✓ |  |
+| LC | left to center | left | center ground | (clawline right 2 OR sharpdart 2) OR swim OR (dash right AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline right)) OR (easy enemy pogo off Mothleaf Lagnia) |  | Verified | ✓ |  |
+| LC | left to center | center ground | left | (clawline left 2 OR sharpdart 2) OR swim OR (dash left AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline left)) OR (easy enemy pogo off Mothleaf Lagnia) |  | Verified | ✓ |  |
+| RC | right to center | right | center ground | run OR clawline left OR sharpdart OR (easy beast pogo AND ledge grab left) OR faydown cloak OR drifter's cloak |  | Verified | ✓ |  |
+| RC | right to center | center ground | right | (clawline right 2 OR sharpdart 2) OR swim OR easy beast pogo OR (dash right AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline right)) |  | Verified | ✓ |  |
 | RW | right to wall | right | behind wall | prereq Bilewater East - Breakable Wall |  | Verified | ✓ |  |
 | RW | right to wall | behind wall | right | prereq Bilewater East - Breakable Wall |  | Verified | ✓ |  |
 
@@ -19937,7 +19946,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater East - Memory Locket | right | none |  | Verified | collectible | ✓ |  |
+| 1 | Locket At The End of A LONG Hallway of Moths | right | none |  | Verified | collectible | ✓ | Formerly: Bilewater East - Memory Locket |
 | 2 | Bilewater East - Breakable Wall | behind wall | prereq Bilewater East Bench Left Exit Wall IN Bilewater East Bench |  | Verified | blockade | ✓ |  |
 | 3 | Mothleaf Lagnia 1 | center ground | none |  | Verified | enemy | ✓ |  |
 | 4 | Mothleaf Lagnia 2 | center ground | none |  | Verified | enemy | ✓ |  |
@@ -19978,9 +19987,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Shell Shard Cache #5 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
-| 2 | Bilewater - Shell Shard Cache #6 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
-| 3 | Bilewater - Shell Shard Cache #7 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
+| 1 | First Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #5 |
+| 2 | Second Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #6 |
+| 3 | Third Third Of The Shards In A Mothed Up Bilewater Closet |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ | Formerly: Bilewater - Shell Shard Cache #7 |
 | 4 | Mothleaf Lagnia 1 |  | none |  | Verified | enemy | ✓ |  |
 | 5 | Mothleaf Lagnia 2 |  | none |  | Verified | enemy | ✓ |  |
 | 6 | Mothleaf Lagnia 3 |  | none |  | Verified | enemy | ✓ |  |
@@ -20061,8 +20070,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Map Purchase |  | none |  | Verified | collectible | ✓ |  |
-| 2 | Covetous Pilgrim 1 |  | complete Boss: Groal the Great IN Bilewater Groal Arena |  | Verified | enemy | ✓ |  |
+| 1 | Shakra Sells The Best Map In The Game (It's Bilewater) |  | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Map Purchase |
+| 2 | Dave, The Covetous Pilgrim Who Was Also Looking For Shakra |  | complete Boss: Groal the Great IN Bilewater Groal Arena |  | Verified | enemy | ✓ | Formerly: Covetous Pilgrim 1 |
 
 <a name="room-bilewater--bilewater-sinner-s-entrance"></a>
 
@@ -20090,7 +20099,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right | right door | [Bilewater East Column (Shadow_09)](#room-bilewater--bilewater-east-column) | LL | none |  | Verified | ✓ |  |
-| L | left | left quarter | [Sinner's Road Vertical Hall East (Dust_06)](#room-sinner-s-road--sinner-s-road-vertical-hall-east) | UR | none |  | Verified | ✓ |  |
+| L | left | left quarter | [Sinner's Road Vertical Hall East (Dust_06)](#room-sinner-s-road--sinner-s-road-vertical-hall-east) | UR | break wall left |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -20502,7 +20511,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CR | crossing | left exit | trails end | faydown cloak  AND swim  AND cling grip  AND ( ledge grab OR dash OR clawline OR sharpdart ) |  | Verified | ✓ |  |
+| CR | crossing | left exit | trails end | faydown cloak  AND (swim OR (proficient movement AND clawline  right 2 AND cling grip right))  AND cling grip  AND ( ledge grab OR dash OR clawline OR sharpdart ) |  | Verified | ✓ |  |
 | CR | crossing | trails end | left exit | faydown cloak  AND swim  AND cling grip  AND ( ledge grab OR dash OR clawline OR sharpdart ) |  | Verified | ✓ | don't think you can get out without silk soar's height?  Yes you can. Use the wall on the other side of the room. |
 
 #### Check Locations
@@ -20589,12 +20598,12 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RM | right to mid | mid right | right | faydown cloak OR enemy pogo OR clawline OR sharpdart OR (run AND proficient movement) OR dash |  | Verified | ✓ |  |
-| RM | right to mid | right | mid right | faydown cloak OR drifter's cloak OR run OR sharpdart OR clawline OR enemy pogo OR swim OR scuttlebrace OR easy beast pogo |  | Verified | ✓ |  |
-| MLR | mid left to mid right | mid left | mid right | scuttlebrace OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR dash OR swim |  | Verified | ✓ |  |
+| LML | left to mid left | left | mid left | clawline OR sharpdart OR dash OR drifter's cloak OR (faydown cloak AND (run OR enemy pogo)) OR swim OR ((run OR proficient movement) AND easy beast pogo) |  | Verified | ✓ |  |
+| LML | left to mid left | mid left | left | clawline OR easy beast pogo OR (sharpdart AND proficient movement) OR (dash AND proficient movement) OR (faydown cloak AND (enemy pogo OR drifter's cloak)) |  | Verified | ✓ |  |
+| MLR | mid left to mid right | mid left | mid right | scuttlebrace OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR dash OR swim OR easy beast pogo |  | Verified | ✓ |  |
 | MLR | mid left to mid right | mid right | mid left | cling grip AND (clawline OR sharpdart OR (faydown cloak AND (scuttlebrace OR swim OR drifter's cloak OR enemy pogo))) |  | Verified | ✓ |  |
-| LML | left to mid left | left | mid left | clawline OR sharpdart OR dash OR drifter's cloak OR (faydown cloak AND (run OR enemy pogo)) OR swim |  | Verified | ✓ |  |
-| LML | left to mid left | mid left | left | clawline OR (sharpdart AND proficient movement) OR (dash AND proficient movement) OR (faydown cloak AND (enemy pogo OR drifter's cloak)) |  | Verified | ✓ |  |
+| RM | right to mid | mid right | right | faydown cloak OR enemy pogo OR clawline OR sharpdart OR (run AND proficient movement) OR dash OR easy beast pogo |  | Verified | ✓ |  |
+| RM | right to mid | right | mid right | faydown cloak OR drifter's cloak OR run OR sharpdart OR clawline OR enemy pogo OR swim OR scuttlebrace OR easy beast pogo |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -20760,12 +20769,12 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TE | top to elevator | top layer | elevator | complete Boss: Phantom |  | Verified | ✓ |  |
 | TE | top to elevator | elevator | top layer | complete Boss: Phantom |  | Verified | ✓ |  |
-| GBE | ground to broken elevator | ground floor | broken elevator | cling grip OR silk soar |  | Verified | ✓ |  |
+| GBE | ground to broken elevator | ground floor | broken elevator | (cling grip either AND complete Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar |  | Verified | ✓ |  |
 | GBE | ground to broken elevator | broken elevator | ground floor | complete Fix The Broken Elevator |  | Verified | ✓ |  |
 | GRC | ground to right column | ground floor | right column | cling grip |  | Verified | ✓ |  |
 | GRC | ground to right column | right column | ground floor | none |  | Verified | ✓ |  |
 | MRC | maze to right column | maze | right column | cling grip AND faydown cloak |  | Verified | ✓ |  |
-| MRC | maze to right column | right column | maze | cling grip |  | Verified | ✓ |  |
+| MRC | maze to right column | right column | maze | cling grip both OR (cling grip right AND (spike pogo AND (easy [reaper, architect, shaman] pogo OR faydown cloak))) OR (cling grip left AND (proficient movement OR (spike pogo AND easy [hunter, reaper, wanderer, witch, architect, shaman] pogo))) |  | Verified | ✓ |  |
 | MT | maze to top | maze | top layer | cling grip |  | Verified | ✓ |  |
 | MT | maze to top | top layer | maze | cling grip |  | Verified | ✓ |  |
 | GB | ground to bench room | ground floor | bench room | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
@@ -20783,7 +20792,7 @@ No subroom connections defined.
 | 4 | Boss: Phantom | top layer | ( dash OR run ) AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 5 | Phantom 1 | top layer | dash OR run |  | Verified | enemy | ✓ |  |
 | 6 | Drapefly 1 | ground floor | none |  | Verified | enemy | ✓ |  |
-| 7 | Drapefly 2 | right column | none |  | Verified | enemy | ✓ |  |
+| 7 | Drapefly 2 | ground floor | none |  | Verified | enemy | ✓ |  |
 | 8 | Drapefly 3 | maze | none |  | Verified | enemy | ✓ |  |
 
 ## Memorium

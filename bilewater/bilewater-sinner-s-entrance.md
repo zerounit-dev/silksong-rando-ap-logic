@@ -20,7 +20,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right | right door | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | LL | none |  | Verified | ✓ |  |
-| L | left | left quarter | [Sinner's Road Vertical Hall East (Dust_06)](../sinner-s-road/sinner-s-road-vertical-hall-east.md) | UR | none |  | Verified | ✓ |  |
+| L | left | left quarter | [Sinner's Road Vertical Hall East (Dust_06)](../sinner-s-road/sinner-s-road-vertical-hall-east.md) | UR | break wall left |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

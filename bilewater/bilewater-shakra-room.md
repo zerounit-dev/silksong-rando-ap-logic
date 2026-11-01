@@ -22,8 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Map Purchase |  | none |  | Verified | collectible | ✓ |  |
-| 2 | Covetous Pilgrim 1 |  | complete Boss: Groal the Great IN Bilewater Groal Arena |  | Verified | enemy | ✓ |  |
+| 1 | Shakra Sells The Best Map In The Game (It's Bilewater) |  | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Map Purchase |
+| 2 | Dave, The Covetous Pilgrim Who Was Also Looking For Shakra |  | complete Boss: Groal the Great IN Bilewater Groal Arena |  | Verified | enemy | ✓ | Formerly: Covetous Pilgrim 1 |
 
 ## Room Images
 

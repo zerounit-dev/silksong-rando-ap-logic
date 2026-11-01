@@ -30,16 +30,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RSL | right ledge to shard ledge | right ledge | shard ledge | Faydown cloak OR silk soar OR (cling grip right AND enemy pogo AND (clawline right OR sharpdart)) |  | Verified | ✓ |  |
+| RSL | right ledge to shard ledge | right ledge | shard ledge | (Faydown cloak AND (ledge grab either OR cling grip either)) OR silk soar |  | Verified | ✓ |  |
 | RSL | right ledge to shard ledge | shard ledge | right ledge | none |  | Verified | ✓ |  |
-| UES | upper entry to shack | plat above upper door | shack | Clawline right x 5 OR ((Cling grip left OR silk soar) AND enemy pogo AND (drifter’s cloak OR sharpdart)) |  | Verified | ✓ |  |
-| UES | upper entry to shack | shack | plat above upper door | Run left AND (faydown cloak OR clawline x 5 OR sharpdart) |  | Verified | ✓ |  |
+| UES | upper entry to shack | plat above upper door | shack | Clawline right 3 OR ((Cling grip left OR silk soar) AND (drifter’s cloak OR sharpdart 2 OR clawline right 2)) |  | Verified | ✓ |  |
+| UES | upper entry to shack | shack | plat above upper door | (run AND (drifter's cloak OR clawline left OR sharpdart)) OR (dash AND faydown cloak) OR clawline left 2 OR sharpdart 2 |  | Verified | ✓ |  |
 | RLS | right ledge to shack | right ledge | shack | silk soar |  | Verified | ✓ |  |
 | RLS | right ledge to shack | shack | right ledge | none |  | Verified | ✓ |  |
-| LP | lower entry to lower platform | lower entry | lower platform | ledge grab right OR cling grip right OR clawline right OR sharpdart OR run right OR dash right OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike |  | Verified | ✓ |  |
+| LP | lower entry to lower platform | lower entry | lower platform | ledge grab right OR cling grip right OR clawline right OR sharpdart OR run OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike |  | Verified | ✓ |  |
 | LP | lower entry to lower platform | lower platform | lower entry | none |  | Verified | ✓ |  |
-| PR | lower platform to right ledge | lower platform | right ledge | clawline right OR enemy pogo OR (faydown cloak AND drifter's cloak AND ledge grab AND (sharpdart OR dash right OR run right)) |  | Verified | ✓ |  |
-| PR | lower platform to right ledge | right ledge | lower platform | clawline left OR sharpdart OR swim OR enemy pogo OR drifter's cloak OR dash left |  | Verified | ✓ |  |
+| PR | lower platform to right ledge | lower platform | right ledge | none |  | Verified | ✓ | Can be done with just bouncing on the spikes as-is. Keeping notes because I'm weird and paranoid.  Formerly: clawline right OR (faydown cloak AND drifter's cloak AND ledge grab right AND (sharpdart OR dash right OR run right)) |
+| PR | lower platform to right ledge | right ledge | lower platform | none |  | Verified | ✓ | Same as above.  Formerly: clawline left OR sharpdart OR swim OR enemy pogo OR drifter's cloak OR dash left |
 | UP | upper entry to upper plat | upper entry | plat above upper door | ledge grab right OR cling grip right OR silk soar OR faydown cloak |  | Verified | ✓ |  |
 | UP | upper entry to upper plat | plat above upper door | upper entry | none |  | Verified | ✓ |  |
 | LPM | lower plat to mid left plat | lower platform | middle left plat | silk soar |  | Verified | ✓ |  |

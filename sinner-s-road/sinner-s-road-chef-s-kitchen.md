@@ -25,7 +25,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LU | lower to upper | lower | upper | faydown cloak OR silk soar |  | Verified | ✓ |  |
 | LU | lower to upper | upper | lower | none |  | Verified | ✓ |  |
-| BL | basement to lower | basement | lower | scuttlebrace OR cling grip OR silk soar |  | Verified | ✓ |  |
+| BL | basement to lower | basement | lower | scuttlebrace OR cling grip either OR silk soar |  | Verified | ✓ |  |
 | BL | basement to lower | lower | basement | invalid (true one-way) |  | Verified | ✓ |  |
 
 ## Check Locations

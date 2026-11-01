@@ -25,7 +25,7 @@
 | L | left | left door | [Sinner's Road North Hall (Dust_05)](sinner-s-road-north-hall.md) | R | complete The Lever Gettin' You Outta The North Hall IN Sinner's Road North Hall |  | Verified | ✓ |  |
 | LR | lower right | low door | [Sinner's Road Styx Room (Dust_11)](sinner-s-road-styx-room.md) | L | none |  | Verified | ✓ |  |
 | MR | middle right | mid right door | [Sinner's Road Flea Rescue (Dust_12)](sinner-s-road-flea-rescue.md) | L | none |  | Verified | ✓ |  |
-| UR | upper right | bilewater door | [Bilewater Sinner's Entrance (Shadow_05)](../bilewater/bilewater-sinner-s-entrance.md) | L | none |  | Verified | ✓ |  |
+| UR | upper right | bilewater door | [Bilewater Sinner's Entrance (Shadow_05)](../bilewater/bilewater-sinner-s-entrance.md) | L | break wall right |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
