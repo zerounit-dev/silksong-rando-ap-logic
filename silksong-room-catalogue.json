@@ -62325,8 +62325,8 @@
           "localPositionX": 72.5,
           "localPositionY": 31,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 71.84258270263672,
-          "annotationSceneUnitY": 8.282391548156738,
+          "annotationSceneUnitX": 72.5,
+          "annotationSceneUnitY": 31,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "Bottom",
           "destinationRoomReferenceText": "cogwork core breakable walls",
@@ -62339,7 +62339,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T04:25:40.5225982Z",
-          "updatedUtc": "2026-08-27T02:23:53.4708921Z",
+          "updatedUtc": "2026-11-01T22:38:13.9469182Z",
           "isUnsafeArrival": false
         },
         {
@@ -66204,22 +66204,22 @@
       "contributors": "Rebel",
       "comments": null,
       "sceneMinX": 0,
-      "sceneMinY": 0,
+      "sceneMinY": 26,
       "sceneMaxX": 72,
-      "sceneMaxY": 117,
-      "sceneImagePixelsPerUnitX": 6.2141506494335905,
-      "sceneImagePixelsPerUnitY": 4.985207507564986,
-      "sceneImagePixelOffsetX": 10212.841308066401,
-      "sceneImagePixelOffsetY": 12559.061253912836,
+      "sceneMaxY": 90,
+      "sceneImagePixelsPerUnitX": 32,
+      "sceneImagePixelsPerUnitY": 32,
+      "sceneImagePixelOffsetX": 0,
+      "sceneImagePixelOffsetY": 0,
       "useSceneImage": true,
-      "useUploadedSceneImage": false,
-      "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "dd774227d63aebe5fe79fef310c201c1efcdb28b30c71d8809164129939744ca",
+      "useUploadedSceneImage": true,
+      "sceneImageOriginalHash": "56aa31bde290c8a395617137a335f3cb985fc46f0f8409146ae26b8be955ba5a",
+      "sceneImageCropHash": "a426ac3103556684e6788e1f54786418843f208e3355324c1d3033fbe055b5a5",
       "sortOrder": 0,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-25T04:14:00.7136756Z",
-      "updatedUtc": "2026-08-27T02:26:34.7362495Z",
+      "updatedUtc": "2026-11-01T22:55:54.3444931Z",
       "subrooms": [
         {
           "id": "553ec88e-8c75-4cca-9fd2-eeb3cbd4ef18",
@@ -66227,15 +66227,15 @@
           "friendlyName": "Bottom",
           "notes": "",
           "sceneUnitX": 0,
-          "sceneUnitY": 18.0827579498291,
+          "sceneUnitY": 26,
           "sceneUnitWidth": 72,
-          "sceneUnitHeight": 24.220422744750977,
+          "sceneUnitHeight": 21.939876556396484,
           "enableAnnotation": true,
           "sortOrder": 0,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T05:48:02.4458142Z",
-          "updatedUtc": "2026-08-25T05:48:47.2892587Z"
+          "updatedUtc": "2026-11-01T22:56:08.4759459Z"
         },
         {
           "id": "c9cedd42-da1b-42b6-b594-79d1d8b07c87",
@@ -66243,15 +66243,15 @@
           "friendlyName": "Melody Puzzle",
           "notes": "",
           "sceneUnitX": 0,
-          "sceneUnitY": 42.303,
+          "sceneUnitY": 47.939876556396484,
           "sceneUnitWidth": 72,
-          "sceneUnitHeight": 74.697,
+          "sceneUnitHeight": 42.060123443603516,
           "enableAnnotation": true,
           "sortOrder": 1,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T05:48:09.1060808Z",
-          "updatedUtc": "2026-08-25T05:48:53.0933606Z"
+          "updatedUtc": "2026-11-01T22:56:07.098619Z"
         }
       ],
       "transitions": [
@@ -66294,15 +66294,15 @@
           "requirements": "Silk Soar OR Cling Grip OR (Faydown Cloak AND Scuttlebrace)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 6.880733966827393,
+          "sceneUnitY": 48.32293701171875,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T05:49:56.3065857Z",
-          "updatedUtc": "2026-09-10T03:50:23.1963014Z"
+          "updatedUtc": "2026-11-01T22:56:16.0691899Z"
         },
         {
           "id": "ef0fde99-47bd-4a54-ad48-385b6d45a591",
@@ -66313,15 +66313,15 @@
           "requirements": "Nothing. (Fall)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 6.880733966827393,
+          "sceneUnitY": 48.32293701171875,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T05:50:23.6278531Z",
-          "updatedUtc": "2026-08-25T05:50:30.0172794Z"
+          "updatedUtc": "2026-11-01T22:56:16.0691899Z"
         }
       ],
       "checks": [
@@ -194254,12 +194254,12 @@
           "sceneUnitX": 42.77289962768555,
           "sceneUnitY": 123.4272689819336,
           "sortOrder": 6,
-          "isTodo": true,
+          "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-24T03:22:36.155847Z",
-          "updatedUtc": "2026-10-24T07:59:35.8697779Z"
+          "updatedUtc": "2026-11-01T22:48:31.3798731Z"
         },
         {
           "id": "1c91cbb6-efce-42ba-b9ff-a92780ee55da",
@@ -194292,12 +194292,12 @@
           "sceneUnitX": 31.886106491088867,
           "sceneUnitY": 119.0494155883789,
           "sortOrder": 7,
-          "isTodo": true,
+          "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-24T08:02:10.2228066Z",
-          "updatedUtc": "2026-10-24T08:02:25.729285Z"
+          "updatedUtc": "2026-11-01T22:48:32.0348869Z"
         },
         {
           "id": "9abb83c2-00cb-41f0-9d00-8f66de178492",
@@ -194349,12 +194349,12 @@
           "sceneUnitX": null,
           "sceneUnitY": null,
           "sortOrder": 8,
-          "isTodo": true,
+          "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-24T08:02:49.6942234Z",
-          "updatedUtc": "2026-10-24T08:05:04.3503441Z"
+          "updatedUtc": "2026-11-01T22:48:32.607288Z"
         },
         {
           "id": "155be873-b4ad-4645-b318-693a563daf20",
@@ -194495,18 +194495,18 @@
           "friendlyName": "MiddlePharlid2",
           "sourceSubroomReferenceText": "Pharlid 2",
           "destinationSubroomReferenceText": "Middle Left",
-          "requirements": "run OR clawline left OR sharpdart x 1 OR faydown cloak OR hard pogo off [Driznit] OR ((medium [voltvessels] stall OR hard [parry, pale nails] stall) AND cling grip left) OR ((hard [beast] pogo OR easy [beast] needle strike) AND (cling grip left OR ledge grab left))",
+          "requirements": "run OR clawline left OR sharpdart x 1 OR faydown cloak OR hard pogo off [Driznit] OR ((medium [voltvessels] stall OR cbt [parry, pale nails] stall) AND cling grip left) OR ((hard [beast] pogo OR easy [beast] needle strike) AND (cling grip left OR ledge grab left))",
           "notes": "You can rip 3 stalls in neutral to cross the gap\nSpell stalls need to be moved into CBT category",
           "enableAnnotation": true,
           "sceneUnitX": 15.028334617614746,
           "sceneUnitY": 102.2041015625,
           "sortOrder": 12,
-          "isTodo": true,
+          "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-24T08:53:13.6593551Z",
-          "updatedUtc": "2026-10-24T09:10:02.6879631Z"
+          "updatedUtc": "2026-11-01T22:48:57.3922638Z"
         },
         {
           "id": "14e1123f-0b60-44ff-8919-c7751fa715a2",

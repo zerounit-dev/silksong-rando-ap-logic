@@ -133495,7 +133495,7 @@
             "unresolved_reasons": []
           },
           "notes": "Requirements are defined as if you do not hit the lever, requirements change if you do",
-          "is_todo": true,
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -133515,7 +133515,7 @@
             "unresolved_reasons": []
           },
           "notes": "Requirements are defined as if you do not hit the lever, requirements change if you do",
-          "is_todo": true,
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -133549,7 +133549,7 @@
             "unresolved_reasons": []
           },
           "notes": "Requirements are defined as if you do not hit the lever, requirements change if you do",
-          "is_todo": true,
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -133733,7 +133733,7 @@
           "source_node_id": "blasted-steps/blasted-steps-wide-long-vertical#pharlid-2",
           "target_node_id": "blasted-steps/blasted-steps-wide-long-vertical#middle-left",
           "requirement": {
-            "raw": "run OR clawline left OR sharpdart x 1 OR faydown cloak OR hard pogo off [Driznit] OR ((medium [voltvessels] stall OR hard [parry, pale nails] stall) AND cling grip left) OR ((hard [beast] pogo OR easy [beast] needle strike) AND (cling grip left OR ledge grab left))",
+            "raw": "run OR clawline left OR sharpdart x 1 OR faydown cloak OR hard pogo off [Driznit] OR ((medium [voltvessels] stall OR cbt [parry, pale nails] stall) AND cling grip left) OR ((hard [beast] pogo OR easy [beast] needle strike) AND (cling grip left OR ledge grab left))",
             "mode": "expression",
             "dnf": [
               [
@@ -133756,11 +133756,11 @@
                 "capability:cling-grip:left"
               ],
               [
-                "capability:stall:cross-stitch:hard:1",
+                "capability:stall:cross-stitch:cbt:1",
                 "capability:cling-grip:left"
               ],
               [
-                "capability:stall:pale-nails:hard:1",
+                "capability:stall:pale-nails:cbt:1",
                 "capability:cling-grip:left"
               ],
               [
@@ -133783,7 +133783,7 @@
             "unresolved_reasons": []
           },
           "notes": "You can rip 3 stalls in neutral to cross the gap\nSpell stalls need to be moved into CBT category",
-          "is_todo": true,
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
