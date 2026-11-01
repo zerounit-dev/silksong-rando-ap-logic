@@ -30430,15 +30430,15 @@
           "requirements": "Attack Left",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": -14.74496841430664,
-          "sceneUnitY": 28.1978759765625,
+          "sceneUnitX": 16.401473999023438,
+          "sceneUnitY": 31.14830207824707,
           "sortOrder": 10,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T06:49:27.9668799Z",
-          "updatedUtc": "2026-10-16T16:23:53.7574879Z"
+          "updatedUtc": "2026-11-01T22:25:07.3006284Z"
         },
         {
           "id": "9fd2a0b8-4979-4322-9a42-865857414b95",
@@ -30449,15 +30449,15 @@
           "requirements": "(Attack Right AND (Dash OR Faydown Cloak OR Drifter\u0027s Cloak OR Cling Grip OR Sharpdart OR Clawline OR Scuttlebrace OR Ledge Grab))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": -14.74496841430664,
-          "sceneUnitY": 28.1978759765625,
+          "sceneUnitX": 16.401473999023438,
+          "sceneUnitY": 31.14830207824707,
           "sortOrder": 11,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T06:52:25.4273028Z",
-          "updatedUtc": "2026-10-16T16:24:02.933704Z"
+          "updatedUtc": "2026-11-01T22:25:07.3006284Z"
         },
         {
           "id": "6159cb91-79ee-405d-809f-32801b8fa93c",
@@ -63306,19 +63306,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 72,
       "sceneMaxY": 160,
-      "sceneImagePixelsPerUnitX": 6.326571794935502,
-      "sceneImagePixelsPerUnitY": 6.537041097985752,
-      "sceneImagePixelOffsetX": 10110.249285149082,
-      "sceneImagePixelOffsetY": 11535.4174432303,
+      "sceneImagePixelsPerUnitX": 16,
+      "sceneImagePixelsPerUnitY": 16,
+      "sceneImagePixelOffsetX": 0,
+      "sceneImagePixelOffsetY": 0,
       "useSceneImage": true,
-      "useUploadedSceneImage": false,
-      "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "7df51fd32606369b49c31e3856ad631a479f96fdec511fcbd8e5a22a09b69301",
+      "useUploadedSceneImage": true,
+      "sceneImageOriginalHash": "28fac8f2277a6be52f59d3eabc6b8f3cda50a58c700c61bfec03cc43f80ae978",
+      "sceneImageCropHash": "e1cf7ab7c1217f54b702713ac72d5a396222e6b3a7e2200cf15464b81eaca1db",
       "sortOrder": 0,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-24T09:55:20.2690303Z",
-      "updatedUtc": "2026-08-27T02:31:31.32052Z",
+      "updatedUtc": "2026-11-01T22:35:04.1643633Z",
       "subrooms": [
         {
           "id": "f646da33-0654-47e7-914e-068a1ed0df46",
@@ -63357,8 +63357,8 @@
           "referenceId": "Lever Door",
           "friendlyName": "Lever Door",
           "notes": "",
-          "sceneUnitX": 28.14750099182129,
-          "sceneUnitY": 62.32311248779297,
+          "sceneUnitX": 25.805810928344727,
+          "sceneUnitY": 77.75696563720703,
           "sceneUnitWidth": 16.559999465942383,
           "sceneUnitHeight": 6.8400115966796875,
           "enableAnnotation": true,
@@ -63366,7 +63366,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T09:59:24.4971252Z",
-          "updatedUtc": "2026-08-24T09:59:31.3405139Z"
+          "updatedUtc": "2026-11-01T22:35:20.2672993Z"
         }
       ],
       "transitions": [
@@ -63384,7 +63384,7 @@
           "annotationSceneUnitX": 7,
           "annotationSceneUnitY": 2.5,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "Lever Door",
+          "sourceSubroomReferenceText": "Lower Entrance",
           "destinationRoomReferenceText": "cog dancers",
           "destinationTransitionAliasText": "T",
           "requirements": "Nothing",
@@ -63395,7 +63395,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T09:55:20.2690303Z",
-          "updatedUtc": "2026-09-10T04:43:57.5197333Z",
+          "updatedUtc": "2026-11-01T22:24:46.7254207Z",
           "isUnsafeArrival": false
         },
         {
@@ -63516,8 +63516,8 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": 40.74752426147461,
-          "annotationSceneUnitY": 68.08312225341797,
+          "annotationSceneUnitX": 37.00397872924805,
+          "annotationSceneUnitY": 81.25572967529297,
           "subroomReferenceText": "Lever Door",
           "requirements": "Nothing.",
           "notes": "",
@@ -63529,7 +63529,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T03:56:03.1747756Z",
-          "updatedUtc": "2026-09-10T04:44:10.739922Z"
+          "updatedUtc": "2026-11-01T22:35:17.2194291Z"
         },
         {
           "id": "dea8acf2-9a7f-46d8-8615-83ba1620be1e",

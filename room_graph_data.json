@@ -176656,7 +176656,7 @@
           "name": "bot1",
           "in_game_id": "bot1",
           "is_unsafe_arrival": false,
-          "source_node_id": "cogwork-core/cogwork-core-north-main#lever-door",
+          "source_node_id": "cogwork-core/cogwork-core-north-main#lower-entrance",
           "target": "cogwork-core/cog-dancers@t",
           "requirement": {
             "raw": "Nothing",

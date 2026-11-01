@@ -17156,7 +17156,7 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Lever Door | [Cog Dancers (Cog_Dancers)](#room-cogwork-core--cog-dancers) | T | Nothing |  | Verified | ✓ |  |
+| B | bot1 | Lower Entrance | [Cog Dancers (Cog_Dancers)](#room-cogwork-core--cog-dancers) | T | Nothing |  | Verified | ✓ |  |
 | T | top1 | Upper Entrance | [Cogwork Core Architect's Melody (Cog_09)](#room-cogwork-core--cogwork-core-architect-s-melody) | B | Nothing |  | Verified | ✓ |  |
 
 #### Subroom Connections
