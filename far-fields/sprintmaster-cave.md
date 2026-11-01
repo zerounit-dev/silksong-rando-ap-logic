@@ -35,8 +35,8 @@
 | 5 | race victory 2 | the race | complete race victory 1  AND ((run AND dash both AND cling grip both AND ledge grab left AND (easy [wanderer, reaper, shaman, beast] pogo OR medium [hunter, witch, architect] pogo)) OR (clawline AND run AND dash AND ledge grab left AND cling grip both AND silkhearts x 1) OR (run AND cling grip both AND faydown cloak)) |  | Verified | event |  | these need to be refined for each race |
 | 6 | race victory 3 | the race | complete race victory 2  AND ((run AND dash AND cling grip both AND ledge grab left AND (easy [wanderer, reaper, shaman, beast] pogo OR medium [hunter, witch, architect] pogo)) OR (clawline AND run AND dash AND ledge grab left AND cling grip both AND silkhearts x 1) OR (run AND cling grip both AND faydown cloak)) |  | Verified | event |  | these need to be refined for each race |
 | 7 | race victory 4 | the race | complete race victory 3  AND have everbloom AND ((run AND dash both AND cling grip both AND ledge grab left AND (easy [wanderer, reaper, shaman, beast] pogo OR medium [hunter, witch, architect] pogo)) OR (clawline AND run AND dash AND ledge grab left AND cling grip both AND silkhearts x 1) OR (run AND dash both AND cling grip both AND faydown cloak)) |  | Verified | event |  | these need to be refined for each race |
-| 8 | rosary beads | the race | complete race victory 1 |  | Verified | collectible | ✓ |  |
-| 9 | beast shard | the race | complete race victory 2 |  | Verified | collectible | ✓ |  |
+| 8 | Swift rosary necklace | the race | complete race victory 1 |  | Verified | collectible | ✓ | formerly rosary beads |
+| 9 | Swift beast shard | the race | complete race victory 2 |  | Verified | collectible | ✓ | formerly beast shard |
 | 10 | fastest in pharloom mask shard | the race | complete race victory 3 |  | Verified | collectible | ✓ |  |
 | 11 | sprintmaster memento | the race | complete race victory 4 |  | Verified | collectible | ✓ |  |
 

@@ -60209,28 +60209,48 @@
       "notes": "",
       "nodes": [
         {
-          "id": "far-fields/far-fields-dock-loopback#spike-exit",
-          "name": "spike exit",
+          "id": "far-fields/far-fields-dock-loopback#thorn-gust-cavern",
+          "name": "Thorn Gust Cavern",
+          "notes": "formerly spike exit"
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "name": "Loop Back Surface",
+          "notes": "formerly ground"
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#dock-fields-bell-crossing-shrine",
+          "name": "Dock Fields Bell Crossing Shrine",
+          "notes": "formerly bell bench"
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance",
+          "name": "Dock Fields Bell Entrance",
+          "notes": "formerly before gate"
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#windstream-passage",
+          "name": "Windstream Passage",
           "notes": ""
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#ground",
-          "name": "ground",
+          "id": "far-fields/far-fields-dock-loopback#crossing-climb-nook",
+          "name": "Crossing Climb Nook",
           "notes": ""
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#bell-bench",
-          "name": "bell bench",
+          "id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "name": "Upper Crossing Climb",
           "notes": ""
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#before-gate",
-          "name": "before gate",
+          "id": "far-fields/far-fields-dock-loopback#windstream-hangoff",
+          "name": "Windstream Hangoff",
           "notes": ""
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#unassigned",
-          "name": "unassigned",
+          "id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "name": "Cross Climb Link",
           "notes": ""
         }
       ],
@@ -60241,7 +60261,7 @@
           "name": "left1",
           "in_game_id": "left1",
           "is_unsafe_arrival": false,
-          "source_node_id": "far-fields/far-fields-dock-loopback#bell-bench",
+          "source_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-crossing-shrine",
           "target": "deep-docks/is-this-still-deep-docks-east@lr",
           "requirement": {
             "raw": "none",
@@ -60263,7 +60283,7 @@
           "name": "bot1",
           "in_game_id": "bot1",
           "is_unsafe_arrival": false,
-          "source_node_id": "far-fields/far-fields-dock-loopback#ground",
+          "source_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
           "target": "far-fields/far-fields-entrance@c",
           "requirement": {
             "raw": "none",
@@ -60285,7 +60305,7 @@
           "name": "right1",
           "in_game_id": "right1",
           "is_unsafe_arrival": false,
-          "source_node_id": "far-fields/far-fields-dock-loopback#spike-exit",
+          "source_node_id": "far-fields/far-fields-dock-loopback#thorn-gust-cavern",
           "target": "far-fields/far-fields-fort-upper-passage@l",
           "requirement": {
             "raw": "none",
@@ -60304,17 +60324,17 @@
       ],
       "connections": [
         {
-          "id": "far-fields/far-fields-dock-loopback#ground>spike-exit@sf",
+          "id": "far-fields/far-fields-dock-loopback#windstream-passage>thorn-gust-cavern@sf",
           "alias": "SF",
           "name": "spike float",
-          "source_node_id": "far-fields/far-fields-dock-loopback#ground",
-          "target_node_id": "far-fields/far-fields-dock-loopback#spike-exit",
+          "source_node_id": "far-fields/far-fields-dock-loopback#windstream-passage",
+          "target_node_id": "far-fields/far-fields-dock-loopback#thorn-gust-cavern",
           "requirement": {
-            "raw": "( cling grip AND drifter's cloak ) OR ( silk soar AND drifter's cloak )",
+            "raw": "(cling grip right AND drifter's cloak ) OR (silk soar AND drifter's cloak )",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:drifters-cloak"
               ],
               [
@@ -60331,11 +60351,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#spike-exit>ground@sf",
+          "id": "far-fields/far-fields-dock-loopback#thorn-gust-cavern>windstream-passage@sf",
           "alias": "SF",
           "name": "spike float",
-          "source_node_id": "far-fields/far-fields-dock-loopback#spike-exit",
-          "target_node_id": "far-fields/far-fields-dock-loopback#ground",
+          "source_node_id": "far-fields/far-fields-dock-loopback#thorn-gust-cavern",
+          "target_node_id": "far-fields/far-fields-dock-loopback#windstream-passage",
           "requirement": {
             "raw": "none (falling)",
             "mode": "none",
@@ -60351,11 +60371,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#before-gate>bell-bench@bg",
+          "id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance>dock-fields-bell-crossing-shrine@bg",
           "alias": "BG",
           "name": "bell bench gate",
-          "source_node_id": "far-fields/far-fields-dock-loopback#before-gate",
-          "target_node_id": "far-fields/far-fields-dock-loopback#bell-bench",
+          "source_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance",
+          "target_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-crossing-shrine",
           "requirement": {
             "raw": "none (switch is on this side)",
             "mode": "none",
@@ -60371,17 +60391,17 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#bell-bench>before-gate@bg",
+          "id": "far-fields/far-fields-dock-loopback#dock-fields-bell-crossing-shrine>dock-fields-bell-entrance@bg",
           "alias": "BG",
           "name": "bell bench gate",
-          "source_node_id": "far-fields/far-fields-dock-loopback#bell-bench",
-          "target_node_id": "far-fields/far-fields-dock-loopback#before-gate",
+          "source_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-crossing-shrine",
+          "target_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance",
           "requirement": {
-            "raw": "activate gate switch",
+            "raw": "activate Far Fields - Deep Docks Loopback - Bell Gate Switch",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:far-fields/far-fields-dock-loopback::switch/gate-switch"
+                "dependency:location:far-fields/far-fields-dock-loopback::switch/far-fields-deep-docks-loopback-bell-gate-switch"
               ]
             ],
             "unresolved_reasons": []
@@ -60393,23 +60413,247 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#ground>before-gate@cg",
-          "alias": "CG",
-          "name": "cling grip",
-          "source_node_id": "far-fields/far-fields-dock-loopback#ground",
-          "target_node_id": "far-fields/far-fields-dock-loopback#before-gate",
+          "id": "far-fields/far-fields-dock-loopback#loop-back-surface>dock-fields-bell-entrance@sb",
+          "alias": "SB",
+          "name": "shrine bell soar",
+          "source_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "target_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance",
           "requirement": {
-            "raw": "cling grip OR silk soar OR scuttlebrace",
+            "raw": "silk soar",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance>loop-back-surface@sb",
+          "alias": "SB",
+          "name": "shrine bell soar",
+          "source_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance",
+          "target_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#loop-back-surface>windstream-passage@wc",
+          "alias": "WC",
+          "name": "Windstream Climb",
+          "source_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "target_node_id": "far-fields/far-fields-dock-loopback#windstream-passage",
+          "requirement": {
+            "raw": "silk soar \nOR cling grip left\nOR (cling grip right AND ((ponder the orb AND (flea brew OR easy shaman pogo)) OR faydown cloak))\nOR easy scuttlebrace",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "setting:elite-ball-knowledge-on",
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:cling-grip:right",
+                "setting:elite-ball-knowledge-on",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#windstream-passage>loop-back-surface@wc",
+          "alias": "WC",
+          "name": "Windstream Climb",
+          "source_node_id": "far-fields/far-fields-dock-loopback#windstream-passage",
+          "target_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#loop-back-surface>crossing-climb-nook@ae",
+          "alias": "AE",
+          "name": "Ascent East",
+          "source_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "target_node_id": "far-fields/far-fields-dock-loopback#crossing-climb-nook",
+          "requirement": {
+            "raw": "silk soar \nOR (faydown cloak AND (ledge grab left OR easy pogo off Flapping Fertid))\nOR (ledge grab left AND easy pogo off Flapping Fertid AND (clawline either OR easy naked pogo OR easy [hunter, shaman, wanderer, reaper, architect, witch, beast] pogo))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Fields Flyer:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:clawline:either:1"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:naked-pogo:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:crest-pogo:wanderer:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:crest-pogo:witch:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Fields Flyer:easy",
+                "capability:crest-pogo:beast:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#crossing-climb-nook>loop-back-surface@ae",
+          "alias": "AE",
+          "name": "Ascent East",
+          "source_node_id": "far-fields/far-fields-dock-loopback#crossing-climb-nook",
+          "target_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#cross-climb-link>loop-back-surface@aw",
+          "alias": "AW",
+          "name": "Ascent West",
+          "source_node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "target_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#loop-back-surface>cross-climb-link@aw",
+          "alias": "AW",
+          "name": "Ascent West",
+          "source_node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
+          "target_node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "requirement": {
+            "raw": "cling grip either \nOR silk soar\nOR (easy scuttlebrace AND (faydown cloak OR easy flea brew stall))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:stall:flea-brew:easy:1"
               ]
             ],
             "unresolved_reasons": []
@@ -60421,11 +60665,375 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-dock-loopback#before-gate>ground@cg",
-          "alias": "CG",
-          "name": "cling grip",
-          "source_node_id": "far-fields/far-fields-dock-loopback#before-gate",
-          "target_node_id": "far-fields/far-fields-dock-loopback#ground",
+          "id": "far-fields/far-fields-dock-loopback#cross-climb-link>crossing-climb-nook@clr",
+          "alias": "CLR",
+          "name": "Climb Link Right",
+          "source_node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "target_node_id": "far-fields/far-fields-dock-loopback#crossing-climb-nook",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#crossing-climb-nook>cross-climb-link@clr",
+          "alias": "CLR",
+          "name": "Climb Link Right",
+          "source_node_id": "far-fields/far-fields-dock-loopback#crossing-climb-nook",
+          "target_node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "requirement": {
+            "raw": "(faydown cloak AND ledge grab left) \nOR cling grip either\nOR silk soar",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#crossing-climb-nook>upper-crossing-climb@cs",
+          "alias": "CS",
+          "name": "Crossing Soar",
+          "source_node_id": "far-fields/far-fields-dock-loopback#crossing-climb-nook",
+          "target_node_id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "requirement": {
+            "raw": "silk soar",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#windstream-hangoff>upper-crossing-climb@rc",
+          "alias": "RC",
+          "name": "Right Cross Climb",
+          "source_node_id": "far-fields/far-fields-dock-loopback#windstream-hangoff",
+          "target_node_id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "requirement": {
+            "raw": "cling grip left\nOR (faydown cloak AND (ledge grab left OR easy shaman pogo OR easy [flea brew, thread storm, rune rage] stall OR easy beast needle strike OR (proficient movement AND (medium beast pogo OR hard cross stitch stall x 2))))\nOR easy scuttlebrace",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:thread-storm:easy:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:rune-rage:easy:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:crest-pogo:beast:medium"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:stall:cross-stitch:hard:2"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#upper-crossing-climb>windstream-hangoff@rc",
+          "alias": "RC",
+          "name": "Right Cross Climb",
+          "source_node_id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "target_node_id": "far-fields/far-fields-dock-loopback#windstream-hangoff",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#cross-climb-link>upper-crossing-climb@lc",
+          "alias": "LC",
+          "name": "Left Cross Climb",
+          "source_node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "target_node_id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "requirement": {
+            "raw": "silk soar\nOR cling grip right\nOR (faydown cloak AND easy scuttlebrace)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#upper-crossing-climb>cross-climb-link@lc",
+          "alias": "LC",
+          "name": "Left Cross Climb",
+          "source_node_id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "target_node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#upper-crossing-climb>dock-fields-bell-entrance@sch",
+          "alias": "SCH",
+          "name": "Shrine Crossing Hop",
+          "source_node_id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "target_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance",
+          "requirement": {
+            "raw": "none ",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance>upper-crossing-climb@sch",
+          "alias": "SCH",
+          "name": "Shrine Crossing Hop",
+          "source_node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance",
+          "target_node_id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#windstream-passage>windstream-hangoff@wc2",
+          "alias": "WC2",
+          "name": "Windstream Connector",
+          "source_node_id": "far-fields/far-fields-dock-loopback#windstream-passage",
+          "target_node_id": "far-fields/far-fields-dock-loopback#windstream-hangoff",
+          "requirement": {
+            "raw": "faydown cloak\nOR drifter's cloak\nOR cling grip left\nOR (ledge grab left AND (easy shaman pogo OR easy flea brew stall))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:stall:flea-brew:easy:1"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#windstream-hangoff>windstream-passage@wc2",
+          "alias": "WC2",
+          "name": "Windstream Connector",
+          "source_node_id": "far-fields/far-fields-dock-loopback#windstream-hangoff",
+          "target_node_id": "far-fields/far-fields-dock-loopback#windstream-passage",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#cross-climb-link>windstream-hangoff@cwj",
+          "alias": "CWJ",
+          "name": "Climb Wind Junction",
+          "source_node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "target_node_id": "far-fields/far-fields-dock-loopback#windstream-hangoff",
+          "requirement": {
+            "raw": "ledge grab right \nOR cling grip either \nOR easy scuttlebrace \nOR faydown cloak\nOR easy shaman pogo\nOR easy beast needle strike\nOR (easy beast pogo AND easy [flea brew, thread storm, rune rage] stall)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "capability:crest-pogo:beast:easy",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "capability:crest-pogo:beast:easy",
+                "capability:stall:thread-storm:easy:1"
+              ],
+              [
+                "capability:crest-pogo:beast:easy",
+                "capability:stall:rune-rage:easy:1"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#windstream-hangoff>cross-climb-link@cwj",
+          "alias": "CWJ",
+          "name": "Climb Wind Junction",
+          "source_node_id": "far-fields/far-fields-dock-loopback#windstream-hangoff",
+          "target_node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-dock-loopback#upper-crossing-climb>crossing-climb-nook@cs",
+          "alias": "CS",
+          "name": "Crossing Soar",
+          "source_node_id": "far-fields/far-fields-dock-loopback#upper-crossing-climb",
+          "target_node_id": "far-fields/far-fields-dock-loopback#crossing-climb-nook",
           "requirement": {
             "raw": "none (falling)",
             "mode": "none",
@@ -60448,7 +61056,7 @@
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
-          "node_id": "far-fields/far-fields-dock-loopback#ground",
+          "node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
           "requirement": {
             "raw": "none",
             "mode": "none",
@@ -60469,7 +61077,7 @@
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
-          "node_id": "far-fields/far-fields-dock-loopback#ground",
+          "node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
           "requirement": {
             "raw": "none",
             "mode": "none",
@@ -60485,12 +61093,12 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-dock-loopback::switch/gate-switch",
-          "name": "gate switch",
+          "id": "location:far-fields/far-fields-dock-loopback::switch/far-fields-deep-docks-loopback-bell-gate-switch",
+          "name": "Far Fields - Deep Docks Loopback - Bell Gate Switch",
           "in_game_id": null,
           "location_type": "switch",
           "has_persisted_state": true,
-          "node_id": "far-fields/far-fields-dock-loopback#before-gate",
+          "node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-entrance",
           "requirement": {
             "raw": "flip switch up",
             "mode": "expression",
@@ -60501,19 +61109,65 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly gate switch",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-dock-loopback::lock/bench-rosary-lock",
-          "name": "bench rosary lock",
-          "in_game_id": null,
+          "id": "location:far-fields/far-fields-dock-loopback::lock/far-fields-dock-fields-shrine-bench-lock",
+          "name": "Far Fields - Dock Fields Shrine Bench Lock",
+          "in_game_id": "bell_toll_machine",
           "location_type": "lock",
           "has_persisted_state": true,
-          "node_id": "far-fields/far-fields-dock-loopback#bell-bench",
+          "node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-crossing-shrine",
+          "requirement": {
+            "raw": "get 30 rosaries",
+            "mode": "expression",
+            "dnf": [
+              [
+                "count:rosaries:30"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "formerly bench rosary lock",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:far-fields/far-fields-dock-loopback::bench/far-fields-dock-fields-shrine-bench",
+          "name": "Far Fields - Dock Fields Shrine Bench :)",
+          "in_game_id": "bell_bench",
+          "location_type": "bench",
+          "has_persisted_state": true,
+          "node_id": "far-fields/far-fields-dock-loopback#dock-fields-bell-crossing-shrine",
+          "requirement": {
+            "raw": "unlock Far Fields - Dock Fields Shrine Bench Lock",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:far-fields/far-fields-dock-loopback::lock/far-fields-dock-fields-shrine-bench-lock"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "formerly bench :)",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:far-fields/far-fields-dock-loopback::enemy/fertid-1",
+          "name": "Fertid 1",
+          "in_game_id": "\"Fields Goomba\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
           "requirement": {
             "raw": "none",
             "mode": "none",
@@ -60529,19 +61183,17 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-dock-loopback::bench/bench",
-          "name": "bench :)",
-          "in_game_id": null,
-          "location_type": "bench",
-          "has_persisted_state": true,
-          "node_id": "far-fields/far-fields-dock-loopback#bell-bench",
+          "id": "location:far-fields/far-fields-dock-loopback::enemy/flapping-fertid-1",
+          "name": "Flapping Fertid 1",
+          "in_game_id": "\"Fields Flyer (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "far-fields/far-fields-dock-loopback#cross-climb-link",
           "requirement": {
-            "raw": "unlock bench rosary lock",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:far-fields/far-fields-dock-loopback::lock/bench-rosary-lock"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -60552,28 +61204,88 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-dock-loopback::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "far-fields/far-fields-dock-loopback#unassigned",
+          "id": "location:far-fields/far-fields-dock-loopback::enemy/flapping-fertid-2",
+          "name": "Flapping Fertid 2",
+          "in_game_id": "\"Fields Flyer\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "far-fields/far-fields-dock-loopback#loop-back-surface",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:far-fields/far-fields-dock-loopback::enemy/flapping-fertid-3",
+          "name": "Flapping Fertid 3",
+          "in_game_id": "\"Fields Flyer (2)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "far-fields/far-fields-dock-loopback#thorn-gust-cavern",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:far-fields/far-fields-dock-loopback::enemy/beastfly-1",
+          "name": "Beastfly 1",
+          "in_game_id": "\"Bone Flyer\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "far-fields/far-fields-dock-loopback#thorn-gust-cavern",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:far-fields/far-fields-dock-loopback::enemy/vicious-caranid-1",
+          "name": "Vicious Caranid 1",
+          "in_game_id": "\"Bone Circler Vicious\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "far-fields/far-fields-dock-loopback#thorn-gust-cavern",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -68660,8 +69372,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/sprintmaster-cave::collectible/rosary-beads",
-          "name": "rosary beads",
+          "id": "location:far-fields/sprintmaster-cave::collectible/swift-rosary-necklace",
+          "name": "Swift rosary necklace",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -68676,15 +69388,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly rosary beads",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/sprintmaster-cave::collectible/beast-shard",
-          "name": "beast shard",
+          "id": "location:far-fields/sprintmaster-cave::collectible/swift-beast-shard",
+          "name": "Swift beast shard",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -68699,7 +69411,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly beast shard",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
