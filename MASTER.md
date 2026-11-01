@@ -2575,7 +2575,7 @@ No subroom connections defined.
 | LSL | lower skullwing access left | second checkpoint | lower skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
 | USR | upper skullwing access right | cling wall | upper skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
 | USL | upper skullwing access left | mask shard spot | upper skullwings | dash right OR clawline right OR sharpdart |  | Verified | ✓ | just for skullwing enemy journal access |
-| WLT | why r u like this | lone pogo fruit | mask shard spot | (hard shaman pogo AND ( dash left OR clawline left OR sharpdart ) ) OR ( hard reaper pogo AND flea brew AND dash left AND hard heal stall ) |  | Verified | ✓ | pilky... why...  other stalls may work? i aint testing that - hero, 10/31 |
+| WLT | why r u like this | lone pogo fruit | mask shard spot | (hard shaman pogo AND ( dash left OR clawline left OR sharpdart ) ) OR ( hard reaper pogo AND flea brew AND dash left AND hard heal stall AND cling grip left ) |  | Verified | ✓ | pilky... why...  other stalls may work? i aint testing that - hero, 10/31  woke up at 4am because i forgot to add cling grip left - hero, 11/1 |
 
 #### Check Locations
 
@@ -4150,24 +4150,34 @@ need to verify how this room works - thought it had some of the platforms go awa
 
 #### Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | shaft | ✓ |
+| S2 | flea room | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Deep Docks Chains Lower East (Dock_03c)](#room-deep-docks--deep-docks-chains-lower-east) | LC | open airlock down |  | Verified | ✓ |  |
+| F | bot1 | shaft | [Deep Docks Chains Lower East (Dock_03c)](#room-deep-docks--deep-docks-chains-lower-east) | LC | open airlock down |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| V | shaft to flea | shaft | flea room | hit switch up AND (ledge grab either OR cling grip either OR faydown OR silksoar OR easy shaman pogo OR (easy scuttlebrace AND dash either) OR medium beast needle strike OR easy [voltvessels,plasmium] stall OR (easy [heal,flea brew] stall AND easy beast pogo)) |  | Verified | ✓ |  |
+| V | shaft to flea | flea room | shaft | hit switch either |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea |  | Attack Right |  | Verified | collectible | ✓ | easiest flea ever |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Flea | flea room | none |  | Verified | collectible | ✓ | easiest flea ever |
+| 2 | Flintflame Flyer 1 | flea room | invalid |  | Verified | enemy | ✓ | Spawn conditions: docksBomberAmbush=false |
+| 3 | Flintstone Flyer 1 | flea room | invalid |  | Verified | enemy | ✓ | Spawn conditions: docksBomberAmbush=false |
+| 4 | Fertid 1 | flea room | none |  | Verified | enemy | ✓ |  |
+| 5 | Fertid 2 | flea room | none |  | Verified | enemy | ✓ |  |
+| 6 | Flapping Fertid 1 | flea room | none |  | Verified | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-chains-center"></a>
 
@@ -4366,33 +4376,35 @@ the floor/lower half of this area is closed off initially
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | open spool door | spool fragment | upper chains | open airlock left |  | Verified | ✓ | one-way |
+| SP | open spool door | spool fragment | upper chains | open airlock either |  | Verified | ✓ | one-way |
 | SP | open spool door | upper chains | spool fragment | Invalid |  | Verified | ✓ |  |
-| C1 | upper to middle chains | middle chains | upper chains | faydown cloak OR cling grip OR Scuttlebrace OR silk soar OR Ledge Grab |  | Verified | ✓ |  |
 | C1 | upper to middle chains | upper chains | middle chains | none (falling) |  | Verified | ✓ |  |
-| C2 | lower to middle chains | lower chains | middle chains | silk soar OR cling grip OR Scuttlebrace OR (faydown cloak AND Ledge Grab) |  | Verified | ✓ |  |
+| C1 | upper to middle chains | middle chains | upper chains | (have crest shaman AND medium  pogo off flintflame flyer) OR (cling grip left AND (cling grip right OR medium  pogo off flintflame flyer)) OR silk soar OR (faydown AND (cling grip either OR ledge grab left OR easy [voltvessels,plasmium, flea brew] stall OR (have crest beast AND medium heal stall))) OR easy scuttlebrace OR (hard  pogo off flintflame flyer AND ((drifter's AND hard damage boost off flintflame flyer) OR ledge grab both)) |  | Verified | ✓ |  |
+| C2 | lower to middle chains | lower chains | middle chains | silk soar OR easy Scuttlebrace OR faydown OR ((easy shaman pogo OR cling grip left OR ledge grab left OR easy [flea brew,plasmium, voltvessels] stall OR easy beast needle strike) AND (ledge grab right OR cling grip right OR easy pogo off lavalug OR easy hazard respawn)) OR easy pogo off flintflame flyer OR (have crest beast AND hard heal stall AND easy plasmium stall x 2) |  | Verified | ✓ |  |
 | C2 | lower to middle chains | middle chains | lower chains | none (falling) |  | Verified | ✓ |  |
-| UC | upper clawline area | lower chains | upper lava platform | clawline |  | Verified | ✓ |  |
+| UC | upper clawline area | lower chains | upper lava platform | clawline left OR (clawline right AND faydown AND (sharpdart OR  drifter's)) OR (faydown AND drifter's AND easy pogo off flintflame flyer) |  | Verified | ✓ |  |
 | UC | upper clawline area | upper lava platform | lower chains | clawline OR Sharpdart OR drifter's cloak OR (Medium Flintslate Stall AND Medium Hunter Pogo) OR Medium Voltvessels Stall OR Medium Beast Pogo OR Medium Architect Pogo OR (Flea Brew AND (Easy Architect Charge OR Easy Beast Charge OR Easy Hunter Pogo)) OR (Medium Flea Brew Stall AND Flea Brew) |  | Verified | ✓ |  |
-| LG | cross lava gap | lower chains | lower lava platform | (clawline OR ( drifter's cloak AND (faydown cloak OR Medium Beast Charge OR Hard Architect Charge OR (Dash AND Easy Beast Pogo) ) ) OR (Sharpdart x 2 AND (Drifter's CLoak OR Easy Flea Brew Stall OR Easy Voltvessels Stall)) OR (Sharpdart x 3 AND Medium Flintslate Stall)) |  | Verified | ✓ | seems just out of reach of drifter's cloak and dash |
-| LG | cross lava gap | lower lava platform | lower chains | clawline OR ( drifter's cloak AND faydown cloak ) |  | Verified | ✓ |  |
+| LG | cross lava gap | lower chains | lower lava platform | (clawline left OR ( drifter's cloak AND (faydown cloak OR Medium Beast Charge OR Hard Architect Charge OR (Dash AND Easy Beast Pogo) ) ) OR (Sharpdart x 2 AND (Drifter's CLoak OR Easy Flea Brew Stall OR Easy Voltvessels Stall)) OR (Sharpdart x 3 AND Medium Flintslate Stall)) OR (medium shaman pogo AND easy pogo off flintflame flyer AND drifter's) |  | Verified | ✓ | seems just out of reach of drifter's cloak and dash |
+| LG | cross lava gap | lower lava platform | lower chains | clawline right OR ( drifter's cloak AND faydown cloak ) |  | Verified | ✓ |  |
 | UL | upper lava platform to lower lava platform | upper lava platform | lower lava platform | none (falling) |  | Verified | ✓ |  |
-| UL | upper lava platform to lower lava platform | lower lava platform | upper lava platform | Clawline OR Silk Soar |  | Verified | ✓ |  |
-| TGL | To Gauntlet Lower | lower lava platform | gauntlet | Silk Soar |  | Verified | ✓ |  |
+| UL | upper lava platform to lower lava platform | lower lava platform | upper lava platform | (faydown AND Clawline right) OR Silk Soar OR clawline left |  | Verified | ✓ |  |
+| TGL | To Gauntlet Lower | lower lava platform | gauntlet | Silk Soar OR (spike pogo AND ((have crest shaman AND easy pogo off smelt shoveller AND cling grip left) OR (faydown AND (drifter's OR (clawline right AND (cling grip left OR easy scuttlebrace))) AND easy pogo off flintflame flyer) OR (easy shaman pogo AND (faydown OR easy pogo off flintflame flyer) AND clawline left AND (cling grip either OR easy scuttlebrace)))) |  | Verified | ✓ |  |
 | TGL | To Gauntlet Lower | gauntlet | lower lava platform | Nothing. (Fall) |  | Verified | ✓ |  |
-| TGH | To Gauntlet Higher | upper lava platform | gauntlet | (Clawline AND (Cling Grip OR Scuttlebrace)) OR (((Sharpdart x 2 AND Cling Grip AND (Faydown Cloak OR Medium Flea Brew Stall)) AND (Spike Pogo OR Ledge Grab))) |  | Verified | ✓ |  |
+| TGH | To Gauntlet Higher | upper lava platform | gauntlet | (Clawline left AND (Cling Grip left OR easy Scuttlebrace)) OR (((Sharpdart x 2 AND Cling Grip left AND (Faydown Cloak OR Medium Flea Brew Stall)) AND (Spike Pogo OR Ledge Grab right))) |  | Verified | ✓ |  |
 | TGH | To Gauntlet Higher | gauntlet | upper lava platform | Invalid |  | Verified | ✓ |  |
-| CG | Chain Gauntlet | gauntlet | middle chains | clear chains gauntlet |  | Verified | ✓ |  |
-| CG | Chain Gauntlet | middle chains | gauntlet | clear chains gauntlet |  | Verified | ✓ |  |
-| TF | To Flea | gauntlet | upper left of gauntlet | clear chains gauntlet AND (Silk Soar OR Cling Grip OR Faydown Cloak OR Scuttlebrace) |  | Verified | ✓ |  |
+| CG | gauntlet to top | gauntlet | upper chains | clear chains gauntlet AND (faydown OR easy pogo off flintflame flyer OR cling grip right OR ((clawline right OR sharpdart OR drifters) AND ledge grab right) OR easy scuttlebrace OR ((drifters OR flea brew) AND easy [voltvessels,plasmium] stall X 2)) |  | Verified | ✓ |  |
+| CG | gauntlet to top | upper chains | gauntlet | clear chains gauntlet |  | Verified | ✓ |  |
+| CG2 | gautler to middle | gauntlet | middle chains | clear chains gauntlet |  | Verified | ✓ |  |
+| CG2 | gautler to middle | middle chains | gauntlet | clear chains gauntlet AND ((have crest shaman AND medium  pogo off flintflame flyer) OR cling grip left OR silk soar OR (faydown AND (cling grip right OR ledge grab left OR easy [voltvessels,plasmium, flea brew] stall OR (have crest beast AND medium heal stall))) OR easy scuttlebrace OR (hard  pogo off flintflame flyer AND ((drifter's AND hard damage boost off flintflame flyer) OR ledge grab both))) |  | Verified | ✓ |  |
+| TF | To Flea | gauntlet | upper left of gauntlet | clear chains gauntlet AND (Silk Soar OR Cling Grip left OR Faydown Cloak OR easy Scuttlebrace OR easy  [beast,shaman,reaper, architect] pogo OR (ledge grab left AND easy [hunter,wanderer] pogo)) |  | Verified | ✓ |  |
 | TF | To Flea | upper left of gauntlet | gauntlet | clear chains gauntlet |  | Verified | ✓ |  |
-| SSC | Start Spool Collection | lower chains | Spool Rock 1 | (((Clawline OR Progressive Swift Step 2 OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak)) AND Cling Grip |  | Verified | ✓ | functionally one way |
+| SSC | Start Spool Collection | lower chains | Spool Rock 1 | Cling Grip right AND (((Clawline right OR run  OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak)) |  | Verified | ✓ | functionally one way |
 | SSC | Start Spool Collection | Spool Rock 1 | lower chains | Invalid |  | Verified | ✓ |  |
-| CSC | Continue Spool Collection | Spool Rock 1 | Spool Rock 2 | Cling Grip AND (Spike Pogo OR Clawline OR Sharpdart OR (Faydown Cloak AND Drifter's Cloak)) |  | Verified | ✓ | functionally one way |
+| CSC | Continue Spool Collection | Spool Rock 1 | Spool Rock 2 | Cling Grip right AND (((easy [beast,shaman, reaper, architect] pogo OR cling grip left OR easy scuttlebrace) AND spike pogo) OR (faydown AND (spike pogo OR ((drifter's OR dash right) AND cling grip left))) OR  ((cling grip left) AND (clawline right OR sharpdart OR (drifters AND dash right)))) |  | Verified | ✓ | functionally one way |
 | CSC | Continue Spool Collection | Spool Rock 2 | Spool Rock 1 | Invalid |  | Verified | ✓ |  |
-| FBR | Final Blast Rock | Spool Rock 2 | Spool Rock 3 | (Cling Grip AND ( ( ( (Easy Beast Pogo OR Clawline x 2 OR Faydown Cloak OR Drifter's Cloak OR Sharpdart OR Dash) AND Spike Pogo) ) OR ( (Faydown Cloak AND Drifter's Cloak) AND (Easy Flea Brew Stall OR Medium Voltvessels Stall) ) ) ) |  | Verified | ✓ | functionally one way |
+| FBR | Final Blast Rock | Spool Rock 2 | Spool Rock 3 | Cling grip right AND (clawline right OR sharpdart x 2 OR (faydown AND (easy Flea Brew Stall OR Medium [plasmium,Voltvessels] Stall OR drifters)) OR (cling grip left AND (easy beast pogo OR Easy Flea Brew Stall OR Medium [plasmium,Voltvessels] Stall OR faydown OR drifter's)) OR (easy shaman pogo AND easy scuttlebrace)) |  | Verified | ✓ | functionally one way |
 | FBR | Final Blast Rock | Spool Rock 3 | Spool Rock 2 | Invalid |  | Verified | ✓ |  |
-| SFT | spool fragment time | Spool Rock 3 | spool fragment | (Cling Grip AND (Proficient Movement OR Spike Pogo OR Dash OR Sharpdart x 2 OR Clawline OR Drifter's Cloak OR Faydown Cloak)) |  | Verified | ✓ | functionally one way |
+| SFT | spool fragment time | Spool Rock 3 | spool fragment | Cling grip right AND (spike pogo OR faydown OR clawline right OR cling grip left) |  | Verified | ✓ | functionally one way |
 | SFT | spool fragment time | spool fragment | Spool Rock 3 | Invalid |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -4401,11 +4413,26 @@ the floor/lower half of this area is closed off initially
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | silk spool deep docks 1 | spool fragment | Activate First Spool Blast Rock AND Activate Second Spool Blast Rock AND Activate Third Spool Blast Rock |  | Verified | collectible | ✓ |  |
 | 2 | Shortcut Blast Rock | lower lava platform | nada |  | Verified | blockade | ✓ |  |
-| 3 | Chains Gauntlet | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 4 | First Spool Blast Rock | Spool Rock 1 | Break Blast Rock Up |  | Verified | blockade | ✓ |  |
-| 5 | Second Spool Blast Rock | Spool Rock 2 | Break Blast Rock Down AND Activate First Spool Blast Rock |  | Verified | blockade | ✓ |  |
-| 6 | Third Spool Blast Rock | Spool Rock 3 | Break Blast Rock Up AND Activate First Spool Blast Rock AND Activate Second Spool Blast Rock |  | Verified | blockade | ✓ |  |
-| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | First Spool Blast Rock | Spool Rock 1 | Break Blast Rock Up |  | Verified | blockade | ✓ |  |
+| 4 | Second Spool Blast Rock | Spool Rock 2 | Break Blast Rock Down AND Activate First Spool Blast Rock |  | Verified | blockade | ✓ |  |
+| 5 | Third Spool Blast Rock | Spool Rock 3 | Break Blast Rock Up AND Activate First Spool Blast Rock AND Activate Second Spool Blast Rock |  | Verified | blockade | ✓ |  |
+| 6 | Chains Gauntlet | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 7 | Smelt Shoveller 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 8 | Smokerock Sifter 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 9 | Flintstone Flyer 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 10 | Flintflame Flyer 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 11 | Smokerock Sifter 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 12 | Deep Diver 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 13 | Flintstone Flyer 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 14 | Flintflame Flyer 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 15 | Flintflame Flyer 3 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 16 | Flintflame Flyer 4 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 17 | Flintflame Flyer 5 | middle chains | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Flintflame Flyer 6 | lower lava platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Smelt Shoveller 2 | upper lava platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Lavalug 1 | lower chains | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Lavalug 2 | middle chains | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 22 | Smelt Shoveller 3 | lower lava platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-forebrothers"></a>
 

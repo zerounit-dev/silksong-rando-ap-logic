@@ -29584,7 +29584,7 @@
           "source_node_id": "weavenest-atla/weavenest-atla-mask-shard#lone-pogo-fruit",
           "target_node_id": "weavenest-atla/weavenest-atla-mask-shard#mask-shard-spot",
           "requirement": {
-            "raw": "(hard shaman pogo AND ( dash left OR clawline left OR sharpdart ) )\nOR ( hard reaper pogo AND flea brew AND dash left AND hard heal stall )",
+            "raw": "(hard shaman pogo AND ( dash left OR clawline left OR sharpdart ) )\nOR ( hard reaper pogo AND flea brew AND dash left AND hard heal stall AND cling grip left )",
             "mode": "expression",
             "dnf": [
               [
@@ -29603,12 +29603,13 @@
                 "capability:crest-pogo:reaper:hard",
                 "capability:flea-brew-jump",
                 "capability:dash:left",
-                "capability:stall:heal:hard:1"
+                "capability:stall:heal:hard:1",
+                "capability:cling-grip:left"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "pilky... why...\n\nother stalls may work? i aint testing that - hero, 10/31",
+          "notes": "pilky... why...\n\nother stalls may work? i aint testing that - hero, 10/31\n\nwoke up at 4am because i forgot to add cling grip left - hero, 11/1",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -44059,8 +44060,13 @@
       "notes": "",
       "nodes": [
         {
-          "id": "deep-docks/deep-docks-chains-flea-rescue#room",
-          "name": "room",
+          "id": "deep-docks/deep-docks-chains-flea-rescue#shaft",
+          "name": "shaft",
+          "notes": ""
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
+          "name": "flea room",
           "notes": ""
         }
       ],
@@ -44071,7 +44077,7 @@
           "name": "bot1",
           "in_game_id": "bot1",
           "is_unsafe_arrival": false,
-          "source_node_id": "deep-docks/deep-docks-chains-flea-rescue#room",
+          "source_node_id": "deep-docks/deep-docks-chains-flea-rescue#shaft",
           "target": "deep-docks/deep-docks-chains-lower-east@lc",
           "requirement": {
             "raw": "open airlock down",
@@ -44090,7 +44096,96 @@
           "unresolved_reasons": []
         }
       ],
-      "connections": [],
+      "connections": [
+        {
+          "id": "deep-docks/deep-docks-chains-flea-rescue#shaft>flea-room@v",
+          "alias": "V",
+          "name": "shaft to flea",
+          "source_node_id": "deep-docks/deep-docks-chains-flea-rescue#shaft",
+          "target_node_id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
+          "requirement": {
+            "raw": "hit switch up AND (ledge grab either OR cling grip either OR faydown OR silksoar OR easy shaman pogo OR (easy scuttlebrace AND dash either) OR medium beast needle strike OR easy [voltvessels,plasmium] stall OR (easy [heal,flea brew] stall AND easy beast pogo)) ",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-switch:up",
+                "capability:ledge-grab:either"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:silk-soar"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:scuttlebrace:easy",
+                "capability:dash:either"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:needle-strike:beast:medium"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:stall:heal:easy:1",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:break-switch:up",
+                "capability:stall:flea-brew:easy:1",
+                "capability:crest-pogo:beast:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-flea-rescue#flea-room>shaft@v",
+          "alias": "V",
+          "name": "shaft to flea",
+          "source_node_id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
+          "target_node_id": "deep-docks/deep-docks-chains-flea-rescue#shaft",
+          "requirement": {
+            "raw": "hit switch either",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-switch:either"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
       "locations": [
         {
           "id": "location:deep-docks/deep-docks-chains-flea-rescue::collectible/flea",
@@ -44098,14 +44193,12 @@
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
-          "node_id": "deep-docks/deep-docks-chains-flea-rescue#room",
+          "node_id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
           "requirement": {
-            "raw": "Attack Right",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:needle:none:right"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -44116,27 +44209,113 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-chains-flea-rescue::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "deep-docks/deep-docks-chains-flea-rescue#room",
+          "id": "location:deep-docks/deep-docks-chains-flea-rescue::enemy/flintflame-flyer-1",
+          "name": "Flintflame Flyer 1",
+          "in_game_id": "\"Dock Bomber Ambush\"[0]/\"Dock Bomber Amb1\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Spawn conditions: docksBomberAmbush=false",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-flea-rescue::enemy/flintstone-flyer-1",
+          "name": "Flintstone Flyer 1",
+          "in_game_id": "\"Dock Bomber Ambush\"[0]/\"Dock Flyer Amb\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
+          "requirement": {
+            "raw": "invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Spawn conditions: docksBomberAmbush=false",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-flea-rescue::enemy/fertid-1",
+          "name": "Fertid 1",
+          "in_game_id": "\"Fields Goomba (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-flea-rescue::enemy/fertid-2",
+          "name": "Fertid 2",
+          "in_game_id": "\"Fields Goomba\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-flea-rescue::enemy/flapping-fertid-1",
+          "name": "Flapping Fertid 1",
+          "in_game_id": "\"Fields Flyer\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-flea-rescue#flea-room",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -47000,11 +47179,6 @@
           "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
           "name": "Spool Rock 3",
           "notes": ""
-        },
-        {
-          "id": "deep-docks/deep-docks-chains-lower-east#unassigned",
-          "name": "unassigned",
-          "notes": ""
         }
       ],
       "transitions": [
@@ -47087,11 +47261,11 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#upper-chains",
           "requirement": {
-            "raw": "open airlock left",
+            "raw": "open airlock either",
             "mode": "expression",
             "dnf": [
               [
-                "capability:break-airlock:left"
+                "capability:break-airlock:either"
               ]
             ],
             "unresolved_reasons": []
@@ -47125,40 +47299,6 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/deep-docks-chains-lower-east#middle-chains>upper-chains@c1",
-          "alias": "C1",
-          "name": "upper to middle chains",
-          "source_node_id": "deep-docks/deep-docks-chains-lower-east#middle-chains",
-          "target_node_id": "deep-docks/deep-docks-chains-lower-east#upper-chains",
-          "requirement": {
-            "raw": "faydown cloak OR cling grip OR Scuttlebrace OR silk soar OR Ledge Grab ",
-            "mode": "expression",
-            "dnf": [
-              [
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:cling-grip:none"
-              ],
-              [
-                "capability:scuttlebrace:none"
-              ],
-              [
-                "capability:silk-soar"
-              ],
-              [
-                "capability:ledge-grab:none"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
           "id": "deep-docks/deep-docks-chains-lower-east#upper-chains>middle-chains@c1",
           "alias": "C1",
           "name": "upper to middle chains",
@@ -47179,27 +47319,214 @@
           "unresolved_reasons": []
         },
         {
+          "id": "deep-docks/deep-docks-chains-lower-east#middle-chains>upper-chains@c1",
+          "alias": "C1",
+          "name": "upper to middle chains",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#middle-chains",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#upper-chains",
+          "requirement": {
+            "raw": "(have crest shaman AND medium  pogo off flintflame flyer) OR (cling grip left AND (cling grip right OR medium  pogo off flintflame flyer)) OR silk soar OR (faydown AND (cling grip either OR ledge grab left OR easy [voltvessels,plasmium, flea brew] stall OR (have crest beast AND medium heal stall))) OR easy scuttlebrace OR (hard  pogo off flintflame flyer AND ((drifter's AND hard damage boost off flintflame flyer) OR ledge grab both))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "item:crest-shaman",
+                "capability:enemy-type-pogo:Dock Bomber:medium"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:enemy-type-pogo:Dock Bomber:medium"
+              ],
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "item:crest-beast",
+                "capability:stall:heal:medium:1"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Dock Bomber:hard",
+                "capability:drifters-cloak",
+                "technique:damage-boost:Dock Bomber:hard"
+              ],
+              [
+                "capability:enemy-type-pogo:Dock Bomber:hard",
+                "capability:ledge-grab:both"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
           "id": "deep-docks/deep-docks-chains-lower-east#lower-chains>middle-chains@c2",
           "alias": "C2",
           "name": "lower to middle chains",
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#lower-chains",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#middle-chains",
           "requirement": {
-            "raw": "silk soar OR cling grip OR Scuttlebrace OR (faydown cloak AND Ledge Grab)",
+            "raw": "silk soar OR easy Scuttlebrace OR faydown OR ((easy shaman pogo OR cling grip left OR ledge grab left OR easy [flea brew,plasmium, voltvessels] stall OR easy beast needle strike) AND (ledge grab right OR cling grip right OR easy pogo off lavalug OR easy hazard respawn)) OR easy pogo off flintflame flyer OR (have crest beast AND hard heal stall AND easy plasmium stall x 2)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:scuttlebrace:easy"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:faydown-cloak"
               ],
               [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:none"
+                "capability:crest-pogo:shaman:easy",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:enemy-type-pogo:Tar Slug:easy"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:enemy-type-pogo:Tar Slug:easy"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Tar Slug:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:stall:flea-brew:easy:1",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:stall:flea-brew:easy:1",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:stall:flea-brew:easy:1",
+                "capability:enemy-type-pogo:Tar Slug:easy"
+              ],
+              [
+                "capability:stall:flea-brew:easy:1",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1",
+                "capability:enemy-type-pogo:Tar Slug:easy"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1",
+                "capability:enemy-type-pogo:Tar Slug:easy"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:needle-strike:beast:easy",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:needle-strike:beast:easy",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:needle-strike:beast:easy",
+                "capability:enemy-type-pogo:Tar Slug:easy"
+              ],
+              [
+                "capability:needle-strike:beast:easy",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Dock Bomber:easy"
+              ],
+              [
+                "item:crest-beast",
+                "capability:stall:heal:hard:1",
+                "capability:stall:plasmium-phial:easy:2"
               ]
             ],
             "unresolved_reasons": []
@@ -47237,11 +47564,26 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#lower-chains",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#upper-lava-platform",
           "requirement": {
-            "raw": "clawline",
+            "raw": "clawline left OR (clawline right AND faydown AND (sharpdart OR  drifter's)) OR (faydown AND drifter's AND easy pogo off flintflame flyer)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:clawline:right:1",
+                "capability:faydown-cloak",
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:clawline:right:1",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:drifters-cloak",
+                "capability:enemy-type-pogo:Dock Bomber:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -47316,11 +47658,11 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#lower-chains",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#lower-lava-platform",
           "requirement": {
-            "raw": "(clawline OR ( drifter's cloak AND (faydown cloak OR Medium Beast Charge OR Hard Architect Charge OR (Dash AND Easy Beast Pogo) ) ) OR (Sharpdart x 2 AND (Drifter's CLoak OR Easy Flea Brew Stall OR Easy Voltvessels Stall)) OR (Sharpdart x 3 AND Medium Flintslate Stall))",
+            "raw": "(clawline left OR ( drifter's cloak AND (faydown cloak OR Medium Beast Charge OR Hard Architect Charge OR (Dash AND Easy Beast Pogo) ) ) OR (Sharpdart x 2 AND (Drifter's CLoak OR Easy Flea Brew Stall OR Easy Voltvessels Stall)) OR (Sharpdart x 3 AND Medium Flintslate Stall)) OR (medium shaman pogo AND easy pogo off flintflame flyer AND drifter's)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:drifters-cloak",
@@ -47354,6 +47696,11 @@
               [
                 "capability:sharpdart:3",
                 "capability:stall:flintslate:medium:1"
+              ],
+              [
+                "capability:crest-pogo:shaman:medium",
+                "capability:enemy-type-pogo:Dock Bomber:easy",
+                "capability:drifters-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -47371,11 +47718,11 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#lower-lava-platform",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#lower-chains",
           "requirement": {
-            "raw": "clawline OR ( drifter's cloak AND faydown cloak )",
+            "raw": "clawline right OR ( drifter's cloak AND faydown cloak )",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:drifters-cloak",
@@ -47417,14 +47764,18 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#lower-lava-platform",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#upper-lava-platform",
           "requirement": {
-            "raw": "Clawline OR Silk Soar",
+            "raw": "(faydown AND Clawline right) OR Silk Soar OR clawline left",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1"
+                "capability:faydown-cloak",
+                "capability:clawline:right:1"
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:clawline:left:1"
               ]
             ],
             "unresolved_reasons": []
@@ -47442,11 +47793,65 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#lower-lava-platform",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
           "requirement": {
-            "raw": "Silk Soar ",
+            "raw": "Silk Soar OR (spike pogo AND ((have crest shaman AND easy pogo off smelt shoveller AND cling grip left) OR (faydown AND (drifter's OR (clawline right AND (cling grip left OR easy scuttlebrace))) AND easy pogo off flintflame flyer) OR (easy shaman pogo AND (faydown OR easy pogo off flintflame flyer) AND clawline left AND (cling grip either OR easy scuttlebrace))))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:spike-pogo",
+                "item:crest-shaman",
+                "capability:enemy-type-pogo:Dock Worker:easy",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak",
+                "capability:enemy-type-pogo:Dock Bomber:easy"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:faydown-cloak",
+                "capability:clawline:right:1",
+                "capability:cling-grip:left",
+                "capability:enemy-type-pogo:Dock Bomber:easy"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:faydown-cloak",
+                "capability:clawline:right:1",
+                "capability:scuttlebrace:easy",
+                "capability:enemy-type-pogo:Dock Bomber:easy"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:crest-pogo:shaman:easy",
+                "capability:faydown-cloak",
+                "capability:clawline:left:1",
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:crest-pogo:shaman:easy",
+                "capability:faydown-cloak",
+                "capability:clawline:left:1",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:crest-pogo:shaman:easy",
+                "capability:enemy-type-pogo:Dock Bomber:easy",
+                "capability:clawline:left:1",
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:crest-pogo:shaman:easy",
+                "capability:enemy-type-pogo:Dock Bomber:easy",
+                "capability:clawline:left:1",
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -47484,40 +47889,40 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#upper-lava-platform",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
           "requirement": {
-            "raw": "(Clawline AND (Cling Grip OR Scuttlebrace)) OR (((Sharpdart x 2 AND Cling Grip AND (Faydown Cloak OR Medium Flea Brew Stall)) AND (Spike Pogo OR Ledge Grab)))",
+            "raw": "(Clawline left AND (Cling Grip left OR easy Scuttlebrace)) OR (((Sharpdart x 2 AND Cling Grip left AND (Faydown Cloak OR Medium Flea Brew Stall)) AND (Spike Pogo OR Ledge Grab right)))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1",
-                "capability:cling-grip:none"
+                "capability:clawline:left:1",
+                "capability:cling-grip:left"
               ],
               [
-                "capability:clawline:none:1",
-                "capability:scuttlebrace:none"
+                "capability:clawline:left:1",
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:sharpdart:2",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:spike-pogo"
               ],
               [
                 "capability:sharpdart:2",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:faydown-cloak",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:sharpdart:2",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:stall:flea-brew:medium:1",
                 "capability:spike-pogo"
               ],
               [
                 "capability:sharpdart:2",
-                "capability:cling-grip:none",
+                "capability:cling-grip:left",
                 "capability:stall:flea-brew:medium:1",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ]
             ],
             "unresolved_reasons": []
@@ -47551,9 +47956,101 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/deep-docks-chains-lower-east#gauntlet>middle-chains@cg",
+          "id": "deep-docks/deep-docks-chains-lower-east#gauntlet>upper-chains@cg",
           "alias": "CG",
-          "name": "Chain Gauntlet",
+          "name": "gauntlet to top",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#upper-chains",
+          "requirement": {
+            "raw": "clear chains gauntlet AND (faydown OR easy pogo off flintflame flyer OR cling grip right OR ((clawline right OR sharpdart OR drifters) AND ledge grab right) OR easy scuttlebrace OR ((drifters OR flea brew) AND easy [voltvessels,plasmium] stall X 2))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:enemy-type-pogo:Dock Bomber:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:cling-grip:right"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:clawline:right:1",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:sharpdart:1",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:drifters-cloak",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:drifters-cloak",
+                "capability:stall:voltvessels:easy:2"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:drifters-cloak",
+                "capability:stall:plasmium-phial:easy:2"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:flea-brew-jump",
+                "capability:stall:voltvessels:easy:2"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:flea-brew-jump",
+                "capability:stall:plasmium-phial:easy:2"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#upper-chains>gauntlet@cg",
+          "alias": "CG",
+          "name": "gauntlet to top",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#upper-chains",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "clear chains gauntlet",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#gauntlet>middle-chains@cg2",
+          "alias": "CG2",
+          "name": "gautler to middle",
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#middle-chains",
           "requirement": {
@@ -47573,17 +48070,73 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/deep-docks-chains-lower-east#middle-chains>gauntlet@cg",
-          "alias": "CG",
-          "name": "Chain Gauntlet",
+          "id": "deep-docks/deep-docks-chains-lower-east#middle-chains>gauntlet@cg2",
+          "alias": "CG2",
+          "name": "gautler to middle",
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#middle-chains",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
           "requirement": {
-            "raw": "clear chains gauntlet",
+            "raw": "clear chains gauntlet AND ((have crest shaman AND medium  pogo off flintflame flyer) OR cling grip left OR silk soar OR (faydown AND (cling grip right OR ledge grab left OR easy [voltvessels,plasmium, flea brew] stall OR (have crest beast AND medium heal stall))) OR easy scuttlebrace OR (hard  pogo off flintflame flyer AND ((drifter's AND hard damage boost off flintflame flyer) OR ledge grab both)))",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet"
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "item:crest-shaman",
+                "capability:enemy-type-pogo:Dock Bomber:medium"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:cling-grip:left"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:silk-soar"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:faydown-cloak",
+                "capability:cling-grip:right"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:faydown-cloak",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:faydown-cloak",
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:faydown-cloak",
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:faydown-cloak",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:faydown-cloak",
+                "item:crest-beast",
+                "capability:stall:heal:medium:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:enemy-type-pogo:Dock Bomber:hard",
+                "capability:drifters-cloak",
+                "technique:damage-boost:Dock Bomber:hard"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:enemy-type-pogo:Dock Bomber:hard",
+                "capability:ledge-grab:both"
               ]
             ],
             "unresolved_reasons": []
@@ -47601,7 +48154,7 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#upper-left-of-gauntlet",
           "requirement": {
-            "raw": "clear chains gauntlet AND (Silk Soar OR Cling Grip OR Faydown Cloak OR Scuttlebrace)",
+            "raw": "clear chains gauntlet AND (Silk Soar OR Cling Grip left OR Faydown Cloak OR easy Scuttlebrace OR easy  [beast,shaman,reaper, architect] pogo OR (ledge grab left AND easy [hunter,wanderer] pogo))",
             "mode": "expression",
             "dnf": [
               [
@@ -47610,7 +48163,7 @@
               ],
               [
                 "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
               ],
               [
                 "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
@@ -47618,7 +48171,33 @@
               ],
               [
                 "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:ledge-grab:left",
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+                "capability:ledge-grab:left",
+                "capability:crest-pogo:wanderer:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -47658,54 +48237,54 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#lower-chains",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1",
           "requirement": {
-            "raw": "(((Clawline OR Progressive Swift Step 2 OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak)) AND Cling Grip",
+            "raw": "Cling Grip right AND (((Clawline right OR run  OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1",
-                "capability:drifters-cloak",
-                "capability:cling-grip:none"
+                "capability:cling-grip:right",
+                "capability:clawline:right:1",
+                "capability:drifters-cloak"
               ],
               [
-                "capability:clawline:none:1",
-                "capability:faydown-cloak",
-                "capability:cling-grip:none"
+                "capability:cling-grip:right",
+                "capability:clawline:right:1",
+                "capability:faydown-cloak"
               ],
               [
-                "capability:dash:none",
-                "capability:drifters-cloak",
-                "capability:cling-grip:none"
+                "capability:cling-grip:right",
+                "capability:sprint:none",
+                "capability:drifters-cloak"
               ],
               [
-                "capability:dash:none",
-                "capability:faydown-cloak",
-                "capability:cling-grip:none"
+                "capability:cling-grip:right",
+                "capability:sprint:none",
+                "capability:faydown-cloak"
               ],
               [
+                "capability:cling-grip:right",
                 "capability:sharpdart:1",
-                "capability:drifters-cloak",
-                "capability:cling-grip:none"
+                "capability:drifters-cloak"
               ],
               [
+                "capability:cling-grip:right",
                 "capability:sharpdart:1",
-                "capability:faydown-cloak",
-                "capability:cling-grip:none"
+                "capability:faydown-cloak"
               ],
               [
+                "capability:cling-grip:right",
                 "capability:flea-brew-jump",
                 "capability:stall:flea-brew:medium:1",
-                "capability:drifters-cloak",
-                "capability:cling-grip:none"
+                "capability:drifters-cloak"
               ],
               [
+                "capability:cling-grip:right",
                 "capability:stall:voltvessels:medium:1",
-                "capability:drifters-cloak",
-                "capability:cling-grip:none"
+                "capability:drifters-cloak"
               ],
               [
+                "capability:cling-grip:right",
                 "capability:drifters-cloak",
-                "capability:faydown-cloak",
-                "capability:cling-grip:none"
+                "capability:faydown-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -47745,25 +48324,71 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2",
           "requirement": {
-            "raw": "Cling Grip AND (Spike Pogo OR Clawline OR Sharpdart OR (Faydown Cloak AND Drifter's Cloak))",
+            "raw": "Cling Grip right AND (((easy [beast,shaman, reaper, architect] pogo OR cling grip left OR easy scuttlebrace) AND spike pogo) OR (faydown AND (spike pogo OR ((drifter's OR dash right) AND cling grip left))) OR  ((cling grip left) AND (clawline right OR sharpdart OR (drifters AND dash right))))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
+                "capability:crest-pogo:beast:easy",
                 "capability:spike-pogo"
               ],
               [
-                "capability:cling-grip:none",
-                "capability:clawline:none:1"
+                "capability:cling-grip:right",
+                "capability:crest-pogo:shaman:easy",
+                "capability:spike-pogo"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
+                "capability:crest-pogo:reaper:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:crest-pogo:architect:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:scuttlebrace:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "capability:dash:right",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:clawline:right:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
                 "capability:sharpdart:1"
               ],
               [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak",
-                "capability:drifters-cloak"
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:drifters-cloak",
+                "capability:dash:right"
               ]
             ],
             "unresolved_reasons": []
@@ -47803,50 +48428,71 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
           "requirement": {
-            "raw": "(Cling Grip AND ( ( ( (Easy Beast Pogo OR Clawline x 2 OR Faydown Cloak OR Drifter's Cloak OR Sharpdart OR Dash) AND Spike Pogo) ) OR ( (Faydown Cloak AND Drifter's Cloak) AND (Easy Flea Brew Stall OR Medium Voltvessels Stall) ) ) )",
+            "raw": "Cling grip right AND (clawline right OR sharpdart x 2 OR (faydown AND (easy Flea Brew Stall OR Medium [plasmium,Voltvessels] Stall OR drifters)) OR (cling grip left AND (easy beast pogo OR Easy Flea Brew Stall OR Medium [plasmium,Voltvessels] Stall OR faydown OR drifter's)) OR (easy shaman pogo AND easy scuttlebrace))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none",
-                "capability:crest-pogo:beast:easy",
-                "capability:spike-pogo"
+                "capability:cling-grip:right",
+                "capability:clawline:right:1"
               ],
               [
-                "capability:cling-grip:none",
-                "capability:clawline:none:2",
-                "capability:spike-pogo"
+                "capability:cling-grip:right",
+                "capability:sharpdart:2"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
-                "capability:spike-pogo"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:drifters-cloak",
-                "capability:spike-pogo"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:sharpdart:1",
-                "capability:spike-pogo"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:dash:none",
-                "capability:spike-pogo"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak",
-                "capability:drifters-cloak",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
-                "capability:drifters-cloak",
+                "capability:stall:plasmium-phial:medium:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
                 "capability:stall:voltvessels:medium:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:stall:plasmium-phial:medium:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:stall:voltvessels:medium:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:crest-pogo:shaman:easy",
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -47886,36 +48532,24 @@
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment",
           "requirement": {
-            "raw": "(Cling Grip AND (Proficient Movement OR Spike Pogo OR Dash OR Sharpdart x 2 OR Clawline OR Drifter's Cloak OR Faydown Cloak))",
+            "raw": "Cling grip right AND (spike pogo OR faydown OR clawline right OR cling grip left)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none",
-                "capability:proficient-movement"
-              ],
-              [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:spike-pogo"
               ],
               [
-                "capability:cling-grip:none",
-                "capability:dash:none"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:sharpdart:2"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:clawline:none:1"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:drifters-cloak"
-              ],
-              [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:clawline:right:1"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left"
               ]
             ],
             "unresolved_reasons": []
@@ -47987,29 +48621,6 @@
             "mode": "none",
             "dnf": [
               []
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
-          "name": "Chains Gauntlet",
-          "in_game_id": null,
-          "location_type": "gauntlet",
-          "has_persisted_state": true,
-          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
-          "requirement": {
-            "raw": "Combat Requirements",
-            "mode": "expression",
-            "dnf": [
-              [
-                "macro:combat-requirements"
-              ]
             ],
             "unresolved_reasons": []
           },
@@ -48092,28 +48703,395 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-chains-lower-east::unknown/import-enemies",
-          "name": "import enemies",
+          "id": "location:deep-docks/deep-docks-chains-lower-east::gauntlet/chains-gauntlet",
+          "name": "Chains Gauntlet",
           "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "deep-docks/deep-docks-chains-lower-east#unassigned",
+          "location_type": "gauntlet",
+          "has_persisted_state": true,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/smelt-shoveller-1",
+          "name": "Smelt Shoveller 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 1\"[0]/\"Dock Worker\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/smokerock-sifter-1",
+          "name": "Smokerock Sifter 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 1\"[0]/\"Shield Dockworker\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/flintstone-flyer-1",
+          "name": "Flintstone Flyer 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 1\"[0]/\"Dock Flyer\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/flintflame-flyer-1",
+          "name": "Flintflame Flyer 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 2\"[0]/\"Dock Bomber\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/smokerock-sifter-2",
+          "name": "Smokerock Sifter 2",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 3\"[0]/\"Shield Dockworker (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/deep-diver-1",
+          "name": "Deep Diver 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 3\"[0]/\"Dock Charger\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/flintstone-flyer-2",
+          "name": "Flintstone Flyer 2",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 4\"[0]/\"Dock Flyer\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/flintflame-flyer-2",
+          "name": "Flintflame Flyer 2",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 5\"[0]/\"Dock Bomber\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/flintflame-flyer-3",
+          "name": "Flintflame Flyer 3",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 5\"[0]/\"Dock Bomber (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/flintflame-flyer-4",
+          "name": "Flintflame Flyer 4",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 6 - not used\"[0]/\"Dock Bomber\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#gauntlet",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/flintflame-flyer-5",
+          "name": "Flintflame Flyer 5",
+          "in_game_id": "\"Dock Bomber (2)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#middle-chains",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/flintflame-flyer-6",
+          "name": "Flintflame Flyer 6",
+          "in_game_id": "\"Dock Bomber (3)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#lower-lava-platform",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/smelt-shoveller-2",
+          "name": "Smelt Shoveller 2",
+          "in_game_id": "\"Dock Worker (3)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#upper-lava-platform",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/lavalug-1",
+          "name": "Lavalug 1",
+          "in_game_id": "\"Tar Slug\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#lower-chains",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/lavalug-2",
+          "name": "Lavalug 2",
+          "in_game_id": "\"Tar Slug (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#middle-chains",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::enemy/smelt-shoveller-3",
+          "name": "Smelt Shoveller 3",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Dock Worker (4)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#lower-lava-platform",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },

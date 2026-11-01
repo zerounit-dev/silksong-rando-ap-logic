@@ -44,7 +44,7 @@
 | LSL | lower skullwing access left | second checkpoint | lower skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
 | USR | upper skullwing access right | cling wall | upper skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
 | USL | upper skullwing access left | mask shard spot | upper skullwings | dash right OR clawline right OR sharpdart |  | Verified | ✓ | just for skullwing enemy journal access |
-| WLT | why r u like this | lone pogo fruit | mask shard spot | (hard shaman pogo AND ( dash left OR clawline left OR sharpdart ) ) OR ( hard reaper pogo AND flea brew AND dash left AND hard heal stall ) |  | Verified | ✓ | pilky... why...  other stalls may work? i aint testing that - hero, 10/31 |
+| WLT | why r u like this | lone pogo fruit | mask shard spot | (hard shaman pogo AND ( dash left OR clawline left OR sharpdart ) ) OR ( hard reaper pogo AND flea brew AND dash left AND hard heal stall AND cling grip left ) |  | Verified | ✓ | pilky... why...  other stalls may work? i aint testing that - hero, 10/31  woke up at 4am because i forgot to add cling grip left - hero, 11/1 |
 
 ## Check Locations
 
