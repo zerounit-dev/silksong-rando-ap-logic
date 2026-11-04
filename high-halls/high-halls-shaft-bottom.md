@@ -21,7 +21,7 @@
 | T | top1 | Top | [High Halls Shaft Top (Hang_03_top)](high-halls-shaft-top.md) | B | none |  | Verified | ✓ |  |
 | TR | right1 | Top Right | [High Halls Big Slide (Hang_13)](high-halls-big-slide.md) | L | none |  | Verified | ✓ |  |
 | BL | left2 | Bottom Left | [High Halls Small Room (Hang_15)](high-halls-small-room.md) | R | none |  | Verified | ✓ |  |
-| BR | right2 | Bottom Right | [High Halls Flooded Room (Hang_10)](high-halls-flooded-room.md) | L | clear left exit blockade IN high halls flooded room |  | Verified | ✓ |  |
+| BR | right2 | Bottom Right | [High Halls Flooded Room (Hang_10)](high-halls-flooded-room.md) | L | clear Flooded Room - Wall IN high halls flooded room |  | Verified | ✓ |  |
 | ML | left1 | Middle Left | [High Halls Small Slide (Hang_02)](high-halls-small-slide.md) | R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections

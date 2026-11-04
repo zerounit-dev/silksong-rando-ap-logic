@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Lower Showers | [Choral Chambers Outside Spa (Song_04)](choral-chambers-outside-spa.md) | R2 | none |  | Verified | ✓ |  |
-| R | right1 | Spa | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | BLB | activate Lever Chambers Spa 2 |  | Verified | ✓ |  |
+| R | right1 | Spa | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | BLB | activate Spa - Lever Chambers 2 |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -28,19 +28,19 @@
 | V1 | Vertical | High Showers | Entrance | none |  | Verified | ✓ |  |
 | V2 | Vertical2 | Entrance | Lower Showers | activate Spa block |  | Verified | ✓ | falling |
 | V2 | Vertical2 | Lower Showers | Entrance | activate Spa block AND (cling grip either OR silk soar OR easy scuttlebrace) |  | Verified | ✓ |  |
-| H | Horizontal | High Showers | Spa | activate Lever Chambers Spa AND (easy scuttlebrace OR ledge grab either OR easy shaman pogo OR faydown cloak OR (cling grip right AND (architect attack right OR easy beast pogo)) OR easy plasmium stall OR cling grip left OR medium voltvessels stall OR (easy [flea brew, rune rage, heal] stall AND easy beast pogo)) |  | Verified | ✓ |  |
-| H | Horizontal | Spa | High Showers | activate Lever Chambers Spa |  | Verified | ✓ | lever shortcut |
+| H | Horizontal | High Showers | Spa | activate Spa - Lever Chambers  AND (easy scuttlebrace OR ledge grab either OR easy shaman pogo OR faydown cloak OR (cling grip right AND (architect attack right OR easy beast pogo)) OR easy plasmium stall OR cling grip left OR medium voltvessels stall OR (easy [flea brew, rune rage, heal] stall AND easy beast pogo)) |  | Verified | ✓ |  |
+| H | Horizontal | Spa | High Showers | activate Spa - Lever Chambers |  | Verified | ✓ | lever shortcut |
 | V3 | lower to spa | Lower Showers | Spa | cling grip either OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lever Chambers Spa | Spa | none |  | Verified | switch | ✓ |  |
-| 2 | Lever Chambers Spa 2 | Spa | none |  | Verified | switch | ✓ |  |
-| 3 | Spa bench | High Showers | none |  | Verified | bench | ✓ |  |
-| 4 | Spa block | High Showers | attack either AND activate Breakable wall Spa |  | Verified | resource | ✓ |  |
-| 5 | Breakable wall Spa | High Showers | break wall left |  | Verified | blockade | ✓ |  |
+| 1 | Spa - Lever Chambers | Spa | none |  | Verified | switch | ✓ |  |
+| 2 | Spa - Lever Chambers 2 | Spa | none |  | Verified | switch | ✓ |  |
+| 3 | Spa - bench | High Showers | none |  | Verified | bench | ✓ |  |
+| 4 | Spa - block | High Showers | attack either AND clear Spa - Breakable wall |  | Verified | resource | ✓ |  |
+| 5 | Spa - Breakable wall | High Showers | break wall left |  | Verified | blockade | ✓ |  |
 
 ## Room Images
 

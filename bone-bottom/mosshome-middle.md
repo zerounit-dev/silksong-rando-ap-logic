@@ -26,13 +26,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | middle left area | upper right area | faydown cloak  OR ( ( ledge grab OR cling grip ) AND ( run OR sharpdart OR clawline right ) ) |  | Verified | ✓ |  |
-| RJ | running jump | upper right area | middle left area | run  OR dash OR clawline left OR faydown OR drifters OR sharpdart OR easy beast pogo OR scuttlebrace |  | Verified | ✓ |  |
+| RJ | running jump | middle left area | upper right area | faydown cloak  OR ( ( ledge grab right OR cling grip right ) AND ( run OR sharpdart OR clawline right ) ) |  | Verified | ✓ |  |
+| RJ | running jump | upper right area | middle left area | run  OR dash left OR clawline left OR faydown OR drifters OR sharpdart OR easy beast pogo OR easy scuttlebrace |  | Verified | ✓ |  |
 | V1 | vertical 1 | ground floor | upper right area | silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper right area | ground floor | none (falling) |  | Verified | ✓ |  |
-| LG1 | ledge grab 1 | ground floor | middle left area | ledge grab  OR cling grip  OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
+| LG1 | ledge grab 1 | ground floor | middle left area | ledge grab either  OR cling grip either OR faydown OR silk soar  OR easy scuttlebrace OR easy shaman pogo OR easy pogo off [ pilgrim pouncer ] OR medium pogo off [ pilgrim groveller, overgrown pilgrim ] |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | middle left area | ground floor | none (falling) |  | Verified | ✓ |  |
-| LG2 | ledge grab 2 | middle left area | upper left area | ledge grab  OR cling grip  OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
+| LG2 | ledge grab 2 | middle left area | upper left area | ledge grab both OR cling grip either OR faydown OR silk soar OR easy shaman pogo OR easy scuttlebrace OR ( medium pogo off [ overgrown pilgrim ] AND ( dash right OR clawline right OR sharpdart OR easy beast pogo ) ) |  | Verified | ✓ |  |
 | LG2 | ledge grab 2 | upper left area | middle left area | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

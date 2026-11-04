@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SW | swim | bench area | left exit area | swim |  | Verified | ✓ | there is a slim possibility clawline and cling grip could work here, but can't test until swim is randomized |
+| SW | swim | bench area | left exit area | swim OR ( proficient movement AND ( dash left AND faydown AND ledge grab left AND hard beast crest heal stall ) ) |  | Verified | ✓ | pilky said this took them 15 minutes to record after doing it second try. hard it goes - hero, 11/3 |
 | SW | swim | left exit area | bench area | swim |  | Verified | ✓ |  |
 
 ## Check Locations

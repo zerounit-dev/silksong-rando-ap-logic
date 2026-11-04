@@ -21,15 +21,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UF | Up <> Floor | Ground | Upper | (Activate Breakable Ceiling AND (Silk Soar OR (Faydown Cloak AND Cling Grip))) |  | Verified | ✓ | no reason to go up, nothing there. |
-| UF | Up <> Floor | Upper | Ground | Activate Breakable Ceiling |  | Verified | ✓ |  |
+| UF | Up <> Floor | Ground | Upper | (Activate Clawmaiden Killer - Breakable Ceiling AND (Silk Soar OR (Faydown Cloak AND (Cling Grip either OR easy scuttlebrace)))) |  | Verified | ✓ | i guess easy pogo off clawmaiden + fay too |
+| UF | Up <> Floor | Upper | Ground | Activate Clawmaiden Killer - Breakable Ceiling |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Breakable Ceiling | Ground | Break Wall Up |  | Verified | switch | ✓ |  |
-| 2 | Clawmaiden Silk | Upper | (Attack Left AND Open Airlock Left AND (Faydown Cloak OR Clawline OR Sharpdart OR Sprint OR Dash)) |  | Verified | logic-point |  |  |
+| 1 | Clawmaiden Killer - Breakable Ceiling | Ground | Break Wall Up |  | Verified | switch | ✓ |  |
+| 2 | Clawmaiden Silk | Upper | (Open Airlock Left AND (spike pogo OR Faydown OR Clawline left OR Sharpdart OR (Sprint AND Dash left))) |  | Verified | logic-point | ✓ | require claw maiden soul and 1 kill |
 | 3 | Clawmaiden 1 | Ground | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 4 | Clawmaiden 2 | Ground | Normal World Spawn |  | Verified | enemy | ✓ | spawn at random? |
 | 5 | Clawmaiden 3 | Ground | Normal World Spawn |  | Verified | enemy | ✓ |  |

@@ -28,27 +28,27 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R1 | right 1 | door platform | upper right | none (falling) |  | Verified | ✓ |  |
-| R1 | right 1 | upper right | door platform | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| R1 | right 1 | upper right | door platform | ledge grab left OR cling grip left OR faydown OR silk soar |  | Verified | ✓ |  |
 | R2 | right 2 | upper right | middle right | none (falling) |  | Verified | ✓ |  |
-| R2 | right 2 | middle right | upper right | silk soar OR cling grip |  | Verified | ✓ |  |
+| R2 | right 2 | middle right | upper right | silk soar OR cling grip both |  | Verified | ✓ |  |
 | GR | gauntlet right | middle right | gauntlet arena | none (starts gauntlet) |  | Verified | ✓ |  |
 | GR | gauntlet right | gauntlet arena | middle right | clear gauntlet fight |  | Verified | ✓ |  |
 | GL | gauntlet left | gauntlet arena | lower left shaft 2 | clear gauntlet fight |  | Verified | ✓ |  |
 | GL | gauntlet left | lower left shaft 2 | gauntlet arena | none (starts gauntlet) |  | Verified | ✓ | need to verify this with noclip, but probably doesn't matter |
 | L1 | left 1 | door platform | upper left | none (falling) |  | Verified | ✓ |  |
-| L1 | left 1 | upper left | door platform | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| L1 | left 1 | upper left | door platform | ledge grab left  OR cling grip left OR faydown OR silk soar OR easy scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | BW | break wall | lower left shaft 1 | upper left | clear one way wall |  | Verified | ✓ |  |
 | BW | break wall | upper left | lower left shaft 1 | clear one way wall |  | Verified | ✓ |  |
 | L2 | left 2 | lower left shaft 1 | lower left shaft 2 | none (falling) |  | Verified | ✓ |  |
-| L2 | left 2 | lower left shaft 2 | lower left shaft 1 | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| L2 | left 2 | lower left shaft 2 | lower left shaft 1 | ledge grab right OR cling grip either OR faydown cloak OR silk soar OR easy scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | L3 | left 3 | lower left shaft 2 | crest room | none (falling) |  | Verified | ✓ |  |
-| L3 | left 3 | crest room | lower left shaft 2 | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| L3 | left 3 | crest room | lower left shaft 2 | ledge grab right OR cling grip either OR faydown cloak OR silk soar OR easy scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | wanderer's crest | crest room | none |  | Verified | collectible | ✓ |  |
+| 1 | wanderer crest | crest room | none |  | Verified | collectible | ✓ |  |
 | 2 | One Way Wall | lower left shaft 1 | break wall up OR break wall right |  | Verified | blockade | ✓ |  |
 | 3 | bonegrave rosary cache 1 | upper left | none |  | Verified | collectible | ✓ |  |
 | 4 | bonegrave rosary cache 2 | upper left | none |  | Verified | collectible | ✓ |  |

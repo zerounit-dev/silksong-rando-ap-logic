@@ -22,8 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lever Bellshrine Enclave |  | none |  | Verified | switch | ✓ |  |
-| 2 | Bellshrine bench |  | none |  | Verified | bench | ✓ |  |
+| 1 | Bellshrine Enclave - Lever |  | none |  | Verified | switch | ✓ |  |
+| 2 | Bellshrine Enclave - Bench |  | activate Bellshrine Enclave - lever |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

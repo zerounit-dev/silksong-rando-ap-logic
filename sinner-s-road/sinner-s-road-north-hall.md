@@ -48,7 +48,7 @@
 | LRK | low right to keeper | right keeper plat | low right | none |  | Verified | ✓ | falling |
 | MRK | mid to right keep | middle area | right keeper plat | none |  | Verified | ✓ | spike balls |
 | MRK | mid to right keep | right keeper plat | middle area | none |  | Verified | ✓ | Just pogoing them spikey ball pendulums thingermajingers |
-| MKR | mid keeper to right | right keeper plat | right plat | (easy beast pogo OR ledge grab right) AND (drifter's cloak OR clawline right OR sharpdart OR dash right) |  | Verified | ✓ |  |
+| MKR | mid keeper to right | right keeper plat | right plat | (easy beast pogo OR ledge grab right OR cling grip right) AND (drifter's cloak OR clawline right OR sharpdart OR dash right) |  | Verified | ✓ |  |
 | MKR | mid keeper to right | right plat | right keeper plat | (proficient movement AND clawline left) OR ((ledge grab left OR clawline left OR dash left) AND ledge grab) OR (faydown cloak AND drifter's cloak) |  | Verified | ✓ |  |
 | RPD | right plat to door | right plat | right door | ledge grab right OR cling grip right OR faydown cloak OR clawline right OR sharpdart OR dash OR easy beast pogo |  | Verified | ✓ |  |
 | RPD | right plat to door | right door | right plat | none |  | Verified | ✓ | Can be done with regular pogos |

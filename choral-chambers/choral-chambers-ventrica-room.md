@@ -24,20 +24,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Ventrica | Lateral | activate Lever Ventrica |  | Verified | ✓ |  |
-| H | Horizontal | Lateral | Ventrica | activate Lever Ventrica |  | Verified | ✓ |  |
+| H | Horizontal | Ventrica | Lateral | activate Ventrica room - Lever |  | Verified | ✓ |  |
+| H | Horizontal | Lateral | Ventrica | activate Ventrica room - Lever |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Map Purchase: Choral Chambers | Lateral | spend 70 rosaries |  | Verified | collectible | ✓ | one of two possible locations - hero, 9/26 |
-| 2 | Ventrica's stored funds | Ventrica | none |  | Verified | collectible | ✓ | rosary cache |
-| 3 | Ventrica's maintenance fees | Ventrica | none |  | Verified | collectible | ✓ | rosary cache |
-| 4 | Ventrica's closed door budget | Ventrica | none |  | Verified | collectible | ✓ | rosary cache |
+| 2 | Ventrica room - stored funds | Ventrica | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Ventrica room - maintenance fees | Ventrica | none |  | Verified | collectible | ✓ | rosary cache |
+| 4 | Ventrica room - closed door budget | Ventrica | none |  | Verified | collectible | ✓ | rosary cache |
 | 5 | Ventrica: Choral Chambers | Ventrica | Unlock Ventrica: Choral Chambers Rosary Lock |  | Verified | travel |  |  |
 | 6 | Ventrica: Choral Chambers Rosary Lock | Ventrica | spend 80 rosaries |  | Verified | lore | ✓ |  |
-| 7 | Lever Ventrica | Ventrica | none |  | Verified | switch | ✓ |  |
+| 7 | Ventrica room - Lever | Ventrica | none |  | Verified | switch | ✓ |  |
 
 ## Room Images
 

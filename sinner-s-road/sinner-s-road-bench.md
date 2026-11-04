@@ -15,6 +15,7 @@
 | S5 | spike hall 3 | ✓ |
 | S6 | spike hall 4 | ✓ |
 | S7 | end | ✓ |
+| S8 | rosary plat | ✓ |
 
 ## Room Transitions
 
@@ -32,12 +33,16 @@
 | 23 | spike drop | spike hall 2 | spike hall 3 | proficient movement OR cling grip both |  | Verified | ✓ |  |
 | 34 | lower spike hall | spike hall 3 | spike hall 4 | proficient movement OR drifter's cloak OR faydown cloak OR spike pogo |  | Verified | ✓ |  |
 | 4e | end | spike hall 4 | end | swim OR (drifter's cloak AND (clawline OR sharpdart)) OR (faydown cloak AND (drifter's cloak OR dash OR sharpdart OR clawline)) OR (proficient movement AND (clawline OR sharpdart OR (drifter's cloak AND dash AND (ledge grab right OR cling grip right)))) |  | Verified | ✓ |  |
+| DR | door to rosaries | door | rosary plat | Silk soar OR (Faydown AND (cling grip right OR scuttlebrace)) |  | Verified | ✓ |  |
+| DR | door to rosaries | rosary plat | door | none |  | Verified | ✓ |  |
+| BR | bench to rosaries | bench | rosary plat | (faydown AND (ledge grab right OR cling grip right OR (proficient movement AND medium beast pogo))) OR  (dash AND drifter's) OR (run AND (clawline right OR sharpdart)) |  | Verified | ✓ |  |
+| BR | bench to rosaries | rosary plat | bench | none |  | Verified | ✓ | falling |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sinner's Road - Rosaries Looking Over The Sinner's Bench | door | Silk soar OR (Faydown AND cling grip right) |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #8 |
+| 1 | Sinner's Road - Rosaries Looking Over The Sinner's Bench | rosary plat | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #8 |
 | 2 | Sinner's Road - Map Purchase | bench | none |  | Verified | collectible | ✓ |  |
 | 3 | Sinner's Road - Please Help Me Fix This Bench, Shakra | bench | Spend 40 Rosaries AND complete Unclogging The Overly Complicated Bench |  | Verified | bench | ✓ | Formerly: Sinner's Road Bench |
 | 4 | Craw Summons | bench | Craw Summons Ready |  | Verified | collectible |  |  |

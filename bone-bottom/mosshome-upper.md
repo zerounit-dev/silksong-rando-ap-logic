@@ -29,25 +29,27 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | RS | right silk blockade | center platforms | ground right | break silk blockade |  | Verified | ✓ |  |
 | RS | right silk blockade | ground right | center platforms | break silk blockade |  | Verified | ✓ |  |
-| GL | left ground crossing | ground left | center platforms | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline right OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ | platform above spikes make this way more complicated than it should |
-| GL | left ground crossing | center platforms | ground left | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline left OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ |  |
+| GL | left ground crossing | ground left | center platforms | ledge grab right OR cling grip right OR spike pogo OR run OR dash right OR faydown OR drifters OR clawline right OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ | platform above spikes make this way more complicated than it should |
+| GL | left ground crossing | center platforms | ground left | ledge grab left OR cling grip left OR spike pogo OR run OR dash left OR faydown OR drifters OR clawline left OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ |  |
 | LS | left silk blockade | spire platforms | silkspear passage | break silk blockade |  | Verified | ✓ |  |
 | LS | left silk blockade | silkspear passage | spire platforms | break silk blockade |  | Verified | ✓ |  |
 | RB | rope barrier | silkspear passage | ground left | clear rope platform blockade |  | Verified | ✓ |  |
-| RB | rope barrier | ground left | silkspear passage | clear rope platform blockade AND ( ledge grab OR cling grip OR faydown OR silk soar OR easy shaman pogo ) |  | Verified | ✓ |  |
-| V1 | vertical 1 | center platforms | spire platforms | ledge grab OR cling grip OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
-| V1 | vertical 1 | spire platforms | center platforms | none |  | Verified | ✓ |  |
+| RB | rope barrier | ground left | silkspear passage | clear rope platform blockade AND ( ledge grab either OR cling grip either OR faydown OR silk soar OR easy shaman pogo ) |  | Verified | ✓ |  |
+| V1 | vertical 1 | center platforms | spire platforms | ledge grab either OR cling grip either OR faydown OR silk soar OR easy scuttlebrace OR easy shaman pogo OR easy pogo off [pilgrim groveller, pilgrim pouncer] |  | Verified | ✓ |  |
+| V1 | vertical 1 | spire platforms | center platforms | none (falling) |  | Verified | ✓ |  |
+| V2 | vertical 2 | ground left | spire platforms | cling grip left |  | Verified | ✓ |  |
+| V2 | vertical 2 | spire platforms | ground left | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | mosshome moss plaque | center platforms | none |  | Verified | lore |  |  |
-| 2 | silkspear | spire platforms | none |  | Verified | collectible |  |  |
-| 3 | mosshome rosary cache 3 | spire platforms | none |  | Verified | collectible |  |  |
-| 4 | mosshome rosary cache 4 | spire platforms | none |  | Verified | collectible |  |  |
-| 5 | frayed rosary string bone bottom silkspear passage | silkspear passage | none |  | Verified | collectible |  |  |
-| 6 | rope platform blockade | silkspear passage | cut rope down OR cut rope left OR cut rope right OR cut rope up |  | Verified | blockade |  |  |
+| 1 | mosshome moss plaque | center platforms | none |  | Verified | lore | ✓ |  |
+| 2 | silkspear | spire platforms | none |  | Verified | collectible | ✓ |  |
+| 3 | mosshome rosary cache 3 | spire platforms | none |  | Verified | collectible | ✓ |  |
+| 4 | mosshome rosary cache 4 | spire platforms | none |  | Verified | collectible | ✓ |  |
+| 5 | frayed rosary string bone bottom silkspear passage | silkspear passage | none |  | Verified | collectible | ✓ |  |
+| 6 | rope platform blockade | silkspear passage | cut rope down OR cut rope left OR cut rope right OR cut rope up |  | Verified | blockade | ✓ |  |
 | 7 | left exit breakable wall | ground left | break wall left |  | Verified | blockade | ✓ |  |
 | 8 | Aknid 1 | silkspear passage | None |  | Verified | enemy | ✓ |  |
 | 9 | Pilgrim Groveller 1 | center platforms | None |  | Verified | enemy | ✓ |  |

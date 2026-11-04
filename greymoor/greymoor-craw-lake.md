@@ -105,8 +105,8 @@
 | LG4 | lage gap 4 | craw building roof | verdania ledge | drifters cloak OR clawline right x 2 OR sharpdart x 2 OR (faydown cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR (progressive swift step 1 AND (easy [beast, architect] pogo OR (easy reaper pogo AND ledge grab right))))) OR (clawline right x 1 AND (progressive swift step 1 OR easy [hunter, beast, architect] pogo)) OR (sharpdart x 1 AND (easy [beast, hunter] pogo OR progressive swift step 1)) |  | Verified | ✓ |  |
 | LG4 | lage gap 4 | verdania ledge | craw building roof | faydown cloak AND (clawline left x 2 OR sharpdart x 2 OR ((clawline left x 1 OR sharpdart x 1) AND (progressive swift step 1 OR (drifters cloak AND ledge grab left)))) |  | Verified | ✓ |  |
 | F7 | fall 7 | small ass platform | lower left section | nothing |  | Verified | ✓ |  |
-| SR | stupid room | verdania ledge | stupid space behind stupid wall | ACT 3 AND have Simple Key Green Prince AND activate Lever Bellshrine Enclave IN bellshrine-enclave AND defeat Cogwork Dancers Boss Fight IN cog dancers |  | Verified | ✓ | Missing: green prince talk in cog dancers room |
-| SR | stupid room | stupid space behind stupid wall | verdania ledge | ACT 3 AND have Simple Key Green Prince AND activate Lever Bellshrine Enclave IN bellshrine-enclave AND defeat Cogwork Dancers Boss Fight IN cog dancers |  | Verified | ✓ | Missing: green prince talk in cog dancers room |
+| SR | stupid room | verdania ledge | stupid space behind stupid wall | ACT 3 AND have Simple Key Green Prince AND activate Bellshrine Enclave - Lever IN bellshrine-enclave AND defeat Cogwork Dancers Boss Fight IN cog dancers |  | Verified | ✓ | Missing: green prince talk in cog dancers room |
+| SR | stupid room | stupid space behind stupid wall | verdania ledge | ACT 3 AND have Simple Key Green Prince AND activate Bellshrine Enclave - Lever IN bellshrine-enclave AND defeat Cogwork Dancers Boss Fight IN cog dancers |  | Verified | ✓ | Missing: green prince talk in cog dancers room |
 
 ## Check Locations
 

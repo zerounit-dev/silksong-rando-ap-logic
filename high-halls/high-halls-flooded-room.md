@@ -17,7 +17,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | left exit area | [High Halls Shaft Bottom (Hang_03)](high-halls-shaft-bottom.md) | BR | clear left exit blockade |  | Verified | ✓ |  |
+| L | left1 | left exit area | [High Halls Shaft Bottom (Hang_03)](high-halls-shaft-bottom.md) | BR | clear Flooded Room - Wall |  | Verified | ✓ |  |
 | R | right1 | right exit area | [High Halls Big Shaft (Hang_08)](high-halls-big-shaft.md) | SL | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -38,7 +38,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | relic psalm cylinder high halls | relic spot right | none |  | Verified | collectible | ✓ |  |
-| 2 | left exit blockade | left exit area | break wall left |  | Verified | blockade | ✓ |  |
+| 2 | Flooded Room - Wall | left exit area | break wall left |  | Verified | blockade | ✓ |  |
 | 3 | Drapefly 1 | right exit area | normal world spawn |  | Verified | enemy | ✓ |  |
 | 4 | Drapefly 2 | left exit area | normal world spawn |  | Verified | enemy | ✓ |  |
 | 5 | Giant Drapemite 1 | relic spot left | normal world spawn |  | Verified | enemy | ✓ |  |

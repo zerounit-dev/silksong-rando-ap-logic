@@ -24,14 +24,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | D | dash | entrance | main floor | spike pogo OR run OR dash right OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak |  | Verified | ✓ | spike pogo |
 | D | dash | main floor | entrance | spike pogo OR run OR dash left OR clawline left OR sharpdart OR faydown cloak OR drifter's cloak |  | Verified | ✓ | spike pogo |
-| MR | main room | main floor | upper main | ledge grab OR easy pogo off [Pilgrim Hornfly, Overgrown Pilgrim]  OR silk soar OR faydown cloak OR cling grip OR easy shaman pogo |  | Verified | ✓ |  |
+| MR | main room | main floor | upper main | ledge grab either OR easy pogo off [Pilgrim Hornfly, Overgrown Pilgrim]  OR silk soar OR faydown cloak OR cling grip either OR easy shaman pogo |  | Verified | ✓ |  |
 | MR | main room | upper main | main floor | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | flea wormways snacc | main floor | ledge grab OR easy pogo off [Pilgrim Hornfly, Overgrown Pilgrim]  OR silk soar OR faydown cloak OR cling grip OR easy shaman pogo |  | Verified | collectible | ✓ |  |
+| 1 | flea wormways snacc | main floor | ledge grab either OR easy pogo off [Pilgrim Hornfly, Overgrown Pilgrim]  OR silk soar  OR faydown cloak  OR cling grip either  OR easy shaman pogo |  | Verified | collectible | ✓ |  |
 | 2 | Overgrown Pilgrim 1 | main floor | none |  | Verified | enemy | ✓ |  |
 | 3 | Aknid 1 | upper main | none |  | Verified | enemy | ✓ |  |
 | 4 | Pilgrim Hornfly 1 | main floor | none |  | Verified | enemy | ✓ |  |

@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | High Halls - Shell Shard Cache #2 |  | none |  | Verified | collectible | ✓ |  |
+| 1 | Small Room - Maestro remains |  | none |  | Verified | collectible | ✓ | shell cache |
 | 2 | Drapefly 1 |  | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images

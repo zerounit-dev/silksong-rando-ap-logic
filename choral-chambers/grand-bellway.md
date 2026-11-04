@@ -25,14 +25,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Secret Tunnel | Base | activate Grand bellway lever |  | Verified | ✓ |  |
-| V | Vertical | Base | Secret Tunnel | activate Grand bellway lever AND (easy scuttlebrace OR cling grip right OR (faydown AND cling grip left) OR silk soar) |  | Verified | ✓ |  |
+| V | Vertical | Secret Tunnel | Base | activate Grand Bellway - lever |  | Verified | ✓ |  |
+| V | Vertical | Base | Secret Tunnel | activate Grand Bellway - lever AND (easy scuttlebrace OR cling grip right OR (faydown AND cling grip left) OR silk soar) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Memory Locket: Choral Chambers | Secret Tunnel | activate Grand bellway wall 1 AND activate Grand bellway wall 2 |  | Verified | collectible | ✓ |  |
+| 1 | Memory Locket: Choral Chambers | Secret Tunnel | clear Grand Bellway - wall 2 AND clear Grand Bellway - wall 2 |  | Verified | collectible | ✓ |  |
 | 2 | Map Purchase: Choral Chambers | Base | spend 70 rosaries |  | Verified | collectible | ✓ | one of two possible locations - hero, 9/26 |
 | 3 | Ventrica: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock | ✓ |  |
 | 4 | Ventrica: Grand Bellway | Base | Unlock Ventrica: Grand Bellway Rosary Lock |  | Verified | travel |  |  |
@@ -40,9 +40,9 @@
 | 6 | Bellway: Grand Bellway | Base | Unlock Bellway Grand Bellway Rosary Lock |  | Verified | travel |  |  |
 | 7 | Beastling Call | Base | defeat Bell Eater IN Bellway Centipede Arena AND ACT 3 |  | Verified | collectible | ✓ |  |
 | 8 | Bellway bench | Base | none |  | Verified | bench | ✓ |  |
-| 9 | Grand bellway lever | Secret Tunnel | attack either |  | Verified | switch | ✓ |  |
-| 10 | Grand bellway wall 1 | Secret Tunnel | break wall left |  | Verified | blockade | ✓ |  |
-| 11 | Grand bellway wall 2 | Secret Tunnel | break wall left |  | Verified | blockade | ✓ |  |
+| 9 | Grand Bellway - lever | Secret Tunnel | attack either |  | Verified | switch | ✓ |  |
+| 10 | Grand Bellway - wall 1 | Secret Tunnel | break wall left |  | Verified | blockade | ✓ |  |
+| 11 | Grand Bellway - wall 2 | Secret Tunnel | break wall left |  | Verified | blockade | ✓ |  |
 
 ## Room Images
 

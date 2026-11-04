@@ -39,7 +39,7 @@
 | V3 | vertical 3 | right lower path | shakra intro | ledge grab either OR cling grip either OR silk soar OR faydown OR easy scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | V3 | vertical 3 | shakra intro | right lower path | none (falling) |  | Verified | ✓ |  |
 | G2 | gap 2 | middle upper platform | shakra intro | run  OR dash left OR easy beast pogo OR easy architect pogo OR drifters OR faydown OR clawline left OR sharpdart |  | Verified | ✓ |  |
-| G2 | gap 2 | shakra intro | middle upper platform | clawline right OR sharpdart |  | Verified | ✓ | anything that would get you from lower to upper is excluded for simplicity (ledge grab) |
+| G2 | gap 2 | shakra intro | middle upper platform | clawline right OR sharpdart OR dash right |  | Verified | ✓ | anything that would get you from lower to upper is excluded for simplicity (ledge grab) |
 
 ## Check Locations
 

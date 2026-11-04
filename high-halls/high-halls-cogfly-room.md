@@ -21,15 +21,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | main area | down the drain | none |  | Verified | ✓ | falling |
+| V1 | vertical 1 | main area | down the drain | proficient movement OR clawline right OR faydown OR drifter's OR dash right OR easy [hunter, beast, architect, shaman] pogo OR swim OR easy wanderer needle strike |  | Verified | ✓ | falling |
 | V1 | vertical 1 | down the drain | main area | none |  | Verified | ✓ | F4 |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogfly | main area | spend 1 craftmetals |  | Verified | collectible |  |  |
-| 2 | High Halls - Shell Shard Cache #1 | down the drain | none |  | Verified | collectible | ✓ |  |
+| 1 | Cogfly | main area | spend 1 craftmetals |  | Verified | collectible | ✓ |  |
+| 2 | Cogfly Room - cogfly bones | down the drain | none |  | Verified | collectible | ✓ |  |
 | 3 | Giant Drapemite 1 | down the drain | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images

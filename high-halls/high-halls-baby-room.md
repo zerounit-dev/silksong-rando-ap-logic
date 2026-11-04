@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [High Halls Big Shaft (Hang_08)](high-halls-big-shaft.md) | L | none |  | Verified | ✓ |  |
-| S | door1 |  | [Baby Room Interior Secret (Hang_14)](baby-room-interior-secret.md) | L | Silk Soar OR (faydown cloak AND cling grip either) |  | Verified | ✓ | Secret door to Hang_14 (not in the map, doesn't have any checks) |
+| S | door1 |  | [Baby Room Interior Secret (Hang_14)](baby-room-interior-secret.md) | L | Silk Soar OR (faydown cloak AND (easy scuttlebrace OR cling grip either)) |  | Verified | ✓ | Secret door to Hang_14 (not in the map, doesn't have any checks) |
 
 ## Subroom Connections
 

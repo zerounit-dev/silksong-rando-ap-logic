@@ -23,7 +23,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | H | Horizontal | Right | Left | cling grip either OR silk soar OR (easy shaman pogo AND easy pogo off [Envoy, Drapemite] AND faydown cloak) OR easy scuttlebrace |  | Verified | ✓ |  |
-| H | Horizontal | Left | Right | ledge grab left OR faydown cloak OR silk soar OR easy shaman pogo OR (easy pogo off Drapemite AND medium damage boost off Choir Bellbearer) OR scuttlebrace |  | Verified | ✓ |  |
+| H | Horizontal | Left | Right | ledge grab left OR faydown cloak OR silk soar OR (advanced knowledge AND easy shaman pogo) OR (easy pogo off Drapemite AND medium damage boost off Choir Bellbearer) OR easy scuttlebrace |  | Verified | ✓ |  |
 
 ## Check Locations
 

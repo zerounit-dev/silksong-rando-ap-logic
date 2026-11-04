@@ -26,6 +26,7 @@ No subroom connections defined.
 | 1 | High Halls - Map Purchase |  | spend 70 rosaries |  | Verified | collectible | ✓ |  |
 | 2 | Ventrica High Halls Rosary Lock |  | spend 80 rosaries |  | Verified | lock | ✓ |  |
 | 3 | Ventrica High Halls |  | unlock Ventrica High Halls Rosary Lock |  | Verified | travel |  |  |
+| 4 | High Halls Ventrica - bench |  | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

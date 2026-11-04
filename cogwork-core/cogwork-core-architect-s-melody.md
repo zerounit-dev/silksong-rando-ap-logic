@@ -21,14 +21,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TP | To Puzzle | Bottom | Melody Puzzle | Silk Soar OR Cling Grip OR (Faydown Cloak AND Scuttlebrace) |  | Verified | ✓ |  |
-| TP | To Puzzle | Melody Puzzle | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
+| TP | To Puzzle | Bottom | Melody Puzzle | Silk Soar OR Cling Grip OR (Faydown Cloak AND Scuttlebrace) |  | Verified |  |  |
+| TP | To Puzzle | Melody Puzzle | Bottom | Nothing. (Fall) |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Core: Architect's Melody | Melody Puzzle | Nothing (?) |  | Verified | event | ✓ | ??????????????????????? |
+| 1 | Cogwork Core: Architect's Melody | Melody Puzzle | flip switch left AND flip switch right |  | Verified | event | ✓ | Have: Brain AND Think |
 | 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images

@@ -29,7 +29,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Break Wall #5 | The Room | Break Wall Right |  | Verified | blockade | ✓ |  |
-| 2 | Whispering Vaults: Silkeater #1 | Silkeater | Nothing. |  | Verified | collectible | ✓ |  |
+| 2 | Whispering Vaults: Silkeater #1 | Silkeater | Faydown Cloak OR Silk Soar OR Cling Grip Either OR Scuttlebrace |  | Verified | collectible | ✓ |  |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes

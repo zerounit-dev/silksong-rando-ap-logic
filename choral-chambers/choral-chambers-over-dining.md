@@ -26,20 +26,20 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  | Verified | ✓ | falling |
 | V | Vertical | Base | Top | cling grip either OR faydown cloak OR silk soar OR ((hard plasmium stall OR medium flea brew stall OR easy shaman pogo OR ledge grab either OR easy scuttlebrace) AND (easy [hunter, wanderer, reaper,beast,architect, Shaman] pogo OR easy pogo off [Choir Hornhead, Choir pouncer, Choir Flyer]) AND easy pogo off Choir Flyer) |  | Verified | ✓ |  |
-| S | Secret | Right Secret | Base | activate switch over dining |  | Verified | ✓ |  |
-| S | Secret | Base | Right Secret | activate switch over dining AND ((cling grip either OR faydown cloak OR silk soar OR ((hard plasmium stall OR medium flea brew stall OR easy shaman pogo OR ledge grab either OR easy scuttlebrace) AND (easy [hunter, wanderer, reaper,beast,architect, Shaman] pogo OR easy pogo off [Choir Hornhead, Choir pouncer, Choir Flyer])))) |  | Verified | ✓ |  |
+| S | Secret | Right Secret | Base | activate Over dining - Switch |  | Verified | ✓ |  |
+| S | Secret | Base | Right Secret | activate Over dining - Switch AND ((cling grip either OR faydown cloak OR silk soar OR ((hard plasmium stall OR medium flea brew stall OR easy shaman pogo OR ledge grab either OR easy scuttlebrace) AND (easy [hunter, wanderer, reaper,beast,architect, Shaman] pogo OR easy pogo off [Choir Hornhead, Choir pouncer, Choir Flyer])))) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Necklace - Choral Chambers #2 | Base | activate Wall over dining AND (cling grip either OR ledge grab either OR easy shaman pogo OR silk soar OR easy scuttlebrace OR easy beast needle strike OR faydown OR easy damage boost off Drapefly OR easy [plasmium, flea brew, voltvessels] stall) |  | Verified | collectible | ✓ | hidden behind a breakable wall |
-| 2 | Dining Hall's food budget | Top | none |  | Verified | collectible | ✓ | rosary cache |
-| 3 | Mergwin's hidden stash | Top | none |  | Verified | collectible | ✓ | rosary cache |
-| 4 | Great Gourmand's treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 1 | Over dining - Great Gourmand's necklace | Base | activate Over dining - Wall AND (cling grip either OR ledge grab either OR easy shaman pogo OR silk soar OR easy scuttlebrace OR easy beast needle strike OR faydown OR easy damage boost off Drapefly OR easy [plasmium, flea brew, voltvessels] stall) |  | Verified | collectible | ✓ | rosary necklace |
+| 2 | Over dining - food budget | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Over dining - Mergwin's hidden stash | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 4 | Over dining - Great Gourmand's treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 5 | Mask Shard: Cogwork Core | Right Secret | none |  | Verified | collectible | ✓ |  |
-| 6 | Switch over dining | Right Secret | none |  | Verified | switch | ✓ |  |
-| 7 | Wall over dining | Base | break wall left |  | Verified | blockade | ✓ |  |
+| 6 | Over dining - Switch | Right Secret | none |  | Verified | switch | ✓ |  |
+| 7 | Over dining - Wall | Base | break wall right |  | Verified | blockade | ✓ |  |
 | 8 | Choir Pouncer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 9 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 10 | Drapemite 2 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |

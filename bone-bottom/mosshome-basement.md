@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | lower level | upper level | ledge grab OR cling grip OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
+| V1 | vertical 1 | lower level | upper level | ledge grab either OR cling grip either OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper level | lower level | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

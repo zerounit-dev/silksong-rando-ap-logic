@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Bellhart #4 |  | Cling Grip Left OR Cling Grip Right OR Silk soar OR ( Scuttlebrace AND Faydown Cloak ) |  | Verified | collectible | ✓ |  |
+| 1 | Rosary Cache: Bellhart #4 |  | Cling Grip Left OR ( Cling Grip Right AND ( Faydown Cloak OR Easy heal stall ) ) OR Silk soar OR ( Scuttlebrace AND Faydown Cloak ) |  | Verified | collectible | ✓ |  |
 | 2 | Bellhart- Outer Sign |  | None |  | Verified | lore | ✓ |  |
 
 ## Room Images

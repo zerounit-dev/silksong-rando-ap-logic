@@ -22,14 +22,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LG | ledge grab 1 | ground floor | upper platforms | ledge grab OR cling grip  OR faydown cloak OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
+| LG | ledge grab 1 | ground floor | upper platforms | ledge grab either OR cling grip either OR faydown cloak OR easy scuttlebrace OR silk soar OR easy pogo off aknid |  | Verified | ✓ |  |
 | LG | ledge grab 1 | upper platforms | ground floor | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | mosshome mossberry | ground floor | none |  | Verified | collectible |  |  |
+| 1 | mosshome mossberry | ground floor | none |  | Verified | collectible | ✓ |  |
 | 2 | Aknid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
 | 3 | Aknid 2 | ground floor | None |  | Verified | enemy | ✓ |  |
 

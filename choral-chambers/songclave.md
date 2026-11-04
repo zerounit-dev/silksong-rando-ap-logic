@@ -35,9 +35,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | White Key | Base | none |  | Verified | collectible | ✓ |  |
 | 2 | Wish: Pain, Anguish and Misery | Base | Act 3 AND Defeat Trobbio IN Trobbio |  | Verified | event |  |  |
-| 3 | Meet the Caretaker | Base | activate Lever Bellshrine Enclave IN bellshrine-enclave |  | Verified | logic-point | ✓ |  |
+| 3 | Meet the Caretaker | Base | activate Bellshrine Enclave - lever  IN bellshrine-enclave |  | Verified | logic-point | ✓ |  |
 | 4 | Reach Songclave | Base | none |  | Verified | logic-point |  | Used for Savage Beastfly wish. |
-| 5 | Songclave bench | Base | none |  | Verified | bench | ✓ |  |
+| 5 | Songclave - bench | Base | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

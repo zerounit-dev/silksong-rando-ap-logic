@@ -10,16 +10,18 @@
 | --- | --- | --- |
 | S1 | Top | ✓ |
 | S2 | Bottom | ✓ |
+| S3 | Top Left | ✓ |
+| S4 | Top Right | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Top | [Shellwood Bellway (Shellwood_19)](shellwood-bellway.md) | R | ( ( Sprint left OR Dash left OR clawline left OR silksoar OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Easy Beast Crest Pogo ) AND ( Ledge Grab Right OR Cling Grip Right OR Faydown Cloak OR Silk Soar OR Easy Shaman Pogo ) ) OR ( ledge grab left AND Easy flea brew stall ) |  | Verified | ✓ |  |
+| UL | left1 | Top Left | [Shellwood Bellway (Shellwood_19)](shellwood-bellway.md) | R | None |  | Verified | ✓ |  |
 | F | bot1 | Bottom | [Greyroots Basement Tall room (Mosstown_03)](greyroots-basement-tall-room.md) | C | Clear Breakable Roof Diddy Basement IN Shellwood Diddy Basement Tall room |  | Verified | ✓ | Help |
 | MR | right2 | Top | [Shellwood Mask Shard Room (Shellwood_14)](shellwood-mask-shard-room.md) | L | None |  | Verified | ✓ |  |
 | LL | left3 | Bottom | [Shellwood Left Side Long Pond Room (Shellwood_04b)](shellwood-left-side-long-pond-room.md) | R | None |  | Verified | ✓ |  |
-| UR | right1 | Top | [Cling Grip Room (Shellwood_10)](cling-grip-room.md) | LL | Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Cling Grip Right |  | Verified | ✓ |  |
+| UR | right1 | Top Right | [Cling Grip Room (Shellwood_10)](cling-grip-room.md) | LL | None |  | Verified | ✓ |  |
 | LR | right3 | Bottom | [shellwood Shakra (Shellwood_16)](shellwood-shakra.md) | L | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -28,6 +30,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | FP | Flower Pogo | Bottom | Top | Easy Shaman Pogo OR ( Ledge Grab Right AND ( Ledge Grab Left OR Cling Grip Right OR Easy Beast Pogo OR Dash Left ) ) OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
 | FP | Flower Pogo | Top | Bottom | None |  | Verified | ✓ |  |
+| TL | Top Left | Top | Top Left | ( ( Sprint left OR Dash left OR clawline left OR silksoar OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Easy Beast Crest Pogo ) AND ( Ledge Grab Right OR Cling Grip Right OR Faydown Cloak OR Silk Soar OR Easy Shaman Pogo ) ) OR ( ledge grab left AND Easy flea brew stall ) |  | Verified | ✓ |  |
+| TL | Top Left | Top Left | Top | None |  | Verified | ✓ |  |
+| TR | Top Right | Top | Top Right | Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Cling Grip Right |  | Verified | ✓ |  |
+| TR | Top Right | Top Right | Top | None |  | Verified | ✓ |  |
 
 ## Check Locations
 

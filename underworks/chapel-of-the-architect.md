@@ -20,11 +20,10 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Underworks: Silkeater |  | Activate Underworks Chapel Silkeater Wall |  | Verified | collectible | ✓ |  |
-| 2 | Underworks Chapel Silkeater Wall |  | Break Wall Up |  | Verified | blockade | ✓ |  |
-| 3 | Underworks: Needolin Lore |  | Needolin. |  | Verified | lore | ✓ |  |
-| 4 | Architect's Crest |  | Nothing. |  | Verified | collectible | ✓ |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Underworks Chapel Needolin Wall |  | Break Wall Up |  | Verified | blockade | ✓ |  |
+| 2 | Underworks: Needolin Lore |  | Needolin. |  | Verified | lore | ✓ |  |
+| 3 | Architect's Crest |  | Nothing. |  | Verified | collectible | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

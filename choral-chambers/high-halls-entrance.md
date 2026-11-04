@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | HH entrance Bench |  | none |  | Verified | bench | ✓ |  |
+| 1 | High Halls entrance - bench |  | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

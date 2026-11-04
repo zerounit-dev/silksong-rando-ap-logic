@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Outside of Underworks bench |  | none |  | Verified | bench | ✓ |  |
+| 1 | Outside Underworks - bench |  | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

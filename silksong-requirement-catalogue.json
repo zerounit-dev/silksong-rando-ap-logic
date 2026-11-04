@@ -223,7 +223,7 @@
     },
     {
       "id": "8b59e2f5-83de-5a48-ab90-c6cc02605274",
-      "name": "Progressive Swift Step 1",
+      "name": "Run",
       "category": "Ability",
       "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:sprint:{direction}",
@@ -233,7 +233,7 @@
     },
     {
       "id": "44034142-4a67-5fd4-83f5-68c344ec9ba8",
-      "name": "Progressive Swift Step 2",
+      "name": "Dash",
       "category": "Ability",
       "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:dash:{direction}",
@@ -522,7 +522,7 @@
       "aliases": "silk hearts x, silkhearts x"
     },
     {
-      "id": "6ccc5e48-bb32-5dba-8bf3-ec93411d2c36",
+      "id": "eb32ecfb-7bc5-4e40-9a44-07fed2d32a35",
       "name": "Enemy Pogo",
       "category": "Technique",
       "inputSyntax": "{difficulty?} {predicate}",
@@ -562,13 +562,23 @@
       "aliases": "stall"
     },
     {
+      "id": "c3ea9a97-3a17-4d53-8cb0-b5370c62845e",
+      "name": "Crest Bind Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} [{crest?}] {predicate}",
+      "outputSyntax": "capability:bind-stall:{crest}:{difficulty}",
+      "notes": "Implies owning the crest and being able to execute the bind stall.",
+      "sortOrder": 56,
+      "aliases": "crest bind stall, crest heal stall"
+    },
+    {
       "id": "888001b0-59b2-435d-8f2c-e85c0c5b6e64",
       "name": "Wind Skip",
       "category": "Technique",
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:wind-skip:{difficulty}",
       "notes": "Used in windy areas in Blasted Steps. Implies owning drifter\u0027s cloak. ",
-      "sortOrder": 56,
+      "sortOrder": 57,
       "aliases": "wind skip"
     },
     {
@@ -578,7 +588,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:cocoon-skip:{difficulty}",
       "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho, 2026",
-      "sortOrder": 57,
+      "sortOrder": 58,
       "aliases": "cocoon skip"
     },
     {
@@ -588,7 +598,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:drill-crystal-pogo:{difficulty}",
       "notes": "Implies owning tools delver\u0027s drill and memory crystal and being able to equip them both at the same time. Involves taking damage to create the crystal and then using the drill to gain vertical height from it. ",
-      "sortOrder": 58,
+      "sortOrder": 59,
       "aliases": "drill crystal pogo"
     },
     {
@@ -598,7 +608,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:hazard-respawn:{difficulty}",
       "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 59,
+      "sortOrder": 60,
       "aliases": "hazard respawn"
     },
     {
@@ -608,7 +618,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:damage-boost:{difficulty}",
       "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 60,
+      "sortOrder": 61,
       "aliases": "damage boost"
     },
     {
@@ -618,7 +628,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:proficient-movement",
       "notes": "For situations that do not use a specific stall or skip technique, but the traversal requires a minimum skill level.",
-      "sortOrder": 61,
+      "sortOrder": 62,
       "aliases": "proficient movement"
     },
     {
@@ -628,7 +638,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:shaman-scuttler:{difficulty}",
       "notes": "Implies ownership of the shaman crest, complete progressive swift step, the scuttlebrace, and the vesticrest to equip it.",
-      "sortOrder": 62,
+      "sortOrder": 63,
       "aliases": "shaman scuttle slide, shaman scuttler, scuttleglide"
     },
     {
@@ -638,7 +648,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "macro:combat-requirements",
       "notes": "[insert combat requirements here]",
-      "sortOrder": 63,
+      "sortOrder": 64,
       "aliases": "combat requirements"
     },
     {
@@ -648,7 +658,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-1",
       "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
-      "sortOrder": 64,
+      "sortOrder": 65,
       "aliases": "act i, act 1"
     },
     {
@@ -658,7 +668,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-2",
       "notes": "",
-      "sortOrder": 65,
+      "sortOrder": 66,
       "aliases": "act ii, act 2"
     },
     {
@@ -668,7 +678,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-3",
       "notes": "",
-      "sortOrder": 66,
+      "sortOrder": 67,
       "aliases": "act iii, act 3"
     },
     {
@@ -678,7 +688,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:enemy-spawn-normal-world",
       "notes": "Acts 1 and 2. Used for enemy spawn requirements. Indicates the enemy only spawns in the normal world scene.",
-      "sortOrder": 67,
+      "sortOrder": 68,
       "aliases": "normal world spawn"
     },
     {
@@ -688,7 +698,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:enemy-spawn-black-thread-world",
       "notes": "Act 3. Used for enemy spawn requirements. Indicates the enemy only spawns in the black thread world scene.",
-      "sortOrder": 68,
+      "sortOrder": 69,
       "aliases": "black thread world spawn"
     },
     {
@@ -698,7 +708,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:craw-summons-ready",
       "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.\n\n\u0022To receive the Craw Summons, Hornet must have reached Act 3, completed the SEEK: Awaiting the End objective, and hit the lever inside the Craw house on Craw Lake.\u0022 - per the wiki",
-      "sortOrder": 69,
+      "sortOrder": 70,
       "aliases": "craw summons ready"
     },
     {
@@ -708,7 +718,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-shellwood",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 70,
+      "sortOrder": 71,
       "aliases": "visit shellwood"
     },
     {
@@ -718,7 +728,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-greymoor",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 71,
+      "sortOrder": 72,
       "aliases": "visit greymoor"
     },
     {
@@ -728,7 +738,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-sinners-road",
       "notes": "",
-      "sortOrder": 72,
+      "sortOrder": 73,
       "aliases": "visit sinners road"
     },
     {
@@ -738,7 +748,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-blasted-steps",
       "notes": "",
-      "sortOrder": 73,
+      "sortOrder": 74,
       "aliases": "visit blasted steps"
     },
     {
@@ -748,7 +758,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-the-citadel",
       "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
-      "sortOrder": 74,
+      "sortOrder": 75,
       "aliases": "visit the citadel"
     },
     {
@@ -758,7 +768,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-whiteward",
       "notes": "Used for the wish Balm for the Wounded.",
-      "sortOrder": 75,
+      "sortOrder": 76,
       "aliases": "visit whiteward"
     },
     {
@@ -768,7 +778,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-on",
       "notes": "",
-      "sortOrder": 76,
+      "sortOrder": 77,
       "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
     },
     {
@@ -778,7 +788,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-off",
       "notes": "",
-      "sortOrder": 77,
+      "sortOrder": 78,
       "aliases": "steel soul off"
     },
     {
@@ -788,7 +798,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-on",
       "notes": "",
-      "sortOrder": 78,
+      "sortOrder": 79,
       "aliases": "bellshrinesanity on"
     },
     {
@@ -798,7 +808,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-off",
       "notes": "",
-      "sortOrder": 79,
+      "sortOrder": 80,
       "aliases": "bellshrinesanity off"
     },
     {
@@ -808,7 +818,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-on",
       "notes": "",
-      "sortOrder": 80,
+      "sortOrder": 81,
       "aliases": "bossanity on"
     },
     {
@@ -818,7 +828,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-off",
       "notes": "",
-      "sortOrder": 81,
+      "sortOrder": 82,
       "aliases": "bossanity off"
     },
     {
@@ -828,7 +838,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-on",
       "notes": "",
-      "sortOrder": 82,
+      "sortOrder": 83,
       "aliases": "wishsanity on"
     },
     {
@@ -838,7 +848,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-off",
       "notes": "",
-      "sortOrder": 83,
+      "sortOrder": 84,
       "aliases": "wishsanity off"
     },
     {
@@ -848,7 +858,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:entrance-randomizer-on",
       "notes": "",
-      "sortOrder": 84,
+      "sortOrder": 85,
       "aliases": "entrance randomizer on"
     },
     {
@@ -858,7 +868,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:entrance-randomizer-off",
       "notes": "",
-      "sortOrder": 85,
+      "sortOrder": 86,
       "aliases": "entrance randomizer off"
     },
     {
@@ -868,7 +878,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:elite-ball-knowledge-on",
       "notes": "Setting for knowledge of extremely specific techniques and unintuitive game possibilities, such as thorn pogo spots or novel silk soar locations.",
-      "sortOrder": 86,
+      "sortOrder": 87,
       "aliases": "advanced knowledge, elite ball knowledge, ponder the orb"
     }
   ],
@@ -920,7 +930,7 @@
     },
     {
       "id": "bd7b7ce0-5b62-4b3c-9ba7-fb3eeb694e67",
-      "name": "Architect Crest ",
+      "name": "Architect Crest",
       "category": "F-Tier",
       "outputValue": "architect",
       "notes": "",
