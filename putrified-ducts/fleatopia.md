@@ -25,7 +25,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MP | Maggot Puddle | Entrance | Fleatopia | Swim OR Clawline right OR Drifters Cloak OR ( Sprint Right AND Dash right ) OR Sharpdart |  | Verified | ✓ |  |
+| MP | Maggot Puddle | Entrance | Fleatopia | Swim OR Clawline right OR Drifters Cloak OR ( Sprint Right AND ( Dash right OR Easy flea brew stall ) ) OR Sharpdart |  | Verified | ✓ |  |
 | MP | Maggot Puddle | Fleatopia | Entrance | ( Swim AND Cling Grip left ) OR ( Faydown cloak AND ( Clawline left OR ( Sprint left AND Dash left ) ) ) |  | Verified | ✓ |  |
 | PL1 | Pale Lake1 | Fleatopia | Craftmetal | Swim AND Faydown Cloak AND ( Cling Grip either OR Scuttlebrace ) |  | Verified | ✓ |  |
 | PL1 | Pale Lake1 | Craftmetal | Fleatopia | Swim |  | Verified | ✓ |  |

@@ -35,7 +35,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Surface Memento | Nameless Town | None |  | Verified | collectible | ✓ |  |
+| 1 | Surface Memento | Nameless Town | Needolin |  | Verified | collectible | ✓ |  |
 | 2 | Skrill 1 | Hole | None |  | Verified | enemy | ✓ |  |
 | 3 | Skrill 2 | Nameless Town | None |  | Verified | enemy | ✓ |  |
 | 4 | Skrill 3 | Nameless Town | None |  | Verified | enemy | ✓ |  |

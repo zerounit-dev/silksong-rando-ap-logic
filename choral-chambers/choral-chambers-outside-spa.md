@@ -17,7 +17,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Left | [Choral Chambers Above Ventrica (Song_03)](choral-chambers-above-ventrica.md) | T | activate Outside Spa - Switch |  | Verified | ✓ |  |
+| B | bot1 | Left | [Choral Chambers Above Ventrica (Song_03)](choral-chambers-above-ventrica.md) | T | activate Choral Chambers Outside Spa - Switch |  | Verified | ✓ |  |
 | L | left1 | Top | [Slab Bridge (Slab_01)](../the-slab/slab-bridge.md) | R | none |  | Verified | ✓ |  |
 | R1 | right1 | Top | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | BL | none |  | Verified | ✓ |  |
 | R2 | right2 | Base | [Choral Chambers Spa (Song_10)](choral-chambers-spa.md) | L | none |  | Verified | ✓ |  |
@@ -37,10 +37,10 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Outside Spa - Heavy necklace | Base | clear Outside Spa - Breakable ceiling AND (cling grip either OR silk soar OR ((easy shaman pogo OR faydown cloak OR easy flea brew stall OR (have crest beast AND easy heal stall AND easy [flintslate, Cross Stitch] stall)) AND easy scuttlebrace)) |  | Verified | collectible | ✓ | rosary necklace |
-| 2 | Outside Spa - Switch | Left | none |  | Verified | switch | ✓ |  |
+| 1 | Choral Chambers - Spa guest's lost necklace | Base | clear Choral Chambers Outside Spa - Breakable ceiling  AND (cling grip either OR silk soar OR ((easy shaman pogo OR faydown cloak OR easy flea brew stall OR (have crest beast AND easy heal stall AND easy [flintslate, Cross Stitch] stall)) AND easy scuttlebrace)) |  | Verified | collectible | ✓ | rosary necklace |
+| 2 | Choral Chambers Outside Spa - Switch | Left | none |  | Verified | switch | ✓ |  |
 | 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 4 | Outside Spa - Breakable ceiling | Base | attack up |  | Verified | blockade | ✓ |  |
+| 4 | Choral Chambers Outside Spa - Breakable ceiling | Base | attack up |  | Verified | blockade | ✓ |  |
 | 5 | Gauntlet Fight | Gauntlet | Normal World Spawn  AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 6 | Choir Bellbearer 1 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 7 | Choir Bellbearer 2 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |

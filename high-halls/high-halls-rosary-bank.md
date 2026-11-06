@@ -46,11 +46,11 @@
 | 2 | Rosary Bank - Cannon Wall | Lower Vents | Break Wall Left |  | Verified | blockade | ✓ |  |
 | 3 | Rosary Bank - Vault Switch | Vault | Flip Lever Left |  | Verified | switch | ✓ |  |
 | 4 | Rosary Cannon | Rosary Dropper | clear Rosary Bank - Cannon Wall AND (cling grip left OR faydown OR ledge grab left OR easy hazard respawn) |  | Verified | collectible | ✓ |  |
-| 5 | Rosary Bank - Chest 1 | Vault | Free |  | Verified | collectible | ✓ |  |
-| 6 | Rosary Bank - Chest 2 | Vault | Zilch |  | Verified | collectible | ✓ |  |
-| 7 | Rosary Bank - Chest 3 | Vault | Nada |  | Verified | collectible | ✓ |  |
-| 8 | Rosary Bank - Vault String 1 | Vault | Nothing |  | Verified | collectible | ✓ |  |
-| 9 | Rosary Bank - Vault String 2 | Vault | Nothing |  | Verified | collectible | ✓ |  |
+| 5 | Rosary Bank - Romino's chest | Vault | Free |  | Verified | collectible | ✓ |  |
+| 6 | Rosary Bank - Mizello's chest | Vault | Zilch |  | Verified | collectible | ✓ |  |
+| 7 | Rosary Bank - Ballador's chest | Vault | Nada |  | Verified | collectible | ✓ |  |
+| 8 | Rosary Bank - Conductors' instruments budget | Vault | Nothing |  | Verified | collectible | ✓ |  |
+| 9 | Rosary Bank - Vault repair funds | Vault | Nothing |  | Verified | collectible | ✓ |  |
 | 10 | Rosary Bank - Missable String 1 | Vault | ACT 2 |  | Verified | collectible | ✓ | only exists in act 2 |
 | 11 | Rosary Bank - Missable String 2 | Vault | ACT 2 |  | Verified | collectible | ✓ | only exists in act 2 |
 | 12 | Rosary Bank - Missable String 3 | Vault | ACT 2 |  | Verified | collectible | ✓ | only exists in act 2 |

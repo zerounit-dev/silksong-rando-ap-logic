@@ -22,8 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Merchant room - Merchant's prized necklace |  | cling grip left OR (faydown AND (cling grip right OR easy scuttlebrace)) |  | Verified | collectible | ✓ |  |
-| 2 | Merchant room - Merchant's funds |  | cling grip left OR (faydown AND (cling grip right OR easy scuttlebrace)) |  | Verified | collectible | ✓ | rosary cache |
+| 1 | Choral Chambers - Merchant's prized necklace |  | cling grip left OR (faydown AND (cling grip right OR easy scuttlebrace)) |  | Verified | collectible | ✓ | rosary necklace |
+| 2 | Choral Chambers - Merchant's funds |  | cling grip left OR (faydown AND (cling grip right OR easy scuttlebrace)) |  | Verified | collectible | ✓ | rosary cache |
 | 3 | The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  | Verified | event |  |  |
 | 4 | Merchant room - Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  | Verified | event | ✓ | per the wiki |
 | 5 | Choristor 1 |  | prereq THE The Wandering Merchant Wish Promised |  | Verified | enemy | ✓ | Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false |

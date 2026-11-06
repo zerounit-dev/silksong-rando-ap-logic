@@ -26,8 +26,8 @@ No subroom connections defined.
 | 2 | memory locket pilgrims rest shop |  | none (shop) |  | Verified | collectible |  | shop |
 | 3 | tool pouch pilgrim's rest shop |  | none (shop) |  | Verified | collectible |  | NOT RANDOMIZED AS OF v0.4.2 |
 | 4 | pilgrims rest supplies wish granted |  | complete THE pilgrims rest supplies wish promised |  | Verified | collectible |  |  |
-| 5 | Rhinogrund 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Snitchfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 5 | Rhinogrund 1 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Snitchfly 1 |  | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

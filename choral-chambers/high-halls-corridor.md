@@ -15,10 +15,10 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Bottom | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S3R | activate Flea Shaft - Lever 1 IN choral chambers flea shaft |  | Verified | ✓ | one way entrance, opens from the other side |
+| L | left1 | Bottom | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S3R | activate Choral Chambers Flea Shaft - Lever 1 IN choral chambers flea shaft |  | Verified | ✓ | one way entrance, opens from the other side |
 | R | right1 | Bottom | [Cog Dancers (Cog_Dancers)](../cogwork-core/cog-dancers.md) | L | none |  | Verified | ✓ |  |
 | B | bot1 | Bottom | [Choral Chambers Over Dining (Song_09)](choral-chambers-over-dining.md) | T | none |  | Verified | ✓ |  |
-| T | top1 | Top | [High Halls Vault (Hang_06)](../high-halls/high-halls-vault.md) | B | Activate Vault - Floor Lever IN High Halls Vault |  | Verified | ✓ | one way entrance, opens from the other side |
+| T | top1 | Top | [High Halls Vault (Hang_06)](../high-halls/high-halls-vault.md) | B | Activate High Halls Vault - Floor lever IN High Halls Vault |  | Verified | ✓ | one way entrance, opens from the other side |
 
 ## Subroom Connections
 

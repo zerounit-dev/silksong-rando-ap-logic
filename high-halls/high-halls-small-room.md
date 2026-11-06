@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Small Room - Maestro remains |  | none |  | Verified | collectible | ✓ | shell cache |
+| 1 | High Halls - a small room's Maestro remains |  | none |  | Verified | collectible | ✓ | shell cache |
 | 2 | Drapefly 1 |  | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images

@@ -28,7 +28,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Clawmaiden Killer - Breakable Ceiling | Ground | Break Wall Up |  | Verified | switch | ✓ |  |
+| 1 | Clawmaiden Killer - Breakable Ceiling | Ground | Break Wall Up |  | Verified | blockade | ✓ |  |
 | 2 | Clawmaiden Silk | Upper | (Open Airlock Left AND (spike pogo OR Faydown OR Clawline left OR Sharpdart OR (Sprint AND Dash left))) |  | Verified | logic-point | ✓ | require claw maiden soul and 1 kill |
 | 3 | Clawmaiden 1 | Ground | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 4 | Clawmaiden 2 | Ground | Normal World Spawn |  | Verified | enemy | ✓ | spawn at random? |

@@ -29,9 +29,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Maintenance Tunnel - Worker's Wage cache | Base | none |  | Verified | collectible | ✓ | rosary cache |
-| 2 | Maintenance Tunnel - Rosary cache budget | Base | none |  | Verified | collectible | ✓ | rosary cache |
-| 3 | Maintenance Tunnel - Head chief's embezzled Rosary cache | Base | none |  | Verified | collectible | ✓ | rosary cache |
+| 1 | Choral Chambers - Maintenance Worker's Wage cache | Base | none |  | Verified | collectible | ✓ | rosary cache |
+| 2 | Choral Chambers - Maintenance tunnel's leftover budget | Base | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Choral Chambers - Maintenance Head chief's embezzled rosaries | Base | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Choir Bellbearer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 5 | Reed 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 | 6 | Reed 2 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |

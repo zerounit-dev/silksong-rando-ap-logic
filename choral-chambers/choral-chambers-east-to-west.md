@@ -17,7 +17,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Left Side | [Choral Chambers Below Dining (Song_18)](choral-chambers-below-dining.md) | B | invalid |  | Verified | ✓ | One way, can't be used at all from this side even if you entered from it! |
 | R | right1 | Right Side | [Grand Bellway Shaft (Song_20)](grand-bellway-shaft.md) | UL | none |  | Verified | ✓ |  |
-| L | left1 | Left Side | [Choral Chambers Eastern Shaft (Song_05)](choral-chambers-eastern-shaft.md) | R2 | activate East to West - Lever |  | Verified | ✓ |  |
+| L | left1 | Left Side | [Choral Chambers Eastern Shaft (Song_05)](choral-chambers-eastern-shaft.md) | R2 | activate Choral Chambers East to West - Lever |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -30,7 +30,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | East to West - Lever | Left Side | flip switch left |  | Verified | switch | ✓ |  |
+| 1 | Choral Chambers East to West - Lever | Left Side | flip switch left |  | Verified | switch | ✓ |  |
 | 2 | Second Sentinel Encounter | Right Side | complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_27=true, songChevalierSeenInSong_27=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
 | 3 | Cogworker 1 | Right Side | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 4 | Cogworker 2 | Right Side | Normal World Spawn |  | Verified | enemy | ✓ |  |

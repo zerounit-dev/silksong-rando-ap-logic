@@ -22,17 +22,17 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Diner | Below Diner | Activate Dining room - Lever 1 OR Activate Dining room - Lever 2 |  | Verified | ✓ |  |
-| V | Vertical | Below Diner | Diner | ((cling grip left OR silk soar) AND Activate Dining room - Lever 1) OR ((easy scuttlebrace OR cling grip right) AND Activate Dining room - Lever 2) |  | Verified | ✓ |  |
+| V | Vertical | Diner | Below Diner | Activate Choral Chambers Dining room - Lever 1 OR Activate Choral Chambers Dining room - Lever 2 |  | Verified | ✓ |  |
+| V | Vertical | Below Diner | Diner | ((cling grip left OR silk soar) AND Activate Choral Chambers Dining room - Lever 1) OR ((easy scuttlebrace OR cling grip right) AND Activate Choral Chambers Dining room - Lever 2) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Dining room - Silk eater | Below Diner | ledge grab either OR easy [Hunter, Wanderer, Reaper, Beast, Architect, Witch, Shaman] pogo OR cling grip either OR faydown cloak |  | Verified | collectible | ✓ |  |
+| 1 | Choral Chambers - Great Gourmand's Silk eater | Below Diner | ledge grab either OR easy [Hunter, Wanderer, Reaper, Beast, Architect, Witch, Shaman] pogo OR cling grip either OR faydown cloak OR easy naked pogo |  | Verified | collectible | ✓ |  |
 | 2 | Great Taste of Pharloom Wish Promised | Diner | none |  | Verified | event | ✓ |  |
-| 3 | Dining room - Lever 1 | Diner | none |  | Verified | switch | ✓ |  |
-| 4 | Dining room - Lever 2 | Diner | none |  | Verified | switch | ✓ |  |
+| 3 | Choral Chambers Dining room - Lever 1 | Diner | none |  | Verified | switch | ✓ |  |
+| 4 | Choral Chambers Dining room - Lever 2 | Diner | none |  | Verified | switch | ✓ |  |
 | 5 | Choir Pouncer 1 | Below Diner | Invalid |  | Verified | enemy | ✓ | Spawn conditions:  citadelWoken == false  not sure if you can ever reach this guy - reaching the citadel wakes it as far as I know. maybe room rando? - hero, 10/16 |
 
 ## Room Images

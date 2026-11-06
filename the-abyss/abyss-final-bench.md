@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Map: Abyss |  | Silk Soar OR Cling Grip OR ( Faydown Cloak AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
+| 1 | Map: Abyss |  | Silk Soar OR Cling Grip Right OR ( Faydown Cloak AND ( Scuttlebrace OR Cling grip Left ) ) |  | Verified | collectible | ✓ |  |
 | 2 | Bench: Final Bench |  | None |  | Verified | bench | ✓ |  |
 
 ## Room Images

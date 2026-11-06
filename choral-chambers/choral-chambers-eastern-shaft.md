@@ -20,7 +20,7 @@
 | L1 | left5 | Section 1 | [Choral Chambers Below Spa (Song_02)](choral-chambers-below-spa.md) | R | none |  | Verified | ✓ |  |
 | R1 | right3 | Section 1 | [Whiteward Entrance (Ward_01)](../whiteward/whiteward-entrance.md) | TL | none |  | Verified | ✓ |  |
 | L2 | left4 | Section 2 | [Choral Chambers Merchant Room (Song_07)](choral-chambers-merchant-room.md) | R | none |  | Verified | ✓ |  |
-| R2 | right4 | Section 2 | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | L | activate East to West - Lever IN choral chambers east to west |  | Verified | ✓ |  |
+| R2 | right4 | Section 2 | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | L | activate Choral Chambers East to West - Lever IN choral chambers east to west |  | Verified | ✓ |  |
 | L3 | left3 | Section 3 | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | BR | none |  | Verified | ✓ |  |
 | R4 | right2 | Section 4 | [Choral Chambers Below Dining (Song_18)](choral-chambers-below-dining.md) | L | none |  | Verified | ✓ |  |
 

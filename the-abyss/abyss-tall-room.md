@@ -27,16 +27,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SS | Silk Soar | Bottom | Top | Silk Soar |  | Verified | ✓ |  |
 | SS | Silk Soar | Top | Bottom | None |  | Verified | ✓ |  |
-| US | Upper Spikes | Top | Spike Platform | ( Proficient Movement AND spike pogo ) OR ( Drifters Cloak OR Clawline ) |  | Verified | ✓ |  |
-| US | Upper Spikes | Spike Platform | Top | Cling Grip AND ( ( Proficient Movement AND spike pogo ) OR Clawline ) |  | Verified | ✓ |  |
-| LS | Lower Spikes | Bottom | Spike Platform | Silk Soar AND ( ( Proficient Movement AND spike pogo ) OR Drifters Cloak OR Clawline ) |  | Verified | ✓ |  |
-| LS | Lower Spikes | Spike Platform | Bottom | ( Proficient Movement AND spike pogo ) OR ( Drifters Cloak OR Clawline ) |  | Verified | ✓ |  |
+| US | Upper Spikes | Top | Spike Platform | Spike pogo OR Drifters Cloak OR Clawline Right OR Sharpdart |  | Verified | ✓ |  |
+| US | Upper Spikes | Spike Platform | Top | Cling grip left AND ( Spike pogo OR Cling grip Right ) |  | Verified | ✓ |  |
+| LS | Lower Spikes | Bottom | Spike Platform | Silk Soar AND ( Spike pogo OR Drifters Cloak OR Clawline Right OR Sharpdart ) |  | Verified | ✓ |  |
+| LS | Lower Spikes | Spike Platform | Bottom | Spike pogo OR clawline left OR Faydown cloak OR Drifters cloak OR ( Dash left AND Ledge Grab left ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | Shadow Creeper 1 | Spike Platform | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

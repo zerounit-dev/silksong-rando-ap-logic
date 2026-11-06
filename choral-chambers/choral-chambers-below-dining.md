@@ -29,7 +29,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Below Dining - bench | Top | none |  | Verified | bench | ✓ |  |
+| 1 | Choral Chambers Below Dining - bench | Top | none |  | Verified | bench | ✓ |  |
 | 2 | Drapemite 1 | Bottom | Normal world spawn |  | Verified | enemy | ✓ |  |
 | 3 | Drapemite 2 | Bottom | Normal world spawn |  | Verified | enemy | ✓ |  |
 | 4 | Drapemite 3 | Bottom | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |

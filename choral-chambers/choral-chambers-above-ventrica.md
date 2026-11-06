@@ -17,7 +17,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Bottom Left | [Choral Chambers Ventrica Room (Song_01b)](choral-chambers-ventrica-room.md) | T | none |  | Verified | ✓ |  |
-| T | top1 | Top | [Choral Chambers Outside Spa (Song_04)](choral-chambers-outside-spa.md) | B | Activate Outside Spa - Switch IN Choral chambers outside spa |  | Verified | ✓ |  |
+| T | top1 | Top | [Choral Chambers Outside Spa (Song_04)](choral-chambers-outside-spa.md) | B | Activate Choral Chambers Outside Spa - Switch IN Choral chambers outside spa |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -34,9 +34,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Above Ventrica - Choristor's precious belongings | Bottom Right | none |  | Verified | collectible | ✓ | rosary chest |
-| 2 | Above Ventrica - Old gains | Top | none |  | Verified | collectible | ✓ | rosary cache |
-| 3 | Above Ventrica - Old treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 1 | Choral Chambers - Ventrica Attic hidden chest | Bottom Right | none |  | Verified | collectible | ✓ | rosary chest |
+| 2 | Choral Chambers - Ventrica Attic old gains | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Choral Chambers - Ventrica Attic treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Choir Pouncer 1 | Bottom Left | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 5 | Reed 1 | Bottom Left | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 | 6 | Choristor 1 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ |  |
