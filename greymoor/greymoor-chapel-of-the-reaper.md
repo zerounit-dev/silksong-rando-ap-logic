@@ -34,15 +34,16 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crest: Reaper | upper area | nothing |  | Verified | collectible | ✓ |  |
-| 2 | Chapel of the Reaper Gauntlet | gauntlet room | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 3 | gauntlet airlock | entrance section | hit lever right OR hit lever left OR hit lever up |  | Verified | blockade | ✓ |  |
-| 4 | tied platform | upper area | break vines left OR break vines up OR break vines right |  | Verified | blockade | ✓ |  |
-| 5 | Silk Snipper 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
-| 6 | Dreg Catcher 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
-| 7 | Dreg Catcher 2 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
-| 8 | Thread Raker 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
-| 9 | Silk Snipper 2 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
-| 10 | Silk Snipper 3 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 2 | gauntlet airlock | entrance section | hit lever right OR hit lever left OR hit lever up |  | Verified | blockade | ✓ |  |
+| 3 | tied platform | upper area | break vines left OR break vines up OR break vines right |  | Verified | blockade | ✓ |  |
+| 4 | reaper thread memory | upper area | needolin |  | Verified | lore | ✓ |  |
+| 5 | Chapel of the Reaper Gauntlet | gauntlet room | Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 6 | Silk Snipper 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 7 | Dreg Catcher 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 8 | Dreg Catcher 2 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 9 | Thread Raker 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 10 | Silk Snipper 2 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 11 | Silk Snipper 3 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

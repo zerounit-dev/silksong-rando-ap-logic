@@ -32,6 +32,8 @@ No subroom connections defined.
 | 6 | Crawbug Clearing Wish Promised |  | defeat THE boss widow |  | Verified | event |  | can be accepted here or at the wish board |
 | 7 | Crawbug Clearing Wish Granted |  | complete Crawbug Clearing Wish Promised AND Get 25 Ragpelts |  | Verified | event |  |  |
 | 8 | Greymoor Crafting Kit |  | complete Crawbug Clearing Wish Granted |  | Verified | collectible |  |  |
+| 9 | Creige Thread memory |  | normal world spawn AND needolin |  | Verified | lore | ✓ |  |
+| 10 | sad Creige Thread memory |  | black thread world spawn AND needolin |  | Verified | lore | ✓ |  |
 
 ## Room Images
 

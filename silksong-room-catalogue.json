@@ -7412,7 +7412,7 @@
           "sourceSubroomReferenceText": "deep docks platform",
           "destinationRoomReferenceText": "deep docks bellshrine",
           "destinationTransitionAliasText": "R",
-          "requirements": "( bellshrinesanity off AND activate bellshrine switch IN deep docks bellshrine ) \nOR ( bellshrinesanity on AND have bell deep docks ) ",
+          "requirements": "( bellshrinesanity off AND activate Deep Dock bellshrine switch IN deep docks bellshrine ) \nOR ( bellshrinesanity on AND have bell deep docks ) ",
           "notes": "must keep in sync with other side",
           "sortOrder": 1,
           "isTodo": false,
@@ -7420,7 +7420,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-05T03:11:23.0290078Z",
-          "updatedUtc": "2026-10-03T20:19:12.9614836Z",
+          "updatedUtc": "2026-11-06T20:28:13.3351668Z",
           "isUnsafeArrival": false
         },
         {
@@ -9259,19 +9259,19 @@
         },
         {
           "id": "35232d69-15a3-4cc0-bbfb-744628334a29",
-          "referenceId": "flea room",
-          "friendlyName": "flea room",
+          "referenceId": "flea room middle",
+          "friendlyName": "flea room middle",
           "notes": "",
           "sceneUnitX": 174.00333404541016,
           "sceneUnitY": 44.32174969482422,
           "sceneUnitWidth": 45.996665954589844,
-          "sceneUnitHeight": 28.664270568847655,
+          "sceneUnitHeight": 11.224838775634765,
           "enableAnnotation": true,
           "sortOrder": 6,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T13:40:44.1805756Z",
-          "updatedUtc": "2026-10-25T04:09:38.632453Z"
+          "updatedUtc": "2026-11-06T20:11:20.0961712Z"
         },
         {
           "id": "cc0862f1-0fa0-4c5a-aa40-22741b019e25",
@@ -9480,6 +9480,22 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-25T18:22:06.7195118Z",
           "updatedUtc": "2026-10-25T18:22:27.9739367Z"
+        },
+        {
+          "id": "bd68fa10-e32a-44a8-9a08-57366a4c0076",
+          "referenceId": "flea room upper",
+          "friendlyName": "flea room upper",
+          "notes": "",
+          "sceneUnitX": 174.00333404541016,
+          "sceneUnitY": 55.546588470458985,
+          "sceneUnitWidth": 38.49391790771483,
+          "sceneUnitHeight": 17.43943179321289,
+          "enableAnnotation": true,
+          "sortOrder": 20,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-06T20:04:51.969306Z",
+          "updatedUtc": "2026-11-06T20:05:04.9087439Z"
         }
       ],
       "transitions": [
@@ -9659,7 +9675,7 @@
           "friendlyName": "lake gap",
           "sourceSubroomReferenceText": "lower left section",
           "destinationSubroomReferenceText": "craw building lower left",
-          "requirements": "swim OR clawline right x 3 OR ((progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 right AND (sharpdart x 1 OR clawline right x 2) AND faydown cloak) OR (progressive swift step 1 AND (clawline right x 1 OR sharpdart x 1) AND (drifters cloak)) OR cbt pogo off craw OR (hard pogo off craw AND faydown cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart x 1 OR clawline right x 1 OR progressive swift step 2 right)) OR prereq balloon lever IN greymoor craw nest ",
+          "requirements": "swim OR clawline right x 3 OR ((progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 right AND (sharpdart x 1 OR clawline right x 2) AND faydown cloak) OR (progressive swift step 1 AND (clawline right x 1 OR sharpdart x 1) AND (drifters cloak)) OR hard pogo off craw OR (medium pogo off craw AND faydown cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart x 1 OR clawline right x 1 OR progressive swift step 2 right)) OR prereq balloon lever IN greymoor craw nest ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 121.80255889892578,
@@ -9670,7 +9686,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T11:11:06.4428817Z",
-          "updatedUtc": "2026-11-01T19:01:13.3611691Z"
+          "updatedUtc": "2026-11-04T22:48:23.0354583Z"
         },
         {
           "id": "bbfba08f-715d-4ceb-9426-cae645c5382d",
@@ -9696,7 +9712,7 @@
           "alias": "FR",
           "friendlyName": "fall right",
           "sourceSubroomReferenceText": "right top craw nest",
-          "destinationSubroomReferenceText": "flea room",
+          "destinationSubroomReferenceText": "flea room upper",
           "requirements": "progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
@@ -9708,7 +9724,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T13:50:46.7227567Z",
-          "updatedUtc": "2026-10-25T04:00:17.980972Z"
+          "updatedUtc": "2026-11-06T20:11:51.0715683Z"
         },
         {
           "id": "ac1bf305-4ee5-4499-ab30-b83d02c56986",
@@ -9905,7 +9921,7 @@
           "alias": "G3",
           "friendlyName": "gap 3",
           "sourceSubroomReferenceText": "stupid platform i hate",
-          "destinationSubroomReferenceText": "flea room",
+          "destinationSubroomReferenceText": "flea room upper",
           "requirements": "drifters cloak OR clawline right x 2 OR progressive swift step 2 right OR (clawline right x 1 AND (cling grip right OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab right OR cling grip right OR sharpdart x 1)) OR medium scuttlebrace OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
@@ -9917,13 +9933,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T14:04:47.9248708Z",
-          "updatedUtc": "2026-11-01T19:01:00.3759902Z"
+          "updatedUtc": "2026-11-06T20:12:02.7111727Z"
         },
         {
           "id": "a81bbec7-87fa-4e40-99e6-dab7eca9a424",
           "alias": "G3",
           "friendlyName": "gap 3",
-          "sourceSubroomReferenceText": "flea room",
+          "sourceSubroomReferenceText": "flea room upper",
           "destinationSubroomReferenceText": "stupid platform i hate",
           "requirements": "((progressive swift step 1 OR drifters cloak) AND faydown cloak AND (clawline left x 1 OR sharpdart x 1) AND (ledge grab left OR cling grip left)) OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
@@ -9936,7 +9952,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T14:04:49.477068Z",
-          "updatedUtc": "2026-10-23T04:05:39.3030319Z"
+          "updatedUtc": "2026-11-06T20:12:01.4993775Z"
         },
         {
           "id": "21270f6a-fe69-45d2-9fad-c487e3fbaef1",
@@ -10019,7 +10035,7 @@
           "alias": "D1",
           "friendlyName": "drop 1",
           "sourceSubroomReferenceText": "craw building roof",
-          "destinationSubroomReferenceText": "flea room",
+          "destinationSubroomReferenceText": "flea room middle",
           "requirements": "silk soar",
           "notes": "",
           "enableAnnotation": true,
@@ -10031,13 +10047,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T18:32:36.3341023Z",
-          "updatedUtc": "2026-10-25T04:06:15.4942348Z"
+          "updatedUtc": "2026-11-06T20:11:20.0961712Z"
         },
         {
           "id": "f109a160-a418-41f5-a771-29600dbf065e",
           "alias": "D1",
           "friendlyName": "drop 1",
-          "sourceSubroomReferenceText": "flea room",
+          "sourceSubroomReferenceText": "flea room middle",
           "destinationSubroomReferenceText": "craw building roof",
           "requirements": "none (just fall)",
           "notes": "",
@@ -10050,7 +10066,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T18:32:39.5787505Z",
-          "updatedUtc": "2026-10-25T04:06:15.4942348Z"
+          "updatedUtc": "2026-11-06T20:11:20.0961712Z"
         },
         {
           "id": "eafdbc26-ec80-4579-b2ee-43b274630e92",
@@ -10171,8 +10187,8 @@
           "alias": "H",
           "friendlyName": "hatch",
           "sourceSubroomReferenceText": "lower flea room",
-          "destinationSubroomReferenceText": "flea room",
-          "requirements": "prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement)",
+          "destinationSubroomReferenceText": "flea room middle",
+          "requirements": "prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 192.12384033203125,
@@ -10183,7 +10199,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T18:32:58.9659714Z",
-          "updatedUtc": "2026-10-25T04:04:31.5275367Z"
+          "updatedUtc": "2026-11-06T20:13:40.4169979Z"
         },
         {
           "id": "5a10d2ea-cc88-4e7c-a7de-442cfaf21b36",
@@ -10208,7 +10224,7 @@
           "id": "b2885011-1a46-4111-9d2a-ef0a900ffc0a",
           "alias": "H",
           "friendlyName": "hatch",
-          "sourceSubroomReferenceText": "flea room",
+          "sourceSubroomReferenceText": "flea room middle",
           "destinationSubroomReferenceText": "lower flea room",
           "requirements": "prereq flea airlock",
           "notes": "",
@@ -10221,7 +10237,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T18:33:01.0347741Z",
-          "updatedUtc": "2026-10-25T04:04:31.5275367Z"
+          "updatedUtc": "2026-11-06T20:11:20.0961712Z"
         },
         {
           "id": "070629e0-f064-4834-adc9-55be2887e13b",
@@ -10665,38 +10681,38 @@
           "alias": "G7",
           "friendlyName": "gap 7",
           "sourceSubroomReferenceText": "middle craw nest",
-          "destinationSubroomReferenceText": "flea room",
+          "destinationSubroomReferenceText": "flea room upper",
           "requirements": "prereq balloon lever IN greymoor craw nest OR ((cling grip right OR medium scuttlebrace) AND (clawline right x 2 OR (faydown cloak AND (sharpdart x 2  OR (drifters cloak AND (flea brew OR progressive swift step 1 right OR sharpdart x 1 OR clawline right x 1)))) OR ((clawline right x 1 OR sharpdart x 1) AND progressive swift step 2 right)))",
           "notes": "im tired boss, placed scuttlebrace medium cuz i know some of this are between easy or very tight in timing but got no energy atm to test that",
           "enableAnnotation": true,
-          "sceneUnitX": 162.70956420898438,
-          "sceneUnitY": 53.6881217956543,
+          "sceneUnitX": 160.9646759033203,
+          "sceneUnitY": 59.610015869140625,
           "sortOrder": 46,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:36:56.7345586Z",
-          "updatedUtc": "2026-11-01T18:57:43.1326935Z"
+          "updatedUtc": "2026-11-06T20:12:20.6830446Z"
         },
         {
           "id": "442d9217-00e4-4ea2-8af5-c5772d2d75a6",
           "alias": "G7",
           "friendlyName": "gap 7",
-          "sourceSubroomReferenceText": "flea room",
+          "sourceSubroomReferenceText": "flea room upper",
           "destinationSubroomReferenceText": "middle craw nest",
           "requirements": "drifters cloak OR clawline left x 2 OR sharpdart x 2 OR (progressive swift step 2 left AND faydown cloak) OR (progressive swift step 1 AND (clawline left x 1 OR sharpdart x 1 OR (faydown cloak AND flea brew))) OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 162.70956420898438,
-          "sceneUnitY": 53.6881217956543,
+          "sceneUnitX": 160.9646759033203,
+          "sceneUnitY": 59.610015869140625,
           "sortOrder": 47,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:36:57.826579Z",
-          "updatedUtc": "2026-11-01T18:57:27.7899733Z"
+          "updatedUtc": "2026-11-06T20:12:20.6830446Z"
         },
         {
           "id": "ab26abe2-ba78-4354-a826-be81c30c1564",
@@ -11058,6 +11074,44 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-25T18:25:45.1403979Z",
           "updatedUtc": "2026-11-03T04:55:46.6440121Z"
+        },
+        {
+          "id": "f3171bdf-5f8b-4f76-9484-ada694407953",
+          "alias": "FS",
+          "friendlyName": "flea shaft",
+          "sourceSubroomReferenceText": "flea room middle",
+          "destinationSubroomReferenceText": "flea room upper",
+          "requirements": "cling grip right OR scuttlebrace OR silk soar OR ((faydown cloak OR easy [hunter, shaman, reaper, wanderer, beast, architect] pogo) AND cling grip left)",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 218.6416778564453,
+          "sceneUnitY": 65.59371948242188,
+          "sortOrder": 66,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-06T20:13:54.4325135Z",
+          "updatedUtc": "2026-11-07T00:32:26.6931489Z"
+        },
+        {
+          "id": "a07eb81e-b86d-4caf-836a-6239a370ed24",
+          "alias": "FS",
+          "friendlyName": "flea shaft",
+          "sourceSubroomReferenceText": "flea room upper",
+          "destinationSubroomReferenceText": "flea room middle",
+          "requirements": "nothing",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 218.6416778564453,
+          "sceneUnitY": 65.59371948242188,
+          "sortOrder": 67,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-06T20:13:56.2835837Z",
+          "updatedUtc": "2026-11-06T20:15:22.0030204Z"
         }
       ],
       "checks": [
@@ -11148,7 +11202,7 @@
           "localPositionZ": null,
           "annotationSceneUnitX": 183.25765991210938,
           "annotationSceneUnitY": 53.84823989868164,
-          "subroomReferenceText": "flea room",
+          "subroomReferenceText": "flea room middle",
           "requirements": "silk soar OR ledge grab left OR faydown cloak OR cling grip either OR easy pogo off mite",
           "notes": "",
           "locationType": "collectible",
@@ -11159,7 +11213,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T06:24:42.8123267Z",
-          "updatedUtc": "2026-10-25T05:25:41.6012669Z"
+          "updatedUtc": "2026-11-06T20:11:20.0961712Z"
         },
         {
           "id": "a0fea254-70e0-4bc5-b882-a8a4dd8a0463",
@@ -11173,7 +11227,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 204.05,
           "annotationSceneUnitY": 69.67,
-          "subroomReferenceText": "flea room",
+          "subroomReferenceText": "flea room upper",
           "requirements": "none",
           "notes": "",
           "locationType": "resource",
@@ -11184,7 +11238,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T06:24:51.5730561Z",
-          "updatedUtc": "2026-10-18T04:30:31.3324798Z"
+          "updatedUtc": "2026-11-06T20:12:37.4394579Z"
         },
         {
           "id": "c2c23eb9-7e1f-45fa-b422-daf331f4333b",
@@ -11198,7 +11252,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 205.7346,
           "annotationSceneUnitY": 67.43042,
-          "subroomReferenceText": "flea room",
+          "subroomReferenceText": "flea room upper",
           "requirements": "none",
           "notes": "",
           "locationType": "resource",
@@ -11209,7 +11263,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T06:24:53.5999874Z",
-          "updatedUtc": "2026-10-18T04:30:34.1085369Z"
+          "updatedUtc": "2026-11-06T20:12:34.9932729Z"
         },
         {
           "id": "9f6d4640-4fc3-414f-a6fe-f0f7290d8286",
@@ -11273,7 +11327,7 @@
           "localPositionZ": -3.047,
           "annotationSceneUnitX": 184.092682,
           "annotationSceneUnitY": 45.729,
-          "subroomReferenceText": "flea room",
+          "subroomReferenceText": "flea room middle",
           "requirements": "open airlock left OR open airlock right OR open airlock up",
           "notes": "",
           "locationType": "switch",
@@ -11284,7 +11338,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T22:24:49.9407372Z",
-          "updatedUtc": "2026-10-18T04:30:56.4613451Z"
+          "updatedUtc": "2026-11-06T20:11:20.0961712Z"
         },
         {
           "id": "97eb0590-437d-4ddc-ba96-d6165de41d13",
@@ -12323,7 +12377,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 198.83,
           "annotationSceneUnitY": 61.75093,
-          "subroomReferenceText": "flea room",
+          "subroomReferenceText": "flea room upper",
           "requirements": "nothing",
           "notes": "Spawn conditions: CrowCourtInSession=false\n\nspawns before baloon lever is hit",
           "locationType": "enemy",
@@ -12334,7 +12388,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-22T01:52:22.9297806Z",
-          "updatedUtc": "2026-10-25T18:27:50.7383192Z"
+          "updatedUtc": "2026-11-06T20:12:45.8565994Z"
         },
         {
           "id": "f6e3eb0d-8949-4e96-8ad1-5709d68bc0ec",
@@ -12573,7 +12627,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 197.49,
           "annotationSceneUnitY": 47.1,
-          "subroomReferenceText": "flea room",
+          "subroomReferenceText": "flea room middle",
           "requirements": "nothing",
           "notes": "",
           "locationType": "enemy",
@@ -12584,7 +12638,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-22T01:52:22.9297806Z",
-          "updatedUtc": "2026-10-25T05:37:35.7780525Z"
+          "updatedUtc": "2026-11-06T20:11:20.0961712Z"
         }
       ]
     },
@@ -13944,15 +13998,15 @@
           "friendlyName": "lower spike wheel",
           "notes": "",
           "sceneUnitX": 0,
-          "sceneUnitY": 83.84238421630859,
+          "sceneUnitY": 88.2369917602539,
           "sceneUnitWidth": 40,
-          "sceneUnitHeight": 27.44715783691406,
+          "sceneUnitHeight": 23.052550292968746,
           "enableAnnotation": true,
           "sortOrder": 2,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-06T02:21:05.3829092Z",
-          "updatedUtc": "2026-10-23T02:19:03.4611223Z"
+          "updatedUtc": "2026-11-04T22:34:07.2817637Z"
         },
         {
           "id": "0323166c-b129-465c-9038-c407f87025e4",
@@ -14081,6 +14135,22 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-12T01:57:58.0414673Z",
           "updatedUtc": "2026-10-23T02:21:02.7373041Z"
+        },
+        {
+          "id": "780487fa-4cc7-4c3d-84da-360540e1c6cb",
+          "referenceId": "tower middle entrance",
+          "friendlyName": "tower middle entrance",
+          "notes": "",
+          "sceneUnitX": 30.578142166137695,
+          "sceneUnitY": 82.69106280517578,
+          "sceneUnitWidth": 9.421857833862305,
+          "sceneUnitHeight": 4.167389038085943,
+          "enableAnnotation": true,
+          "sortOrder": 11,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T22:34:15.6208198Z",
+          "updatedUtc": "2026-11-04T22:34:19.5494191Z"
         }
       ],
       "transitions": [
@@ -14297,7 +14367,7 @@
           "sourceSubroomReferenceText": "whisp thicket entrance",
           "destinationRoomReferenceText": "wisp thicket bench",
           "destinationTransitionAliasText": "B",
-          "requirements": "faydown cloak AND (silk soar OR cling grip left)",
+          "requirements": "prereq Faydown Cloak IN FayForn AND (silk soar OR (faydown cloak AND cling grip left))",
           "notes": "",
           "sortOrder": 7,
           "isTodo": false,
@@ -14305,7 +14375,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-02T21:36:21.9642601Z",
-          "updatedUtc": "2026-10-28T01:45:06.221658Z",
+          "updatedUtc": "2026-11-04T22:03:23.3444811Z",
           "isUnsafeArrival": false
         }
       ],
@@ -14353,38 +14423,38 @@
           "alias": "PG2",
           "friendlyName": "platform gap 2",
           "sourceSubroomReferenceText": "middle section",
-          "destinationSubroomReferenceText": "lower spike wheel",
+          "destinationSubroomReferenceText": "tower middle entrance",
           "requirements": "ledge grab right OR silk soar OR cling grip right OR progressive swift step 1 right OR easy beast needle strike OR faydown cloak OR spike pogo OR clawline right x 1",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 16.853004455566406,
-          "sceneUnitY": 84.0273666381836,
+          "sceneUnitX": 13.114456176757812,
+          "sceneUnitY": 84.79444122314453,
           "sortOrder": 2,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-06T02:23:04.4812751Z",
-          "updatedUtc": "2026-10-28T02:29:47.2444901Z"
+          "updatedUtc": "2026-11-04T22:35:23.7615582Z"
         },
         {
           "id": "453b6211-a5e2-48ef-aaf4-2237cc34d41f",
           "alias": "PG2",
           "friendlyName": "platform gap 2",
-          "sourceSubroomReferenceText": "lower spike wheel",
+          "sourceSubroomReferenceText": "tower middle entrance",
           "destinationSubroomReferenceText": "middle section",
           "requirements": "none (just fall)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 16.853004455566406,
-          "sceneUnitY": 84.0273666381836,
+          "sceneUnitX": 13.114456176757812,
+          "sceneUnitY": 84.79444122314453,
           "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-06T02:23:05.52623Z",
-          "updatedUtc": "2026-10-23T02:21:09.6034857Z"
+          "updatedUtc": "2026-11-04T22:35:23.7615582Z"
         },
         {
           "id": "0320058d-4fec-4660-91f6-54442c09328c",
@@ -14620,7 +14690,7 @@
           "friendlyName": "platform gap 6",
           "sourceSubroomReferenceText": "first guarded platform",
           "destinationSubroomReferenceText": "second guarded platform",
-          "requirements": "faydown cloak OR easy scuttlebrace OR silk soar OR ((ledge grab right OR easy pogo off Silk Snipper OR cling grip right) AND (ledge grab left OR cling grip left))",
+          "requirements": "faydown cloak OR easy scuttlebrace OR silk soar OR cling grip right OR ((ledge grab right OR easy pogo off Silk Snipper ) AND (ledge grab left OR cling grip left))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 36.40742111206055,
@@ -14631,7 +14701,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-12T01:58:06.0050713Z",
-          "updatedUtc": "2026-10-25T21:08:57.9774606Z"
+          "updatedUtc": "2026-11-04T22:32:38.9936013Z"
         },
         {
           "id": "65f3aa24-cbaf-421b-bef2-ba5692868e75",
@@ -14651,6 +14721,44 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-12T01:58:13.826792Z",
           "updatedUtc": "2026-10-12T02:25:01.1645375Z"
+        },
+        {
+          "id": "67bf74c7-14b0-41f8-8541-9bcc4d298fa8",
+          "alias": "PG7",
+          "friendlyName": "platform gap 7",
+          "sourceSubroomReferenceText": "tower middle entrance",
+          "destinationSubroomReferenceText": "lower spike wheel",
+          "requirements": "proficient movement OR spike pogo OR progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR ledge grab left OR cling grip left OR easy [beast, wanderer, architect] needle strike OR easy [reaper] needle strike stall OR faydown cloak OR silk soar",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 30.519329071044922,
+          "sceneUnitY": 90.74482727050781,
+          "sortOrder": 18,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T22:34:54.218829Z",
+          "updatedUtc": "2026-11-04T22:40:40.1617293Z"
+        },
+        {
+          "id": "01e90d8b-e097-4a3b-a8d4-ca1258672625",
+          "alias": "PG7",
+          "friendlyName": "platform gap 7",
+          "sourceSubroomReferenceText": "lower spike wheel",
+          "destinationSubroomReferenceText": "tower middle entrance",
+          "requirements": "nothing",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 30.519329071044922,
+          "sceneUnitY": 90.74482727050781,
+          "sortOrder": 19,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T22:34:55.3003078Z",
+          "updatedUtc": "2026-11-04T22:35:26.5254733Z"
         }
       ],
       "checks": [
@@ -23592,7 +23700,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-04T02:45:58.9113417Z",
-          "updatedUtc": "2026-11-04T02:46:33.4821568Z"
+          "updatedUtc": "2026-11-07T02:34:42.4803862Z"
         },
         {
           "id": "cc742364-0393-416b-9eb5-7dd390befb3d",
@@ -23608,7 +23716,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-04T02:46:01.9084119Z",
-          "updatedUtc": "2026-11-04T02:46:35.8585041Z"
+          "updatedUtc": "2026-11-07T02:16:54.5331953Z"
         },
         {
           "id": "08345b5a-cfe4-442e-8762-ca9c3274625c",
@@ -23805,7 +23913,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-10-10T15:03:59.6817718Z",
+          "updatedUtc": "2026-11-07T02:37:28.94112Z",
           "isUnsafeArrival": false
         },
         {
@@ -57426,7 +57534,7 @@
           "friendlyName": "shaft 1",
           "sourceSubroomReferenceText": "lower section",
           "destinationSubroomReferenceText": "upper shaft",
-          "requirements": "silk soar OR ((cling grip left OR easy scuttlebrace OR (faydown cloak AND (cling grip right OR easy shaman pogo))) AND (((ACT 1 OR ACT 2) AND ((faydown cloak OR progressive swift step 1 left OR clawline left x 2 OR sharpdart x 2 OR easy architect needle strike OR easy beast pogo OR flea brew OR drifters cloak))) OR ((ACT 3) AND ((progressive swift step 1 left AND (faydown cloak OR ledge grab left) AND clawline left x 1) OR (faydown cloak AND (clawline left x 2 OR (sharpdart x 1 AND ledge grab left AND progressive swift step 2 right)))))))",
+          "requirements": "silk soar OR ((cling grip left OR easy scuttlebrace OR (faydown cloak AND (cling grip right OR (medium heal stall AND ledge grab right)))) AND (((ACT 1 OR ACT 2) AND ((faydown cloak OR progressive swift step 1 left OR clawline left x 2 OR sharpdart x 2 OR easy architect needle strike OR easy beast pogo OR flea brew OR drifters cloak))) OR ((ACT 3) AND ((progressive swift step 1 left AND (faydown cloak OR ledge grab left) AND clawline left x 1) OR (faydown cloak AND (clawline left x 2 OR (sharpdart x 1 AND ledge grab left AND progressive swift step 2 right)))))))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 44.46007537841797,
@@ -57437,7 +57545,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-07T02:07:24.6075778Z",
-          "updatedUtc": "2026-10-16T15:48:17.9832603Z"
+          "updatedUtc": "2026-11-04T22:45:45.2014371Z"
         },
         {
           "id": "864103ae-3361-4c57-b1ac-83b3065917ef",
@@ -64964,7 +65072,7 @@
       "friendlyName": "Cogwork Core North Main",
       "inGameId": "Cog_08",
       "contributors": "Rebel",
-      "comments": null,
+      "comments": "enemies will be done later; this is just to fix the current logic connections.",
       "sceneMinX": 0,
       "sceneMinY": 0,
       "sceneMaxX": 72,
@@ -64981,7 +65089,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-24T09:55:20.2690303Z",
-      "updatedUtc": "2026-11-01T22:35:04.1643633Z",
+      "updatedUtc": "2026-11-03T13:28:11.9780595Z",
       "subrooms": [
         {
           "id": "f646da33-0654-47e7-914e-068a1ed0df46",
@@ -64990,14 +65098,14 @@
           "notes": "",
           "sceneUnitX": 0,
           "sceneUnitY": 0,
-          "sceneUnitWidth": 16.988,
-          "sceneUnitHeight": 9.403000286102294,
+          "sceneUnitWidth": 15.990384185791015,
+          "sceneUnitHeight": 9.901808670043945,
           "enableAnnotation": true,
           "sortOrder": 0,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T09:59:14.3156562Z",
-          "updatedUtc": "2026-08-24T09:59:45.8557095Z"
+          "updatedUtc": "2026-11-03T13:26:30.0122336Z"
         },
         {
           "id": "615904fd-6586-415d-ae3f-d222f1c0f5e2",
@@ -65005,31 +65113,31 @@
           "friendlyName": "Upper Entrance",
           "notes": "",
           "sceneUnitX": 0,
-          "sceneUnitY": 149.0831298828125,
-          "sceneUnitWidth": 23.107500076293945,
-          "sceneUnitHeight": 10.9168701171875,
+          "sceneUnitY": 148.75059509277344,
+          "sceneUnitWidth": 17.288074493408203,
+          "sceneUnitHeight": 11.249404907226562,
           "enableAnnotation": true,
           "sortOrder": 1,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T09:59:18.752901Z",
-          "updatedUtc": "2026-08-24T09:59:38.2663278Z"
+          "updatedUtc": "2026-11-03T13:26:38.7865443Z"
         },
         {
           "id": "4fc50e43-7381-4a4b-b6fa-08e147f65e96",
           "referenceId": "Lever Door",
           "friendlyName": "Lever Door",
           "notes": "",
-          "sceneUnitX": 25.805810928344727,
-          "sceneUnitY": 77.75696563720703,
-          "sceneUnitWidth": 16.559999465942383,
+          "sceneUnitX": 23.107500076293945,
+          "sceneUnitY": 73.62942123413086,
+          "sceneUnitWidth": 17.110727310180664,
           "sceneUnitHeight": 6.8400115966796875,
           "enableAnnotation": true,
           "sortOrder": 2,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T09:59:24.4971252Z",
-          "updatedUtc": "2026-11-01T22:35:20.2672993Z"
+          "updatedUtc": "2026-11-03T13:26:22.8251954Z"
         }
       ],
       "transitions": [
@@ -65058,7 +65166,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T09:55:20.2690303Z",
-          "updatedUtc": "2026-11-01T22:24:46.7254207Z",
+          "updatedUtc": "2026-11-07T05:43:11.1619972Z",
           "isUnsafeArrival": false
         },
         {
@@ -65088,6 +65196,34 @@
           "createdUtc": "2026-08-24T09:55:20.2690303Z",
           "updatedUtc": "2026-09-10T04:44:08.7351888Z",
           "isUnsafeArrival": false
+        },
+        {
+          "id": "168b69a0-6e59-424e-8860-32fa212ea3a3",
+          "alias": "T2",
+          "friendlyName": "top2",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 3.7866744995117188,
+          "annotationSceneUnitY": 158.1253662109375,
+          "enableAnnotation": true,
+          "sourceSubroomReferenceText": "Upper Entrance",
+          "destinationRoomReferenceText": "cogwork core architect\u0027s melody (act 3)",
+          "destinationTransitionAliasText": "B",
+          "requirements": "Act 3",
+          "notes": "",
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": true,
+          "archivedUtc": "2026-11-03T15:03:50.1427209Z",
+          "createdUtc": "2026-11-03T15:03:02.999762Z",
+          "updatedUtc": "2026-11-03T15:03:50.1427209Z",
+          "isUnsafeArrival": false
         }
       ],
       "connections": [
@@ -65097,8 +65233,8 @@
           "friendlyName": "Bottom Entrance-Lever",
           "sourceSubroomReferenceText": "Lower Entrance",
           "destinationSubroomReferenceText": "Lever Door",
-          "requirements": "((Proficient Movement AND Spike Pogo) \nOR Medium Hunter Pogo\nOR Medium Reaper Pogo\nOR Medium Architect Pogo\nOR Medium Shaman Pogo\nOR ((Cling Grip OR Faydown Cloak OR Ledge Grab) AND (Easy Enemy Pogo)))",
-          "notes": "Can be clawline only\u0027d but since theres no specific skip tag for that i am omitting it.",
+          "requirements": "(Clawline Both AND Ponder the Orb)\nOR (Spike Pogo AND (Cling Grip Both OR Scuttlebrace) AND Clawline AND (Ledge Grab OR Faydown Cloak))\nOR (Faydown Cloak AND Proficient Movement AND Intended [Hunter, Reaper, Beast, Witch, Architect, Shaman] Pogo) \nOR (Clawline Right OR Faydown Cloak\nOR ((Easy [Shaman, Architect] Pogo OR Medium [Hunter, Reaper, Witch, Beast] Pogo)\nAND\n((Ledge Grab Right OR Cling Grip Right) AND Easy Pogo OFF [Cogwork Spine])\nAND ((Medium [Hunter, Witch] Pogo AND (Dash Both OR Faydown Cloak OR Drifter\u0027s Cloak OR Clawline Both OR Sharpdart x 3 OR Medium [Parry, Pale Nails, Voltvessels, Plasmium] Stall x 6))\nOR Medium [Reaper] Pogo\nOR Hard [Beast] Pogo\nOR Easy [Architect] Pogo\nOR Medium [Shaman] Pogo)))",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 29.587501525878906,
           "sceneUnitY": 40.00312423706055,
@@ -65108,7 +65244,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T03:38:36.2038865Z",
-          "updatedUtc": "2026-10-21T08:03:02.3301748Z"
+          "updatedUtc": "2026-11-03T15:02:12.4268388Z"
         },
         {
           "id": "f62f8e16-d5aa-4c36-be0f-134d1c9e6fc3",
@@ -65116,7 +65252,7 @@
           "friendlyName": "Bottom Entrance-Lever",
           "sourceSubroomReferenceText": "Lever Door",
           "destinationSubroomReferenceText": "Lower Entrance",
-          "requirements": "Drifter\u0027s Cloak",
+          "requirements": "Proficient Movement OR Drifter\u0027s Cloak",
           "notes": "let me add a Nothing as a medium skip pls it\u0027ll be funny",
           "enableAnnotation": true,
           "sceneUnitX": 29.587501525878906,
@@ -65127,7 +65263,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T03:54:23.0393031Z",
-          "updatedUtc": "2026-09-10T04:40:23.0529511Z"
+          "updatedUtc": "2026-11-03T04:42:36.8322679Z"
         },
         {
           "id": "be78de23-642e-42db-8bf1-c73caf3c93c9",
@@ -65172,15 +65308,15 @@
         {
           "id": "76511e7d-30d9-4b37-a72c-504523880f95",
           "friendlyName": "Cogwork Core: Flip Switch #7",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
-          "annotationSceneUnitX": 37.00397872924805,
-          "annotationSceneUnitY": 81.25572967529297,
+          "inGameId": "cog_lever",
+          "inGamePositionX": 37.53,
+          "inGamePositionY": 81.73,
+          "inGamePositionZ": -0.46,
+          "localPositionX": 37.53,
+          "localPositionY": 81.73,
+          "localPositionZ": -0.46,
+          "annotationSceneUnitX": 37.53,
+          "annotationSceneUnitY": 81.73,
           "subroomReferenceText": "Lever Door",
           "requirements": "Nothing.",
           "notes": "",
@@ -65192,7 +65328,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T03:56:03.1747756Z",
-          "updatedUtc": "2026-11-01T22:35:17.2194291Z"
+          "updatedUtc": "2026-11-07T05:41:40.4484508Z"
         },
         {
           "id": "dea8acf2-9a7f-46d8-8615-83ba1620be1e",
@@ -65218,6 +65354,281 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:54:47.7154011Z",
           "updatedUtc": "2026-10-05T00:54:47.7154011Z"
+        },
+        {
+          "id": "e0b719ff-0dd5-48e8-ad1b-449906bd2da7",
+          "friendlyName": "Cogwork Crawler 1",
+          "inGameId": "\u0022Song Automaton Goomba (8)\u0022[0]",
+          "inGamePositionX": 6.88,
+          "inGamePositionY": 66.96,
+          "inGamePositionZ": 0,
+          "localPositionX": 6.88,
+          "localPositionY": 66.96,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 6.88,
+          "annotationSceneUnitY": 66.96,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "5b523d0c-a63e-47c9-a571-ec91db4e5d83",
+          "friendlyName": "Cogwork Crawler 2",
+          "inGameId": "\u0022Song Automaton Goomba (7)\u0022[0]",
+          "inGamePositionX": 27.8799973,
+          "inGamePositionY": 120.179993,
+          "inGamePositionZ": 0,
+          "localPositionX": 27.8799973,
+          "localPositionY": 120.179993,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 27.8799973,
+          "annotationSceneUnitY": 120.179993,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "1b9feb87-2608-4dc0-ad9b-642c74403261",
+          "friendlyName": "Cogwork Crawler 3",
+          "inGameId": "\u0022Song Automaton Goomba (5)\u0022[0]",
+          "inGamePositionX": 5.56,
+          "inGamePositionY": 29.09,
+          "inGamePositionZ": 0,
+          "localPositionX": 5.56,
+          "localPositionY": 29.09,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 5.56,
+          "annotationSceneUnitY": 29.09,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "66c905ec-4179-4364-937d-bf0600fedfb0",
+          "friendlyName": "Cogwork Cleanser 1",
+          "inGameId": "\u0022Song Automaton 02\u0022[0]",
+          "inGamePositionX": 36.51,
+          "inGamePositionY": 20.34741,
+          "inGamePositionZ": 0,
+          "localPositionX": 36.51,
+          "localPositionY": 20.34741,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 36.51,
+          "annotationSceneUnitY": 20.34741,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 5,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "1addaa93-eaa2-49d4-9ede-3afb836333d9",
+          "friendlyName": "Cogwork Spine 1",
+          "inGameId": "\u0022Song Automaton Fly Spike (6)\u0022[0]",
+          "inGamePositionX": 48.95,
+          "inGamePositionY": 123.04,
+          "inGamePositionZ": 0,
+          "localPositionX": 48.95,
+          "localPositionY": 123.04,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 48.95,
+          "annotationSceneUnitY": 123.04,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 6,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "2c69b1e4-93b4-4c97-8d4a-371415c795d6",
+          "friendlyName": "Cogwork Spine 2",
+          "inGameId": "\u0022Song Automaton Fly Spike (8)\u0022[0]",
+          "inGamePositionX": 50.58,
+          "inGamePositionY": 17.1,
+          "inGamePositionZ": 0,
+          "localPositionX": 50.58,
+          "localPositionY": 17.1,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 50.58,
+          "annotationSceneUnitY": 17.1,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 7,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "db63c57b-d693-4331-bca0-d2dd8c3397d8",
+          "friendlyName": "Cogwork Defender 1",
+          "inGameId": "\u0022Song Automaton Shield\u0022[0]",
+          "inGamePositionX": 34.85,
+          "inGamePositionY": 75.7130661,
+          "inGamePositionZ": 0,
+          "localPositionX": 34.85,
+          "localPositionY": 75.7130661,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 34.85,
+          "annotationSceneUnitY": 75.7130661,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 8,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "6b97f572-146d-4491-b49e-c2577ae918a2",
+          "friendlyName": "Cogwork Spine 3",
+          "inGameId": "\u0022Song Automaton Fly Spike (9)\u0022[0]",
+          "inGamePositionX": 49.28,
+          "inGamePositionY": 82.28,
+          "inGamePositionZ": 0,
+          "localPositionX": 49.28,
+          "localPositionY": 82.28,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 49.28,
+          "annotationSceneUnitY": 82.28,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 9,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "c286ba94-b112-411a-816f-41d8a51a9a4a",
+          "friendlyName": "Cogwork Choirbug 1",
+          "inGameId": "\u0022Song Automaton 01 (1)\u0022[0]",
+          "inGamePositionX": 32.6,
+          "inGamePositionY": 20.3768139,
+          "inGamePositionZ": 0,
+          "localPositionX": 32.6,
+          "localPositionY": 20.3768139,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 32.6,
+          "annotationSceneUnitY": 20.3768139,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 10,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "89840d2c-4858-4be9-b3b6-470b4ede7a99",
+          "friendlyName": "Cogwork Cleanser 2",
+          "inGameId": "\u0022Song Automaton 02 (2)\u0022[0]",
+          "inGamePositionX": 19.14,
+          "inGamePositionY": 74.34419,
+          "inGamePositionZ": 0,
+          "localPositionX": 19.14,
+          "localPositionY": 74.34419,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 19.14,
+          "annotationSceneUnitY": 74.34419,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 11,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
+        },
+        {
+          "id": "a905c10c-cead-4244-82c9-7117a1711eb2",
+          "friendlyName": "Cogwork Spine 4",
+          "inGameId": "\u0022Song Automaton Fly Spike (1)\u0022[0]",
+          "inGamePositionX": 23.28,
+          "inGamePositionY": 22.77,
+          "inGamePositionZ": 0,
+          "localPositionX": 23.28,
+          "localPositionY": 22.77,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 23.28,
+          "annotationSceneUnitY": 22.77,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 12,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-03T13:27:29.4303576Z",
+          "updatedUtc": "2026-11-03T13:27:29.4303576Z"
         }
       ]
     },
@@ -78384,7 +78795,7 @@
           "friendlyName": "platform gap 1",
           "sourceSubroomReferenceText": "bellway zone",
           "destinationSubroomReferenceText": "upper entrance",
-          "requirements": "ledge grab left OR cling grip right OR silk soar OR faydown cloak OR easy scuttlebrace",
+          "requirements": "ledge grab left OR cling grip either OR silk soar OR faydown cloak OR easy scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 52.13831329345703,
@@ -78395,7 +78806,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T21:51:20.8967533Z",
-          "updatedUtc": "2026-10-14T01:20:24.5543183Z"
+          "updatedUtc": "2026-11-04T22:46:59.2997703Z"
         },
         {
           "id": "9fae8341-383f-4f29-a628-0d18dee97b9c",
@@ -96135,6 +96546,31 @@
           "archivedUtc": "2026-10-05T17:57:54.0829773Z",
           "createdUtc": "2026-10-05T00:53:46.1388551Z",
           "updatedUtc": "2026-10-05T17:57:54.0829773Z"
+        },
+        {
+          "id": "ce97225d-c318-40a5-a162-71208581fa08",
+          "friendlyName": "Lone Bug Thread Memory",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 70.67965698242188,
+          "annotationSceneUnitY": 5.097255706787109,
+          "subroomReferenceText": "bug resting place",
+          "requirements": "needolin",
+          "notes": "",
+          "locationType": "lore",
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T00:39:53.7369672Z",
+          "updatedUtc": "2026-11-07T00:40:12.657956Z"
         }
       ]
     },
@@ -114593,7 +115029,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-05T03:10:01.1926134Z",
-      "updatedUtc": "2026-10-11T08:42:27.627472Z",
+      "updatedUtc": "2026-11-07T06:11:49.2596471Z",
       "subrooms": [],
       "transitions": [
         {
@@ -114647,10 +115083,60 @@
           "sortOrder": 0,
           "isTodo": true,
           "isVerified": false,
+          "isArchived": true,
+          "archivedUtc": "2026-11-07T06:11:52.1058022Z",
+          "createdUtc": "2026-10-05T00:54:45.169325Z",
+          "updatedUtc": "2026-11-07T06:11:52.1058022Z"
+        },
+        {
+          "id": "aaf41d5e-c87e-4e28-8f9c-756ae20f0ced",
+          "friendlyName": "Smelt Shoveller 1",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Normal World\u0022[0]/\u0022Dock Worker\u0022[0]",
+          "inGamePositionX": 23.04,
+          "inGamePositionY": 10.7222385,
+          "inGamePositionZ": 0,
+          "localPositionX": 5.927452,
+          "localPositionY": 0.239798546,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 23.04,
+          "annotationSceneUnitY": 10.7222385,
+          "subroomReferenceText": null,
+          "requirements": "Normal World Spawn",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-10-05T00:54:45.169325Z",
-          "updatedUtc": "2026-10-05T00:54:45.169325Z"
+          "createdUtc": "2026-11-07T06:11:26.1714579Z",
+          "updatedUtc": "2026-11-07T06:11:53.4724101Z"
+        },
+        {
+          "id": "0826cc73-5977-4248-80b7-89e027d4bab5",
+          "friendlyName": "Smelt Shoveller 2",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Normal World\u0022[0]/\u0022Dock Worker (1)\u0022[0]",
+          "inGamePositionX": 23.04,
+          "inGamePositionY": 3.71789265,
+          "inGamePositionZ": 0,
+          "localPositionX": 5.927452,
+          "localPositionY": -6.76454735,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 23.04,
+          "annotationSceneUnitY": 3.71789265,
+          "subroomReferenceText": null,
+          "requirements": "Normal World Spawn",
+          "notes": "",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T06:11:26.1714579Z",
+          "updatedUtc": "2026-11-07T06:11:54.6015122Z"
         }
       ]
     },
@@ -115212,31 +115698,6 @@
           "updatedUtc": "2026-10-22T06:55:41.1393565Z"
         },
         {
-          "id": "261ad522-a8cd-48eb-9d86-141235d4d630",
-          "friendlyName": "Chapel of the Reaper Gauntlet",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
-          "annotationSceneUnitX": 27.9808292388916,
-          "annotationSceneUnitY": 60.681312561035156,
-          "subroomReferenceText": "gauntlet room",
-          "requirements": "Combat Requirements",
-          "notes": "",
-          "locationType": "gauntlet",
-          "enableAnnotation": true,
-          "sortOrder": 1,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-09-05T22:06:41.8923906Z",
-          "updatedUtc": "2026-10-24T01:27:58.885202Z"
-        },
-        {
           "id": "f4a62b77-5755-4f96-b440-15cbec7f0a2b",
           "friendlyName": "gauntlet airlock",
           "inGameId": null,
@@ -115253,13 +115714,13 @@
           "notes": "",
           "locationType": "blockade",
           "enableAnnotation": true,
-          "sortOrder": 2,
+          "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-07T22:18:05.2346475Z",
-          "updatedUtc": "2026-10-22T06:01:58.8452074Z"
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
         },
         {
           "id": "485e15d4-fb49-4839-9c71-8dac362559c5",
@@ -115278,13 +115739,63 @@
           "notes": "",
           "locationType": "blockade",
           "enableAnnotation": true,
-          "sortOrder": 3,
+          "sortOrder": 2,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-07T22:41:04.89894Z",
-          "updatedUtc": "2026-10-14T01:30:09.2221665Z"
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
+        },
+        {
+          "id": "185321f8-051b-4fb5-a425-f6edc2213547",
+          "friendlyName": "reaper thread memory",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 34.22440719604492,
+          "annotationSceneUnitY": 75.69217681884766,
+          "subroomReferenceText": "upper area",
+          "requirements": "needolin",
+          "notes": "",
+          "locationType": "lore",
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T00:38:54.6694856Z",
+          "updatedUtc": "2026-11-07T00:39:20.939127Z"
+        },
+        {
+          "id": "261ad522-a8cd-48eb-9d86-141235d4d630",
+          "friendlyName": "Chapel of the Reaper Gauntlet",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 27.9808292388916,
+          "annotationSceneUnitY": 60.681312561035156,
+          "subroomReferenceText": "gauntlet room",
+          "requirements": "Combat Requirements",
+          "notes": "",
+          "locationType": "gauntlet",
+          "enableAnnotation": true,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-09-05T22:06:41.8923906Z",
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
         },
         {
           "id": "555b2881-154c-484c-9174-6c71b282af96",
@@ -115303,13 +115814,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 4,
+          "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:43.5273243Z",
-          "updatedUtc": "2026-10-22T06:00:19.9677761Z"
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
         },
         {
           "id": "20e18506-7047-4a92-afed-6eefe413b238",
@@ -115328,13 +115839,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 5,
+          "sortOrder": 6,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:43.5273243Z",
-          "updatedUtc": "2026-10-22T06:00:22.3118234Z"
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
         },
         {
           "id": "8b8ddb04-d306-4df3-a099-c3b89dff4853",
@@ -115353,13 +115864,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 6,
+          "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:43.5273243Z",
-          "updatedUtc": "2026-10-22T06:00:23.8876662Z"
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
         },
         {
           "id": "dc8b3c81-adb7-4eed-a7d8-f879a0f8dbe0",
@@ -115378,13 +115889,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 7,
+          "sortOrder": 8,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:43.5273243Z",
-          "updatedUtc": "2026-10-22T06:00:26.028568Z"
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
         },
         {
           "id": "58abcda3-a983-4f41-9ea1-fe96bc5792ce",
@@ -115403,13 +115914,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 8,
+          "sortOrder": 9,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:43.5273243Z",
-          "updatedUtc": "2026-10-22T06:00:28.2380014Z"
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
         },
         {
           "id": "39f9bab2-61ed-4673-a31b-b433654c15cd",
@@ -115428,13 +115939,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 9,
+          "sortOrder": 10,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:43.5273243Z",
-          "updatedUtc": "2026-10-22T06:00:29.8248028Z"
+          "updatedUtc": "2026-11-07T00:38:54.6694856Z"
         }
       ]
     },
@@ -115964,6 +116475,22 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-26T19:30:13.3923459Z",
           "updatedUtc": "2026-10-26T21:55:50.7385897Z"
+        },
+        {
+          "id": "00ef378b-42ff-4d3c-930f-7c47572b63d7",
+          "referenceId": "cave diver fav spot",
+          "friendlyName": "cave diver fav spot",
+          "notes": "",
+          "sceneUnitX": 100.72602081298828,
+          "sceneUnitY": 46,
+          "sceneUnitWidth": 15.374198913574219,
+          "sceneUnitHeight": 6.670825958251953,
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T22:51:49.1627169Z",
+          "updatedUtc": "2026-11-04T22:54:43.6493898Z"
         }
       ],
       "transitions": [
@@ -115981,18 +116508,18 @@
           "annotationSceneUnitX": 110,
           "annotationSceneUnitY": 47.5,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "the fire tower",
+          "sourceSubroomReferenceText": "cave diver fav spot",
           "destinationRoomReferenceText": "wisp thicket secret path",
           "destinationTransitionAliasText": "B",
-          "requirements": "clear very hidden plank wall ",
-          "notes": "i think making another subroom is better ti add the very precise and frame perfect heal stall to avoid the bounce",
+          "requirements": "nothing",
+          "notes": "",
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T10:54:28.7877756Z",
-          "updatedUtc": "2026-10-26T22:53:22.0440187Z",
+          "updatedUtc": "2026-11-04T22:55:54.2639124Z",
           "isUnsafeArrival": false
         },
         {
@@ -116059,8 +116586,8 @@
           "friendlyName": "wisp climb",
           "sourceSubroomReferenceText": "main path",
           "destinationSubroomReferenceText": "the fire tower",
-          "requirements": "silk soar OR ((cling grip right  OR (faydown cloak AND ledge grab left)) AND (cling grip left OR (faydown cloak AND easy pogo off wisp)))",
-          "notes": "poogo off wisp must be changed to whatever will be identified as wisp lantern",
+          "requirements": "silk soar OR ((cling grip right  OR (faydown cloak AND ledge grab left)) AND (cling grip left OR (faydown cloak AND easy [hunter, wanderer, beast, architect, witch, shaman] pogo)))",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 127.2879638671875,
           "sceneUnitY": 27.22441291809082,
@@ -116070,7 +116597,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-26T21:56:30.2024855Z",
-          "updatedUtc": "2026-10-26T22:13:16.2357225Z"
+          "updatedUtc": "2026-11-06T20:01:57.7428358Z"
         },
         {
           "id": "d7f02d2c-1502-4593-8380-dbaa04c14559",
@@ -116128,6 +116655,44 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-26T22:14:11.2348179Z",
           "updatedUtc": "2026-10-26T22:54:12.8441388Z"
+        },
+        {
+          "id": "44122336-e5e0-4cf9-9d04-117c4f1af952",
+          "alias": "W",
+          "friendlyName": "witchery",
+          "sourceSubroomReferenceText": "the fire tower",
+          "destinationSubroomReferenceText": "cave diver fav spot",
+          "requirements": "break wall up",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 127.00372314453125,
+          "sceneUnitY": 51.175201416015625,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T22:55:02.7394195Z",
+          "updatedUtc": "2026-11-04T22:55:45.6800834Z"
+        },
+        {
+          "id": "7c36273f-5f2e-4810-8c48-e2b7dfb37a53",
+          "alias": "W",
+          "friendlyName": "witchery",
+          "sourceSubroomReferenceText": "cave diver fav spot",
+          "destinationSubroomReferenceText": "the fire tower",
+          "requirements": "elite ball knowledge AND hard [hunter, wanderer, reaper, beast, architect, witch] crest bind stall AND break wall right",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 127.00372314453125,
+          "sceneUnitY": 51.175201416015625,
+          "sortOrder": 5,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T22:55:07.5694523Z",
+          "updatedUtc": "2026-11-05T01:15:55.8864269Z"
         }
       ],
       "checks": [
@@ -116201,10 +116766,10 @@
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
+          "isArchived": true,
+          "archivedUtc": "2026-11-04T22:55:37.1211663Z",
           "createdUtc": "2026-10-26T05:44:04.0895741Z",
-          "updatedUtc": "2026-10-26T22:17:28.0863955Z"
+          "updatedUtc": "2026-11-04T22:55:37.1211663Z"
         },
         {
           "id": "9cbefff0-b6c9-4d1b-9e04-12833b50b622",
@@ -131234,8 +131799,8 @@
           "localPositionX": 22.107914,
           "localPositionY": 215.111,
           "localPositionZ": -0.126,
-          "annotationSceneUnitX": 23.57472801208496,
-          "annotationSceneUnitY": 212.64886474609375,
+          "annotationSceneUnitX": 22.107914,
+          "annotationSceneUnitY": 215.111,
           "subroomReferenceText": "Overtop",
           "requirements": "Break Wall Down",
           "notes": "",
@@ -131247,7 +131812,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-04T01:20:00.6715223Z",
-          "updatedUtc": "2026-10-26T08:33:02.0838137Z"
+          "updatedUtc": "2026-11-07T05:52:59.2257129Z"
         },
         {
           "id": "a68ba937-702d-4a9b-927b-f5158217f145",
@@ -131259,8 +131824,8 @@
           "localPositionX": 7.51,
           "localPositionY": 162.1,
           "localPositionZ": 0.005,
-          "annotationSceneUnitX": 5.5745649337768555,
-          "annotationSceneUnitY": 161.25013732910156,
+          "annotationSceneUnitX": 7.51,
+          "annotationSceneUnitY": 162.1,
           "subroomReferenceText": "Lever",
           "requirements": "Flip Switch Left",
           "notes": "",
@@ -131272,7 +131837,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-04T01:32:01.7388446Z",
-          "updatedUtc": "2026-10-26T08:33:02.0838137Z"
+          "updatedUtc": "2026-11-07T05:53:02.0551149Z"
         },
         {
           "id": "5e59bcfe-e29b-44a1-be2f-e5cf160bea3f",
@@ -131284,8 +131849,8 @@
           "localPositionX": 34.11,
           "localPositionY": 24.17,
           "localPositionZ": 0.005,
-          "annotationSceneUnitX": 10.774959564208984,
-          "annotationSceneUnitY": 96.670654296875,
+          "annotationSceneUnitX": 34.11,
+          "annotationSceneUnitY": 24.17,
           "subroomReferenceText": "Bottom Lever",
           "requirements": "Flip Switch Left",
           "notes": "",
@@ -131297,7 +131862,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-04T01:35:57.7597796Z",
-          "updatedUtc": "2026-10-26T08:40:13.8984295Z"
+          "updatedUtc": "2026-11-07T05:53:04.444696Z"
         },
         {
           "id": "d0926b3f-f9fb-42bc-9326-54f0ca5030cb",
@@ -131309,8 +131874,8 @@
           "localPositionX": 12.17,
           "localPositionY": 94.08,
           "localPositionZ": 0.005,
-          "annotationSceneUnitX": 31.450599670410156,
-          "annotationSceneUnitY": 28.223228454589844,
+          "annotationSceneUnitX": 12.17,
+          "annotationSceneUnitY": 94.08,
           "subroomReferenceText": "Underground",
           "requirements": "Flip Switch Right",
           "notes": "",
@@ -131322,7 +131887,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-04T01:38:19.6181963Z",
-          "updatedUtc": "2026-10-26T08:33:02.0838137Z"
+          "updatedUtc": "2026-11-07T05:53:10.4311176Z"
         },
         {
           "id": "61c1942e-36ed-4cc5-b3df-90912233fb56",
@@ -145966,15 +146531,15 @@
           "requirements": "cling grip both AND (spike pogo OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR (progressive swift step 2 left AND drifters cloak))) OR (clawline left x 1 AND progressive swift step 2 left AND (drifters cloak OR progressive swift step 2 right OR clawline right x 1)))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 46.35679626464844,
-          "sceneUnitY": 5.506319046020508,
+          "sceneUnitX": 27.556467056274414,
+          "sceneUnitY": 36.109519958496094,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T11:16:21.1148147Z",
-          "updatedUtc": "2026-10-26T23:24:04.3320863Z"
+          "updatedUtc": "2026-11-07T00:43:19.3326435Z"
         },
         {
           "id": "e47b8258-99f5-46e2-a8b1-11cc7ac4a0c6",
@@ -145985,15 +146550,15 @@
           "requirements": "spike pogo OR drifter\u0027s cloak OR (cling grip both AND ((faydown cloak AND (progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1)))) OR  (clawline right x 1 AND (clawline left x 1 OR progressive swift step 2 left))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 46.35679626464844,
-          "sceneUnitY": 5.506319046020508,
+          "sceneUnitX": 27.556467056274414,
+          "sceneUnitY": 36.109519958496094,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T11:16:37.1964657Z",
-          "updatedUtc": "2026-10-26T23:28:42.5804304Z"
+          "updatedUtc": "2026-11-07T00:43:19.3326435Z"
         },
         {
           "id": "f5bc73be-aabd-43ad-b766-e0244726cbf9",
@@ -146122,6 +146687,31 @@
           "archivedUtc": "2026-10-26T23:30:51.7738832Z",
           "createdUtc": "2026-10-26T05:44:46.2347748Z",
           "updatedUtc": "2026-10-26T23:30:51.7738832Z"
+        },
+        {
+          "id": "7445bb2d-c277-435d-b45a-1ce423b800f0",
+          "friendlyName": "worker thread memory",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 39.341312408447266,
+          "annotationSceneUnitY": 59.9102897644043,
+          "subroomReferenceText": "top",
+          "requirements": "needolin",
+          "notes": "",
+          "locationType": "lore",
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T00:43:22.4479755Z",
+          "updatedUtc": "2026-11-07T00:43:48.8506418Z"
         },
         {
           "id": "7d95de98-a407-458e-ac1e-30d195d979c5",
@@ -146498,7 +147088,7 @@
           "friendlyName": "Floor \u003C\u003E Flea",
           "sourceSubroomReferenceText": "Floor",
           "destinationSubroomReferenceText": "Flea",
-          "requirements": "(Activate Flea Breakable Floor AND (Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Cling Grip OR Scuttlebrace))))",
+          "requirements": "(Activate Flea Breakable Floor AND (Silk Soar OR (Faydown Cloak AND (Ledge Grab left OR Cling Grip left OR easy Scuttlebrace OR easy shaman pogo)))) OR (faydown cloak AND (cling grip right OR easy scuttlebrace OR (easy shaman pogo AND ledge grab right))) OR silk soar",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 57.372005462646484,
@@ -146509,7 +147099,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-27T04:02:18.5658055Z",
-          "updatedUtc": "2026-10-28T20:07:07.2257312Z"
+          "updatedUtc": "2026-11-07T06:18:44.0460559Z"
         },
         {
           "id": "5b583831-402d-42ba-9fd9-c2ab4c37c0b7",
@@ -146536,7 +147126,7 @@
           "friendlyName": "Floor \u003C\u003E Flea",
           "sourceSubroomReferenceText": "Flea",
           "destinationSubroomReferenceText": "Floor",
-          "requirements": "Activate Flea Breakable Floor AND (silk soar OR (faydown AND (cling grip either OR ledge grab right OR easy scuttlebrace OR easy shaman pogo)))",
+          "requirements": "Activate Flea Breakable Floor ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 57.372005462646484,
@@ -146547,7 +147137,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-27T04:03:10.3500536Z",
-          "updatedUtc": "2026-10-28T20:09:36.2319872Z"
+          "updatedUtc": "2026-11-07T06:16:42.0990475Z"
         }
       ],
       "checks": [
@@ -161570,16 +162160,16 @@
           "referenceId": "middle platform",
           "friendlyName": "middle platform",
           "notes": "",
-          "sceneUnitX": 35.30451965332031,
+          "sceneUnitX": 32.99821472167969,
           "sceneUnitY": 21.796850204467773,
-          "sceneUnitWidth": 23.63964080810547,
+          "sceneUnitWidth": 25.945945739746094,
           "sceneUnitHeight": 9.225225448608398,
           "enableAnnotation": true,
           "sortOrder": 2,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-27T00:35:27.2751484Z",
-          "updatedUtc": "2026-10-27T00:35:59.7605783Z"
+          "updatedUtc": "2026-11-04T22:51:10.022297Z"
         },
         {
           "id": "aa72c595-6b8f-44de-b0f3-8cb58b972245",
@@ -170441,19 +171031,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 43,
       "sceneMaxY": 25,
-      "sceneImagePixelsPerUnitX": 8.353315280955528,
-      "sceneImagePixelsPerUnitY": 8.895080224876976,
-      "sceneImagePixelOffsetX": 11636.165837739249,
-      "sceneImagePixelOffsetY": 3569.88250174321,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 11531.956761463367,
+      "sceneImagePixelOffsetY": 3576.1601193049373,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "d562563abf42a916658897986da578c12174fb69dfc6e29401008c3f92629901",
+      "sceneImageCropHash": "afa0e55cefbea6fc4dad4eac595ffe0748646e877f427ff79cd1d6a9a41a5daa",
       "sortOrder": 7,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-05T03:11:27.6713924Z",
-      "updatedUtc": "2026-09-28T23:15:33.8273393Z",
+      "updatedUtc": "2026-11-06T20:26:46.3351068Z",
       "subrooms": [],
       "transitions": [
         {
@@ -170501,7 +171091,7 @@
           "sourceSubroomReferenceText": null,
           "destinationRoomReferenceText": "far fields entrance",
           "destinationTransitionAliasText": "L",
-          "requirements": "( bellshrinesanity off AND activate bellshrine switch ) \nOR ( bellshrinesanity on AND have bell deep docks ) ",
+          "requirements": "( bellshrinesanity off AND activate Deep Dock bellshrine switch) \nOR ( bellshrinesanity on AND have bell deep docks ) ",
           "notes": "must keep in sync with other side",
           "sortOrder": 1,
           "isTodo": false,
@@ -170509,7 +171099,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-05T03:11:27.6713924Z",
-          "updatedUtc": "2026-10-03T20:19:25.7119049Z",
+          "updatedUtc": "2026-11-06T20:27:52.5337522Z",
           "isUnsafeArrival": false
         }
       ],
@@ -170517,7 +171107,7 @@
       "checks": [
         {
           "id": "5f791110-649f-4e71-a4dd-da083b2fd4ac",
-          "friendlyName": "bellshrine switch",
+          "friendlyName": "Deep Dock bellshrine switch",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -170525,8 +171115,8 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": null,
-          "annotationSceneUnitY": null,
+          "annotationSceneUnitX": 22.10543441772461,
+          "annotationSceneUnitY": 5.094629764556885,
           "subroomReferenceText": "",
           "requirements": "none",
           "notes": "",
@@ -170538,11 +171128,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:05:40.5132811Z",
-          "updatedUtc": "2026-09-16T01:28:18.2821162Z"
+          "updatedUtc": "2026-11-06T20:27:33.5197183Z"
         },
         {
           "id": "380c7758-c74d-4a45-b59f-5c05e527b92c",
-          "friendlyName": "bench",
+          "friendlyName": "bellshrine bench",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -170550,10 +171140,10 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": null,
-          "annotationSceneUnitY": null,
+          "annotationSceneUnitX": 21.930198669433594,
+          "annotationSceneUnitY": 3.1670587062835693,
           "subroomReferenceText": null,
-          "requirements": "activate bellshrine switch",
+          "requirements": "activate Deep Dock bellshrine switch",
           "notes": "",
           "locationType": "bench",
           "enableAnnotation": true,
@@ -170563,7 +171153,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:06:30.8292799Z",
-          "updatedUtc": "2026-09-16T01:28:19.261524Z"
+          "updatedUtc": "2026-11-06T20:27:38.5574724Z"
         },
         {
           "id": "2b28fe64-5f5a-46da-89fc-69c57402ee33",
@@ -170575,10 +171165,10 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": null,
-          "annotationSceneUnitY": null,
+          "annotationSceneUnitX": 21.84258270263672,
+          "annotationSceneUnitY": 11.140191078186035,
           "subroomReferenceText": "",
-          "requirements": "activate bellshrine switch",
+          "requirements": "activate Deep Dock bellshrine switch",
           "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -170588,7 +171178,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-16T01:31:28.7644352Z",
-          "updatedUtc": "2026-09-16T01:31:35.2037406Z"
+          "updatedUtc": "2026-11-06T20:27:39.6969297Z"
         },
         {
           "id": "b2732860-8a8e-4014-a94c-e45752675f28",
@@ -170635,10 +171225,10 @@
           "sortOrder": 3,
           "isTodo": true,
           "isVerified": false,
-          "isArchived": false,
-          "archivedUtc": null,
+          "isArchived": true,
+          "archivedUtc": "2026-11-06T20:26:56.0285776Z",
           "createdUtc": "2026-10-05T00:54:12.0014401Z",
-          "updatedUtc": "2026-10-05T00:54:12.0014401Z"
+          "updatedUtc": "2026-11-06T20:26:56.0285776Z"
         }
       ]
     },
@@ -185714,7 +186304,7 @@
       "referenceId": "is this still deep docks east",
       "friendlyName": "Is this still Deep Docks? East",
       "inGameId": "Bone_East_04",
-      "contributors": "herounit and Rebel",
+      "contributors": "herounit,Rebel, Gallos",
       "comments": null,
       "sceneMinX": 39,
       "sceneMinY": 39,
@@ -185732,7 +186322,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-05T03:11:08.4131985Z",
-      "updatedUtc": "2026-10-24T00:17:14.1980648Z",
+      "updatedUtc": "2026-11-06T20:22:25.3842413Z",
       "subrooms": [
         {
           "id": "aa26bb20-1689-495e-96d7-a4ca8648e3eb",
@@ -185742,29 +186332,29 @@
           "sceneUnitX": 39,
           "sceneUnitY": 39,
           "sceneUnitWidth": 44,
-          "sceneUnitHeight": 14.889574745178223,
+          "sceneUnitHeight": 19.147993782043457,
           "enableAnnotation": true,
           "sortOrder": 0,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-03T23:47:18.3402696Z",
-          "updatedUtc": "2026-10-24T00:17:42.4410381Z"
+          "updatedUtc": "2026-11-06T20:09:25.767202Z"
         },
         {
           "id": "5c5f7227-c647-442c-978c-41c50ba262e0",
           "referenceId": "Upper",
           "friendlyName": "Upper",
           "notes": "",
-          "sceneUnitX": 45.42701159667969,
-          "sceneUnitY": 59.60033209228516,
-          "sceneUnitWidth": 37.57298840332031,
-          "sceneUnitHeight": 19.036022521972654,
+          "sceneUnitX": 39,
+          "sceneUnitY": 58.14799378204346,
+          "sceneUnitWidth": 44,
+          "sceneUnitHeight": 22.478824089050292,
           "enableAnnotation": true,
           "sortOrder": 1,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-03T23:47:33.774942Z",
-          "updatedUtc": "2026-10-24T00:33:19.4707666Z"
+          "updatedUtc": "2026-11-06T20:09:27.2864491Z"
         },
         {
           "id": "77bac022-0e12-47cf-981c-ea245be6cb44",
@@ -185772,15 +186362,31 @@
           "friendlyName": "Upper Left",
           "notes": "",
           "sceneUnitX": 39,
-          "sceneUnitY": 80.62681787109375,
-          "sceneUnitWidth": 29.081243621826175,
-          "sceneUnitHeight": 19.37318212890625,
+          "sceneUnitY": 91.02974908447266,
+          "sceneUnitWidth": 44,
+          "sceneUnitHeight": 8.970250915527345,
           "enableAnnotation": true,
           "sortOrder": 2,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-03T23:48:00.6945177Z",
-          "updatedUtc": "2026-10-24T00:33:09.6133884Z"
+          "updatedUtc": "2026-11-06T20:09:55.4553219Z"
+        },
+        {
+          "id": "92b9ee89-a10f-47b3-be45-cd03ccb9c1d6",
+          "referenceId": "upper right",
+          "friendlyName": "upper right",
+          "notes": "",
+          "sceneUnitX": 75.24050903320312,
+          "sceneUnitY": 78.63635461425781,
+          "sceneUnitWidth": 7.759490966796875,
+          "sceneUnitHeight": 9.632619689941407,
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-06T19:59:12.2019011Z",
+          "updatedUtc": "2026-11-06T19:59:16.3174103Z"
         }
       ],
       "transitions": [
@@ -185826,7 +186432,7 @@
           "annotationSceneUnitX": 83.5,
           "annotationSceneUnitY": 84,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "Upper",
+          "sourceSubroomReferenceText": "upper right",
           "destinationRoomReferenceText": "deep docks march side room",
           "destinationTransitionAliasText": "L",
           "requirements": "Nothing.",
@@ -185837,7 +186443,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-05T03:11:08.4131985Z",
-          "updatedUtc": "2026-10-24T00:33:01.3083568Z",
+          "updatedUtc": "2026-11-06T20:00:16.2059337Z",
           "isUnsafeArrival": false
         },
         {
@@ -185885,15 +186491,15 @@
           "sourceSubroomReferenceText": "Ground",
           "destinationRoomReferenceText": "is this still deep docks west",
           "destinationTransitionAliasText": "R",
-          "requirements": "Activate Deep Docks Is This Still Deep Docks West Blast Rock IN Is This Still Deep Docks West OR Activate Is this still Deep Docks East Blast Rock",
-          "notes": "both blast rocks are connected and trigger the same shortcut.",
+          "requirements": "Activate Deep Docks Is This Still Deep Docks West Blast Rock IN Is This Still Deep Docks West",
+          "notes": "",
           "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-05T03:11:08.4131985Z",
-          "updatedUtc": "2026-10-24T00:25:29.190919Z",
+          "updatedUtc": "2026-11-06T20:16:31.7854401Z",
           "isUnsafeArrival": false
         },
         {
@@ -185932,18 +186538,18 @@
           "friendlyName": "Ground to Right",
           "sourceSubroomReferenceText": "Ground",
           "destinationSubroomReferenceText": "Upper",
-          "requirements": "(Faydown Cloak AND Ledge Grab) OR Medium Pogo OFF {Skarrwing} OR Cling Grip Either OR Silk Soar ",
+          "requirements": "(Faydown Cloak AND Ledge Grab) OR Medium Pogo OFF {Skarrwing} OR Cling Grip Either OR Silk Soar OR (spike pogo AND (medium scuttlebrace OR easy [hunter,reaper,beast,architect,shaman] pogo OR medium witch pogo OR (advanced knowledge AND easy wanderer pogo AND easy heal stall)))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 67.56077575683594,
-          "sceneUnitY": 57.11811828613281,
+          "sceneUnitX": 46.769412994384766,
+          "sceneUnitY": 58.7943000793457,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-03T23:51:23.1110063Z",
-          "updatedUtc": "2026-10-24T00:33:01.3083568Z"
+          "updatedUtc": "2026-11-06T20:09:32.9465446Z"
         },
         {
           "id": "5dd6c278-1edf-41ea-88f3-95e9ac3c221a",
@@ -185954,15 +186560,15 @@
           "requirements": "Nothing. (Fall)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 67.56077575683594,
-          "sceneUnitY": 57.11811828613281,
+          "sceneUnitX": 46.769412994384766,
+          "sceneUnitY": 58.7943000793457,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-26T23:45:42.346503Z",
-          "updatedUtc": "2026-10-24T00:33:01.3083568Z"
+          "updatedUtc": "2026-11-06T20:09:32.9465446Z"
         },
         {
           "id": "50c48784-df0d-477c-bd0b-47d01819a27a",
@@ -185970,18 +186576,18 @@
           "friendlyName": "Ground to Left",
           "sourceSubroomReferenceText": "Upper",
           "destinationSubroomReferenceText": "Top",
-          "requirements": "Faydown Cloak OR Silk Soar OR \n((Cling Grip Left OR Ledge Grab Left) AND \n(Easy Pogo OFF [skarrwing] OR Cling Grip Right OR Ledge Grab Right)) ",
-          "notes": "dash is included in the scuttlebrace use requirement so i dont think its necessary but i will anyway,",
+          "requirements": "Faydown Cloak OR Silk Soar OR \n((Cling Grip Left OR Ledge Grab Left) AND \n(Easy Pogo OFF [skarrwing] OR Cling Grip Right OR Ledge Grab Right)) OR ((easy beast pogo OR (advanced knowledge AND easy [rune rage, flea brew,heal] stall)) AND (cling grip right OR ledge grab right OR easy pogo off Skarrwing)) OR ((easy pogo off [skarrlid, skarrwing] OR easy shaman pogo OR ledge grab left OR cling grip left) AND easy scuttlebrace)",
+          "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 55.16081237792969,
-          "sceneUnitY": 79.7415771484375,
+          "sceneUnitX": 49.116092681884766,
+          "sceneUnitY": 86.3267822265625,
           "sortOrder": 2,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-03T23:54:26.7352843Z",
-          "updatedUtc": "2026-10-24T00:37:14.470781Z"
+          "updatedUtc": "2026-11-06T20:13:44.1614253Z"
         },
         {
           "id": "e93bdb94-acfa-4f15-badc-a43aa93fea69",
@@ -185992,15 +186598,72 @@
           "requirements": "Nothing. (Fall)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 55.16081237792969,
-          "sceneUnitY": 79.7415771484375,
+          "sceneUnitX": 49.116092681884766,
+          "sceneUnitY": 86.3267822265625,
           "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-26T23:45:35.1848005Z",
-          "updatedUtc": "2026-10-24T00:34:05.0243856Z"
+          "updatedUtc": "2026-11-06T20:10:01.7974487Z"
+        },
+        {
+          "id": "85ed8415-95ef-407e-8d70-94692176cd96",
+          "alias": "UtR",
+          "friendlyName": "upper to right",
+          "sourceSubroomReferenceText": "upper ",
+          "destinationSubroomReferenceText": "upper right",
+          "requirements": "((faydown OR (easy shaman pogo AND easy pogo off Skarrlid)) AND ledge grab right) OR cling grip either OR easy scuttlebrace OR (easy [reaper,shaman] pogo AND easy pogo off Skarrlid AND faydown)",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 78.68911743164062,
+          "sceneUnitY": 79.21640014648438,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-06T19:59:33.7660501Z",
+          "updatedUtc": "2026-11-06T20:07:24.1689309Z"
+        },
+        {
+          "id": "7c46337e-65a4-48e0-a53e-4497169e6a52",
+          "alias": "UtR",
+          "friendlyName": "upper to right",
+          "sourceSubroomReferenceText": "upper right",
+          "destinationSubroomReferenceText": "upper ",
+          "requirements": "nothing",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 78.68911743164062,
+          "sceneUnitY": 79.21640014648438,
+          "sortOrder": 5,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-06T19:59:47.3999727Z",
+          "updatedUtc": "2026-11-06T20:00:08.0877797Z"
+        },
+        {
+          "id": "b52af23f-de83-43b5-8078-05ae76135b89",
+          "alias": "",
+          "friendlyName": "",
+          "sourceSubroomReferenceText": "",
+          "destinationSubroomReferenceText": "",
+          "requirements": "",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 6,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": true,
+          "archivedUtc": "2026-11-06T20:00:06.5687159Z",
+          "createdUtc": "2026-11-06T20:00:03.7153712Z",
+          "updatedUtc": "2026-11-06T20:00:06.5687159Z"
         }
       ],
       "checks": [
@@ -186024,10 +186687,10 @@
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
+          "isArchived": true,
+          "archivedUtc": "2026-11-06T19:55:19.279028Z",
           "createdUtc": "2026-10-24T00:20:48.8378754Z",
-          "updatedUtc": "2026-10-24T00:26:21.6869099Z"
+          "updatedUtc": "2026-11-06T19:55:19.279028Z"
         },
         {
           "id": "6c95ccd6-282e-47cd-886e-43186f9f5ee3",
@@ -192922,15 +193585,15 @@
           "sourceSubroomReferenceText": "ground",
           "destinationRoomReferenceText": "is this still deep docks east",
           "destinationTransitionAliasText": "L",
-          "requirements": "Activate Deep Docks Is This Still Deep Docks West Blast Rock OR Activate Is this still Deep Docks East Blast Rock IN Is this still Deep Docks East",
-          "notes": "both blast rocks are connected and trigger the same shortcut.",
+          "requirements": "Activate Deep Docks Is This Still Deep Docks West Blast Rock",
+          "notes": "",
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-05T03:09:53.4645445Z",
-          "updatedUtc": "2026-10-24T00:24:45.3865325Z",
+          "updatedUtc": "2026-11-07T06:22:54.3525776Z",
           "isUnsafeArrival": false
         },
         {
@@ -207988,13 +208651,13 @@
           "notes": "",
           "locationType": "event",
           "enableAnnotation": true,
-          "sortOrder": 4,
+          "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-03T16:40:28.0509099Z",
-          "updatedUtc": "2026-10-16T17:12:58.5718406Z"
+          "updatedUtc": "2026-11-07T00:35:04.9031523Z"
         },
         {
           "id": "85c8a36e-3e00-40a0-9b80-1d2f2596859c",
@@ -208013,13 +208676,13 @@
           "notes": "",
           "locationType": "switch",
           "enableAnnotation": true,
-          "sortOrder": 5,
+          "sortOrder": 4,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T20:27:30.5434845Z",
-          "updatedUtc": "2026-09-12T02:37:23.1492461Z"
+          "updatedUtc": "2026-11-07T00:35:04.9031523Z"
         },
         {
           "id": "4be4d6cc-c718-4000-a3dd-44b3ec4ff1d7",
@@ -208038,13 +208701,13 @@
           "notes": "can be accepted here or at the wish board",
           "locationType": "event",
           "enableAnnotation": true,
-          "sortOrder": 6,
+          "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T04:36:49.4259331Z",
-          "updatedUtc": "2026-09-25T04:37:29.0391699Z"
+          "updatedUtc": "2026-11-07T00:35:04.9031523Z"
         },
         {
           "id": "4f66a42c-e93a-4e09-94b0-7472e1b77d14",
@@ -208063,13 +208726,13 @@
           "notes": "",
           "locationType": "event",
           "enableAnnotation": true,
-          "sortOrder": 7,
+          "sortOrder": 6,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T04:37:38.2971036Z",
-          "updatedUtc": "2026-10-03T22:36:26.1492747Z"
+          "updatedUtc": "2026-11-07T00:35:04.9031523Z"
         },
         {
           "id": "a971b12f-e117-4992-ac74-355e22e8540c",
@@ -208088,13 +208751,63 @@
           "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
-          "sortOrder": 8,
+          "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T04:39:48.0318511Z",
-          "updatedUtc": "2026-09-25T04:40:17.3439004Z"
+          "updatedUtc": "2026-11-07T00:35:04.9031523Z"
+        },
+        {
+          "id": "c55acf7c-c450-4c82-92b3-9f93dc741ce5",
+          "friendlyName": "Creige Thread memory",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 30.10276985168457,
+          "annotationSceneUnitY": 8.783573150634766,
+          "subroomReferenceText": "",
+          "requirements": "normal world spawn AND needolin",
+          "notes": "",
+          "locationType": "lore",
+          "enableAnnotation": true,
+          "sortOrder": 8,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T00:35:04.9031523Z",
+          "updatedUtc": "2026-11-07T00:39:47.6620732Z"
+        },
+        {
+          "id": "fb6d0f19-a023-43db-9097-21040d21af91",
+          "friendlyName": "sad Creige Thread memory",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 32.84727478027344,
+          "annotationSceneUnitY": 5.877626895904541,
+          "subroomReferenceText": "",
+          "requirements": "black thread world spawn AND needolin",
+          "notes": "",
+          "locationType": "lore",
+          "enableAnnotation": true,
+          "sortOrder": 9,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T00:35:06.6761154Z",
+          "updatedUtc": "2026-11-07T00:39:43.9656269Z"
         }
       ]
     },
@@ -213601,7 +214314,7 @@
           "sourceSubroomReferenceText": "Bottom",
           "destinationRoomReferenceText": "choral chambers flea shaft",
           "destinationTransitionAliasText": "S3R",
-          "requirements": "activate Choral Chambers Flea Shaft - Lever 1 IN choral chambers flea shaft",
+          "requirements": "activate Choral Chambers Flea Shaft - Lever 2 IN choral chambers flea shaft",
           "notes": "one way entrance, opens from the other side",
           "sortOrder": 0,
           "isTodo": false,
@@ -213609,7 +214322,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T21:45:15.1678918Z",
-          "updatedUtc": "2026-11-04T13:47:17.2699637Z",
+          "updatedUtc": "2026-11-07T06:11:43.4608219Z",
           "isUnsafeArrival": false
         },
         {
@@ -213685,7 +214398,7 @@
           "sourceSubroomReferenceText": "Top",
           "destinationRoomReferenceText": "high halls vault",
           "destinationTransitionAliasText": "B",
-          "requirements": "Activate High Halls Vault - Floor lever IN High Halls Vault ",
+          "requirements": "Activate High Halls Vault - Floor Lever IN High Halls Vault ",
           "notes": "one way entrance, opens from the other side",
           "sortOrder": 3,
           "isTodo": false,
@@ -213693,7 +214406,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T21:45:15.1678918Z",
-          "updatedUtc": "2026-11-04T13:38:13.8683669Z",
+          "updatedUtc": "2026-11-07T06:12:28.5605217Z",
           "isUnsafeArrival": false
         }
       ],
@@ -214121,38 +214834,38 @@
       "contributors": "herounit and Rebel",
       "comments": null,
       "sceneMinX": 0,
-      "sceneMinY": 0,
+      "sceneMinY": 2,
       "sceneMaxX": 140,
       "sceneMaxY": 69,
-      "sceneImagePixelsPerUnitX": 6.660763803832434,
-      "sceneImagePixelsPerUnitY": 6.720260408950137,
-      "sceneImagePixelOffsetX": 10560.053089727444,
-      "sceneImagePixelOffsetY": 3181.4292096807585,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 10577.292480903581,
+      "sceneImagePixelOffsetY": 3181.7414950733437,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "ac3b02600617ce788437f2ddd879720ff0be53f4b1e219fa8159a225ad8757db",
+      "sceneImageCropHash": "6b329c851c3314cf0a76fbcea3bfb8ac22824e5f5c8da18b9510b82d0061a2f1",
       "sortOrder": 13,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-05T03:11:31.6994771Z",
-      "updatedUtc": "2026-09-28T23:15:46.3565823Z",
+      "updatedUtc": "2026-11-06T20:31:57.0858921Z",
       "subrooms": [
         {
           "id": "5d9d7304-c5c9-419c-bae4-59c53664c6ba",
           "referenceId": "left entrance",
           "friendlyName": "left entrance",
           "notes": null,
-          "sceneUnitX": 4.916,
-          "sceneUnitY": 5.071,
-          "sceneUnitWidth": 51.021,
-          "sceneUnitHeight": 53.649,
+          "sceneUnitX": 0,
+          "sceneUnitY": 2,
+          "sceneUnitWidth": 46.73509188842773,
+          "sceneUnitHeight": 56.72,
           "enableAnnotation": true,
           "sortOrder": 0,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:22:35.1338435Z",
-          "updatedUtc": "2026-09-28T22:53:04.3555303Z"
+          "updatedUtc": "2026-11-06T20:45:21.302383Z"
         },
         {
           "id": "2f84dbd5-4e48-4a1a-b0c1-728340c5239b",
@@ -214160,15 +214873,15 @@
           "friendlyName": "right area",
           "notes": null,
           "sceneUnitX": 86.566,
-          "sceneUnitY": 5.071,
-          "sceneUnitWidth": 24.62286798095704,
-          "sceneUnitHeight": 11.810999999999998,
+          "sceneUnitY": 2,
+          "sceneUnitWidth": 26.20167199707032,
+          "sceneUnitHeight": 14.881999999999998,
           "enableAnnotation": true,
           "sortOrder": 1,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:22:44.001285Z",
-          "updatedUtc": "2026-08-21T02:09:28.684631Z"
+          "updatedUtc": "2026-11-06T20:32:13.6277689Z"
         },
         {
           "id": "e9612b0d-5262-4181-8000-07dab285b991",
@@ -214176,31 +214889,31 @@
           "friendlyName": "gauntlet",
           "notes": null,
           "sceneUnitX": 55.937,
-          "sceneUnitY": 5.071,
+          "sceneUnitY": 2,
           "sceneUnitWidth": 30.629000000000005,
-          "sceneUnitHeight": 15.614465759277342,
+          "sceneUnitHeight": 22.046162605285645,
           "enableAnnotation": true,
           "sortOrder": 2,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:29:48.0644323Z",
-          "updatedUtc": "2026-08-21T02:09:55.527725Z"
+          "updatedUtc": "2026-11-06T20:32:10.6837084Z"
         },
         {
           "id": "6f14ebc0-a430-447c-a5f5-be8da8e298d1",
           "referenceId": "forge daughter",
           "friendlyName": "forge daughter",
           "notes": null,
-          "sceneUnitX": 55.937,
+          "sceneUnitX": 46.73509188842773,
           "sceneUnitY": 29.894,
-          "sceneUnitWidth": 81.47600000000001,
+          "sceneUnitWidth": 90.67790811157228,
           "sceneUnitHeight": 15.41451379394531,
           "enableAnnotation": true,
           "sortOrder": 3,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:30:05.2287169Z",
-          "updatedUtc": "2026-08-21T02:09:52.4147346Z"
+          "updatedUtc": "2026-11-06T20:45:25.5335492Z"
         },
         {
           "id": "e301deaa-2b45-43c1-a566-b73726c9ee22",
@@ -214407,15 +215120,15 @@
           "requirements": "activate gate switch forge",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 58.44586944580078,
-          "sceneUnitY": 36.2900390625,
+          "sceneUnitX": 47.05549240112305,
+          "sceneUnitY": 35.58488082885742,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:30:19.5240786Z",
-          "updatedUtc": "2026-09-27T05:04:45.6412257Z"
+          "updatedUtc": "2026-11-06T20:33:51.5955027Z"
         },
         {
           "id": "97a4eb8a-f47a-4b60-a88f-698ed67a835b",
@@ -214426,15 +215139,15 @@
           "requirements": "activate gate switch forge",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 58.44586944580078,
-          "sceneUnitY": 36.2900390625,
+          "sceneUnitX": 47.05549240112305,
+          "sceneUnitY": 35.58488082885742,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:30:38.4159021Z",
-          "updatedUtc": "2026-09-27T05:04:45.6412257Z"
+          "updatedUtc": "2026-11-06T20:33:51.5955027Z"
         },
         {
           "id": "469eb017-f8d5-4bd2-84f9-f7d902814675",
@@ -214445,15 +215158,15 @@
           "requirements": "none",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 55.53683090209961,
-          "sceneUnitY": 10.47617244720459,
+          "sceneUnitX": 51.37265396118164,
+          "sceneUnitY": 9.06282901763916,
           "sortOrder": 2,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:33:49.4703429Z",
-          "updatedUtc": "2026-09-27T04:47:07.714061Z"
+          "updatedUtc": "2026-11-06T20:45:30.7266176Z"
         },
         {
           "id": "365771b9-2608-404a-a3c7-afc74bfcfa82",
@@ -214464,15 +215177,15 @@
           "requirements": "clear Forge Battle",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 55.53683090209961,
-          "sceneUnitY": 10.47617244720459,
+          "sceneUnitX": 51.37265396118164,
+          "sceneUnitY": 9.06282901763916,
           "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:34:02.0972384Z",
-          "updatedUtc": "2026-09-27T05:00:56.4653285Z"
+          "updatedUtc": "2026-11-06T20:45:30.7266176Z"
         },
         {
           "id": "fc48272c-78c8-4f3b-b7fe-979f93cfd4cd",
@@ -214518,18 +215231,18 @@
           "friendlyName": "gauntlet upper",
           "sourceSubroomReferenceText": "forge daughter",
           "destinationSubroomReferenceText": "gauntlet",
-          "requirements": "open airlock down",
+          "requirements": "open airlock either",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 72.4850845336914,
-          "sceneUnitY": 24.815637588500977,
+          "sceneUnitX": 73.97735595703125,
+          "sceneUnitY": 26.866535186767578,
           "sortOrder": 6,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:34:23.725648Z",
-          "updatedUtc": "2026-09-27T05:04:50.5048553Z"
+          "updatedUtc": "2026-11-06T20:41:42.3462513Z"
         },
         {
           "id": "fd725cb4-7b11-44f5-9fe9-eeda59e82ce3",
@@ -214537,18 +215250,18 @@
           "friendlyName": "gauntlet upper",
           "sourceSubroomReferenceText": "gauntlet",
           "destinationSubroomReferenceText": "forge daughter",
-          "requirements": "Clear Forge Battle AND ( open airlock up AND ( ledge grab OR faydown cloak OR scuttlebrace OR Silk Soar OR easy shaman crest pogo ) )",
+          "requirements": "Clear Forge Battle AND ( open airlock up AND (ledge grab either OR faydown OR cling grip either OR easy shaman pogo OR easy scuttlebrace OR medium heal stall OR easy beast needle strike OR easy [flea brew, plasmium, voltvessels] stall ))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 72.4850845336914,
-          "sceneUnitY": 24.815637588500977,
+          "sceneUnitX": 73.97735595703125,
+          "sceneUnitY": 26.866535186767578,
           "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:34:44.325855Z",
-          "updatedUtc": "2026-09-27T05:09:44.3262099Z"
+          "updatedUtc": "2026-11-06T20:44:42.5469032Z"
         },
         {
           "id": "6d073585-367f-479d-9643-975269c559a0",
@@ -214556,7 +215269,7 @@
           "friendlyName": "running jump",
           "sourceSubroomReferenceText": "right area",
           "destinationSubroomReferenceText": "right exit platform",
-          "requirements": "Sprint OR Faydown Cloak OR Clawline OR Sharpdart OR Scuttlebrace OR Drifter\u0027s Cloak OR Easy Beast Charge OR Easy Beast Pogo OR (((Dash OR Medium Voltvessels Stall OR Easy Architect Charge OR (Flea Brew AND Easy Flea Brew Stall)) AND (Ledge Grab OR Cling Grip))) OR (Flea Brew AND Medium Flea Brew Stall AND Medium Heal Stall) OR (Easy Architect Pogo AND Cling Grip) OR (Medium Hunter Pogo AND Cling Grip)",
+          "requirements": "Sprint OR Faydown Cloak OR Clawline right OR Sharpdart OR easy Scuttlebrace OR Drifter\u0027s Cloak OR Easy Beast Pogo OR (((Dash right OR (Medium Hunter Pogo AND Cling Grip left) OR Medium [Voltvessels, plasmium] Stall OR Easy Architect Charge OR (Flea Brew AND Easy Flea Brew Stall)) AND (Ledge Grab right OR Cling Grip right))) OR (Flea Brew AND Medium Flea Brew Stall AND Medium Heal Stall) OR (Easy Architect Pogo AND Cling Grip left) OR  (dash right AND (proficient movement OR cling grip left))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 117.1939697265625,
@@ -214567,7 +215280,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:43:55.9102601Z",
-          "updatedUtc": "2026-09-27T05:44:06.2868234Z"
+          "updatedUtc": "2026-11-06T20:51:30.0484185Z"
         },
         {
           "id": "567b19f6-9650-4f08-a4ae-0f916b05f717",
@@ -214575,7 +215288,7 @@
           "friendlyName": "running jump",
           "sourceSubroomReferenceText": "right exit platform",
           "destinationSubroomReferenceText": "right area",
-          "requirements": "Sprint OR Dash OR Faydown Cloak OR Drifter\u0027s Cloak OR Clawline OR Sharpdart OR Easy Beast Pogo OR Easy Hunter Pogo OR Easy Architect Pogo OR Easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Flintslate Stall OR Easy Flea Brew Stall OR Flea Brew OR Medium Heal Stall",
+          "requirements": "run OR Drifter\u0027s Cloak OR  Dash left OR Faydown Cloak OR Clawline left OR Sharpdart OR Easy [Beast, Hunter, Architect] Pogo OR Easy [Voltvessels, Flintslate, plasmium] Stall OR Flea Brew OR Medium Heal Stall",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 117.1939697265625,
@@ -214586,7 +215299,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:44:25.6048285Z",
-          "updatedUtc": "2026-09-27T05:48:20.0799908Z"
+          "updatedUtc": "2026-11-06T20:59:53.8953968Z"
         },
         {
           "id": "7e484091-aa68-493c-b259-c33cdb081270",
@@ -214594,8 +215307,8 @@
           "friendlyName": "Hidden Room",
           "sourceSubroomReferenceText": "left entrance",
           "destinationSubroomReferenceText": "hidden left room",
-          "requirements": "Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar OR Easy Beast Charge  OR Proficient Movement (Pogo the crate on the paltform)",
-          "notes": "",
+          "requirements": "Ledge Grab left OR Cling Grip left OR easy Scuttlebrace OR Faydown Cloak OR Silk Soar OR Easy Beast Charge  OR easy [hunter,wanderer, reaper,beast,architect, witch,shaman] pogo OR easy naked pogo OR easy [voltvessels,plasmium] stall",
+          "notes": "background pogo :D",
           "enableAnnotation": true,
           "sceneUnitX": 14.931694984436035,
           "sceneUnitY": 36.85432434082031,
@@ -214605,7 +215318,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-27T04:47:26.3340721Z",
-          "updatedUtc": "2026-09-27T04:56:26.1294659Z"
+          "updatedUtc": "2026-11-06T20:57:22.8052645Z"
         },
         {
           "id": "a180dd99-0733-4d0f-9b07-7c4ab09e97a5",
@@ -214668,7 +215381,7 @@
       "checks": [
         {
           "id": "8ca4063a-644c-4071-b9d6-4394c2b0027e",
-          "friendlyName": "shell shard cache deep docks 10",
+          "friendlyName": "Deep Docks - Forge daughter\u0027s bone scraps",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -214679,9 +215392,9 @@
           "annotationSceneUnitX": 6.497603416442871,
           "annotationSceneUnitY": 20.645044326782227,
           "subroomReferenceText": "left entrance",
-          "requirements": "Activate Shard Bundle Wall",
+          "requirements": "clear Forge Wall",
           "notes": "",
-          "locationType": "resource",
+          "locationType": "collectible",
           "enableAnnotation": true,
           "sortOrder": 0,
           "isTodo": false,
@@ -214689,11 +215402,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:23:53.8812379Z",
-          "updatedUtc": "2026-09-27T04:56:15.7325324Z"
+          "updatedUtc": "2026-11-06T20:38:03.9269747Z"
         },
         {
           "id": "c579b6b7-a2d5-4e7c-9dba-7c5241d4caab",
-          "friendlyName": "shard bundle deep docks 2",
+          "friendlyName": "Deep Docks - Fossilized bones found by Ballow ",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -214705,7 +215418,7 @@
           "annotationSceneUnitY": 38.172157287597656,
           "subroomReferenceText": "hidden left room",
           "requirements": "none",
-          "notes": "",
+          "notes": "shard bundle",
           "locationType": "collectible",
           "enableAnnotation": true,
           "sortOrder": 1,
@@ -214714,7 +215427,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:24:03.7169909Z",
-          "updatedUtc": "2026-09-27T04:54:33.7530536Z"
+          "updatedUtc": "2026-11-06T20:37:25.7687969Z"
         },
         {
           "id": "fb60a16f-1d8c-4e3c-9503-fa4873d07237",
@@ -214851,8 +215564,8 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": 58.53396224975586,
-          "annotationSceneUnitY": 34.66400146484375,
+          "annotationSceneUnitX": 54.23487854003906,
+          "annotationSceneUnitY": 33.9757080078125,
           "subroomReferenceText": "forge daughter",
           "requirements": "none",
           "notes": "",
@@ -214864,7 +215577,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-06T01:33:07.5531361Z",
-          "updatedUtc": "2026-09-27T05:05:08.1495693Z"
+          "updatedUtc": "2026-11-06T20:33:54.4314162Z"
         },
         {
           "id": "6bbae2a7-ed2a-42b4-8ffe-0746f4acbef5",
@@ -214918,7 +215631,7 @@
         },
         {
           "id": "d449f577-6716-4453-a161-4a019c34f1d7",
-          "friendlyName": "Shard Bundle Wall",
+          "friendlyName": "Forge Wall",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -214939,7 +215652,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-27T04:52:22.9319923Z",
-          "updatedUtc": "2026-09-27T04:52:56.327422Z"
+          "updatedUtc": "2026-11-06T20:38:04.9043191Z"
         },
         {
           "id": "fedbd868-3d8d-4495-9791-5d3a661a2354",
@@ -214965,31 +215678,6 @@
           "archivedUtc": "2026-09-27T04:50:34.5681121Z",
           "createdUtc": "2026-09-27T04:49:47.316503Z",
           "updatedUtc": "2026-09-27T04:50:34.5681121Z"
-        },
-        {
-          "id": "001d67a4-7c7a-498d-9c9f-e58a629d8e49",
-          "friendlyName": "Forge Battle",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
-          "annotationSceneUnitX": 71.46083068847656,
-          "annotationSceneUnitY": 10.147530555725098,
-          "subroomReferenceText": "gauntlet",
-          "requirements": "Combat Requirements",
-          "notes": "",
-          "locationType": "gauntlet",
-          "enableAnnotation": true,
-          "sortOrder": 9,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-09-27T04:58:10.6443657Z",
-          "updatedUtc": "2026-10-24T01:27:58.885202Z"
         },
         {
           "id": "24ee69ec-dbf6-4612-b7a0-49c5bcbe70a9",
@@ -215026,20 +215714,45 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": 62.70607376098633,
-          "annotationSceneUnitY": 30.901269912719727,
+          "annotationSceneUnitX": 58.691043853759766,
+          "annotationSceneUnitY": 33.4805793762207,
           "subroomReferenceText": "forge daughter",
           "requirements": "Nothing.",
           "notes": "",
           "locationType": "bench",
+          "enableAnnotation": true,
+          "sortOrder": 9,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-09-27T05:03:46.0410355Z",
+          "updatedUtc": "2026-11-06T20:35:25.3264989Z"
+        },
+        {
+          "id": "095b74aa-2341-4319-9ca6-b84639264967",
+          "friendlyName": "Ballow Move to Control Room",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 124.91091918945312,
+          "annotationSceneUnitY": 30.76233673095703,
+          "subroomReferenceText": "forge daughter",
+          "requirements": "Act 3",
+          "notes": "",
+          "locationType": "event",
           "enableAnnotation": true,
           "sortOrder": 10,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-09-27T05:03:46.0410355Z",
-          "updatedUtc": "2026-09-27T05:04:04.4626073Z"
+          "createdUtc": "2026-09-28T23:42:31.8897942Z",
+          "updatedUtc": "2026-11-06T20:35:25.3264989Z"
         },
         {
           "id": "f4207a0d-1c3c-4a23-8b17-48a0f8779e81",
@@ -215067,8 +215780,8 @@
           "updatedUtc": "2026-09-28T23:48:19.9173826Z"
         },
         {
-          "id": "095b74aa-2341-4319-9ca6-b84639264967",
-          "friendlyName": "Ballow Move to Control Room",
+          "id": "001d67a4-7c7a-498d-9c9f-e58a629d8e49",
+          "friendlyName": "Forge Battle",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -215076,20 +215789,20 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": 124.91091918945312,
-          "annotationSceneUnitY": 30.76233673095703,
-          "subroomReferenceText": "forge daughter",
-          "requirements": "Act 3",
+          "annotationSceneUnitX": 71.46083068847656,
+          "annotationSceneUnitY": 10.147530555725098,
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
-          "locationType": "event",
+          "locationType": "gauntlet",
           "enableAnnotation": true,
           "sortOrder": 11,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-09-28T23:42:31.8897942Z",
-          "updatedUtc": "2026-09-28T23:48:13.6464055Z"
+          "createdUtc": "2026-09-27T04:58:10.6443657Z",
+          "updatedUtc": "2026-11-06T20:35:25.3264989Z"
         },
         {
           "id": "51c6b7fd-2fd6-4636-90de-5ed99385b9f3",
@@ -215103,18 +215816,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 82.840004,
           "annotationSceneUnitY": 7.13000059,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 12,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:06.4292934Z"
         },
         {
           "id": "93b4cc66-f6b2-424f-a59f-3420513db923",
@@ -215128,18 +215841,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 81.2400055,
           "annotationSceneUnitY": 21.1500015,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 13,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:08.3964339Z"
         },
         {
           "id": "662346b4-64cd-484d-8a9c-de3d0392366f",
@@ -215153,18 +215866,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 65.12706,
           "annotationSceneUnitY": 20.99507,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 14,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:09.905375Z"
         },
         {
           "id": "53d5db66-a548-4a7e-94a7-a2ff7c5e610e",
@@ -215178,18 +215891,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 67.16,
           "annotationSceneUnitY": 21.21,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 15,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:11.1959878Z"
         },
         {
           "id": "9bca851e-3b90-4073-bde6-f86e96a13c56",
@@ -215203,18 +215916,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 80.6300049,
           "annotationSceneUnitY": 7.11000061,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 16,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:14.4236094Z"
         },
         {
           "id": "ccf8eee5-5c16-47f0-a8d0-e6c1c20665a8",
@@ -215228,18 +215941,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 81.2400055,
           "annotationSceneUnitY": 21.1500015,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 17,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:16.8786739Z"
         },
         {
           "id": "fba906ac-f5db-40c0-897f-1a814d7e58c7",
@@ -215253,18 +215966,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 67.2000046,
           "annotationSceneUnitY": 7.71000051,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 18,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:18.5955776Z"
         },
         {
           "id": "9a3641fd-f1bc-468c-afb3-18d86c8b745f",
@@ -215278,18 +215991,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 80.6300049,
           "annotationSceneUnitY": 7.07000065,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 19,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:26.7471406Z"
         },
         {
           "id": "a110e168-4cdb-4122-a58e-53855af96f32",
@@ -215303,18 +216016,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 67.2000046,
           "annotationSceneUnitY": 7.71000051,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "gauntlet",
+          "requirements": "Combat Requirements",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 20,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:56.4955163Z",
-          "updatedUtc": "2026-10-05T00:52:56.4955163Z"
+          "updatedUtc": "2026-11-06T20:31:24.7547106Z"
         }
       ]
     },
@@ -217013,16 +217726,16 @@
           "referenceId": "upper right section",
           "friendlyName": "upper right section",
           "notes": "",
-          "sceneUnitX": 72.6417451171875,
-          "sceneUnitY": 61.18054998779297,
-          "sceneUnitWidth": 38.61641833496094,
-          "sceneUnitHeight": 13.728295471191402,
+          "sceneUnitX": 71.2368335723877,
+          "sceneUnitY": 60.991302856445316,
+          "sceneUnitWidth": 36.36443418884278,
+          "sceneUnitHeight": 14.81359826660156,
           "enableAnnotation": true,
           "sortOrder": 9,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-04T23:15:40.8317458Z",
-          "updatedUtc": "2026-10-16T16:58:22.3068763Z"
+          "updatedUtc": "2026-11-04T21:57:20.385002Z"
         },
         {
           "id": "ec35c697-9084-4d39-8fde-872e98fc563a",
@@ -217071,6 +217784,22 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-16T15:59:28.2101688Z",
           "updatedUtc": "2026-10-16T16:57:18.3687547Z"
+        },
+        {
+          "id": "3a28bbaa-feb9-4735-98f7-0cdea9065ea1",
+          "referenceId": "hidden passage",
+          "friendlyName": "hidden passage",
+          "notes": "",
+          "sceneUnitX": 107.60126776123047,
+          "sceneUnitY": 60.991302856445316,
+          "sceneUnitWidth": 12.398732238769526,
+          "sceneUnitHeight": 16.12067376708984,
+          "enableAnnotation": true,
+          "sortOrder": 13,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T21:57:32.564663Z",
+          "updatedUtc": "2026-11-04T21:57:35.7237896Z"
         }
       ],
       "transitions": [
@@ -217144,10 +217873,10 @@
           "annotationSceneUnitX": 120.5,
           "annotationSceneUnitY": 74,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "upper right section",
+          "sourceSubroomReferenceText": "hidden passage",
           "destinationRoomReferenceText": "greymoor kratt room",
           "destinationTransitionAliasText": "L",
-          "requirements": "prereq hidden right wall",
+          "requirements": "nothing",
           "notes": "",
           "sortOrder": 2,
           "isTodo": false,
@@ -217155,7 +217884,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-02T21:33:09.7827359Z",
-          "updatedUtc": "2026-10-28T02:29:53.1878133Z",
+          "updatedUtc": "2026-11-04T22:00:26.6819016Z",
           "isUnsafeArrival": false
         },
         {
@@ -217755,15 +218484,15 @@
           "requirements": "silk soar OR cling grip left OR cling grip right OR easy scuttlebrace OR ledge grab left OR ledge grab right OR easy shaman pogo",
           "notes": " ",
           "enableAnnotation": true,
-          "sceneUnitX": 110.16625213623047,
-          "sceneUnitY": 80.96407318115234,
+          "sceneUnitX": 102.79454803466797,
+          "sceneUnitY": 84.6819076538086,
           "sortOrder": 16,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T00:07:51.8112271Z",
-          "updatedUtc": "2026-10-16T16:58:11.5518985Z"
+          "updatedUtc": "2026-11-04T21:57:24.3285771Z"
         },
         {
           "id": "bd0acea4-9598-4c35-8d76-9d166b579ea2",
@@ -217831,15 +218560,15 @@
           "requirements": "none (just fall)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 110.16625213623047,
-          "sceneUnitY": 80.96407318115234,
+          "sceneUnitX": 102.79454803466797,
+          "sceneUnitY": 84.6819076538086,
           "sortOrder": 17,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T00:07:55.0587644Z",
-          "updatedUtc": "2026-10-16T16:58:11.5518985Z"
+          "updatedUtc": "2026-11-04T21:57:24.3285771Z"
         },
         {
           "id": "c051e13b-1303-41f8-8cc9-1f718f816c0c",
@@ -217869,15 +218598,15 @@
           "requirements": "(hard pogo off fluttermite) OR (medium pogo off fluttermite AND (clawline left x 3 OR (drifters cloak))) OR (easy pogo off fluttermite AND (drifters cloak AND faydown cloak))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 37.95512390136719,
-          "sceneUnitY": 86.29277801513672,
+          "sceneUnitX": 37.49525451660156,
+          "sceneUnitY": 84.31562805175781,
           "sortOrder": 18,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T00:49:01.0953499Z",
-          "updatedUtc": "2026-10-25T21:03:40.4811231Z"
+          "updatedUtc": "2026-11-04T22:00:34.7437555Z"
         },
         {
           "id": "d3744f42-b448-477c-a1e5-1d97a7439d49",
@@ -217907,15 +218636,15 @@
           "requirements": "none (just fall)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 37.95512390136719,
-          "sceneUnitY": 86.29277801513672,
+          "sceneUnitX": 37.49525451660156,
+          "sceneUnitY": 84.31562805175781,
           "sortOrder": 19,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T00:49:03.4471051Z",
-          "updatedUtc": "2026-10-16T20:58:58.7163182Z"
+          "updatedUtc": "2026-11-04T22:00:34.7437555Z"
         },
         {
           "id": "c9813cf1-7558-44e1-9d0d-02003cea258f",
@@ -217999,7 +218728,7 @@
           "friendlyName": "gap 2",
           "sourceSubroomReferenceText": "upper guarded plaform",
           "destinationSubroomReferenceText": "upper center room",
-          "requirements": "(silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1))) OR (faydown cloak AND drifters cloak)",
+          "requirements": "silk soar OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR easy pogo off fluttermite OR drifters cloak OR ((flea brew) AND (intended [reaper, beast, architect] pogo)))) OR (progressive swift step 1 AND (medium pogo off fluttermite OR ( easy pogo off fluttermite AND (clawline left x 1 OR sharpdart x 1 OR drifters cloak) AND (ledge grab either OR intended [reaper, shaman, wanderer] pogo)))) OR (progressive swift step 2 left AND (easy pogo off fluttermite OR flea brew) AND (ledge grab either OR intended [reaper, wanderer] pogo))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 59.203758239746094,
@@ -218010,7 +218739,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T00:49:17.0042173Z",
-          "updatedUtc": "2026-10-28T04:46:58.1558786Z"
+          "updatedUtc": "2026-11-04T22:30:51.8295157Z"
         },
         {
           "id": "91f54e20-a4c3-43cc-8d5f-4b78932c6b0e",
@@ -218277,6 +219006,44 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-16T16:30:08.7855224Z",
           "updatedUtc": "2026-10-16T16:56:48.8189009Z"
+        },
+        {
+          "id": "10b7c250-6f6c-4501-b1c3-f4aaa9ac8505",
+          "alias": "BW",
+          "friendlyName": "breakable wall",
+          "sourceSubroomReferenceText": "upper right section",
+          "destinationSubroomReferenceText": "hidden passage",
+          "requirements": "break wall right OR break wall up",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 110.17523193359375,
+          "sceneUnitY": 64.81084442138672,
+          "sortOrder": 33,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T21:57:44.284806Z",
+          "updatedUtc": "2026-11-04T22:00:05.5108546Z"
+        },
+        {
+          "id": "bb023204-c0f5-460e-9720-043b42c5f2f5",
+          "alias": "BW",
+          "friendlyName": "breakable wall",
+          "sourceSubroomReferenceText": "hidden passage",
+          "destinationSubroomReferenceText": "upper right section",
+          "requirements": "break wall left OR break wall up",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 110.17523193359375,
+          "sceneUnitY": 64.81084442138672,
+          "sortOrder": 34,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-04T21:57:45.4217491Z",
+          "updatedUtc": "2026-11-04T22:00:05.5108546Z"
         }
       ],
       "checks": [
@@ -218400,10 +219167,10 @@
           "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
+          "isArchived": true,
+          "archivedUtc": "2026-11-04T22:00:02.2645427Z",
           "createdUtc": "2026-09-05T22:03:03.4070851Z",
-          "updatedUtc": "2026-10-16T21:03:07.1932485Z"
+          "updatedUtc": "2026-11-04T22:00:02.2645427Z"
         },
         {
           "id": "159311a7-908d-4165-b906-bc350387b685",
@@ -263044,7 +263811,7 @@
           "friendlyName": "cross lava gap",
           "sourceSubroomReferenceText": "lower chains",
           "destinationSubroomReferenceText": "lower lava platform",
-          "requirements": "(clawline left OR ( drifter\u0027s cloak AND (faydown cloak OR Medium Beast Charge OR Hard Architect Charge OR (Dash AND Easy Beast Pogo) ) ) OR (Sharpdart x 2 AND (Drifter\u0027s CLoak OR Easy Flea Brew Stall OR Easy Voltvessels Stall)) OR (Sharpdart x 3 AND Medium Flintslate Stall)) OR (medium shaman pogo AND easy pogo off flintflame flyer AND drifter\u0027s)",
+          "requirements": "(clawline left OR ( drifter\u0027s cloak AND (faydown cloak OR Medium Beast Charge OR Hard Architect Charge OR (Dash AND Easy Beast Pogo) ) ) OR (Sharpdart x 2 AND (Drifter\u0027s CLoak OR Easy Flea Brew Stall OR Easy Voltvessels Stall)) OR (Sharpdart x 3 AND Medium Flintslate Stall)) OR (medium shaman pogo AND easy pogo off flintflame flyer AND drifter\u0027s) OR (proficient movement AND faydown cloak AND run AND easy scuttlebrace)",
           "notes": "seems just out of reach of drifter\u0027s cloak and dash",
           "enableAnnotation": true,
           "sceneUnitX": 72.93614196777344,
@@ -263055,7 +263822,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-08T20:56:13.7108654Z",
-          "updatedUtc": "2026-11-01T10:38:03.2487413Z"
+          "updatedUtc": "2026-11-06T19:22:52.2395297Z"
         },
         {
           "id": "84f6def8-c127-4bfa-ac2b-08386b20dae6",
@@ -268255,8 +269022,8 @@
           "annotationSceneUnitX": 24.11481285095215,
           "annotationSceneUnitY": 32.371742248535156,
           "subroomReferenceText": "Bottom",
-          "requirements": "attack down",
-          "notes": "",
+          "requirements": "[hunter, wanderer, beast, witch, architect, reaper, shaman] attack down",
+          "notes": "everything works but naked",
           "locationType": "blockade",
           "enableAnnotation": true,
           "sortOrder": 7,
@@ -268265,7 +269032,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-26T09:25:33.0014241Z",
-          "updatedUtc": "2026-10-26T09:28:40.9167888Z"
+          "updatedUtc": "2026-11-07T05:33:57.9760555Z"
         },
         {
           "id": "fef71aaf-d3fe-4b77-92f7-af5462c3b8e0",
@@ -283404,7 +284171,7 @@
       "friendlyName": "Halfway Home Cellar",
       "inGameId": "Ant_08",
       "contributors": "Isssma",
-      "comments": "I imagine only the skarr enemy souls are mandatory for the gauntlet to start\n\nenemy pogos are possible, however the mites and fluttermites dissapear once the gauntlet starts and the skarr enemies come in waves so they are not added as requirements but are still added as a comment in case its posible to handle that logic (ended up commenting some not all since i got lazy teehee)\n\nthe room starts normally with mitees and fluttermites as enemies, once the player tries to grab the nectar the gauntlet starts removing any remaining enemy\n\nthe 1st wave doesnt change the lkayout of the room besides opening some corridors at the sides that are not important, to defeat the 1st wave the player must be able to reach the subroom upper section left corridor. once all skarr enemies are killeed the next wave starts",
+      "comments": "I imagine only the skarr enemy souls are mandatory for the gauntlet to start\n\nenemy pogos are possible, however the mites and fluttermites dissapear once the gauntlet starts and the skarr enemies come in waves so they are not added as requirements\n\nthe room starts normally with mitees and fluttermites as enemies, once the player tries to grab the nectar the gauntlet starts removing any remaining enemy\n\nthe 1st wave doesnt change the layout of the room besides opening some corridors at the sides that are not important, to defeat the 1st wave the player must be able to reach the subroom upper section left corridor. once all skarr enemies are killeed the final wave starts",
       "sceneMinX": 0,
       "sceneMinY": 19,
       "sceneMaxX": 85,
@@ -283421,7 +284188,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-09-10T20:31:25.5714301Z",
-      "updatedUtc": "2026-10-31T21:14:15.0748505Z",
+      "updatedUtc": "2026-11-06T20:03:03.8387585Z",
       "subrooms": [
         {
           "id": "5f35b69c-562c-493b-989b-380d5dfe3888",
@@ -283637,7 +284404,7 @@
           "friendlyName": "climb 1",
           "sourceSubroomReferenceText": "nectar section",
           "destinationSubroomReferenceText": "left platform above nectar",
-          "requirements": "ledge grab left OR faydown cloak OR silk soar OR cling grip left (OR easy pogo off skarr stalker IN 1st wave) OR ((ledge grab right OR cling grip right) AND (clawline left x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy beast pogo OR easy architect needle strike OR drifters cloak))",
+          "requirements": "ledge grab left OR faydown cloak OR silk soar OR cling grip left OR ((ledge grab right OR cling grip right) AND (clawline left x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy beast pogo OR easy architect needle strike OR drifters cloak))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 48.332435607910156,
@@ -283648,7 +284415,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-31T18:54:12.3581615Z",
-          "updatedUtc": "2026-10-31T20:45:07.6439629Z"
+          "updatedUtc": "2026-11-06T20:03:24.4697083Z"
         },
         {
           "id": "651829f5-f022-409d-9a13-ee01709efcd5",
@@ -283713,8 +284480,8 @@
           "friendlyName": "Schrodinger platform",
           "sourceSubroomReferenceText": "big fella platform",
           "destinationSubroomReferenceText": "mid left platform ",
-          "requirements": "silk soar OR cling grip either OR faydown cloak OR ((ledge grab left (OR easy pogo off spear skarr IN 1st wave))AND (cling grip right (OR easy pogo off fluttermite OR medium poog off Skarrwing IN 1st wave)))",
-          "notes": "this uses the platform that gets destroyed later\n\nin case its destroyed the requirements go to\n\nsilk soar OR (cling grip left AND faydown cloak AND ledge grab left)",
+          "requirements": "silk soar OR cling grip either OR faydown cloak OR ((ledge grab left) AND (cling grip right))",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 46.38912582397461,
           "sceneUnitY": 51.812034606933594,
@@ -283724,7 +284491,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-31T18:54:35.1991271Z",
-          "updatedUtc": "2026-10-31T21:16:07.9646029Z"
+          "updatedUtc": "2026-11-06T20:03:50.5147605Z"
         },
         {
           "id": "03101bb2-f543-4a3c-ac31-ca88a07b8fe2",
@@ -283789,7 +284556,7 @@
           "friendlyName": "climb 3",
           "sourceSubroomReferenceText": "mid left platform ",
           "destinationSubroomReferenceText": "upper section low",
-          "requirements": "cling grip left OR ledge grab right OR silk soar OR faydown cloak OR easy scuttlebrace(OR easy pogo off fluttermite)",
+          "requirements": "cling grip left OR ledge grab right OR silk soar OR faydown cloak OR easy scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 28.974763870239258,
@@ -283800,7 +284567,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-31T19:17:36.8218718Z",
-          "updatedUtc": "2026-10-31T19:25:46.9285938Z"
+          "updatedUtc": "2026-11-06T20:03:55.9112287Z"
         },
         {
           "id": "d3789637-715b-416d-90c2-b4848fdad95e",
@@ -283828,7 +284595,7 @@
           "sourceSubroomReferenceText": "upper section low",
           "destinationSubroomReferenceText": "upper section mid top",
           "requirements": "silk soar OR faydown OR cling grip either OR ledge grab both OR easy scuttlebrace",
-          "notes": "easy pogo off fluttermite AND medium pogo off mite for right side \n\neasy pogo off fluttermite to replace ledge grab left for left side",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 45.27099609375,
           "sceneUnitY": 65.11701202392578,
@@ -283838,7 +284605,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-31T19:18:09.9198738Z",
-          "updatedUtc": "2026-10-31T19:25:36.0414282Z"
+          "updatedUtc": "2026-11-06T20:04:21.1494776Z"
         },
         {
           "id": "f44a811f-df39-4e47-bfb3-154f3b8e6db3",
@@ -284627,7 +285394,7 @@
           "annotationSceneUnitY": 43.831955,
           "subroomReferenceText": "big fella platform",
           "requirements": "nothing",
-          "notes": "2nd wave\n\nthis is the enemy that destroys the platform in the SP transition as his first action",
+          "notes": "2nd wave",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 24,
@@ -284636,7 +285403,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:44.0793966Z",
-          "updatedUtc": "2026-10-31T21:08:40.486885Z"
+          "updatedUtc": "2026-11-06T20:04:25.6232189Z"
         },
         {
           "id": "da75fba5-0627-44ee-a05c-cece4af38e6a",

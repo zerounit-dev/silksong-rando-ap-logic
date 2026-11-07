@@ -35,6 +35,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Craftmetal: Wisp Thicket | Top | nothing |  | Verified | collectible | ✓ |  |
+| 2 | worker thread memory | Top | needolin |  | Verified | lore | ✓ |  |
 
 ## Room Images
 

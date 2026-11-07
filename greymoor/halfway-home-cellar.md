@@ -28,17 +28,17 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C1 | climb 1 | nectar section | left platform above nectar | ledge grab left OR faydown cloak OR silk soar OR cling grip left (OR easy pogo off skarr stalker IN 1st wave) OR ((ledge grab right OR cling grip right) AND (clawline left x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy beast pogo OR easy architect needle strike OR drifters cloak)) |  | Verified | ✓ |  |
+| C1 | climb 1 | nectar section | left platform above nectar | ledge grab left OR faydown cloak OR silk soar OR cling grip left OR ((ledge grab right OR cling grip right) AND (clawline left x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy beast pogo OR easy architect needle strike OR drifters cloak)) |  | Verified | ✓ |  |
 | C1 | climb 1 | left platform above nectar | nectar section | nothing |  | Verified | ✓ |  |
 | C2 | climb 2 | left platform above nectar | big fella platform | cling grip left OR silk soar OR (faydown cloak AND (ledge grab right  OR cling grip right)) |  | Verified | ✓ |  |
 | C2 | climb 2 | big fella platform | left platform above nectar | nothing |  | Verified | ✓ |  |
-| SP | Schrodinger platform | big fella platform | mid left platform | silk soar OR cling grip either OR faydown cloak OR ((ledge grab left (OR easy pogo off spear skarr IN 1st wave))AND (cling grip right (OR easy pogo off fluttermite OR medium poog off Skarrwing IN 1st wave))) |  | Verified | ✓ | this uses the platform that gets destroyed later  in case its destroyed the requirements go to  silk soar OR (cling grip left AND faydown cloak AND ledge grab left) |
+| SP | Schrodinger platform | big fella platform | mid left platform | silk soar OR cling grip either OR faydown cloak OR ((ledge grab left) AND (cling grip right)) |  | Verified | ✓ |  |
 | SP | Schrodinger platform | mid left platform | big fella platform | nothing |  | Verified | ✓ |  |
 | D1 | drop 1 | big fella platform | upper section low | silk soar OR cling grip right OR (easy scuttlebrace AND ledge grab left) |  | Verified | ✓ |  |
 | D1 | drop 1 | upper section low | big fella platform | nothing |  | Verified | ✓ |  |
-| C3 | climb 3 | mid left platform | upper section low | cling grip left OR ledge grab right OR silk soar OR faydown cloak OR easy scuttlebrace(OR easy pogo off fluttermite) |  | Verified | ✓ |  |
+| C3 | climb 3 | mid left platform | upper section low | cling grip left OR ledge grab right OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
 | C3 | climb 3 | upper section low | mid left platform | nothing |  | Verified | ✓ |  |
-| C4 | climb 4 | upper section low | upper section mid top | silk soar OR faydown OR cling grip either OR ledge grab both OR easy scuttlebrace |  | Verified | ✓ | easy pogo off fluttermite AND medium pogo off mite for right side   easy pogo off fluttermite to replace ledge grab left for left side |
+| C4 | climb 4 | upper section low | upper section mid top | silk soar OR faydown OR cling grip either OR ledge grab both OR easy scuttlebrace |  | Verified | ✓ |  |
 | C4 | climb 4 | upper section mid top | upper section low | nothing |  | Verified | ✓ |  |
 | CUL | climb upper left | upper section mid top | upper section left corridor | ledge grab left OR cling grip left OR easy scuttlebrace OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | CUL | climb upper left | upper section left corridor | upper section mid top | nothing |  | Verified | ✓ |  |
@@ -77,7 +77,7 @@
 | 22 | Spear Skarr 2 | upper section low | nothing |  | Verified | enemy | ✓ | 2nd wave |
 | 23 | Skarr Scout 3 | upper section mid top | nothing |  | Verified | enemy | ✓ | 2nd wave  After some testing depending on the position of the player when he spaws, the position of this enemy goes from this subroom or to the subroom mid left platform when the player is bellow said subroom |
 | 24 | Skarrwing 3 | mid left platform | nothing |  | Verified | enemy | ✓ | nothing |
-| 25 | Skarrgard 1 | big fella platform | nothing |  | Verified | enemy | ✓ | 2nd wave  this is the enemy that destroys the platform in the SP transition as his first action |
+| 25 | Skarrgard 1 | big fella platform | nothing |  | Verified | enemy | ✓ | 2nd wave |
 | 26 | Skarrlid 5 | mid left platform | nothing |  | Verified | enemy | ✓ | 2nd wave |
 | 27 | Skarrlid 6 | left platform above nectar | nothing |  | Verified | enemy | ✓ | 2nd wave |
 | 28 | Skarr Stalker 4 | nectar section | invalid |  | Verified | enemy | ✓ | according to the scene dump it s part of a test wave so it can be archived imo - Isssma |
@@ -86,11 +86,11 @@
 
 I imagine only the skarr enemy souls are mandatory for the gauntlet to start
 
-enemy pogos are possible, however the mites and fluttermites dissapear once the gauntlet starts and the skarr enemies come in waves so they are not added as requirements but are still added as a comment in case its posible to handle that logic (ended up commenting some not all since i got lazy teehee)
+enemy pogos are possible, however the mites and fluttermites dissapear once the gauntlet starts and the skarr enemies come in waves so they are not added as requirements
 
 the room starts normally with mitees and fluttermites as enemies, once the player tries to grab the nectar the gauntlet starts removing any remaining enemy
 
-the 1st wave doesnt change the lkayout of the room besides opening some corridors at the sides that are not important, to defeat the 1st wave the player must be able to reach the subroom upper section left corridor. once all skarr enemies are killeed the next wave starts
+the 1st wave doesnt change the layout of the room besides opening some corridors at the sides that are not important, to defeat the 1st wave the player must be able to reach the subroom upper section left corridor. once all skarr enemies are killeed the final wave starts
 
 ## Room Images
 

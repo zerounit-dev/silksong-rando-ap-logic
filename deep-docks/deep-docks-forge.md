@@ -33,38 +33,38 @@
 | GL | gauntlet left | gauntlet | left entrance | clear Forge Battle |  | Verified | ✓ |  |
 | GR | gauntlet right | right area | gauntlet | none |  | Verified | ✓ |  |
 | GR | gauntlet right | gauntlet | right area | clear Forge Battle |  | Verified | ✓ |  |
-| GC | gauntlet upper | forge daughter | gauntlet | open airlock down |  | Verified | ✓ |  |
-| GC | gauntlet upper | gauntlet | forge daughter | Clear Forge Battle AND ( open airlock up AND ( ledge grab OR faydown cloak OR scuttlebrace OR Silk Soar OR easy shaman crest pogo ) ) |  | Verified | ✓ |  |
-| RJ | running jump | right area | right exit platform | Sprint OR Faydown Cloak OR Clawline OR Sharpdart OR Scuttlebrace OR Drifter's Cloak OR Easy Beast Charge OR Easy Beast Pogo OR (((Dash OR Medium Voltvessels Stall OR Easy Architect Charge OR (Flea Brew AND Easy Flea Brew Stall)) AND (Ledge Grab OR Cling Grip))) OR (Flea Brew AND Medium Flea Brew Stall AND Medium Heal Stall) OR (Easy Architect Pogo AND Cling Grip) OR (Medium Hunter Pogo AND Cling Grip) |  | Verified | ✓ |  |
-| RJ | running jump | right exit platform | right area | Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak OR Clawline OR Sharpdart OR Easy Beast Pogo OR Easy Hunter Pogo OR Easy Architect Pogo OR Easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Flintslate Stall OR Easy Flea Brew Stall OR Flea Brew OR Medium Heal Stall |  | Verified | ✓ |  |
-| EHD | Hidden Room | left entrance | hidden left room | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar OR Easy Beast Charge  OR Proficient Movement (Pogo the crate on the paltform) |  | Verified | ✓ |  |
+| GC | gauntlet upper | forge daughter | gauntlet | open airlock either |  | Verified | ✓ |  |
+| GC | gauntlet upper | gauntlet | forge daughter | Clear Forge Battle AND ( open airlock up AND (ledge grab either OR faydown OR cling grip either OR easy shaman pogo OR easy scuttlebrace OR medium heal stall OR easy beast needle strike OR easy [flea brew, plasmium, voltvessels] stall )) |  | Verified | ✓ |  |
+| RJ | running jump | right area | right exit platform | Sprint OR Faydown Cloak OR Clawline right OR Sharpdart OR easy Scuttlebrace OR Drifter's Cloak OR Easy Beast Pogo OR (((Dash right OR (Medium Hunter Pogo AND Cling Grip left) OR Medium [Voltvessels, plasmium] Stall OR Easy Architect Charge OR (Flea Brew AND Easy Flea Brew Stall)) AND (Ledge Grab right OR Cling Grip right))) OR (Flea Brew AND Medium Flea Brew Stall AND Medium Heal Stall) OR (Easy Architect Pogo AND Cling Grip left) OR  (dash right AND (proficient movement OR cling grip left)) |  | Verified | ✓ |  |
+| RJ | running jump | right exit platform | right area | run OR Drifter's Cloak OR  Dash left OR Faydown Cloak OR Clawline left OR Sharpdart OR Easy [Beast, Hunter, Architect] Pogo OR Easy [Voltvessels, Flintslate, plasmium] Stall OR Flea Brew OR Medium Heal Stall |  | Verified | ✓ |  |
+| EHD | Hidden Room | left entrance | hidden left room | Ledge Grab left OR Cling Grip left OR easy Scuttlebrace OR Faydown Cloak OR Silk Soar OR Easy Beast Charge  OR easy [hunter,wanderer, reaper,beast,architect, witch,shaman] pogo OR easy naked pogo OR easy [voltvessels,plasmium] stall |  | Verified | ✓ | background pogo :D |
 | EHD | Hidden Room | hidden left room | left entrance | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | shell shard cache deep docks 10 | left entrance | Activate Shard Bundle Wall |  | Verified | resource | ✓ |  |
-| 2 | shard bundle deep docks 2 | hidden left room | none |  | Verified | collectible | ✓ |  |
+| 1 | Deep Docks - Forge daughter's bone scraps | left entrance | clear Forge Wall |  | Verified | collectible | ✓ |  |
+| 2 | Deep Docks - Fossilized bones found by Ballow | hidden left room | none |  | Verified | collectible | ✓ | shard bundle |
 | 3 | silkshot (forge daughter) | forge daughter | own Ruined Tool AND Spend 1 Craftmetals |  | Verified | collectible | ✓ | forge daughter shop |
 | 4 | sting shard | forge daughter | Spend 1 Craftmetals |  | Verified | collectible | ✓ | forge daughter shop |
 | 5 | magma bell | forge daughter | Spend 1 Craftmetals |  | Verified | collectible | ✓ | forge daughter shop |
 | 6 | crafting kit forge daughter | forge daughter | none |  | Verified | collectible | ✓ | forge daughter shop |
 | 7 | readable lore tablet forge | left entrance | open airlock left |  | Verified | lore | ✓ |  |
 | 8 | gate switch forge | forge daughter | none |  | Verified | switch | ✓ |  |
-| 9 | Shard Bundle Wall | left entrance | Break Wall Left |  | Verified | blockade | ✓ |  |
-| 10 | Forge Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 11 | Forge bench | forge daughter | Nothing. |  | Verified | bench | ✓ |  |
-| 12 | Ballow Move to Control Room | forge daughter | Act 3 |  | Verified | event | ✓ |  |
-| 13 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
-| 14 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 15 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 16 | Flintstone Flyer 3 |  |  |  |  | enemy | ✓ |  |
-| 17 | Smokerock Sifter 2 |  |  |  |  | enemy | ✓ |  |
-| 18 | Flintstone Flyer 4 |  |  |  |  | enemy | ✓ |  |
-| 19 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
-| 20 | Smokerock Sifter 3 |  |  |  |  | enemy | ✓ |  |
-| 21 | Smelt Shoveller 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Forge Wall | left entrance | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 10 | Forge bench | forge daughter | Nothing. |  | Verified | bench | ✓ |  |
+| 11 | Ballow Move to Control Room | forge daughter | Act 3 |  | Verified | event | ✓ |  |
+| 12 | Forge Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 13 | Smokerock Sifter 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 14 | Flintstone Flyer 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 15 | Flintstone Flyer 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 16 | Flintstone Flyer 3 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 17 | Smokerock Sifter 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 18 | Flintstone Flyer 4 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 19 | Smelt Shoveller 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 20 | Smokerock Sifter 3 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 21 | Smelt Shoveller 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -22,7 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Smelt Shoveller 1 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 2 | Smelt Shoveller 2 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

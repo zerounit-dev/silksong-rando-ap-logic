@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Deep Docks Lace Intro (Bone_East_12)](deep-docks-lace-intro.md) | R | none |  | Verified | ✓ |  |
-| R | right1 |  | [Far Fields Entrance East (Bone_East_02)](../far-fields/far-fields-entrance-east.md) | L | ( bellshrinesanity off AND activate bellshrine switch )  OR ( bellshrinesanity on AND have bell deep docks ) |  | Verified | ✓ | must keep in sync with other side |
+| R | right1 |  | [Far Fields Entrance East (Bone_East_02)](../far-fields/far-fields-entrance-east.md) | L | ( bellshrinesanity off AND activate Deep Dock bellshrine switch)  OR ( bellshrinesanity on AND have bell deep docks ) |  | Verified | ✓ | must keep in sync with other side |
 
 ## Subroom Connections
 
@@ -23,10 +23,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bellshrine switch |  | none |  | Verified | switch |  |  |
-| 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
-| 3 | bell deep docks |  | activate bellshrine switch |  | Verified | collectible |  |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Deep Dock bellshrine switch |  | none |  | Verified | switch | ✓ |  |
+| 2 | bellshrine bench |  | activate Deep Dock bellshrine switch |  | Verified | bench | ✓ |  |
+| 3 | bell deep docks |  | activate Deep Dock bellshrine switch |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

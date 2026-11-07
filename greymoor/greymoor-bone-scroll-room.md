@@ -29,6 +29,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic: Bone Scroll (Greymoor) at bugs lonely resting place | bug resting place | nothing |  | Verified | collectible | ✓ |  |
+| 2 | Lone Bug Thread Memory | bug resting place | needolin |  | Verified | lore | ✓ |  |
 
 ## Room Images
 

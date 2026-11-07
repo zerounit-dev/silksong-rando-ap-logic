@@ -29,8 +29,8 @@
 | MTU | Middle <> Upper | Middle | Upper | silk soar OR faydown OR medium shaman pogo OR ledge grab left OR cling grip left OR easy plasmium stall |  | Verified | ✓ |  |
 | MTU | Middle <> Upper | Upper | Middle | none |  | Verified | ✓ | falling |
 | UTF | Upper <> Flea | Upper | Flea | Nothing. |  | Verified | ✓ |  |
-| FTF | Floor <> Flea | Floor | Flea | (Activate Flea Breakable Floor AND (Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Cling Grip OR Scuttlebrace)))) |  | Verified | ✓ |  |
-| FTF | Floor <> Flea | Flea | Floor | Activate Flea Breakable Floor AND (silk soar OR (faydown AND (cling grip either OR ledge grab right OR easy scuttlebrace OR easy shaman pogo))) |  | Verified | ✓ |  |
+| FTF | Floor <> Flea | Floor | Flea | (Activate Flea Breakable Floor AND (Silk Soar OR (Faydown Cloak AND (Ledge Grab left OR Cling Grip left OR easy Scuttlebrace OR easy shaman pogo)))) OR (faydown cloak AND (cling grip right OR easy scuttlebrace OR (easy shaman pogo AND ledge grab right))) OR silk soar |  | Verified | ✓ |  |
+| FTF | Floor <> Flea | Flea | Floor | Activate Flea Breakable Floor |  | Verified | ✓ |  |
 
 ## Check Locations
 

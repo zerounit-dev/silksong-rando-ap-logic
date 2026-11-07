@@ -18,7 +18,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | ground | [Is this still Deep Docks? East (Bone_East_04)](is-this-still-deep-docks-east.md) | L | Activate Deep Docks Is This Still Deep Docks West Blast Rock OR Activate Is this still Deep Docks East Blast Rock IN Is this still Deep Docks East |  | Verified | ✓ | both blast rocks are connected and trigger the same shortcut. |
+| R | right1 | ground | [Is this still Deep Docks? East (Bone_East_04)](is-this-still-deep-docks-east.md) | L | Activate Deep Docks Is This Still Deep Docks West Blast Rock |  | Verified | ✓ |  |
 | C | top1 | upper level | [Hunter's March Deep Docks Passage (Ant_05b)](../hunter-s-march/hunter-s-march-deep-docks-passage.md) | LF | Nothing. |  | Verified | ✓ |  |
 | L | left1 | ground | [Deep Docks Upper Spire (Bone_East_05)](deep-docks-upper-spire.md) | R | Nothing. |  | Verified | ✓ |  |
 

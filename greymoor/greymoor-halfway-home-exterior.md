@@ -20,6 +20,7 @@
 | S10 | upper stash | ✓ |
 | S11 | lower guarded platform | ✓ |
 | S12 | upper guarded plaform | ✓ |
+| S13 | hidden passage | ✓ |
 
 ## Room Transitions
 
@@ -27,7 +28,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LL | lower left | lower left section | [Greymoor Eastern Tower (Greymoor_04)](greymoor-eastern-tower.md) | LR | nothing |  | Verified | ✓ |  |
 | LR | lower right | lower right section | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | L | nothing |  | Verified | ✓ |  |
-| HR | hidden right | upper right section | [Greymoor Kratt Room (Greymoor_24)](greymoor-kratt-room.md) | L | prereq hidden right wall |  | Verified | ✓ |  |
+| HR | hidden right | hidden passage | [Greymoor Kratt Room (Greymoor_24)](greymoor-kratt-room.md) | L | nothing |  | Verified | ✓ |  |
 | MR | middle right | middle right section | [Greymoor Upper Halfway Home Path (Greymoor_12)](greymoor-upper-halfway-home-path.md) | L | nothing |  | Verified | ✓ |  |
 | HHR | halfway home right | lower right section | [Greymoor Halfway Home (Halfway_01)](greymoor-halfway-home.md) | R | activate pressure plate IN greymoor halfway home |  | Verified | ✓ |  |
 | UR | upper right | sinner road entrance | [Sinner's Road Entrance (Dust_01)](../sinner-s-road/sinner-s-road-entrance.md) | L | nothing |  | Verified | ✓ |  |
@@ -59,7 +60,7 @@
 | BG | baloon gap | lower guarded platform | upper center room | (hard pogo off fluttermite) OR (medium pogo off fluttermite AND (clawline left x 3 OR (drifters cloak))) OR (easy pogo off fluttermite AND (drifters cloak AND faydown cloak)) |  | Verified | ✓ |  |
 | BG | baloon gap | upper center room | lower guarded platform | none (just fall) |  | Verified | ✓ |  |
 | G2 | gap 2 | upper center room | upper guarded plaform | easy pogo off fluttermite OR clawline right x 1 OR progressive swift step 1 right OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy [hunter, reaper, beast, witch, architect] pogo |  | Verified | ✓ |  |
-| G2 | gap 2 | upper guarded plaform | upper center room | (silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1))) OR (faydown cloak AND drifters cloak) |  | Verified | ✓ |  |
+| G2 | gap 2 | upper guarded plaform | upper center room | silk soar OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR easy pogo off fluttermite OR drifters cloak OR ((flea brew) AND (intended [reaper, beast, architect] pogo)))) OR (progressive swift step 1 AND (medium pogo off fluttermite OR ( easy pogo off fluttermite AND (clawline left x 1 OR sharpdart x 1 OR drifters cloak) AND (ledge grab either OR intended [reaper, shaman, wanderer] pogo)))) OR (progressive swift step 2 left AND (easy pogo off fluttermite OR flea brew) AND (ledge grab either OR intended [reaper, wanderer] pogo)) |  | Verified | ✓ |  |
 | F3 | fall 3 | tower platform | upper center room | silk soar |  | Verified | ✓ |  |
 | F3 | fall 3 | upper center room | tower platform | none (just fall) |  | Verified | ✓ |  |
 | S3 | shaft 3 | lower guarded platform | upper stash | cling grip left OR cling grip right OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
@@ -70,6 +71,8 @@
 | S5 | shaft 5 | upper guarded plaform | upper stash | none |  | Verified | ✓ |  |
 | PG4 | platform gap 4 | upper guarded plaform | sinner road entrance | ledge grab right OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR cling grip right OR silk soar OR faydown cloak OR medium shaman pogo OR drifters cloak OR easy beast pogo |  | Verified | ✓ |  |
 | PG4 | platform gap 4 | sinner road entrance | upper guarded plaform | nothing |  | Verified | ✓ |  |
+| BW | breakable wall | upper right section | hidden passage | break wall right OR break wall up |  | Verified | ✓ |  |
+| BW | breakable wall | hidden passage | upper right section | break wall left OR break wall up |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -78,22 +81,21 @@
 | 1 | Greymoor - Rosary Cache bellow sinners road entrance | upper stash | none |  | Verified | resource | ✓ |  |
 | 2 | Greymoor - sinner road entrance guards lunch money | upper stash | none |  | Verified | resource | ✓ |  |
 | 3 | tower elevator | tower platform | none (pressure switch) |  | Verified | switch | ✓ |  |
-| 4 | hidden right wall | upper right section | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
-| 5 | Greymoor - Orders | upper center room | nothing |  | Verified | lore | ✓ |  |
-| 6 | Craw 1 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
-| 7 | Craw 2 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
-| 8 | Craw 3 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
-| 9 | Craw 4 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
-| 10 | Craw 5 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
-| 11 | Dreg Catcher 1 | lower guarded platform | nothing |  | Verified | enemy | ✓ |  |
-| 12 | Fluttermite 1 | tower platform | nothing |  | Verified | enemy | ✓ |  |
-| 13 | Fluttermite 2 | tower platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 14 | Fluttermite 3 | upper center room | silk soar OR easy pogo off fluttermite |  | Verified | enemy | ✓ |  |
-| 15 | Fluttermite 4 | upper center room | Normal World Spawn AND (silk soar OR hard pogo off fluttermite) |  | Verified | enemy | ✓ |  |
-| 16 | Mite 1 | tower platform | ledge grab left OR faydown cloak OR progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR silk soar |  | Verified | enemy | ✓ | technically can be lured without reaching the platform but its inconsistent |
-| 17 | Fluttermite 5 | upper center room | silk soar OR hard pogo off fluttermite |  | Verified | enemy | ✓ |  |
-| 18 | Fluttermite 6 | upper center room | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 19 | Dreg Catcher 2 | upper guarded plaform | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Greymoor - Orders | upper center room | nothing |  | Verified | lore | ✓ |  |
+| 5 | Craw 1 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 6 | Craw 2 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 7 | Craw 3 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 8 | Craw 4 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 9 | Craw 5 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 10 | Dreg Catcher 1 | lower guarded platform | nothing |  | Verified | enemy | ✓ |  |
+| 11 | Fluttermite 1 | tower platform | nothing |  | Verified | enemy | ✓ |  |
+| 12 | Fluttermite 2 | tower platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Fluttermite 3 | upper center room | silk soar OR easy pogo off fluttermite |  | Verified | enemy | ✓ |  |
+| 14 | Fluttermite 4 | upper center room | Normal World Spawn AND (silk soar OR hard pogo off fluttermite) |  | Verified | enemy | ✓ |  |
+| 15 | Mite 1 | tower platform | ledge grab left OR faydown cloak OR progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR silk soar |  | Verified | enemy | ✓ | technically can be lured without reaching the platform but its inconsistent |
+| 16 | Fluttermite 5 | upper center room | silk soar OR hard pogo off fluttermite |  | Verified | enemy | ✓ |  |
+| 17 | Fluttermite 6 | upper center room | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Dreg Catcher 2 | upper guarded plaform | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

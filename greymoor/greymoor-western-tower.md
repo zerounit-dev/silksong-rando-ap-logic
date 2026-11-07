@@ -18,6 +18,7 @@
 | S8 | small drop | ✓ |
 | S9 | tower drop | ✓ |
 | S10 | second guarded platform | ✓ |
+| S11 | tower middle entrance | ✓ |
 
 ## Room Transitions
 
@@ -30,7 +31,7 @@
 | YP | Yanarby Path | upper spike wheel | [Yarnaby Place (Wisp_03)](yarnaby-place.md) | R | none |  | Verified | ✓ |  |
 | GR | garmon room | lower spike wheel | [Greymoor Towers Patio (Greymoor_05)](greymoor-towers-patio.md) | ML | none |  | Verified | ✓ |  |
 | UR | upper right | whisp thicket entrance | [Greymoor Upper Towers Path (Greymoor_11)](greymoor-upper-towers-path.md) | U | none |  | Verified | ✓ |  |
-| T | Top | whisp thicket entrance | [Wisp Thicket Bench (Wisp_04)](../wisp-thicket/wisp-thicket-bench.md) | B | faydown cloak AND (silk soar OR cling grip left) |  | Verified | ✓ |  |
+| T | Top | whisp thicket entrance | [Wisp Thicket Bench (Wisp_04)](../wisp-thicket/wisp-thicket-bench.md) | B | prereq Faydown Cloak IN FayForn AND (silk soar OR (faydown cloak AND cling grip left)) |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -38,8 +39,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | PG1 | plartform gap 1 | lower section | first guarded platform | ledge grab right OR ledge grab left OR silk soar OR cling grip right OR cling grip left OR (proficient movement AND (progressive swift step 2 right OR (progressive swift step 2 left))) OR medium shaman pogo  OR easy beast needle strike OR faydown cloak |  | Verified | ✓ |  |
 | PG1 | plartform gap 1 | first guarded platform | lower section | none (just fall) |  | Verified | ✓ |  |
-| PG2 | platform gap 2 | middle section | lower spike wheel | ledge grab right OR silk soar OR cling grip right OR progressive swift step 1 right OR easy beast needle strike OR faydown cloak OR spike pogo OR clawline right x 1 |  | Verified | ✓ |  |
-| PG2 | platform gap 2 | lower spike wheel | middle section | none (just fall) |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | middle section | tower middle entrance | ledge grab right OR silk soar OR cling grip right OR progressive swift step 1 right OR easy beast needle strike OR faydown cloak OR spike pogo OR clawline right x 1 |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | tower middle entrance | middle section | none (just fall) |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | lower spike wheel | upper spike wheel | cling grip right OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | upper spike wheel | lower spike wheel | none (just fall) |  | Verified | ✓ |  |
 | F1 | fall 1 | upper spike wheel | tower top section | unlock top trapdoor AND ((ledge grab left OR ledge grab right) AND (faydown cloak OR spike pogo)) |  | Verified | ✓ |  |
@@ -52,8 +53,10 @@
 | PG5 | platform gap 5 | small drop | lower section | silk soar OR ledge grab left OR faydown cloak OR cling grip left OR medium pogo off mite |  | Verified | ✓ |  |
 | D | drop | whisp thicket entrance | tower drop | none |  | Verified | ✓ |  |
 | D | drop | tower drop | whisp thicket entrance | cling grip left OR faydown cloak OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
-| PG6 | platform gap 6 | first guarded platform | second guarded platform | faydown cloak OR easy scuttlebrace OR silk soar OR ((ledge grab right OR easy pogo off Silk Snipper OR cling grip right) AND (ledge grab left OR cling grip left)) |  | Verified | ✓ |  |
+| PG6 | platform gap 6 | first guarded platform | second guarded platform | faydown cloak OR easy scuttlebrace OR silk soar OR cling grip right OR ((ledge grab right OR easy pogo off Silk Snipper ) AND (ledge grab left OR cling grip left)) |  | Verified | ✓ |  |
 | PG6 | platform gap 6 | second guarded platform | first guarded platform | nothing |  | Verified | ✓ |  |
+| PG7 | platform gap 7 | tower middle entrance | lower spike wheel | proficient movement OR spike pogo OR progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR ledge grab left OR cling grip left OR easy [beast, wanderer, architect] needle strike OR easy [reaper] needle strike stall OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| PG7 | platform gap 7 | lower spike wheel | tower middle entrance | nothing |  | Verified | ✓ |  |
 
 ## Check Locations
 

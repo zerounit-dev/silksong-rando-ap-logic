@@ -48,7 +48,7 @@
 | 5 | Choral Chambers - Ventrica Basement Window's cleaning fees | Middle | none |  | Verified | collectible | ✓ | rosary cache |
 | 6 | Choral Chambers Below Ventrica - Lever | Middle | none |  | Verified | switch | ✓ |  |
 | 7 | Below Ventrica to Grand Gate | Bottom | Clear Breakable Floor Below Ventrica OR Clear Breakable Ceiling Gate Maintenance IN Grand Gate Maintenance Room |  | Verified | logic-point |  |  |
-| 8 | Breakable Floor Below Ventrica | Bottom | attack down |  | Verified | blockade | ✓ |  |
+| 8 | Breakable Floor Below Ventrica | Bottom | [hunter, wanderer, beast, witch, architect, reaper, shaman] attack down |  | Verified | blockade | ✓ | everything works but naked |
 | 9 | Choir Flyer 1 | Bottom | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
 | 10 | Choir Hornhead 1 | Middle | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
 | 11 | Choir Hornhead 2 | Bottom | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
