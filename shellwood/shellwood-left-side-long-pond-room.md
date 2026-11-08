@@ -10,22 +10,28 @@
 | --- | --- | --- |
 | S1 | Right Lake | ✓ |
 | S2 | Left Lake | ✓ |
+| S3 | Top Left | ✓ |
+| S4 | Shellgrave Plaform | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right Lake | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | LL | None |  | Verified | ✓ |  |
-| RC | top2 | Right Lake | [Shellgrave (Shellgrave)](shellgrave.md) | F | Ledge grab Left OR Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Easy pogo off pondcatcher OR Cling Grip Right OR Cling Grip Left |  | Verified | ✓ |  |
+| RC | top2 | Shellgrave Plaform | [Shellgrave (Shellgrave)](shellgrave.md) | F | None |  | Verified | ✓ |  |
 | L | left1 | Left Lake | [Shellwood Lower Toll bench (Shellwood_08c)](shellwood-lower-toll-bench.md) | R | Break Vines Left |  | Verified | ✓ |  |
-| LC | top1 | Left Lake | [shellwood Far Left Tall Room (Shellwood_04c)](shellwood-far-left-tall-room.md) | F | medium pogo off pondcatcher OR Cling grip Right OR Cling Grip Left OR Silk soar OR Faydown Cloak OR Easy Scuttlebrace |  | Verified | ✓ |  |
+| LC | top1 | Top Left | [shellwood Far Left Tall Room (Shellwood_04c)](shellwood-far-left-tall-room.md) | F | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PC | Pond Crossing | Left Lake | Right Lake | Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper ) |  | Verified | ✓ |  |
-| PC | Pond Crossing | Right Lake | Left Lake | Swim OR Clawline left OR ( Sprint left AND Drifters Cloak ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper ) |  | Verified | ✓ |  |
+| PC | Pond Crossing | Left Lake | Right Lake | ((Act 1 OR Act 2 ) AND ( Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper ) OR ( Faydown Cloak AND Hard pogo off pondcatcher ) ) )OR ( ACT 3 AND ( ( Swim AND ( Ledge grab Right OR Cling grip Right OR Faydown Cloak OR Easy flea brew stall OR easy plasmium stall OR easy delvers drill stall OR easy voltvessels stall OR Clawline Right OR Easy heal stall OR easy rune rage stall OR easy thread storm stall OR easy cross stitch stall OR sharpdart OR Easy silkspear stall OR easy shaman pogo OR Easy beast pogo OR Medium hunter pogo (You literally just clip up the ledge when pogoing????) OR medium reaper pogo OR medium pogo off pond skipper OR medium pogo off pondcatcher OR medium naked pogo ) ) OR ( Faydown Cloak AND Drifters Cloak AND Clawline Right AND Medium pogo off pond skipper ) ) ) |  | Verified | ✓ |  |
+| PC | Pond Crossing | Right Lake | Left Lake | ( ( ACT 1 OR ACT 2 ) AND ( Swim OR Clawline left OR ( Sprint left AND ( Drifters Cloak OR ( Dash left AND medium shaman pogo ) ) ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper ) ) ) OR ( ACT 3 AND ( Swim OR ( Faydown Cloak AND Drifters Cloak AND Clawline Left AND Medium pogo off pond skipper ) ) ) |  | Verified | ✓ |  |
+| TL | Top Left | Top Left | Left Lake | None |  | Verified | ✓ |  |
+| TL | Top Left | Left Lake | Top Left | Cling grip either OR Scuttlebrace OR Faydown CLoak OR Medium pogo off pondcatcher OR Silk Soar |  | Verified | ✓ |  |
+| TR | Top Right | Shellgrave Plaform | Right Lake | None |  | Verified | ✓ |  |
+| TR | Top Right | Right Lake | Shellgrave Plaform | Ledge grab either OR Cling grip either OR Faydown Cloak OR Medium pogo off pondcatcher |  | Verified | ✓ |  |
 
 ## Check Locations
 

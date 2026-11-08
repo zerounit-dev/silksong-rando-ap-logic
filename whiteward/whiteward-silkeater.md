@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | White Ward: Silkeater |  | Cling Grip either OR Scuttlebrace OR Silk Soar OR (Faydown AND (easy hazard respawn OR Ledge Grab left)) |  | Verified | collectible | ✓ |  |
+| 1 | White Ward: Silkeater |  | Cling Grip right OR easy Scuttlebrace OR Silk Soar OR (Faydown AND (cling grip left OR Ledge Grab left OR easy [hunter,wanderer,reaper,beast,architect,witch,shaman] pogo OR easy naked pogo)) |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

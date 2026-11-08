@@ -27,6 +27,7 @@
 | S17 | verdania ledge | ✓ |
 | S18 | stupid space behind stupid wall | ✓ |
 | S19 | flea room upper | ✓ |
+| S20 | spike room lower entrance | ✓ |
 
 ## Room Transitions
 
@@ -65,10 +66,10 @@
 | D3 | drop 3 | craw building roof | middle craw nest | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | D4 | drop 4 | small ass platform | middle craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | D4 | drop 4 | middle craw nest | small ass platform | clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR faydown cloak OR drifters cloak OR (progressive swift step 1 left AND (ledge grab left OR flea brew OR silkspeed anklets)) |  | Verified | ✓ |  |
-| H | hatch | lower flea room | flea room middle | prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either)) |  | Verified | ✓ |  |
+| H | hatch | lower flea room | flea room middle | prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either) AND ([hunter, wanderer, reaper, beast, architect, witch, shaman] needle right OR easy [hunter, wanderer, reaper, beast, architect, witch, shaman] needle strike)) |  | Verified | ✓ |  |
 | H | hatch | flea room middle | lower flea room | prereq flea airlock |  | Verified | ✓ |  |
-| SL | spike lower | spiked room | upper craw nest | prereq spike room lever AND (clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1)) |  | Verified | ✓ |  |
-| SL | spike lower | upper craw nest | spiked room | ((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever |  | Verified | ✓ |  |
+| SL | spike lower | spike room lower entrance | upper craw nest | clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1) |  | Verified | ✓ |  |
+| SL | spike lower | upper craw nest | spike room lower entrance | ((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever |  | Verified | ✓ |  |
 | SU | spike upper | spiked room | left top craw nest | (proficient movement AND spike pogo) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | SU | spike upper | left top craw nest | spiked room | none |  | Verified | ✓ |  |
 | F1 | fall 1 | left top craw nest | upper craw nest | none (just fall) |  | Verified | ✓ |  |
@@ -76,8 +77,8 @@
 | F2 | fall 2 | right top craw nest | stupid platform i hate | nothing (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | stupid platform i hate | right top craw nest | silk soar OR (prereq balloon lever IN greymoor craw nest AND faydown cloak AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
 | F3 | fall 3 | right top craw nest | upper craw nest | drifters cloak OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR (flea brew AND ledge grab left) |  | Verified | ✓ |  |
-| F4 | fall 4 | spiked room | middle craw nest left | prereq spike room lever |  | Verified | ✓ |  |
-| F4 | fall 4 | middle craw nest left | spiked room | (prereq balloon lever IN greymoor craw nest OR silk soar) AND prereq spike room lever |  | Verified | ✓ |  |
+| F4 | fall 4 | spike room lower entrance | middle craw nest left | nothing |  | Verified | ✓ |  |
+| F4 | fall 4 | middle craw nest left | spike room lower entrance | prereq balloon lever IN greymoor craw nest OR silk soar |  | Verified | ✓ |  |
 | FF | free fall | lil top | right top craw nest | nothing (just fall) |  | Verified | ✓ |  |
 | FF | free fall | right top craw nest | lil top | silk soar |  | Verified | ✓ |  |
 | BG | balloon gap | left top craw nest | lil top | prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
@@ -110,6 +111,10 @@
 | SR | stupid room | stupid space behind stupid wall | verdania ledge | ACT 3 AND have Simple Key Green Prince AND activate Bellshrine Enclave - Lever IN bellshrine-enclave AND defeat Cogwork Dancers Boss Fight IN cog dancers |  | Verified | ✓ | Missing: green prince talk in cog dancers room |
 | FS | flea shaft | flea room middle | flea room upper | cling grip right OR scuttlebrace OR silk soar OR ((faydown cloak OR easy [hunter, shaman, reaper, wanderer, beast, architect] pogo) AND cling grip left) |  | Verified | ✓ |  |
 | FS | flea shaft | flea room upper | flea room middle | nothing |  | Verified | ✓ |  |
+| SMD | spike metal door | spiked room | spike room lower entrance | clear spike room lever |  | Verified | ✓ |  |
+| SMD | spike metal door | spike room lower entrance | spiked room | clear spike room lever |  | Verified | ✓ |  |
+| GL | geo leap | stupid platform i hate | spike room lower entrance | (faydown cloak AND ((((sharpdart x 2 OR clawline left x 2) AND (progressive swift step 1 OR ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR (drifters cloak AND ledge grab left))) OR (sharpdart x 1 AND progressive swift step 2 AND ledge grab left))) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| GL | geo leap | spike room lower entrance | stupid platform i hate | (((clawline right x 1 OR sharpdart x 1) AND (drifters cloak OR progressive swift step 2 right))) OR (drifters cloak AND (progressive swift step 2 right OR (faydown cloak AND ledge grab))) OR clawline right x 2 OR sharpdart x 2  OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 
 ## Check Locations
 

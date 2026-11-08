@@ -80543,8 +80543,13 @@
       "notes": "",
       "nodes": [
         {
-          "id": "shellwood/shellgrave#room",
-          "name": "room",
+          "id": "shellwood/shellgrave#upper",
+          "name": "Upper",
+          "notes": ""
+        },
+        {
+          "id": "shellwood/shellgrave#lower",
+          "name": "Lower",
           "notes": ""
         }
       ],
@@ -80555,7 +80560,7 @@
           "name": "bot1",
           "in_game_id": "bot1",
           "is_unsafe_arrival": false,
-          "source_node_id": "shellwood/shellgrave#room",
+          "source_node_id": "shellwood/shellgrave#lower",
           "target": "shellwood/shellwood-left-side-long-pond-room@rc",
           "requirement": {
             "raw": "None",
@@ -80572,15 +80577,88 @@
           "unresolved_reasons": []
         }
       ],
-      "connections": [],
-      "locations": [
+      "connections": [
         {
-          "id": "location:shellwood/shellgrave::resource/rosary-cache",
-          "name": "Rosary Cache",
-          "in_game_id": null,
-          "location_type": "resource",
-          "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "id": "shellwood/shellgrave#lower>upper@lg",
+          "alias": "LG",
+          "name": "Damn Ledge Grab Rando",
+          "source_node_id": "shellwood/shellgrave#lower",
+          "target_node_id": "shellwood/shellgrave#upper",
+          "requirement": {
+            "raw": "Ledge grab left OR cling grip left OR Scuttlebrace OR Faydown Cloak OR silk Soar OR Easy Beast Charge OR Easy shaman pogo OR Easy silkspear stall OR easy plasmium stall OR easy voltvessels stall OR easy delvers drill stall OR easy beast crest heal stall OR ( Easy pogo off rosary pilgrim AND ( Have tool: straight pin OR Have Tool: threefold pin OR Have Tool: Throwing Ring OR Have Tool: Conchcutter OR Have Tool: Cogwork Wheel ) )",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:stall:silkspear:easy:1"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "capability:stall:delvers-drill:easy:1"
+              ],
+              [
+                "capability:bind-stall:beast:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Rosary Pilgrim:easy",
+                "item:tool-straight-pin"
+              ],
+              [
+                "capability:enemy-type-pogo:Rosary Pilgrim:easy",
+                "item:tool-threefold-pin"
+              ],
+              [
+                "capability:enemy-type-pogo:Rosary Pilgrim:easy",
+                "item:tool-throwing-ring"
+              ],
+              [
+                "capability:enemy-type-pogo:Rosary Pilgrim:easy",
+                "item:tool-conchcutter"
+              ],
+              [
+                "capability:enemy-type-pogo:Rosary Pilgrim:easy",
+                "item:tool-cogwork-wheel"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "shellwood/shellgrave#upper>lower@lg",
+          "alias": "LG",
+          "name": "Damn Ledge Grab Rando",
+          "source_node_id": "shellwood/shellgrave#upper",
+          "target_node_id": "shellwood/shellgrave#lower",
           "requirement": {
             "raw": "None",
             "mode": "none",
@@ -80589,7 +80667,30 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Not included no id",
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
+      "locations": [
+        {
+          "id": "location:shellwood/shellgrave::resource/rosary-cross",
+          "name": "Rosary Cross",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "shellwood/shellgrave#upper",
+          "requirement": {
+            "raw": "None",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Not included no id\nfinally getting included? pycl - 8/11 ",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -80601,7 +80702,7 @@
           "in_game_id": null,
           "location_type": "event",
           "has_persisted_state": true,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "ACT 3",
             "mode": "expression",
@@ -80612,7 +80713,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Plinney comes here upon starting act and starts an encounter",
+          "notes": "Plinney comes here upon starting act 3 and starts an encounter",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -80624,7 +80725,7 @@
           "in_game_id": "Pilgrim BellThrower (1)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80647,7 +80748,7 @@
           "in_game_id": "Pilgrim StaffWielder",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80670,7 +80771,7 @@
           "in_game_id": "Rosary Pilgrim",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80693,7 +80794,7 @@
           "in_game_id": "Pilgrim 03 (1)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80716,7 +80817,7 @@
           "in_game_id": "Pilgrim 01",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80739,7 +80840,7 @@
           "in_game_id": "Pilgrim 01",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80762,7 +80863,7 @@
           "in_game_id": "Pilgrim BellThrower",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80785,7 +80886,7 @@
           "in_game_id": "Pilgrim 02",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80808,7 +80909,7 @@
           "in_game_id": "Pilgrim 03",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80831,7 +80932,7 @@
           "in_game_id": "Pilgrim 02",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80854,7 +80955,7 @@
           "in_game_id": "Pilgrim StaffWielder",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80877,7 +80978,7 @@
           "in_game_id": "Pilgrim 02 (1)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "Prereq save plinney",
             "mode": "expression",
@@ -80900,7 +81001,7 @@
           "in_game_id": null,
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "shellwood/shellgrave#room",
+          "node_id": "shellwood/shellgrave#upper",
           "requirement": {
             "raw": "None",
             "mode": "none",
@@ -84345,6 +84446,16 @@
           "id": "shellwood/shellwood-left-side-long-pond-room#left-lake",
           "name": "Left Lake",
           "notes": ""
+        },
+        {
+          "id": "shellwood/shellwood-left-side-long-pond-room#top-left",
+          "name": "Top Left",
+          "notes": ""
+        },
+        {
+          "id": "shellwood/shellwood-left-side-long-pond-room#shellgrave-plaform",
+          "name": "Shellgrave Plaform",
+          "notes": ""
         }
       ],
       "transitions": [
@@ -84376,33 +84487,13 @@
           "name": "top2",
           "in_game_id": "top2",
           "is_unsafe_arrival": false,
-          "source_node_id": "shellwood/shellwood-left-side-long-pond-room#right-lake",
+          "source_node_id": "shellwood/shellwood-left-side-long-pond-room#shellgrave-plaform",
           "target": "shellwood/shellgrave@f",
           "requirement": {
-            "raw": "Ledge grab Left OR Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Easy pogo off pondcatcher OR Cling Grip Right OR Cling Grip Left",
-            "mode": "expression",
+            "raw": "None",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:ledge-grab:left"
-              ],
-              [
-                "capability:ledge-grab:right"
-              ],
-              [
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:silk-soar"
-              ],
-              [
-                "capability:enemy-type-pogo:Pilgrim Fisher:easy"
-              ],
-              [
-                "capability:cling-grip:right"
-              ],
-              [
-                "capability:cling-grip:left"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -84442,30 +84533,13 @@
           "name": "top1",
           "in_game_id": "top1",
           "is_unsafe_arrival": false,
-          "source_node_id": "shellwood/shellwood-left-side-long-pond-room#left-lake",
+          "source_node_id": "shellwood/shellwood-left-side-long-pond-room#top-left",
           "target": "shellwood/shellwood-far-left-tall-room@f",
           "requirement": {
-            "raw": "medium pogo off pondcatcher OR Cling grip Right OR Cling Grip Left OR Silk soar OR Faydown Cloak OR Easy Scuttlebrace",
-            "mode": "expression",
+            "raw": "None",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:enemy-type-pogo:Pilgrim Fisher:medium"
-              ],
-              [
-                "capability:cling-grip:right"
-              ],
-              [
-                "capability:cling-grip:left"
-              ],
-              [
-                "capability:silk-soar"
-              ],
-              [
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:scuttlebrace:easy"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -84484,26 +84558,176 @@
           "source_node_id": "shellwood/shellwood-left-side-long-pond-room#left-lake",
           "target_node_id": "shellwood/shellwood-left-side-long-pond-room#right-lake",
           "requirement": {
-            "raw": "Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper )",
+            "raw": "((Act 1 OR Act 2 ) AND ( Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper ) OR ( Faydown Cloak AND Hard pogo off pondcatcher ) ) )OR ( ACT 3 AND ( ( Swim AND ( Ledge grab Right OR Cling grip Right OR Faydown Cloak OR Easy flea brew stall OR easy plasmium stall OR easy delvers drill stall OR easy voltvessels stall OR Clawline Right OR Easy heal stall OR easy rune rage stall OR easy thread storm stall OR easy cross stitch stall OR sharpdart OR Easy silkspear stall OR easy shaman pogo OR Easy beast pogo OR Medium hunter pogo (You literally just clip up the ledge when pogoing????) OR medium reaper pogo OR medium pogo off pond skipper OR medium pogo off pondcatcher OR medium naked pogo ) ) OR ( Faydown Cloak AND Drifters Cloak AND Clawline Right AND Medium pogo off pond skipper ) ) )",
             "mode": "expression",
             "dnf": [
               [
+                "state:act-1",
                 "capability:swim"
               ],
               [
+                "state:act-1",
                 "capability:clawline:right:1"
               ],
               [
+                "state:act-1",
                 "capability:sprint:right",
                 "capability:drifters-cloak"
               ],
               [
+                "state:act-1",
                 "capability:faydown-cloak",
                 "capability:enemy-type-pogo:Pond Skater:easy"
               ],
               [
+                "state:act-1",
                 "capability:drifters-cloak",
                 "capability:enemy-type-pogo:Pond Skater:easy"
+              ],
+              [
+                "state:act-1",
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim Fisher:hard"
+              ],
+              [
+                "state:act-2",
+                "capability:swim"
+              ],
+              [
+                "state:act-2",
+                "capability:clawline:right:1"
+              ],
+              [
+                "state:act-2",
+                "capability:sprint:right",
+                "capability:drifters-cloak"
+              ],
+              [
+                "state:act-2",
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pond Skater:easy"
+              ],
+              [
+                "state:act-2",
+                "capability:drifters-cloak",
+                "capability:enemy-type-pogo:Pond Skater:easy"
+              ],
+              [
+                "state:act-2",
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim Fisher:hard"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:cling-grip:right"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:faydown-cloak"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:delvers-drill:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:clawline:right:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:heal:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:rune-rage:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:thread-storm:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:cross-stitch:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:sharpdart:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:stall:silkspear:easy:1"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:crest-pogo:hunter:medium"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:crest-pogo:reaper:medium"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:enemy-type-pogo:Pond Skater:medium"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:enemy-type-pogo:Pilgrim Fisher:medium"
+              ],
+              [
+                "state:act-3",
+                "capability:swim",
+                "capability:naked-pogo:medium"
+              ],
+              [
+                "state:act-3",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak",
+                "capability:clawline:right:1",
+                "capability:enemy-type-pogo:Pond Skater:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -84521,26 +84745,182 @@
           "source_node_id": "shellwood/shellwood-left-side-long-pond-room#right-lake",
           "target_node_id": "shellwood/shellwood-left-side-long-pond-room#left-lake",
           "requirement": {
-            "raw": "Swim OR Clawline left OR ( Sprint left AND Drifters Cloak ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper )",
+            "raw": "( ( ACT 1 OR ACT 2 ) AND ( Swim OR Clawline left OR ( Sprint left AND ( Drifters Cloak OR ( Dash left AND medium shaman pogo ) ) ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper ) ) ) OR ( ACT 3 AND ( Swim OR ( Faydown Cloak AND Drifters Cloak AND Clawline Left AND Medium pogo off pond skipper ) ) )",
             "mode": "expression",
             "dnf": [
               [
+                "state:act-1",
                 "capability:swim"
               ],
               [
+                "state:act-1",
                 "capability:clawline:left:1"
               ],
               [
+                "state:act-1",
                 "capability:sprint:left",
                 "capability:drifters-cloak"
               ],
               [
+                "state:act-1",
+                "capability:sprint:left",
+                "capability:dash:left",
+                "capability:crest-pogo:shaman:medium"
+              ],
+              [
+                "state:act-1",
                 "capability:faydown-cloak",
                 "capability:enemy-type-pogo:Pond Skater:easy"
               ],
               [
+                "state:act-1",
                 "capability:drifters-cloak",
                 "capability:enemy-type-pogo:Pond Skater:easy"
+              ],
+              [
+                "state:act-2",
+                "capability:swim"
+              ],
+              [
+                "state:act-2",
+                "capability:clawline:left:1"
+              ],
+              [
+                "state:act-2",
+                "capability:sprint:left",
+                "capability:drifters-cloak"
+              ],
+              [
+                "state:act-2",
+                "capability:sprint:left",
+                "capability:dash:left",
+                "capability:crest-pogo:shaman:medium"
+              ],
+              [
+                "state:act-2",
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pond Skater:easy"
+              ],
+              [
+                "state:act-2",
+                "capability:drifters-cloak",
+                "capability:enemy-type-pogo:Pond Skater:easy"
+              ],
+              [
+                "state:act-3",
+                "capability:swim"
+              ],
+              [
+                "state:act-3",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak",
+                "capability:clawline:left:1",
+                "capability:enemy-type-pogo:Pond Skater:medium"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "shellwood/shellwood-left-side-long-pond-room#top-left>left-lake@tl",
+          "alias": "TL",
+          "name": "Top Left",
+          "source_node_id": "shellwood/shellwood-left-side-long-pond-room#top-left",
+          "target_node_id": "shellwood/shellwood-left-side-long-pond-room#left-lake",
+          "requirement": {
+            "raw": "None",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "shellwood/shellwood-left-side-long-pond-room#left-lake>top-left@tl",
+          "alias": "TL",
+          "name": "Top Left",
+          "source_node_id": "shellwood/shellwood-left-side-long-pond-room#left-lake",
+          "target_node_id": "shellwood/shellwood-left-side-long-pond-room#top-left",
+          "requirement": {
+            "raw": "Cling grip either OR Scuttlebrace OR Faydown CLoak OR Medium pogo off pondcatcher OR Silk Soar",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim Fisher:medium"
+              ],
+              [
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "shellwood/shellwood-left-side-long-pond-room#shellgrave-plaform>right-lake@tr",
+          "alias": "TR",
+          "name": "Top Right",
+          "source_node_id": "shellwood/shellwood-left-side-long-pond-room#shellgrave-plaform",
+          "target_node_id": "shellwood/shellwood-left-side-long-pond-room#right-lake",
+          "requirement": {
+            "raw": "None",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "shellwood/shellwood-left-side-long-pond-room#right-lake>shellgrave-plaform@tr",
+          "alias": "TR",
+          "name": "Top Right",
+          "source_node_id": "shellwood/shellwood-left-side-long-pond-room#right-lake",
+          "target_node_id": "shellwood/shellwood-left-side-long-pond-room#shellgrave-plaform",
+          "requirement": {
+            "raw": "Ledge grab either OR Cling grip either OR Faydown Cloak OR Medium pogo off pondcatcher",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:ledge-grab:either"
+              ],
+              [
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim Fisher:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -96081,6 +96461,11 @@
           "id": "greymoor/greymoor-craw-lake#flea-room-upper",
           "name": "flea room upper",
           "notes": ""
+        },
+        {
+          "id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
+          "name": "spike room lower entrance",
+          "notes": ""
         }
       ],
       "transitions": [
@@ -97160,7 +97545,7 @@
           "source_node_id": "greymoor/greymoor-craw-lake#lower-flea-room",
           "target_node_id": "greymoor/greymoor-craw-lake#flea-room-middle",
           "requirement": {
-            "raw": "prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either))",
+            "raw": "prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either) AND ([hunter, wanderer, reaper, beast, architect, witch, shaman] needle right OR easy [hunter, wanderer, reaper, beast, architect, witch, shaman] needle strike))",
             "mode": "expression",
             "dnf": [
               [
@@ -97173,15 +97558,213 @@
               ],
               [
                 "setting:elite-ball-knowledge-on",
-                "capability:faydown-cloak"
+                "capability:faydown-cloak",
+                "capability:needle:hunter:right"
               ],
               [
                 "setting:elite-ball-knowledge-on",
-                "capability:ledge-grab:either"
+                "capability:faydown-cloak",
+                "capability:needle:wanderer:right"
               ],
               [
                 "setting:elite-ball-knowledge-on",
-                "capability:cling-grip:either"
+                "capability:faydown-cloak",
+                "capability:needle:reaper:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle:beast:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle:architect:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle:witch:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle:shaman:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle-strike:hunter:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle-strike:wanderer:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle-strike:reaper:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle-strike:architect:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle-strike:witch:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:faydown-cloak",
+                "capability:needle-strike:shaman:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle:hunter:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle:wanderer:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle:reaper:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle:beast:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle:architect:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle:witch:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle:shaman:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle-strike:hunter:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle-strike:wanderer:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle-strike:reaper:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle-strike:architect:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle-strike:witch:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:ledge-grab:either",
+                "capability:needle-strike:shaman:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle:hunter:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle:wanderer:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle:reaper:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle:beast:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle:architect:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle:witch:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle:shaman:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle-strike:hunter:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle-strike:wanderer:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle-strike:reaper:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle-strike:architect:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle-strike:witch:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:cling-grip:either",
+                "capability:needle-strike:shaman:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -97215,23 +97798,21 @@
           "unresolved_reasons": []
         },
         {
-          "id": "greymoor/greymoor-craw-lake#spiked-room>upper-craw-nest@sl",
+          "id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance>upper-craw-nest@sl",
           "alias": "SL",
           "name": "spike lower",
-          "source_node_id": "greymoor/greymoor-craw-lake#spiked-room",
+          "source_node_id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
           "target_node_id": "greymoor/greymoor-craw-lake#upper-craw-nest",
           "requirement": {
-            "raw": "prereq spike room lever AND (clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1))",
+            "raw": "clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1)",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:greymoor/greymoor-craw-lake::switch/spike-room-lever",
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
                 "capability:ledge-grab:left"
               ],
               [
-                "dependency:location:greymoor/greymoor-craw-lake::switch/spike-room-lever",
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
                 "capability:sprint:none"
@@ -97246,11 +97827,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "greymoor/greymoor-craw-lake#upper-craw-nest>spiked-room@sl",
+          "id": "greymoor/greymoor-craw-lake#upper-craw-nest>spike-room-lower-entrance@sl",
           "alias": "SL",
           "name": "spike lower",
           "source_node_id": "greymoor/greymoor-craw-lake#upper-craw-nest",
-          "target_node_id": "greymoor/greymoor-craw-lake#spiked-room",
+          "target_node_id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
           "requirement": {
             "raw": "((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever ",
             "mode": "expression",
@@ -97508,18 +98089,16 @@
           "unresolved_reasons": []
         },
         {
-          "id": "greymoor/greymoor-craw-lake#spiked-room>middle-craw-nest-left@f4",
+          "id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance>middle-craw-nest-left@f4",
           "alias": "F4",
           "name": "fall 4",
-          "source_node_id": "greymoor/greymoor-craw-lake#spiked-room",
+          "source_node_id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
           "target_node_id": "greymoor/greymoor-craw-lake#middle-craw-nest-left",
           "requirement": {
-            "raw": "prereq spike room lever",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:greymoor/greymoor-craw-lake::switch/spike-room-lever"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -97530,22 +98109,20 @@
           "unresolved_reasons": []
         },
         {
-          "id": "greymoor/greymoor-craw-lake#middle-craw-nest-left>spiked-room@f4",
+          "id": "greymoor/greymoor-craw-lake#middle-craw-nest-left>spike-room-lower-entrance@f4",
           "alias": "F4",
           "name": "fall 4",
           "source_node_id": "greymoor/greymoor-craw-lake#middle-craw-nest-left",
-          "target_node_id": "greymoor/greymoor-craw-lake#spiked-room",
+          "target_node_id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
           "requirement": {
-            "raw": "(prereq balloon lever IN greymoor craw nest OR silk soar) AND prereq spike room lever ",
+            "raw": "prereq balloon lever IN greymoor craw nest OR silk soar ",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:greymoor/greymoor-craw-nest::switch/balloon-lever",
-                "dependency:location:greymoor/greymoor-craw-lake::switch/spike-room-lever"
+                "dependency:location:greymoor/greymoor-craw-nest::switch/balloon-lever"
               ],
               [
-                "capability:silk-soar",
-                "dependency:location:greymoor/greymoor-craw-lake::switch/spike-room-lever"
+                "capability:silk-soar"
               ]
             ],
             "unresolved_reasons": []
@@ -98981,6 +99558,162 @@
             "mode": "none",
             "dnf": [
               []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "greymoor/greymoor-craw-lake#spiked-room>spike-room-lower-entrance@smd",
+          "alias": "SMD",
+          "name": "spike metal door",
+          "source_node_id": "greymoor/greymoor-craw-lake#spiked-room",
+          "target_node_id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
+          "requirement": {
+            "raw": "clear spike room lever",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:greymoor/greymoor-craw-lake::switch/spike-room-lever"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance>spiked-room@smd",
+          "alias": "SMD",
+          "name": "spike metal door",
+          "source_node_id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
+          "target_node_id": "greymoor/greymoor-craw-lake#spiked-room",
+          "requirement": {
+            "raw": "clear spike room lever",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:greymoor/greymoor-craw-lake::switch/spike-room-lever"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "greymoor/greymoor-craw-lake#stupid-platform-i-hate>spike-room-lower-entrance@gl",
+          "alias": "GL",
+          "name": "geo leap",
+          "source_node_id": "greymoor/greymoor-craw-lake#stupid-platform-i-hate",
+          "target_node_id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
+          "requirement": {
+            "raw": "(faydown cloak AND ((((sharpdart x 2 OR clawline left x 2) AND (progressive swift step 1 OR ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR (drifters cloak AND ledge grab left))) OR (sharpdart x 1 AND progressive swift step 2 AND ledge grab left))) OR prereq balloon lever IN greymoor craw nest",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:faydown-cloak",
+                "capability:sharpdart:2",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sharpdart:2",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:clawline:left:2",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:clawline:left:2",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:clawline:left:1",
+                "capability:dash:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:clawline:left:1",
+                "capability:drifters-cloak",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sharpdart:1",
+                "capability:dash:none",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "dependency:location:greymoor/greymoor-craw-nest::switch/balloon-lever"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance>stupid-platform-i-hate@gl",
+          "alias": "GL",
+          "name": "geo leap",
+          "source_node_id": "greymoor/greymoor-craw-lake#spike-room-lower-entrance",
+          "target_node_id": "greymoor/greymoor-craw-lake#stupid-platform-i-hate",
+          "requirement": {
+            "raw": "(((clawline right x 1 OR sharpdart x 1) AND (drifters cloak OR progressive swift step 2 right))) OR (drifters cloak AND (progressive swift step 2 right OR (faydown cloak AND ledge grab))) OR clawline right x 2 OR sharpdart x 2  OR prereq balloon lever IN greymoor craw nest",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:right:1",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:clawline:right:1",
+                "capability:dash:right"
+              ],
+              [
+                "capability:sharpdart:1",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:sharpdart:1",
+                "capability:dash:right"
+              ],
+              [
+                "capability:drifters-cloak",
+                "capability:dash:right"
+              ],
+              [
+                "capability:drifters-cloak",
+                "capability:faydown-cloak",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:clawline:right:2"
+              ],
+              [
+                "capability:sharpdart:2"
+              ],
+              [
+                "dependency:location:greymoor/greymoor-craw-nest::switch/balloon-lever"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -193925,11 +194658,11 @@
           "source_node_id": "whiteward/whiteward-entrance#middle-third-right",
           "target": "whiteward/whiteward-silkeater@l",
           "requirement": {
-            "raw": "Break Wall right",
+            "raw": "clear Whiteward Entrance Wall ",
             "mode": "expression",
             "dnf": [
               [
-                "capability:break-wall:right"
+                "dependency:location:whiteward/whiteward-entrance::blockade/whiteward-entrance-wall"
               ]
             ],
             "unresolved_reasons": []
@@ -194081,14 +194814,14 @@
           "source_node_id": "whiteward/whiteward-entrance#middle-third-left",
           "target_node_id": "whiteward/whiteward-entrance#middle-third-right",
           "requirement": {
-            "raw": "activate Switch Entrance Left OR activate Switch Entrance Right",
+            "raw": "activate Whiteward - Switch Entrance Left OR activate Whiteward - Switch Entrance Right",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-left"
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-left"
               ],
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-right"
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-right"
               ]
             ],
             "unresolved_reasons": []
@@ -194146,65 +194879,42 @@
           "source_node_id": "whiteward/whiteward-entrance#vertical-shaft-lower",
           "target_node_id": "whiteward/whiteward-entrance#middle-third-right",
           "requirement": {
-            "raw": "Cling Grip right OR (Scuttlebrace AND (easy shaman pogo OR Medium Flea Brew Stall OR Medium Heal Stall OR Faydown)) OR Silk Soar OR (cling grip left AND faydown cloak AND (sharpdart OR clawline right OR rune rage OR easy heal stall OR easy plasmium stall OR easy flea brew stall OR easy flintslate stall ))",
+            "raw": "Cling Grip right OR (easy Scuttlebrace AND (easy shaman pogo OR hard [ Heal, rune rage] Stall OR Faydown OR easy flea brew stall OR easy beast crest heal stall )) OR Silk Soar OR (cling grip left AND faydown cloak)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:right"
               ],
               [
-                "capability:scuttlebrace:none",
+                "capability:scuttlebrace:easy",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "capability:scuttlebrace:none",
-                "capability:stall:flea-brew:medium:1"
+                "capability:scuttlebrace:easy",
+                "capability:stall:heal:hard:1"
               ],
               [
-                "capability:scuttlebrace:none",
-                "capability:stall:heal:medium:1"
+                "capability:scuttlebrace:easy",
+                "capability:stall:rune-rage:hard:1"
               ],
               [
-                "capability:scuttlebrace:none",
+                "capability:scuttlebrace:easy",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:bind-stall:beast:easy"
               ],
               [
                 "capability:silk-soar"
               ],
               [
                 "capability:cling-grip:left",
-                "capability:faydown-cloak",
-                "capability:sharpdart:1"
-              ],
-              [
-                "capability:cling-grip:left",
-                "capability:faydown-cloak",
-                "capability:clawline:right:1"
-              ],
-              [
-                "capability:cling-grip:left",
-                "capability:faydown-cloak",
-                "capability:rune-rage"
-              ],
-              [
-                "capability:cling-grip:left",
-                "capability:faydown-cloak",
-                "capability:stall:heal:easy:1"
-              ],
-              [
-                "capability:cling-grip:left",
-                "capability:faydown-cloak",
-                "capability:stall:plasmium-phial:easy:1"
-              ],
-              [
-                "capability:cling-grip:left",
-                "capability:faydown-cloak",
-                "capability:stall:flea-brew:easy:1"
-              ],
-              [
-                "capability:cling-grip:left",
-                "capability:faydown-cloak",
-                "capability:stall:flintslate:easy:1"
+                "capability:faydown-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -194222,7 +194932,7 @@
           "source_node_id": "whiteward/whiteward-entrance#middle-third-right",
           "target_node_id": "whiteward/whiteward-entrance#vertical-shaft-upper",
           "requirement": {
-            "raw": "Silk Soar OR (Faydown AND Cling Grip either AND (Proficient Movement OR rune rage OR easy flea brew stall OR easy plasmium stall OR easy flintslate stall ))",
+            "raw": "Silk Soar OR (Faydown AND Cling Grip either AND (Proficient Movement OR medium [rune rage,heal, flea brew,thread storm,pale nails,parry] stall ))",
             "mode": "expression",
             "dnf": [
               [
@@ -194236,22 +194946,32 @@
               [
                 "capability:faydown-cloak",
                 "capability:cling-grip:either",
-                "capability:rune-rage"
+                "capability:stall:rune-rage:medium:1"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:cling-grip:either",
-                "capability:stall:flea-brew:easy:1"
+                "capability:stall:heal:medium:1"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:cling-grip:either",
-                "capability:stall:plasmium-phial:easy:1"
+                "capability:stall:flea-brew:medium:1"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:cling-grip:either",
-                "capability:stall:flintslate:easy:1"
+                "capability:stall:thread-storm:medium:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:either",
+                "capability:stall:pale-nails:medium:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:either",
+                "capability:stall:cross-stitch:medium:1"
               ]
             ],
             "unresolved_reasons": []
@@ -194289,16 +195009,16 @@
           "source_node_id": "whiteward/whiteward-entrance#elevator-shaft",
           "target_node_id": "whiteward/whiteward-entrance#pit",
           "requirement": {
-            "raw": "(Have white key AND ((activate Switch Entrance Left OR  activate Switch Entrance right) OR (clawline either AND elite ball knowledge))) \nOR prereq Entrance Randomizer Bottom Third Left Access",
+            "raw": "(Have white key AND ((activate Whiteward - Switch Entrance Left OR  activate Whiteward - Switch Entrance right) OR (clawline either AND elite ball knowledge))) \nOR prereq Entrance Randomizer Bottom Third Left Access",
             "mode": "expression",
             "dnf": [
               [
                 "item:white-key",
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-left"
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-left"
               ],
               [
                 "item:white-key",
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-right"
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-right"
               ],
               [
                 "item:white-key",
@@ -194324,14 +195044,14 @@
           "source_node_id": "whiteward/whiteward-entrance#pit",
           "target_node_id": "whiteward/whiteward-entrance#elevator-shaft",
           "requirement": {
-            "raw": "Cling Grip right OR Scuttlebrace OR Silk Soar OR (faydown cloak AND cling grip left)",
+            "raw": "Cling Grip right OR easy Scuttlebrace OR Silk Soar OR (faydown cloak AND cling grip left)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:right"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:silk-soar"
@@ -194356,43 +195076,43 @@
           "source_node_id": "whiteward/whiteward-entrance#bottom-third-left",
           "target_node_id": "whiteward/whiteward-entrance#middle-third-left",
           "requirement": {
-            "raw": "(activate Switch Entrance Left OR activate Switch Entrance right) AND (cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left)) OR silk soar)",
+            "raw": "(activate Whiteward - Switch Entrance Left OR activate Whiteward - Switch Entrance right) AND (cling grip right OR (faydown cloak AND (easy scuttlebrace OR cling grip left)) OR silk soar)",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-left",
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-left",
                 "capability:cling-grip:right"
               ],
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-left",
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-left",
                 "capability:faydown-cloak",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-left",
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-left",
                 "capability:faydown-cloak",
                 "capability:cling-grip:left"
               ],
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-left",
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-left",
                 "capability:silk-soar"
               ],
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-right",
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-right",
                 "capability:cling-grip:right"
               ],
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-right",
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-right",
                 "capability:faydown-cloak",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-right",
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-right",
                 "capability:faydown-cloak",
                 "capability:cling-grip:left"
               ],
               [
-                "dependency:location:whiteward/whiteward-entrance::switch/switch-entrance-right",
+                "dependency:location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-right",
                 "capability:silk-soar"
               ]
             ],
@@ -194449,7 +195169,7 @@
         },
         {
           "id": "location:whiteward/whiteward-entrance::bench/whiteward-bench",
-          "name": "Whiteward Bench",
+          "name": "Whiteward - Bench",
           "in_game_id": null,
           "location_type": "bench",
           "has_persisted_state": true,
@@ -194494,8 +195214,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:whiteward/whiteward-entrance::switch/switch-entrance-left",
-          "name": "Switch Entrance Left",
+          "id": "location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-left",
+          "name": "Whiteward - Switch Entrance Left",
           "in_game_id": null,
           "location_type": "switch",
           "has_persisted_state": true,
@@ -194515,8 +195235,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:whiteward/whiteward-entrance::switch/switch-entrance-right",
-          "name": "Switch Entrance Right",
+          "id": "location:whiteward/whiteward-entrance::switch/whiteward-switch-entrance-right",
+          "name": "Whiteward - Switch Entrance Right",
           "in_game_id": null,
           "location_type": "switch",
           "has_persisted_state": true,
@@ -194548,6 +195268,29 @@
             "dnf": [
               [
                 "setting:entrance-randomizer-on"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:whiteward/whiteward-entrance::blockade/whiteward-entrance-wall",
+          "name": "Whiteward Entrance Wall ",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "whiteward/whiteward-entrance#middle-third-right",
+          "requirement": {
+            "raw": "break wall right",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:right"
               ]
             ],
             "unresolved_reasons": []
@@ -194602,29 +195345,6 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:whiteward/whiteward-sherma-gauntlet::gauntlet/balm-for-the-wounded-gauntlet",
-          "name": "Balm for the Wounded Gauntlet",
-          "in_game_id": null,
-          "location_type": "gauntlet",
-          "has_persisted_state": true,
-          "node_id": "whiteward/whiteward-sherma-gauntlet#room",
-          "requirement": {
-            "raw": "Combat Requirements",
-            "mode": "expression",
-            "dnf": [
-              [
-                "macro:combat-requirements"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "Completion for the wish.",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
           "id": "location:whiteward/whiteward-sherma-gauntlet::event/balm-for-the-wounded-wish-granted",
           "name": "Balm for the Wounded Wish Granted",
           "in_game_id": null,
@@ -194671,188 +195391,224 @@
           "unresolved_reasons": []
         },
         {
+          "id": "location:whiteward/whiteward-sherma-gauntlet::blockade/sherma-gauntlet-wall",
+          "name": "Sherma Gauntlet Wall",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "whiteward/whiteward-sherma-gauntlet#room",
+          "requirement": {
+            "raw": "break wall right",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:right"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:whiteward/whiteward-sherma-gauntlet::gauntlet/balm-for-the-wounded-gauntlet",
+          "name": "Balm for the Wounded Gauntlet",
+          "in_game_id": null,
+          "location_type": "gauntlet",
+          "has_persisted_state": true,
+          "node_id": "whiteward/whiteward-sherma-gauntlet#room",
+          "requirement": {
+            "raw": "Combat Requirements",
+            "mode": "expression",
+            "dnf": [
+              [
+                "macro:combat-requirements"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Completion for the wish.",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
           "id": "location:whiteward/whiteward-sherma-gauntlet::enemy/surgeon-1",
           "name": "Surgeon 1",
-          "in_game_id": "Song Pilgrim 02",
+          "in_game_id": "\"Black Thread Enemies\"[0]/\"Enemy Folder\"[0]/\"Song Pilgrim 02\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "whiteward/whiteward-sherma-gauntlet#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "ACT 3",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:act-3"
+              ]
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "spawning before talking to sherma",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:whiteward/whiteward-sherma-gauntlet::enemy/surgeon-2",
           "name": "Surgeon 2",
-          "in_game_id": "Song Pilgrim 02 (1)",
+          "in_game_id": "\"Black Thread Enemies\"[0]/\"Enemy Folder\"[0]/\"Song Pilgrim 02 (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "whiteward/whiteward-sherma-gauntlet#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "ACT 3",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:act-3"
+              ]
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "spawning before talking to sherma",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:whiteward/whiteward-sherma-gauntlet::enemy/surgeon-3",
           "name": "Surgeon 3",
-          "in_game_id": "Song Pilgrim 02",
+          "in_game_id": "\"Sherma Rescue Scene\"[0]/\"Activation Folder\"[0]/\"Battle Scene\"[0]/\"Wave 1\"[0]/\"Song Pilgrim 02\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "whiteward/whiteward-sherma-gauntlet#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "fourth to spawn",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:whiteward/whiteward-sherma-gauntlet::enemy/mortician-1",
           "name": "Mortician 1",
-          "in_game_id": "Song Creeper",
+          "in_game_id": "\"Sherma Rescue Scene\"[0]/\"Activation Folder\"[0]/\"Battle Scene\"[0]/\"Wave 2\"[0]/\"Song Creeper\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "whiteward/whiteward-sherma-gauntlet#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "second to spawn",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:whiteward/whiteward-sherma-gauntlet::enemy/mortician-2",
           "name": "Mortician 2",
-          "in_game_id": "Song Creeper (1)",
+          "in_game_id": "\"Sherma Rescue Scene\"[0]/\"Activation Folder\"[0]/\"Battle Scene\"[0]/\"Wave 2\"[0]/\"Song Creeper (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "whiteward/whiteward-sherma-gauntlet#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "third to spawn",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:whiteward/whiteward-sherma-gauntlet::enemy/surgeon-4",
           "name": "Surgeon 4",
-          "in_game_id": "Song Pilgrim 02",
+          "in_game_id": "\"Sherma Rescue Scene\"[0]/\"Activation Folder\"[0]/\"Battle Scene\"[0]/\"Wave 3\"[0]/\"Song Pilgrim 02\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "whiteward/whiteward-sherma-gauntlet#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "first to spawn",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:whiteward/whiteward-sherma-gauntlet::enemy/surgeon-5",
           "name": "Surgeon 5",
-          "in_game_id": "Song Pilgrim 02 (1)",
+          "in_game_id": "\"Sherma Rescue Scene\"[0]/\"Activation Folder\"[0]/\"Battle Scene\"[0]/\"Wave 3\"[0]/\"Song Pilgrim 02 (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "whiteward/whiteward-sherma-gauntlet#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "fourth to spawn",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:whiteward/whiteward-sherma-gauntlet::enemy/surgeon-6",
           "name": "Surgeon 6",
-          "in_game_id": "Song Pilgrim 02 Dummy",
+          "in_game_id": "\"Sherma Rescue Scene\"[0]/\"Activation Folder\"[0]/\"Battle Scene\"[0]/\"Song Pilgrim 02 Dummy\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "whiteward/whiteward-sherma-gauntlet#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "dummy",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -196003,25 +196759,57 @@
           "has_persisted_state": true,
           "node_id": "whiteward/whiteward-silkeater#room",
           "requirement": {
-            "raw": "Cling Grip either OR Scuttlebrace OR Silk Soar OR (Faydown AND (easy hazard respawn OR Ledge Grab left)) ",
+            "raw": "Cling Grip right OR easy Scuttlebrace OR Silk Soar OR (Faydown AND (cling grip left OR Ledge Grab left OR easy [hunter,wanderer,reaper,beast,architect,witch,shaman] pogo OR easy naked pogo))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:either"
+                "capability:cling-grip:right"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:silk-soar"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:hazard-respawn:easy"
+                "capability:cling-grip:left"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:crest-pogo:wanderer:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:crest-pogo:witch:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:naked-pogo:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -196503,8 +197291,13 @@
       "notes": "",
       "nodes": [
         {
-          "id": "whiteward/whiteward-tunnel-room#top-horizontal",
-          "name": "Top Horizontal",
+          "id": "whiteward/whiteward-tunnel-room#top-horizontal-left",
+          "name": "Top Horizontal left",
+          "notes": ""
+        },
+        {
+          "id": "whiteward/whiteward-tunnel-room#top-horizontal-right",
+          "name": "Top Horizontal right",
           "notes": ""
         },
         {
@@ -196560,11 +197353,11 @@
           "source_node_id": "whiteward/whiteward-tunnel-room#pickup-section",
           "target": "whiteward/whiteward-entrance@ml",
           "requirement": {
-            "raw": "Break Wall Left",
+            "raw": "clear Whiteward Tunnel Room - Wall 4",
             "mode": "expression",
             "dnf": [
               [
-                "capability:break-wall:left"
+                "dependency:location:whiteward/whiteward-tunnel-room::blockade/whiteward-tunnel-room-wall-4"
               ]
             ],
             "unresolved_reasons": []
@@ -196584,14 +197377,14 @@
           "source_node_id": "whiteward/whiteward-tunnel-room#lower-tunnels",
           "target_node_id": "whiteward/whiteward-tunnel-room#upper-tunnels",
           "requirement": {
-            "raw": "Cling Grip either OR Scuttlebrace OR Silk Soar",
+            "raw": "Cling Grip either OR easy Scuttlebrace OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:either"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:silk-soar"
@@ -196632,14 +197425,14 @@
           "source_node_id": "whiteward/whiteward-tunnel-room#center-tunnels",
           "target_node_id": "whiteward/whiteward-tunnel-room#upper-tunnels",
           "requirement": {
-            "raw": "Cling Grip either OR Scuttlebrace OR Silk Soar",
+            "raw": "Cling Grip either OR easy Scuttlebrace OR Silk Soar ",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:either"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:silk-soar"
@@ -196674,20 +197467,20 @@
           "unresolved_reasons": []
         },
         {
-          "id": "whiteward/whiteward-tunnel-room#center-tunnels>top-horizontal@cth",
+          "id": "whiteward/whiteward-tunnel-room#center-tunnels>top-horizontal-left@cth",
           "alias": "CTH",
           "name": "Center to Top Horizontal",
           "source_node_id": "whiteward/whiteward-tunnel-room#center-tunnels",
-          "target_node_id": "whiteward/whiteward-tunnel-room#top-horizontal",
+          "target_node_id": "whiteward/whiteward-tunnel-room#top-horizontal-left",
           "requirement": {
-            "raw": "Cling Grip OR Scuttlebrace OR Silk Soar",
+            "raw": "Cling Grip either OR easy Scuttlebrace OR Silk Soar ",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:silk-soar"
@@ -196702,10 +197495,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "whiteward/whiteward-tunnel-room#top-horizontal>center-tunnels@cth",
+          "id": "whiteward/whiteward-tunnel-room#top-horizontal-left>center-tunnels@cth",
           "alias": "CTH",
           "name": "Center to Top Horizontal",
-          "source_node_id": "whiteward/whiteward-tunnel-room#top-horizontal",
+          "source_node_id": "whiteward/whiteward-tunnel-room#top-horizontal-left",
           "target_node_id": "whiteward/whiteward-tunnel-room#center-tunnels",
           "requirement": {
             "raw": "Nothing (Falling)",
@@ -196722,16 +197515,80 @@
           "unresolved_reasons": []
         },
         {
-          "id": "whiteward/whiteward-tunnel-room#top-horizontal>pickup-section@ttp",
+          "id": "whiteward/whiteward-tunnel-room#top-horizontal-right>pickup-section@ttp",
           "alias": "TTP",
           "name": "Top to Pickup Section",
-          "source_node_id": "whiteward/whiteward-tunnel-room#top-horizontal",
+          "source_node_id": "whiteward/whiteward-tunnel-room#top-horizontal-right",
           "target_node_id": "whiteward/whiteward-tunnel-room#pickup-section",
           "requirement": {
-            "raw": "Nothing (Falling)",
-            "mode": "none",
+            "raw": "hit switch either ",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:break-switch:either"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "whiteward/whiteward-tunnel-room#top-horizontal-left>top-horizontal-right@h",
+          "alias": "H",
+          "name": "horizontal",
+          "source_node_id": "whiteward/whiteward-tunnel-room#top-horizontal-left",
+          "target_node_id": "whiteward/whiteward-tunnel-room#top-horizontal-right",
+          "requirement": {
+            "raw": "spike pogo OR clawline right OR dash right OR run",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:clawline:right:1"
+              ],
+              [
+                "capability:dash:right"
+              ],
+              [
+                "capability:sprint:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "whiteward/whiteward-tunnel-room#top-horizontal-right>top-horizontal-left@h",
+          "alias": "H",
+          "name": "horizontal",
+          "source_node_id": "whiteward/whiteward-tunnel-room#top-horizontal-right",
+          "target_node_id": "whiteward/whiteward-tunnel-room#top-horizontal-left",
+          "requirement": {
+            "raw": "spike pogo OR clawline left OR dash left OR run",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:dash:left"
+              ],
+              [
+                "capability:sprint:none"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -196755,6 +197612,98 @@
             "mode": "none",
             "dnf": [
               []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:whiteward/whiteward-tunnel-room::blockade/whiteward-tunnel-room-wall-1",
+          "name": "Whiteward Tunnel Room - Wall 1",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "whiteward/whiteward-tunnel-room#pickup-section",
+          "requirement": {
+            "raw": "break wall right",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:right"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:whiteward/whiteward-tunnel-room::blockade/whiteward-tunnel-room-wall-2",
+          "name": "Whiteward Tunnel Room - Wall 2",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "whiteward/whiteward-tunnel-room#pickup-section",
+          "requirement": {
+            "raw": "break wall right",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:right"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:whiteward/whiteward-tunnel-room::blockade/whiteward-tunnel-room-wall-3",
+          "name": "Whiteward Tunnel Room - Wall 3",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "whiteward/whiteward-tunnel-room#pickup-section",
+          "requirement": {
+            "raw": "break wall right",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:right"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:whiteward/whiteward-tunnel-room::blockade/whiteward-tunnel-room-wall-4",
+          "name": "Whiteward Tunnel Room - Wall 4",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "whiteward/whiteward-tunnel-room#pickup-section",
+          "requirement": {
+            "raw": "break wall right",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:right"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -196814,7 +197763,7 @@
           "in_game_id": "Citadel Bat",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "whiteward/whiteward-tunnel-room#top-horizontal",
+          "node_id": "whiteward/whiteward-tunnel-room#top-horizontal-right",
           "requirement": {
             "raw": "none",
             "mode": "none",

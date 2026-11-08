@@ -7627,37 +7627,43 @@ No subroom connections defined.
 
 #### Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Upper | ✓ |
+| S2 | Lower | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Shellwood Left Side Long Pond Room (Shellwood_04b)](#room-shellwood--shellwood-left-side-long-pond-room) | RC | None |  | Verified | ✓ |  |
+| F | bot1 | Lower | [Shellwood Left Side Long Pond Room (Shellwood_04b)](#room-shellwood--shellwood-left-side-long-pond-room) | RC | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LG | Damn Ledge Grab Rando | Lower | Upper | Ledge grab left OR cling grip left OR Scuttlebrace OR Faydown Cloak OR silk Soar OR Easy Beast Charge OR Easy shaman pogo OR Easy silkspear stall OR easy plasmium stall OR easy voltvessels stall OR easy delvers drill stall OR easy beast crest heal stall OR ( Easy pogo off rosary pilgrim AND ( Have tool: straight pin OR Have Tool: threefold pin OR Have Tool: Throwing Ring OR Have Tool: Conchcutter OR Have Tool: Cogwork Wheel ) ) |  | Verified | ✓ |  |
+| LG | Damn Ledge Grab Rando | Upper | Lower | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache |  | None |  | Verified | resource | ✓ | Not included no id |
-| 2 | Save Plinney |  | ACT 3 |  | Verified | event | ✓ | Plinney comes here upon starting act and starts an encounter |
-| 3 | Pilgrim Bellbearer 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 4 | Pilgrim Guide 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 5 | Covetous Pilgrim 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 6 | Pilgrim Groveller 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 7 | Pilgrim Pouncer 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 8 | Pilgrim Pouncer 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 9 | Pilgrim Bellbearer 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 10 | Pilgrim Hulk 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 11 | Pilgrim Groveller 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 12 | Pilgrim Hulk 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 13 | Pilgrim Guide 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 14 | Pilgrim Hulk 3 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
-| 15 | Rosary Pilgrim 1 |  | None |  | Verified | enemy | ✓ |  |
+| 1 | Rosary Cross | Upper | None |  | Verified | resource | ✓ | Not included no id finally getting included? pycl - 8/11 |
+| 2 | Save Plinney | Upper | ACT 3 |  | Verified | event | ✓ | Plinney comes here upon starting act 3 and starts an encounter |
+| 3 | Pilgrim Bellbearer 1 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 4 | Pilgrim Guide 1 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 5 | Covetous Pilgrim 1 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Groveller 1 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Pouncer 1 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Pouncer 2 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Bellbearer 2 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Hulk 1 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Groveller 2 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Hulk 2 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Guide 2 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Hulk 3 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 15 | Rosary Pilgrim 1 | Upper | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-bellshrine"></a>
 
@@ -8012,22 +8018,28 @@ No check locations defined.
 | --- | --- | --- |
 | S1 | Right Lake | ✓ |
 | S2 | Left Lake | ✓ |
+| S3 | Top Left | ✓ |
+| S4 | Shellgrave Plaform | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right Lake | [Shellwood Lower Left Tall Room (Shellwood_03)](#room-shellwood--shellwood-lower-left-tall-room) | LL | None |  | Verified | ✓ |  |
-| RC | top2 | Right Lake | [Shellgrave (Shellgrave)](#room-shellwood--shellgrave) | F | Ledge grab Left OR Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Easy pogo off pondcatcher OR Cling Grip Right OR Cling Grip Left |  | Verified | ✓ |  |
+| RC | top2 | Shellgrave Plaform | [Shellgrave (Shellgrave)](#room-shellwood--shellgrave) | F | None |  | Verified | ✓ |  |
 | L | left1 | Left Lake | [Shellwood Lower Toll bench (Shellwood_08c)](#room-shellwood--shellwood-lower-toll-bench) | R | Break Vines Left |  | Verified | ✓ |  |
-| LC | top1 | Left Lake | [shellwood Far Left Tall Room (Shellwood_04c)](#room-shellwood--shellwood-far-left-tall-room) | F | medium pogo off pondcatcher OR Cling grip Right OR Cling Grip Left OR Silk soar OR Faydown Cloak OR Easy Scuttlebrace |  | Verified | ✓ |  |
+| LC | top1 | Top Left | [shellwood Far Left Tall Room (Shellwood_04c)](#room-shellwood--shellwood-far-left-tall-room) | F | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PC | Pond Crossing | Left Lake | Right Lake | Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper ) |  | Verified | ✓ |  |
-| PC | Pond Crossing | Right Lake | Left Lake | Swim OR Clawline left OR ( Sprint left AND Drifters Cloak ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper ) |  | Verified | ✓ |  |
+| PC | Pond Crossing | Left Lake | Right Lake | ((Act 1 OR Act 2 ) AND ( Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper ) OR ( Faydown Cloak AND Hard pogo off pondcatcher ) ) )OR ( ACT 3 AND ( ( Swim AND ( Ledge grab Right OR Cling grip Right OR Faydown Cloak OR Easy flea brew stall OR easy plasmium stall OR easy delvers drill stall OR easy voltvessels stall OR Clawline Right OR Easy heal stall OR easy rune rage stall OR easy thread storm stall OR easy cross stitch stall OR sharpdart OR Easy silkspear stall OR easy shaman pogo OR Easy beast pogo OR Medium hunter pogo (You literally just clip up the ledge when pogoing????) OR medium reaper pogo OR medium pogo off pond skipper OR medium pogo off pondcatcher OR medium naked pogo ) ) OR ( Faydown Cloak AND Drifters Cloak AND Clawline Right AND Medium pogo off pond skipper ) ) ) |  | Verified | ✓ |  |
+| PC | Pond Crossing | Right Lake | Left Lake | ( ( ACT 1 OR ACT 2 ) AND ( Swim OR Clawline left OR ( Sprint left AND ( Drifters Cloak OR ( Dash left AND medium shaman pogo ) ) ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper ) ) ) OR ( ACT 3 AND ( Swim OR ( Faydown Cloak AND Drifters Cloak AND Clawline Left AND Medium pogo off pond skipper ) ) ) |  | Verified | ✓ |  |
+| TL | Top Left | Top Left | Left Lake | None |  | Verified | ✓ |  |
+| TL | Top Left | Left Lake | Top Left | Cling grip either OR Scuttlebrace OR Faydown CLoak OR Medium pogo off pondcatcher OR Silk Soar |  | Verified | ✓ |  |
+| TR | Top Right | Shellgrave Plaform | Right Lake | None |  | Verified | ✓ |  |
+| TR | Top Right | Right Lake | Shellgrave Plaform | Ledge grab either OR Cling grip either OR Faydown Cloak OR Medium pogo off pondcatcher |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -9213,6 +9225,7 @@ No subroom connections defined.
 | S17 | verdania ledge | ✓ |
 | S18 | stupid space behind stupid wall | ✓ |
 | S19 | flea room upper | ✓ |
+| S20 | spike room lower entrance | ✓ |
 
 #### Room Transitions
 
@@ -9251,10 +9264,10 @@ No subroom connections defined.
 | D3 | drop 3 | craw building roof | middle craw nest | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | D4 | drop 4 | small ass platform | middle craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | D4 | drop 4 | middle craw nest | small ass platform | clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR faydown cloak OR drifters cloak OR (progressive swift step 1 left AND (ledge grab left OR flea brew OR silkspeed anklets)) |  | Verified | ✓ |  |
-| H | hatch | lower flea room | flea room middle | prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either)) |  | Verified | ✓ |  |
+| H | hatch | lower flea room | flea room middle | prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either) AND ([hunter, wanderer, reaper, beast, architect, witch, shaman] needle right OR easy [hunter, wanderer, reaper, beast, architect, witch, shaman] needle strike)) |  | Verified | ✓ |  |
 | H | hatch | flea room middle | lower flea room | prereq flea airlock |  | Verified | ✓ |  |
-| SL | spike lower | spiked room | upper craw nest | prereq spike room lever AND (clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1)) |  | Verified | ✓ |  |
-| SL | spike lower | upper craw nest | spiked room | ((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever |  | Verified | ✓ |  |
+| SL | spike lower | spike room lower entrance | upper craw nest | clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1) |  | Verified | ✓ |  |
+| SL | spike lower | upper craw nest | spike room lower entrance | ((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever |  | Verified | ✓ |  |
 | SU | spike upper | spiked room | left top craw nest | (proficient movement AND spike pogo) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | SU | spike upper | left top craw nest | spiked room | none |  | Verified | ✓ |  |
 | F1 | fall 1 | left top craw nest | upper craw nest | none (just fall) |  | Verified | ✓ |  |
@@ -9262,8 +9275,8 @@ No subroom connections defined.
 | F2 | fall 2 | right top craw nest | stupid platform i hate | nothing (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | stupid platform i hate | right top craw nest | silk soar OR (prereq balloon lever IN greymoor craw nest AND faydown cloak AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
 | F3 | fall 3 | right top craw nest | upper craw nest | drifters cloak OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR (flea brew AND ledge grab left) |  | Verified | ✓ |  |
-| F4 | fall 4 | spiked room | middle craw nest left | prereq spike room lever |  | Verified | ✓ |  |
-| F4 | fall 4 | middle craw nest left | spiked room | (prereq balloon lever IN greymoor craw nest OR silk soar) AND prereq spike room lever |  | Verified | ✓ |  |
+| F4 | fall 4 | spike room lower entrance | middle craw nest left | nothing |  | Verified | ✓ |  |
+| F4 | fall 4 | middle craw nest left | spike room lower entrance | prereq balloon lever IN greymoor craw nest OR silk soar |  | Verified | ✓ |  |
 | FF | free fall | lil top | right top craw nest | nothing (just fall) |  | Verified | ✓ |  |
 | FF | free fall | right top craw nest | lil top | silk soar |  | Verified | ✓ |  |
 | BG | balloon gap | left top craw nest | lil top | prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
@@ -9296,6 +9309,10 @@ No subroom connections defined.
 | SR | stupid room | stupid space behind stupid wall | verdania ledge | ACT 3 AND have Simple Key Green Prince AND activate Bellshrine Enclave - Lever IN bellshrine-enclave AND defeat Cogwork Dancers Boss Fight IN cog dancers |  | Verified | ✓ | Missing: green prince talk in cog dancers room |
 | FS | flea shaft | flea room middle | flea room upper | cling grip right OR scuttlebrace OR silk soar OR ((faydown cloak OR easy [hunter, shaman, reaper, wanderer, beast, architect] pogo) AND cling grip left) |  | Verified | ✓ |  |
 | FS | flea shaft | flea room upper | flea room middle | nothing |  | Verified | ✓ |  |
+| SMD | spike metal door | spiked room | spike room lower entrance | clear spike room lever |  | Verified | ✓ |  |
+| SMD | spike metal door | spike room lower entrance | spiked room | clear spike room lever |  | Verified | ✓ |  |
+| GL | geo leap | stupid platform i hate | spike room lower entrance | (faydown cloak AND ((((sharpdart x 2 OR clawline left x 2) AND (progressive swift step 1 OR ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR (drifters cloak AND ledge grab left))) OR (sharpdart x 1 AND progressive swift step 2 AND ledge grab left))) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| GL | geo leap | spike room lower entrance | stupid platform i hate | (((clawline right x 1 OR sharpdart x 1) AND (drifters cloak OR progressive swift step 2 right))) OR (drifters cloak AND (progressive swift step 2 right OR (faydown cloak AND ledge grab))) OR clawline right x 2 OR sharpdart x 2  OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -18362,7 +18379,7 @@ No subroom connections defined.
 | TL | Top Left | Top Third | [Choral Chambers Eastern Shaft (Song_05)](#room-choral-chambers--choral-chambers-eastern-shaft) | R1 | Nothing |  | Verified | ✓ |  |
 | TR | Top Right | Vertical Shaft (Upper) | [Whiteward Long Horizontal (Ward_05)](#room-whiteward--whiteward-long-horizontal) | L | Nothing |  | Verified | ✓ |  |
 | ML | Middle Left | Middle Third (Left) | [Whiteward Tunnel Room (Ward_02b)](#room-whiteward--whiteward-tunnel-room) | R | Nothing |  | Verified | ✓ |  |
-| MR | Middle Right | Middle Third (Right) | [Whiteward Silkeater (Ward_04)](#room-whiteward--whiteward-silkeater) | L | Break Wall right |  | Verified | ✓ |  |
+| MR | Middle Right | Middle Third (Right) | [Whiteward Silkeater (Ward_04)](#room-whiteward--whiteward-silkeater) | L | clear Whiteward Entrance Wall |  | Verified | ✓ |  |
 | BL | Bottom Left | Bottom Third (Left) | [Whiteward Unravelled Arena Room (Ward_02)](#room-whiteward--whiteward-unravelled-arena-room) | R | Nothing |  | Verified | ✓ |  |
 | BR | Bottom Right | Vertical Shaft (Lower) | [Whiteward Descent Connection (Ward_03)](#room-whiteward--whiteward-descent-connection) | L | Nothing |  | Verified | ✓ |  |
 
@@ -18374,15 +18391,15 @@ No subroom connections defined.
 | TES | Top to Elevator Shaft | Elevator Shaft | Top Third | Have White Key |  | Verified | ✓ |  |
 | EBL | Elevator to Bottom Left | Top Third | Bottom Third (Left) | Have White Key |  | Verified | ✓ |  |
 | EBL | Elevator to Bottom Left | Bottom Third (Left) | Top Third | Have White Key |  | Verified | ✓ |  |
-| MLR | Middle Left to Right | Middle Third (Left) | Middle Third (Right) | activate Switch Entrance Left OR activate Switch Entrance Right |  | Verified | ✓ |  |
+| MLR | Middle Left to Right | Middle Third (Left) | Middle Third (Right) | activate Whiteward - Switch Entrance Left OR activate Whiteward - Switch Entrance Right |  | Verified | ✓ |  |
 | MLR | Middle Left to Right | Middle Third (Right) | Middle Third (Left) | Nothing (Jump) |  | Verified | ✓ |  |
 | RVL | Right to Vertical Lower | Middle Third (Right) | Vertical Shaft (Lower) | Nothing (Fall) |  | Verified | ✓ |  |
-| RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip right OR (Scuttlebrace AND (easy shaman pogo OR Medium Flea Brew Stall OR Medium Heal Stall OR Faydown)) OR Silk Soar OR (cling grip left AND faydown cloak AND (sharpdart OR clawline right OR rune rage OR easy heal stall OR easy plasmium stall OR easy flea brew stall OR easy flintslate stall )) |  | Verified | ✓ |  |
-| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip either AND (Proficient Movement OR rune rage OR easy flea brew stall OR easy plasmium stall OR easy flintslate stall )) |  | Verified | ✓ |  |
+| RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip right OR (easy Scuttlebrace AND (easy shaman pogo OR hard [ Heal, rune rage] Stall OR Faydown OR easy flea brew stall OR easy beast crest heal stall )) OR Silk Soar OR (cling grip left AND faydown cloak) |  | Verified | ✓ |  |
+| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip either AND (Proficient Movement OR medium [rune rage,heal, flea brew,thread storm,pale nails,parry] stall )) |  | Verified | ✓ |  |
 | RVU | Right to Vertical Upper | Vertical Shaft (Upper) | Middle Third (Right) | Nothing (Fall) |  | Verified | ✓ |  |
-| ETP | Elevator to Pit | Elevator Shaft | Pit | (Have white key AND ((activate Switch Entrance Left OR  activate Switch Entrance right) OR (clawline either AND elite ball knowledge)))  OR prereq Entrance Randomizer Bottom Third Left Access |  | Verified | ✓ | falling free if ER |
-| ETP | Elevator to Pit | Pit | Elevator Shaft | Cling Grip right OR Scuttlebrace OR Silk Soar OR (faydown cloak AND cling grip left) |  | Verified | ✓ | Or F4 |
-| BM | Bottom to Mid | Bottom Third (Left) | Middle Third (Left) | (activate Switch Entrance Left OR activate Switch Entrance right) AND (cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left)) OR silk soar) |  | Verified | ✓ |  |
+| ETP | Elevator to Pit | Elevator Shaft | Pit | (Have white key AND ((activate Whiteward - Switch Entrance Left OR  activate Whiteward - Switch Entrance right) OR (clawline either AND elite ball knowledge)))  OR prereq Entrance Randomizer Bottom Third Left Access |  | Verified | ✓ | falling free if ER |
+| ETP | Elevator to Pit | Pit | Elevator Shaft | Cling Grip right OR easy Scuttlebrace OR Silk Soar OR (faydown cloak AND cling grip left) |  | Verified | ✓ | Or F4 |
+| BM | Bottom to Mid | Bottom Third (Left) | Middle Third (Left) | (activate Whiteward - Switch Entrance Left OR activate Whiteward - Switch Entrance right) AND (cling grip right OR (faydown cloak AND (easy scuttlebrace OR cling grip left)) OR silk soar) |  | Verified | ✓ |  |
 | BM | Bottom to Mid | Middle Third (Left) | Bottom Third (Left) | none |  | Verified | ✓ | falling |
 
 #### Check Locations
@@ -18390,11 +18407,12 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whiteward - Spool Fragment | Pit | Nothing |  | Verified | collectible | ✓ |  |
-| 2 | Whiteward Bench | Top Third | Have White Key |  | Verified | bench | ✓ |  |
+| 2 | Whiteward - Bench | Top Third | Have White Key |  | Verified | bench | ✓ |  |
 | 3 | Whiteward - Map Purchase | Vertical Shaft (Lower) | spend 70 rosaries |  | Verified | collectible | ✓ |  |
-| 4 | Switch Entrance Left | Middle Third (Left) | none |  | Verified | switch | ✓ | also activates right switch |
-| 5 | Switch Entrance Right | Middle Third (Right) | none |  | Verified | switch | ✓ | also activates left switch |
+| 4 | Whiteward - Switch Entrance Left | Middle Third (Left) | none |  | Verified | switch | ✓ | also activates right switch |
+| 5 | Whiteward - Switch Entrance Right | Middle Third (Right) | none |  | Verified | switch | ✓ | also activates left switch |
 | 6 | Entrance Randomizer Bottom Third Left Access | Bottom Third (Left) | entrance randomizer on |  | Verified | logic-point |  |  |
+| 7 | Whiteward Entrance Wall | Middle Third (Right) | break wall right |  | Verified | blockade | ✓ |  |
 
 <a name="room-whiteward--whiteward-sherma-gauntlet"></a>
 
@@ -18424,17 +18442,18 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Balm for the Wounded Gauntlet |  | Combat Requirements |  | Verified | gauntlet | ✓ | Completion for the wish. |
-| 2 | Balm for the Wounded Wish Granted |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event | ✓ |  |
-| 3 | Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Granted |  | Verified | collectible | ✓ | Completion for the wish. |
-| 4 | Surgeon 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Surgeon 2 |  |  |  |  | enemy | ✓ |  |
-| 6 | Surgeon 3 |  |  |  |  | enemy | ✓ |  |
-| 7 | Mortician 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Mortician 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Surgeon 4 |  |  |  |  | enemy | ✓ |  |
-| 10 | Surgeon 5 |  |  |  |  | enemy | ✓ |  |
-| 11 | Surgeon 6 |  |  |  |  | enemy | ✓ |  |
+| 1 | Balm for the Wounded Wish Granted |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event | ✓ |  |
+| 2 | Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Granted |  | Verified | collectible | ✓ | Completion for the wish. |
+| 3 | Sherma Gauntlet Wall |  | break wall right |  | Verified | blockade | ✓ |  |
+| 4 | Balm for the Wounded Gauntlet |  | Combat Requirements |  | Verified | gauntlet | ✓ | Completion for the wish. |
+| 5 | Surgeon 1 |  | ACT 3 |  | Verified | enemy | ✓ | spawning before talking to sherma |
+| 6 | Surgeon 2 |  | ACT 3 |  | Verified | enemy | ✓ | spawning before talking to sherma |
+| 7 | Surgeon 3 |  | none |  | Verified | enemy | ✓ | fourth to spawn |
+| 8 | Mortician 1 |  | none |  | Verified | enemy | ✓ | second to spawn |
+| 9 | Mortician 2 |  | none |  | Verified | enemy | ✓ | third to spawn |
+| 10 | Surgeon 4 |  | none |  | Verified | enemy | ✓ | first to spawn |
+| 11 | Surgeon 5 |  | none |  | Verified | enemy | ✓ | fourth to spawn |
+| 12 | Surgeon 6 |  | invalid |  | Verified | enemy | ✓ | dummy |
 
 <a name="room-whiteward--whiteward-descent-connection"></a>
 
@@ -18628,7 +18647,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | White Ward: Silkeater |  | Cling Grip either OR Scuttlebrace OR Silk Soar OR (Faydown AND (easy hazard respawn OR Ledge Grab left)) |  | Verified | collectible | ✓ |  |
+| 1 | White Ward: Silkeater |  | Cling Grip right OR easy Scuttlebrace OR Silk Soar OR (Faydown AND (cling grip left OR Ledge Grab left OR easy [hunter,wanderer,reaper,beast,architect,witch,shaman] pogo OR easy naked pogo)) |  | Verified | collectible | ✓ |  |
 
 <a name="room-whiteward--whiteward-unravelled-arena-room"></a>
 
@@ -18697,39 +18716,46 @@ No subroom connections defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Top Horizontal | ✓ |
-| S2 | Pickup Section | ✓ |
-| S3 | Lower Tunnels | ✓ |
-| S4 | Upper Tunnels | ✓ |
-| S5 | Center Tunnels | ✓ |
+| S1 | Top Horizontal left | ✓ |
+| S2 | Top Horizontal right | ✓ |
+| S3 | Pickup Section | ✓ |
+| S4 | Lower Tunnels | ✓ |
+| S5 | Upper Tunnels | ✓ |
+| S6 | Center Tunnels | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | Bottom | Lower Tunnels | [Whiteward Unravelled Arena Room (Ward_02)](#room-whiteward--whiteward-unravelled-arena-room) | T | Nothing |  | Verified | ✓ |  |
-| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](#room-whiteward--whiteward-entrance) | ML | Break Wall Left |  | Verified | ✓ | There are four walls. |
+| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](#room-whiteward--whiteward-entrance) | ML | clear Whiteward Tunnel Room - Wall 4 |  | Verified | ✓ | There are four walls. |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LUT | Lower to Upper Tunnels | Lower Tunnels | Upper Tunnels | Cling Grip either OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| LUT | Lower to Upper Tunnels | Lower Tunnels | Upper Tunnels | Cling Grip either OR easy Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | LUT | Lower to Upper Tunnels | Upper Tunnels | Lower Tunnels | Nothing (Falling) |  | Verified | ✓ |  |
-| UCT | Upper to Center Tunnels | Center Tunnels | Upper Tunnels | Cling Grip either OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| UCT | Upper to Center Tunnels | Center Tunnels | Upper Tunnels | Cling Grip either OR easy Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | UCT | Upper to Center Tunnels | Upper Tunnels | Center Tunnels | Nothing (Falling) |  | Verified | ✓ |  |
-| CTH | Center to Top Horizontal | Center Tunnels | Top Horizontal | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
-| CTH | Center to Top Horizontal | Top Horizontal | Center Tunnels | Nothing (Falling) |  | Verified | ✓ |  |
-| TTP | Top to Pickup Section | Top Horizontal | Pickup Section | Nothing (Falling) |  | Verified | ✓ |  |
+| CTH | Center to Top Horizontal | Center Tunnels | Top Horizontal left | Cling Grip either OR easy Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| CTH | Center to Top Horizontal | Top Horizontal left | Center Tunnels | Nothing (Falling) |  | Verified | ✓ |  |
+| TTP | Top to Pickup Section | Top Horizontal right | Pickup Section | hit switch either |  | Verified | ✓ |  |
+| H | horizontal | Top Horizontal left | Top Horizontal right | spike pogo OR clawline right OR dash right OR run |  | Verified | ✓ |  |
+| H | horizontal | Top Horizontal right | Top Horizontal left | spike pogo OR clawline left OR dash left OR run |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified | collectible | ✓ |  |
-| 2 | Dreg Husk 1 | Pickup Section | invalid |  | Verified | enemy | ✓ | unused enemy |
-| 3 | Dreg Husk 2 | Pickup Section | none |  | Verified | enemy | ✓ |  |
-| 4 | Drapefly 1 | Top Horizontal | none |  | Verified | enemy | ✓ |  |
+| 2 | Whiteward Tunnel Room - Wall 1 | Pickup Section | break wall right |  | Verified | blockade | ✓ |  |
+| 3 | Whiteward Tunnel Room - Wall 2 | Pickup Section | break wall right |  | Verified | blockade | ✓ |  |
+| 4 | Whiteward Tunnel Room - Wall 3 | Pickup Section | break wall right |  | Verified | blockade | ✓ |  |
+| 5 | Whiteward Tunnel Room - Wall 4 | Pickup Section | break wall right |  | Verified | blockade | ✓ |  |
+| 6 | Dreg Husk 1 | Pickup Section | invalid |  | Verified | enemy | ✓ | unused enemy |
+| 7 | Dreg Husk 2 | Pickup Section | none |  | Verified | enemy | ✓ |  |
+| 8 | Drapefly 1 | Top Horizontal right | none |  | Verified | enemy | ✓ |  |
 
 ## High Halls
 

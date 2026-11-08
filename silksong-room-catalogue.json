@@ -4318,7 +4318,7 @@
           "sourceSubroomReferenceText": "Middle Third (Right)",
           "destinationRoomReferenceText": "Whiteward Silkeater",
           "destinationTransitionAliasText": "L",
-          "requirements": "Break Wall right",
+          "requirements": "clear Whiteward Entrance Wall ",
           "notes": "",
           "sortOrder": 3,
           "isTodo": false,
@@ -4326,7 +4326,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T08:53:23.4937355Z",
-          "updatedUtc": "2026-10-22T22:41:04.6550315Z",
+          "updatedUtc": "2026-11-08T17:05:55.5361144Z",
           "isUnsafeArrival": false
         },
         {
@@ -4469,7 +4469,7 @@
           "friendlyName": "Middle Left to Right",
           "sourceSubroomReferenceText": "Middle Third (Left)",
           "destinationSubroomReferenceText": "Middle Third (Right)",
-          "requirements": "activate Switch Entrance Left OR activate Switch Entrance Right",
+          "requirements": "activate Whiteward - Switch Entrance Left OR activate Whiteward - Switch Entrance Right",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 35.876441955566406,
@@ -4480,7 +4480,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T10:28:03.6651685Z",
-          "updatedUtc": "2026-10-22T22:01:38.8582909Z"
+          "updatedUtc": "2026-11-08T17:08:13.7274038Z"
         },
         {
           "id": "35d053a3-84e7-4572-bc26-13bca95c4306",
@@ -4526,7 +4526,7 @@
           "friendlyName": "Right to Vertical Lower",
           "sourceSubroomReferenceText": "Vertical Shaft (Lower)",
           "destinationSubroomReferenceText": "Middle Third (Right)",
-          "requirements": "Cling Grip right OR (Scuttlebrace AND (easy shaman pogo OR Medium Flea Brew Stall OR Medium Heal Stall OR Faydown)) OR Silk Soar OR (cling grip left AND faydown cloak AND (sharpdart OR clawline right OR rune rage OR easy heal stall OR easy plasmium stall OR easy flea brew stall OR easy flintslate stall ))",
+          "requirements": "Cling Grip right OR (easy Scuttlebrace AND (easy shaman pogo OR hard [ Heal, rune rage] Stall OR Faydown OR easy flea brew stall OR easy beast crest heal stall )) OR Silk Soar OR (cling grip left AND faydown cloak)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 64.02935791015625,
@@ -4537,7 +4537,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T10:37:13.0702528Z",
-          "updatedUtc": "2026-10-22T23:10:53.1508586Z"
+          "updatedUtc": "2026-11-08T17:03:12.0825512Z"
         },
         {
           "id": "946be504-3490-41c3-acdb-20f922a10b5b",
@@ -4545,7 +4545,7 @@
           "friendlyName": "Right to Vertical Upper",
           "sourceSubroomReferenceText": "Middle Third (Right)",
           "destinationSubroomReferenceText": "Vertical Shaft (Upper)",
-          "requirements": "Silk Soar OR (Faydown AND Cling Grip either AND (Proficient Movement OR rune rage OR easy flea brew stall OR easy plasmium stall OR easy flintslate stall ))",
+          "requirements": "Silk Soar OR (Faydown AND Cling Grip either AND (Proficient Movement OR medium [rune rage,heal, flea brew,thread storm,pale nails,parry] stall ))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 62.81841278076172,
@@ -4556,7 +4556,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T10:37:26.1360411Z",
-          "updatedUtc": "2026-10-22T23:06:12.643013Z"
+          "updatedUtc": "2026-11-08T16:56:40.9515827Z"
         },
         {
           "id": "2e13b2ee-4f46-4b10-b51c-59c1d1295a69",
@@ -4621,7 +4621,7 @@
           "friendlyName": "Elevator to Pit",
           "sourceSubroomReferenceText": "Elevator Shaft",
           "destinationSubroomReferenceText": "Pit",
-          "requirements": "(Have white key AND ((activate Switch Entrance Left OR  activate Switch Entrance right) OR (clawline either AND elite ball knowledge))) \nOR prereq Entrance Randomizer Bottom Third Left Access",
+          "requirements": "(Have white key AND ((activate Whiteward - Switch Entrance Left OR  activate Whiteward - Switch Entrance right) OR (clawline either AND elite ball knowledge))) \nOR prereq Entrance Randomizer Bottom Third Left Access",
           "notes": "falling free if ER",
           "enableAnnotation": true,
           "sceneUnitX": 41.08013153076172,
@@ -4632,7 +4632,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T08:58:56.268707Z",
-          "updatedUtc": "2026-10-23T00:52:08.6869Z"
+          "updatedUtc": "2026-11-08T17:07:48.0454365Z"
         },
         {
           "id": "b54ec509-aa4e-4849-9363-c5b70ad87180",
@@ -4640,7 +4640,7 @@
           "friendlyName": "Elevator to Pit",
           "sourceSubroomReferenceText": "Pit",
           "destinationSubroomReferenceText": "Elevator Shaft",
-          "requirements": "Cling Grip right OR Scuttlebrace OR Silk Soar OR (faydown cloak AND cling grip left)",
+          "requirements": "Cling Grip right OR easy Scuttlebrace OR Silk Soar OR (faydown cloak AND cling grip left)",
           "notes": "Or F4",
           "enableAnnotation": true,
           "sceneUnitX": 41.08013153076172,
@@ -4651,7 +4651,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T08:59:08.7549055Z",
-          "updatedUtc": "2026-10-22T21:27:15.9579081Z"
+          "updatedUtc": "2026-11-08T16:40:14.4259391Z"
         },
         {
           "id": "a1346147-b965-4186-bbf7-263ae67eb584",
@@ -4659,7 +4659,7 @@
           "friendlyName": "Bottom to Mid",
           "sourceSubroomReferenceText": "Bottom Third (Left)",
           "destinationSubroomReferenceText": "Middle Third (Left)",
-          "requirements": "(activate Switch Entrance Left OR activate Switch Entrance right) AND (cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left)) OR silk soar)",
+          "requirements": "(activate Whiteward - Switch Entrance Left OR activate Whiteward - Switch Entrance right) AND (cling grip right OR (faydown cloak AND (easy scuttlebrace OR cling grip left)) OR silk soar)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 8.926326751708984,
@@ -4670,7 +4670,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-22T22:31:07.5270673Z",
-          "updatedUtc": "2026-10-22T23:52:10.2252106Z"
+          "updatedUtc": "2026-11-08T17:07:43.7840374Z"
         },
         {
           "id": "ec3e839d-9f42-494b-b63f-d5fe72a9f243",
@@ -4720,7 +4720,7 @@
         },
         {
           "id": "c582554a-6412-4bcc-a5f5-7da7e5d1d37d",
-          "friendlyName": "Whiteward Bench",
+          "friendlyName": "Whiteward - Bench",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -4741,7 +4741,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T08:54:56.8018771Z",
-          "updatedUtc": "2026-09-08T06:53:07.8241014Z"
+          "updatedUtc": "2026-11-08T17:07:03.1239281Z"
         },
         {
           "id": "c85a1578-054e-42df-91ae-95a163c2f3f2",
@@ -4795,7 +4795,7 @@
         },
         {
           "id": "f5340693-d3db-4c9d-925f-90bbf31a75d2",
-          "friendlyName": "Switch Entrance Left",
+          "friendlyName": "Whiteward - Switch Entrance Left",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -4816,11 +4816,11 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-22T21:59:50.8337646Z",
-          "updatedUtc": "2026-10-23T00:50:49.5648521Z"
+          "updatedUtc": "2026-11-08T17:07:32.1787684Z"
         },
         {
           "id": "ce23c303-3602-4ac1-af9e-7f730bc0c4d9",
-          "friendlyName": "Switch Entrance Right",
+          "friendlyName": "Whiteward - Switch Entrance Right",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -4841,7 +4841,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-22T22:00:24.7246822Z",
-          "updatedUtc": "2026-10-23T00:50:49.5648521Z"
+          "updatedUtc": "2026-11-08T17:07:35.2933916Z"
         },
         {
           "id": "85bf2cd6-7d11-4efa-bf83-9fb130389712",
@@ -4867,6 +4867,31 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-23T00:50:49.5648521Z",
           "updatedUtc": "2026-10-23T00:51:42.0015118Z"
+        },
+        {
+          "id": "86ac6d0c-7b51-4fc7-a786-677f73ea1e79",
+          "friendlyName": "Whiteward Entrance Wall ",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 73.82151794433594,
+          "annotationSceneUnitY": 53.84663391113281,
+          "subroomReferenceText": "Middle Third (Right)",
+          "requirements": "break wall right",
+          "notes": "",
+          "locationType": "blockade",
+          "enableAnnotation": true,
+          "sortOrder": 6,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:05:00.8260931Z",
+          "updatedUtc": "2026-11-08T17:05:41.9727173Z"
         }
       ]
     },
@@ -8820,16 +8845,16 @@
           "referenceId": "middle craw nest",
           "friendlyName": "middle craw nest",
           "notes": "",
-          "sceneUnitX": 121.53340244293213,
-          "sceneUnitY": 44.32174969482422,
-          "sceneUnitWidth": 28.529713768005365,
-          "sceneUnitHeight": 11.224838775634765,
+          "sceneUnitX": 123.00254154205322,
+          "sceneUnitY": 47.50488186645508,
+          "sceneUnitWidth": 23.308417320251465,
+          "sceneUnitHeight": 5.837997955322265,
           "enableAnnotation": true,
           "sortOrder": 3,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T11:58:55.8439657Z",
-          "updatedUtc": "2026-10-23T03:41:50.1540009Z"
+          "updatedUtc": "2026-11-08T11:02:02.823128Z"
         },
         {
           "id": "90373176-afec-482d-9340-e361eaae7d15",
@@ -8854,14 +8879,14 @@
           "notes": "",
           "sceneUnitX": 88.23115634918213,
           "sceneUnitY": 76.83833044433594,
-          "sceneUnitWidth": 9.605705955505371,
+          "sceneUnitWidth": 9.177635887145996,
           "sceneUnitHeight": 34.604494873046875,
           "enableAnnotation": true,
           "sortOrder": 5,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T12:17:29.77243Z",
-          "updatedUtc": "2026-10-23T03:42:30.3984832Z"
+          "updatedUtc": "2026-11-08T10:57:10.273171Z"
         },
         {
           "id": "35232d69-15a3-4cc0-bbfb-744628334a29",
@@ -8916,16 +8941,16 @@
           "referenceId": "upper craw nest",
           "friendlyName": "upper craw nest",
           "notes": "",
-          "sceneUnitX": 105.14733288574219,
-          "sceneUnitY": 84.2199146118164,
-          "sceneUnitWidth": 25.00831604003905,
+          "sceneUnitX": 107.62437603759766,
+          "sceneUnitY": 83.87825506591797,
+          "sceneUnitWidth": 19.45632171630858,
           "sceneUnitHeight": 10.527854919433594,
           "enableAnnotation": true,
           "sortOrder": 9,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T22:39:28.0337522Z",
-          "updatedUtc": "2026-10-23T03:42:40.0837404Z"
+          "updatedUtc": "2026-11-08T11:01:25.1773043Z"
         },
         {
           "id": "9a4d4c12-7d11-42bf-b07f-c68ca33d424b",
@@ -9102,6 +9127,22 @@
           "archivedUtc": null,
           "createdUtc": "2026-11-06T20:04:51.969306Z",
           "updatedUtc": "2026-11-06T20:05:04.9087439Z"
+        },
+        {
+          "id": "ec8d4756-6e14-4c22-a17b-321ae67d1bd3",
+          "referenceId": "spike room lower entrance",
+          "friendlyName": "spike room lower entrance",
+          "notes": "",
+          "sceneUnitX": 101.03491973876953,
+          "sceneUnitY": 76.83833044433594,
+          "sceneUnitWidth": 9.845588684082031,
+          "sceneUnitHeight": 6.226366821289062,
+          "enableAnnotation": true,
+          "sortOrder": 21,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T10:56:57.2718072Z",
+          "updatedUtc": "2026-11-08T10:57:07.9923797Z"
         }
       ],
       "transitions": [
@@ -9379,15 +9420,15 @@
           "requirements": "progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR (faydown cloak AND ledge grab left)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 115.99996948242188,
-          "sceneUnitY": 75.51277160644531,
+          "sceneUnitX": 121.89651489257812,
+          "sceneUnitY": 80.5853271484375,
           "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T13:50:51.6629775Z",
-          "updatedUtc": "2026-10-23T03:42:57.162981Z"
+          "updatedUtc": "2026-11-08T11:11:32.2405984Z"
         },
         {
           "id": "5f469640-d59b-43d5-b294-a7f9560795d9",
@@ -9436,15 +9477,15 @@
           "requirements": "silk soar",
           "notes": "must drop to middle craw nest",
           "enableAnnotation": true,
-          "sceneUnitX": 115.99996948242188,
-          "sceneUnitY": 75.51277160644531,
+          "sceneUnitX": 121.89651489257812,
+          "sceneUnitY": 80.5853271484375,
           "sortOrder": 4,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T13:50:53.158907Z",
-          "updatedUtc": "2026-10-23T03:42:57.162981Z"
+          "updatedUtc": "2026-11-08T11:11:32.2405984Z"
         },
         {
           "id": "ebcd048e-67eb-4959-8e8c-02328244fb07",
@@ -9493,15 +9534,15 @@
           "requirements": "none (normal jump)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 123.11349487304688,
-          "sceneUnitY": 61.405086517333984,
+          "sceneUnitX": 123.32966613769531,
+          "sceneUnitY": 58.429569244384766,
           "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T14:04:46.4460361Z",
-          "updatedUtc": "2026-10-23T03:43:13.7358539Z"
+          "updatedUtc": "2026-11-08T11:01:52.0927025Z"
         },
         {
           "id": "4c2456d6-a689-4449-8b84-f7eabc9d8084",
@@ -9512,15 +9553,15 @@
           "requirements": "(progressive swift step 1 AND faydown cloak AND ledge grab left) OR  prereq balloon lever IN greymoor craw nest OR (silk soar AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 123.11349487304688,
-          "sceneUnitY": 61.405086517333984,
+          "sceneUnitX": 123.32966613769531,
+          "sceneUnitY": 58.429569244384766,
           "sortOrder": 8,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T14:04:40.1978308Z",
-          "updatedUtc": "2026-10-23T03:43:13.7358539Z"
+          "updatedUtc": "2026-11-08T11:01:52.0927025Z"
         },
         {
           "id": "477e59c1-2f29-4172-91cc-f493ce3d46b0",
@@ -9683,15 +9724,15 @@
           "requirements": "none (just fall)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 130.4014129638672,
-          "sceneUnitY": 77.83878326416016,
+          "sceneUnitX": 133.4248504638672,
+          "sceneUnitY": 75.92133331298828,
           "sortOrder": 17,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T21:03:33.4193453Z",
-          "updatedUtc": "2026-10-23T03:43:17.9950548Z"
+          "updatedUtc": "2026-11-08T11:11:52.960495Z"
         },
         {
           "id": "d508b6ce-d378-4a9a-b22c-eeb835869403",
@@ -9702,15 +9743,15 @@
           "requirements": "silk soar OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 130.4014129638672,
-          "sceneUnitY": 77.83878326416016,
+          "sceneUnitX": 133.4248504638672,
+          "sceneUnitY": 75.92133331298828,
           "sortOrder": 18,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T21:03:36.3790027Z",
-          "updatedUtc": "2026-10-23T03:43:17.9950548Z"
+          "updatedUtc": "2026-11-08T11:11:52.960495Z"
         },
         {
           "id": "7daeb229-d11d-4e70-8050-4bc8469011ee",
@@ -9794,7 +9835,7 @@
           "friendlyName": "hatch",
           "sourceSubroomReferenceText": "lower flea room",
           "destinationSubroomReferenceText": "flea room middle",
-          "requirements": "prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either))",
+          "requirements": "prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) OR (elite ball knowledge AND (faydown cloak OR ledge grab either OR cling grip either) AND ([hunter, wanderer, reaper, beast, architect, witch, shaman] needle right OR easy [hunter, wanderer, reaper, beast, architect, witch, shaman] needle strike))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 192.12384033203125,
@@ -9805,7 +9846,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T18:32:58.9659714Z",
-          "updatedUtc": "2026-11-06T20:13:40.4169979Z"
+          "updatedUtc": "2026-11-08T15:31:24.088226Z"
         },
         {
           "id": "5a10d2ea-cc88-4e7c-a7de-442cfaf21b36",
@@ -9849,20 +9890,20 @@
           "id": "070629e0-f064-4834-adc9-55be2887e13b",
           "alias": "SL",
           "friendlyName": "spike lower",
-          "sourceSubroomReferenceText": "spiked room",
+          "sourceSubroomReferenceText": "spike room lower entrance",
           "destinationSubroomReferenceText": "upper craw nest",
-          "requirements": "prereq spike room lever AND (clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1))",
+          "requirements": "clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 103.48405456542969,
-          "sceneUnitY": 78.47351837158203,
+          "sceneUnitX": 103.98983001708984,
+          "sceneUnitY": 97.64067077636719,
           "sortOrder": 25,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T21:11:19.285761Z",
-          "updatedUtc": "2026-10-23T06:54:29.0012195Z"
+          "updatedUtc": "2026-11-08T12:54:13.9943209Z"
         },
         {
           "id": "adaa843c-da23-418d-846b-bb325b61b761",
@@ -9888,19 +9929,19 @@
           "alias": "SL",
           "friendlyName": "spike lower",
           "sourceSubroomReferenceText": "upper craw nest",
-          "destinationSubroomReferenceText": "spiked room",
+          "destinationSubroomReferenceText": "spike room lower entrance",
           "requirements": "((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever ",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 103.48405456542969,
-          "sceneUnitY": 78.47351837158203,
+          "sceneUnitX": 103.98983001708984,
+          "sceneUnitY": 97.64067077636719,
           "sortOrder": 26,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T21:11:42.0219104Z",
-          "updatedUtc": "2026-11-01T18:59:55.4407601Z"
+          "updatedUtc": "2026-11-08T11:01:30.8362993Z"
         },
         {
           "id": "068a971c-0f79-47e5-89c1-af5cd8d26e4f",
@@ -9987,15 +10028,15 @@
           "requirements": "nothing (just fall)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 155.45587158203125,
-          "sceneUnitY": 79.18624114990234,
+          "sceneUnitX": 162.265625,
+          "sceneUnitY": 73.29107666015625,
           "sortOrder": 31,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-23T02:03:00.6354973Z",
-          "updatedUtc": "2026-10-23T03:34:36.3977111Z"
+          "updatedUtc": "2026-11-08T11:11:37.7670793Z"
         },
         {
           "id": "f384a44b-cba6-4b00-b29b-55249a68abaa",
@@ -10006,15 +10047,15 @@
           "requirements": "silk soar OR (prereq balloon lever IN greymoor craw nest AND faydown cloak AND (ledge grab right OR cling grip right))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 155.45587158203125,
-          "sceneUnitY": 79.18624114990234,
+          "sceneUnitX": 162.265625,
+          "sceneUnitY": 73.29107666015625,
           "sortOrder": 32,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-23T02:03:01.8092409Z",
-          "updatedUtc": "2026-10-23T03:34:36.3977111Z"
+          "updatedUtc": "2026-11-08T11:11:37.7670793Z"
         },
         {
           "id": "61fab3c1-6668-43de-93ac-f287c2b32d48",
@@ -10025,15 +10066,15 @@
           "requirements": "drifters cloak OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR (flea brew AND ledge grab left)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 145.35264587402344,
-          "sceneUnitY": 87.07748413085938,
+          "sceneUnitX": 143.82835388183594,
+          "sceneUnitY": 88.88799285888672,
           "sortOrder": 33,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-23T02:11:26.6755828Z",
-          "updatedUtc": "2026-10-22T07:34:11.2467235Z"
+          "updatedUtc": "2026-11-08T11:12:01.2485428Z"
         },
         {
           "id": "8d24d82e-0871-43cf-965c-359e87a96f34",
@@ -10058,39 +10099,39 @@
           "id": "b475d5b9-483c-4689-baf4-788f4eaae431",
           "alias": "F4",
           "friendlyName": "fall 4",
-          "sourceSubroomReferenceText": "spiked room",
+          "sourceSubroomReferenceText": "spike room lower entrance",
           "destinationSubroomReferenceText": "middle craw nest left",
-          "requirements": "prereq spike room lever",
+          "requirements": "nothing",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 92.85224914550781,
-          "sceneUnitY": 71.87910461425781,
+          "sceneUnitX": 106.72844696044922,
+          "sceneUnitY": 72.7593994140625,
           "sortOrder": 34,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-23T21:45:00.1924965Z",
-          "updatedUtc": "2026-10-23T03:42:51.6819778Z"
+          "updatedUtc": "2026-11-08T11:00:22.9918864Z"
         },
         {
           "id": "e3a27ece-0e17-446b-861c-1ae94117fb70",
           "alias": "F4",
           "friendlyName": "fall 4",
           "sourceSubroomReferenceText": "middle craw nest left",
-          "destinationSubroomReferenceText": "spiked room",
-          "requirements": "(prereq balloon lever IN greymoor craw nest OR silk soar) AND prereq spike room lever ",
+          "destinationSubroomReferenceText": "spike room lower entrance",
+          "requirements": "prereq balloon lever IN greymoor craw nest OR silk soar ",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 92.85224914550781,
-          "sceneUnitY": 71.87910461425781,
+          "sceneUnitX": 106.72844696044922,
+          "sceneUnitY": 72.7593994140625,
           "sortOrder": 35,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-23T21:45:02.499692Z",
-          "updatedUtc": "2026-10-23T06:55:30.9682417Z"
+          "updatedUtc": "2026-11-08T11:00:24.3208672Z"
         },
         {
           "id": "7148b539-6535-43e0-be84-5d35feb76906",
@@ -10177,15 +10218,15 @@
           "requirements": "(faydown cloak AND (clawline right x 2 OR sharpdart x 2 OR (clawline right x 1 AND (sharpdart x 1 OR (drifters cloak AND ((progressive swift step 1 AND ledge grab right) OR flea brew)))) OR (sharpdart x 1 AND drifters cloak AND ledge grab right AND (progressive swift step 1 OR flea brew)))) OR prereq balloon lever IN greymoor craw nest ",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 123.31205749511719,
-          "sceneUnitY": 69.2964096069336,
+          "sceneUnitX": 127.02658081054688,
+          "sceneUnitY": 63.14311981201172,
           "sortOrder": 40,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:31:48.39611Z",
-          "updatedUtc": "2026-11-01T18:58:19.7160446Z"
+          "updatedUtc": "2026-11-08T11:11:30.3391932Z"
         },
         {
           "id": "fd4303ed-8404-4756-a287-92630c8d8aea",
@@ -10196,15 +10237,15 @@
           "requirements": "clawline left x 2 OR sharpdart x 2 OR drifters cloak OR (faydown cloak AND (progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR (progressive swift step 1 AND (flea brew OR easy [hunter, beast, architect] pogo)))) OR ((clawline left x 1 OR sharpdart x 1) AND (easy beast pogo OR progressive swift step 1)) OR (easy beast pogo AND progressive swift step 2 left) OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 123.31205749511719,
-          "sceneUnitY": 69.2964096069336,
+          "sceneUnitX": 127.02658081054688,
+          "sceneUnitY": 63.14311981201172,
           "sortOrder": 41,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:31:50.8163772Z",
-          "updatedUtc": "2026-11-01T18:58:04.6102676Z"
+          "updatedUtc": "2026-11-08T11:11:30.3391932Z"
         },
         {
           "id": "c6c5b522-babd-45c8-a7bc-2c8bef2fff82",
@@ -10215,15 +10256,15 @@
           "requirements": "progressive swift step 1 right OR sharpdart x 1 OR drifters cloak OR faydown cloak OR flea brew OR clawline right x 1 OR easy [hunter, reaper, beast, architect, witch] pogo OR easy wanderer needle strike OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 141.40484619140625,
-          "sceneUnitY": 79.55360412597656,
+          "sceneUnitX": 145.19808959960938,
+          "sceneUnitY": 79.12308502197266,
           "sortOrder": 42,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:34:45.4737967Z",
-          "updatedUtc": "2026-10-23T07:31:39.3149174Z"
+          "updatedUtc": "2026-11-08T11:11:47.9056838Z"
         },
         {
           "id": "1b27cb12-1908-46d5-9043-5181b9f26b0e",
@@ -10234,15 +10275,15 @@
           "requirements": "silk soar OR prereq balloon lever IN greymoor craw nest",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 141.40484619140625,
-          "sceneUnitY": 79.55360412597656,
+          "sceneUnitX": 145.19808959960938,
+          "sceneUnitY": 79.12308502197266,
           "sortOrder": 43,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T03:34:46.9076952Z",
-          "updatedUtc": "2026-10-23T07:01:33.7508005Z"
+          "updatedUtc": "2026-11-08T11:11:47.9056838Z"
         },
         {
           "id": "8b8c5bf5-1b25-4fce-b047-ae41e3330e3f",
@@ -10718,6 +10759,82 @@
           "archivedUtc": null,
           "createdUtc": "2026-11-06T20:13:56.2835837Z",
           "updatedUtc": "2026-11-06T20:15:22.0030204Z"
+        },
+        {
+          "id": "074399fc-c509-4a16-b001-5aa45dd3f72e",
+          "alias": "SMD",
+          "friendlyName": "spike metal door",
+          "sourceSubroomReferenceText": "spiked room",
+          "destinationSubroomReferenceText": "spike room lower entrance",
+          "requirements": "clear spike room lever",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 90.23095703125,
+          "sceneUnitY": 71.98121643066406,
+          "sortOrder": 68,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T10:58:06.6471153Z",
+          "updatedUtc": "2026-11-08T10:59:36.1425852Z"
+        },
+        {
+          "id": "4286127d-0c83-4cc9-ad78-8c735ff44879",
+          "alias": "SMD",
+          "friendlyName": "spike metal door",
+          "sourceSubroomReferenceText": "spike room lower entrance",
+          "destinationSubroomReferenceText": "spiked room",
+          "requirements": "clear spike room lever",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 90.23095703125,
+          "sceneUnitY": 71.98121643066406,
+          "sortOrder": 69,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T10:58:08.0259332Z",
+          "updatedUtc": "2026-11-08T10:59:36.1425852Z"
+        },
+        {
+          "id": "440da241-be8f-4c34-bc30-ad7711c517f8",
+          "alias": "GL",
+          "friendlyName": "geo leap",
+          "sourceSubroomReferenceText": "stupid platform i hate",
+          "destinationSubroomReferenceText": "spike room lower entrance",
+          "requirements": "(faydown cloak AND ((((sharpdart x 2 OR clawline left x 2) AND (progressive swift step 1 OR ledge grab left))) OR (clawline left x 1 AND (progressive swift step 2 left OR (drifters cloak AND ledge grab left))) OR (sharpdart x 1 AND progressive swift step 2 AND ledge grab left))) OR prereq balloon lever IN greymoor craw nest",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 123.94853973388672,
+          "sceneUnitY": 71.3512191772461,
+          "sortOrder": 70,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T11:10:57.3451684Z",
+          "updatedUtc": "2026-11-08T12:52:18.7371102Z"
+        },
+        {
+          "id": "b942fb15-270f-47fc-8e1a-8de332e12caf",
+          "alias": "GL",
+          "friendlyName": "geo leap",
+          "sourceSubroomReferenceText": "spike room lower entrance",
+          "destinationSubroomReferenceText": "stupid platform i hate",
+          "requirements": "(((clawline right x 1 OR sharpdart x 1) AND (drifters cloak OR progressive swift step 2 right))) OR (drifters cloak AND (progressive swift step 2 right OR (faydown cloak AND ledge grab))) OR clawline right x 2 OR sharpdart x 2  OR prereq balloon lever IN greymoor craw nest",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 123.94853973388672,
+          "sceneUnitY": 71.3512191772461,
+          "sortOrder": 71,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T11:10:58.5887171Z",
+          "updatedUtc": "2026-11-08T12:49:15.8542695Z"
         }
       ],
       "checks": [
@@ -11070,6 +11187,31 @@
           "archivedUtc": "2026-10-22T01:49:28.6601508Z",
           "createdUtc": "2026-10-05T00:52:42.2900706Z",
           "updatedUtc": "2026-10-22T01:49:28.6601508Z"
+        },
+        {
+          "id": "e73e01ac-ca0c-43f2-b206-cb7d3c74341b",
+          "friendlyName": "",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": null,
+          "annotationSceneUnitY": null,
+          "subroomReferenceText": "",
+          "requirements": "",
+          "notes": "",
+          "locationType": null,
+          "enableAnnotation": true,
+          "sortOrder": 10,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": true,
+          "archivedUtc": "2026-11-08T10:57:58.3129867Z",
+          "createdUtc": "2026-11-08T10:57:49.0624361Z",
+          "updatedUtc": "2026-11-08T10:57:58.3129867Z"
         },
         {
           "id": "305c4a26-877a-48a7-9818-ff1b0abc6a8d",
@@ -30521,13 +30663,13 @@
           "sceneUnitX": 199.384521484375,
           "sceneUnitY": 8.968099594116211,
           "sceneUnitWidth": 30.615478515625,
-          "sceneUnitHeight": 17.03190040588379,
+          "sceneUnitHeight": 9.158666610717773,
           "enableAnnotation": true,
           "sortOrder": 0,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T14:49:17.1620894Z",
-          "updatedUtc": "2026-08-19T14:55:13.7780032Z"
+          "updatedUtc": "2026-11-07T15:59:54.9752444Z"
         },
         {
           "id": "9c473f85-2632-4485-b3fc-52cd9620faf9",
@@ -30537,13 +30679,45 @@
           "sceneUnitX": 0,
           "sceneUnitY": 6.594972198486328,
           "sceneUnitWidth": 96.63081091308594,
-          "sceneUnitHeight": 19.405027801513672,
+          "sceneUnitHeight": 14.427730972290039,
           "enableAnnotation": true,
           "sortOrder": 1,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T14:49:25.3553959Z",
-          "updatedUtc": "2026-08-19T14:55:27.6214296Z"
+          "updatedUtc": "2026-11-07T15:59:33.5947054Z"
+        },
+        {
+          "id": "d0f5966e-04f3-4977-8616-2ec13c6e69c1",
+          "referenceId": "Top Left",
+          "friendlyName": "Top Left",
+          "notes": "",
+          "sceneUnitX": 26.00124168395996,
+          "sceneUnitY": 21.022703170776367,
+          "sceneUnitWidth": 10.688028335571289,
+          "sceneUnitHeight": 4.977296829223633,
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T15:59:11.9040495Z",
+          "updatedUtc": "2026-11-07T15:59:28.478014Z"
+        },
+        {
+          "id": "fd31bd76-03bc-43f4-b844-d005e877a000",
+          "referenceId": "Shellgrave Plaform",
+          "friendlyName": "Shellgrave Plaform",
+          "notes": "",
+          "sceneUnitX": 199.384521484375,
+          "sceneUnitY": 18.126766204833984,
+          "sceneUnitWidth": 17.017852783203125,
+          "sceneUnitHeight": 7.873233795166016,
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T15:59:21.8049068Z",
+          "updatedUtc": "2026-11-07T15:59:48.8901997Z"
         }
       ],
       "transitions": [
@@ -30589,10 +30763,10 @@
           "annotationSceneUnitX": 203.718505859375,
           "annotationSceneUnitY": 27.676883697509766,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "Right Lake",
+          "sourceSubroomReferenceText": "Shellgrave Plaform",
           "destinationRoomReferenceText": "shellgrave",
           "destinationTransitionAliasText": "F",
-          "requirements": "Ledge grab Left OR Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Easy pogo off pondcatcher OR Cling Grip Right OR Cling Grip Left",
+          "requirements": "None",
           "notes": "",
           "sortOrder": 1,
           "isTodo": false,
@@ -30600,7 +30774,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T14:48:03.3001559Z",
-          "updatedUtc": "2026-10-15T07:38:35.1233573Z",
+          "updatedUtc": "2026-11-07T16:00:39.8024395Z",
           "isUnsafeArrival": false
         },
         {
@@ -30645,10 +30819,10 @@
           "annotationSceneUnitX": 30.865633010864258,
           "annotationSceneUnitY": 25.779151916503906,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "Left Lake",
+          "sourceSubroomReferenceText": "Top Left",
           "destinationRoomReferenceText": "shellwood Far Left Tall Room",
           "destinationTransitionAliasText": "F",
-          "requirements": "medium pogo off pondcatcher OR Cling grip Right OR Cling Grip Left OR Silk soar OR Faydown Cloak OR Easy Scuttlebrace",
+          "requirements": "None",
           "notes": "",
           "sortOrder": 3,
           "isTodo": false,
@@ -30656,7 +30830,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T14:48:03.3001559Z",
-          "updatedUtc": "2026-10-15T07:37:16.533851Z",
+          "updatedUtc": "2026-11-07T16:00:37.0106559Z",
           "isUnsafeArrival": false
         }
       ],
@@ -30667,7 +30841,7 @@
           "friendlyName": "Pond Crossing",
           "sourceSubroomReferenceText": "Left Lake",
           "destinationSubroomReferenceText": "Right Lake",
-          "requirements": "Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper )",
+          "requirements": "((Act 1 OR Act 2 ) AND ( Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper ) OR ( Faydown Cloak AND Hard pogo off pondcatcher ) ) )OR ( ACT 3 AND ( ( Swim AND ( Ledge grab Right OR Cling grip Right OR Faydown Cloak OR Easy flea brew stall OR easy plasmium stall OR easy delvers drill stall OR easy voltvessels stall OR Clawline Right OR Easy heal stall OR easy rune rage stall OR easy thread storm stall OR easy cross stitch stall OR sharpdart OR Easy silkspear stall OR easy shaman pogo OR Easy beast pogo OR Medium hunter pogo (You literally just clip up the ledge when pogoing????) OR medium reaper pogo OR medium pogo off pond skipper OR medium pogo off pondcatcher OR medium naked pogo ) ) OR ( Faydown Cloak AND Drifters Cloak AND Clawline Right AND Medium pogo off pond skipper ) ) )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 149.58912658691406,
@@ -30678,7 +30852,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T14:54:31.9057906Z",
-          "updatedUtc": "2026-10-15T07:39:29.0840497Z"
+          "updatedUtc": "2026-11-08T17:12:58.5036584Z"
         },
         {
           "id": "16587fb5-7fa2-4eab-a9b5-3ea645f61b07",
@@ -30686,7 +30860,7 @@
           "friendlyName": "Pond Crossing",
           "sourceSubroomReferenceText": "Right Lake",
           "destinationSubroomReferenceText": "Left Lake",
-          "requirements": "Swim OR Clawline left OR ( Sprint left AND Drifters Cloak ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper )",
+          "requirements": "( ( ACT 1 OR ACT 2 ) AND ( Swim OR Clawline left OR ( Sprint left AND ( Drifters Cloak OR ( Dash left AND medium shaman pogo ) ) ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper ) ) ) OR ( ACT 3 AND ( Swim OR ( Faydown Cloak AND Drifters Cloak AND Clawline Left AND Medium pogo off pond skipper ) ) )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 149.58912658691406,
@@ -30697,7 +30871,83 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T14:54:33.2687608Z",
-          "updatedUtc": "2026-10-15T07:40:03.733576Z"
+          "updatedUtc": "2026-11-08T16:51:07.4258525Z"
+        },
+        {
+          "id": "977a79e0-6a45-49db-ad2d-6ae0da9b1331",
+          "alias": "TL",
+          "friendlyName": "Top Left",
+          "sourceSubroomReferenceText": "Top Left",
+          "destinationSubroomReferenceText": "Left Lake",
+          "requirements": "None",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 41.623809814453125,
+          "sceneUnitY": 21.27712631225586,
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T16:01:33.8672738Z",
+          "updatedUtc": "2026-11-07T16:01:57.1276753Z"
+        },
+        {
+          "id": "31f45648-86c1-4da2-9520-12621b005efc",
+          "alias": "TL",
+          "friendlyName": "Top Left",
+          "sourceSubroomReferenceText": "Left Lake",
+          "destinationSubroomReferenceText": "Top Left",
+          "requirements": "Cling grip either OR Scuttlebrace OR Faydown CLoak OR Medium pogo off pondcatcher OR Silk Soar",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 41.623809814453125,
+          "sceneUnitY": 21.27712631225586,
+          "sortOrder": 3,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T16:01:49.1851292Z",
+          "updatedUtc": "2026-11-07T16:06:12.6817236Z"
+        },
+        {
+          "id": "bb6de307-a6fd-4740-b616-7788f1c5a5e6",
+          "alias": "TR",
+          "friendlyName": "Top Right",
+          "sourceSubroomReferenceText": "Shellgrave Plaform",
+          "destinationSubroomReferenceText": "Right Lake",
+          "requirements": "None",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 213.62841796875,
+          "sceneUnitY": 18.323272705078125,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T16:06:16.8466684Z",
+          "updatedUtc": "2026-11-07T16:06:41.2148941Z"
+        },
+        {
+          "id": "31c9e309-4362-4e34-b5d3-8a42813269ff",
+          "alias": "TR",
+          "friendlyName": "Top Right",
+          "sourceSubroomReferenceText": "Right Lake",
+          "destinationSubroomReferenceText": "Shellgrave Plaform",
+          "requirements": "Ledge grab either OR Cling grip either OR Faydown Cloak OR Medium pogo off pondcatcher",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 213.62841796875,
+          "sceneUnitY": 18.323272705078125,
+          "sortOrder": 5,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-07T16:06:36.2649133Z",
+          "updatedUtc": "2026-11-07T16:09:31.0183105Z"
         }
       ],
       "checks": [
@@ -72637,7 +72887,40 @@
       "archivedUtc": null,
       "createdUtc": "2026-08-19T15:00:04.8027748Z",
       "updatedUtc": "2026-09-09T10:37:59.2011861Z",
-      "subrooms": [],
+      "subrooms": [
+        {
+          "id": "8f57aa5c-0e8c-4746-adb5-316debb15423",
+          "referenceId": "Upper",
+          "friendlyName": "Upper",
+          "notes": "",
+          "sceneUnitX": 1.875160813331604,
+          "sceneUnitY": 7.26023006439209,
+          "sceneUnitWidth": 60.00020158290863,
+          "sceneUnitHeight": 9.320422172546387,
+          "enableAnnotation": true,
+          "sortOrder": 0,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:13:08.2154051Z",
+          "updatedUtc": "2026-11-08T17:13:48.06756Z"
+        },
+        {
+          "id": "121ba35f-0157-43d0-a9aa-274877554274",
+          "referenceId": "Lower",
+          "friendlyName": "Lower",
+          "notes": "",
+          "sceneUnitX": 58.56942367553711,
+          "sceneUnitY": 2.355315685272217,
+          "sceneUnitWidth": 74.75752639770508,
+          "sceneUnitHeight": 4.904914379119873,
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:13:10.8317501Z",
+          "updatedUtc": "2026-11-08T17:13:57.8595542Z"
+        }
+      ],
       "transitions": [
         {
           "id": "dac3a735-3d47-44fe-82c7-182af9b36a83",
@@ -72653,7 +72936,7 @@
           "annotationSceneUnitX": 122,
           "annotationSceneUnitY": 0.5,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": null,
+          "sourceSubroomReferenceText": "Lower",
           "destinationRoomReferenceText": "Shellwood Left Side Long Pond Room",
           "destinationTransitionAliasText": "RC",
           "requirements": "None",
@@ -72664,15 +72947,54 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T15:00:04.8027748Z",
-          "updatedUtc": "2026-09-28T03:30:03.4066099Z",
+          "updatedUtc": "2026-11-08T17:15:16.8890584Z",
           "isUnsafeArrival": false
         }
       ],
-      "connections": [],
+      "connections": [
+        {
+          "id": "f4e05686-9aaa-498c-9beb-207398cb4a25",
+          "alias": "LG",
+          "friendlyName": "Damn Ledge Grab Rando",
+          "sourceSubroomReferenceText": "Lower",
+          "destinationSubroomReferenceText": "Upper",
+          "requirements": "Ledge grab left OR cling grip left OR Scuttlebrace OR Faydown Cloak OR silk Soar OR Easy Beast Charge OR Easy shaman pogo OR Easy silkspear stall OR easy plasmium stall OR easy voltvessels stall OR easy delvers drill stall OR easy beast crest heal stall OR ( Easy pogo off rosary pilgrim AND ( Have tool: straight pin OR Have Tool: threefold pin OR Have Tool: Throwing Ring OR Have Tool: Conchcutter OR Have Tool: Cogwork Wheel ) )",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 60.459712982177734,
+          "sceneUnitY": 7.841387748718262,
+          "sortOrder": 0,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:13:15.527432Z",
+          "updatedUtc": "2026-11-08T17:29:26.128392Z"
+        },
+        {
+          "id": "d04a42bf-75cd-4763-b550-738627fa442c",
+          "alias": "LG",
+          "friendlyName": "Damn Ledge Grab Rando",
+          "sourceSubroomReferenceText": "Upper",
+          "destinationSubroomReferenceText": "Lower",
+          "requirements": "None",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 60.459712982177734,
+          "sceneUnitY": 7.841387748718262,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:13:33.5879291Z",
+          "updatedUtc": "2026-11-08T17:14:04.7978424Z"
+        }
+      ],
       "checks": [
         {
           "id": "552ccbc6-91b8-4aaf-9686-bc3b11184063",
-          "friendlyName": "Rosary Cache",
+          "friendlyName": "Rosary Cross",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -72682,9 +73004,9 @@
           "localPositionZ": null,
           "annotationSceneUnitX": 10.162007331848145,
           "annotationSceneUnitY": 8.517742156982422,
-          "subroomReferenceText": "",
+          "subroomReferenceText": "Upper",
           "requirements": "None",
-          "notes": "Not included no id",
+          "notes": "Not included no id\nfinally getting included? pycl - 8/11 ",
           "locationType": "resource",
           "enableAnnotation": true,
           "sortOrder": 0,
@@ -72693,7 +73015,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T15:01:07.2819598Z",
-          "updatedUtc": "2026-09-09T10:38:05.195771Z"
+          "updatedUtc": "2026-11-08T17:29:59.3673778Z"
         },
         {
           "id": "498a6a37-8793-447e-a72b-4f4e1fd08b64",
@@ -72707,9 +73029,9 @@
           "localPositionZ": null,
           "annotationSceneUnitX": 49.8361701965332,
           "annotationSceneUnitY": 7.296037673950195,
-          "subroomReferenceText": "",
+          "subroomReferenceText": "Upper",
           "requirements": "ACT 3",
-          "notes": "Plinney comes here upon starting act and starts an encounter",
+          "notes": "Plinney comes here upon starting act 3 and starts an encounter",
           "locationType": "event",
           "enableAnnotation": true,
           "sortOrder": 1,
@@ -72718,7 +73040,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:31.6210366Z",
-          "updatedUtc": "2026-10-15T07:43:11.3561601Z"
+          "updatedUtc": "2026-11-08T17:15:26.5649899Z"
         },
         {
           "id": "710c6178-a911-4dc3-8d78-ecaaea81631c",
@@ -72757,7 +73079,7 @@
           "localPositionZ": 0.006,
           "annotationSceneUnitX": 57,
           "annotationSceneUnitY": 10.2050858,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72768,7 +73090,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:37.9659934Z"
+          "updatedUtc": "2026-11-08T17:23:27.4432997Z"
         },
         {
           "id": "f4cd9b23-0b7b-4388-9414-c57215b271dc",
@@ -72782,7 +73104,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 70,
           "annotationSceneUnitY": 11.56,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72793,7 +73115,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:36.837724Z"
+          "updatedUtc": "2026-11-08T17:23:28.4542196Z"
         },
         {
           "id": "32dd54bd-2bc4-49f6-8213-2628acbf3390",
@@ -72807,7 +73129,7 @@
           "localPositionZ": 0.006,
           "annotationSceneUnitX": 59.670002,
           "annotationSceneUnitY": 10.7850075,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72818,7 +73140,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:35.7536997Z"
+          "updatedUtc": "2026-11-08T17:23:29.8069913Z"
         },
         {
           "id": "c9a7482b-2253-4c16-83fe-42cb8af174b3",
@@ -72832,7 +73154,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 64.15001,
           "annotationSceneUnitY": 10.0500011,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72843,7 +73165,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:34.7658076Z"
+          "updatedUtc": "2026-11-08T17:23:30.9873152Z"
         },
         {
           "id": "44a0ab99-8261-4539-abaf-ef6a6a6027dc",
@@ -72857,7 +73179,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 58.26001,
           "annotationSceneUnitY": 10.5700016,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72868,7 +73190,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:33.0898054Z"
+          "updatedUtc": "2026-11-08T17:23:33.0539797Z"
         },
         {
           "id": "41acc160-0548-4a56-a8c9-99cc079bb214",
@@ -72882,7 +73204,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 69.29001,
           "annotationSceneUnitY": 10.4800014,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72893,7 +73215,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:31.9798462Z"
+          "updatedUtc": "2026-11-08T17:23:34.6958936Z"
         },
         {
           "id": "ab1ac313-dabc-4e13-9fd3-f131c883e449",
@@ -72907,7 +73229,7 @@
           "localPositionZ": 0.006,
           "annotationSceneUnitX": 53.3500061,
           "annotationSceneUnitY": 10.170001,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72918,7 +73240,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:30.8420386Z"
+          "updatedUtc": "2026-11-08T17:23:35.717396Z"
         },
         {
           "id": "e80a077c-13c5-4e15-be08-d68e791526a0",
@@ -72932,7 +73254,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 62.4499969,
           "annotationSceneUnitY": 10.4800014,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72943,7 +73265,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:29.4277292Z"
+          "updatedUtc": "2026-11-08T17:23:36.8807988Z"
         },
         {
           "id": "b27fe057-7db4-4184-a5ee-68dae7023e7d",
@@ -72957,7 +73279,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 54.04001,
           "annotationSceneUnitY": 10.0500011,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72968,7 +73290,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:28.4137233Z"
+          "updatedUtc": "2026-11-08T17:23:38.0270333Z"
         },
         {
           "id": "bc3a5e05-b85e-4d49-aa43-7991d5de755e",
@@ -72982,7 +73304,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 71.95001,
           "annotationSceneUnitY": 10.4800014,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -72993,7 +73315,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:27.1178967Z"
+          "updatedUtc": "2026-11-08T17:23:39.4643881Z"
         },
         {
           "id": "33cca83b-8b08-4921-8bab-5b9611aa858a",
@@ -73007,7 +73329,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 63.1600037,
           "annotationSceneUnitY": 11.6800013,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -73018,7 +73340,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:24.4359849Z"
+          "updatedUtc": "2026-11-08T17:23:42.0273103Z"
         },
         {
           "id": "e0119ff5-545e-4c8e-9a59-31077c628476",
@@ -73032,7 +73354,7 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 49.58,
           "annotationSceneUnitY": 10.4800014,
-          "subroomReferenceText": null,
+          "subroomReferenceText": "Upper",
           "requirements": "Prereq save plinney",
           "notes": "",
           "locationType": "enemy",
@@ -73043,7 +73365,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:41:05.6713919Z",
-          "updatedUtc": "2026-10-15T07:44:25.5838926Z"
+          "updatedUtc": "2026-11-08T17:23:43.4107028Z"
         },
         {
           "id": "0ea0f715-40e1-4a51-a72f-7aa142219a19",
@@ -73057,7 +73379,7 @@
           "localPositionZ": null,
           "annotationSceneUnitX": 30.022769927978516,
           "annotationSceneUnitY": 6.942225933074951,
-          "subroomReferenceText": "",
+          "subroomReferenceText": "Upper",
           "requirements": "None",
           "notes": "",
           "locationType": "enemy",
@@ -73068,7 +73390,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T07:43:58.4101321Z",
-          "updatedUtc": "2026-10-15T07:44:22.4437624Z"
+          "updatedUtc": "2026-11-08T17:23:45.6561035Z"
         }
       ]
     },
@@ -74173,7 +74495,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-25T19:27:45.3212096Z",
-      "updatedUtc": "2026-10-23T00:46:44.8296049Z",
+      "updatedUtc": "2026-11-08T17:50:27.1863837Z",
       "subrooms": [],
       "transitions": [
         {
@@ -74208,31 +74530,6 @@
       "connections": [],
       "checks": [
         {
-          "id": "949ba037-44c0-43f3-80ef-96197ccd0900",
-          "friendlyName": "Balm for the Wounded Gauntlet",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
-          "annotationSceneUnitX": 57.31589126586914,
-          "annotationSceneUnitY": 11.132170677185059,
-          "subroomReferenceText": "",
-          "requirements": "Combat Requirements",
-          "notes": "Completion for the wish.",
-          "locationType": "gauntlet",
-          "enableAnnotation": true,
-          "sortOrder": 0,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-08-25T19:30:37.172651Z",
-          "updatedUtc": "2026-10-24T01:27:58.885202Z"
-        },
-        {
           "id": "1f53c165-7afb-4362-9607-d334f05dd642",
           "friendlyName": "Balm for the Wounded Wish Granted",
           "inGameId": null,
@@ -74249,13 +74546,13 @@
           "notes": "",
           "locationType": "event",
           "enableAnnotation": true,
-          "sortOrder": 1,
+          "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-09T02:46:52.4513186Z",
-          "updatedUtc": "2026-10-23T00:47:48.2936269Z"
+          "updatedUtc": "2026-11-08T17:50:38.647682Z"
         },
         {
           "id": "4280a5b7-1b56-4aeb-9ffc-53361e3988ad",
@@ -74274,18 +74571,68 @@
           "notes": "Completion for the wish.",
           "locationType": "collectible",
           "enableAnnotation": true,
-          "sortOrder": 2,
+          "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T19:30:46.1887286Z",
-          "updatedUtc": "2026-10-23T00:47:45.6403527Z"
+          "updatedUtc": "2026-11-08T17:50:38.647682Z"
+        },
+        {
+          "id": "612a8f39-ef0b-4e0d-8815-40f5e26bb893",
+          "friendlyName": "Sherma Gauntlet Wall",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 35.16048049926758,
+          "annotationSceneUnitY": 5.530253887176514,
+          "subroomReferenceText": "",
+          "requirements": "break wall right",
+          "notes": "",
+          "locationType": "blockade",
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:50:38.647682Z",
+          "updatedUtc": "2026-11-08T17:50:51.7536725Z"
+        },
+        {
+          "id": "949ba037-44c0-43f3-80ef-96197ccd0900",
+          "friendlyName": "Balm for the Wounded Gauntlet",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 57.31589126586914,
+          "annotationSceneUnitY": 11.132170677185059,
+          "subroomReferenceText": "",
+          "requirements": "Combat Requirements",
+          "notes": "Completion for the wish.",
+          "locationType": "gauntlet",
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-08-25T19:30:37.172651Z",
+          "updatedUtc": "2026-11-08T17:50:38.647682Z"
         },
         {
           "id": "674b3463-c323-4d9d-b0de-5e20af674b54",
           "friendlyName": "Surgeon 1",
-          "inGameId": "Song Pilgrim 02",
+          "inGameId": "\u0022Black Thread Enemies\u0022[0]/\u0022Enemy Folder\u0022[0]/\u0022Song Pilgrim 02\u0022[0]",
           "inGamePositionX": 62.55,
           "inGamePositionY": 4.67624044,
           "inGamePositionZ": 0,
@@ -74295,22 +74642,22 @@
           "annotationSceneUnitX": 62.55,
           "annotationSceneUnitY": 4.67624044,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "ACT 3",
+          "notes": "spawning before talking to sherma",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 3,
+          "sortOrder": 4,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:19.4964266Z",
-          "updatedUtc": "2026-10-05T00:53:19.4964266Z"
+          "updatedUtc": "2026-11-08T18:17:34.6249328Z"
         },
         {
           "id": "d6da7a1d-e416-4df3-ac77-f85a58788838",
           "friendlyName": "Surgeon 2",
-          "inGameId": "Song Pilgrim 02 (1)",
+          "inGameId": "\u0022Black Thread Enemies\u0022[0]/\u0022Enemy Folder\u0022[0]/\u0022Song Pilgrim 02 (1)\u0022[0]",
           "inGamePositionX": 48.04,
           "inGamePositionY": 4.67624044,
           "inGamePositionZ": 0,
@@ -74320,22 +74667,22 @@
           "annotationSceneUnitX": 48.04,
           "annotationSceneUnitY": 4.67624044,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "ACT 3",
+          "notes": "spawning before talking to sherma",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 4,
+          "sortOrder": 5,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:19.4964266Z",
-          "updatedUtc": "2026-10-05T00:53:19.4964266Z"
+          "updatedUtc": "2026-11-08T18:17:35.4508957Z"
         },
         {
           "id": "46b4471f-8e7b-4eaa-8064-c9fde8827feb",
           "friendlyName": "Surgeon 3",
-          "inGameId": "Song Pilgrim 02",
+          "inGameId": "\u0022Sherma Rescue Scene\u0022[0]/\u0022Activation Folder\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 1\u0022[0]/\u0022Song Pilgrim 02\u0022[0]",
           "inGamePositionX": 47.87,
           "inGamePositionY": 4.61,
           "inGamePositionZ": 4,
@@ -74345,22 +74692,22 @@
           "annotationSceneUnitX": 47.87,
           "annotationSceneUnitY": 4.61,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "none",
+          "notes": "fourth to spawn",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 5,
+          "sortOrder": 6,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:19.4964266Z",
-          "updatedUtc": "2026-10-05T00:53:19.4964266Z"
+          "updatedUtc": "2026-11-08T18:18:51.6794801Z"
         },
         {
           "id": "8e35b119-45dd-4168-8bb4-8109653d46fc",
           "friendlyName": "Mortician 1",
-          "inGameId": "Song Creeper",
+          "inGameId": "\u0022Sherma Rescue Scene\u0022[0]/\u0022Activation Folder\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 2\u0022[0]/\u0022Song Creeper\u0022[0]",
           "inGamePositionX": 53.1,
           "inGamePositionY": 4.18,
           "inGamePositionZ": 0,
@@ -74370,22 +74717,22 @@
           "annotationSceneUnitX": 53.1,
           "annotationSceneUnitY": 4.18,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "none",
+          "notes": "second to spawn",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 6,
+          "sortOrder": 7,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:19.4964266Z",
-          "updatedUtc": "2026-10-05T00:53:19.4964266Z"
+          "updatedUtc": "2026-11-08T18:17:53.4619533Z"
         },
         {
           "id": "1aa0feea-daec-44da-aa5a-878688d76b93",
           "friendlyName": "Mortician 2",
-          "inGameId": "Song Creeper (1)",
+          "inGameId": "\u0022Sherma Rescue Scene\u0022[0]/\u0022Activation Folder\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 2\u0022[0]/\u0022Song Creeper (1)\u0022[0]",
           "inGamePositionX": 61.02,
           "inGamePositionY": 4.18,
           "inGamePositionZ": 0,
@@ -74395,22 +74742,22 @@
           "annotationSceneUnitX": 61.02,
           "annotationSceneUnitY": 4.18,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "none",
+          "notes": "third to spawn",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 7,
+          "sortOrder": 8,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:19.4964266Z",
-          "updatedUtc": "2026-10-05T00:53:19.4964266Z"
+          "updatedUtc": "2026-11-08T18:17:56.3392415Z"
         },
         {
           "id": "284e7db2-aedd-4bf2-98f7-65666c12cfaa",
           "friendlyName": "Surgeon 4",
-          "inGameId": "Song Pilgrim 02",
+          "inGameId": "\u0022Sherma Rescue Scene\u0022[0]/\u0022Activation Folder\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 3\u0022[0]/\u0022Song Pilgrim 02\u0022[0]",
           "inGamePositionX": 62.55,
           "inGamePositionY": 4.67624044,
           "inGamePositionZ": 0,
@@ -74420,22 +74767,22 @@
           "annotationSceneUnitX": 62.55,
           "annotationSceneUnitY": 4.67624044,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "none",
+          "notes": "first to spawn",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 8,
+          "sortOrder": 9,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:19.4964266Z",
-          "updatedUtc": "2026-10-05T00:53:19.4964266Z"
+          "updatedUtc": "2026-11-08T18:17:25.41237Z"
         },
         {
           "id": "bfe64d07-2984-4d7c-bf0a-7aeda3641dbf",
           "friendlyName": "Surgeon 5",
-          "inGameId": "Song Pilgrim 02 (1)",
+          "inGameId": "\u0022Sherma Rescue Scene\u0022[0]/\u0022Activation Folder\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 3\u0022[0]/\u0022Song Pilgrim 02 (1)\u0022[0]",
           "inGamePositionX": 48.04,
           "inGamePositionY": 4.67624044,
           "inGamePositionZ": 0,
@@ -74445,22 +74792,22 @@
           "annotationSceneUnitX": 48.04,
           "annotationSceneUnitY": 4.67624044,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "none",
+          "notes": "fourth to spawn",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 9,
+          "sortOrder": 10,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:19.4964266Z",
-          "updatedUtc": "2026-10-05T00:53:19.4964266Z"
+          "updatedUtc": "2026-11-08T18:21:32.6782887Z"
         },
         {
           "id": "0e75cc11-e0d5-450a-a919-706759730497",
           "friendlyName": "Surgeon 6",
-          "inGameId": "Song Pilgrim 02 Dummy",
+          "inGameId": "\u0022Sherma Rescue Scene\u0022[0]/\u0022Activation Folder\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Song Pilgrim 02 Dummy\u0022[0]",
           "inGamePositionX": 51.9899979,
           "inGamePositionY": 4.13,
           "inGamePositionZ": -4.16,
@@ -74470,17 +74817,17 @@
           "annotationSceneUnitX": 51.9899979,
           "annotationSceneUnitY": 4.13,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "invalid",
+          "notes": "dummy",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 10,
+          "sortOrder": 11,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:19.4964266Z",
-          "updatedUtc": "2026-10-05T00:53:19.4964266Z"
+          "updatedUtc": "2026-11-08T18:20:45.9557052Z"
         }
       ]
     },
@@ -98004,6 +98351,31 @@
           "updatedUtc": "2026-10-07T02:38:59.4839302Z"
         },
         {
+          "id": "a342f266-1784-444a-acbf-1db9f3f97fcc",
+          "friendlyName": "test",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": null,
+          "annotationSceneUnitY": null,
+          "subroomReferenceText": null,
+          "requirements": "",
+          "notes": "",
+          "locationType": null,
+          "enableAnnotation": true,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": null,
+          "isArchived": true,
+          "archivedUtc": "2026-11-08T07:09:01.4723655Z",
+          "createdUtc": "2026-11-08T07:09:00.0883381Z",
+          "updatedUtc": "2026-11-08T07:09:01.4723655Z"
+        },
+        {
           "id": "0d86b433-a59c-4e47-bd5d-060236cd79f9",
           "friendlyName": "Skarr Stalker 1",
           "inGameId": "Bone Hunter",
@@ -98020,13 +98392,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 4,
+          "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:39:51.6394542Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "7959b618-d1cc-48b8-8869-27e248acf3cc",
@@ -98045,13 +98417,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 5,
+          "sortOrder": 6,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:39:54.3676122Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "a5b53584-0c2e-4aef-9639-a940d7d6057b",
@@ -98070,13 +98442,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 6,
+          "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:39:55.1066379Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "2be461ea-7b5b-4052-9503-5668d1f136d9",
@@ -98095,13 +98467,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 7,
+          "sortOrder": 8,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:39:55.8470841Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "99363a97-d401-4e65-8386-b1eb013f0f76",
@@ -98120,13 +98492,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 8,
+          "sortOrder": 9,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:39:56.5938748Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "0cbfc838-1a68-430b-a7d0-6d183fca1a15",
@@ -98145,13 +98517,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 9,
+          "sortOrder": 10,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:39:57.3404242Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "3377856c-065f-464d-ad4a-1a3495f93ac3",
@@ -98170,13 +98542,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 10,
+          "sortOrder": 11,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:39:58.3525726Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "7c24a4b0-776a-407f-a674-ce6184952549",
@@ -98195,13 +98567,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 11,
+          "sortOrder": 12,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:39:59.2315214Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "d352c6c0-fbff-43d7-ac47-461b5d27bbf5",
@@ -98220,13 +98592,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 12,
+          "sortOrder": 13,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:40:00.0462947Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "c167425a-9e9d-4a0f-9590-a956c4daad8d",
@@ -98245,13 +98617,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 13,
+          "sortOrder": 14,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:40:00.7074092Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "852d3f79-a567-4c5f-a89c-67c8debb7c84",
@@ -98270,13 +98642,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 14,
+          "sortOrder": 15,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:40:01.4786305Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         },
         {
           "id": "74879516-715e-49a3-90da-b583dab7ecca",
@@ -98295,13 +98667,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 15,
+          "sortOrder": 16,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:43.5125752Z",
-          "updatedUtc": "2026-10-07T02:40:03.0556996Z"
+          "updatedUtc": "2026-11-08T07:09:00.0883381Z"
         }
       ]
     },
@@ -143001,19 +143373,19 @@
       "sceneMinY": 0,
       "sceneMaxX": 35,
       "sceneMaxY": 28,
-      "sceneImagePixelsPerUnitX": 4.244671398528828,
-      "sceneImagePixelsPerUnitY": 5.520935998756836,
-      "sceneImagePixelOffsetX": 9879.794919732807,
-      "sceneImagePixelOffsetY": 9537.247969528013,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 9850.390991755665,
+      "sceneImagePixelOffsetY": 9528.612466103446,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "b465708d451d138c6d0186df752e8b268387b5a1a9f424fdee07ae633c8aadab",
+      "sceneImageCropHash": "a4033c6c748d56d7aa668754b6bc5287c710a6ceede0ec1392b41b6e6057dd97",
       "sortOrder": 5,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-19T10:51:44.4852059Z",
-      "updatedUtc": "2026-10-22T23:25:21.1993937Z",
+      "updatedUtc": "2026-11-08T17:48:11.4932504Z",
       "subrooms": [],
       "transitions": [
         {
@@ -143057,10 +143429,10 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": 26.532026290893555,
-          "annotationSceneUnitY": 25.615230560302734,
+          "annotationSceneUnitX": 22.888355255126953,
+          "annotationSceneUnitY": 22.19196319580078,
           "subroomReferenceText": "",
-          "requirements": "Cling Grip either OR Scuttlebrace OR Silk Soar OR (Faydown AND (easy hazard respawn OR Ledge Grab left)) ",
+          "requirements": "Cling Grip right OR easy Scuttlebrace OR Silk Soar OR (Faydown AND (cling grip left OR Ledge Grab left OR easy [hunter,wanderer,reaper,beast,architect,witch,shaman] pogo OR easy naked pogo))",
           "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -143070,7 +143442,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T11:02:31.9424811Z",
-          "updatedUtc": "2026-10-22T22:43:51.7072935Z"
+          "updatedUtc": "2026-11-08T17:48:24.8437879Z"
         }
       ]
     },
@@ -167001,19 +167373,35 @@
         },
         {
           "id": "ddf49f75-7b6f-432b-8388-b3b3ff67b4c5",
-          "referenceId": "Top Horizontal",
-          "friendlyName": "Top Horizontal",
+          "referenceId": "Top Horizontal left",
+          "friendlyName": "Top Horizontal left",
           "notes": "",
-          "sceneUnitX": 12.903352523803711,
+          "sceneUnitX": 13.852605606079102,
           "sceneUnitY": 19.762999999999998,
-          "sceneUnitWidth": 87.439,
+          "sceneUnitWidth": 27.864394393920897,
           "sceneUnitHeight": 11.237000000000002,
           "enableAnnotation": true,
           "sortOrder": 0,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T09:59:59.3213741Z",
-          "updatedUtc": "2026-10-22T21:50:11.3759972Z"
+          "updatedUtc": "2026-11-08T17:41:30.0646327Z"
+        },
+        {
+          "id": "734e672a-2b07-4185-a272-12aecae29bc8",
+          "referenceId": "Top Horizontal right",
+          "friendlyName": "Top Horizontal right",
+          "notes": "",
+          "sceneUnitX": 41.717,
+          "sceneUnitY": 19.762999999999998,
+          "sceneUnitWidth": 58.21493054199219,
+          "sceneUnitHeight": 11.237000000000002,
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:41:35.7516923Z",
+          "updatedUtc": "2026-11-08T17:41:45.7371376Z"
         },
         {
           "id": "da0a58d2-526d-4a98-ae0a-6ea3c4e9801e",
@@ -167032,38 +167420,6 @@
           "updatedUtc": "2026-08-19T10:12:04.2103174Z"
         },
         {
-          "id": "edffde19-8e16-40f2-b15d-4f2cce169ae1",
-          "referenceId": "Pickup Section",
-          "friendlyName": "Pickup Section",
-          "notes": "",
-          "sceneUnitX": 41.717,
-          "sceneUnitY": 0,
-          "sceneUnitWidth": 109.283,
-          "sceneUnitHeight": 19.762999999999998,
-          "enableAnnotation": true,
-          "sortOrder": 1,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-08-19T10:01:07.6706863Z",
-          "updatedUtc": "2026-10-22T21:56:02.7227257Z"
-        },
-        {
-          "id": "0ab2560c-bfd5-44ad-9d58-a0baf983b9ed",
-          "referenceId": "Lower Tunnels",
-          "friendlyName": "Lower Tunnels",
-          "notes": "",
-          "sceneUnitX": 0,
-          "sceneUnitY": 0,
-          "sceneUnitWidth": 25.58,
-          "sceneUnitHeight": 10.503664169311524,
-          "enableAnnotation": true,
-          "sortOrder": 2,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-08-19T10:12:14.291335Z",
-          "updatedUtc": "2026-08-19T10:14:14.5672606Z"
-        },
-        {
           "id": "cb006273-ae0d-49fb-affb-13d068717c73",
           "referenceId": "Middle Horizontal",
           "friendlyName": "Middle Horizontal",
@@ -167078,6 +167434,38 @@
           "archivedUtc": "2026-08-19T10:12:07.7996257Z",
           "createdUtc": "2026-08-19T09:57:27.1632284Z",
           "updatedUtc": "2026-08-19T10:12:07.7996257Z"
+        },
+        {
+          "id": "edffde19-8e16-40f2-b15d-4f2cce169ae1",
+          "referenceId": "Pickup Section",
+          "friendlyName": "Pickup Section",
+          "notes": "",
+          "sceneUnitX": 41.717,
+          "sceneUnitY": 0,
+          "sceneUnitWidth": 109.283,
+          "sceneUnitHeight": 19.762999999999998,
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-08-19T10:01:07.6706863Z",
+          "updatedUtc": "2026-11-08T17:41:37.4071335Z"
+        },
+        {
+          "id": "0ab2560c-bfd5-44ad-9d58-a0baf983b9ed",
+          "referenceId": "Lower Tunnels",
+          "friendlyName": "Lower Tunnels",
+          "notes": "",
+          "sceneUnitX": 0,
+          "sceneUnitY": 0,
+          "sceneUnitWidth": 25.58,
+          "sceneUnitHeight": 10.503664169311524,
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-08-19T10:12:14.291335Z",
+          "updatedUtc": "2026-11-08T17:41:37.4071335Z"
         },
         {
           "id": "b49701cc-5411-4d4f-ba73-2c8c68ff2936",
@@ -167105,27 +167493,11 @@
           "sceneUnitWidth": 25.58,
           "sceneUnitHeight": 9.258999999999999,
           "enableAnnotation": true,
-          "sortOrder": 3,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-08-19T10:14:13.469395Z",
-          "updatedUtc": "2026-08-19T10:14:25.4817559Z"
-        },
-        {
-          "id": "0ac376e7-9135-4887-97ed-dfc3b910948b",
-          "referenceId": "Center Tunnels",
-          "friendlyName": "Center Tunnels",
-          "notes": "",
-          "sceneUnitX": 25.58,
-          "sceneUnitY": 0,
-          "sceneUnitWidth": 16.137,
-          "sceneUnitHeight": 19.762999999999998,
-          "enableAnnotation": true,
           "sortOrder": 4,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-08-19T10:13:32.1514482Z",
-          "updatedUtc": "2026-10-22T21:56:01.2663436Z"
+          "createdUtc": "2026-08-19T10:14:13.469395Z",
+          "updatedUtc": "2026-11-08T17:41:37.4071335Z"
         },
         {
           "id": "e7741c2d-9a90-4801-b0b2-5103adc203be",
@@ -167142,6 +167514,22 @@
           "archivedUtc": "2026-08-19T10:13:24.8813321Z",
           "createdUtc": "2026-08-19T09:59:37.4877222Z",
           "updatedUtc": "2026-08-19T10:13:24.8813321Z"
+        },
+        {
+          "id": "0ac376e7-9135-4887-97ed-dfc3b910948b",
+          "referenceId": "Center Tunnels",
+          "friendlyName": "Center Tunnels",
+          "notes": "",
+          "sceneUnitX": 25.58,
+          "sceneUnitY": 0,
+          "sceneUnitWidth": 16.137,
+          "sceneUnitHeight": 19.762999999999998,
+          "enableAnnotation": true,
+          "sortOrder": 5,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-08-19T10:13:32.1514482Z",
+          "updatedUtc": "2026-11-08T17:41:37.4071335Z"
         },
         {
           "id": "49442088-67a6-4592-ac0c-9c1a7f33d76c",
@@ -167206,7 +167594,7 @@
           "sourceSubroomReferenceText": "Pickup Section",
           "destinationRoomReferenceText": "Whiteward Entrance",
           "destinationTransitionAliasText": "ML",
-          "requirements": "Break Wall Left",
+          "requirements": "clear Whiteward Tunnel Room - Wall 4",
           "notes": "There are four walls.",
           "sortOrder": 1,
           "isTodo": false,
@@ -167214,7 +167602,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T09:52:59.4821261Z",
-          "updatedUtc": "2026-10-22T21:50:19.3215453Z",
+          "updatedUtc": "2026-11-08T17:35:06.7266743Z",
           "isUnsafeArrival": false
         }
       ],
@@ -167244,7 +167632,7 @@
           "friendlyName": "Lower to Upper Tunnels",
           "sourceSubroomReferenceText": "Lower Tunnels",
           "destinationSubroomReferenceText": "Upper Tunnels",
-          "requirements": "Cling Grip either OR Scuttlebrace OR Silk Soar",
+          "requirements": "Cling Grip either OR easy Scuttlebrace OR Silk Soar",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 3.069124460220337,
@@ -167255,7 +167643,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T10:09:26.4997621Z",
-          "updatedUtc": "2026-10-22T21:49:08.67748Z"
+          "updatedUtc": "2026-11-08T17:39:59.5909667Z"
         },
         {
           "id": "35222f2a-8453-4b27-9c33-89900db7674a",
@@ -167301,7 +167689,7 @@
           "friendlyName": "Upper to Center Tunnels",
           "sourceSubroomReferenceText": "Center Tunnels",
           "destinationSubroomReferenceText": "Upper Tunnels",
-          "requirements": "Cling Grip either OR Scuttlebrace OR Silk Soar",
+          "requirements": "Cling Grip either OR easy Scuttlebrace OR Silk Soar ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 29.80339813232422,
@@ -167312,7 +167700,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T10:16:16.6955819Z",
-          "updatedUtc": "2026-10-22T21:52:10.7695913Z"
+          "updatedUtc": "2026-11-08T17:39:22.8546338Z"
         },
         {
           "id": "e9f0fe22-43cd-4eff-9ad2-1ffdfb653226",
@@ -167338,8 +167726,8 @@
           "alias": "CTH",
           "friendlyName": "Center to Top Horizontal",
           "sourceSubroomReferenceText": "Center Tunnels",
-          "destinationSubroomReferenceText": "Top Horizontal",
-          "requirements": "Cling Grip OR Scuttlebrace OR Silk Soar",
+          "destinationSubroomReferenceText": "Top Horizontal left",
+          "requirements": "Cling Grip either OR easy Scuttlebrace OR Silk Soar ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 29.364856719970703,
@@ -167350,13 +167738,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T10:17:22.1761682Z",
-          "updatedUtc": "2026-10-22T21:51:04.8437977Z"
+          "updatedUtc": "2026-11-08T17:41:30.0646327Z"
         },
         {
           "id": "ca45a1a1-c792-487f-9545-7e0556771d29",
           "alias": "CTH",
           "friendlyName": "Center to Top Horizontal",
-          "sourceSubroomReferenceText": "Top Horizontal",
+          "sourceSubroomReferenceText": "Top Horizontal left",
           "destinationSubroomReferenceText": "Center Tunnels",
           "requirements": "Nothing (Falling)",
           "notes": "",
@@ -167369,15 +167757,15 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T10:17:44.2483677Z",
-          "updatedUtc": "2026-10-22T21:51:04.8437977Z"
+          "updatedUtc": "2026-11-08T17:41:30.0646327Z"
         },
         {
           "id": "b7df6f08-0f51-454b-a677-ed780012ae89",
           "alias": "TTP",
           "friendlyName": "Top to Pickup Section",
-          "sourceSubroomReferenceText": "Top Horizontal",
+          "sourceSubroomReferenceText": "Top Horizontal right",
           "destinationSubroomReferenceText": "Pickup Section",
-          "requirements": "Nothing (Falling)",
+          "requirements": "hit switch either ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 92.32184600830078,
@@ -167388,7 +167776,45 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T10:18:16.4742742Z",
-          "updatedUtc": "2026-08-21T04:08:32.1468308Z"
+          "updatedUtc": "2026-11-08T17:42:00.1116343Z"
+        },
+        {
+          "id": "e81cdca7-4e3d-470f-a65a-8297f5c9af25",
+          "alias": "H",
+          "friendlyName": "horizontal",
+          "sourceSubroomReferenceText": "Top Horizontal left",
+          "destinationSubroomReferenceText": "Top Horizontal right",
+          "requirements": "spike pogo OR clawline right OR dash right OR run",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 41.6546516418457,
+          "sceneUnitY": 26.612396240234375,
+          "sortOrder": 7,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:42:08.6243141Z",
+          "updatedUtc": "2026-11-08T17:44:00.3330046Z"
+        },
+        {
+          "id": "80799499-7624-4fda-bdfd-ca3c008c45ff",
+          "alias": "H",
+          "friendlyName": "horizontal",
+          "sourceSubroomReferenceText": "Top Horizontal right",
+          "destinationSubroomReferenceText": "Top Horizontal left",
+          "requirements": "spike pogo OR clawline left OR dash left OR run",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 41.6546516418457,
+          "sceneUnitY": 26.612396240234375,
+          "sortOrder": 8,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:42:45.9207688Z",
+          "updatedUtc": "2026-11-08T17:44:00.3330046Z"
         }
       ],
       "checks": [
@@ -167418,6 +167844,106 @@
           "updatedUtc": "2026-09-09T02:36:28.3058114Z"
         },
         {
+          "id": "f624d27e-79eb-4bf9-8891-d137bac50110",
+          "friendlyName": "Whiteward Tunnel Room - Wall 1",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 100.36002349853516,
+          "annotationSceneUnitY": 3.9073996543884277,
+          "subroomReferenceText": "Pickup Section",
+          "requirements": "break wall right",
+          "notes": "",
+          "locationType": "blockade",
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:32:56.4916778Z",
+          "updatedUtc": "2026-11-08T17:33:57.1363897Z"
+        },
+        {
+          "id": "7243c395-ccee-4baf-989a-2137ebf54b89",
+          "friendlyName": "Whiteward Tunnel Room - Wall 2",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 103.73838806152344,
+          "annotationSceneUnitY": 4.362180233001709,
+          "subroomReferenceText": "Pickup Section",
+          "requirements": "break wall right",
+          "notes": "",
+          "locationType": "blockade",
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:34:02.5151803Z",
+          "updatedUtc": "2026-11-08T17:34:15.2754731Z"
+        },
+        {
+          "id": "97f41a0f-3a33-414d-905a-3f2726a3e356",
+          "friendlyName": "Whiteward Tunnel Room - Wall 3",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 142.589599609375,
+          "annotationSceneUnitY": 4.816958904266357,
+          "subroomReferenceText": "Pickup Section",
+          "requirements": "break wall right",
+          "notes": "",
+          "locationType": "blockade",
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:34:18.7126529Z",
+          "updatedUtc": "2026-11-08T17:34:34.0158146Z"
+        },
+        {
+          "id": "f41d28f3-15c9-4df1-b095-21f526501532",
+          "friendlyName": "Whiteward Tunnel Room - Wall 4",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 148.37181091308594,
+          "annotationSceneUnitY": 6.63607931137085,
+          "subroomReferenceText": "Pickup Section",
+          "requirements": "break wall right",
+          "notes": "",
+          "locationType": "blockade",
+          "enableAnnotation": true,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-11-08T17:34:50.5277741Z",
+          "updatedUtc": "2026-11-08T17:35:03.0291137Z"
+        },
+        {
           "id": "3e346a55-fb31-4d2c-8cbd-de1453f4adc8",
           "friendlyName": "Dreg Husk 1",
           "inGameId": "Song Threaded Husk",
@@ -167427,20 +167953,20 @@
           "localPositionX": 73.56317,
           "localPositionY": 106.803482,
           "localPositionZ": 5,
-          "annotationSceneUnitX": 68.35955810546875,
-          "annotationSceneUnitY": 7.982730865478516,
+          "annotationSceneUnitX": 73.56317,
+          "annotationSceneUnitY": 106.803482,
           "subroomReferenceText": "Pickup Section",
           "requirements": "invalid",
           "notes": "unused enemy",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 1,
+          "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:18.0771205Z",
-          "updatedUtc": "2026-10-22T21:54:34.4826883Z"
+          "updatedUtc": "2026-11-08T17:34:50.5277741Z"
         },
         {
           "id": "3b05fccb-dcf6-431e-9918-de84de11b757",
@@ -167459,13 +167985,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 2,
+          "sortOrder": 6,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:18.0771205Z",
-          "updatedUtc": "2026-10-22T21:54:03.9436846Z"
+          "updatedUtc": "2026-11-08T17:34:50.5277741Z"
         },
         {
           "id": "b0c13c58-e2f2-4de6-9a76-a2d6b58d9b53",
@@ -167479,18 +168005,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 59.85,
           "annotationSceneUnitY": 26.87,
-          "subroomReferenceText": "Top Horizontal",
+          "subroomReferenceText": "Top Horizontal right",
           "requirements": "none",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 3,
+          "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:18.0771205Z",
-          "updatedUtc": "2026-10-22T21:52:41.9379787Z"
+          "updatedUtc": "2026-11-08T17:41:53.5849805Z"
         }
       ]
     },
