@@ -21,15 +21,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TP | the pit | entrance | pit of despair | Proficient Movement (git gud lmao) OR Drifter's Cloak OR Spike Pogo OR Cling Grip |  | Verified | ✓ | this is possible but a massive pain, also a one-way softlock potential |
-| TP | the pit | pit of despair | entrance | (cling grip AND Proficient Movement) OR (Cling Grip AND (Faydown Cloak OR Clawline OR Spike Pogo)) |  | Verified | ✓ |  |
+| TP | the pit | entrance | pit of despair | Proficient Movement (git gud lmao) OR Drifter's Cloak OR Spike Pogo OR Cling Grip both |  | Verified | ✓ | this is possible but a massive pain, also a one-way softlock potential |
+| TP | the pit | pit of despair | entrance | (cling grip both AND Proficient Movement) OR (Cling Grip both AND (Faydown Cloak OR Clawline both OR Spike Pogo)) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | memory locket deep docks | pit of despair | none |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

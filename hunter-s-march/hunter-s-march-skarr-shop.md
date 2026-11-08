@@ -21,20 +21,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified | ✓ | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
-| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 | TODO | Needs verification | ✓ | test both directions for flea brew |
+| CG | cross gap | storage room | skarr shop | run   OR faydown OR clawline left OR sharpdart x 3 OR ( flea brew AND   cling grip left ) |  | Verified | ✓ | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
+| CG | cross gap | skarr shop | storage room | run  OR faydown OR clawline right  OR sharpdart x 3 OR ( flea brew AND cling grip right ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | fractured mask | skarr shop | none |  | Verified | collectible | ✓ |  |
-| 2 | curveclaw | skarr shop | none |  | Verified | collectible | ✓ | I think this item mistakenly displays in the treasure vault instead of the skarr shop |
-| 3 | shell shard cache hunter's march 5 | storage room | none |  | Verified | collectible | ✓ |  |
-| 4 | shell shard cache hunter's march 6 | storage room | none |  | Verified | collectible | ✓ |  |
-| 5 | shell shard cache hunter's march 7 | storage room | none |  | Verified | collectible | ✓ |  |
-| 6 | shell shard cache hunter's march 8 | storage room | none |  | Verified | collectible | ✓ |  |
-| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Mottled Skarr | skarr shop | none |  | Verified | logic-point | ✓ | add NPC soul |
+| 2 | fractured mask | skarr shop | none |  | Verified | collectible | ✓ |  |
+| 3 | curveclaw | skarr shop | none |  | Verified | collectible | ✓ | I think this item mistakenly displays in the treasure vault instead of the skarr shop |
+| 4 | shell shard cache hunter's march 5 | storage room | none |  | Verified | collectible | ✓ |  |
+| 5 | shell shard cache hunter's march 6 | storage room | none |  | Verified | collectible | ✓ |  |
+| 6 | shell shard cache hunter's march 7 | storage room | none |  | Verified | collectible | ✓ |  |
+| 7 | shell shard cache hunter's march 8 | storage room | none |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

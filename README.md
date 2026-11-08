@@ -151,8 +151,6 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Hunter's March
 
-- [Chapel of the Beast (Ant_19)](./hunter-s-march/chapel-of-the-beast.md)
-- [Hunter's March Chapel Passage (Ant_20)](./hunter-s-march/hunter-s-march-chapel-passage.md)
 - [Hunter's March Entrance (Ant_02)](./hunter-s-march/hunter-s-march-entrance.md)
 - [Hunter's March Pogo Intro (Ant_03)](./hunter-s-march/hunter-s-march-pogo-intro.md)
 - [Hunter's March Early Pathway West (Ant_04_left)](./hunter-s-march/hunter-s-march-early-pathway-west.md)
@@ -163,6 +161,8 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Hunter's March Skarr Shop (Ant_Merchant)](./hunter-s-march/hunter-s-march-skarr-shop.md)
 - [Hunter's March Treasure Vault (Ant_21)](./hunter-s-march/hunter-s-march-treasure-vault.md)
 - [Hunter's March Statue (Ant_05c)](./hunter-s-march/hunter-s-march-statue.md)
+- [Hunter's March Chapel Passage (Ant_20)](./hunter-s-march/hunter-s-march-chapel-passage.md)
+- [Chapel of the Beast (Ant_19)](./hunter-s-march/chapel-of-the-beast.md)
 - [Hunter's March Deep Docks Passage (Ant_05b)](./hunter-s-march/hunter-s-march-deep-docks-passage.md)
 - [Hunter's March Deep Entrance (Ant_09)](./hunter-s-march/hunter-s-march-deep-entrance.md)
 

@@ -26,9 +26,9 @@
 | U1 | Up 1 | Floor | Enemy 1 | Silk Soar OR (Clawline either AND Faydown Cloak AND (Cling Grip either OR  easy [Wanderer, Reaper, Beast, Architect, Witch, Shaman] pogo)) |  | Verified | ✓ |  |
 | U1 | Up 1 | Enemy 1 | Floor | Nothing. (Fall) |  | Verified | ✓ |  |
 | U2 | Up 2 | Enemy 1 | Enemy 2 | Clawline either AND (Faydown Cloak OR easy pogo off Minister) |  | Verified | ✓ |  |
-| U2 | Up 2 | Enemy 2 | Enemy 1 | Clawline |  | Verified | ✓ |  |
-| U3 | Up 3 | Enemy 2 | Spool | Faydown Cloak AND (scuttlebrace OR Cling Grip either) AND Clawline either |  | Verified | ✓ |  |
-| U3 | Up 3 | Spool | Enemy 2 | Clawline |  | Verified | ✓ |  |
+| U2 | Up 2 | Enemy 2 | Enemy 1 | Clawline either |  | Verified | ✓ |  |
+| U3 | Up 3 | Enemy 2 | Spool | Faydown Cloak AND (easy scuttlebrace OR Cling Grip either) AND Clawline either |  | Verified | ✓ |  |
+| U3 | Up 3 | Spool | Enemy 2 | Clawline either |  | Verified | ✓ |  |
 | S | Skip Allat | Floor | Spool | Silk Soar |  | Verified | ✓ |  |
 | S | Skip Allat | Spool | Floor | Nothing. (Fall) |  | Verified | ✓ |  |
 

@@ -36,9 +36,22 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bone switch | before gate | none |  | Verified | switch |  |  |
-| 2 | gauntlet fight | gauntlet | Combat Requirements |  | Verified | gauntlet |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | bone switch | before gate | none |  | Verified | switch | ✓ |  |
+| 2 | gauntlet fight | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 3 | Skarr Scout 1 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Skarr Scout 2 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Skarrlid 1 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Skarrlid 2 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Skarrwing 1 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Skarrwing 2 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skarr Scout 3 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Skarrwing 3 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Skarr Scout 4 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Skarrwing 4 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Void Mass 1 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Spear Skarr 1 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Skarr Scout 5 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Skarr Scout 6 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

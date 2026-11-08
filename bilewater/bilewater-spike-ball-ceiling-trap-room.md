@@ -23,7 +23,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UD | up and down | upper | lower | none |  | Verified | ✓ |  |
-| UD | up and down | lower | upper | cling grip OR silk soar |  | Verified | ✓ |  |
+| UD | up and down | lower | upper | silk soar OR cling grip left OR (faydown cloak AND (cling grip right OR (scuttlebrace AND (dash right OR clawline right OR sharpdart OR easy [hunter, beast, witch, architect, shaman, reaper] pogo)))) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -31,7 +31,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Shell Shard Cache #3 | lower | none |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Shell Shard Cache #4 | lower | none |  | Verified | collectible | ✓ |  |
-| 3 | Quick Sling | upper | (cling grip OR silk soar) AND attack up |  | Verified | collectible | ✓ | up attack for breakable wall |
+| 3 | Quick Sling | upper | (cling grip right OR silk soar) AND break wall up |  | Verified | collectible | ✓ |  |
 | 4 | Mothleaf Lagnia 1 | upper | none |  | Verified | enemy | ✓ |  |
 | 5 | Mothleaf Lagnia 2 | upper | none |  | Verified | enemy | ✓ |  |
 | 6 | Swamp Squit 1 | lower | none |  | Verified | enemy | ✓ |  |

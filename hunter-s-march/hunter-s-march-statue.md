@@ -29,7 +29,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Gilly | statue area | invalid |  | Verified | logic-point | ✓ | add NPC soul if applicable |
 
 ## Room Images
 

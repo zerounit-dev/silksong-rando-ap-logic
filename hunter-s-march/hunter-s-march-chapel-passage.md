@@ -23,7 +23,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EP | evil pogo | left entrance | crossing platform | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace OR easy shaman pogo OR easy wanderer pogo OR easy beast pogo OR easy reaper pogo OR ( ledge grab AND ( easy witch pogo OR easy hunter pogo OR easy architect pogo ) ) |  | Verified | ✓ |  |
+| EP | evil pogo | left entrance | crossing platform | run  OR dash right  OR drifters  OR faydown  OR clawline right OR sharpdart  OR easy scuttlebrace  OR easy [ shaman, wanderer, beast, reaper, hunter ] pogo OR ( easy [ witch, architect ] pogo AND ( ledge grab right OR flea brew ) ) |  | Verified | ✓ |  |
 | EP | evil pogo | crossing platform | left entrance | none |  | Verified | ✓ | can pogo the gap for free from this direction |
 | WT | wind tunnel | crossing platform | chapel entrance | drifter's cloak OR silk soar |  | Verified | ✓ |  |
 | WT | wind tunnel | chapel entrance | crossing platform | none (falling) |  | Verified | ✓ |  |
@@ -33,7 +33,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | memory locket | crossing platform | none |  | Verified | collectible | ✓ | need to break a cage |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Skarr Stalker 1 | crossing platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

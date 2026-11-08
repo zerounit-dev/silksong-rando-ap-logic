@@ -27,13 +27,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| DB | to the bench | door | bench | Silk Soar OR swim OR ledge grab left |  | Verified | ✓ |  |
+| DB | to the bench | door | bench | ledge grab left OR proficient movement OR cling grip left |  | Verified | ✓ |  |
 | b1 | going to fix the bench | bench | spike hall 1 | (cling grip left OR silk soar) AND break wall left |  | Verified | ✓ |  |
 | 12 | upper spike hall | spike hall 1 | spike hall 2 | proficient movement OR clawline left OR faydown cloak OR (drifter's cloak AND (ledge grab left OR cling grip left)) |  | Verified | ✓ |  |
 | 23 | spike drop | spike hall 2 | spike hall 3 | proficient movement OR cling grip both |  | Verified | ✓ |  |
 | 34 | lower spike hall | spike hall 3 | spike hall 4 | proficient movement OR drifter's cloak OR faydown cloak OR spike pogo |  | Verified | ✓ |  |
 | 4e | end | spike hall 4 | end | swim OR (drifter's cloak AND (clawline OR sharpdart)) OR (faydown cloak AND (drifter's cloak OR dash OR sharpdart OR clawline)) OR (proficient movement AND (clawline OR sharpdart OR (drifter's cloak AND dash AND (ledge grab right OR cling grip right)))) |  | Verified | ✓ |  |
-| DR | door to rosaries | door | rosary plat | Silk soar OR (Faydown AND (cling grip right OR scuttlebrace)) |  | Verified | ✓ |  |
+| DR | door to rosaries | door | rosary plat | Silk soar OR (Faydown AND (cling grip right OR scuttlebrace)) OR (easy shaman pogo AND (dash right OR clawline right OR sharpdart)) |  | Verified | ✓ |  |
 | DR | door to rosaries | rosary plat | door | none |  | Verified | ✓ |  |
 | BR | bench to rosaries | bench | rosary plat | (faydown AND (ledge grab right OR cling grip right OR (proficient movement AND medium beast pogo))) OR  (dash AND drifter's) OR (run AND (clawline right OR sharpdart)) |  | Verified | ✓ |  |
 | BR | bench to rosaries | rosary plat | bench | none |  | Verified | ✓ | falling |

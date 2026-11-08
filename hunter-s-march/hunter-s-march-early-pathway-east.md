@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | main area | ceiling alcove | silk soar OR easy shaman pogo OR easy reaper pogo OR easy wanderer pogo OR faydown cloak OR cling grip OR ledge grab OR scuttlebrace |  | Verified | ✓ |  |
+| V1 | vertical 1 | main area | ceiling alcove | silk soar  OR easy [ shaman, reaper, wanderer ] pogo  OR faydown  OR cling grip either  OR ledge grab right |  | Verified | ✓ |  |
 | V1 | vertical 1 | ceiling alcove | main area | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -31,8 +31,18 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | shell shard cache hunters march 3 | ceiling alcove | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache hunters march 4 | ceiling alcove | none |  | Verified | collectible | ✓ |  |
-| 3 | silk webs x3 | main area | none |  | Verified | resource | ✓ | not yet randomized |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Silkcatcher Plant (2) | main area | attack up |  | Verified | resource | ✓ |  |
+| 4 | Silkcatcher Plant (1) | main area | attack up |  | Verified | resource | ✓ |  |
+| 5 | Silkcatcher Plant | main area | attack up |  | Verified | resource | ✓ |  |
+| 6 | Spear Skarr 1 | main area | Invalid |  | Verified | enemy | ✓ | doesn't seem to appear |
+| 7 | Skarrwing 1 | main area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Skarr Scout 1 | main area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skarr Stalker 1 | main area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Skarr Scout 2 | main area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Skarrlid 1 | main area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Skarrlid 2 | ceiling alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Skarrwing 2 | main area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Skarr Stalker 2 | main area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

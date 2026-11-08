@@ -12,6 +12,8 @@
 | S2 | right exit area | ✓ |
 | S3 | main area | ✓ |
 | S4 | check niche | ✓ |
+| S5 | central rise | ✓ |
+| S6 | right exit ledge | ✓ |
 
 ## Room Transitions
 
@@ -25,41 +27,39 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LP | lower platforms | left exit area | main area | activate lower platform switch |  | Verified | ✓ |  |
-| LP | lower platforms | main area | left exit area | activate lower platform switch |  | Verified | ✓ |  |
-| RJ | running jump | main area | right exit area | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart |  | Verified | ✓ | silk soar doesn't get enough horizontal distance without one of the skills that just gets you there |
-| RJ | running jump | right exit area | main area | none (falling) |  | Verified | ✓ |  |
-| AC | access niche | main area | check niche | ledge grab OR run OR dash OR silk soar OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart OR scuttlebrace OR easy beast pogo OR easy shaman pogo |  | Verified | ✓ |  |
+| LP | lower platforms | left exit area | central rise | activate Far Fields - Fort Upper Passage - Stair Release Switch |  | Verified | ✓ |  |
+| LP | lower platforms | central rise | left exit area | activate Far Fields - Fort Upper Passage - Stair Release Switch |  | Verified | ✓ |  |
+| RJ | running jump | right exit ledge | right exit area | run  OR (ledge grab right AND (dash right OR flea brew OR easy voltvessels stall)) OR drifter's cloak  OR faydown cloak  OR clawline right OR sharpdart OR easy beast pogo OR (proficient movement AND cling grip both AND architect slash right) OR (silk soar AND (easy [architect, hunter] pogo OR ((medium shaman pogo OR easy [voltvessels, plasmium] stall x 1 OR easy cross stitch stall x 1 ) AND ledge grab right) OR dash right OR easy [voltvessels, flintslate, plasmium] stall x 2)) OR easy [beast, architect] needle strike OR (easy pogo off Flapping Fertid AND (easy [reaper, shaman, architect] pogo OR (easy damage boost off Flapping Fertid AND (easy hunter pogo OR easy naked pogo)))) |  | Verified | ✓ | silk soar doesn't get enough horizontal distance without one of the skills that just gets you there |
+| RJ | running jump | right exit area | right exit ledge | none (falling) |  | Verified | ✓ |  |
+| AC | access niche | main area | check niche | (faydown cloak AND (cling  grip right OR ledge grab left)) OR cling grip left OR easy scuttlebrace OR silk soar OR medium pogo off Skarr Stalker |  | Verified | ✓ |  |
 | AC | access niche | check niche | main area | none (falling) |  | Verified | ✓ |  |
+| CNW | central network west | central rise | check niche | run OR dash left OR ledge grab left OR cling grip either OR faydown cloak OR clawline left OR sharpdart OR easy scuttlebrace OR architect slash left OR easy [shaman, beast, hunter] pogo OR easy pogo off Flapping Fertid OR easy naked pogo OR medium architect pogo OR easy [witch, architect, wanderer, reaper] needle strike |  | Verified | ✓ |  |
+| CNW | central network west | check niche | central rise | none |  | Verified | ✓ |  |
+| CNS | central network south | main area | central rise | none (jumping) |  | Verified | ✓ |  |
+| CNS | central network south | central rise | main area | none (falling) |  | Verified | ✓ |  |
+| CNE | central network east | central rise | right exit ledge | none (jumping) |  | Verified | ✓ |  |
+| CNE | central network east | right exit ledge | central rise | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache far fields 14 | check niche | none |  | Verified | collectible | ✓ |  |
-| 2 | rosary cache far fields 15 | main area | none |  | Verified | collectible | ✓ |  |
-| 3 | lower platform switch | left exit area | flip switch up |  | Verified | switch | ✓ |  |
-| 4 | rosary chest | left exit area | none |  | Verified | collectible | ✓ | NOT YET RANDOMIZED |
-| 5 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
-| 7 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
-| 8 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Flapping Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Brushflit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 14 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 15 | Skarr Stalker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 16 | Skarr Scout 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 17 | Flapping Fertid 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 18 | Flapping Fertid 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 19 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 20 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 21 | Spear Skarr 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 22 | Skarr Stalker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 23 | Skarr Scout 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 24 | Spear Skarr 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | Far Fields - Fort Upper Passage - Rosaries Niche Stash 1 | check niche | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 14 |
+| 2 | Far Fields - Fort Upper Passage - Rosaries Niche Stash 2 | main area | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 15 |
+| 3 | Far Fields - Fort Upper Passage - Stair Release Switch | left exit area | flip switch up |  | Verified | switch | ✓ | formerly lower platform switch |
+| 4 | Far Fields - Fort Upper Passage - Skarr Rosaries Hoard Chest | left exit area | none |  | Verified | collectible | ✓ | randomized? |
+| 5 | Fertid 1 | main area | none |  | Verified | enemy | ✓ |  |
+| 6 | Flapping Fertid 1 | central rise | none |  | Verified | enemy | ✓ |  |
+| 7 | Flapping Fertid 2 | central rise | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Skarr Stalker 1 | main area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skarr Scout 1 | right exit ledge | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Flapping Fertid 3 | right exit ledge | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Flapping Fertid 4 | right exit ledge | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Void Mass 1 | check niche | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Spear Skarr 1 | check niche | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Skarr Stalker 2 | main area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Skarr Scout 2 | right exit ledge | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Spear Skarr 2 | right exit ledge | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

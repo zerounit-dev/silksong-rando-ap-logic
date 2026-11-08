@@ -24,12 +24,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CL | climb | left exit area | relic spot left | ((faydown OR clawline right OR sharpdart) AND (cling grip right OR scuttlebrace)) OR (swim AND easy pogo off drapefly AND (cling grip either OR (faydown AND ledge grab either))) |  | Verified | ✓ |  |
+| CL | climb | left exit area | relic spot left | ((faydown OR clawline right OR sharpdart) AND (cling grip right OR easy scuttlebrace)) OR (swim AND easy pogo off drapefly AND (cling grip either OR (faydown AND ledge grab either))) |  | Verified | ✓ |  |
 | CL | climb | relic spot left | left exit area | none |  | Verified | ✓ | falling |
 | WC | water crossing | left exit area | right exit area | swim AND cling grip either |  | Verified | ✓ |  |
 | WC | water crossing | right exit area | left exit area | swim OR (clawline left AND faydown cloak AND drifter's cloak AND (cling grip left OR (ledge grab left AND cling grip right))) |  | Verified | ✓ |  |
-| RR | Relic spot left n right | relic spot left | relic spot right | cling grip either OR (easy pogo off giant drapemite AND faydown cloak) OR scuttlebrace |  | Verified | ✓ |  |
-| RR | Relic spot left n right | relic spot right | relic spot left | cling grip either OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| RR | Relic spot left n right | relic spot left | relic spot right | cling grip either OR (easy pogo off giant drapemite AND faydown cloak) OR easy scuttlebrace |  | Verified | ✓ |  |
+| RR | Relic spot left n right | relic spot right | relic spot left | cling grip either OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 | WB | relic spot to right exit | relic spot left | right exit area | (clawline right AND faydown cloak AND drifter's cloak AND cling grip either) |  | Verified | ✓ |  |
 | WB | relic spot to right exit | right exit area | relic spot left | swim AND easy pogo off drapefly AND faydown cloak |  | Verified | ✓ |  |
 

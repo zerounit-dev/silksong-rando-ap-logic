@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_12
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 
@@ -25,7 +25,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | lever platform jump | left area | switch platform | Scuttlebrace OR Faydown Cloak OR Silk Soar OR Sprint OR Easy Beast Charge OR ((Ledge Grab OR Cling Grip) AND (Drifter's Cloak OR Dash OR Clawline OR Sharpdart OR Medium Voltvessels Stall OR Easy Architect Charge)) OR (Flea Brew AND Easy Flea Brew Stall) |  | Verified | ✓ |  |
+| SP | lever platform jump | left area | switch platform | easy Scuttlebrace OR Faydown Cloak OR Silk Soar OR run OR Easy Beast Charge OR ((Ledge Grab either OR Cling Grip either OR easy shaman pogo) AND (Drifter's Cloak  OR Clawline right OR Sharpdart OR Medium Voltvessels Stall OR Easy Architect Charge OR easy beast pogo OR medium plasmium stall x 3)) OR (Flea Brew AND Easy Flea Brew Stall) OR ((ledge grab right OR cling grip right) AND dash right) |  | Verified | ✓ |  |
 | SP | lever platform jump | switch platform | left area | none (falling) |  | Verified | ✓ |  |
 | BL | boss arena left | left area | boss arena | activate gate switch lace |  | Verified | ✓ |  |
 | BL | boss arena left | boss arena | left area | activate gate switch lace AND defeat lace 1 boss fight |  | Verified | ✓ |  |

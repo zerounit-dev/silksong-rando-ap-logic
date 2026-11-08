@@ -34,7 +34,25 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | gauntlet fight | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 2 | map purchase hunter's march | gauntlet | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Skarr Stalker 1 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Skarrwing 1 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Skarrwing 2 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Spear Skarr 1 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Skarr Scout 1 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Skarr Scout 2 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skarr Scout 3 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Skarr Stalker 2 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Spear Skarr 2 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Skarr Stalker 3 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: ant04_enemiesReturn, visitedCitadel |
+| 13 | Spear Skarr 3 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: ant04_enemiesReturn, visitedCitadel |
+| 14 | Skarr Scout 4 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: ant04_enemiesReturn, visitedCitadel |
+| 15 | Skarr Scout 5 | gauntlet | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: ant04_enemiesReturn, visitedCitadel |
+| 16 | Skarr Stalker 4 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Skarr Scout 6 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Spear Skarr 4 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Spear Skarr 5 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Skarr Stalker 5 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Spear Skarr 6 | gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

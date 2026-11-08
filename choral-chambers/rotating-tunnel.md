@@ -36,7 +36,7 @@
 | V1 | Vertical | CentralArea Left | Lower Central | none |  | Verified | ✓ | falling |
 | RB | Right to bottom | CentralArea Right | Lower Central | none |  | Verified | ✓ | falling, both sides have levers making the tunnel vertical |
 | H | Left and Right | CentralArea Left | CentralArea Right | none |  | Verified | ✓ |  |
-| H | Left and Right | CentralArea Right | CentralArea Left | drifter's cloak OR ledge grab left OR scuttlebrace OR dash left OR cling grip left OR clawline left OR sharpdart OR easy [hunter, beast,witch,architect, shaman] pogo OR easy pogo off [Reed, Choir Bellbearer] OR faydown cloak |  | Verified | ✓ |  |
+| H | Left and Right | CentralArea Right | CentralArea Left | drifter's cloak OR ledge grab left OR easy scuttlebrace OR dash left OR cling grip left OR clawline left OR sharpdart OR easy [hunter, beast,witch,architect, shaman] pogo OR easy pogo off [Reed, Choir Bellbearer] OR faydown cloak |  | Verified | ✓ |  |
 | V2 | Vertical2 | CentralArea Right | Top Platform | activate Choral Chambers Rotating Tunnel - top lever AND (easy [Beast,Shaman] pogo OR silk soar OR easy pogo off [Choir bellbearer, Reed] OR easy scuttlebrace OR faydown OR drifter's OR sharpdart OR clawline left OR (dash left AND (ledge grab left OR cling grip left))) |  | Verified | ✓ |  |
 | V2 | Vertical2 | Top Platform | CentralArea Right | activate Choral Chambers Rotating Tunnel - top lever |  | Verified | ✓ | falling |
 

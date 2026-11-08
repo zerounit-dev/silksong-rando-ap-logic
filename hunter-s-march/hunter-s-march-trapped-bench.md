@@ -22,9 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | trapped bench |  | activate bench trap switch |  | Verified | bench |  |  |
-| 2 | bench trap switch |  | flip switch up |  | Verified | switch |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | trapped bench |  | activate bench trap switch |  | Verified | bench | ✓ |  |
+| 2 | bench trap switch |  | flip switch up |  | Verified | switch | ✓ |  |
 
 ## Room Images
 
