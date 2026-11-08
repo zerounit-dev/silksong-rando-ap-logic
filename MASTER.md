@@ -419,6 +419,9 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | CC | climb chapel | ground level | chapel roof | silk soar  OR cling grip left OR ( easy scuttlebrace AND faydown ) |  | Verified | ✓ | cling grip only works by itself when the door has not been opened - this makes logic non-monotonic and needs a mod fix - in this case, a slow opening door |
+| CC | climb chapel | chapel roof | ground level | none (falling) |  | Verified | ✓ |  |
+| CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak ) OR ( hard scuttlebrace AND hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall ) OR ( hard scuttlebrace AND ( thread storm OR rune rage ) ) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
+| CR | climb roof | upper left platforms | chapel roof | none (falling) |  | Verified | ✓ |  |
 | SM | soar to middle platforms | ground level | upper middle platforms | silk soar |  | Verified | ✓ |  |
 | SSL | soar to sky exit left | ground level | sky left | silk soar |  | Verified |  |  |
 | SSL | soar to sky exit left | sky left | ground level | none (falling) |  | Verified |  |  |
@@ -427,9 +430,6 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 | SR | soar to right platforms | ground level | upper right platforms | silk soar |  | Verified | ✓ |  |
 | EV | elevator | ground level | upper right platforms | activate elevator switch |  | Verified | ✓ |  |
 | EV | elevator | upper right platforms | ground level | activate elevator switch |  | Verified | ✓ |  |
-| CC | climb chapel | chapel roof | ground level | none (falling) |  | Verified | ✓ |  |
-| CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak ) OR ( hard scuttlebrace AND hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall ) OR ( hard scuttlebrace AND ( thread storm OR rune rage ) ) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
-| CR | climb roof | upper left platforms | chapel roof | none (falling) |  | Verified | ✓ |  |
 | MD | middle platform drift | upper middle platforms | chapel roof | drifters  OR clawline left OR sharpdart  OR easy beast pogo OR easy architect pogo OR ( hard shaman pogo )  OR ( ledge grab left AND easy shaman pogo ) OR ( dash left AND ( easy hunter pogo OR easy naked pogo ) )  OR ( dash left AND ( easy scuttlebrace OR flea brew OR silkspeed anklets OR faydown cloak ) )  OR ( run AND flea brew ) |  | Verified | ✓ | Beast and architect can just spam pogo |
 | SM | soar to middle platforms | upper middle platforms | ground level | none (falling) |  | Verified | ✓ |  |
 | CL | clawline across the sky | upper middle platforms | upper right platforms | clawline right OR ( dash right AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR proficient movement ) ) |  | Verified | ✓ | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
@@ -7004,7 +7004,7 @@ No subroom connections defined.
 | V1C | vertical 1 part C | lower right niche | below L3 | none (falling) |  | Verified | ✓ |  |
 | V1D | vertical 1 part D | lower right niche | L3 platform | run  OR dash left OR drifters  OR easy pogo off skarrwing |  | Verified | ✓ | can activate the skarrwing from below the platform |
 | F1 | fall 1 | UR platform | L3 platform | none (falling) |  | Verified | ✓ |  |
-| V2B | vertical 2 part B | lower right niche | UR platform | ledge grab right OR drifters OR faydown |  | Verified | ✓ | no cling grip - blue collisions |
+| V2B | vertical 2 part B | lower right niche | UR platform | ledge grab right OR drifters OR faydown OR easy pogo off skarrwing |  | Verified | ✓ | no cling grip - blue collisions  oops, missed the enemy pogo to get up above, teehee - hero, 11/8 |
 | V2C | vertical 2 part C | below L3 | UR platform | silk soar |  | Verified | ✓ | can silk soar into the bottom of the platform and with a bit of persistent pogoing, you can make it to the ledge, even if cloakless |
 | V3 | vertical 3 | UR platform | L2 platform | ledge grab left  OR cling grip left OR silk soar  OR drifters OR faydown |  | Verified | ✓ | got it with scuttlebrace exactly once LOL |
 | V3 | vertical 3 | L2 platform | UR platform | none (falling) |  | Verified | ✓ |  |
@@ -7387,8 +7387,8 @@ No subroom connections defined.
 | V1 | vertical access | left exit area | below left exit | none (falling) |  | Verified | ✓ |  |
 | SC | silk collection | right exit area | free silk | clawline left x 2 |  | Verified | ✓ |  |
 | SC | silk collection | free silk | right exit area | clawline right x 2 |  | Verified | ✓ |  |
-| TCL | thorn crossning left | below left exit | center platform | clawline right x 2 AND silkhearts x 1 AND faydown cloak |  | Verified | ✓ |  |
-| TCR | thorn crossing right | center platform | right exit area | clawline right x 2 AND silkhearts x 1 AND faydown cloak |  | Verified | ✓ |  |
+| TCL | thorn crossning left | below left exit | center platform | ( clawline right x 2 AND silkhearts x 1 AND faydown cloak ) OR ( silk soar AND hard shaman scuttle slide AND ( ledge grab right OR cling grip right ) ) |  | Verified | ✓ | pilky, what are you DOING - hero, 11/8 |
+| TCR | thorn crossing right | center platform | right exit area | ( clawline right x 2 AND silkhearts x 1 AND faydown cloak ) OR ( hard pogo off spear skarr AND dash right AND hard shaman scuttle slide ) |  | Verified | ✓ | pilky, what are you DOING - hero, 11/8 |
 | TCL | thorn crossning left | center platform | below left exit | clawline left x 2 AND silkhearts x 1 AND faydown cloak |  | Verified | ✓ |  |
 | TCR | thorn crossing right | right exit area | center platform | ( clawline left x 2 AND silkhearts x 1 AND faydown cloak ) OR ( clawline left x 3 AND silkhearts x 2 ) |  | Verified | ✓ |  |
 

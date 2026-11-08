@@ -8231,6 +8231,107 @@
           "unresolved_reasons": []
         },
         {
+          "id": "bone-bottom/bone-bottom-town#chapel-roof>ground-level@cc",
+          "alias": "CC",
+          "name": "climb chapel",
+          "source_node_id": "bone-bottom/bone-bottom-town#chapel-roof",
+          "target_node_id": "bone-bottom/bone-bottom-town#ground-level",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "bone-bottom/bone-bottom-town#chapel-roof>upper-left-platforms@cr",
+          "alias": "CR",
+          "name": "climb roof",
+          "source_node_id": "bone-bottom/bone-bottom-town#chapel-roof",
+          "target_node_id": "bone-bottom/bone-bottom-town#upper-left-platforms",
+          "requirement": {
+            "raw": "silk soar \nOR cling grip both\nOR ( cling grip left AND spike pogo )\nOR ( easy scuttlebrace AND faydown cloak )\nOR ( hard scuttlebrace AND hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall )\nOR ( hard scuttlebrace AND ( thread storm OR rune rage ) )",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:cling-grip:both"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:hard",
+                "capability:bind-stall:hunter:hard"
+              ],
+              [
+                "capability:scuttlebrace:hard",
+                "capability:bind-stall:reaper:hard"
+              ],
+              [
+                "capability:scuttlebrace:hard",
+                "capability:bind-stall:wanderer:hard"
+              ],
+              [
+                "capability:scuttlebrace:hard",
+                "capability:bind-stall:beast:hard"
+              ],
+              [
+                "capability:scuttlebrace:hard",
+                "capability:bind-stall:architect:hard"
+              ],
+              [
+                "capability:scuttlebrace:hard",
+                "capability:thread-storm"
+              ],
+              [
+                "capability:scuttlebrace:hard",
+                "capability:rune-rage"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "bone-bottom/bone-bottom-town#upper-left-platforms>chapel-roof@cr",
+          "alias": "CR",
+          "name": "climb roof",
+          "source_node_id": "bone-bottom/bone-bottom-town#upper-left-platforms",
+          "target_node_id": "bone-bottom/bone-bottom-town#chapel-roof",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
           "id": "bone-bottom/bone-bottom-town#ground-level>upper-middle-platforms@sm",
           "alias": "SM",
           "name": "soar to middle platforms",
@@ -8393,107 +8494,6 @@
               [
                 "dependency:location:bone-bottom/bone-bottom-town::switch/elevator-switch"
               ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "bone-bottom/bone-bottom-town#chapel-roof>ground-level@cc",
-          "alias": "CC",
-          "name": "climb chapel",
-          "source_node_id": "bone-bottom/bone-bottom-town#chapel-roof",
-          "target_node_id": "bone-bottom/bone-bottom-town#ground-level",
-          "requirement": {
-            "raw": "none (falling)",
-            "mode": "none",
-            "dnf": [
-              []
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "bone-bottom/bone-bottom-town#chapel-roof>upper-left-platforms@cr",
-          "alias": "CR",
-          "name": "climb roof",
-          "source_node_id": "bone-bottom/bone-bottom-town#chapel-roof",
-          "target_node_id": "bone-bottom/bone-bottom-town#upper-left-platforms",
-          "requirement": {
-            "raw": "silk soar \nOR cling grip both\nOR ( cling grip left AND spike pogo )\nOR ( easy scuttlebrace AND faydown cloak )\nOR ( hard scuttlebrace AND hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall )\nOR ( hard scuttlebrace AND ( thread storm OR rune rage ) )",
-            "mode": "expression",
-            "dnf": [
-              [
-                "capability:silk-soar"
-              ],
-              [
-                "capability:cling-grip:both"
-              ],
-              [
-                "capability:cling-grip:left",
-                "capability:spike-pogo"
-              ],
-              [
-                "capability:scuttlebrace:easy",
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:scuttlebrace:hard",
-                "capability:bind-stall:hunter:hard"
-              ],
-              [
-                "capability:scuttlebrace:hard",
-                "capability:bind-stall:reaper:hard"
-              ],
-              [
-                "capability:scuttlebrace:hard",
-                "capability:bind-stall:wanderer:hard"
-              ],
-              [
-                "capability:scuttlebrace:hard",
-                "capability:bind-stall:beast:hard"
-              ],
-              [
-                "capability:scuttlebrace:hard",
-                "capability:bind-stall:architect:hard"
-              ],
-              [
-                "capability:scuttlebrace:hard",
-                "capability:thread-storm"
-              ],
-              [
-                "capability:scuttlebrace:hard",
-                "capability:rune-rage"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "bone-bottom/bone-bottom-town#upper-left-platforms>chapel-roof@cr",
-          "alias": "CR",
-          "name": "climb roof",
-          "source_node_id": "bone-bottom/bone-bottom-town#upper-left-platforms",
-          "target_node_id": "bone-bottom/bone-bottom-town#chapel-roof",
-          "requirement": {
-            "raw": "none (falling)",
-            "mode": "none",
-            "dnf": [
-              []
             ],
             "unresolved_reasons": []
           },
@@ -75988,7 +75988,7 @@
           "source_node_id": "hunter-s-march/hunters-march-shaft#lower-right-niche",
           "target_node_id": "hunter-s-march/hunters-march-shaft#ur-platform",
           "requirement": {
-            "raw": "ledge grab right\nOR drifters\nOR faydown",
+            "raw": "ledge grab right\nOR drifters\nOR faydown\nOR easy pogo off skarrwing",
             "mode": "expression",
             "dnf": [
               [
@@ -75999,11 +75999,14 @@
               ],
               [
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:enemy-type-pogo:Bone Hunter Buzzer:easy"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "no cling grip - blue collisions",
+          "notes": "no cling grip - blue collisions\n\noops, missed the enemy pogo to get up above, teehee - hero, 11/8",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -79232,18 +79235,28 @@
           "source_node_id": "hunter-s-march/hunters-march-deep-entrance#below-left-exit",
           "target_node_id": "hunter-s-march/hunters-march-deep-entrance#center-platform",
           "requirement": {
-            "raw": "clawline right x 2\nAND silkhearts x 1\nAND faydown cloak",
+            "raw": "( clawline right x 2 AND silkhearts x 1 AND faydown cloak )\nOR ( silk soar AND hard shaman scuttle slide AND ( ledge grab right OR cling grip right ) )",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:2",
                 "count:silk-hearts:1",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:silk-soar",
+                "capability:shaman-scuttler:hard",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:silk-soar",
+                "capability:shaman-scuttler:hard",
+                "capability:cling-grip:right"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "pilky, what are you DOING - hero, 11/8",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -79256,18 +79269,23 @@
           "source_node_id": "hunter-s-march/hunters-march-deep-entrance#center-platform",
           "target_node_id": "hunter-s-march/hunters-march-deep-entrance#right-exit-area",
           "requirement": {
-            "raw": "clawline right x 2\nAND silkhearts x 1\nAND faydown cloak",
+            "raw": "( clawline right x 2 AND silkhearts x 1 AND faydown cloak )\nOR ( hard pogo off spear skarr AND dash right AND hard shaman scuttle slide )",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:2",
                 "count:silk-hearts:1",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:enemy-type-pogo:Bone Hunter Fly:hard",
+                "capability:dash:right",
+                "capability:shaman-scuttler:hard"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "pilky, what are you DOING - hero, 11/8",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",

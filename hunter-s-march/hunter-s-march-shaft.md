@@ -46,7 +46,7 @@
 | V1C | vertical 1 part C | lower right niche | below L3 | none (falling) |  | Verified | ✓ |  |
 | V1D | vertical 1 part D | lower right niche | L3 platform | run  OR dash left OR drifters  OR easy pogo off skarrwing |  | Verified | ✓ | can activate the skarrwing from below the platform |
 | F1 | fall 1 | UR platform | L3 platform | none (falling) |  | Verified | ✓ |  |
-| V2B | vertical 2 part B | lower right niche | UR platform | ledge grab right OR drifters OR faydown |  | Verified | ✓ | no cling grip - blue collisions |
+| V2B | vertical 2 part B | lower right niche | UR platform | ledge grab right OR drifters OR faydown OR easy pogo off skarrwing |  | Verified | ✓ | no cling grip - blue collisions  oops, missed the enemy pogo to get up above, teehee - hero, 11/8 |
 | V2C | vertical 2 part C | below L3 | UR platform | silk soar |  | Verified | ✓ | can silk soar into the bottom of the platform and with a bit of persistent pogoing, you can make it to the ledge, even if cloakless |
 | V3 | vertical 3 | UR platform | L2 platform | ledge grab left  OR cling grip left OR silk soar  OR drifters OR faydown |  | Verified | ✓ | got it with scuttlebrace exactly once LOL |
 | V3 | vertical 3 | L2 platform | UR platform | none (falling) |  | Verified | ✓ |  |

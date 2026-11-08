@@ -29,8 +29,8 @@
 | V1 | vertical access | left exit area | below left exit | none (falling) |  | Verified | ✓ |  |
 | SC | silk collection | right exit area | free silk | clawline left x 2 |  | Verified | ✓ |  |
 | SC | silk collection | free silk | right exit area | clawline right x 2 |  | Verified | ✓ |  |
-| TCL | thorn crossning left | below left exit | center platform | clawline right x 2 AND silkhearts x 1 AND faydown cloak |  | Verified | ✓ |  |
-| TCR | thorn crossing right | center platform | right exit area | clawline right x 2 AND silkhearts x 1 AND faydown cloak |  | Verified | ✓ |  |
+| TCL | thorn crossning left | below left exit | center platform | ( clawline right x 2 AND silkhearts x 1 AND faydown cloak ) OR ( silk soar AND hard shaman scuttle slide AND ( ledge grab right OR cling grip right ) ) |  | Verified | ✓ | pilky, what are you DOING - hero, 11/8 |
+| TCR | thorn crossing right | center platform | right exit area | ( clawline right x 2 AND silkhearts x 1 AND faydown cloak ) OR ( hard pogo off spear skarr AND dash right AND hard shaman scuttle slide ) |  | Verified | ✓ | pilky, what are you DOING - hero, 11/8 |
 | TCL | thorn crossning left | center platform | below left exit | clawline left x 2 AND silkhearts x 1 AND faydown cloak |  | Verified | ✓ |  |
 | TCR | thorn crossing right | right exit area | center platform | ( clawline left x 2 AND silkhearts x 1 AND faydown cloak ) OR ( clawline left x 3 AND silkhearts x 2 ) |  | Verified | ✓ |  |
 

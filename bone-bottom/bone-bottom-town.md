@@ -40,6 +40,9 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | CC | climb chapel | ground level | chapel roof | silk soar  OR cling grip left OR ( easy scuttlebrace AND faydown ) |  | Verified | ✓ | cling grip only works by itself when the door has not been opened - this makes logic non-monotonic and needs a mod fix - in this case, a slow opening door |
+| CC | climb chapel | chapel roof | ground level | none (falling) |  | Verified | ✓ |  |
+| CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak ) OR ( hard scuttlebrace AND hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall ) OR ( hard scuttlebrace AND ( thread storm OR rune rage ) ) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
+| CR | climb roof | upper left platforms | chapel roof | none (falling) |  | Verified | ✓ |  |
 | SM | soar to middle platforms | ground level | upper middle platforms | silk soar |  | Verified | ✓ |  |
 | SSL | soar to sky exit left | ground level | sky left | silk soar |  | Verified |  |  |
 | SSL | soar to sky exit left | sky left | ground level | none (falling) |  | Verified |  |  |
@@ -48,9 +51,6 @@
 | SR | soar to right platforms | ground level | upper right platforms | silk soar |  | Verified | ✓ |  |
 | EV | elevator | ground level | upper right platforms | activate elevator switch |  | Verified | ✓ |  |
 | EV | elevator | upper right platforms | ground level | activate elevator switch |  | Verified | ✓ |  |
-| CC | climb chapel | chapel roof | ground level | none (falling) |  | Verified | ✓ |  |
-| CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak ) OR ( hard scuttlebrace AND hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall ) OR ( hard scuttlebrace AND ( thread storm OR rune rage ) ) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
-| CR | climb roof | upper left platforms | chapel roof | none (falling) |  | Verified | ✓ |  |
 | MD | middle platform drift | upper middle platforms | chapel roof | drifters  OR clawline left OR sharpdart  OR easy beast pogo OR easy architect pogo OR ( hard shaman pogo )  OR ( ledge grab left AND easy shaman pogo ) OR ( dash left AND ( easy hunter pogo OR easy naked pogo ) )  OR ( dash left AND ( easy scuttlebrace OR flea brew OR silkspeed anklets OR faydown cloak ) )  OR ( run AND flea brew ) |  | Verified | ✓ | Beast and architect can just spam pogo |
 | SM | soar to middle platforms | upper middle platforms | ground level | none (falling) |  | Verified | ✓ |  |
 | CL | clawline across the sky | upper middle platforms | upper right platforms | clawline right OR ( dash right AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR proficient movement ) ) |  | Verified | ✓ | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
