@@ -20,7 +20,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | upper right | upper level | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | ML | none |  | Verified | ✓ | asdf |
+| UR | upper right | upper level | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | ML | none |  | Verified | ✓ |  |
 | LR | lower right | lower right exit area | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | LL | break vines right |  | Verified | ✓ |  |
 
 ## Subroom Connections

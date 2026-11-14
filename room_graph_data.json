@@ -4912,7 +4912,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "asdf",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -144721,7 +144721,7 @@
         {
           "id": "location:grand-gate/grand-gate-courtroom::collectible/map-purchase-grand-gate",
           "name": "Map Purchase: Grand Gate",
-          "in_game_id": null,
+          "in_game_id": "Map Machine (1)",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "grand-gate/grand-gate-courtroom#lower-section",
@@ -144742,7 +144742,7 @@
         {
           "id": "location:grand-gate/grand-gate-courtroom::blockade/metal-bars",
           "name": "metal bars ",
-          "in_game_id": null,
+          "in_game_id": "Breakable Wall Entrance Secret",
           "location_type": "blockade",
           "has_persisted_state": true,
           "node_id": "grand-gate/grand-gate-courtroom#upper-section",

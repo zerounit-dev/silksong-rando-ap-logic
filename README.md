@@ -1,6 +1,6 @@
 # Silksong Randomizer Notes
 
-Generated from the non-archived records in `input/silksong-rando-logic.db`.
+Generated from the non-archived records in the accompanying frozen SQLite snapshot.
 
 [Composite Master](./MASTER.md)
 

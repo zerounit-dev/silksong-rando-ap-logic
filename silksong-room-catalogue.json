@@ -22968,7 +22968,7 @@
       "friendlyName": "Bone Bottom Town",
       "inGameId": "Bonetown",
       "contributors": "herounit, Super EpicGuy",
-      "comments": null,
+      "comments": "",
       "sceneMinX": 0,
       "sceneMinY": 0,
       "sceneMaxX": 315,
@@ -22985,7 +22985,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-02T20:49:50.4927449Z",
-      "updatedUtc": "2026-10-10T16:39:59.9069933Z",
+      "updatedUtc": "2026-11-12T04:44:41.6856967Z",
       "subrooms": [
         {
           "id": "78463790-bde2-43ea-98b0-6b203c03a4a9",
@@ -23017,7 +23017,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-04T02:45:58.9113417Z",
-          "updatedUtc": "2026-11-07T02:34:42.4803862Z"
+          "updatedUtc": "2026-11-12T05:37:19.6628529Z"
         },
         {
           "id": "cc742364-0393-416b-9eb5-7dd390befb3d",
@@ -23033,13 +23033,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-04T02:46:01.9084119Z",
-          "updatedUtc": "2026-11-07T02:16:54.5331953Z"
+          "updatedUtc": "2026-11-12T05:37:15.0247537Z"
         },
         {
           "id": "08345b5a-cfe4-442e-8762-ca9c3274625c",
           "referenceId": "ground level",
           "friendlyName": "ground level",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 0,
           "sceneUnitY": 0,
           "sceneUnitWidth": 315,
@@ -23049,13 +23049,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-04T02:46:35.8585041Z"
+          "updatedUtc": "2026-11-12T20:41:58.362383Z"
         },
         {
           "id": "939043a6-e1be-41e7-b86f-d1f4488fbed9",
           "referenceId": "upper right platforms",
           "friendlyName": "upper right platforms",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 197.649,
           "sceneUnitY": 50.596,
           "sceneUnitWidth": 117.351,
@@ -23065,13 +23065,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-04T02:46:35.8585041Z"
+          "updatedUtc": "2026-11-12T05:37:12.7490119Z"
         },
         {
           "id": "2d461b73-95c8-415f-9724-386b906416f3",
           "referenceId": "upper middle platforms",
           "friendlyName": "upper middle platforms",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 122.13382232666015,
           "sceneUnitY": 57.365,
           "sceneUnitWidth": 39.86117767333985,
@@ -23081,13 +23081,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-04T02:46:35.8585041Z"
+          "updatedUtc": "2026-11-12T04:57:04.935515Z"
         },
         {
           "id": "04b37946-25b1-44fb-b474-f06155699752",
           "referenceId": "upper left platforms",
           "friendlyName": "upper left platforms",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 0,
           "sceneUnitY": 57.365,
           "sceneUnitWidth": 38.805198669433594,
@@ -23097,7 +23097,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-04T02:46:35.8585041Z"
+          "updatedUtc": "2026-11-12T20:42:00.9239391Z"
         },
         {
           "id": "063bc4ff-920c-4f8c-b1df-90b633cd78ea",
@@ -23119,7 +23119,7 @@
           "id": "4da9b631-9763-452b-95a3-8cd689e135c9",
           "referenceId": "chapel roof",
           "friendlyName": "chapel roof",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 11.275224685668945,
           "sceneUnitY": 23.968,
           "sceneUnitWidth": 74.01501274108887,
@@ -23129,7 +23129,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-04T02:46:35.8585041Z"
+          "updatedUtc": "2026-11-12T05:37:10.6926181Z"
         },
         {
           "id": "4cbc4f4e-b364-4f30-9ff7-5465dc83b8a2",
@@ -23145,7 +23145,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-28T02:46:15.3795843Z",
-          "updatedUtc": "2026-11-04T02:46:35.8585041Z"
+          "updatedUtc": "2026-11-12T04:57:08.0698438Z"
         }
       ],
       "transitions": [
@@ -24066,16 +24066,16 @@
           "destinationSubroomReferenceText": "sky left",
           "requirements": "silk soar",
           "notes": "",
-          "enableAnnotation": false,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "enableAnnotation": true,
+          "sceneUnitX": 172.46873474121094,
+          "sceneUnitY": 48.45309066772461,
           "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-08T19:30:37.4714011Z"
+          "updatedUtc": "2026-11-12T02:30:16.6973064Z"
         },
         {
           "id": "4adc0157-0dc4-49cc-a0dc-15772496f22c",
@@ -24104,16 +24104,16 @@
           "destinationSubroomReferenceText": "ground level",
           "requirements": "none (falling)",
           "notes": "",
-          "enableAnnotation": false,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "enableAnnotation": true,
+          "sceneUnitX": 172.46873474121094,
+          "sceneUnitY": 48.45309066772461,
           "sortOrder": 6,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-08T19:30:37.4714011Z"
+          "updatedUtc": "2026-11-12T02:30:16.6973064Z"
         },
         {
           "id": "a8439f0b-8287-4863-b024-f6020fcd6704",
@@ -24124,15 +24124,15 @@
           "requirements": "silk soar",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 188.1585693359375,
+          "sceneUnitY": 48.91034698486328,
           "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-04T02:48:13.4482783Z",
-          "updatedUtc": "2026-11-08T19:30:37.4714011Z"
+          "updatedUtc": "2026-11-12T02:30:21.5071427Z"
         },
         {
           "id": "5f8e8fc8-0b7e-4054-a7d3-da04a654264c",
@@ -24143,15 +24143,15 @@
           "requirements": "none (falling)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 188.1585693359375,
+          "sceneUnitY": 48.91034698486328,
           "sortOrder": 8,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-04T02:47:57.7070059Z",
-          "updatedUtc": "2026-11-08T19:30:37.4714011Z"
+          "updatedUtc": "2026-11-12T02:30:21.5071427Z"
         },
         {
           "id": "12574ebc-0252-407a-9473-3c0102dc3ba8",
@@ -24379,7 +24379,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-04T03:14:08.7579585Z"
+          "updatedUtc": "2026-11-12T05:37:46.5759591Z"
         },
         {
           "id": "87298bab-ef67-4b5d-b150-2215978ea60f",
@@ -24417,7 +24417,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-11-04T03:14:09.4184675Z"
+          "updatedUtc": "2026-11-12T05:37:45.6647244Z"
         },
         {
           "id": "ca0957e3-fe98-4f3d-8f69-2c7de878aa1f",
@@ -24475,6 +24475,25 @@
           "archivedUtc": null,
           "createdUtc": "2026-09-28T02:47:47.0145262Z",
           "updatedUtc": "2026-11-04T02:48:36.6209771Z"
+        },
+        {
+          "id": "2483e4e9-f4e6-4782-b002-0e2b029b44d9",
+          "alias": "AB",
+          "friendlyName": "cd",
+          "sourceSubroomReferenceText": "chapel roof",
+          "destinationSubroomReferenceText": "ground level",
+          "requirements": "None (falling)",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 22,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": true,
+          "archivedUtc": "2026-11-13T14:14:17.3771447Z",
+          "createdUtc": "2026-11-13T14:13:56.1867667Z",
+          "updatedUtc": "2026-11-13T14:14:17.3771447Z"
         }
       ],
       "checks": [
@@ -28849,7 +28868,7 @@
       "comments": "renamed from \u0022moss grotto west\u0022 - was mistakenly marked as same room as west room\nnot having the west part as part of this area causes the graph to be more complex",
       "sceneMinX": 0,
       "sceneMinY": 0,
-      "sceneMaxX": 120,
+      "sceneMaxX": 119,
       "sceneMaxY": 120,
       "sceneImagePixelsPerUnitX": 6.35,
       "sceneImagePixelsPerUnitY": 6.35,
@@ -28858,18 +28877,18 @@
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "a1812e3b6fa00857dec766ee3d28033fe318fd5dc76ecb23779f885985354bd3",
+      "sceneImageCropHash": "885f90d554ba0557e84f48557aa176a14e18563d1d550811093ab202cdf167a7",
       "sortOrder": 0,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-02T20:49:50.4927449Z",
-      "updatedUtc": "2026-10-22T00:28:50.8024417Z",
+      "updatedUtc": "2026-11-12T04:35:01.9735623Z",
       "subrooms": [
         {
           "id": "2f095584-daa1-4f2b-9dad-378b47350407",
           "referenceId": "rock bottom",
           "friendlyName": "rock bottom",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 0,
           "sceneUnitY": 0,
           "sceneUnitWidth": 91.515,
@@ -28879,13 +28898,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:25:28.0806991Z",
-          "updatedUtc": "2026-10-17T04:26:56.0943252Z"
+          "updatedUtc": "2026-11-12T04:33:58.7913025Z"
         },
         {
           "id": "ef20e8ff-6d4a-433c-8afb-90a7ab58bf25",
           "referenceId": "upper crossing",
           "friendlyName": "upper crossing",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 0,
           "sceneUnitY": 85.511,
           "sceneUnitWidth": 84.006,
@@ -28895,13 +28914,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:26:05.2149425Z",
-          "updatedUtc": "2026-08-07T22:56:59.0042198Z"
+          "updatedUtc": "2026-11-12T04:33:57.9080406Z"
         },
         {
           "id": "90b53698-4fc4-49a9-9c17-d189a71987e6",
           "referenceId": "center shaft",
           "friendlyName": "center shaft",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 38.111,
           "sceneUnitY": 49.516999999999996,
           "sceneUnitWidth": 45.89476782226563,
@@ -28911,13 +28930,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:27:03.809466Z",
-          "updatedUtc": "2026-08-07T22:56:50.9405212Z"
+          "updatedUtc": "2026-11-12T04:33:56.883094Z"
         },
         {
           "id": "d3bf6174-c40d-46de-aad4-71b4f6c47693",
           "referenceId": "side room",
           "friendlyName": "side room",
-          "notes": null,
+          "notes": "",
           "sceneUnitX": 0,
           "sceneUnitY": 49.51696054077148,
           "sceneUnitWidth": 38.111,
@@ -28927,7 +28946,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:38:21.5442271Z",
-          "updatedUtc": "2026-08-07T22:55:32.3877176Z"
+          "updatedUtc": "2026-11-12T04:33:55.4698749Z"
         },
         {
           "id": "bfbb223f-e6c1-47d3-a82e-f8d28e3d6266",
@@ -29450,7 +29469,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-01T21:56:50.5947929Z",
-          "updatedUtc": "2026-10-22T00:40:45.6217768Z"
+          "updatedUtc": "2026-11-12T01:29:59.9411686Z"
         },
         {
           "id": "64b713c5-66d4-489b-98e2-e2e14c909b12",
@@ -29469,7 +29488,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-01T21:57:02.0434361Z",
-          "updatedUtc": "2026-09-10T02:53:36.417438Z"
+          "updatedUtc": "2026-11-12T01:29:59.9411686Z"
         },
         {
           "id": "9658f658-78de-4bc6-868b-6a12c759f859",
@@ -29488,7 +29507,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:43:49.8909807Z",
-          "updatedUtc": "2026-10-22T00:55:21.4441022Z"
+          "updatedUtc": "2026-11-12T01:29:55.8644504Z"
         },
         {
           "id": "a21ea849-0a62-43d2-b3cb-c4676b396a9d",
@@ -86614,7 +86633,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:01:35.0078558Z",
-          "updatedUtc": "2026-09-10T23:18:03.4766757Z"
+          "updatedUtc": "2026-11-12T01:11:01.4699336Z"
         },
         {
           "id": "168b57be-f40f-4609-9105-1c0d70ce90d0",
@@ -86630,7 +86649,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:16:54.664639Z",
-          "updatedUtc": "2026-09-10T23:25:07.3263227Z"
+          "updatedUtc": "2026-11-12T01:10:46.0343696Z"
         },
         {
           "id": "d7bd391f-ca83-457e-ad10-0fade80ff15d",
@@ -86646,7 +86665,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:24:48.7472601Z",
-          "updatedUtc": "2026-09-10T23:27:13.6855149Z"
+          "updatedUtc": "2026-11-12T01:11:31.211896Z"
         },
         {
           "id": "824bb73d-7444-4e4a-8c28-029f7740a070",
@@ -86662,7 +86681,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-21T00:38:45.6453514Z",
-          "updatedUtc": "2026-10-21T00:38:53.1260079Z"
+          "updatedUtc": "2026-11-12T01:11:36.4737918Z"
         },
         {
           "id": "ebe729b9-9a66-4a06-8e36-5ea94d2f00f1",
@@ -86678,7 +86697,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:27:21.714538Z",
-          "updatedUtc": "2026-10-21T00:38:53.1260079Z"
+          "updatedUtc": "2026-11-12T01:10:43.8284517Z"
         },
         {
           "id": "eb035451-586b-4524-965c-795e2a9a5769",
@@ -86694,7 +86713,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:34:22.5638824Z",
-          "updatedUtc": "2026-10-21T00:38:53.1260079Z"
+          "updatedUtc": "2026-11-12T01:10:43.2765786Z"
         },
         {
           "id": "de9cb1e2-db99-494b-aa05-10588f5e25ce",
@@ -86710,7 +86729,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:43:42.3038389Z",
-          "updatedUtc": "2026-10-21T00:38:53.1260079Z"
+          "updatedUtc": "2026-11-12T01:10:42.3158133Z"
         }
       ],
       "transitions": [
@@ -86732,14 +86751,14 @@
           "destinationRoomReferenceText": "moss grotto center",
           "destinationTransitionAliasText": "ML",
           "requirements": "none",
-          "notes": "asdf",
+          "notes": "",
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:17:04.194541Z",
-          "updatedUtc": "2026-09-11T00:48:24.565146Z",
+          "updatedUtc": "2026-11-12T01:13:36.9042051Z",
           "isUnsafeArrival": false
         },
         {
@@ -87319,7 +87338,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
+          "updatedUtc": "2026-11-12T01:12:05.4110236Z"
         },
         {
           "id": "f0d6c435-f369-4a72-aaa4-175ee20cb344",
@@ -94176,20 +94195,20 @@
       "sceneMinX": 0,
       "sceneMinY": 0,
       "sceneMaxX": 75,
-      "sceneMaxY": 142,
+      "sceneMaxY": 141,
       "sceneImagePixelsPerUnitX": 6.35,
       "sceneImagePixelsPerUnitY": 6.35,
-      "sceneImagePixelOffsetX": 6358.877990561707,
-      "sceneImagePixelOffsetY": 8349.664989254341,
+      "sceneImagePixelOffsetX": 6368.139150077081,
+      "sceneImagePixelOffsetY": 8348.93375966293,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "8c17c3b56be36ece8195bc091d522264f185eebebb57ec317343c5aa8a6d3bc2",
+      "sceneImageCropHash": "7454945addd0c2d62741ba32aec74729925b351d465a1ec078038bd87fe38cf6",
       "sortOrder": 2,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-15T00:40:44.9062196Z",
-      "updatedUtc": "2026-10-18T18:15:42.0514276Z",
+      "updatedUtc": "2026-11-12T02:19:15.1430428Z",
       "subrooms": [
         {
           "id": "596bc442-8de0-480e-827e-b69c9ce512c0",
@@ -94356,10 +94375,10 @@
           "friendlyName": "Spool Fragment: Grand Gate",
           "inGameId": "Silk Spool",
           "inGamePositionX": 21.12,
-          "inGamePositionY": 94.9830551,
+          "inGamePositionY": 94.97651,
           "inGamePositionZ": 0,
           "localPositionX": 21.12,
-          "localPositionY": 94.9830551,
+          "localPositionY": 94.97651,
           "localPositionZ": 0,
           "annotationSceneUnitX": 21.12,
           "annotationSceneUnitY": 94.9830551,
@@ -94374,18 +94393,18 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T00:40:44.9062196Z",
-          "updatedUtc": "2026-10-18T15:51:10.106294Z"
+          "updatedUtc": "2026-11-12T01:36:11.5991532Z"
         },
         {
           "id": "04d41f69-dc9f-42e9-9c38-a5bc4608e086",
           "friendlyName": "Map Purchase: Grand Gate",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
+          "inGameId": "Map Machine (1)",
+          "inGamePositionX": 40.1,
+          "inGamePositionY": 7.008,
+          "inGamePositionZ": 0.007,
+          "localPositionX": 40.1,
+          "localPositionY": 7.008,
+          "localPositionZ": 0.007,
           "annotationSceneUnitX": 36.11962127685547,
           "annotationSceneUnitY": 6.807450771331787,
           "subroomReferenceText": "lower section",
@@ -94399,18 +94418,18 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T00:43:34.1950964Z",
-          "updatedUtc": "2026-09-28T21:31:47.8614702Z"
+          "updatedUtc": "2026-11-12T01:36:11.5991532Z"
         },
         {
           "id": "85d3c0ce-684b-4c4c-8bd2-fce9c88b69dd",
           "friendlyName": "metal bars ",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
+          "inGameId": "Breakable Wall Entrance Secret",
+          "inGamePositionX": 64.33,
+          "inGamePositionY": 67.45,
+          "inGamePositionZ": 1.30000007,
+          "localPositionX": 64.33,
+          "localPositionY": 67.45,
+          "localPositionZ": 1.30000007,
           "annotationSceneUnitX": 63.154396057128906,
           "annotationSceneUnitY": 63.70803451538086,
           "subroomReferenceText": "upper section",
@@ -94424,7 +94443,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-28T21:21:53.3388047Z",
-          "updatedUtc": "2026-09-28T21:31:41.2760985Z"
+          "updatedUtc": "2026-11-12T01:36:11.5991532Z"
         },
         {
           "id": "b1cd6dfb-15e5-4239-b075-c7e58c3dc230",

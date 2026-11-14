@@ -100,7 +100,7 @@ not having the west part as part of this area causes the graph to be more comple
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | upper right | upper level | [Moss Grotto Center (Tut_01)](#room-moss-grotto--moss-grotto-center) | ML | none |  | Verified | ✓ | asdf |
+| UR | upper right | upper level | [Moss Grotto Center (Tut_01)](#room-moss-grotto--moss-grotto-center) | ML | none |  | Verified | ✓ |  |
 | LR | lower right | lower right exit area | [Moss Grotto Center (Tut_01)](#room-moss-grotto--moss-grotto-center) | LL | break vines right |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -423,10 +423,10 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 | CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak ) OR ( hard scuttlebrace AND hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall ) OR ( hard scuttlebrace AND ( thread storm OR rune rage ) ) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
 | CR | climb roof | upper left platforms | chapel roof | none (falling) |  | Verified | ✓ |  |
 | SM | soar to middle platforms | ground level | upper middle platforms | silk soar |  | Verified | ✓ |  |
-| SSL | soar to sky exit left | ground level | sky left | silk soar |  | Verified |  |  |
-| SSL | soar to sky exit left | sky left | ground level | none (falling) |  | Verified |  |  |
-| SSR | soar to sky exit right | ground level | sky right | silk soar |  | Verified |  |  |
-| SSR | soar to sky exit right | sky right | ground level | none (falling) |  | Verified |  |  |
+| SSL | soar to sky exit left | ground level | sky left | silk soar |  | Verified | ✓ |  |
+| SSL | soar to sky exit left | sky left | ground level | none (falling) |  | Verified | ✓ |  |
+| SSR | soar to sky exit right | ground level | sky right | silk soar |  | Verified | ✓ |  |
+| SSR | soar to sky exit right | sky right | ground level | none (falling) |  | Verified | ✓ |  |
 | SR | soar to right platforms | ground level | upper right platforms | silk soar |  | Verified | ✓ |  |
 | EV | elevator | ground level | upper right platforms | activate elevator switch |  | Verified | ✓ |  |
 | EV | elevator | upper right platforms | ground level | activate elevator switch |  | Verified | ✓ |  |
