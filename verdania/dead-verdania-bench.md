@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FS | Fookin Spiders | Entrance | Bench | ( ( ( Silk Soar AND ( Easy Beast Crest Pogo OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak ) ) OR ( Faydown Cloak AND ( Cling Grip OR Ledge Grab ) ) ) AND ( Clawline OR ( Dash AND ( Faydown Cloak OR Drifters Cloak ) ) OR Sharpdart ) ) |  | Verified | ✓ |  |
-| FS | Fookin Spiders | Bench | Entrance | ( ( ( Silk Soar AND ( Easy Beast Crest Pogo OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak ) ) OR ( Faydown Cloak AND ( Cling Grip OR Ledge Grab ) ) ) AND ( Clawline OR ( Dash AND ( Faydown Cloak OR Drifters Cloak ) ) OR Sharpdart ) ) |  | Verified | ✓ |  |
+| FS | Fookin Spiders | Entrance | Bench | ( ( ( Silk Soar AND ( Easy Beast Crest Pogo OR Dash right OR Clawline right OR Faydown Cloak OR Drifters Cloak ) ) OR ( Faydown Cloak AND ( Cling Grip right OR Ledge Grab right ) ) ) AND ( Clawline right OR ( Dash right AND ( Faydown Cloak OR Drifters Cloak ) ) OR Sharpdart ) ) |  | Verified | ✓ |  |
+| FS | Fookin Spiders | Bench | Entrance | ( ( ( Silk Soar AND ( Easy Beast Crest Pogo OR Dash left OR Clawline left OR Faydown Cloak OR Drifters Cloak ) ) OR ( Faydown Cloak AND ( Cling Grip left OR Ledge Grab left ) ) ) AND ( Clawline left OR ( Dash left AND ( Faydown Cloak OR Drifters Cloak ) ) OR Sharpdart ) ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

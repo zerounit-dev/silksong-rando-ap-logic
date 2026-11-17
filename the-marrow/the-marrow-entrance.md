@@ -43,7 +43,7 @@
 | LG1 | ledge grab 1 | middle left | passage left | none (falling) |  | Verified | ✓ |  |
 | LG2 | ledge grab 2 | left of gauntlet | middle left | ledge grab left OR cling grip either OR faydown cloak OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 | LG2 | ledge grab 2 | middle left | left of gauntlet | none (falling) |  | Verified | ✓ |  |
-| LG3 | ledge grab 3 | middle left | above gauntlet | ledge grab left OR cling grip left OR ( ( cling grip right OR easy shaman pogo ) OR easy scuttlebrace ) OR faydown OR silk soar |  | Verified | ✓ |  |
+| LG3 | ledge grab 3 | middle left | above gauntlet | ledge grab left OR cling grip left OR ( ( cling grip right OR easy shaman pogo ) AND easy scuttlebrace ) OR ( cling grip right AND proficient movement ) OR faydown OR silk soar |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | above gauntlet | middle left | none (falling) |  | Verified | ✓ |  |
 | V1 | vertical 1 | passage left | left of gauntlet | silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | left of gauntlet | passage left | none (falling) |  | Verified | ✓ |  |

@@ -24,7 +24,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SH | Shaft | Top | Bottom | None |  | Verified | ✓ |  |
-| SH | Shaft | Bottom | Top | Silksoar OR Cling grip |  | Verified | ✓ |  |
+| SH | Shaft | Bottom | Top | Silksoar OR Cling grip both |  | Verified | ✓ |  |
 
 ## Check Locations
 

@@ -33,7 +33,7 @@
 | 2 | Mister Mushroom Meeting The Slab | Antechamber | after THE Mister Mushroom Meeting Greymoor AND Needolin |  | Verified | event | ✓ |  |
 | 3 | door_lock_1 | Antechamber | none |  | Verified | lock | ✓ |  |
 | 4 | door_lock_2 | Antechamber | none |  | Verified | lock | ✓ |  |
-| 5 | door_lock_3 | Antechamber | faydown cloak OR dash left OR ((medium heal stall OR medium plasmium phial stall OR easy shaman pogo) AND ledge grab left) OR clawline left x 1 OR silk soar |  | Verified | lock | ✓ | SPECIFICALLY to get back up onto the platform lmao |
+| 5 | door_lock_3 | Antechamber | faydown cloak OR dash left OR ((medium air bind stall OR medium plasmium phial stall OR easy shaman pogo) AND ledge grab left) OR clawline left x 1 OR silk soar |  | Verified | lock | ✓ | SPECIFICALLY to get back up onto the platform lmao |
 | 6 | door_lock_4 | Antechamber | shaman hit up OR faydown cloak OR silk soar OR clawline right x 1 |  | Verified | lock | ✓ |  |
 
 ## Room Images

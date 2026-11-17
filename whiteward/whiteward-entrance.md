@@ -39,8 +39,8 @@
 | MLR | Middle Left to Right | Middle Third (Left) | Middle Third (Right) | activate Whiteward - Switch Entrance Left OR activate Whiteward - Switch Entrance Right |  | Verified | ✓ |  |
 | MLR | Middle Left to Right | Middle Third (Right) | Middle Third (Left) | Nothing (Jump) |  | Verified | ✓ |  |
 | RVL | Right to Vertical Lower | Middle Third (Right) | Vertical Shaft (Lower) | Nothing (Fall) |  | Verified | ✓ |  |
-| RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip right OR (easy Scuttlebrace AND (easy shaman pogo OR hard [ Heal, rune rage] Stall OR Faydown OR easy flea brew stall OR easy beast crest heal stall )) OR Silk Soar OR (cling grip left AND faydown cloak) |  | Verified | ✓ |  |
-| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip either AND (Proficient Movement OR medium [rune rage,heal, flea brew,thread storm,pale nails,parry] stall )) |  | Verified | ✓ |  |
+| RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip right OR (easy Scuttlebrace AND (easy shaman pogo OR hard [ air bind, rune rage] Stall OR Faydown OR easy flea brew stall OR easy beast crest heal stall )) OR Silk Soar OR (cling grip left AND faydown cloak) |  | Verified | ✓ |  |
+| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip either AND (Proficient Movement OR medium [rune rage, air bind, flea brew,thread storm,pale nails,parry] stall )) |  | Verified | ✓ |  |
 | RVU | Right to Vertical Upper | Vertical Shaft (Upper) | Middle Third (Right) | Nothing (Fall) |  | Verified | ✓ |  |
 | ETP | Elevator to Pit | Elevator Shaft | Pit | (Have white key AND ((activate Whiteward - Switch Entrance Left OR  activate Whiteward - Switch Entrance right) OR (clawline either AND elite ball knowledge)))  OR prereq Entrance Randomizer Bottom Third Left Access |  | Verified | ✓ | falling free if ER |
 | ETP | Elevator to Pit | Pit | Elevator Shaft | Cling Grip right OR easy Scuttlebrace OR Silk Soar OR (faydown cloak AND cling grip left) |  | Verified | ✓ | Or F4 |

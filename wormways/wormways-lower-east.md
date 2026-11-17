@@ -28,17 +28,17 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CC | ceiling climb | upper main tunnel | ceiling exit area | cling grip  OR (ledge grab AND faydown cloak)  OR (faydown cloak AND easy shaman pogo)  OR scuttlebrace  OR silk soar |  | Verified | ✓ |  |
+| CC | ceiling climb | upper main tunnel | ceiling exit area | cling grip either OR (faydown cloak AND (ledge grab left OR easy shaman pogo OR medium [flea brew, rune rage, thread storm] stall OR medium heal stall OR (ponder the orb AND dash right AND (easy beast pogo OR medium cross stitch stall)))) OR easy scuttlebrace  OR silk soar |  | Verified | ✓ |  |
 | CC | ceiling climb | ceiling exit area | upper main tunnel | none (falling) |  | Verified | ✓ |  |
-| V1 | vertical 1 | left offshoot | upper main tunnel | ledge grab OR cling grip OR scuttlebrace OR faydown cloak OR medium enemy pogo |  | Verified | ✓ |  |
-| V1 | vertical 1 | upper main tunnel | left offshoot | none (falling) |  | Verified | ✓ |  |
-| LC | left climb | left offshoot | left exit area | cling grip OR scuttlebrace OR (faydown cloak AND medium enemy pogo) |  | Verified | ✓ |  |
+| V1 | vertical 1 | left offshoot | upper main tunnel | ledge grab right OR cling grip either OR scuttlebrace OR faydown cloak OR medium pogo off Grom |  | Verified |  |  |
+| V1 | vertical 1 | upper main tunnel | left offshoot | none (falling) |  | Verified |  |  |
+| LC | left climb | left offshoot | left exit area | cling grip either OR easy scuttlebrace  OR (faydown cloak AND (easy pogo off Gromling OR (ledge grab left AND (medium [flea brew, rune rage, thread storm] stall OR medium heal stall OR (ponder the orb AND dash left AND medium cross stitch stall))))) |  | Verified | ✓ |  |
 | LC | left climb | left exit area | left offshoot | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | lower main tunnel | left offshoot | cling grip OR scuttlebrace OR faydown cloak OR medium enemy pogo |  | Verified | ✓ |  |
+| V2 | vertical 2 | lower main tunnel | left offshoot | cling grip either OR easy scuttlebrace OR faydown cloak OR medium pogo off Grom |  | Verified | ✓ |  |
 | V2 | vertical 2 | left offshoot | lower main tunnel | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | bud alcove | lower main tunnel | ledge grab OR cling grip OR scuttlebrace OR faydown cloak OR medium enemy pogo |  | Verified | ✓ |  |
-| V3 | vertical 3 | lower main tunnel | bud alcove | none (falling) |  | Verified | ✓ |  |
-| FC | floor climb | floor exit area | bud alcove | cling grip OR (ledge grab AND (medium enemy pogo OR faydown cloak)) OR scuttlebrace |  | Verified | ✓ |  |
+| V3 | vertical 3 | bud alcove | lower main tunnel | ledge grab left OR cling grip either OR easy scuttlebrace OR faydown cloak OR medium pogo off Grom |  | Verified |  |  |
+| V3 | vertical 3 | lower main tunnel | bud alcove | none (falling) |  | Verified |  |  |
+| FC | floor climb | floor exit area | bud alcove | cling grip either OR ((ledge grab both OR faydown cloak) AND (medium pogo off Grom)) OR easy scuttlebrace OR (faydown cloak AND ledge grab right) |  | Verified | ✓ |  |
 | FC | floor climb | bud alcove | floor exit area | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -46,19 +46,15 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | plasmium bud lower east | bud alcove | complete THE alchemist's assistant wish promised  AND needle phial |  | Verified | resource | ✓ |  |
-| 2 | plasmid west | left offshoot | act 3 |  | Verified | event | ✓ | location per the wiki |
-| 3 | plasmified blood west | left offshoot | needle phial AND defeat plasmid west |  | Verified | resource | ✓ |  |
-| 4 | plasmid east | bud alcove | act 3 |  | Verified | enemy | ✓ | location per the wiki |
-| 5 | plasmified blood east | bud alcove | needle phial AND defeat plasmid east |  | Verified | resource | ✓ |  |
-| 6 | Gromling 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Grom 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Grom 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 9 | Grom 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 10 | Grom 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Grom 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Grom 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Plasmid 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 14 | Plasmid 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Gromling 1 | left exit area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Grom 1 | lower main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Grom 2 | lower main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Grom 3 | lower main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Grom 4 | upper main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Grom 5 | upper main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Grom 6 | upper main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Plasmid 1 | bud alcove | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Plasmid 2 | left offshoot | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

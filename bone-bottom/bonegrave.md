@@ -21,7 +21,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UR | upper right | upper right exit | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | UL | none |  | Verified | ✓ |  |
 | LR | lower right | door platform | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | LL | none |  | Verified | ✓ |  |
-| C | ceiling | upper left exit | [Wormways Lower East (Crawl_07)](../wormways/wormways-lower-east.md) | F | silk soar OR cling grip left OR faydown OR easy scuttlebrace |  | Verified | ✓ |  |
+| C | ceiling | upper left exit | [Wormways Lower East (Crawl_07)](../wormways/wormways-lower-east.md) | F | silk soar OR cling grip either OR faydown OR easy scuttlebrace |  | Verified | ✓ |  |
 | CD | chapel door | graveyard | [Chapel of the Wanderer (Chapel_Wanderer)](chapel-of-the-wanderer.md) | CD | none |  | Verified | ✓ | "wanderer's door override" is meant to cover any situation that would require the door to stay open, such as rosary cache rando |
 | LL | lower left | graveyard | [Bonegrave Passage (Bone_Steel_Servant)](bonegrave-passage.md) | R | complete THE a vassal lost wish promised AND at least 3 resting sites visited |  | Verified | ✓ |  |
 
@@ -43,7 +43,7 @@
 | G2M | graveyard to mossberry | mossberry platform | graveyard | none (falling) |  | Verified | ✓ |  |
 | M2M | mossberry to middle | mossberry platform | middle right platform | faydown  OR clawline right OR dash right OR easy scuttlebrace OR easy [ beast, hunter, architect ] pogo OR sharpdart  OR drifters |  | Verified | ✓ | there's likely a few possible skips with the aknid |
 | M2M | mossberry to middle | middle right platform | mossberry platform | clawline left OR ( run AND dash left AND ( sharpdart OR ( ( ledge grab left OR cling grip left ) AND faydown ) ) ) |  | Verified | ✓ |  |
-| USF | upper stall fall | upper right exit | mossberry platform | sharpdart  OR clawline left OR drifters  OR ( run AND dash left ) OR ( faydown AND ( run OR dash left ) ) |  | Verified | ✓ |  |
+| USF | upper stall fall | upper right exit | mossberry platform | sharpdart  OR clawline left OR drifters  OR sharpdart OR medium scuttlebrace OR ( run AND dash left ) OR ( faydown AND ( run OR dash left OR flea brew OR cling grip right) ) OR ( easy beast pogo ) OR ( easy wanderer charge AND dash left ) OR ( medium architect charge AND easy architect pogo ) OR ( flea brew AND (dash left OR easy flea brew stall x 3)) OR (easy hunter pogo AND (ledge grab left OR cling grip left)) OR easy [plasmium,voltvessels] stall x 4 OR (easy [parry, flintslate, pale nails] stall x 4 AND (ledge grab left OR cling grip left)) |  | Verified | ✓ | there are probably more here - hero, 11/14 |
 
 ## Check Locations
 

@@ -28,12 +28,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FP | Flower Pogo | Bottom | Top | Easy Shaman Pogo OR ( Ledge Grab Right AND ( Ledge Grab Left OR Cling Grip Right OR Easy Beast Pogo OR Dash Left ) ) OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| FP | Flower Pogo | Bottom | Top | Faydown Cloak OR Easy shaman Pogo OR ( ( Ledge grab Right OR easy Plasmium stall x 3 OR easy delvers drill stall x 3 ) AND ( Ledge Grab Left OR easy plasmium stall x 2 OR easy delvers drill stall x 2 ) ) OR ( Cling grip Right AND ( ( Ledge grab left AND ( Easy plasmium stall x 1 OR easy delvers drill stall x 1 ) ) OR Easy plasmium stall X 3 OR Easy delvers drill stall x 3 ) ) OR ( Medium beast pogo AND medium air bind stall x 2 ) OR Silk Soar OR ( intended naked pogo AND Ledge grab Right AND ( Ledge grab left OR Cling grip Right ) ) |  | Verified | ✓ |  |
 | FP | Flower Pogo | Top | Bottom | None |  | Verified | ✓ |  |
-| TL | Top Left | Top | Top Left | ( ( Sprint left OR Dash left OR clawline left OR silksoar OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Easy Beast Crest Pogo ) AND ( Ledge Grab Right OR Cling Grip Right OR Faydown Cloak OR Silk Soar OR Easy Shaman Pogo ) ) OR ( ledge grab left AND Easy flea brew stall ) |  | Verified | ✓ |  |
+| TL | Top Left | Top | Top Left | Faydown Cloak OR Silk Soar OR ( ( Ledge grab right OR Cling grip Right OR easy pogo off phacia ) AND ( Sprint left OR Dash Left OR Easy beast pogo OR clawline left OR Sharpdart OR Drifters Cloak OR Easy plasmium stall x 3 OR Easy flea brew stall x 2 OR ( Cling grip left AND ( easy wanderer charge OR Easy flintslate stall x 3 OR easy voltvessels stall x 2 OR ( easy architect pogo AND Easy air bind stall ) ) ) ) ) |  | Verified | ✓ |  |
 | TL | Top Left | Top Left | Top | None |  | Verified | ✓ |  |
-| TR | Top Right | Top | Top Right | Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Cling Grip Right |  | Verified | ✓ |  |
+| TR | Top Right | Top | Top Right | Faydown Cloak OR Silk Soar OR Ledge grab right OR Cling grip Right OR easy pogo off phacia |  | Verified | ✓ |  |
 | TR | Top Right | Top Right | Top | None |  | Verified | ✓ |  |
+| TT | Top Traverse | Top Left | Top Right | Sprint Right OR Dash Right OR Drifters Cloak OR faydown Cloak OR Cling grip Left OR Silk soar OR Clawline Right OR Sharpdart  OR Easy flea brew stall OR easy plasmium stall OR easy voltvessels stall OR easy flintslate stall OR easy air bind stall OR easy cross stitch stall OR easy rune rage stall OR easy delvers drill stall OR easy thread storm stall OR easy pale nails stall OR easy hunter pogo OR easy wanderer charge OR easy Naked pogo OR easy reaper pogo OR easy beast pogo OR easy architect pogo OR easy witch pogo OR easy shaman pogo |  | Verified | ✓ |  |
+| TT | Top Traverse | Top Right | Top Left | Faydown Cloak OR Silk Soar OR ( Sprint left OR Dash Left OR Easy beast pogo OR clawline left OR Sharpdart OR Drifters Cloak OR Easy plasmium stall x 3 OR Easy flea brew stall x 2 OR ( Cling grip left AND ( easy wanderer charge OR Easy flintslate stall x 3 OR easy voltvessels stall x 2 OR ( easy architect pogo AND Easy air bind stall ) ) ) ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -51,6 +53,10 @@
 | 10 | Pollenica 3 | Top | None |  | Verified | enemy | ✓ |  |
 | 11 | Pollenica 4 | Top | None |  | Verified | enemy | ✓ |  |
 | 12 | Pollenica 5 | Top | None |  | Verified | enemy | ✓ |  |
+
+## Notes
+
+Updated 14/11 - Pyxl
 
 ## Room Images
 

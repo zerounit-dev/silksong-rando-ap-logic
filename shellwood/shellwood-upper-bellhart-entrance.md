@@ -13,12 +13,13 @@
 | S3 | Bell Ledge | ✓ |
 | S4 | Upper Area | ✓ |
 | S5 | Right Exit Area | ✓ |
+| S6 | Upper left exit | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](sister-splinter.md) | R | ((( Easy Hunter Crest pogo OR Easy Beast Crest pogo OR medium Architect Crest pogo ) AND Ledge Grab left ) OR ( Medium Heal Stall AND ( medium Reaper Crest pogo OR Hard Shaman Crest pogo OR easy Wanderer Crest pogo OR hard Witch Crest pogo ) ) ) OR Clawline left OR Dash left  OR Drifter's Cloak OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
+| UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](sister-splinter.md) | R | None |  | Verified | ✓ |  |
 | R | right1 | Right Exit Area | [Upper Bellhart (Belltown_04)](../bellhart/upper-bellhart.md) | UL | None |  | Verified | ✓ |  |
 | LL | left2 | Left Pond | [Shellwood Sister Splinter Bench (Shellwood_01b)](shellwood-sister-splinter-bench.md) | UR | None |  | Verified | ✓ |  |
 
@@ -34,12 +35,18 @@
 | PL | Platforms | Right Pond | Upper Area | Ledge Grab Left OR Ledge Grab Right OR Dash Right OR Dash Left OR Faydown Cloak OR Cling Grip Right OR Cling Grip Left OR Silk soar OR Easy Shaman Pogo |  | Verified | ✓ |  |
 | BB | Break Bell Walls | Bell Ledge | Right Exit Area | Break Wall Right |  | Verified | ✓ |  |
 | BB | Break Bell Walls | Right Exit Area | Bell Ledge | Break Wall Left |  | Verified | ✓ |  |
+| AAA | top left | Upper Area | Upper left exit | ((( Easy Hunter Crest pogo OR Easy Beast Crest pogo OR medium Architect Crest pogo ) AND Ledge Grab left ) OR ( Medium air bind Stall AND ( medium Reaper Crest pogo OR Hard Shaman Crest pogo OR easy Wanderer Crest pogo OR hard Witch Crest pogo ) ) ) OR Clawline left OR Dash left  OR Drifter's Cloak OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
+| AAA | top left | Upper left exit | Upper Area | None |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shard Bundle: Shellwood | Upper Area | Silk Soar OR ( ( Cling Grip Left OR Scuttlebrace ) AND ( Faydown Cloak OR ( ( Cling Grip Right OR Faydown Cloak OR Silk soar OR Scuttlebrace ) AND ( Drifters Cloak OR Clawline Left OR ( Dash Left AND Sprint Left ) OR Sharpdart OR (Sprint left AND Easy Beast pogo AND ( medium heal stall OR medium flea brew stall OR medium plasmium phial stall OR Medium flintslate stall) ) ) )  ) ) |  | Verified | collectible | ✓ |  |
+| 1 | Shard Bundle: Shellwood | Upper Area | Silk Soar OR ( ( Cling Grip Left OR Scuttlebrace ) AND ( Faydown Cloak OR ( ( Cling Grip Right OR Faydown Cloak OR Silk soar OR Scuttlebrace ) AND ( Drifters Cloak OR Clawline Left OR ( Dash Left AND Sprint Left ) OR Sharpdart OR (Sprint left AND Easy Beast pogo AND ( medium air bind stall OR medium flea brew stall OR medium plasmium phial stall OR Medium flintslate stall) ) ) )  ) ) |  | Verified | collectible | ✓ |  |
+
+## Notes
+
+Need to add more subrooms
 
 ## Room Images
 

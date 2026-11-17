@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_09
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 
@@ -24,7 +24,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | RB | right boss entrance | right area | boss area | none (starts fight) |  | Verified | ✓ |  |
-| RB | right boss entrance | boss area | right area | defeat forebrothers boss fight AND (Cling Grip OR Faydown Cloak OR Silk Soar) |  | Verified | ✓ |  |
+| RB | right boss entrance | boss area | right area | defeat forebrothers boss fight AND (Cling Grip either OR Faydown Cloak OR Silk Soar OR (easy scuttlebrace AND easy shaman pogo)) |  | Verified | ✓ |  |
 | LB | left boss entrance | left area | boss area | defeat forebrothers boss fight |  | Verified | ✓ |  |
 | LB | left boss entrance | boss area | left area | defeat forebrothers boss fight |  | Verified | ✓ |  |
 
@@ -33,13 +33,13 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | forebrothers boss fight | boss area | Combat Requirements |  | Verified | boss | ✓ |  |
-| 2 | Dock Guard Thrower 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 6 | Flintstone Flyer 3 |  |  |  |  | enemy | ✓ |  |
-| 7 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Dock Guard Slasher 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Dock Guard Thrower 1 | boss area | none |  | Verified | enemy | ✓ | last to spawn |
+| 3 | Flintstone Flyer 1 | boss area | none |  | Verified | enemy | ✓ | second to spawn |
+| 4 | Smokerock Sifter 1 | boss area | none |  | Verified | enemy | ✓ | third to spawn |
+| 5 | Flintstone Flyer 2 | boss area | none |  | Verified | enemy | ✓ | fourth to spawn |
+| 6 | Flintstone Flyer 3 | boss area | none |  | Verified | enemy | ✓ | disappears upon engaging boss fight |
+| 7 | Smelt Shoveller 1 | boss area | none |  | Verified | enemy | ✓ | disappears upon engaging boss fight |
+| 8 | Dock Guard Slasher 1 | boss area | none |  | Verified | enemy | ✓ | first to spawn |
 
 ## Room Images
 

@@ -24,7 +24,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| pp | pond and platform | pond | platform | swim AND ( cling grip OR ledge grab OR faydown cloak ) |  | Verified | ✓ |  |
+| pp | pond and platform | pond | platform | (swim AND ( cling grip either OR ledge grab right OR faydown cloak )) OR (proficient movement AND ((clawline right OR sharpdart) AND faydown cloak AND ledge grab right)) |  | Verified | ✓ |  |
 | pp | pond and platform | platform | pond | swim |  | Verified | ✓ |  |
 
 ## Check Locations

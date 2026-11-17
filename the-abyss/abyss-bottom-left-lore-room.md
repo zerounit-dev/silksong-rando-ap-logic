@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lore: Abyss #3 |  | ( Faydown Cloak AND ( easy Reaper Crest pogo OR Cling Grip left) ) OR ( Silk Soar AND ( ( ( Proficient Movement AND spike pogo ) AND Ledge grab right ) OR Cling Grip right OR Scuttlebrace )  ) OR ( (  Easy pogo off shadow charger OR easy flea brew stall OR easy plasmium stall OR easy heal stall ) AND Cling grip left AND Spike pogo AND ( Cling grip right OR Ledge grab right ) ) |  | Verified | lore | ✓ |  |
+| 1 | Lore: Abyss #3 |  | ( Faydown Cloak AND ( easy Reaper Crest pogo OR Cling Grip left) ) OR ( Silk Soar AND ( ( ( Proficient Movement AND spike pogo ) AND Ledge grab right ) OR Cling Grip right OR Scuttlebrace )  ) OR ( (  Easy pogo off shadow charger OR easy flea brew stall OR easy plasmium stall OR easy Air Bind stall ) AND Cling grip left AND Spike pogo AND ( Cling grip right OR Ledge grab right ) ) |  | Verified | lore | ✓ |  |
 | 2 | Shadow Charger 1 |  | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images

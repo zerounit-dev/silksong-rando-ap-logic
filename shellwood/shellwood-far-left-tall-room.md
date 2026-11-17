@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A | 04c | Bottom | Top | ( Faydown Cloak AND Hard enemy pogo ) OR cling grip OR silk soar OR ( Dash AND Medium Scuttlebrace AND Faydown Cloak ) |  | Verified | ✓ |  |
+| A | 04c | Bottom | Top | ( ( ACT 1 OR ACT 2 ) AND ( ( easy shaman pogo AND faydown AND ( medium pogo off winged pilgrim bellbearer OR ( ( drifters OR easy air bind stall OR easy cross stitch stall OR easy pale nails stall OR easy rune rage stall OR easy silkspear stall OR easy flintslate stall OR easy plasmium stall OR easy voltvessels stall OR easy flea brew stall ) AND medium pogo off winged pilgrim ) ) ) OR ( Faydown Cloak AND Hard pogo off winged pilgrim bellbearer AND hard pogo off winged pilgrim ) OR cling grip both OR silk soar OR ( ( Medium Scuttlebrace AND Easy Hazard Respawn AND ( Faydown Cloak OR Cling grip Right ) ) ) ) ) OR ( ACT 3 AND ( Silk Soar OR ( Cling grip both AND Faydown Cloak ) OR ( Cling grip Both AND Clawline both AND ( Proficient Movement OR ( Sharpdart OR Drifters Cloak OR Dash Right OR Easy flintslate stall OR easy Flea brew Stall OR easy plasmium stall OR easy air bind stall OR easy cross stitch stall OR easy pale nails stall OR easy thread storm stall OR easy rune rage stall ) ) ) OR ( Hard pogo off winged pilgrim AND hard pogo off winged pilgrim bellbearer ) ) ) |  | Verified | ✓ |  |
 | A | 04c | Top | Bottom | None |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -34,6 +34,10 @@
 | 3 | Winged Pilgrim 1 | Top | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 4 | Winged Pilgrim Bellbearer 3 | Top | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 5 | Winged Pilgrim 2 | Top | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+
+## Notes
+
+Updated 14/11 - Pyxl
 
 ## Room Images
 

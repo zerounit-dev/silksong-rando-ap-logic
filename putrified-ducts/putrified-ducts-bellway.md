@@ -26,7 +26,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SH | Shaft | Vog Camp | Bellway | Prereq vog floor |  | Verified | ✓ |  |
 | SH | Shaft | Bellway | Vog Camp | Prereq vog floor AND Silk Soar |  | Verified | ✓ |  |
-| LE | Ledge | Vog Camp | Right Exit Ledge | Ledge grab Right OR Cling Grip Right OR Faydown CLoak OR Silk Soar OR Easy Shaman pogo OR Medium Delvers Drill Stall OR Easy VoltVessels Stall OR Easy Plasmium Stall OR Easy Beast Charge OR ( Easy Heal Stall AND Easy Beast Pogo ) |  | Verified | ✓ |  |
+| LE | Ledge | Vog Camp | Right Exit Ledge | Ledge grab Right OR Cling Grip Right OR Faydown CLoak OR Silk Soar OR Easy Shaman pogo OR Medium Delvers Drill Stall OR Easy VoltVessels Stall OR Easy Plasmium Stall OR Easy Beast Charge OR ( Easy Air Bind Stall AND Easy Beast Pogo ) |  | Verified | ✓ |  |
 | LE | Ledge | Right Exit Ledge | Vog Camp | None |  | Verified | ✓ |  |
 
 ## Check Locations

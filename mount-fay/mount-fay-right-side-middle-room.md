@@ -30,7 +30,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WA | Wall | Bottom | Pinstress Arena | Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND intended pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND intended pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) |  | Verified | ✓ |  |
+| WA | Wall | Bottom | Pinstress Arena | Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND intended pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND intended pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Air Bind Stall ) ) ) |  | Verified | ✓ |  |
 | WA | Wall | Pinstress Arena | Bottom | None |  | Verified | ✓ |  |
 | LS | Lower Slope | Bottom | Shell Shard Slope | Silk SOar OR ( cling Grip Left AND ( Faydown Cloak OR Clawline Left OR ( Dash Both AND Drifters Cloak AND Easy Reaper Crest Pogo ) ) ) |  | Verified | ✓ |  |
 | LS | Lower Slope | Shell Shard Slope | Bottom | None |  | Verified | ✓ |  |

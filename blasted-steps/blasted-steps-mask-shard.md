@@ -32,7 +32,7 @@
 | P24 | Pharlid2to4 | Pharlid4 | Pharlid2 | ((faydown cloak OR clawline left x 1 OR dash left OR sharpdart x 1) AND cling grip left (above)) OR (spike pogo AND scuttlebrace (below)) |  | Verified | ✓ |  |
 | P4M | Pharlid4MaskShard | Pharlid4 | MaskShard | (cling grip right OR scuttlebrace) AND ((spike pogo OR dash left OR clawline left x 1 OR sharpdart x 1) AND (ledge grab left OR faydown cloak OR easy hazard respawn)) |  | Verified | ✓ |  |
 | P4M | Pharlid4MaskShard | MaskShard | Pharlid4 | dash right OR drifter's cloak OR clawline right x 1 OR sharpdart x 1 OR faydown cloak OR spike pogo |  | Verified | ✓ |  |
-| P2M | Pharlid2MaskSHard | MaskShard | Pharlid2 | spike pogo OR dash left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifter's cloak |  | Verified | ✓ | falling |
+| P2M | Pharlid2MaskSHard | MaskShard | Pharlid2 | spike pogo OR dash left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifter's cloak | TODO | Verified | ✓ | falling Needs an inverse, can be done with some shaman spike pogo with wings |
 
 ## Check Locations
 

@@ -2,7 +2,7 @@
 
 **Game ID:** Arborium_03
 
-**Contributors:** heric
+**Contributors:** heric, hutyrix
 
 ## Subrooms
 
@@ -30,17 +30,17 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | down | Top | Middle | nada |  | Verified |  |  |
 | 2 | down2 | Middle | Bottom | nada |  | Verified |  |  |
-| 3 | up1 | Middle | Top | (faydown cloak AND (cling grip OR (Easy scuttlebrace))) OR (cling grip AND (medium shaman pogo OR hard reaper pogo)) OR silk soar |  | Verified |  | OR (clawline AND hard wanderer pogo) feels a bit to hard to me idk |
-| 4 | up2 | Bottom | Middle | (silk soar AND silkhearts x 1) OR (faydown cloak AND ledge grab) OR (medium Shaman pogo AND faydown cloak) OR Easy scuttlebrace OR (cling grip AND faydown cloak) |  | Verified |  |  |
+| 3 | up1 | Middle | Top | (faydown AND (cling grip either OR (Easy scuttlebrace)))  OR silk soar OR (faydown AND easy pogo off pollenica AND (easy [reaper,wanderer,shaman] pogo OR medium [hunter] pogo)) OR (ledge grab either AND faydown AND easy pogo off pollenica AND (easy [hunter,beast,witch,architect] pogo)) OR (cling grip right AND (hard reaper bind stall OR hard shaman pogo))  OR (cling grip either AND drifters AND easy shaman pogo) OR (cling grip left AND hard flea brew stall AND hard beast heal stall) |  | Verified |  | OR (clawline AND hard wanderer pogo) feels a bit to hard to me idk  couldn't replicate  reaper + cling grip right, removed, probably it was old syntax without mentioning heal stall? |
+| 4 | up2 | Bottom | Middle | (silk soar AND silkhearts x 1) OR Easy scuttlebrace OR (faydown cloak AND (ledge grab right OR medium shaman pogo OR cling grip right))  OR (faydown cloak AND medium pogo off mawling AND (medium [reaper,wanderer,beast,witch] pogo OR hard [hunter,architect] pogo))  OR cling grip left (hutyrix added this from report in discord 16/11, not to mention cling grip both was NOT accounted) |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Orders | Not connected | nada |  | Verified | lore |  | just name required |
-| 2 | Phacia 1 |  |  | TODO |  | enemy | ✓ |  |
-| 3 | Phacia 2 |  |  | TODO |  | enemy | ✓ |  |
-| 4 | Memoria 1 |  |  | TODO |  | enemy | ✓ |  |
+| 2 | Phacia 1 |  |  | TODO | Needs verification | enemy | ✓ | Another subroom required  for entrance + soul randomizers going from top transition  Probably attack up is enough lol |
+| 3 | Phacia 2 |  |  | TODO | Needs verification | enemy | ✓ | Another subroom required for entrance + soul randomizers going from top transition  But it will definitely need another subroom when attack randomizer will release (movement instead of upslash) |
+| 4 | Memoria 1 |  |  | TODO | Needs verification | enemy | ✓ | I think this enemy doesn't exist? ~Hutyrix |
 | 5 | Pollenica 1 |  |  | TODO |  | enemy | ✓ |  |
 | 6 | Pollenica 2 |  |  | TODO |  | enemy | ✓ |  |
 | 7 | Pollenica 3 |  |  | TODO |  | enemy | ✓ |  |

@@ -2,7 +2,7 @@
 
 **Game ID:** Ward_09
 
-**Contributors:** skai
+**Contributors:** skai, Gallos
 
 ## Subrooms
 
@@ -26,8 +26,8 @@ No subroom connections defined.
 | 2 | Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Granted |  | Verified | collectible | ✓ | Completion for the wish. |
 | 3 | Sherma Gauntlet Wall |  | break wall right |  | Verified | blockade | ✓ |  |
 | 4 | Balm for the Wounded Gauntlet |  | Combat Requirements |  | Verified | gauntlet | ✓ | Completion for the wish. |
-| 5 | Surgeon 1 |  | ACT 3 |  | Verified | enemy | ✓ | spawning before talking to sherma |
-| 6 | Surgeon 2 |  | ACT 3 |  | Verified | enemy | ✓ | spawning before talking to sherma |
+| 5 | Surgeon 1 |  | Black Thread World Spawn |  | Verified | enemy | ✓ | natural spawn after request |
+| 6 | Surgeon 2 |  | Black Thread World Spawn |  | Verified | enemy | ✓ | natural spawn after request |
 | 7 | Surgeon 3 |  | none |  | Verified | enemy | ✓ | fourth to spawn |
 | 8 | Mortician 1 |  | none |  | Verified | enemy | ✓ | second to spawn |
 | 9 | Mortician 2 |  | none |  | Verified | enemy | ✓ | third to spawn |

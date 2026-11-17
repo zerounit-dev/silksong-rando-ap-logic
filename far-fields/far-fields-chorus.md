@@ -42,10 +42,10 @@
 | V3 | vertical 3 | upper right alcove | lower right side | none (falling) |  | Verified | ✓ |  |
 | LBG | lower bridge gap | bone bridge | lower left side | none (jump) |  | Verified | ✓ |  |
 | LBG | lower bridge gap | lower left side | bone bridge | none (jump) |  | Verified | ✓ |  |
-| BAC | bridge alcove vault | bone bridge | upper left alcove | (faydown cloak AND medium [rune rage, cross stitch, heal, thread storm, flea brew] stall AND (cling grip right OR ledge grab right)) OR (proficient movement AND (cling grip right OR ledge grab right) AND faydown cloak) |  | Verified | ✓ |  |
+| BAC | bridge alcove vault | bone bridge | upper left alcove | (faydown cloak AND medium [rune rage, cross stitch, air bind, thread storm, flea brew] stall AND (cling grip right OR ledge grab right)) OR (proficient movement AND (cling grip right OR ledge grab right) AND faydown cloak) |  | Verified | ✓ |  |
 | BAC | bridge alcove vault | upper left alcove | bone bridge | none (falling) |  | Verified | ✓ |  |
 | G2 | gap 2 | drifter ledge | upper left alcove | clawline right x 3  OR (cling grip left AND (easy beast pogo AND sharpdart x 2)) OR (run AND sharpdart x 2 AND (dash right OR faydown cloak)) |  | Verified | ✓ | redundant inverse connection |
-| VHF | vertical half | bone bridge | drifter ledge | silk soar  OR drifter's cloak  OR (faydown cloak AND ((proficient movement AND (cling grip left OR ledge grab left))  OR ((cling grip left OR ledge grab left) AND medium [flea brew, rune rage, thread storm, heal] stall))) |  | Verified | ✓ |  |
+| VHF | vertical half | bone bridge | drifter ledge | silk soar  OR drifter's cloak  OR (faydown cloak AND ((proficient movement AND (cling grip left OR ledge grab left))  OR ((cling grip left OR ledge grab left) AND medium [flea brew, rune rage, thread storm, air bind] stall))) |  | Verified | ✓ |  |
 | VHF | vertical half | drifter ledge | bone bridge | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

@@ -6,14 +6,16 @@
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | crab street | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | LR | none |  | Verified | ✓ |  |
-| R | right |  | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | LL | none |  | Verified | ✓ |  |
+| L | left | crab street | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | LR | none |  | Verified | ✓ |  |
+| R | right | crab street | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | LL | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -23,14 +25,11 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | craggler mini boss fight |  | none |  | Verified | miniboss | ✓ |  |
-| 2 | craggler beast shard |  | defeat craggler mini boss fight |  | Verified | collectible | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
-
-## Notes
-
-cry: were we adding craggler into logic?
-should at bare minimum have dash or run in combat logic
+| 1 | Wormways - Craggler Hallway - Craggler Beast Shard | crab street | defeat Craggler 1 |  | Verified | collectible | ✓ | formerly craggler beast shard |
+| 2 | Cragglite 1 | crab street | none |  | Verified | enemy | ✓ |  |
+| 3 | Cragglite 2 | crab street | none |  | Verified | enemy | ✓ |  |
+| 4 | Cragglite 3 | crab street | none |  | Verified | enemy | ✓ |  |
+| 5 | Craggler 1 | crab street | none |  | Verified | miniboss | ✓ | fight Spawn conditions: roofCrabDefeated=false FSM Boolean flags: roofCrabEncountered |
 
 ## Room Images
 

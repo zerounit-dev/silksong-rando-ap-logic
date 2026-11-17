@@ -35,7 +35,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary String: Shellwood #2 | Left Puddles | Cling Grip left OR Cling Grip Right OR Silk Soar OR ( Faydown Cloak AND Easy Shaman Crest pogo ) OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
+| 1 | Rosary String: Shellwood #2 | Left Puddles | Cling Grip left OR Cling Grip Right OR Silk Soar OR ( Faydown Cloak AND Easy Shaman Crest pogo ) OR Scuttlebrace |  | Verified | collectible | ✓ |  |
 | 2 | Relic: Weaver effigy (Keelal, Shellwood) | Right Corridor | Cling Grip Right AND Swim AND ( Clawline Right OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Easy Beast Crest pogo OR Sprint Right OR Dash Right ) |  | Verified | collectible | ✓ |  |
 | 3 | Shellwood Goomba Flyer 1 | Left Puddles | None |  | Verified | enemy | ✓ |  |
 | 4 | Pond Skipper 1 | Left Puddles | None |  | Verified | enemy | ✓ |  |

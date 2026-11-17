@@ -2,7 +2,7 @@
 
 **Game ID:** Ward_05
 
-**Contributors:** skai
+**Contributors:** skai, Gallos
 
 ## Subrooms
 

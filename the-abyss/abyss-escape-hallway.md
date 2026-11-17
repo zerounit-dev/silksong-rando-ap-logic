@@ -27,13 +27,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EL | Escape Ledge | Left Ledge | Escape Ledge | Silk Soar OR Cling Grip |  | Verified | ✓ |  |
+| EL | Escape Ledge | Left Ledge | Escape Ledge | Silk Soar OR Cling Grip right |  | Verified | ✓ |  |
 | EL | Escape Ledge | Escape Ledge | Left Ledge | None |  | Verified | ✓ |  |
 | WA | Wall | Left Exit | Left Ledge | prereq Abyss escape wall right side OR Prereq Abyss escape wall Left side |  | Verified | ✓ |  |
 | WA | Wall | Left Ledge | Left Exit | prereq Abyss escape wall right side OR Prereq Abyss escape wall Left side |  | Verified | ✓ |  |
 | TL | Thorns Left | Left Ledge | Tunnel Left | Easy Beast pogo OR ( Flea brew jump AND easy flea brew stall ) OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Sharpdart OR Dash Right |  | Verified | ✓ |  |
-| TL | Thorns Left | Tunnel Left | Left Ledge | CBT pogo off gloomsac OR Faydown Cloak OR ( Clawline left AND ( Ledge grab left OR Cling grip Left OR easy Hazard respawn OR ( Easy heal stall AND easy beast pogo ) OR Easy shaman Pogo OR Silk soar ) ) OR ( Easy Beast pogo AND easy hazard respawn ) |  | Verified | ✓ | Someone kill me why can these nobs carrys you places |
-| TU | Tunnel | Tunnel Left | Tunnel Right | Ledge Grab Right OR Cling grip Either OR Faydown CLoak OR medium pogo off shadow creeper OR Easy scuttlebrace OR Hard delvers drill stall OR easy flea brew stall OR easy plasmium stall OR Easy voltvessels stall OR easy heal stall OR medium thread storm stall OR medium rune rage stall OR easy shaman pogo OR easy beast charge |  | Verified | ✓ |  |
+| TL | Thorns Left | Tunnel Left | Left Ledge | CBT pogo off gloomsac OR Faydown Cloak OR ( Clawline left AND ( Ledge grab left OR Cling grip Left OR easy Hazard respawn OR ( Easy air bind stall AND easy beast pogo ) OR Easy shaman Pogo OR Silk soar ) ) OR ( Easy Beast pogo AND easy hazard respawn ) |  | Verified | ✓ | Someone kill me why can these nobs carrys you places |
+| TU | Tunnel | Tunnel Left | Tunnel Right | Ledge Grab Right OR Cling grip Either OR Faydown CLoak OR medium pogo off shadow creeper OR Easy scuttlebrace OR Hard delvers drill stall OR easy flea brew stall OR easy plasmium stall OR Easy voltvessels stall OR easy air bind stall OR medium thread storm stall OR medium rune rage stall OR easy shaman pogo OR easy beast charge |  | Verified | ✓ |  |
 | TU | Tunnel | Tunnel Right | Tunnel Left | None |  | Verified | ✓ |  |
 | TR | Thorns Right | Tunnel Right | Right Exit | ( Faydown cloak AND ( ( Flea brew jump AND ( Drifters Cloak OR clawline Right OR Easy beast pogo OR  ( Dash right AND Easy Flea brew stall ) ) ) OR ( Drifters cloak AND ( Easy Voltvessels stall OR easy flintslate stall OR Easy plasmium stall OR Easy cross stitch stall OR easy flea brew stall ) ) ) ) OR ( Clawline Right AND ( Drifters Cloak OR Easy shaman pogo OR Easy Thread storm Stall OR Easy pale nails stall OR easy cross stitch stall OR easy rune rage stall OR sharpdart ) ) |  | Verified | ✓ |  |
 | TR | Thorns Right | Right Exit | Tunnel Right | ( Faydown Cloak AND ( Drifters cloak OR Clawline left ) ) OR ( Cling grip left AND ( Flea brew jump AND Medium flea brew stall AND Drifters cloak ) ) |  | Verified | ✓ |  |

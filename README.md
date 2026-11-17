@@ -316,6 +316,18 @@ Generated from the non-archived records in the accompanying frozen SQLite snapsh
 - [Sinner's Road Vertical Hall West (Dust_02)](./sinner-s-road/sinner-s-road-vertical-hall-west.md)
 - [Sinner's Road Shack (dust_shack)](./sinner-s-road/sinner-s-road-shack.md)
 
+## The Mist
+
+- [Mist Entrance (Dust_Maze_09_entrance)](./the-mist/mist-entrance.md)
+- [M1 (Dust_Maze_01)](./the-mist/m1.md)
+- [M2 (Dust_Maze_02)](./the-mist/m2.md)
+- [M3 (Dust_Maze_03)](./the-mist/m3.md)
+- [M4 (Dust_Maze_04)](./the-mist/m4.md)
+- [M5 (Dust_Maze_05)](./the-mist/m5.md)
+- [M6 (Dust_Maze_06)](./the-mist/m6.md)
+- [M7 (Dust_Maze_07)](./the-mist/m7.md)
+- [M8 (Dust_Maze_08)](./the-mist/m8.md)
+
 ## Underworks
 
 - [Vaults & Bellway Cauldron Entrance (Library_11)](./underworks/vaults-bellway-cauldron-entrance.md)
@@ -631,6 +643,7 @@ Generated from the non-archived records in the accompanying frozen SQLite snapsh
 - [Ventrica Menu](./fast-travel/ventrica-menu.md)
 - [Slab Capture](./fast-travel/slab-capture.md)
 - [Flea Caravan](./fast-travel/flea-caravan.md)
+- [The Mist Fog](./fast-travel/the-mist-fog.md)
 
 ## Wish Menus
 

@@ -36,7 +36,7 @@
 | LL | Left Lake | Left Arena | Centre Bulb | Swim OR ( Easy pogo off Nuphar AND ( ( Easy Beast Crest Pogo AND Easy pogo off Nuphar AND Easy Pogo off Pendra ) OR Clawline Right OR ( Sharpdart AND ( Dash Right OR Drifters Cloak OR Faydown Cloak OR Sprint Right OR Easy Beast Crest Pogo OR Easy Reaper Pogo OR  Easy Shaman Pogo ) ) OR ( Sprint Right AND ( Faydown Cloak OR Drifters Cloak ) ) ) ) |  | Verified | ✓ |  |
 | LB | Lower BUlbing | Centre Bulb | Ledge Transition | Easy Shaman Pogo OR Easy Reaper Pogo OR ( ( Ledge Grab Left OR Cling Grip Left ) AND ( Easy Witch Pogo OR Medium Beast Crest Pogo OR Easy Wanderer Pogo OR Easy Hunter Pogo OR Clawline Left ) ) OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
 | LB | Lower BUlbing | Ledge Transition | Centre Bulb | None |  | Verified | ✓ |  |
-| UB | Upper Bulbing | Centre Bulb | The door | Silk Soar OR ( Faydown Cloak AND Cling Grip ) |  | Verified | ✓ |  |
+| UB | Upper Bulbing | Centre Bulb | The door | Silk Soar OR ( Faydown Cloak AND Cling Grip both ) |  | Verified | ✓ |  |
 | UB | Upper Bulbing | The door | Centre Bulb | None |  | Verified | ✓ |  |
 
 ## Check Locations

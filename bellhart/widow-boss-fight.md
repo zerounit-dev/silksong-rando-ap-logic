@@ -19,7 +19,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Arena Right | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | UL | None |  | Verified | ✓ |  |
-| C | top1 | Upper | [Upper Bellhart (Belltown_04)](upper-bellhart.md) | F | Silk Soar OR Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR ( Easy Heal Stall AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| C | top1 | Upper | [Upper Bellhart (Belltown_04)](upper-bellhart.md) | F | Silk Soar OR Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR ( Easy air bind Stall AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -31,9 +31,9 @@
 | AR | Exit Arena Right | Arena Right | Arena | Activate Bellshrine Lever |  | Verified | ✓ |  |
 | AL | Exit Arena Left | Arena Left | Arena | Activate Bellshrine Lever |  | Verified | ✓ |  |
 | AL | Exit Arena Left | Arena | Arena Left | Activate Bellshrine Lever |  | Verified | ✓ |  |
-| TD | Trapdoor | Trapdoor Switch Ledge | Upper | activate Trapdoor Lever AND (  Ledge Grab  OR Cling Grip  OR Silk Soar  OR Scuttlebrace ) |  | Verified | ✓ |  |
+| TD | Trapdoor | Trapdoor Switch Ledge | Upper | activate Trapdoor Lever AND (  Ledge Grab either OR Cling Grip either OR Silk Soar  OR Scuttlebrace ) |  | Verified | ✓ |  |
 | TD | Trapdoor | Upper | Trapdoor Switch Ledge | activate Trapdoor Lever |  | Verified | ✓ |  |
-| ALC | Arena Left Climb | Arena Left | Trapdoor Switch Ledge | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
+| ALC | Arena Left Climb | Arena Left | Trapdoor Switch Ledge | Cling Grip either OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
 | ALC | Arena Left Climb | Trapdoor Switch Ledge | Arena Left | None (Falling) |  | Verified | ✓ |  |
 
 ## Check Locations

@@ -28,7 +28,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SM | Start Main | Start | Main | Easy Beast Crest Pogo OR ( Silk Soar AND ( Ledge Grab Right OR Cling Grip Right OR Dash Right OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Clawline Right OR Easy Heal Stall OR   Easy Hunter Crest Pogo OR Easy Reaper Crest Pogo OR Medium Witch Crest Pogo OR Easy Architect Crest Pogo OR Hard Shaman Crest Pogo OR Easy Naked Crest Pogo ) ) OR Clawline Right OR Drifters Cloak OR Faydown Cloak OR ( Dash Right AND ( Ledge Grab Right OR Cling Grip RIght ) ) |  | Verified | ✓ | I |
+| SM | Start Main | Start | Main | Easy Beast Crest Pogo OR ( Silk Soar AND ( Ledge Grab Right OR Cling Grip Right OR Dash Right OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Clawline Right OR Easy air bind Stall OR   Easy Hunter Crest Pogo OR Easy Reaper Crest Pogo OR Medium Witch Crest Pogo OR Easy Architect Crest Pogo OR Hard Shaman Crest Pogo OR Easy Naked Crest Pogo ) ) OR Clawline Right OR Drifters Cloak OR Faydown Cloak OR ( Dash Right AND ( Ledge Grab Right OR Cling Grip RIght ) ) |  | Verified | ✓ | I |
 | SM | Start Main | Main | Start | None |  | Verified | ✓ | Hate |
 | STL | Start Top Left | Start | Top Left | prereq Verdania Big Room Shortcut AND ( Silk Soar OR  ( Cling Grip left AND ( Faydown Cloak OR Drifters Cloak OR Clawline Left OR Dash Left ) ) ) |  | Verified | ✓ | This |
 | STL | Start Top Left | Top Left | Start | prereq Verdania Big Room Shortcut |  | Verified | ✓ | Entire |
@@ -40,7 +40,7 @@
 | MEE | Naub Escalion Encounter | Escalion Encounter | Main | None |  | Verified | ✓ |  |
 | MNL | Escalion encounter Nuphar Lake | Escalion Encounter | Nuphar Lake | ( Faydown Cloak AND Proficient Movement ) OR Clawline Right OR Drifters Cloak OR Swim OR Sharpdart OR Dash RIght OR Sprint Right |  | Verified | ✓ |  |
 | MNL | Escalion encounter Nuphar Lake | Nuphar Lake | Escalion Encounter | ( Faydown Cloak AND Proficient Movement ) OR Clawline left OR Drifters Cloak OR Swim OR Sharpdart OR Dash left OR Sprint left |  | Verified | ✓ |  |
-| NLR | Nuphar Lake Right | Nuphar Lake | Top Right Exit | Clawline OR ( Ledge Grab Right AND ( Drifters Cloak OR ( Faydown Cloak AND Proficient movement ) OR ( Swim AND SIlk Soar AND SPrint Right AND Proficient Movement ) ) ) |  | Verified | ✓ |  |
+| NLR | Nuphar Lake Right | Nuphar Lake | Top Right Exit | Clawline both OR ( Ledge Grab Right AND ( Drifters Cloak OR ( Faydown Cloak AND Proficient movement ) OR ( Swim AND SIlk Soar AND SPrint Right AND Proficient Movement ) ) ) |  | Verified | ✓ |  |
 | NLR | Nuphar Lake Right | Top Right Exit | Nuphar Lake | None |  | Verified | ✓ |  |
 | VAE | Verdanir Arena Escalion | Verdanir Arena | Escalion Encounter | Clawline RIght OR Faydown Cloak OR Sprint Right OR Sharpdart OR Drifters Cloak  OR ( medium Beast Crest Pogo AND Ledge grab right ) |  | Verified | ✓ |  |
 | VAE | Verdanir Arena Escalion | Escalion Encounter | Verdanir Arena | Clawline left OR Faydown Cloak OR Sprint left OR Sharpdart OR Drifters Cloak  OR ( medium Beast Crest Pogo AND Ledge grab left ) |  | Verified | ✓ |  |
@@ -56,11 +56,11 @@
 | 5 | Leaf Glider 3 | Start | sharpdart OR Clawline Right |  | Verified | enemy | ✓ |  |
 | 6 | Leaf Roller 1 | Main | None |  | Verified | enemy | ✓ |  |
 | 7 | Leaf Glider 4 | Main | ( Swim OR Drifters Cloak OR Faydown Cloak OR Easy Beast Crest Pogo OR ( Sprint Right AND Dash Right ) ) AND ( Clawline Right OR Sharpdart ) |  | Verified | enemy | ✓ |  |
-| 8 | Leaf Roller 2 | Nuphar Lake | Clawline OR ( Ledge Grab Right AND ( Drifters Cloak OR ( Faydown Cloak AND Proficient movement ) OR ( Swim AND SIlk Soar AND SPrint Right AND Proficient Movement ) ) ) |  | Verified | enemy | ✓ |  |
+| 8 | Leaf Roller 2 | Nuphar Lake | Clawline both OR ( Ledge Grab Right AND ( Drifters Cloak OR ( Faydown Cloak AND Proficient movement ) OR ( Swim AND SIlk Soar AND SPrint Right AND Proficient Movement ) ) ) |  | Verified | enemy | ✓ |  |
 | 9 | Nuphar 1 | Nuphar Lake | None |  | Verified | enemy | ✓ |  |
-| 10 | Leaf Glider 5 | Nuphar Lake | sharpdart OR Clawline |  | Verified | enemy | ✓ |  |
-| 11 | Leaf Glider 6 | Nuphar Lake | sharpdart OR Clawline |  | Verified | enemy | ✓ |  |
-| 12 | Leaf Glider 7 | Nuphar Lake | sharpdart OR Clawline |  | Verified | enemy | ✓ |  |
+| 10 | Leaf Glider 5 | Nuphar Lake | sharpdart OR Clawline either |  | Verified | enemy | ✓ |  |
+| 11 | Leaf Glider 6 | Nuphar Lake | sharpdart OR Clawline either |  | Verified | enemy | ✓ |  |
+| 12 | Leaf Glider 7 | Nuphar Lake | sharpdart OR Clawline either |  | Verified | enemy | ✓ |  |
 | 13 | Escalion 1 | Escalion Encounter | None |  | Verified | enemy | ✓ |  |
 | 14 | Leaf Roller 3 | Escalion Encounter | None |  | Verified | enemy | ✓ |  |
 | 15 | Verdanir 1 | Verdanir Arena | None |  | Verified | enemy | ✓ |  |

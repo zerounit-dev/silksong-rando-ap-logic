@@ -26,16 +26,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | left climb | left exit shaft | upper tunnels | spike pogo AND (silk soar OR cling grip OR scuttlebrace) |  | Verified | ✓ |  |
-| LC | left climb | upper tunnels | left exit shaft | cling grip OR faydown cloak OR easy architect pogo OR easy shaman pogo OR easy reaper pogo OR easy beast pogo OR (scuttlebrace AND spike pogo) |  | Verified | ✓ |  |
+| LC | left climb | left exit shaft | upper tunnels | ((spike pogo OR dash right OR (proficient movement AND easy naked pogo)) AND (silk soar OR cling grip right)) OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
+| LC | left climb | upper tunnels | left exit shaft | cling grip right  OR faydown cloak  OR easy [reaper, architect, shaman, beast] pogo OR ((easy scuttlebrace OR cling grip left) AND (spike pogo OR dash left OR easy naked pogo)) OR (ponder the orb AND dash left AND medium [hunter, witch, wanderer] pogo) |  | Verified | ✓ |  |
 | RC | right climb | right exit tunnel | right exit basement | none (falling) |  | Verified | ✓ |  |
-| RC | right climb | right exit basement | right exit tunnel | cling grip OR scuttlebrace OR easy enemy pogo |  | Verified | ✓ |  |
-| TS | tunnel shaft | lower tunnels | upper tunnels | silk soar OR scuttlebrace OR cling grip |  | Verified | ✓ |  |
+| RC | right climb | right exit basement | right exit tunnel | cling grip either  OR easy scuttlebrace  OR easy enemy pogo |  | Verified | ✓ |  |
+| TS | tunnel shaft | lower tunnels | upper tunnels | silk soar  OR easy scuttlebrace  OR cling grip either  OR (ponder the orb AND faydown cloak AND ledge grab left AND dash either AND (medium flea brew stall x 2 OR (medium heal stall AND have crest beast))) |  | Verified | ✓ |  |
 | TS | tunnel shaft | upper tunnels | lower tunnels | none (falling) |  | Verified | ✓ |  |
-| TC | tunnel connector | right exit tunnel | upper tunnels | none |  | Verified | ✓ |  |
-| TC | tunnel connector | upper tunnels | right exit tunnel | none |  | Verified | ✓ |  |
-| PC | pilgrim crevace | lower tunnels | pilgrim tomb | spike pogo OR dash OR faydown cloak |  | Verified | ✓ |  |
-| PC | pilgrim crevace | pilgrim tomb | lower tunnels | cling grip OR scuttlebrace OR faydown cloak |  | Verified | ✓ |  |
+| TC | tunnel connector | right exit tunnel | upper tunnels | none |  | Verified |  |  |
+| TC | tunnel connector | upper tunnels | right exit tunnel | none |  | Verified |  |  |
+| PC | pilgrim crevace | lower tunnels | pilgrim tomb | none (falling) |  | Verified | ✓ |  |
+| PC | pilgrim crevace | pilgrim tomb | lower tunnels | cling grip either OR easy scuttlebrace OR faydown cloak |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -44,13 +44,36 @@
 | 1 | wormways memory locket | pilgrim tomb | none |  | Verified | collectible | ✓ |  |
 | 2 | plasmium bud lower west | left exit shaft | complete THE alchemist's assistant wish promised  AND needle phial |  | Verified | collectible | ✓ |  |
 | 3 | Breakable Mid Wall | upper tunnels | needle {right} OR needle {left} |  | Verified | blockade | ✓ | the area behind this wall will remain in the dark until broken |
-| 4 | plasmid upper | upper tunnels | act 3 |  | Verified | enemy | ✓ | location per the wiki |
-| 5 | plasmified blood upper | upper tunnels | needle phial AND defeat plasmid upper |  | Verified | resource | ✓ |  |
-| 6 | plasmid lower | lower tunnels | act 3 |  | Verified | enemy | ✓ | location per the wiki; two spawn points in this subroom |
-| 7 | plasmified blood lower | lower tunnels | needle phial AND defeat plasmid lower |  | Verified | resource | ✓ |  |
-| 8 | plasmid east | right exit basement | act 3 |  | Verified | enemy | ✓ | location per the wiki |
-| 9 | plasmified blood east | right exit basement | needle phial AND defeat plasmid east |  | Verified | resource | ✓ |  |
-| 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | Gromling 1 | right exit basement | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Gromling 2 | right exit basement | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Gromling 3 | right exit tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Gromling 4 | upper tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Gromling 5 | upper tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Gromling 6 | upper tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Gromling 7 | upper tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Gromling 8 | upper tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Gromling 9 | upper tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Gromling 10 | upper tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Gromling 11 | upper tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Gromling 12 | left exit shaft | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Gromling 13 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Gromling 14 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Gromling 15 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Gromling 16 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Gromling 17 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Gromling 18 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 22 | Gromling 19 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 23 | Gromling 20 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 24 | Grom 1 | right exit tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 25 | Grom 2 | right exit tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 26 | Grom 3 | right exit tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 27 | Grom 4 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 28 | Grom 5 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 29 | Grom 6 | lower tunnels | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 30 | Plasmid 1 | right exit basement | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 31 | Plasmid 2 | upper tunnels | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 32 | Plasmid 3 | lower tunnels | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 33 | Plasmid 4 | lower tunnels | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

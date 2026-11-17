@@ -31,7 +31,7 @@
 | YP | Yanarby Path | upper spike wheel | [Yarnaby Place (Wisp_03)](yarnaby-place.md) | R | none |  | Verified | ✓ |  |
 | GR | garmon room | lower spike wheel | [Greymoor Towers Patio (Greymoor_05)](greymoor-towers-patio.md) | ML | none |  | Verified | ✓ |  |
 | UR | upper right | whisp thicket entrance | [Greymoor Upper Towers Path (Greymoor_11)](greymoor-upper-towers-path.md) | U | none |  | Verified | ✓ |  |
-| T | Top | whisp thicket entrance | [Wisp Thicket Bench (Wisp_04)](../wisp-thicket/wisp-thicket-bench.md) | B | prereq Faydown Cloak IN FayForn AND (silk soar OR (faydown cloak AND cling grip left)) |  | Verified | ✓ |  |
+| T | Top | whisp thicket entrance | [Wisp Thicket Bench (Wisp_04)](../wisp-thicket/wisp-thicket-bench.md) | B | (prereq Faydown Cloak IN FayForn AND silk soar) OR (faydown cloak AND (silk soar OR cling grip left)) |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

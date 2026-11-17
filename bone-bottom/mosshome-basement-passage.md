@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LU | lower to upper | lower level | upper level | ( ( ledge grab left OR cling grip left ) AND ( ledge grab right OR cling grip right ) ) OR faydown OR silk soar OR easy shaman pogo OR easy pogo off aknid |  | Verified | ✓ |  |
 | LU | lower to upper | upper level | lower level | none (falling) |  | Verified | ✓ |  |
+| LU | lower to upper | lower level | upper level | (ledge grab right OR cling grip right ) OR faydown OR silk soar OR easy shaman pogo OR easy pogo off aknid |  | Verified | ✓ |  |
 
 ## Check Locations
 

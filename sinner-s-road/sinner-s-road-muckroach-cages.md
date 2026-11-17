@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_03
 
-**Contributors:** herchey and NOT these shitty muckroaches
+**Contributors:** Gallos,herchey and NOT these shitty muckroaches
 
 ## Subrooms
 
@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | H | (faydown cloak AND cling grip either) OR silk soar |  | Verified | ✓ |  |
+| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | H | ((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar |  | Verified | ✓ |  |
 | LR | lower right | right half | [Sinner's Road Spike Basement (Dust_Barb)](sinner-s-road-spike-basement.md) | C | none |  | Verified | ✓ |  |
 | L | left | left half | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | LR | none |  | Verified | ✓ |  |
 
@@ -26,9 +26,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LR | left to right | left half | right half | none |  | Verified | ✓ |  |
 | LR | left to right | right half | left half | Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR  scuttlebrace |  | Verified | ✓ |  |
-| LA | left to attic | left half | attic | Silk soar OR ledge grab either OR cling grip either OR faydown cloak |  | Verified | ✓ |  |
+| LA | left to attic | left half | attic | Silk soar OR ledge grab either OR cling grip either OR faydown cloak OR easy pogo off roachfeeder OR easy scuttlebrace |  | Verified | ✓ |  |
 | LA | left to attic | attic | left half | none |  | Verified | ✓ |  |
-| RA | right to attic | right half | attic | silk soar OR (cling grip either AND faydown cloak) |  | Verified | ✓ |  |
+| RA | right to attic | right half | attic | silk soar OR cling grip either OR easy scuttlebrace OR (faydown AND ledge grab left) OR easy pogo off roachfeeder |  | Verified | ✓ |  |
 | RA | right to attic | attic | right half | none |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -38,7 +38,7 @@
 | 1 | Sinner's Road - A Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #1 |
 | 2 | Sinner's Road - A Few More Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #2 |
 | 3 | Sinner's Road - Last Few Spare Shards In The Muckroach Kennel Attic | attic | none |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #3 |
-| 4 | Sinner's Road - Rosary Cache: Sinner’s Road #4 | attic | none |  | Verified | collectible | ✓ |  |
+| 4 | Sinner's Road - Rosary Cache: Sinner’s Road #4 | left half | run OR ledge grab either OR cling grip either OR faydown OR silk soar OR easy pogo off [muckroach,roachfeeder] OR easy beast pogo OR drifters OR easy architect charge |  | Verified | collectible | ✓ |  |
 | 5 | Roachcatcher 1 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 6 | Muckroach 1 | attic | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |
 | 7 | Roachcatcher 2 | right half | invalid |  | Verified | enemy | ✓ | disabled - hero, 10/29 |

@@ -24,10 +24,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left Entry | Right Entry | dash OR clawline OR Sharpdart OR faydown cloak OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR ((Proficient Movement OR Medium Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew OR Spike Pogo OR Drifter's Cloak) AND Ledge Grab) |  | Verified | ✓ |  |
-| H | Horizontal | Right Entry | Left Entry | dash OR clawline OR Sharpdart OR faydown cloak OR spike pogo OR drifter's cloak OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Easy Flea Brew Stall OR Flea Brew OR ((Proficient Movement OR Medium Flintslate Stall) AND Ledge Grab) |  | Verified | ✓ |  |
-| V | Vertical | Top | Left Entry | cling grip OR Scuttlebrace |  | Verified | ✓ |  |
-| V | Vertical | Left Entry | Top | cling grip OR Scuttlebrace |  | Verified | ✓ |  |
+| H | Horizontal | Left Entry | Right Entry | dash right OR clawline right OR Sharpdart OR faydown cloak OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR ((Proficient Movement OR Medium Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew OR Spike Pogo OR Drifter's Cloak) AND Ledge Grab right) |  | Verified | ✓ |  |
+| H | Horizontal | Right Entry | Left Entry | dash left OR clawline left OR Sharpdart OR faydown cloak OR spike pogo OR drifter's cloak OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Easy Flea Brew Stall OR Flea Brew OR ((Proficient Movement OR Medium Flintslate Stall) AND Ledge Grab left) |  | Verified | ✓ |  |
+| V | Vertical | Top | Left Entry | nothing |  | Verified | ✓ | falling |
+| V | Vertical | Left Entry | Top | cling grip left OR easy Scuttlebrace OR (cling grip right AND (faydown OR silk soar OR easy shaman pogo)) |  | Verified | ✓ |  |
 
 ## Check Locations
 

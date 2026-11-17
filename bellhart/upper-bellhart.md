@@ -47,7 +47,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Silver Bell Spawn Location #1 | Lower Big Room | None |  | Verified | collectible | ✓ |  |
-| 2 | Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
+| 2 | Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar OR ( Ledge grab Right AND Faydown Cloak AND Soul Furm AND ( medium Drill Crystal pogo OR Medium shaman pogo OR ( Medium Beast pogo AND medium air bind Stall x 2 ) ) ) |  | Verified | collectible | ✓ |  |
 | 3 | Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
 | 4 | Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
 | 5 | Silver Bell Spawn Location #3 | Silver Bell Cubby | None |  | Verified | collectible | ✓ |  |

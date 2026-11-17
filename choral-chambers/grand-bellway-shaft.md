@@ -30,11 +30,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RL | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak OR easy [flea brew,heal] stall OR easy shaman pogo)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer, Architect] pogo))) OR easy scuttlebrace OR (faydown AND easy pogo off CHoristor) |  | Verified | ✓ |  |
+| RL | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak OR easy [flea brew,air heal] stall OR easy shaman pogo)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer, Architect] pogo))) OR easy scuttlebrace OR (faydown AND easy pogo off CHoristor) |  | Verified | ✓ |  |
 | RL | Bottom Right to Bottom Left | Bottom Left | Bottom Right | none |  | Verified | ✓ | falling |
-| V1 | Bottom Left to Right Stage | Bottom Left | Right Stage | silk soar OR cling grip either OR ((ledge grab right OR clawline right OR sharpdart OR easy scuttlebrace OR easy shaman pogo OR easy [heal, flea brew, plasmium, voltvessels, thread storm, cross stitch, rune rage, pale nails, flintslate] stall OR silkspear OR proficient movement) AND faydown cloak) OR easy pogo off Reed OR (medium scuttlebrace AND (easy [shaman, reaper] pogo OR (easy heal stall AND easy [Wanderer, Witch, Architect, hunter] pogo))) |  | Verified | ✓ |  |
+| V1 | Bottom Left to Right Stage | Bottom Left | Right Stage | silk soar OR cling grip either OR ((ledge grab right OR clawline right OR sharpdart OR easy scuttlebrace OR easy shaman pogo OR easy [air heal, flea brew, plasmium, voltvessels, thread storm, cross stitch, rune rage, pale nails, flintslate] stall OR silkspear OR proficient movement) AND faydown cloak) OR easy pogo off Reed OR (medium scuttlebrace AND (easy [shaman, reaper] pogo OR (easy air heal stall AND easy [Wanderer, Witch, Architect, hunter] pogo))) |  | Verified | ✓ |  |
 | V1 | Bottom Left to Right Stage | Right Stage | Bottom Left | none |  | Verified | ✓ | falling |
-| V2 | Right Stage to Upper Left | Right Stage | Middle | easy [Hunter, Reaper, Wanderer, Shaman, Beast] pogo OR ledge grab left OR easy scuttlebrace OR dash left OR clawline left OR sharpdart OR easy [heal, flea brew, plasmium, voltvessels, thread storm, cross stitch, rune rage, pale nails, flintslate] stall OR silk soar OR faydown |  | Verified | ✓ |  |
+| V2 | Right Stage to Upper Left | Right Stage | Middle | easy [Hunter, Reaper, Wanderer, Shaman, Beast] pogo OR ledge grab left OR easy scuttlebrace OR dash left OR clawline left OR sharpdart OR easy [air heal, flea brew, plasmium, voltvessels, thread storm, cross stitch, rune rage, pale nails, flintslate] stall OR silk soar OR faydown |  | Verified | ✓ |  |
 | V2 | Right Stage to Upper Left | Middle | Right Stage | none |  | Verified | ✓ | falling |
 | V3 | Upper Left to Upper Right | Middle | Upper | (easy scuttlebrace AND easy shaman pogo) OR silk soar OR ((ledge grab left OR easy scuttlebrace OR easy shaman pogo) AND easy pogo off Choir pouncer AND easy pogo off Choir Elder AND easy pogo off [Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (easy scuttlebrace OR dash right OR clawline right OR sharpdart OR run)) OR (easy scuttlebrace AND easy pogo off Choir pouncer AND easy pogo off [Choir Elder,Reed, Choir Flyer, Choir bellbearer]) |  | Verified | ✓ |  |
 | V3 | Upper Left to Upper Right | Upper | Middle | none |  | Verified | ✓ | falling |
@@ -51,10 +51,10 @@
 | 4 | Choir Flyer 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 5 | Choir Pouncer 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 6 | Choristor 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 7 | Choristor 2 | Bottom Right | complete Meet the Caretaker IN Songclave |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 7 | Choristor 2 | Bottom Right | activate Bellshrine Enclave - lever IN bellshrine-enclave |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
 | 8 | Choristor 3 | Upper | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 9 | Envoy 1 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 10 | Envoy 2 | Bottom Right | complete Meet the Caretaker IN Songclave |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 10 | Envoy 2 | Bottom Right | activate Bellshrine Enclave - lever IN bellshrine-enclave |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
 | 11 | Reed 1 | Right Stage | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 12 | Reed 2 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 13 | Reed 3 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |

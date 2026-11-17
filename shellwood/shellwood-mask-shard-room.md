@@ -22,12 +22,16 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mask Shard: Shellwood |  | Ledge Grab Right OR Dash Right OR Clawline Right OR Faydown Cloak OR Drifters Cloak OR Easy Beast Crest pogo |  | Verified | collectible | ✓ |  |
+| 1 | Mask Shard: Shellwood |  | Ledge Grab Right OR Dash Right OR Clawline Right OR Faydown Cloak OR Drifters Cloak OR Easy Beast Crest pogo OR easy hunter pogo OR easy wanderer pogo OR easy reaper pogo OR easy shaman pogo |  | Verified | collectible | ✓ |  |
 | 2 | Phacia 1 |  | None |  | Verified | enemy | ✓ |  |
 | 3 | Phacia 2 |  | None |  | Verified | enemy | ✓ |  |
 | 4 | Phacia 3 |  | None |  | Verified | enemy | ✓ |  |
 | 5 | Phacia 4 |  | None |  | Verified | enemy | ✓ |  |
 | 6 | Phacia 5 |  | None |  | Verified | enemy | ✓ |  |
+
+## Notes
+
+Updated 14/11 - Pyxl
 
 ## Room Images
 

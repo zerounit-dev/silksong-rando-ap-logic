@@ -2,6 +2,8 @@
 
 **Game ID:** Cog_Pass
 
+**Contributors:** Hutyrix
+
 ## Subrooms
 
 | No. | Subroom | Annotated |
@@ -20,14 +22,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LU | Lower-Upper | Lower Entrance | Upper Entrance | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |  |
+| LU | Lower-Upper | Lower Entrance | Upper Entrance | Silk Soar OR Cling Grip either OR easy Scuttlebrace |  | Verified |  |  |
 | LU | Lower-Upper | Upper Entrance | Lower Entrance | Nothing. (Fall) |  | Verified |  |  |
 
 ## Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+No check locations defined.
+
+## Notes
+
+Gallosdaimonas was wondering can you scuttle there, it's easy, and with that, all logic here is mapped ~Hutyrix
 
 ## Room Images
 

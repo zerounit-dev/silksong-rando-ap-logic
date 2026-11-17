@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_03d
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 
@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | shaft to flea | shaft | flea room | hit switch up AND (ledge grab either OR cling grip either OR faydown OR silksoar OR easy shaman pogo OR (easy scuttlebrace AND dash either) OR medium beast needle strike OR easy [voltvessels,plasmium] stall OR (easy [heal,flea brew] stall AND easy beast pogo)) |  | Verified | ✓ |  |
+| V | shaft to flea | shaft | flea room | hit switch up AND (ledge grab either OR cling grip either OR faydown OR silksoar OR easy shaman pogo OR (easy scuttlebrace AND dash either) OR medium beast needle strike OR easy [voltvessels,plasmium] stall OR (easy [air heal,flea brew] stall AND easy beast pogo)) |  | Verified | ✓ |  |
 | V | shaft to flea | flea room | shaft | hit switch either |  | Verified | ✓ |  |
 
 ## Check Locations

@@ -33,7 +33,7 @@
 | RSL | right ledge to shard ledge | right ledge | shard ledge | (Faydown cloak AND (ledge grab either OR cling grip either)) OR silk soar |  | Verified | ✓ |  |
 | RSL | right ledge to shard ledge | shard ledge | right ledge | none |  | Verified | ✓ |  |
 | UES | upper entry to shack | plat above upper door | shack | Clawline right 3 OR ((Cling grip left OR silk soar) AND (drifter’s cloak OR sharpdart 2 OR clawline right 2)) |  | Verified | ✓ |  |
-| UES | upper entry to shack | shack | plat above upper door | (run AND (drifter's cloak OR clawline left OR sharpdart)) OR (dash AND faydown cloak) OR clawline left 2 OR sharpdart 2 |  | Verified | ✓ |  |
+| UES | upper entry to shack | shack | plat above upper door | (run AND (drifter's cloak OR clawline left OR sharpdart)) OR (dash left AND faydown cloak) OR clawline left 2 OR sharpdart 2 |  | Verified | ✓ |  |
 | RLS | right ledge to shack | right ledge | shack | silk soar |  | Verified | ✓ |  |
 | RLS | right ledge to shack | shack | right ledge | none |  | Verified | ✓ |  |
 | LP | lower entry to lower platform | lower entry | lower platform | ledge grab right OR cling grip right OR clawline right OR sharpdart OR run OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike |  | Verified | ✓ |  |

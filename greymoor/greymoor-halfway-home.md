@@ -14,7 +14,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right |  | [Greymoor Halfway Home Exterior (Greymoor_03)](greymoor-halfway-home-exterior.md) | HHR | nothing |  | Verified | ✓ |  |
 | L | left |  | [Greymoor Halfway Home Exterior (Greymoor_03)](greymoor-halfway-home-exterior.md) | HHL | nothing |  | Verified | ✓ |  |
-| B | bottom |  | [Halfway Home Cellar (Ant_08)](halfway-home-cellar.md) | T | prereq  Great Taste of Pharloom Wish Promised IN choral chambers dining room AND spend 480 rosaries |  | Verified | ✓ |  |
+| B | bottom |  | [Halfway Home Cellar (Ant_08)](halfway-home-cellar.md) | T | prereq  Great Taste of Pharloom Wish Promised IN choral chambers dining room AND spend 480 rosaries AND prereq Crawbug Clearing Wish Promised |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

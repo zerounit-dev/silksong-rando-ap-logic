@@ -21,19 +21,19 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | lower | bottom floor | [Bilewater Organ Entrance (Shadow_04)](bilewater-organ-entrance.md) | C | none |  | Verified | ✓ |  |
-| C | ceiling | ceiling exit | [Bilewater Citadel Exit (Shadow_22)](bilewater-citadel-exit.md) | B | cling grip AND medium enemy pogo AND faydown cloak |  | Verified | ✓ | Requires an annoying enemy lure. Medium_skips. Should be one-way normally. |
+| C | ceiling | ceiling exit | [Bilewater Citadel Exit (Shadow_22)](bilewater-citadel-exit.md) | B | cling grip either AND medium enemy pogo off Swamp Squit AND faydown cloak |  | Verified | ✓ | Requires an annoying enemy lure. Medium_skips. Should be one-way normally. |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TC | top to ceiling | top floor | ceiling exit | (enemy pogo OR clawline) AND (ledge grab OR cling grip OR faydown cloak) |  | Verified | ✓ |  |
-| TC | top to ceiling | ceiling exit | top floor | (faydown cloak AND (swim OR enemy pogo)) OR drifter's cloak OR clawline OR sharpdart |  | Verified | ✓ |  |
+| TC | top to ceiling | top floor | ceiling exit | cling grip either AND medium enemy pogo off Swamp Squit AND faydown cloak |  | Verified | ✓ |  |
+| TC | top to ceiling | ceiling exit | top floor | faydown cloak OR swim OR drifter's cloak OR clawline left OR sharpdart OR easy beast pogo |  | Verified | ✓ |  |
 | LR | lower to right | bottom floor | right room | complete lowerable hatch AND (faydown cloak OR silk soar OR scuttlebrace OR cling grip) |  | Verified | ✓ |  |
 | LR | lower to right | right room | bottom floor | none |  | Verified | ✓ |  |
-| MB | mid to bud | middle floor | bud wall plat | swim OR dash OR drifter's cloak OR enemy pogo OR clawline OR (faydown cloak AND (run OR sharpdart)) |  | Verified | ✓ |  |
-| MB | mid to bud | bud wall plat | middle floor | enemy pogo OR clawline OR (faydown cloak AND (swim OR drifter's cloak OR sharpdart)) |  | Verified | ✓ |  |
-| BWT | bud wall to top | bud wall plat | top floor | faydown cloak OR (ledge grab AND (clawline OR run OR (cling grip AND (clawline OR sharpdart)))) |  | Verified | ✓ |  |
+| MB | mid to bud | middle floor | bud wall plat | swim OR dash left OR drifter's cloak OR enemy pogo OR clawline left OR (faydown cloak AND (run OR sharpdart)) |  | Verified | ✓ |  |
+| MB | mid to bud | bud wall plat | middle floor | clawline right OR (faydown cloak AND (swim OR drifter's cloak OR sharpdart)) |  | Verified | ✓ |  |
+| BWT | bud wall to top | bud wall plat | top floor | faydown cloak  OR  (cling grip left AND (clawline right OR dash right OR drifter's))  OR (ledge grab left AND (ledge grab right OR cling grip right OR scuttlebrace) AND (clawline right OR sharpdart)) |  | Verified | ✓ |  |
 | BWT | bud wall to top | top floor | bud wall plat | none |  | Verified | ✓ | falling |
 | RM | right to mid | right room | middle floor | ((enemy pogo OR clawline x 5) AND (ledge grab OR cling grip)) OR (faydown cloak AND ((ledge grab OR cling grip) AND (silk soar OR enemy pogo))) |  | Verified | ✓ |  |
 | RM | right to mid | middle floor | right room | none |  | Verified | ✓ | falling |

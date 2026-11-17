@@ -33,9 +33,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | GL | Ground To Lower | Ground Level | Lower Level | Silk Soar OR ( Faydown Cloak AND Cling Grip Left ) |  | Verified | ✓ |  |
 | GL | Ground To Lower | Lower Level | Ground Level | None |  | Verified | ✓ |  |
-| LC | Lower to Central | Lower Level | Central Level | Silk Soar OR ( Faydown Cloak AND Cling Grip AND ( Easy Pogo OFF Pendra OR Clawline Right ) ) |  | Verified | ✓ |  |
+| LC | Lower to Central | Lower Level | Central Level | Silk Soar OR ( Faydown Cloak AND Cling Grip both AND ( Easy Pogo OFF Pendra OR Clawline Right ) ) |  | Verified | ✓ |  |
 | LC | Lower to Central | Central Level | Lower Level | None |  | Verified | ✓ |  |
-| CS | Central to Switch | Central Level | Switch Level | prereq verdania gate AND ( Ledge grab right OR Cling Grip left OR Cling Grip Right OR Dash RIght OR ( Easy beast pogo AND easy heal stall ) OR easy beast charge OR Faydown Cloak OR silk soar) |  | Verified | ✓ |  |
+| CS | Central to Switch | Central Level | Switch Level | prereq verdania gate AND ( Ledge grab right OR Cling Grip left OR Cling Grip Right OR Dash RIght OR ( Easy beast pogo AND easy air bind stall ) OR easy beast charge OR Faydown Cloak OR silk soar) |  | Verified | ✓ |  |
 | CS | Central to Switch | Switch Level | Central Level | prereq verdania gate |  | Verified | ✓ |  |
 | CL | Central To Roller | Central Level | Level which exists cause of a single leaf roller | ( Silk Soar AND Proficient movement ) OR Cling Grip Left OR Cling Grip Right |  | Verified | ✓ |  |
 | CL | Central To Roller | Level which exists cause of a single leaf roller | Central Level | None |  | Verified | ✓ |  |

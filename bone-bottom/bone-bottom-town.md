@@ -41,7 +41,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | CC | climb chapel | ground level | chapel roof | silk soar  OR cling grip left OR ( easy scuttlebrace AND faydown ) |  | Verified | ✓ | cling grip only works by itself when the door has not been opened - this makes logic non-monotonic and needs a mod fix - in this case, a slow opening door |
 | CC | climb chapel | chapel roof | ground level | none (falling) |  | Verified | ✓ |  |
-| CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak ) OR ( hard scuttlebrace AND hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall ) OR ( hard scuttlebrace AND ( thread storm OR rune rage ) ) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
+| CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak AND (easy [flea brew,rune rage] stall OR hard air heal stall)) OR ( hard scuttlebrace AND (hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall OR use tool Delver's Drill) AND easy [flea brew,rune rage] stall) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
 | CR | climb roof | upper left platforms | chapel roof | none (falling) |  | Verified | ✓ |  |
 | SM | soar to middle platforms | ground level | upper middle platforms | silk soar |  | Verified | ✓ |  |
 | SSL | soar to sky exit left | ground level | sky left | silk soar |  | Verified | ✓ |  |

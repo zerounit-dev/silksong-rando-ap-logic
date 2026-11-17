@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_14
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 
@@ -21,15 +21,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| J | Jump | Entry | Da Eater | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar OR Proficient Movement (Crate Pogo) |  | Verified | ✓ |  |
-| J | Jump | Da Eater | Entry | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| J | Jump | Entry | Da Eater | Ledge Grab right OR Cling Grip right OR easy Scuttlebrace OR Faydown Cloak OR Silk Soar OR easy [hunter,wanderer, beast,reaper,architect, witch,shaman] pogo OR easy naked pogo OR  (cling grip left AND (clawline right OR sharpdart)) |  | Verified | ✓ |  |
+| J | Jump | Da Eater | Entry | Ledge Grab left OR Cling Grip either OR easy Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ | f4 |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | silkeater deep socks | Da Eater | none |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

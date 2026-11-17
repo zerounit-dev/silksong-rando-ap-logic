@@ -23,7 +23,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | WR | Whole Room | Start | End | Clawline Both AND Cling Grip Right AND Faydown Cloak AND ( Cling grip left OR Spike pogo ) |  | Verified | ✓ |  |
-| EX | Exit | End | Start | Cling grip Right AND ( Faydown Cloak OR ( Clawline AND Cling grip LEft ) ) |  | Verified | ✓ |  |
+| EX | Exit | End | Start | Cling grip Right AND ( Faydown Cloak OR ( Clawline both AND Cling grip LEft ) ) |  | Verified | ✓ |  |
 | EX | Exit | Start | End | Silk Soar AND ( ( Proficient Movement AND spike pogo ) OR Clawline Right OR Drifters cloak OR Faydown Cloak ) |  | Verified | ✓ |  |
 | SP | Spikes | Entrance | Start | Sprint Right OR Dash Right OR Clawline Right OR Sharpdart OR Drifters Cloak OR Faydown Cloak |  | Verified | ✓ |  |
 | SP | Spikes | Start | Entrance | None |  | Verified | ✓ |  |

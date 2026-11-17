@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lore |  | None |  | Verified | lore |  | Not included on the map |
+| 1 | Lore |  | None |  | Verified | lore | ✓ | Not included on the map |
 
 ## Room Images
 

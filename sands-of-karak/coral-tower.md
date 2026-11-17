@@ -25,8 +25,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SC | Sandcarver Pit | Entrance | Main | Dash Right OR Sprint Right OR Drifters cloak OR Faydown Cloak OR Clawline Right OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
 | SC | Sandcarver PIt | Main | Entrance | Dash Right OR Sprint Right OR Drifters cloak OR Faydown Cloak OR Clawline Right OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
-| S2 | Sandcarver Pit 2 | Main | Bench | Dash Right OR Sprint Right OR Drifters cloak OR Faydown Cloak OR Clawline OR easy Beast Crest pogo OR Sharpdart OR ( easy Architect Crest pogo AND Ledge Grab AND easy Needle Strike stall ) |  | Verified |  |  |
-| S2 | Sandcarver Pit 2 | Bench | Main | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
+| S2 | Sandcarver Pit 2 | Main | Bench | Dash Right OR Sprint Right OR Drifters cloak OR Faydown Cloak OR Clawline right OR easy Beast Crest pogo OR Sharpdart OR ( easy Architect Crest pogo AND Ledge Grab right AND easy Needle Strike stall ) |  | Verified |  |  |
+| S2 | Sandcarver Pit 2 | Bench | Main | Dash left OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline left OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
 
 ## Check Locations
 

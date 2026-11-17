@@ -50,7 +50,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Injector Band | Middle (Left) | Nothing |  | Verified | collectible | ✓ |  |
-| 2 | Surgeon 1 | Middle (Left) | invalid | TODO | Verified | enemy | ✓ | need to check scene dump for flags |
+| 2 | Surgeon 1 | Middle (Left) | invalid |  | Verified | enemy | ✓ | need to check scene dump for flags |
 | 3 | Mortician 1 | Bottom (Middle) | none |  | Verified | enemy | ✓ |  |
 | 4 | Mortician 2 | Bottom (Middle) | none |  | Verified | enemy | ✓ |  |
 | 5 | Mortician 3 | Bottom (Left) | none |  | Verified | enemy | ✓ |  |

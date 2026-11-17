@@ -28,7 +28,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PL | Platforms | Lower Area | Upper Area | Ledge grab OR Dash OR Clawline OR Silksoar OR Faydown Cloak OR Sharpdart OR easy Shaman Crest pogo OR Cling Grip |  | Verified | ✓ |  |
+| PL | Platforms | Lower Area | Upper Area | Ledge grab either OR Silksoar OR Faydown Cloak OR easy Shaman Crest pogo OR Cling Grip either |  | Verified | ✓ | Need to redo this one to be safe |
 | PL | Platforms | Upper Area | Lower Area | None |  | Verified | ✓ |  |
 
 ## Check Locations

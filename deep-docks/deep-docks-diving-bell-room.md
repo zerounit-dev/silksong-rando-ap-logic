@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_12
 
-**Contributors:** herounit & Pyxl
+**Contributors:** herounit,Pyxl, Gallos
 
 ## Subrooms
 
@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CL | climb | diving bell platform | diving bell control room | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| CL | climb | diving bell platform | diving bell control room | silk soar OR easy scuttlebrace OR cling grip right OR (cling grip left AND faydown) |  | Verified | ✓ |  |
 | CL | climb | diving bell control room | diving bell platform | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

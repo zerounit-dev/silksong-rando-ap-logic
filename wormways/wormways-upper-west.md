@@ -25,14 +25,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | floor | Main Tunnel Lower West | [Wormways Middle (Crawl_03b)](wormways-middle.md) | C | none |  | Verified | ✓ |  |
 | R | right | right exit area | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | UL | clear shaft wall blockade |  | Verified | ✓ |  |
-| C | ceiling | Main Tunnel Upper | [Wormways Laboratory (Crawl_08)](wormways-laboratory.md) | F | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| C | ceiling | Main Tunnel Upper | [Wormways Laboratory (Crawl_08)](wormways-laboratory.md) | F | silk soar  OR cling grip either  OR scuttlebrace |  | Verified | ✓ |  |
 | WD | weaver door | weavenest landing | [Wormways Weavenest (Crawl_05)](wormways-weavenest.md) | WD | needolin |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | upper climb | Main Tunnel Upper | plasmium alcove | (ledge grab AND (cling grip OR faydown cloak OR scuttlebrace)) OR (cling grip OR scuttlebrace OR (faydown cloak AND easy shaman pogo)) |  | Verified | ✓ |  |
+| CG | upper climb | Main Tunnel Upper | plasmium alcove | cling grip either  OR easy scuttlebrace OR (faydown cloak AND (ledge grab left OR easy [beast, shaman] pogo OR medium [flea brew, rune rage, thread storm] stall OR medium cross stitch stall x 2 OR medium heal stall)) |  | Verified | ✓ |  |
 | CG | upper climb | plasmium alcove | Main Tunnel Upper | cling grip either OR silk soar  OR cling grip either  OR easy scuttlebrace |  | Verified | ✓ |  |
 | BJ | big jump | Main Tunnel Lower West | weavenest landing | silk soar  OR faydown cloak OR (run AND clawline left AND (easy voltvessels stall OR easy [shaman, beast] pogo))  OR (run AND sharpdart AND (easy [shaman, beast] pogo OR easy voltvessels stall OR ledge grab left)) OR (clawline left AND ledge grab right AND medium [flea brew, rune rage, thread storm] stall) |  | Verified | ✓ |  |
 | BJ | big jump | weavenest landing | Main Tunnel Lower West | none (falling) |  | Verified | ✓ |  |

@@ -22,14 +22,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| sw | swim | right side | Center | swim |  | Verified |  | no requirments avialable to list it as but "(hard clawline AND (cling grip OR ledge grab))" |
-| 2 | 2 | Center | right side | swim AND (easy enemy pogo OR faydown cloak OR ledge grab OR cling grip) |  | Verified |  |  |
+| sw | swim | right side | Center | swim OR (proficient movement AND (dash left AND medium beast pogo AND hard damage boost off pond skipper AND hard air bind stall AND medium pogo off pond skipper)) OR (clawline left x 2 AND (faydown OR ledge grab left) AND (drifters OR easy [parry,flea brew,flintslate] stall)) OR (clawline left x 2 AND faydown AND proficient movement) |  | Verified | ✓ |  |
+| sw | swim | Center | right side | swim AND (ledge grab either OR cling grip either OR easy pogo off pond skipper OR faydown) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Memorium - Memory Locket | Center | (faydown cloak AND (clawline OR medium beast pogo OR (dash AND (swim OR easy enemy pogo)))) OR (faydown cloak AND (swim OR cling grip) AND((easy architect pogo OR  easy shaman pogo OR medium witch pogo OR easy beast pogo OR easy reaper pogo OR easy hunter pogo OR (easy needle strike stall (wanderers))))) |  | Verified | collectible | ✓ |  |
+| 1 | Memorium - Memory Locket | Center | (faydown cloak AND (swim OR cling grip right) AND easy pogo off Gahlia AND (easy pogo off  pollenica OR sharpdart OR dash left)) OR (faydown AND (easy beast pogo OR clawline left x 3) AND (swim OR cling grip right OR easy pogo off pollenica)) |  | Verified | collectible | ✓ | (faydown cloak AND (clawline left OR medium beast pogo OR (dash AND (swim OR easy pogo off Gahlia AND (easy pogo off  pollenica OR clawline left OR sharpdart)))) OR |
 | 2 | Water karak ceiling | Center | silksoar OR (faydown cloak AND break wall up) |  | Verified | blockade |  | one way thingy |
 | 3 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
 | 4 | Gahlia 1 |  |  |  |  | enemy | ✓ |  |

@@ -30,7 +30,7 @@
 | SES | Silk Eater Shaft | Silkeater Room | Ventricas | prereq Breakable floor terminus AND ( Cling Grip either OR Scuttlebrace ) |  | Verified | ✓ | Potentially possible with silk soar if you come during act 3 |
 | SES | Silk Eater Shaft | Ventricas | Silkeater Room | prereq Breakable floor terminus |  | Verified | ✓ |  |
 | TS1 | Tall Shaft1 | Ventricas | Lower Shaft | prereq Terminus OWW |  | Verified | ✓ |  |
-| TS1 | Tall Shaft1 | Lower Shaft | Ventricas | prereq Terminus OWW AND ( Scuttlebrace OR Cling Grip OR Silk Soar ) |  | Verified | ✓ |  |
+| TS1 | Tall Shaft1 | Lower Shaft | Ventricas | prereq Terminus OWW AND ( Scuttlebrace OR Cling Grip either OR Silk Soar ) |  | Verified | ✓ |  |
 | TS2 | Tall Shaft2 | Lower Shaft | Central Shaft | ACT 2 AND ( Scuttlebrace OR Cling Grip either OR Silk Soar ) |  | Verified | ✓ |  |
 | TS2 | Tall Shaft2 | Central Shaft | Lower Shaft | ACT 2 |  | Verified | ✓ |  |
 | TS3 | Tall Shaft3 | Central Shaft | Upper Shaft | prereq Terminus Upper Shaft AND ( Scuttlebrace OR Cling Grip either OR Silk Soar ) |  | Verified | ✓ |  |

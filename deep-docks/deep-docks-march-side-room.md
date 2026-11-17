@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_04c
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 

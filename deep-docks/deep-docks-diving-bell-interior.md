@@ -2,7 +2,7 @@
 
 **Game ID:** Room_Diving_Bell
 
-**Contributors:** Pyxl
+**Contributors:** Pyxl, Gallos
 
 ## Subrooms
 
@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bell Bench |  | Nothing. |  | Verified | bench |  | is this a valid bench for rando? |
+| 1 | Diving Bell Bench |  | Nothing. |  | Verified | bench |  | is this a valid bench for rando? |
 
 ## Room Images
 

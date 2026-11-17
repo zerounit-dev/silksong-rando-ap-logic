@@ -2,7 +2,7 @@
 
 **Game ID:** Aqueduct_05
 
-**Contributors:** Pyxl
+**Contributors:** Pyxl, Gallos
 
 ## Subrooms
 
@@ -29,8 +29,8 @@
 | MP | Maggot Puddle | Fleatopia | Entrance | ( Swim AND Cling Grip left ) OR ( Faydown cloak AND ( Clawline left OR ( Sprint left AND Dash left ) ) ) |  | Verified | ✓ |  |
 | PL1 | Pale Lake1 | Fleatopia | Craftmetal | Swim AND Faydown Cloak AND ( Cling Grip either OR Scuttlebrace ) |  | Verified | ✓ |  |
 | PL1 | Pale Lake1 | Craftmetal | Fleatopia | Swim |  | Verified | ✓ |  |
-| PL2 | Pale Lake2 | Fleatopia | Upper Ledge | ( Swim OR ( Clawline right AND Faydown cloak AND drifters cloak AND Proficient movement ) ) AND ( Cling Grip either OR Scuttlebrace ) |  | Verified | ✓ |  |
-| PL2 | Pale Lake2 | Upper Ledge | Fleatopia | Clawline left OR ( Drifters Cloak AND Sprint left AND Faydown Cloak ) |  | Verified | ✓ |  |
+| PL2 | Pale Lake2 | Fleatopia | Upper Ledge | ((Swim OR (Clawline right AND Faydown cloak AND drifters cloak AND Proficient movement)) AND ( Cling Grip either OR Scuttlebrace )) OR (silk soar AND (easy [hunter,beast] pogo AND clawline right x 5 AND (cling grip right OR easy scuttlebrace OR (faydown AND cling grip left)))) OR (easy scuttlebrace AND easy shaman pogo AND silk soar) |  | Verified | ✓ |  |
+| PL2 | Pale Lake2 | Upper Ledge | Fleatopia | Clawline left x 4 OR ( Drifters Cloak AND Sprint left AND Faydown Cloak ) OR swim |  | Verified | ✓ |  |
 | HS | Hidden Shaft | Upper Ledge | The Herald | Silk Soar |  | Verified | ✓ |  |
 | HS | Hidden Shaft | The Herald | Upper Ledge | None |  | Verified | ✓ |  |
 
@@ -39,9 +39,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Putrified Ducts - Craft Metal | Craftmetal | None |  | Verified | collectible | ✓ |  |
-| 2 | Putrified Ducts - Shell Shard Cache #9 | Upper Ledge | Faydown Cloak OR Clawline left OR ( Sprint left AND Dash left ) OR SharpDart |  | Verified | resource | ✓ |  |
-| 3 | Putrified Ducts - Shell Shard Cache #10 | Upper Ledge | Faydown Cloak OR Clawline left OR ( Sprint left AND Dash left ) OR SharpDart |  | Verified | resource | ✓ |  |
-| 4 | Putrified Ducts - Shell Shard Cache #11 | Upper Ledge | Faydown Cloak OR Clawline left OR ( Sprint left AND Dash left ) OR SharpDart |  | Verified | resource | ✓ |  |
+| 2 | Putrified Ducts - Shell Shard Cache #9 | Upper Ledge | Faydown Cloak OR Clawline left OR ( Sprint left AND Dash left ) OR SharpDart OR silkspear OR easy [beast,shaman] charge OR use pale nails OR use tool [straight pin,threefold pin,throwing ring,silkshot forge daugther, sting shard,longpin, curveclaw] |  | Verified | resource | ✓ |  |
+| 3 | Putrified Ducts - Shell Shard Cache #10 | Upper Ledge | Faydown Cloak OR Clawline left OR ( Sprint left AND Dash left ) OR SharpDart OR silkspear OR easy [shaman,beast] charge OR use pale nails OR use tool [straight pin,threefold pin,throwing ring,silkshot forge daugther, sting shard,longpin, curveclaw] |  | Verified | resource | ✓ |  |
+| 4 | Putrified Ducts - Shell Shard Cache #11 | Upper Ledge | Faydown Cloak OR Clawline left OR ( Sprint left AND Dash left ) OR SharpDart OR silkspear OR easy shaman charge OR use pale nails OR use tool [straight pin,threefold pin,throwing ring,silkshot forge daugther, sting shard,longpin,curveclaw] |  | Verified | resource | ✓ |  |
 | 5 | Putrified Ducts - Shell Shard Cache #8 | Fleatopia | Silk Soar |  | Verified | resource | ✓ |  |
 | 6 | Putrified Ducts - White Lake Waver Sign | Fleatopia | Needolin AND Act 2 |  | Verified | lore | ✓ | Missable / no check |
 | 7 | Resting Site: Putrified Ducts | Upper Ledge | complete THE A Vassal Lost Wish Promised |  | Verified | event |  |  |

@@ -15,7 +15,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | Diner | [Choral Chambers Over Dining (Song_09)](choral-chambers-over-dining.md) | B | ledge grab either OR faydown cloak OR silk soar OR cling grip either OR (proficient movement AND have crest beast AND hard heal stall AND easy plasmium stall) OR easy shaman pogo |  | Verified | ✓ |  |
+| T | top1 | Diner | [Choral Chambers Over Dining (Song_09)](choral-chambers-over-dining.md) | B | ledge grab either OR faydown cloak OR silk soar OR cling grip either OR (proficient movement AND hard beast crest heal stall AND easy plasmium stall) OR easy shaman pogo |  | Verified | ✓ |  |
 | L | left1 | Below Diner | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S1R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections

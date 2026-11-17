@@ -2,7 +2,7 @@
 
 **Game ID:** Song_01c
 
-**Contributors:** samupo and Isssma
+**Contributors:** samupo,Isssma, Gallos
 
 ## Subrooms
 
@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Grand Gate Courtroom (Song_19_entrance)](grand-gate-courtroom.md) | TR | none |  | Verified | ✓ | falling is enough |
-| T | top1 |  | [Choral Chambers Below Ventrica (Song_01)](../choral-chambers/choral-chambers-below-ventrica.md) | B | cling grip OR scuttlebrace |  | Verified | ✓ | no silk soar |
+| L | left1 |  | [Grand Gate Courtroom (Song_19_entrance)](grand-gate-courtroom.md) | TR | clear Grand Gate - Maintenance metal wall OR clear Grand Gate - Courtroom metal wall IN grand gate courtroom |  | Verified | ✓ |  |
+| T | top1 |  | [Choral Chambers Below Ventrica (Song_01)](../choral-chambers/choral-chambers-below-ventrica.md) | B | (cling grip left OR ((spike pogo OR dash right OR run) AND cling grip right) OR easy scuttlebrace) AND (clear Grand Gate - Maintenance Ceiling OR clear Below Ventrica - Breakable Floor IN choral chambers below ventrica) |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -23,9 +23,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | metal wall |  | break wall left OR break wall up OR clear metal bars IN grand gate courtroom |  | Verified | blockade | ✓ |  |
-| 2 | Breakable Ceiling Gate Maintenance |  | attack either |  | Verified | logic-point |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Grand Gate - Maintenance Ceiling |  | break wall left OR break wall up OR clear Below Ventrica - Breakable Floor IN choral chambers below ventrica |  | Verified | blockade | ✓ |  |
+| 2 | Grand Gate - Maintenance metal wall |  | break wall left OR clear Grand Gate - Courtroom metal wall IN grand gate courtroom |  | Verified | blockade | ✓ |  |
 
 ## Room Images
 

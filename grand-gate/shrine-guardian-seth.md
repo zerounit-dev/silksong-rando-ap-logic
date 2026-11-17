@@ -2,7 +2,7 @@
 
 **Game ID:** Shellwood_22
 
-**Contributors:** Pyxl
+**Contributors:** Pyxl, Gallos
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | [Nyleth Shrine (Shellwood_11b)](nyleth-shrine.md) | R | Prereq Boss: Shrine Guardian Seth |  | Verified | ✓ |  |
+| D | door1 |  | [Nyleth Shrine (Shellwood_11b)](nyleth-shrine.md) | R | defeat Boss: Shrine Guardian Seth |  | Verified | ✓ |  |
 | R | right1 |  | [Entrance to Nyleth (Under_27)](entrance-to-nyleth.md) | L | None |  | Verified | ✓ |  |
 
 ## Subroom Connections

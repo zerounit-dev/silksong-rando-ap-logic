@@ -24,11 +24,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Vertical | Entrance | High Showers | ledge grab right OR easy shaman pogo OR faydown cloak OR cling grip right OR easy [voltvessels,plasmium] stall OR (easy [flea brew, rune rage, heal] stall AND easy beast pogo) OR easy scuttlebrace |  | Verified | ✓ |  |
+| V1 | Vertical | Entrance | High Showers | ledge grab right OR easy shaman pogo OR faydown cloak OR cling grip right OR easy [voltvessels,plasmium] stall OR (easy [flea brew, rune rage, air heal] stall AND easy beast pogo) OR easy scuttlebrace |  | Verified | ✓ |  |
 | V1 | Vertical | High Showers | Entrance | none |  | Verified | ✓ |  |
 | V2 | Vertical2 | Entrance | Lower Showers | activate Choral Chambers Spa block |  | Verified | ✓ | falling |
 | V2 | Vertical2 | Lower Showers | Entrance | activate Choral Chambers Spa block AND (cling grip either OR silk soar OR easy scuttlebrace) |  | Verified | ✓ |  |
-| H | Horizontal | High Showers | Spa | activate Choral Chambers Spa - Lever Chambers  AND (easy scuttlebrace OR ledge grab either OR easy shaman pogo OR faydown cloak OR (cling grip right AND (architect attack right OR easy beast pogo)) OR easy plasmium stall OR cling grip left OR medium voltvessels stall OR (easy [flea brew, rune rage, heal] stall AND easy beast pogo)) |  | Verified | ✓ |  |
+| H | Horizontal | High Showers | Spa | activate Choral Chambers Spa - Lever Chambers  AND (easy scuttlebrace OR ledge grab either OR easy shaman pogo OR faydown cloak OR (cling grip right AND (architect attack right OR easy beast pogo)) OR easy plasmium stall OR cling grip left OR medium voltvessels stall OR (easy [flea brew, rune rage, air heal] stall AND easy beast pogo)) |  | Verified | ✓ |  |
 | H | Horizontal | Spa | High Showers | activate Choral Chambers Spa - Lever Chambers |  | Verified | ✓ | lever shortcut |
 | V3 | lower to spa | Lower Showers | Spa | cling grip either OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 

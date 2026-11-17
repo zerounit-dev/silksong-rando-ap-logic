@@ -36,7 +36,7 @@
 | DS | door switch | the bridge | upper middle shaft | activate door switch |  | Verified | ✓ |  |
 | V1 | vertical 1 | bottom shaft | lower middle shaft | ledge grab left OR easy enemy pogo off caranid OR cling grip left OR faydown OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | lower middle shaft | bottom shaft | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab either OR easy pogo off caranid OR run OR dash right OR drifters OR faydown OR cling grip either OR clawline right OR sharpdart OR silk soar OR easy [shaman, hunter, architect, beast] pogo OR easy [wanderer, reaper] charge OR easy [heal, flea brew, flintslate, plasmium, voltvessels] stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk  probably need to test spell stalls - hero, 10/21 |
+| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab either OR easy pogo off caranid OR run OR dash right OR drifters OR faydown OR cling grip either OR clawline right OR sharpdart OR silk soar OR easy [shaman, hunter, architect, beast] pogo OR easy [wanderer, reaper] charge OR easy [air bind, flea brew, flintslate, plasmium, voltvessels] stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk  probably need to test spell stalls - hero, 10/21 |
 | V2 | vertical 2 | upper middle shaft | lower middle shaft | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | the bridge | collapsing upper crossing | ledge grab right OR cling grip right OR faydown OR silk soar |  | Verified | ✓ |  |
 | V3 | vertical 3 | collapsing upper crossing | the bridge | none (falling) |  | Verified | ✓ |  |

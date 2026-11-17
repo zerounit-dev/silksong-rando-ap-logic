@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_15
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 
@@ -26,8 +26,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | cling grip | upper area | the floor is lava | cling grip OR (Hard Scuttlebrace AND Faydown Cloak AND Clawline AND ((Proficient Movement OR (Ledge Grab OR Dash OR Drifter's Cloak)))) |  | Verified | ✓ |  |
-| CG | cling grip | the floor is lava | upper area | none (falling) |  | Verified | ✓ |  |
+| CG | cling grip | upper area | the floor is lava | none |  | Verified | ✓ |  |
+| CG | cling grip | the floor is lava | upper area | cling grip left OR (Hard Scuttlebrace AND Faydown Cloak AND Clawline right AND (Ledge Grab right OR cling grip right)) OR (proficient movement AND faydown AND medium beast crest heal stall AND easy plasmium stall AND (cling grip right OR ledge grab right)) |  | Verified | ✓ |  |
 | BW | breakable wall | upper area | lower left exit area | Activate Lower Left Entry Wall |  | Verified | ✓ |  |
 | BW | breakable wall | lower left exit area | upper area | Activate Lower Left Entry Wall |  | Verified | ✓ |  |
 
@@ -35,7 +35,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lower Left Entry Wall | upper area | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 1 | Lower Left Entry Wall | upper area | Break Wall either |  | Verified | blockade | ✓ |  |
 
 ## Room Images
 

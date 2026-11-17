@@ -34,7 +34,7 @@
 | V1 | vertical 1 | right upper path | right lower path | none (falling) |  | Verified | ✓ |  |
 | G1 | gap 1 | right upper path | middle upper platform | activate lower platform switch same room OR clawline left OR sharpdart OR faydown OR ( run AND ( ledge grab left OR dash left OR easy beast pogo OR easy shaman pogo OR drifters ) ) |  | Verified | ✓ |  |
 | G1 | gap 1 | middle upper platform | right upper path | activate lower platform switch same room |  | Verified | ✓ |  |
-| V2 | vertical 2 | right lower path | middle upper platform | silk soar |  | Verified | ✓ |  |
+| V2 | vertical 2 | right lower path | middle upper platform | silk soar  OR (activate lower platform switch same room AND cling grip right (without lever rando, you can always go from down to up with cling grip right, this wall jump is to the right of V2 transition ~Hutyrix, Geo's discovery)) |  | Verified | ✓ |  |
 | V2 | vertical 2 | middle upper platform | right lower path | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | right lower path | shakra intro | ledge grab either OR cling grip either OR silk soar OR faydown OR easy scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | V3 | vertical 3 | shakra intro | right lower path | none (falling) |  | Verified | ✓ |  |

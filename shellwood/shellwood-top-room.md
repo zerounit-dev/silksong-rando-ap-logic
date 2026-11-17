@@ -31,13 +31,15 @@
 | RW | Right Wall | Central Upper | Right Side | ( Swim AND ( CLing Grip Right OR Easy Scuttlebrace ) ) OR ( ( Clawline RIghT AND ( Cling Grip Right OR Medium Scuttlebrace ) AND ( Medium Pogo off Pond Skipper OR Easy damage boost OR Drifters Cloak OR Faydown Cloak OR Dash Right  ) ) ) OR ( Hard Shaman Pogo AND Hard Scuttlebrace ) |  | Verified | ✓ |  |
 | RW | Right Wall | Right Side | Central Upper | ( Cling Grip Left OR Easy Scuttlebrace ) AND ( Swim OR ( Clawline Left AND ( Faydown Cloak OR Drifters Cloak OR Hard Shaman Pogo ) ) ) |  | Verified | ✓ |  |
 | HS | Hidden Shaft | Pollip Room | Upper Area | prereq Shellwood 26 Wall AND Silk Soar AND ( Swim AND ( Cling Grip Right OR ( Easy Scuttlebrace AND ( Hard Shaman Pogo OR Faydown Cloak ) ) ) ) |  | Verified | ✓ |  |
-| HS | Hidden Shaft | Upper Area | Pollip Room | prereq Shellwood 26 Wall AND ( Swim OR ( Clawline Left OR ( Easy Shaman Pogo AND Hard Scuttlebrace ) ) ) |  | Verified | ✓ |  |
+| HS | Hidden Shaft | Upper Area | Pollip Room | prereq Shellwood 26 Wall AND ( Swim OR ( Clawline Left OR ( Easy Shaman Pogo AND Hard Scuttlebrace ) ) OR ( Medium pogo off wood wasp AND ( Dash left OR Drifters cloak ) AND Cling grip Right ) ) |  | Verified | ✓ |  |
 | CC | Central Shaft | Central Upper | Upper Area | Silk Soar OR Cling Grip Right OR Easy Scuttlebrace |  | Verified | ✓ |  |
 | CC | Central Shaft | Upper Area | Central Upper | None |  | Verified | ✓ |  |
-| PH | Pollip Hole | Central Left | Pollip Room | Silk Soar OR ( Faydown Cloak AND ( Ledge Grab OR Cling Grip OR ( Easy Heal stall AND Easy Beast Pogo ) ) ) |  | Verified | ✓ |  |
+| PH | Pollip Hole | Central Left | Pollip Room | Silk Soar OR ( Faydown Cloak AND ( Ledge Grab either OR Cling Grip either OR ( Easy air bind stall AND Easy Beast Pogo ) ) ) |  | Verified | ✓ |  |
 | PH | Pollip Hole | Pollip Room | Central Left | None |  | Verified | ✓ |  |
 | CL | Central Lake | Central Left | Central Upper | ( Swim AND ( Cling Grip Right OR Cling Grip Left OR Easy Scuttlebrace ) ) OR ( Clawline Right AND ( Faydown Cloak OR Cling Grip Right OR Easy Scuttlebrace ) ) OR ( Sprint Right AND Cling Grip Right AND ( Dash Right OR Faydown Cloak OR Drifters Cloak OR Easy Beast Pogo ) ) |  | Verified | ✓ |  |
 | CL | Central Lake | Central Upper | Central Left | Clawline Left OR Drifters Cloak OR Swim OR ( Sprint Left AND ( Easy Hunter pogo OR Easy Beast Pogo OR Dash Left OR Faydown Cloak OR Easy Scuttlebrace ) ) |  | Verified | ✓ |  |
+| DU | LE stupid forgot you can go under | Central Left | Right Side | Swim AND ( Cling grip right OR Easy Scuttlebrace OR ( Easy pogo off pond skipper AND Faydown Cloak AND ( Ledge grab right OR Easy reaper pogo OR Easy shaman pogo OR Easy air bind stall OR easy plasmium stall ) ) ) |  | Verified | ✓ |  |
+| DU | LE stupid forgot you can go under | Right Side | Central Left | Swim |  | Verified | ✓ |  |
 
 ## Check Locations
 

@@ -37,7 +37,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Choral Chambers - Spa guest's lost necklace | Base | clear Choral Chambers Outside Spa - Breakable ceiling  AND (cling grip either OR silk soar OR ((easy shaman pogo OR faydown cloak OR easy flea brew stall OR (have crest beast AND easy heal stall AND easy [flintslate, Cross Stitch] stall)) AND easy scuttlebrace)) |  | Verified | collectible | ✓ | rosary necklace |
+| 1 | Choral Chambers - Spa guest's lost necklace | Base | clear Choral Chambers Outside Spa - Breakable ceiling  AND (cling grip either OR silk soar OR ((easy shaman pogo OR faydown cloak OR easy flea brew stall OR (easy beast crest heal stall AND easy [flintslate, Cross Stitch] stall)) AND easy scuttlebrace)) |  | Verified | collectible | ✓ | rosary necklace |
 | 2 | Choral Chambers Outside Spa - Switch | Left | none |  | Verified | switch | ✓ |  |
 | 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
 | 4 | Choral Chambers Outside Spa - Breakable ceiling | Base | attack up |  | Verified | blockade | ✓ |  |

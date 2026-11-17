@@ -8,35 +8,39 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Upper Level | ✓ |
-| S2 | Lower Level | ✓ |
+| S1 | Upper Entrance | ✓ |
+| S2 | Lower Entrance | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LR | right2 | Lower Level | [Cling Grip Room (Shellwood_10)](cling-grip-room.md) | ML | None |  | Verified | ✓ |  |
-| UR | right1 | Upper Level | [Cling Grip Room (Shellwood_10)](cling-grip-room.md) | UL | None |  | Verified | ✓ |  |
+| LR | right2 | Lower Entrance | [Cling Grip Room (Shellwood_10)](cling-grip-room.md) | ML | None |  | Verified | ✓ |  |
+| UR | right1 | Upper Entrance | [Cling Grip Room (Shellwood_10)](cling-grip-room.md) | UL | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FP | Flower Pogos | Lower Level | Upper Level | ( Easy enemy pogo AND Swim ) OR Dash left OR Sprint Left OR SharpDart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak OR Clawline left OR Scuttlebrace OR Cling Grip Right OR Silk Soar |  | Verified | ✓ |  |
-| FP | Flower Pogos | Upper Level | Lower Level | None |  | Verified | ✓ |  |
+| FP | Flower Pogos | Lower Entrance | Upper Entrance | ( Easy enemy pogo AND Swim ) OR Dash left OR Sprint Left OR SharpDart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak OR Clawline left OR Scuttlebrace OR Cling Grip Right OR Silk Soar |  | Verified | ✓ |  |
+| FP | Flower Pogos | Upper Entrance | Lower Entrance | None |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Grave Marker | Upper Level | None |  | Verified | resource | ✓ |  |
-| 2 | Phacia 1 | Lower Level | None |  | Verified | enemy | ✓ |  |
-| 3 | Phacia 2 | Lower Level | None |  | Verified | enemy | ✓ |  |
-| 4 | Gahlia 1 | Lower Level | None |  | Verified | enemy | ✓ |  |
-| 5 | Gahlia 2 | Lower Level | None |  | Verified | enemy | ✓ |  |
-| 6 | Gahlia 3 | Lower Level | None |  | Verified | enemy | ✓ |  |
-| 7 | Gahlia 4 | Lower Level | None |  | Verified | enemy | ✓ |  |
-| 8 | Gahlia 5 | Lower Level | None |  | Verified | enemy | ✓ |  |
+| 1 | Rosary Grave Marker | Upper Entrance | None |  | Verified | resource | ✓ |  |
+| 2 | Phacia 1 | Lower Entrance | None |  | Verified | enemy | ✓ |  |
+| 3 | Phacia 2 | Lower Entrance | None |  | Verified | enemy | ✓ |  |
+| 4 | Gahlia 1 | Lower Entrance | None |  | Verified | enemy | ✓ |  |
+| 5 | Gahlia 2 | Lower Entrance | None |  | Verified | enemy | ✓ |  |
+| 6 | Gahlia 3 | Lower Entrance | None |  | Verified | enemy | ✓ |  |
+| 7 | Gahlia 4 | Lower Entrance | None |  | Verified | enemy | ✓ |  |
+| 8 | Gahlia 5 | Lower Entrance | None |  | Verified | enemy | ✓ |  |
+
+## Notes
+
+Will add more subrooms if someone proves the current logic isnt enough
 
 ## Room Images
 

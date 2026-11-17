@@ -25,13 +25,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MV1 | Main <> Vents | Main Room | Upper Vents | (clear Rosary Bank - Breakable Ceiling  AND (Cling Grip left OR (easy Scuttlebrace AND (faydown OR easy flea brew stall OR (own crest beast AND medium heal stall))) OR Silk Soar OR (faydown AND cling grip right))) |  | Verified | ✓ |  |
+| MV1 | Main <> Vents | Main Room | Upper Vents | (clear Rosary Bank - Breakable Ceiling  AND (Cling Grip left OR ((easy Scuttlebrace AND (faydown OR easy flea brew stall OR medium beast crest bind stall))) OR Silk Soar OR (faydown AND cling grip right))) |  | Verified | ✓ |  |
 | MV1 | Main <> Vents | Upper Vents | Main Room | clear Rosary Bank - Breakable Ceiling |  | Verified | ✓ |  |
 | US | Upper <> Side | Upper Vents | Side Vents | spike pogo |  | Verified | ✓ |  |
 | US | Upper <> Side | Side Vents | Upper Vents | spike pogo AND (cling grip left OR faydown OR cling grip right) |  | Verified | ✓ |  |
-| SL | Side <> Lower | Side Vents | Lower Vents | spike pogo OR easy naked pogo OR clawline left OR sharpdart OR dash left OR drifter's OR (cling grip right AND (medium [plasmium,voltvessels, rune rage, flea brew, heal, thread storm] stall OR faydown)) |  | Verified | ✓ |  |
+| SL | Side <> Lower | Side Vents | Lower Vents | spike pogo OR easy naked pogo OR clawline left OR sharpdart OR dash left OR drifter's OR (cling grip right AND (medium [plasmium,voltvessels, rune rage, flea brew, air bind, thread storm] stall OR faydown)) |  | Verified | ✓ |  |
 | SL | Side <> Lower | Lower Vents | Side Vents | (spike pogo OR easy naked pogo) AND cling grip right |  | Verified | ✓ |  |
-| LV | Lower <> Vault | Lower Vents | Vault | ((Dash OR Clawline OR Sharpdart) AND (Cling Grip OR Easy Scuttlebrace OR (Faydown Cloak AND Ledge Grab))) |  | Verified | ✓ |  |
+| LV | Lower <> Vault | Lower Vents | Vault | ((Dash left OR Clawline  left OR Sharpdart) AND (Cling Grip either OR Easy Scuttlebrace OR (Faydown Cloak AND Ledge Grab either))) |  | Verified | ✓ |  |
 | LV | Lower <> Vault | Vault | Lower Vents | Nothing (Fall) |  | Verified | ✓ |  |
 | LC | Lower <> Cannon | Lower Vents | Rosary Dropper | (clear Rosary Bank - Cannon Wall AND (spike pogo OR easy naked pogo OR clawline left OR cling grip right OR sharpdart OR dash left OR drifter's OR faydown)) |  | Verified | ✓ |  |
 | LC | Lower <> Cannon | Rosary Dropper | Lower Vents | (clear Rosary Bank - Cannon Wall AND (Faydown Cloak OR Cling Grip right OR easy scuttlebrace)) |  | Verified | ✓ |  |
@@ -46,16 +46,16 @@
 | 2 | Rosary Bank - Cannon Wall | Lower Vents | Break Wall Left |  | Verified | blockade | ✓ |  |
 | 3 | Rosary Bank - Vault Switch | Vault | Flip Lever Left |  | Verified | switch | ✓ |  |
 | 4 | Rosary Cannon | Rosary Dropper | clear Rosary Bank - Cannon Wall AND (cling grip left OR faydown OR ledge grab left OR easy hazard respawn) |  | Verified | collectible | ✓ |  |
-| 5 | Rosary Bank - Romino's chest | Vault | Free |  | Verified | collectible | ✓ |  |
-| 6 | Rosary Bank - Mizello's chest | Vault | Zilch |  | Verified | collectible | ✓ |  |
-| 7 | Rosary Bank - Ballador's chest | Vault | Nada |  | Verified | collectible | ✓ |  |
+| 5 | Rosary Bank - Romino's chest | Vault | Nothing |  | Verified | collectible | ✓ |  |
+| 6 | Rosary Bank - Mizelle's chest | Vault | Nothing |  | Verified | collectible | ✓ |  |
+| 7 | Rosary Bank - Ballador's chest | Vault | Nothing |  | Verified | collectible | ✓ |  |
 | 8 | Rosary Bank - Conductors' instruments budget | Vault | Nothing |  | Verified | collectible | ✓ |  |
-| 9 | Rosary Bank - Vault repair funds | Vault | Nothing |  | Verified | collectible | ✓ |  |
+| 9 | Rosary Bank - Vault repairs funds | Vault | Nothing |  | Verified | collectible | ✓ |  |
 | 10 | Rosary Bank - Missable String 1 | Vault | ACT 2 |  | Verified | collectible | ✓ | only exists in act 2 |
 | 11 | Rosary Bank - Missable String 2 | Vault | ACT 2 |  | Verified | collectible | ✓ | only exists in act 2 |
 | 12 | Rosary Bank - Missable String 3 | Vault | ACT 2 |  | Verified | collectible | ✓ | only exists in act 2 |
 | 13 | Rosary Bank - Missable String 4 | Vault | ACT 2 |  | Verified | collectible | ✓ | only exists in act 2 |
-| 14 | Snitchfly 1 | Vault | Act 3 |  | Verified | enemy | ✓ | idk maybe its random? |
+| 14 | Snitchfly 1 | Vault | none |  | Verified | enemy | ✓ | need to collect all the rosaries chest and maybe activate the lever? |
 | 15 | Drapefly 1 | Upper Vents | nada |  | Verified | enemy | ✓ |  |
 | 16 | Giant Drapemite 1 | Lower Vents | zilch |  | Verified | enemy | ✓ |  |
 | 17 | Drapemite 1 | Upper Vents | free |  | Verified | enemy | ✓ |  |

@@ -23,8 +23,12 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Map: Sands of Karak |  | None |  | Verified | collectible | ✓ |  |
-| 2 | Shell Shard Cache: Sands of Karak #9 |  | None |  | Verified | resource | ✓ | Archi drops them checks down so they are obrainable no matter what |
-| 3 | Shell Shard Cache: Sands of Karak #10 |  | None |  | Verified | resource | ✓ |  |
+| 2 | Shell Shard Cache: Sands of Karak #9 |  | Thread storm OR Rune rage OR Curveclaw OR faydown Cloak OR Cling grip Left OR Silk Soar OR Easy beast charge |  | Verified | resource | ✓ | Archi drops them checks down so they are obrainable no matter what |
+| 3 | Shell Shard Cache: Sands of Karak #10 |  | Thread storm OR Rune rage OR Curveclaw OR faydown Cloak OR Cling grip Left OR Silk Soar OR Easy beast charge |  | Verified | resource | ✓ |  |
+
+## Notes
+
+Add subrooms to account for spike pogo when i get back here
 
 ## Room Images
 

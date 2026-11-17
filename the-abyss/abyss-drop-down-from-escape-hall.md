@@ -24,7 +24,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SH | Shaft | Top | Bottom | Spike pogo OR easy naked pogo OR Dash right OR Cling grip left OR drifters cloak OR faydown CLoak OR clawline Right |  | Verified | ✓ | kill me |
-| SH | Shaft | Bottom | Top | silk soar AND ( Cling grip left OR Medium scuttlebrace OR ( Faydown cloak AND ( Spike pogo OR Ledge grab RIght OR cling grip RIght OR Medium flea brew stall OR medium beast charge OR Hard voltvessels stall OR Medium plasmium stall OR medium heal stall ) ) ) |  | Verified | ✓ |  |
+| SH | Shaft | Bottom | Top | silk soar AND ( Cling grip left OR Medium scuttlebrace OR ( Faydown cloak AND ( Spike pogo OR Ledge grab RIght OR cling grip RIght OR Medium flea brew stall OR medium beast charge OR Hard voltvessels stall OR Medium plasmium stall OR medium air bind stall ) ) ) |  | Verified | ✓ |  |
 | WA | Wall | Bottom | odd crevice situation | Prereq abyss drop down wall |  | Verified | ✓ |  |
 | WA | Wall | odd crevice situation | Bottom | Prereq abyss drop down wall |  | Verified | ✓ |  |
 

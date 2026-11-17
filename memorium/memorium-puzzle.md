@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Memorimum Cogheart Piece |  | (cling grip right AND (drifters cloak OR (dash left AND attack up))) OR (faydown cloak AND (attack up OR (easy scuttlebug AND drifters))) OR (silk soar AND proficient movement) OR (cling grip left AND drifters cloak AND (attack up OR faydown)) OR (faydown AND cling grip right) OR (cling grip right AND clawline left) OR (cling grip left AND faydown AND (clawline right OR dash right)) |  | Verified | collectible |  | memory puzzle |
+| 1 | Memorimum Cogheart Piece |  | (cling grip right AND (drifters cloak OR (dash left AND attack up))) OR (faydown cloak AND (attack up OR (easy scuttlebug AND drifters))) OR (silk soar AND proficient movement) OR (cling grip left AND drifters cloak AND (attack up OR faydown)) OR (faydown AND cling grip right) OR (cling grip right AND clawline left) OR (cling grip left AND faydown AND (clawline right OR dash right))  OR (elite ball knowledge AND hard [shaman] pogo) |  | Verified | collectible |  | memory puzzle |
 
 ## Room Images
 

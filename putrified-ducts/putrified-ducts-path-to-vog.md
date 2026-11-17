@@ -27,7 +27,7 @@
 | VA | Vine Acsent | Main | Top | Intended pogo off barnak AND ( ( Clawline both AND ( Cling grip Both  OR Drifters Cloak ) ) OR ( drifters cloak AND ( Easy shaman pogo OR Easy flea brew stall OR easy Voltvessels stall OR easy flintslate stall OR easy plasmium stall ) ) ) |  | Verified | ✓ |  |
 | VA | Vine Acsent | Top | Main | Clawline both AND Faydown Cloak |  | Verified | ✓ |  |
 | TC | Thorn Crossing | Main | Camp | Clawline Right OR Sharpdart OR ( Swim AND ( Dash Right OR Sprint Right OR Drifters Cloak OR Faydown Cloak OR ( intended pogo off barnak AND ( Easy hunter pogo OR Hard reaper pogo OR ( ledge grab right AND Easy reaper pogo ) OR easy beast pogo OR easy architect pogo OR Easy shaman pogo OR Easy plasmium stall OR easy Flintslate stall OR easy voltvessels stall OR flea brew jump OR easy thread storm stall OR easy cross stitch stall OR easy rune rage stall OR easy pale nails stall ) ) ) ) |  | Verified | ✓ |  |
-| TC | Thorn Crossing | Camp | Main | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint left OR Dash left OR ( Ledge Grab left AND Hard heal stall ) ) ) OR Sharpdart OR Clawline left OR Drifters Cloak OR ( Sprint left AND Dash left ) |  | Verified | ✓ |  |
+| TC | Thorn Crossing | Camp | Main | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint left OR Dash left OR ( Ledge Grab left AND Hard Air Bind stall ) ) ) OR Sharpdart OR Clawline left OR Drifters Cloak OR ( Sprint left AND Dash left ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

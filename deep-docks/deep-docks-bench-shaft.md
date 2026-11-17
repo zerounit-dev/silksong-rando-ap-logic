@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_01
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 

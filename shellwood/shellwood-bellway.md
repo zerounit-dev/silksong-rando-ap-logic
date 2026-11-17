@@ -23,8 +23,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PU | Puddle | Left Puddle | Right Puddle | Swim OR Dash Right OR Sprint Right OR Clawline Right OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified | ✓ |  |
-| PU | Puddle | Right Puddle | Left Puddle | Swim OR Dash Left OR Sprint Left OR Clawline Left OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified | ✓ |  |
+| PU | Puddle | Left Puddle | Right Puddle | Swim OR Dash Right OR Sprint Right OR Clawline Right OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak OR Easy hunter pogo OR Easy wanderer charge OR Easy reaper charge OR Easy architect pogo OR easy witch charge OR ( Hard shaman pogo AND ( Ledge grab Right OR Cling grip Right ) ) OR ( Cling grip left AND ( Cling grip Right OR ledge grab right ) ) OR medium rune rage stall OR Easy pale nails stall x 2 OR easy thread storm stall OR ( Easy air bind stall x 2 AND Have tool reserve Bind ) OR easy cross stitch stall x 2 OR Easy flintslate stall x 2 OR easy plasmium stall OR easy flea brew stall OR easy voltvessels stall |  | Verified | ✓ |  |
+| PU | Puddle | Right Puddle | Left Puddle | Swim OR Dash Left OR Sprint Left OR Clawline Left OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak OR Easy hunter pogo OR Easy wanderer charge OR Easy reaper charge OR Easy architect pogo OR easy witch charge OR ( Hard shaman pogo AND ( Ledge grab Left OR Cling grip Left ) ) OR ( Cling grip Right AND ( Cling grip Left OR ledge grab Left ) ) OR medium rune rage stall OR Easy pale nails stall x 2 OR easy thread storm stall OR ( Easy air bind stall x 2 AND Have tool reserve Bind ) OR easy cross stitch stall x 2 OR Easy flintslate stall x 2 OR easy plasmium stall OR easy flea brew stall OR easy voltvessels stall |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -32,6 +32,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shellwood Bellway | Right Puddle | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
 | 2 | Bellway Rosary Lock | Right Puddle | Spend 40 Rosaries |  | Verified | lock | ✓ |  |
+
+## Notes
+
+Updated 14/11 - Pyxl
 
 ## Room Images
 

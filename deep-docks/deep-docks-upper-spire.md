@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_05
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 
@@ -24,7 +24,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SR | spire right | spire | right exit platform | Cling Grip right OR Sprint Right OR Faydown Cloak OR Clawline Right OR Easy Scuttlebrace OR  (Silk Soar AND (Magma Bell OR Proficient Movement OR dash right OR easy [hunter, architect, shaman] pogo )) OR  ((Dash Right OR Drifter's Cloak OR Flea Brew OR Hard [Shaman] Pogo OR Easy [Voltvessels, Flintslate, Plasmium] Stall OR Easy Drill Crystal Pogo ) AND Ledge Grab right ) OR Easy Architect Charge OR Easy Beast Pogo OR (Flea Brew AND Easy Flea Brew Stall) OR Sharpdart OR  (Proficient Movement AND [Architect] Attack Right AND ( Easy Heal Stall OR Easy [Voltvessels, Flea Brew, Flintslate] Stall) AND Ledge Grab right) OR Hard [Plasmium] Stall OR medium damage boost off Skarr Scout |  | Verified | ✓ |  |
+| SR | spire right | spire | right exit platform | Cling Grip right OR Sprint Right OR Faydown Cloak OR Clawline Right OR Easy Scuttlebrace OR  (Silk Soar AND (Magma Bell OR Proficient Movement OR dash right OR easy [hunter, architect, shaman] pogo )) OR  ((Dash Right OR Drifter's Cloak OR Flea Brew OR Hard [Shaman] Pogo OR Easy [Voltvessels, Flintslate, Plasmium] Stall OR Easy Drill Crystal Pogo ) AND Ledge Grab right ) OR Easy Architect Charge OR Easy Beast Pogo OR (Flea Brew AND Easy Flea Brew Stall) OR Sharpdart OR  (Proficient Movement AND [Architect] Attack Right AND (Easy [air heal, Voltvessels, Flea Brew, Flintslate] Stall) AND Ledge Grab right) OR Hard [Plasmium] Stall OR medium damage boost off Skarr Scout |  | Verified | ✓ |  |
 | SR | spire right | right exit platform | spire | Nothing. |  | Verified | ✓ |  |
 | PG | platform gaps | spire | Flea Access Lever | run OR Dash Left OR Drifter's Cloak OR Faydown Cloak OR Clawline Left x 4 OR Silk Soar OR easy Scuttlebrace OR Easy architect Charge OR Easy Beast Pogo OR Flea Brew OR Medium Voltvessels Stall OR Sharpdart x 4 |  | Verified | ✓ |  |
 | PG | platform gaps | Flea Access Lever | spire | Nothing. (fall) |  | Verified | ✓ |  |

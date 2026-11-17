@@ -24,7 +24,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SL | left3 | Left Spike Exit | [High Halls Flooded Room (Hang_10)](high-halls-flooded-room.md) | R | none |  | Verified | ✓ |  |
+| SL | left3 | Left Spike Exit | [High Halls Flooded Room (Hang_10)](high-halls-flooded-room.md) | R | clear High Halls - Big Shaft Wall |  | Verified | ✓ |  |
 | B | bot1 | Bottom | [High Halls Vault (Hang_06)](high-halls-vault.md) | T | none |  | Verified | ✓ |  |
 | L | left4 | Bottom | [High Halls Baby Room (Hang_16)](high-halls-baby-room.md) | R | none |  | Verified | ✓ |  |
 | NI | right2 | Spike Hell | [High Halls Not Implemented Room (Cog_11)](high-halls-not-implemented-room.md) | L | invalid |  | Verified | ✓ | NOT IMPLEMENTED BY DEVS |
@@ -37,16 +37,16 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TF | Falling from Top | Top | Clawline Gate 1 | none |  | Verified | ✓ |  |
-| TF | Falling from Top | Clawline Gate 1 | Top | silk soar OR (faydown AND ((Have crest beast AND medium heal stall) OR medium flea brew stall OR proficient movement) AND cling grip right AND spike pogo) |  | Verified | ✓ |  |
-| C1 | ClawGate 1 to 2 | Clawline Gate 1 | Clawline Gate 2 | (Activate Clawline Gate 1 AND ((proficient movement AND spike pogo AND clawline left) OR ((faydown cloak OR drifter's) AND spike pogo AND clawline either))) |  | Verified | ✓ |  |
+| TF | Falling from Top | Clawline Gate 1 | Top | silk soar OR (faydown AND (( medium beast crest bind stall) OR medium flea brew stall OR proficient movement) AND cling grip right AND spike pogo) |  | Verified | ✓ |  |
+| C1 | ClawGate 1 to 2 | Clawline Gate 1 | Clawline Gate 2 | (Activate Clawline Gate 1 AND ((proficient movement AND spike pogo AND clawline left AND (medium [wanderer,reaper,shaman] pogo OR hard [hunter,architect,beast,witch] pogo)) OR ((faydown cloak OR drifter's) AND spike pogo AND clawline either))) |  | Verified | ✓ |  |
 | C1 | ClawGate 1 to 2 | Clawline Gate 2 | Clawline Gate 1 | activate CLawline gate 1 AND (proficient movement AND spike pogo AND (medium [beast,reaper,shaman, architect, witch] pogo OR faydown cloak OR (medium [wanderer, hunter] pogo AND cling grip left))) |  | Verified | ✓ |  |
 | C2 | Clawline | Clawline Gate 2 | Middle | clawline either AND Activate Clawline Gate 2 |  | Verified | ✓ |  |
 | C2 | Clawline | Middle | Clawline Gate 2 | Activate Clawline Gate 2 AND ((faydown cloak AND easy pogo off Minister) OR silk soar OR (medium pogo off Minister AND cling grip either)) |  | Verified | ✓ |  |
 | MS | middle to spike hell | Middle | Spike Hell | none |  | Verified | ✓ | falling |
-| MS | middle to spike hell | Spike Hell | Middle | cling grip either OR faydown cloak OR (easy pogo off Minister AND (easy shaman pogo OR easy plasmium stall)) OR ((easy shaman pogo OR easy [heal,flea brew, rune rage, thread storm] stall) AND easy scuttlebrace) OR silk soar |  | Verified | ✓ |  |
-| S | Spiked Secret | Spike Hell | Left Spike Exit | ((proficient movement AND spike pogo) OR Drifter's cloak) AND (break wall left OR break wall right) |  | Verified | ✓ |  |
-| S | Spiked Secret | Left Spike Exit | Spike Hell | break wall either AND ((proficient movement AND spike pogo AND faydown cloak) OR (cling grip both AND faydown cloak AND spike pogo) OR (proficient movement AND spike pogo AND cling grip right) OR (proficient movement AND hard [reaper,beast,shaman, architect] pogo)) |  | Verified | ✓ |  |
-| SF | Falling from Secret | Left Spike Exit | Clawline Gate 3 | break wall either AND (drifter's cloak OR spike pogo) AND clawline either |  | Verified | ✓ |  |
+| MS | middle to spike hell | Spike Hell | Middle | cling grip either OR faydown cloak OR (easy pogo off Minister AND (easy shaman pogo OR easy plasmium stall)) OR ((easy shaman pogo OR easy [air bind,flea brew, rune rage, thread storm] stall) AND easy scuttlebrace) OR silk soar |  | Verified | ✓ |  |
+| S | Spiked Secret | Spike Hell | Left Spike Exit | ((proficient movement AND spike pogo AND (medium [wanderer,reaper,shaman] pogo OR hard [hunter,architect,beast,witch] pogo)) OR Drifter's cloak) AND clear High Halls - Big Shaft Wall |  | Verified | ✓ |  |
+| S | Spiked Secret | Left Spike Exit | Spike Hell | clear High Halls - Big Shaft Wall AND ((proficient movement AND spike pogo AND faydown cloak AND medium [wanderer, reaper,shaman, hunter,architect,beast,witch] pogo) OR (cling grip both AND faydown cloak AND spike pogo) OR (proficient movement AND spike pogo AND ((cling grip right AND medium [wanderer, reaper,shaman, hunter,architect,beast,witch] pogo) OR hard [reaper,beast,shaman, architect] pogo))) |  | Verified | ✓ |  |
+| SF | Falling from Secret | Left Spike Exit | Clawline Gate 3 | clear High Halls - Big Shaft Wall AND ((drifter's cloak AND clawline right) OR (spike pogo AND clawline either AND medium [wanderer, reaper,shaman,hunter,architect,beast,witch] pogo)) |  | Verified | ✓ |  |
 | SF | Falling from Secret | Clawline Gate 3 | Left Spike Exit | spike pogo AND (faydown cloak OR cling grip either) |  | Verified | ✓ |  |
 | FC3 | Floor <> Clawline 3 | Bottom | Clawline Gate 3 | activate Clawline Gate 3 AND (spike pogo AND (faydown cloak OR cling grip right OR (cling grip left AND easy shaman pogo))) |  | Verified | ✓ |  |
 | FC3 | Floor <> Clawline 3 | Clawline Gate 3 | Bottom | Activate Clawline Gate 3 |  | Verified | ✓ |  |
@@ -56,6 +56,7 @@
 | TR | top to resting site | Resting Site Ledge | Top | none |  | Verified | ✓ | falling |
 | RP | resting site to penthouse | Resting Site Ledge | Penthouse | silk soar OR cling grip right OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
 | RP | resting site to penthouse | Penthouse | Resting Site Ledge | none |  | Verified | ✓ | falling |
+| HC | hell to gate 3 | Spike Hell | Clawline Gate 3 | ((proficient movement AND spike pogo AND (medium [wanderer,reaper,shaman] pogo OR hard [hunter,architect,beast,witch] pogo)) OR (spike pogo AND Drifter's cloak)) AND clawline either |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -66,7 +67,8 @@
 | 3 | Clawline Gate 1 | Clawline Gate 1 | Clawline either |  | Verified | switch | ✓ |  |
 | 4 | Clawline Gate 2 | Clawline Gate 2 | Clawline either |  | Verified | switch | ✓ |  |
 | 5 | Clawline Gate 3 | Clawline Gate 3 | Clawline either |  | Verified | switch | ✓ |  |
-| 6 | Minister 1 | Middle | free |  | Verified | enemy | ✓ |  |
+| 6 | High Halls - Big Shaft Wall | Left Spike Exit | break wall either |  | Verified | blockade | ✓ |  |
+| 7 | Minister 1 | Middle | free |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

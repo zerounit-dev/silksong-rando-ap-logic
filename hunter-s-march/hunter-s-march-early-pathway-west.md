@@ -2,7 +2,7 @@
 
 **Game ID:** Ant_04_left
 
-**Contributors:** herounit
+**Contributors:** herounit, Gallos
 
 ## Subrooms
 
@@ -30,7 +30,7 @@
 | P1 | pogo 1 | upper left platforms | left exit area | none (falling) |  | Verified | ✓ |  |
 | L1 | ledge grab 1 | lower floor | left exit area | ledge grab left OR cling grip left OR silk soar  OR faydown cloak  OR easy shaman pogo OR ( easy reaper pogo AND easy pogo off skarr scout ) |  | Verified | ✓ |  |
 | L1 | ledge grab 1 | left exit area | lower floor | none (falling) |  | Verified | ✓ |  |
-| L2 | ledge grab 2 | upper left platforms | upper left alcove | ledge grab left OR cling grip left OR faydown cloak  OR silk soar  OR easy shaman pogo OR easy pogo off skarr stalker |  | Verified | ✓ |  |
+| L2 | ledge grab 2 | upper left platforms | upper left alcove | ledge grab left OR cling grip left OR faydown cloak  OR silk soar  OR easy shaman pogo OR easy pogo off skarr stalker  OR (easy pogo off skarrlid AND (easy [wanderer,reaper,beast,architect,witch,shaman] pogo OR clawline left))  OR easy [plasmium,voltvessels] stall |  | Verified | ✓ |  |
 | L2 | ledge grab 2 | upper left alcove | upper left platforms | none (falling) |  | Verified | ✓ |  |
 | RP | run jump left and pogo | trapped platform | upper left platforms | run OR easy pogo off skarrwing |  | Verified | ✓ | a little tight to be able to pogo off the fruit, but not that bad |
 | TP | to trapped platform | lower floor | trapped platform | ledge grab right OR cling grip right OR run OR dash right OR easy [ shaman, beast ] pogo OR easy [ architect, wanderer ] charge OR faydown OR silk soar OR clawline right OR sharpdart OR easy scuttlebrace OR flea brew |  | Verified | ✓ |  |
@@ -43,22 +43,21 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache hunters march 1 | upper left alcove | ( ledge grab left OR cling grip left ) AND ( ledge grab right AND cling grip right ) |  | Verified | collectible | ✓ | get there fast - the ants will eat them (v0.4.2)  requirements added to ensure hornet can get there in time |
-| 2 | rosary cache hunters march 2 | upper left alcove | ( ledge grab left OR cling grip left ) AND ( ledge grab right AND cling grip right ) |  | Verified | collectible | ✓ | get there fast - the ants will eat them (v0.4.2)  requirements added to ensure hornet can get there in time |
-| 3 | rosary cache hunters march 3 | upper right platforms | none |  | Verified | collectible | ✓ |  |
-| 4 | rosary necklace hunters march | upper right platforms | none |  | Verified | collectible | ✓ | ants eat them before you can collect (v0.4.2) |
-| 5 | Skarr Stalker 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
-| 6 | Skarrlid 1 | upper left alcove | None |  | Verified | enemy | ✓ |  |
-| 7 | Spear Skarr 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
-| 8 | Skarrwing 1 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 9 | Skarrwing 2 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 10 | Skarr Scout 1 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 11 | Skarr Stalker 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 12 | Skarr Scout 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 13 | Skarrlid 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 14 | Skarrwing 3 | upper right platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 15 | Void Mass 1 | upper left platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 16 | Spear Skarr 2 | upper left platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 1 | rosary cache hunters march 1 | upper left alcove | attack left OR use tool [curveclaw,conchcutter,sting shard,pimpillo,straight pin,longpin,threefold pin,silkshot forge daugther,cogwork wheel,throwing ring] |  | Verified | collectible | ✓ |  |
+| 2 | rosary cache hunters march 2 | upper left alcove | attack left OR use tool [curveclaw,conchcutter,sting shard,pimpillo,straight pin,longpin,threefold pin,silkshot forge daugther,cogwork wheel,throwing ring] |  | Verified | collectible | ✓ |  |
+| 3 | rosary necklace hunters march | upper left platforms | none |  | Verified | collectible | ✓ |  |
+| 4 | Skarr Stalker 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 5 | Skarrlid 1 | upper left alcove | None |  | Verified | enemy | ✓ |  |
+| 6 | Spear Skarr 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 7 | Skarrwing 1 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Skarrwing 2 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skarr Scout 1 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Skarr Stalker 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Skarr Scout 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Skarrlid 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Skarrwing 3 | upper right platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Void Mass 1 | upper left platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Spear Skarr 2 | upper left platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

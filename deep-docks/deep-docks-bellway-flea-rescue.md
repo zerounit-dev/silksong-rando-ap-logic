@@ -23,9 +23,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FTM | Floor <> Middle | Floor | Middle | Ledge Grab right OR Cling Grip right OR Faydown Cloak OR Silk Soar OR easy shaman pogo OR easy pogo off Skull brute OR easy [voltvessels,plasmium, flea brew] stall OR easy beast needle strike OR (have crest beast AND easy heal stall) OR easy scuttlebrace |  | Verified | ✓ |  |
+| FTM | Floor <> Middle | Floor | Middle | Ledge Grab right OR Cling Grip right OR Faydown Cloak OR Silk Soar OR easy shaman pogo OR easy pogo off Skull brute OR easy [voltvessels,plasmium, flea brew] stall OR easy beast needle strike OR medium beast crest heal stall  OR easy scuttlebrace |  | Verified | ✓ |  |
 | FTM | Floor <> Middle | Middle | Floor | Nothing. (Fall) |  | Verified | ✓ |  |
-| MTF | Middle <> Flea | Middle | Flea | run OR clawline right OR sharpdart OR (drifter's AND (ledge grab right OR cling grip right OR dash right OR easy beast pogo)) OR (easy shaman pogo AND easy scuttlebrace) OR (easy plasmium stall AND (ledge grab right OR cling grip right OR easy hazard respawn OR easy beast pogo)) OR ((easy [voltvessels, flea brew] stall OR easy beast needle strike OR (have crest beast AND easy heal stall)) AND easy hazard respawn) |  | Verified | ✓ |  |
+| MTF | Middle <> Flea | Middle | Flea | run OR clawline right OR sharpdart OR (drifter's AND (ledge grab right OR cling grip right OR dash right OR easy beast pogo)) OR (easy shaman pogo AND easy scuttlebrace) OR (easy plasmium stall AND (ledge grab right OR cling grip right OR easy hazard respawn OR easy beast pogo)) OR ((easy [voltvessels, flea brew] stall OR easy beast needle strike OR (medium beast crest heal stall  AND easy hazard respawn))) |  | Verified | ✓ |  |
 | MTU | Middle <> Upper | Middle | Upper | silk soar OR faydown OR medium shaman pogo OR ledge grab left OR cling grip left OR easy plasmium stall |  | Verified | ✓ |  |
 | MTU | Middle <> Upper | Upper | Middle | none |  | Verified | ✓ | falling |
 | UTF | Upper <> Flea | Upper | Flea | Nothing. |  | Verified | ✓ |  |

@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_08
 
-**Contributors:** herounit and Rebel
+**Contributors:** herounit,Rebel, Gallos
 
 ## Subrooms
 
@@ -25,7 +25,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | main pathway | gauntlet right | Activate Deep Docks Entrance Gate AND   (Silk Soar OR Ledge Grab Left OR Cling Grip Either OR Faydown Cloak OR Easy Scuttlebrace OR Easy [Shaman] Pogo OR Easy [beast] Charge OR Hard [Plasmium] Stall OR   (Ledge Grab Right AND  (Sprint Left OR Dash Left OR Clawline Left OR Easy [Hunter, Reaper, Beast, Architect] Pogo OR Easy [Reaper, Wanderer, Beast, Architect] Charge OR (Proficient Movement AND [Architect] Attack Left) OR Easy [Flintslate, Flea Brew, Plasmium, Voltvessels] Stall OR Flea Brew))) |  | Verified | ✓ | looooooooong requirement |
+| DS | door switch | main pathway | gauntlet right | Activate Deep Docks Entrance Gate AND   (Silk Soar OR Ledge Grab Left OR Cling Grip Either OR Faydown Cloak OR Easy Scuttlebrace OR Easy [Shaman] Pogo OR Easy [beast] Charge OR medium Plasmium Stall x 2 OR   (Ledge Grab Right AND  (Sprint Left OR Dash Left OR Clawline Left OR Easy [Hunter, Reaper, Beast, Architect] Pogo OR Easy [ Wanderer, Beast, Architect] Charge OR (Proficient Movement AND [Architect] Attack Left) OR Easy [Flintslate, Flea Brew, Plasmium, Voltvessels] Stall OR Flea Brew))) |  | Verified | ✓ | looooooooong requirement |
 | DS | door switch | gauntlet right | main pathway | Activate Deep Docks Entrance Gate |  | Verified | ✓ |  |
 | GL | gauntlet fight left | gauntlet left | gauntlet | Nothing. |  | Verified | ✓ |  |
 | GL | gauntlet fight left | gauntlet | gauntlet left | Defeat Deep Docks Entrance Gauntlet |  | Verified | ✓ |  |

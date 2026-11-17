@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | Sand Pit | Sand Pit Left | Sand Pit Right | run OR Faydown OR Clawline right x 1 OR Drifter's Cloak OR Easy Beast Crest Pogo OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab right)) |  | Verified | ✓ | Didn't Split Sprint/Dash |
-| SP | Sand Pit | Sand Pit Right | Sand Pit Left | run OR Faydown OR Clawline left x 1 OR Drifter's Cloak OR Easy Beast Crest Pogo OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab left)) |  | Verified | ✓ | Didn't Split Sprint/Dash |
+| SP | Sand Pit | Sand Pit Left | Sand Pit Right | run OR Faydown OR Clawline right x 1 OR Drifter's Cloak OR Easy Beast Crest Pogo OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR Easy air bind Stall OR Ledge Grab right)) |  | Verified | ✓ | Didn't Split Sprint/Dash |
+| SP | Sand Pit | Sand Pit Right | Sand Pit Left | run OR Faydown OR Clawline left x 1 OR Drifter's Cloak OR Easy Beast Crest Pogo OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR Easy air bind Stall OR Ledge Grab left)) |  | Verified | ✓ | Didn't Split Sprint/Dash |
 
 ## Check Locations
 

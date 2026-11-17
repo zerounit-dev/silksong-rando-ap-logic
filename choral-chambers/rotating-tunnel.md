@@ -32,7 +32,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | Tunnel | Bottom Area | Lower Central | silk soar OR cling grip either OR easy scuttlebrace |  | Verified | ✓ | both sides have levers making the tunnel vertical |
 | T | Tunnel | Lower Central | Bottom Area | none |  | Verified | ✓ | falling, both sides have levers making the tunnel vertical |
-| V1 | Vertical | Lower Central | CentralArea Left | ((spike pogo OR flea brew OR easy heal stall) AND (ledge grab left OR cling grip left)) OR faydown OR (easy shaman pogo AND spike pogo) OR easy scuttlebrace OR easy plasmium stall OR silk soar OR (flea brew AND medium voltvessels stall) |  | Verified | ✓ |  |
+| V1 | Vertical | Lower Central | CentralArea Left | ((spike pogo OR flea brew OR easy air heal stall) AND (ledge grab left OR cling grip left)) OR faydown OR (easy shaman pogo AND spike pogo) OR easy scuttlebrace OR easy plasmium stall OR silk soar OR (flea brew AND medium voltvessels stall) |  | Verified | ✓ |  |
 | V1 | Vertical | CentralArea Left | Lower Central | none |  | Verified | ✓ | falling |
 | RB | Right to bottom | CentralArea Right | Lower Central | none |  | Verified | ✓ | falling, both sides have levers making the tunnel vertical |
 | H | Left and Right | CentralArea Left | CentralArea Right | none |  | Verified | ✓ |  |

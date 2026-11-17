@@ -18,7 +18,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | Top | Vertical Left | [Whiteward Tunnel Room (Ward_02b)](whiteward-tunnel-room.md) | B | Silk Soar OR Faydown OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| T | Top | Vertical Left | [Whiteward Tunnel Room (Ward_02b)](whiteward-tunnel-room.md) | B | Silk Soar OR Faydown OR Cling Grip right OR easy Scuttlebrace OR ((easy shaman pogo OR easy [air heal,flea brew,rune rage] stall) AND cling grip left) |  | Verified | ✓ |  |
 | R | Right | Surgery Tables (Right) | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | BL | Nothing |  | Verified | ✓ |  |
 | B | Bottom | Unravelled Arena | [Confession Toll (Under_08)](../underworks/confession-toll.md) | T | Defeat The Unravelled Gauntlet |  | Verified | ✓ |  |
 

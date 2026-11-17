@@ -44,7 +44,7 @@
 | MEB | Map Edge to Before (Lower) | Before Map Edge (Lower) | Map Lower Edge | Nothing |  | Verified | ✓ |  |
 | BLB | Before to Lace Bridge | Before Map Edge (Lower) | Lace Bridge | Nothing |  | Verified | ✓ |  |
 | BLB | Before to Lace Bridge | Lace Bridge | Before Map Edge (Lower) | Nothing |  | Verified | ✓ |  |
-| ELM | Map Edge (Lower) to Middle | Before Map Edge (Lower) | Before Map Edge (Middle) | silk soar OR (cling grip right AND (ledge grab right OR faydown cloak OR cling grip left OR scuttlebrace)) |  | Verified | ✓ |  |
+| ELM | Map Edge (Lower) to Middle | Before Map Edge (Lower) | Before Map Edge (Middle) | silk soar OR (cling grip right AND (ledge grab right OR faydown cloak OR cling grip left)) OR easy scuttlebrace |  | Verified | ✓ |  |
 | ELM | Map Edge (Lower) to Middle | Before Map Edge (Middle) | Before Map Edge (Lower) | Nothing (Fall) |  | Verified | ✓ |  |
 | EMU | Map Edge (Middle) to Upper | Before Map Edge (Middle) | Before Map Edge (Top) | (((spike pogo AND ledge grab right) OR ((spike pogo OR proficient movement) AND cling grip right)) AND (ledge grab left OR cling grip left OR silk soar)) OR faydown cloak OR easy scuttlebrace OR (flea brew AND ledge grab both) |  | Verified | ✓ | 🥀 |
 | EMU | Map Edge (Middle) to Upper | Before Map Edge (Top) | Before Map Edge (Middle) | Nothing (Fall) |  | Verified | ✓ |  |
