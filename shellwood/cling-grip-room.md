@@ -38,7 +38,7 @@
 | GPO | G PO | Pollip Room | Ground Level | None |  | Verified | ✓ |  |
 | GCO | G CO | Ground Level | Core | Silk Soar |  | Verified | ✓ |  |
 | GCO | G CO | Core | Ground Level | None |  | Verified | ✓ |  |
-| LRC | LR CL | Lower Right Transition | Central Level | ( Taunt AND medium pogo off  Phacia AND ( Ledge grab Right ) ) OR ( Cling grip Left AND ( Proficient movement OR Cling grip Right OR Ledge grab Right OR easy shaman pogo OR Easy plasmium stall OR easy delvers drill stall OR medium voltvessels stall OR ( easy air bind stall AND Easy beast pogo ) ) ) OR Silk Soar OR ( Faydown Cloak AND ( Cling grip either OR Scuttlebrace OR Ledge grab Right ) ) |  | Verified | ✓ |  |
+| LRC | LR CL | Lower Right Transition | Central Level | ( Taunt AND medium pogo off  Phacia AND ( Ledge grab Right OR cling grip right ) ) OR ( Cling grip Left AND ( Proficient movement OR Cling grip Right OR Ledge grab Right OR easy shaman pogo OR Easy plasmium stall OR easy delvers drill stall OR medium voltvessels stall OR ( easy air bind stall AND Easy beast pogo ) ) ) OR Silk Soar OR ( Faydown Cloak AND ( Cling grip either OR Scuttlebrace OR Ledge grab Right ) ) |  | Verified | ✓ |  |
 | LRC | LR CL | Central Level | Lower Right Transition | None |  | Verified | ✓ |  |
 | CLR | LR CO | Lower Right Transition | Core | Cling grip left OR Silk Soar OR ( Faydown Cloak AND ( cling grip right OR Ledge grab Right OR Scuttlebrace ) ) OR ( Scuttlebrace AND Easy shaman pogo ) |  | Verified | ✓ |  |
 | CLR | LR CO | Core | Lower Right Transition | ( Easy damage boost off gahlia OR Ledge grab Right OR Cling grip either OR Easy shaman pogo OR faydown cloak OR silk soar ) AND ( Clawline right OR Faydown cloak OR Silk Soar OR ( Dash right AND Drifters Cloak ) ) |  | Verified | ✓ |  |

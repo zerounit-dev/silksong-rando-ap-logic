@@ -17,7 +17,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Bottom | [Slab Cell (Slab_03)](slab-cell.md) | F2T | none |  | Verified | ✓ |  |
-| T | top1 | Platforms | [Slab Flea Prison (Slab_13)](slab-flea-prison.md) | B | silk soar OR cling grip right OR scuttlebrace |  | Verified | ✓ |  |
+| T | top1 | Platforms | [Slab Flea Prison (Slab_13)](slab-flea-prison.md) | B | silk soar OR cling grip right OR scuttlebrace OR ( faydown AND ( medium enemy pogo off [guardfly,drapefly] OR ( cling grip left AND easy enemy pogo off [guardfly,drapefly] ))) |  | Verified | ✓ |  |
 | B | bot1 | Bottom | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | U | none |  | Verified | ✓ |  |
 
 ## Subroom Connections

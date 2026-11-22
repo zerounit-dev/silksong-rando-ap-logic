@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_26
 
-**Contributors:** Herchey and Super Mario RPG
+**Contributors:** Herchey and Super Mario RPG and Pyxl
 
 ## Subrooms
 
@@ -28,7 +28,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LDC | low door crossing | low left door | low right door | clawline right OR sharpdart OR drifter's cloak OR dash right OR (run AND proficient movement) |  | Verified | ✓ |  |
 | LDC | low door crossing | low right door | low left door | (ledge grab left AND (faydown cloak OR easy beast pogo)) OR drifter's cloak OR clawline left OR sharpdart OR run |  | Verified | ✓ |  |
-| TC | the climb | low left door | up left door | cling grip both AND faydown cloak |  | Verified | ✓ |  |
+| TC | the climb | low left door | up left door | ( cling grip both AND faydown cloak ) OR Silk Soar x 2 |  | Verified | ✓ |  |
 | TC | the climb | up left door | low left door | none |  | Verified | ✓ |  |
 | UDC | up door crossing | up left door | up right door | cling grip right OR scuttlebrace OR (cling grip left AND faydown cloak) OR (silk soar AND (easy beast pogo OR clawline right OR sharpdart OR dash right)) |  | Verified | ✓ |  |
 | UDC | up door crossing | up right door | up left door | run OR clawline left OR sharpdart OR faydown cloak OR drifter's cloak OR easy hunter pogo OR easy reaper pogo OR easy beast pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo |  | Verified | ✓ |  |

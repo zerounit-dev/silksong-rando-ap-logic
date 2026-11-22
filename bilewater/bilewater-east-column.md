@@ -13,6 +13,7 @@
 | S3 | middle | ✓ |
 | S4 | floor | ✓ |
 | S5 | nest | ✓ |
+| S6 | small plat | ✓ |
 
 ## Room Transitions
 
@@ -27,14 +28,18 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FM | Floor to middle | floor | middle | Silk soar OR ((cling grip OR scuttlebrace) AND (clawline OR sharpdart OR faydown cloak)) OR (cling grip AND drifter’s cloak) |  | Verified | ✓ |  |
+| FM | Floor to middle | floor | middle | Silk soar |  | Verified | ✓ |  |
 | FM | Floor to middle | middle | floor | none |  | Verified | ✓ |  |
-| MU | middle to upper | middle | upper | Silk soar OR ((cling grip OR scuttlebrace) AND (clawline OR sharpdart OR faydown cloak)) OR (cling grip AND drifter’s cloak) |  | Verified | ✓ |  |
+| MU | middle to upper | middle | upper | Silk soar OR scuttlebrace OR (cling grip left AND faydown) OR (cling grip right AND  (clawline left OR sharpdart OR easy beast pogo OR dash left OR faydown OR drifter's)) |  | Verified | ✓ |  |
 | MU | middle to upper | upper | middle | none |  | Verified | ✓ |  |
 | FN | floor to nest | floor | nest | swim |  | Verified | ✓ |  |
 | FN | floor to nest | nest | floor | swim OR (proficient movement AND medium flintslate stall AND clawline right AND faydown cloak AND drifter's cloak AND ledge grab right) |  | Verified | ✓ |  |
 | MBW | middle to behind wall | middle | behind wall | break wall left |  | Verified | ✓ |  |
 | MBW | middle to behind wall | behind wall | middle | break wall right |  | Verified | ✓ |  |
+| FSP | floor to small plat | floor | small plat | cling grip left OR scuttlebrace OR (faydown AND (ledge grab either OR cling grip right)) |  | Verified | ✓ |  |
+| FSP | floor to small plat | small plat | floor | none |  | Verified | ✓ |  |
+| SPM | small plat to middle | small plat | middle | (cling grip left AND (sharpdart OR clawline left OR drifter's OR faydown OR run)) OR (cling grip right AND faydown) |  | Verified | ✓ |  |
+| SPM | small plat to middle | middle | small plat | none |  | Verified | ✓ |  |
 
 ## Check Locations
 

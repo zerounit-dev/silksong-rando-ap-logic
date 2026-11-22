@@ -30,7 +30,7 @@
 | P1 | pogo 1 | upper left platforms | left exit area | none (falling) |  | Verified | ✓ |  |
 | L1 | ledge grab 1 | lower floor | left exit area | ledge grab left OR cling grip left OR silk soar  OR faydown cloak  OR easy shaman pogo OR ( easy reaper pogo AND easy pogo off skarr scout ) |  | Verified | ✓ |  |
 | L1 | ledge grab 1 | left exit area | lower floor | none (falling) |  | Verified | ✓ |  |
-| L2 | ledge grab 2 | upper left platforms | upper left alcove | ledge grab left OR cling grip left OR faydown cloak  OR silk soar  OR easy shaman pogo OR easy pogo off skarr stalker  OR (easy pogo off skarrlid AND (easy [wanderer,reaper,beast,architect,witch,shaman] pogo OR clawline left))  OR easy [plasmium,voltvessels] stall |  | Verified | ✓ |  |
+| L2 | ledge grab 2 | upper left platforms | upper left alcove | ledge grab left OR cling grip left OR faydown cloak  OR silk soar  OR easy shaman pogo OR easy pogo off skarr stalker  OR (easy pogo off skarrlid AND (easy [wanderer,reaper,beast,architect,witch,shaman] pogo OR clawline left))  OR easy [plasmium,voltvessels] stall OR intended [curveclaw,conchcutter,sting shard,pimpillo, straight pin,longpin, threefold pin,silkshot forge daugther,cogwork wheel,throwing ring] use |  | Verified | ✓ |  |
 | L2 | ledge grab 2 | upper left alcove | upper left platforms | none (falling) |  | Verified | ✓ |  |
 | RP | run jump left and pogo | trapped platform | upper left platforms | run OR easy pogo off skarrwing |  | Verified | ✓ | a little tight to be able to pogo off the fruit, but not that bad |
 | TP | to trapped platform | lower floor | trapped platform | ledge grab right OR cling grip right OR run OR dash right OR easy [ shaman, beast ] pogo OR easy [ architect, wanderer ] charge OR faydown OR silk soar OR clawline right OR sharpdart OR easy scuttlebrace OR flea brew |  | Verified | ✓ |  |
@@ -43,8 +43,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache hunters march 1 | upper left alcove | attack left OR use tool [curveclaw,conchcutter,sting shard,pimpillo,straight pin,longpin,threefold pin,silkshot forge daugther,cogwork wheel,throwing ring] |  | Verified | collectible | ✓ |  |
-| 2 | rosary cache hunters march 2 | upper left alcove | attack left OR use tool [curveclaw,conchcutter,sting shard,pimpillo,straight pin,longpin,threefold pin,silkshot forge daugther,cogwork wheel,throwing ring] |  | Verified | collectible | ✓ |  |
+| 1 | rosary cache hunters march 1 | upper left alcove | none |  | Verified | collectible | ✓ |  |
+| 2 | rosary cache hunters march 2 | upper left alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | rosary necklace hunters march | upper left platforms | none |  | Verified | collectible | ✓ |  |
 | 4 | Skarr Stalker 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
 | 5 | Skarrlid 1 | upper left alcove | None |  | Verified | enemy | ✓ |  |

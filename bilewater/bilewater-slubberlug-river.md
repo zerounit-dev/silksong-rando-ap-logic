@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_13
 
-**Contributors:** Herchey and pannenkoek2012
+**Contributors:** Herchey and pannenkoek2012 and Pyxl
 
 ## Subrooms
 
@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Mask Shard |  | cling grip right  AND  ( (faydown cloak AND drifter's cloak) OR ((clawline right OR sharpdart OR drifter's cloak) AND (faydown cloak OR medium pogo off Slubberlug))) |  | Verified | collectible | ✓ |  |
+| 1 | Bilewater - Mask Shard |  | (cling grip right  AND  ( (faydown cloak AND drifter's cloak) OR ((clawline right OR sharpdart OR drifter's cloak) AND (faydown cloak OR medium pogo off Slubberlug)))) OR ( Scuttlebrace AND Clawline right AND medium pogo off slubberlug ) |  | Verified | collectible | ✓ |  |
 | 2 | Slubberlug 1 |  | none |  | Verified | enemy | ✓ |  |
 | 3 | Slubberlug 2 |  | none |  | Verified | enemy | ✓ |  |
 | 4 | Slubberlug 3 |  | none |  | Verified | enemy | ✓ |  |

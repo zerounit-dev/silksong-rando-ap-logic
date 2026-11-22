@@ -28,7 +28,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PL | Platforms | Lower Area | Upper Area | Ledge grab either OR Silksoar OR Faydown Cloak OR easy Shaman Crest pogo OR Cling Grip either |  | Verified | ✓ | Need to redo this one to be safe |
+| PL | Platforms | Lower Area | Upper Area | Ledge grab either OR Silksoar OR Faydown Cloak OR easy Shaman Crest pogo OR Cling Grip either OR easy plasmium stall OR Easy delvers drill stall |  | Verified | ✓ | Need to redo this one to be safe |
 | PL | Platforms | Upper Area | Lower Area | None |  | Verified | ✓ |  |
 
 ## Check Locations

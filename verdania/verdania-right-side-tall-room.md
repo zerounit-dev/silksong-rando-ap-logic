@@ -29,7 +29,7 @@
 | LL | Lower Ledge | Lower Left Entrance | Lower Right Transition | None |  | Verified | ✓ |  |
 | LL | Lower Ledge | Lower Right Transition | Lower Left Entrance | Ledge Grab Left OR Cling Grip Left OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
 | EP | Enemy Pool | Lower Right Transition | Lower Enemy Pool | None |  | Verified | ✓ |  |
-| EP | Enemy Pool | Lower Enemy Pool | Lower Right Transition | ( Swim AND Silk Soar ) OR Cling Grip left OR ( Faydown Cloak AND ( Easy Enemy pogo OR Ledge Grab Right OR Scuttlebrace ) ) |  | Verified | ✓ |  |
+| EP | Enemy Pool | Lower Enemy Pool | Lower Right Transition | ( Swim AND Silk Soar ) OR Cling Grip left OR ( Faydown Cloak AND ( Easy pogo off pendra OR Ledge Grab Right OR Scuttlebrace ) ) |  | Verified | ✓ |  |
 | LC | Lower Climb | Lower Left Entrance | Upper Left Transtions | Silk Soar OR ( Cling Grip both AND ( Faydown Cloak OR ( Hard Shaman Crest Pogo AND ( clawline both OR Sharpdart ) ) ) ) |  | Verified | ✓ |  |
 | LC | Lower Climb | Upper Left Transtions | Lower Left Entrance | None |  | Verified | ✓ |  |
 | UC | Upper Climb | Upper Left Transtions | Statue | Faydown Cloak OR ( Cling Grip left AND ( Hard Shaman Pogo OR Dash right OR Clawline right OR Sharpdart ) ) |  | Verified | ✓ |  |

@@ -27,7 +27,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | HP | hidden pathway | bellway | hidden area | unlock bellway rosary lock |  | Verified | ✓ |  |
 | HP | hidden pathway | hidden area | bellway | unlock bellway rosary lock |  | Verified | ✓ |  |
-| LT | thorn path left | hidden area | thorn path | ( silk soar AND ( ledge grab OR cling grip OR scuttlebrace ) )  OR ( faydown cloak AND (scuttlebrace OR cling grip ) ) OR ( break blast rock down AND drifter's cloak AND ( cling grip OR scuttlebrace ) ) |  | Verified | ✓ |  |
+| LT | thorn path left | hidden area | thorn path | ( silk soar AND ( ledge grab right OR cling grip right OR easy scuttlebrace ) )  OR ( faydown cloak AND (scuttlebrace OR cling grip either ) ) OR ( break blast rock down AND drifter's cloak AND ( cling grip right OR easy scuttlebrace OR (cling grip left AND ( easy pogo off Vicious Caranid OR ledge grab right )) ) ) |  | Verified | ✓ |  |
 | TP | thorn path right | right exit area | thorn path | silk soar OR drifter's cloak |  | Verified | ✓ |  |
 | LT | thorn path left | thorn path | hidden area | none |  | Verified | ✓ |  |
 | TP | thorn path right | thorn path | right exit area | none (fall) |  | Verified | ✓ |  |
@@ -37,13 +37,13 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench | bellway | unlock bench rosary lock |  | Verified | bench | ✓ |  |
-| 2 | bench rosary lock | bellway | none |  | Verified | lock | ✓ |  |
-| 3 | bellway rosary lock | bellway | none |  | Verified | lock | ✓ |  |
+| 2 | bench rosary lock | bellway | get 30 rosaries |  | Verified | lock | ✓ |  |
+| 3 | bellway rosary lock | bellway | get 40 rosaries |  | Verified | lock | ✓ |  |
 | 4 | bellway far fields | bellway | unlock bellway rosary lock |  | Verified | travel | ✓ |  |
 | 5 | Craw Summons | bellway | craw summons ready |  | Verified | collectible |  |  |
-| 6 | vicious caranid 1 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
-| 7 | vicious caranid 2 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
-| 8 | vicious caranid 3 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
+| 6 | Vicious Caranid 1 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
+| 7 | Vicious Caranid 2 | thorn path | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 8 | Vicious Caranid 3 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 
 ## Room Images
 

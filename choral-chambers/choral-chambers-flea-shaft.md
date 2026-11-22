@@ -36,7 +36,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VS | Vertical Base | Base Bottom | Base Middle | (cling grip left AND (dash left OR clawline left OR sharpdart OR flea brew)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR medium plasmium stall OR cling grip either)) OR silk soar OR  (cling grip both AND drifter's cloak) OR silk soar OR (easy scuttlebrace AND dash both AND (clawline left OR sharpdart OR faydown cloak OR ledge grab left OR cling grip left OR flea brew OR easy shaman pogo OR easy [rune rage, air heal, flintslate, cross stitch, thread storm, pale nails] stall)) |  | Verified | ✓ |  |
+| VS | Vertical Base | Base Bottom | Base Middle | (cling grip left AND (dash left OR clawline left OR sharpdart OR flea brew)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR medium plasmium stall OR cling grip either)) OR silk soar OR  (cling grip both AND drifter's cloak) OR silk soar OR (easy scuttlebrace AND dash both AND (clawline left OR sharpdart OR faydown cloak OR ledge grab left OR cling grip left OR flea brew OR  easy [rune rage, air heal, flintslate, cross stitch, thread storm, pale nails] stall)) OR easy shaman scuttle slide |  | Verified | ✓ |  |
 | VS | Vertical Base | Base Middle | Base Bottom | none |  | Verified | ✓ | falling |
 | VR | Vertical Middle | Base Middle | Base Upper Right | faydown cloak OR hard pogo off [Choir hornhead, Choir Pouncer] OR ((Dash right OR sharpdart OR clawline right) AND (ledge grab right OR cling grip right)) OR (run AND (ledge grab right OR cling grip right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy [air heal, voltvessels, plasmium, flintslate] stall)))) OR silk soar OR easy scuttlebrace OR (clawline right AND easy damage boost off [Choir Hornhead,Choir pouncer]) OR (cling grip left AND ((flea brew AND dash right) OR sharpdart OR clawline right)) OR (flea brew AND medium plasmium stall) |  | Verified | ✓ |  |
 | VR | Vertical Middle | Base Upper Right | Base Middle | none |  | Verified | ✓ | falling |
@@ -63,7 +63,7 @@
 | 4 | Choral Chambers - Saw Flea's kidnappers bonus | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
 | 5 | Choral Chambers Flea Shaft - Lever 1 | Top Section 1 | none |  | Verified | switch | ✓ |  |
 | 6 | Choral Chambers Flea Shaft - Lever 2 | Top Section 3 Right | none |  | Verified | switch | ✓ |  |
-| 7 | Choral Chambers Flea shaft - Air current | Top Section 2 | attack either |  | Verified | resource | ✓ |  |
+| 7 | Choral Chambers Flea shaft - Air current | Top Section 2 | attack either |  | Verified | switch | ✓ |  |
 | 8 | Choral Chambers Flea Shaft - Wall Air current | Top Section 2 | break wall right |  | Verified | blockade | ✓ |  |
 | 9 | Choral Chambers Flea Shaft - Flea Wall | Top Section 2 | break wall right |  | Verified | blockade | ✓ |  |
 | 10 | Choir Bellbearer 1 | Top Section 3 Left | Normal World Spawn |  | Verified | enemy | ✓ |  |

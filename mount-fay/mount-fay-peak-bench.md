@@ -22,8 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mount Fay Peak Bench |  | None |  | Verified | bench |  |  |
-| 2 | Silkshot ( Original ) |  | Have Craftmetal AND Have Ruined Tool |  | Verified | collectible |  |  |
+| 1 | Mount Fay Peak Bench |  | None |  | Verified | bench | ✓ |  |
+| 2 | Silkshot ( Original ) |  | Have Craftmetal AND Have Ruined Tool |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

@@ -32,11 +32,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| lp | lower platform crossing | low left platform | climb start wall | dash right OR clawline right OR swim |  | Verified | ✓ |  |
-| lp | lower platform crossing | climb start wall | low left platform | dash left OR clawline left OR swim |  | Verified | ✓ |  |
-| CR | climb wall to right | climb start wall | low right door platform | swim OR (clawline right OR (sharpdart AND (ledge grab right OR cling grip right))) |  | Verified | ✓ | Anything other than swim is a bit narrow of a window. Easy_skip? |
-| CR | climb wall to right | low right door platform | climb start wall | cling grip right AND (swim OR faydown cloak) |  | Verified | ✓ | faydown is a pretty narrow window. easy_skip? |
-| CUL | climb to upper left | climb start wall | up left door platform | (clawline left OR intended enemy pogo off Swamp Squit) AND (faydown cloak OR drifter's cloak) |  | Verified | ✓ |  |
+| lp | lower platform crossing | low left platform | climb start wall | dash right OR clawline right OR swim   OR (easy [hunter,wanderer] voltwater pogo AND faydown) OR (medium voltvessels stall x 2 AND faydown) |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11 |
+| lp | lower platform crossing | climb start wall | low left platform | dash left OR clawline left OR swim  OR (easy [hunter,wanderer] voltwater pogo AND faydown) OR (medium voltvessels stall x 2 AND faydown) |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11 |
+| CR | climb wall to right | climb start wall | low right door platform | swim OR (clawline right OR (sharpdart AND (ledge grab right OR cling grip right)))  OR (easy [hunter,wanderer] voltwater pogo AND faydown) OR (medium voltvessels stall x 2 AND faydown) |  | Verified | ✓ | Anything other than swim is a bit narrow of a window. Easy_skip? |
+| CR | climb wall to right | low right door platform | climb start wall | (cling grip right AND (swim OR faydown cloak)) OR (easy [hunter,wanderer] voltwater pogo AND faydown) OR (medium voltvessels stall x 2 AND faydown) OR (faydown AND medium beast pogo) |  | Verified | ✓ | faydown is a pretty narrow window. easy_skip? |
+| CUL | climb to upper left | climb start wall | up left door platform | (clawline left OR intended enemy pogo off Swamp Squit) AND (faydown cloak OR drifter's cloak) | TODO | Needs verification | ✓ | Marked as todo, because it is 100% NOT possible to do with clawline left AND drifters (without ememy pogo offs) |
 | CUL | climb to upper left | up left door platform | climb start wall | drifter's cloak OR (faydown cloak AND clawline right) |  | Verified | ✓ |  |
 | ULL | upper left to lower left | up left door platform | low left platform | drifter's cloak OR (faydown cloak AND clawline left) |  | Verified | ✓ |  |
 | ULT | upper left to top | up left door platform | upper platform | faydown cloak AND (cling grip left OR (scuttlebrace AND (drifter's cloak OR easy beast pogo OR clawline right OR sharpdart))) |  | Verified | ✓ |  |

@@ -23,11 +23,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | hidden area | Entrance | Main Area | (silk soar AND silkhearts x 1) OR (faydown cloak AND (cling grip OR easy scuttlebrace)) |  | Verified |  |  |
-| h2 | hidden area other way | Main Area | Entrance | cling grip OR (faydown cloak AND (easy shaman pogo AND easy scuttlebrace)) |  | Verified |  | enemy pogos can be done but its a weird rng so ima leave it untouched |
+| H | hidden area | Entrance | Main Area | silk soar OR (faydown cloak AND (cling grip either OR easy scuttlebrace)) |  | Verified |  |  |
+| h2 | hidden area other way | Main Area | Entrance | cling grip left OR (faydown cloak AND (easy shaman pogo AND easy scuttlebrace)) |  | Verified |  | enemy pogos can be done but its a weird rng so ima leave it untouched |
 | f | fall | Memorium exit | Main Area | nada |  | Verified |  |  |
-| c | climb | Main Area | Memorium exit | (silk soar AND silkhearts x 1) OR ( faydown cloak AND cling grip) |  | Verified |  | enemy pogos can be done but its a weird rng so ima leave it untouched |
-| lc | long clawline spam | Memorium exit | Entrance | drifter's cloak AND clawline AND silkhearts x 1 AND (medium scuttlebrace OR (faydown cloak AND easy scuttlebrace)) |  | Verified |  |  |
+| c | climb | Main Area | Memorium exit | silk soar OR ( faydown cloak AND cling grip right) |  | Verified |  | enemy pogos can be done but its a weird rng so ima leave it untouched |
+| lc | long clawline spam | Memorium exit | Entrance | (drifter's cloak AND clawline left AND silkhearts x 1 AND (medium scuttlebrace OR (faydown cloak AND easy scuttlebrace)))  OR (proficient movement AND hard shaman scuttle slide) |  | Verified |  |  |
 
 ## Check Locations
 

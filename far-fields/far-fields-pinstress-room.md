@@ -43,7 +43,7 @@
 | RBA | right basin access | lava basin | upper right exit area | none |  | Verified | ✓ | actually none both ways - not even ledge grab |
 | LRA | lower right access | upper right exit area | lower right exit area | none (falling) |  | Verified | ✓ |  |
 | LRA | lower right access | lower right exit area | upper right exit area | cling grip either  OR easy scuttlebrace  OR drifter's cloak  OR (faydown cloak AND ledge grab left AND medium [flea brew, rune rage, thread storm] stall) |  | Verified | ✓ |  |
-| RHA | right hut access | pinstress lower walkway | pinstress hut platform | ledge grab left  OR faydown cloak  OR cling grip left  OR scuttlebrace  OR clawline  OR easy beast pogo  OR flea brew  OR easy shaman pogo  OR easy pogo off Caranid OR medium pogo off Vicious Caranid OR (cling grip right AND (run OR dash right OR clawline right OR sharpdart OR architect slash right) AND (dash left  OR clawline left  OR sharpdart OR (architect slash left AND easy architect pogo))) OR (cling grip right AND (drifter's cloak OR easy architect needle strike)) OR (ponder the orb AND dash either) |  | Verified | ✓ |  |
+| RHA | right hut access | pinstress lower walkway | pinstress hut platform | ledge grab left  OR faydown cloak  OR cling grip left  OR scuttlebrace  OR easy beast pogo  OR flea brew  OR easy shaman pogo  OR easy pogo off Caranid OR medium pogo off Vicious Caranid OR (cling grip right AND (run OR dash right OR clawline right OR sharpdart OR architect slash right) AND (dash left  OR clawline left  OR sharpdart OR (architect slash left AND easy architect pogo))) OR (cling grip right AND (drifter's cloak OR easy architect needle strike)) OR (ponder the orb AND dash either) |  | Verified | ✓ |  |
 | RHA | right hut access | pinstress hut platform | pinstress lower walkway | none (falling) |  | Verified | ✓ |  |
 | HA | hut ascend | lava basin | pinstress hut platform | drifter's cloak OR silk soar |  | Verified |  |  |
 | HA | hut ascend | pinstress hut platform | lava basin | none (falling) |  | Verified |  |  |
@@ -64,13 +64,14 @@
 | LEG | left exit gap | lower left exit area | lower hangoff platform | none (falling) |  | Verified | ✓ |  |
 | HD | hut drop | pinstress hut platform | lower hangoff platform | none (falling) |  | Verified | ✓ |  |
 | HD | hut drop | lower hangoff platform | pinstress hut platform | drifter's cloak |  | Verified | ✓ |  |
-| HWC | hut walkway cross | upper right exit area | pinstress lower walkway | ledge grab left OR cling grip left OR (cling grip right AND (architect slash left OR easy [shaman, reaper] pogo OR easy wanderer needle strike OR easy voltvessels stall)) OR drifter's cloak OR clawline left OR run OR dash left OR easy beast pogo OR easy [beast, architect] needle strike OR flea brew OR easy pogo off Caranid OR medium pogo off Vicious Caranid |  | Verified | ✓ |  |
+| HWC | hut walkway cross | upper right exit area | pinstress lower walkway | ledge grab left OR cling grip left OR (cling grip right AND (architect slash left OR  medium shaman pogo OR (proficient movement AND medium reaper pogo) OR easy wanderer needle strike OR easy voltvessels stall)) OR drifter's cloak OR clawline left OR run OR dash left OR easy beast pogo OR easy [beast, architect] needle strike OR flea brew OR easy pogo off Caranid OR medium pogo off Vicious Caranid |  | Verified | ✓ |  |
 | HWC | hut walkway cross | pinstress lower walkway | upper right exit area | none (falling) |  | Verified | ✓ |  |
 | LC | lonesome climb | lonely fertid hangoff | upper left exit area | (cling grip left AND (faydown cloak OR (clawline right AND cling grip right AND (sharpdart OR easy shaman pogo)))) OR silk soar |  | Verified | ✓ |  |
 | LC | lonesome climb | upper left exit area | lonely fertid hangoff | none (falling) |  | Verified | ✓ |  |
 | BCG | basin clawline glide | upper right exit area | lower hangoff platform | clawline left x 4 OR (clawline left AND silkhearts x 2) |  | Verified | ✓ | redundant inverse connection, can be navigated without additional abilities |
 | HRC | hut ring clawline | pinstress lower walkway | lower hangoff platform | clawline left x 3 OR (clawline left AND silkhearts x 2) |  | Verified | ✓ |  |
 | HRC | hut ring clawline | lower hangoff platform | pinstress lower walkway | (easy shaman pogo OR ledge grab right OR cling grip right) AND (clawline right x 3 OR (clawline right AND silkhearts x 2)) |  | Verified | ✓ |  |
+| FPJ | fertid pinstress jump | pinstress hut platform | lonely fertid hangoff | drifter's cloak  OR (faydown cloak AND (sharpdart x 2 OR clawline left x 2) AND cling grip left) |  | Verified | ✓ |  |
 
 ## Check Locations
 

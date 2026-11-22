@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_02b
 
-**Contributors:** herounit
+**Contributors:** herounit, Pyxl
 
 ## Subrooms
 
@@ -27,17 +27,17 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | lower walkway | upper right platforms | run OR clawline both OR ( ledge grab AND ( dash both OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak ) ) |  | Verified | ✓ |  |
+| V1 | vertical 1 | lower walkway | upper right platforms | Faydown Cloak OR Silk soar OR Sharpdart x 3 OR ( ( Sprint Right OR Dash Right OR easy beast pogo OR Clawline right OR Drifters cloak OR easy plasmium stall x 4 OR Easy flea brew stall x 3 ) AND ( Sprint left OR dash left OR ( Ledge grab left AND Drifters cloak ) OR flea brew OR clawline left ) ) |  | Verified | ✓ | Could be useful! https://discord.com/channels/731205301247803413/1546349251099893861/1569890071530708992 |
 | V1 | vertical 1 | upper right platforms | lower walkway | none (falling) |  | Verified | ✓ |  |
-| LC | lava crossing | lower walkway | lower right exit platform | run  OR dash right  OR clawline right  OR sharpdart  OR cling grip either  OR silk soar  OR drifter's cloak   OR faydown cloak OR architect slash right OR easy [beast, architect] needle strike OR easy naked pogo  OR easy [hunter, architect, shaman, reaper] pogo |  | Verified | ✓ |  |
-| LC | lava crossing | lower right exit platform | lower walkway | run  OR dash left  OR clawline left  OR sharpdart  OR cling grip both  OR silk soar  OR drifter's cloak  OR faydown cloak  OR easy [beast, architect] needle strike OR (ledge grab left AND (easy naked pogo OR easy [hunter, architect, shaman] pogo)) OR (architect slash left AND easy architect pogo) |  | Verified | ✓ |  |
+| LC | lava crossing | lower walkway | lower right exit platform | run Right OR dash right  OR clawline right  OR sharpdart  OR cling grip either  OR silk soar  OR drifter's cloak   OR faydown cloak OR architect slash right OR easy [beast, architect] needle strike OR easy naked pogo  OR easy [hunter, architect, shaman, reaper] pogo |  | Verified | ✓ |  |
+| LC | lava crossing | lower right exit platform | lower walkway | run left OR dash left  OR clawline left  OR sharpdart  OR cling grip both  OR silk soar  OR drifter's cloak  OR faydown cloak  OR easy [beast, architect] needle strike OR (ledge grab left AND (easy naked pogo OR easy [hunter, architect, shaman] pogo)) OR (architect slash left AND easy architect pogo) |  | Verified | ✓ |  |
 | V2 | vertical 2 | lower walkway | upper left platforms | silk soar |  | Verified | ✓ |  |
 | V2 | vertical 2 | upper left platforms | lower walkway | none (falling) |  | Verified | ✓ |  |
-| UC | upper crossing | upper right platforms | upper left platforms | run OR dash left OR clawline left OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak OR (proficient movement AND cling grip right) |  | Verified | ✓ |  |
-| UC | upper crossing | upper left platforms | upper right platforms | run  OR dash right  OR clawline right  OR sharpdart  OR silk soar  OR drifter's cloak  OR faydown cloak  OR cling grip both |  | Verified | ✓ |  |
-| V3 | vertical 3 | lower right exit platform | upper right platforms | cling grip OR silk soar |  | Verified | ✓ |  |
+| UC | upper crossing | upper right platforms | upper left platforms | run left OR dash left OR clawline left OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak OR (proficient movement AND cling grip right) |  | Verified | ✓ |  |
+| UC | upper crossing | upper left platforms | upper right platforms | run left  OR dash right  OR clawline right  OR sharpdart  OR silk soar  OR drifter's cloak  OR faydown cloak  OR cling grip both |  | Verified | ✓ |  |
+| V3 | vertical 3 | lower right exit platform | upper right platforms | cling grip right OR silk soar OR Scuttlebrace |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right platforms | lower right exit platform | none (falling) |  | Verified | ✓ |  |
-| AC | alcove access | lower walkway | check alcove | ledge grab OR silk soar OR faydown cloak OR clawline OR easy shaman pogo OR easy beast needle strike OR (easy [beast, architect, reaper] pogo AND easy damage boost off enemy Flapping Fertid) OR cling grip either |  | Verified | ✓ | i love shaman pogo |
+| AC | alcove access | lower walkway | check alcove | ledge grab either OR silk soar OR faydown cloak OR easy shaman pogo OR easy beast needle strike OR (easy [beast, architect, reaper] pogo AND easy damage boost off enemy Flapping Fertid) OR cling grip either |  | Verified | ✓ | i love shaman pogo |
 | AC | alcove access | check alcove | lower walkway | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

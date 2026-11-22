@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_01
 
-**Contributors:** herchey and Moriko Kyoho's dog
+**Contributors:** herchey and Lace (she didn't help at all because she was on the phone with Hornet the whole time)
 
 ## Subrooms
 

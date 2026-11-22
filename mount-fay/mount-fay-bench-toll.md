@@ -19,7 +19,7 @@
 | LR | right2 | Lower Area | [Memory Crystal (Bellway_Peak_02)](memory-crystal.md) | L | complete Breakable Wall - Mount Fay Bench Toll |  | Verified | ✓ | Can Be Broken From Both sides |
 | C | top1 | Upper Area | [Mount Fay Lower Slope (Peak_05)](mount-fay-lower-slope.md) | F | Silk Soar OR ( Cling Grip both AND ( Dash Right OR Drifters Cloak OR Faydown Cloak OR Clawline Right ) ) OR ( Clawline Right AND Faydown Cloak AND Ledge Grab Left ) OR ( Faydown Cloak AND Scuttlebrace ) |  | Verified | ✓ |  |
 | UL | left1 | Upper Area | [Mount Fay Mask Shard (Peak_04c)](mount-fay-mask-shard.md) | UR | None |  | Verified | ✓ |  |
-| LL | left2 | Lower Area | [Mount Fay Mask Shard (Peak_04c)](mount-fay-mask-shard.md) | LR | Ledge Grab Left OR ( Dash AND Prereq bench toll AND Proficient Movement ) OR Faydown Cloak OR Cling Grip Left OR Silk Soar |  | Verified | ✓ |  |
+| LL | left2 | Lower Area | [Mount Fay Mask Shard (Peak_04c)](mount-fay-mask-shard.md) | LR | Ledge Grab Left OR ( Dash both AND Prereq bench toll AND Proficient Movement ) OR Faydown Cloak OR Cling Grip Left OR Silk Soar |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

@@ -30,21 +30,21 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LM | left to mid | left door plat | up left plat | swim OR run OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
-| LM | left to mid | up left plat | left door plat | swim OR run OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
+| LM | left to mid | left door plat | up left plat | swim OR run OR clawline right x 1 OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo OR easy voltvessels stall x 1 |  | Verified | ✓ |  |
+| LM | left to mid | up left plat | left door plat | swim OR run OR clawline left x 1 OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
 | MF | mid to flea | below flea | flea room | cling grip left OR (faydown cloak AND cling grip right) OR scuttlebrace |  | Verified | ✓ |  |
 | MF | mid to flea | flea room | below flea | none |  | Verified | ✓ |  |
 | MBR | mid to bottom right | below flea | bottom | break wall right |  | Verified | ✓ |  |
 | MBR | mid to bottom right | bottom | below flea | cling grip either OR scuttlebrace |  | Verified | ✓ |  |
 | MRP | mid to right plat | below flea | right door plat | faydown cloak AND cling grip right |  | Verified | ✓ |  |
 | MRP | mid to right plat | right door plat | below flea | none |  | Verified | ✓ | falling |
-| WB | wall breakthrough | bottom | bottom right | break wall right AND (swim OR (proficient movement AND clawline right AND (faydown OR ledge grab right OR cling grip right))) |  | Verified | ✓ |  |
+| WB | wall breakthrough | bottom | bottom right | break wall right AND ((swim OR (proficient movement AND clawline right AND (faydown OR ledge grab right OR cling grip right)))  OR ((hard [hunter,wanderer] voltwater pogo x 2 OR drifters) AND faydown AND cling grip right AND proficient movement)) | TODO | Verified | ✓ |  |
 | WB | wall breakthrough | bottom right | bottom | break wall left AND (swim OR (proficient movement AND faydown AND (clawline left OR sharpdart))) |  | Verified | ✓ |  |
-| UL | up to low | up left plat | low hall | (swim OR dash right OR scuttlebrace OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak) |  | Verified | ✓ |  |
+| UL | up to low | up left plat | low hall | (swim OR dash right OR scuttlebrace OR clawline right OR sharpdart OR faydown cloak OR drifter's cloak OR easy voltvessels stall x 1) |  | Verified | ✓ |  |
 | UL | up to low | low hall | up left plat | cling grip left OR (faydown cloak AND cling grip right) OR scuttlebrace |  | Verified | ✓ |  |
-| LOM | low to mid | low hall | below flea | cling grip right OR (faydown cloak AND cling grip left) OR scuttlebrace |  | Verified | ✓ |  |
+| LOM | low to mid | low hall | below flea | cling grip right OR (faydown cloak AND cling grip left) OR scuttlebrace OR (cling grip left AND proficient movement) |  | Verified | ✓ |  |
 | LOM | low to mid | below flea | low hall | swim OR dash left OR clawline left OR sharpdart OR faydown cloak OR drifter's cloak OR easy beast pogo |  | Verified | ✓ |  |
-| RT | right to top | right door plat | top plat | (faydown cloak AND (cling grip either OR ledge grab either)) OR (proficient movement AND scuttlebrace AND clawline) OR (silk soar AND dash left) |  | Verified | ✓ |  |
+| RT | right to top | right door plat | top plat | (faydown cloak AND (cling grip either OR ledge grab either)) OR (proficient movement AND scuttlebrace AND clawline left AND (ledge grab left OR elite ball knowledge)) OR (silk soar AND dash left) |  | Verified | ✓ |  |
 | RT | right to top | top plat | right door plat | none |  | Verified | ✓ | falling |
 
 ## Check Locations

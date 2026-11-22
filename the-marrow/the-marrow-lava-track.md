@@ -38,9 +38,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LT | lava track | left lava track | right lava track | activate track pressure plate  OR ( clawline right x 8 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
 | LT | lava track | right lava track | left lava track | activate track pressure plate  OR ( clawline left x 8 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
-| LC | left caranid access | left lava track | caranids over lava | activate track pressure plate OR ( clawline right x 4 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
-| RC | right caranid access | right lava track | caranids over lava | activate track pressure plate OR ( clawline left x 4 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
-| AM | ascend to maze | right lava track | lower maze 2 | cling grip left OR silk soar  OR ( easy scuttlebrace AND ( ledge grab either OR faydown cloak ) ) |  | Verified | ✓ |  |
+| LC | left caranid access | left lava track | caranids over lava | activate track pressure plate OR ( clawline right x 4 AND easy shaman pogo ) OR hard shaman scuttle slide |  | Verified | ✓ | other stalls would work but would be harder |
+| RC | right caranid access | right lava track | caranids over lava | activate track pressure plate OR ( clawline left x 4 AND easy shaman pogo ) OR (hard shaman scuttle slide AND easy pogo off caranid) |  | Verified | ✓ | other stalls would work but would be harder |
+| AM | ascend to maze | right lava track | lower maze 2 | cling grip left OR silk soar  OR easy scuttlebrace OR ( cling grip right AND ( medium enemy pogo off caranid OR ( faydown AND easy enemy pogo off caranid ))) |  | Verified | ✓ |  |
 | AM | ascend to maze | lower maze 2 | right lava track | none (falling) |  | Verified | ✓ |  |
 | RBW | right break wall | lower maze 2 | lower maze 3 | break wall right |  | Verified | ✓ |  |
 | RBW | right break wall | lower maze 3 | lower maze 2 | break wall left |  | Verified | ✓ |  |

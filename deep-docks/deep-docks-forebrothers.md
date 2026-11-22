@@ -24,7 +24,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | RB | right boss entrance | right area | boss area | none (starts fight) |  | Verified | ✓ |  |
-| RB | right boss entrance | boss area | right area | defeat forebrothers boss fight AND (Cling Grip either OR Faydown Cloak OR Silk Soar OR (easy scuttlebrace AND easy shaman pogo)) |  | Verified | ✓ |  |
+| RB | right boss entrance | boss area | right area | defeat forebrothers boss fight AND (Cling Grip either OR Faydown Cloak OR Silk Soar OR (easy scuttlebrace AND (easy shaman pogo OR hard flea brew stall OR (easy beast crest heal stall AND easy [flea brew,parry,thread storm,flintslate,rune rage,pale nails] stall)))) |  | Verified | ✓ |  |
 | LB | left boss entrance | left area | boss area | defeat forebrothers boss fight |  | Verified | ✓ |  |
 | LB | left boss entrance | boss area | left area | defeat forebrothers boss fight |  | Verified | ✓ |  |
 

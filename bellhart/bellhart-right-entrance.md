@@ -31,6 +31,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bellhart Elevator | Upper Level | None |  | Verified | switch | ✓ |  |
+| 2 | Shellwood missed lore tablet | Lower Level | None |  | Verified | lore | ✓ |  |
 
 ## Room Images
 

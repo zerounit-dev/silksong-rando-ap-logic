@@ -26,15 +26,15 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LA | left to arena | left of arena | arena | none |  | Verified | ✓ |  |
 | LA | left to arena | arena | left of arena | none |  | Verified | ✓ |  |
-| RA | right to arena | right of arena | arena | clawline OR sharpdart OR drifter's cloak OR sharpdart OR run |  | Verified | ✓ |  |
-| RA | right to arena | arena | right of arena | clawline OR sharpdart OR drifter's cloak OR sharpdart OR run |  | Verified | ✓ |  |
+| RA | right to arena | right of arena | arena | clawline left OR sharpdart OR drifter's cloak OR sharpdart OR run |  | Verified | ✓ |  |
+| RA | right to arena | arena | right of arena | clawline right OR sharpdart OR drifter's cloak OR sharpdart OR run |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Groal the Great | arena | Combat Requirements |  | Verified | boss | ✓ | Technically none, lol. |
-| 2 | Bilewater - Bilehaven Plaque | right of arena | cling grip OR silk soar OR scuttlebrace |  | Verified | lore | ✓ |  |
+| 2 | Bilewater - Bilehaven Plaque | right of arena | cling grip right OR silk soar OR scuttlebrace |  | Verified | lore | ✓ |  |
 | 3 | Stilkin 1 | arena | none |  | Verified | enemy | ✓ |  |
 | 4 | Stilkin 2 | arena | none |  | Verified | enemy | ✓ |  |
 | 5 | Stilkin Trapper 1 | arena | none |  | Verified | enemy | ✓ |  |

@@ -2,7 +2,7 @@
 
 **Game ID:** Shellgrave
 
-**Contributors:** Pyxl
+**Contributors:** Pyxl, Hutyrix
 
 ## Subrooms
 
@@ -21,14 +21,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LG | Damn Ledge Grab Rando | Lower | Upper | Ledge grab left OR cling grip left OR Scuttlebrace OR Faydown Cloak OR silk Soar OR Easy Beast Charge OR Easy shaman pogo OR Easy silkspear stall OR easy plasmium stall OR easy voltvessels stall OR easy delvers drill stall OR easy beast crest heal stall OR Medium Flea brew stall OR ( Easy pogo off rosary pilgrim AND ( Have Tool: straight pin OR Have Tool: threefold pin OR Have Tool: Throwing Ring OR Have Tool: Conchcutter OR Have Tool: Cogwork Wheel OR Curveclaw OR easy pale nails stall ) ) OR ( Medium pogo off rosary pilgrim AND ( Have Tool: Silkshot original OR Have Tool: Silkshot Forge daughter OR Have Tool: Silkshot Twelfth Architect OR Have tool: sting shard ) ) |  | Verified | ✓ |  |
+| LG | Damn Ledge Grab Rando | Lower | Upper | Ledge grab left OR cling grip left OR Scuttlebrace OR Faydown Cloak OR silk Soar OR Easy Beast Charge OR Easy shaman pogo OR Easy silkspear stall OR easy plasmium stall OR easy voltvessels stall OR easy delvers drill stall OR easy beast crest heal stall OR Medium Flea brew stall |  | Verified | ✓ |  |
 | LG | Damn Ledge Grab Rando | Upper | Lower | None |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cross | Lower | Ledge grab left OR cling grip left OR Scuttlebrace OR Faydown Cloak OR silk Soar OR Easy Beast Charge OR Easy shaman pogo OR Easy silkspear stall OR easy plasmium stall OR easy voltvessels stall OR easy delvers drill stall OR easy beast crest heal stall OR ( Easy pogo off rosary pilgrim AND ( Have Tool: straight pin OR Have Tool: threefold pin OR Have Tool: Throwing Ring OR Have Tool: Conchcutter OR Have Tool: Cogwork Wheel OR Curveclaw ) ) OR ( Curveclaw OR Have Tool: straight pin OR Have Tool: threefold pin OR Have Tool: Throwing Ring OR Have Tool: Conchcutter OR Have Tool: Cogwork Wheel OR easy pale nails stall ) OR medium flea brew stall OR ( Medium pogo off rosary pilgrim AND ( Have Tool: Silkshot original OR Have Tool: Silkshot Forge daughter OR Have Tool: Silkshot Twelfth Architect OR Have tool: sting shard ) ) |  | Verified | resource | ✓ | Not included no id finally getting included? pycl - 8/11  Moved to lower subroom with reqs to reach it from there cause of these damn curveclaw users. Pyxl - 14/11 |
+| 1 | Rosary Cross | Lower | Ledge grab left OR cling grip left OR Scuttlebrace OR Faydown Cloak OR silk Soar OR Easy Beast Charge OR Easy shaman pogo OR Easy silkspear stall OR easy plasmium stall OR easy voltvessels stall OR easy delvers drill stall OR easy beast crest heal stall OR Medium Flea brew stall OR ( Easy pogo off rosary pilgrim AND ( easy [ straight pin, threefold pin, throwing ring, conchcutter, cogwork wheel, curveclaw, silkshot Original, silkshot twelfth architect, silkshot forge daugther ,sting shard, pale nails] use )) |  | Verified | resource | ✓ | Not included no id finally getting included? pycl - 8/11  Moved to lower subroom with reqs to reach it from there cause of these damn curveclaw users. Pyxl - 14/11  Changed all instances of Have tool: -> Use tool:, because it is a major difffrence. For example, you can't use curveclaw with shaman, but you can have it. Hutyrix - 16/11  fixed your spelling of silkshots - pyxl - 18/11 |
 | 2 | Save Plinney | Upper | ACT 3 |  | Verified | event | ✓ | Plinney comes here upon starting act 3 and starts an encounter |
 | 3 | Pilgrim Bellbearer 1 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |
 | 4 | Pilgrim Guide 1 | Upper | Prereq save plinney |  | Verified | enemy | ✓ |  |

@@ -39,7 +39,7 @@
 | 1 | Choral Chambers Spa - Lever Chambers | Spa | none |  | Verified | switch | ✓ |  |
 | 2 | Choral Chambers Spa - Lever Chambers 2 | Spa | none |  | Verified | switch | ✓ |  |
 | 3 | Choral Chambers Spa - bench | High Showers | none |  | Verified | bench | ✓ |  |
-| 4 | Choral Chambers Spa - block | High Showers | attack either AND clear Choral Chambers Spa - Breakable wall |  | Verified | resource | ✓ |  |
+| 4 | Choral Chambers Spa - block | High Showers | attack either AND clear Choral Chambers Spa - Breakable wall |  | Verified | blockade | ✓ |  |
 | 5 | Choral Chambers Spa - Breakable wall | High Showers | break wall left |  | Verified | blockade | ✓ |  |
 
 ## Room Images

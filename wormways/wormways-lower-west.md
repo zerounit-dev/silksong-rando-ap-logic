@@ -29,7 +29,7 @@
 | LC | left climb | left exit shaft | upper tunnels | ((spike pogo OR dash right OR (proficient movement AND easy naked pogo)) AND (silk soar OR cling grip right)) OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
 | LC | left climb | upper tunnels | left exit shaft | cling grip right  OR faydown cloak  OR easy [reaper, architect, shaman, beast] pogo OR ((easy scuttlebrace OR cling grip left) AND (spike pogo OR dash left OR easy naked pogo)) OR (ponder the orb AND dash left AND medium [hunter, witch, wanderer] pogo) |  | Verified | ✓ |  |
 | RC | right climb | right exit tunnel | right exit basement | none (falling) |  | Verified | ✓ |  |
-| RC | right climb | right exit basement | right exit tunnel | cling grip either  OR easy scuttlebrace  OR easy enemy pogo |  | Verified | ✓ |  |
+| RC | right climb | right exit basement | right exit tunnel | cling grip either  OR easy scuttlebrace  OR easy pogo off grom |  | Verified | ✓ | speficied pogo has to be off grom, pyxl |
 | TS | tunnel shaft | lower tunnels | upper tunnels | silk soar  OR easy scuttlebrace  OR cling grip either  OR (ponder the orb AND faydown cloak AND ledge grab left AND dash either AND (medium flea brew stall x 2 OR (medium heal stall AND have crest beast))) |  | Verified | ✓ |  |
 | TS | tunnel shaft | upper tunnels | lower tunnels | none (falling) |  | Verified | ✓ |  |
 | TC | tunnel connector | right exit tunnel | upper tunnels | none |  | Verified |  |  |
@@ -81,6 +81,8 @@ this one seems a bit tricky, but also it's just a bit late
 i think you need cling grip to from any one point to another in here
 TODO: review the mapping in here
 cry: wasn't sure how to mark the second markable wall in this room, there's one at the left exit and one right before the climb connecting to the tunnel network -- the full area behind this second wall is left in the dark until that wall is broken; worth noting since you will have to navigate to it blindly in future room rando if you first enter this room from the left entrance
+
+ report dark areas behind rooms like that and moriko can remove the dark weve had similar situations in most areas already - Pyxl
 
 ## Room Images
 

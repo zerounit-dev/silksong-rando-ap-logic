@@ -16,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | bot1 | main floor | [Far Fields Pinstress Attic (Bone_East_09b)](far-fields-pinstress-attic.md) | C | none |  | Verified | ✓ |  |
-| L | left1 | main floor | [Far Fields Pilgrim's Rest (Bone_East_10)](far-fields-pilgrim-s-rest.md) | LR | activate pilgrims rest church door switch |  | Verified |  |  |
+| L | left1 | main floor | [Far Fields Pilgrim's Rest (Bone_East_10)](far-fields-pilgrim-s-rest.md) | LR | activate Far Fields - Pilgrim's Rest Church - Door Switch |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -29,8 +29,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | flea pilgrims rest | flea rescue area | none |  | Verified | collectible | ✓ |  |
-| 2 | pilgrims rest church door switch | main floor | none (attack) |  | Verified | switch | ✓ | formerly just door switch |
+| 1 | Far Fields - Pilgrim's Rest Church - Flea | flea rescue area | none |  | Verified | collectible | ✓ | formerly flea pilgrims rest |
+| 2 | Far Fields - Pilgrim's Rest Church - Door Switch | main floor | none (attack) |  | Verified | switch | ✓ | formerly pilgrims rest church door switch |
 | 3 | pilgrims rest rhinogrund beast shard | main floor | defeat Rhinogrund pilgrim's rest church |  | Verified | collectible |  |  |
 | 4 | Rhinogrund pilgrim's rest church | main floor | Normal World Spawn |  | Verified | miniboss | ✓ | formerly rhinogrund miniboss fight |
 

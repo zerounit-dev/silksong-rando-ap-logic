@@ -24,7 +24,6 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Delver's Drill |  | none |  | Verified | collectible | ✓ |  |
 | 2 | Useless Breakable Wall |  | Break Wall Right |  | Verified | blockade | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

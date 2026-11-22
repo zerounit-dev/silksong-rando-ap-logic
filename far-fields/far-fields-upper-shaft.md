@@ -16,12 +16,13 @@
 | S6 | right march bridge room | ✓ |
 | S7 | first shaft scaffold | ✓ |
 | S8 | wind shaft ascent | ✓ |
+| S9 | bottom platforms | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 | top wind tunnel | [Greymoor West Bellshrine Room (Greymoor_01)](../greymoor/greymoor-west-bellshrine-room.md) | D | drifter's cloak OR (silk soar AND (cling grip OR scuttlebrace)) |  | Verified | ✓ | silk soar will not attach to the exit ceiling |
+| C | top1 | top wind tunnel | [Greymoor West Bellshrine Room (Greymoor_01)](../greymoor/greymoor-west-bellshrine-room.md) | D | drifter's cloak OR (silk soar AND (cling grip either OR easy scuttlebrace)) |  | Verified | ✓ | silk soar will not attach to the exit ceiling |
 | UR | right1 | right march bridge room | [Far Fields Deep Entrance (Bone_East_24)](far-fields-deep-entrance.md) | L | none |  | Verified | ✓ |  |
 | L | left1 | left march bridge room | [Hunter's March Deep Entrance (Ant_09)](../hunter-s-march/hunter-s-march-deep-entrance.md) | R | none |  | Verified | ✓ |  |
 | LR | right2 | the bottom | [Far Fields Pilgrim's Rest (Bone_East_10)](far-fields-pilgrim-s-rest.md) | UL | none |  | Verified | ✓ |  |
@@ -31,11 +32,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | the bottom | first shaft scaffold | drifter's cloak OR silk soar OR cling grip OR (scuttlebrace AND faydown cloak) |  | Verified | ✓ |  |
-| V1 | vertical 1 | first shaft scaffold | the bottom | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | first shaft scaffold | above middle gate | drifter's cloak OR silk soar OR (faydown cloak AND (scuttlebrace OR cling grip)) OR (cling grip AND easy enemy pogo) |  | Verified | ✓ |  |
+| V0 | vertical 0 | the bottom | bottom platforms | cling grip left OR  (drifter's cloak AND activate lower gate lever AND clear r4 blast rock IN far fields wind shaft) OR (faydown cloak AND (ledge grab left OR easy scuttlebrace OR (medium beast heal stall AND easy beast pogo))) |  | Verified | ✓ |  |
+| V0 | vertical 0 | bottom platforms | the bottom | none (falling) |  | Verified | ✓ |  |
+| V1 | vertical 1 | bottom platforms | first shaft scaffold | (drifter's cloak AND break blast rock down) OR silk soar  OR cling grip right  OR (easy scuttlebrace AND faydown cloak) |  | Verified | ✓ |  |
+| V1 | vertical 1 | first shaft scaffold | bottom platforms | none (falling) |  | Verified | ✓ |  |
+| V2 | vertical 2 | first shaft scaffold | above middle gate | drifter's cloak  OR silk soar OR (faydown cloak AND (easy scuttlebrace OR cling grip either OR ledge grab left OR easy pogo off Caranid)) OR (cling grip right AND proficient movement) OR (cling grip left AND activate middle gate lever) |  | Verified | ✓ |  |
 | V2 | vertical 2 | above middle gate | first shaft scaffold | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | above middle gate | hunters march bridge | drifter's cloak OR silk soar OR (activate hunter's march bridge lever AND (faydown cloak AND (ledge grab OR cling grip OR (proficient movement AND scuttlebrace AND easy flea brew stall )))) |  | Verified | ✓ |  |
+| V3 | vertical 3 | above middle gate | hunters march bridge | (drifter's cloak AND activate lower gate lever AND activate middle gate lever AND break blast rock down) OR silk soar OR (activate hunter's march bridge lever AND (faydown cloak  AND (cling grip left  OR (cling grip right  AND (dash left  OR clawline left  OR easy [beast, architect] pogo  OR easy [architect, beast, wanderer, witch] needle strike  OR architect slash left OR (easy reaper pogo AND easy reaper needle strike))) OR (proficient movement AND easy scuttlebrace AND easy flea brew stall )))) |  | Verified | ✓ |  |
 | V3 | vertical 3 | hunters march bridge | above middle gate | none (falling) |  | Verified | ✓ |  |
 | LB | left bridge crossing | left march bridge room | hunters march bridge | activate hunter's march bridge lever |  | Verified | ✓ |  |
 | LB | left bridge crossing | hunters march bridge | left march bridge room | activate hunter's march bridge lever |  | Verified | ✓ |  |
@@ -58,9 +61,9 @@
 | 6 | Caranid 2 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
 | 7 | Vicious Caranid 2 | wind shaft ascent | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
 | 8 | Caranid 3 | wind shaft ascent | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 9 | Vicious Caranid 3 | the bottom | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 10 | Caranid 4 | the bottom | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 11 | Vicious Caranid 4 | the bottom | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 9 | Vicious Caranid 3 | bottom platforms | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 10 | Caranid 4 | bottom platforms | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 11 | Vicious Caranid 4 | bottom platforms | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
 | 12 | Vicious Caranid 5 | above middle gate | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
 | 13 | Caranid 5 | wind shaft ascent | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
 

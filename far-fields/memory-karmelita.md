@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| AP | arena passage | entrance | arena | silk soar OR faydown cloak OR cling grip right |  | Verified | ✓ |  |
-| AP | arena passage | arena | entrance | silk soar OR ( faydown cloak AND ledge grab either) OR cling grip either |  | Verified | ✓ |  |
+| AP | arena passage | entrance | arena | silk soar OR faydown cloak OR cling grip right OR (elite ball Knowledge AND medium flea brew stall AND dash either AND ledge grab right AND (ledge grab left OR cling grip left)) |  | Verified | ✓ |  |
+| AP | arena passage | arena | entrance | silk soar  OR ( faydown cloak AND ledge grab either)  OR cling grip either |  | Verified | ✓ |  |
 
 ## Check Locations
 

@@ -31,7 +31,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak |  | Verified | collectible | ✓ | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
+| 1 | mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak OR shaman hit up |  | Verified | collectible | ✓ | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
 | 2 | vent boulder 1 | right side | none (attack) |  | Verified | blockade | ✓ | must be broken to return escape tunnel with drifter's cloak |
 | 3 | vent boulder 2 | left side tunnel | none (attack) |  | Verified | blockade | ✓ | must be broken to return to right side using drifter's cloak |
 | 4 | vent boulder 3 | left side tunnel | none (attack) |  | Verified | blockade | ✓ | break to cross left using drifter's cloak |

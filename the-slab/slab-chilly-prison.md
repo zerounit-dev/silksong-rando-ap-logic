@@ -18,7 +18,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Left | [Mount Fay Entrance (Peak_01)](../mount-fay/mount-fay-entrance.md) | MSR | none |  | Verified | ✓ |  |
 | B | bot1 | Left | [Slab Indolent Room (Slab_14)](slab-indolent-room.md) | T | none |  | Verified | ✓ |  |
-| T | top1 | Top | [Slab Arena (Slab_16)](slab-arena.md) | B | cling grip left OR cling grip right OR enemy pogo OR faydown cloak OR scuttlebrace OR silk soar |  | Verified | ✓ | both grip sides |
+| T | top1 | Top | [Slab Arena (Slab_16)](slab-arena.md) | B | cling grip either OR easy pogo off drapemite OR faydown cloak OR easy scuttlebrace OR silk soar x 1 |  | Verified | ✓ | both grip sides |
 | R | right1 | Right | [Slab Cell (Slab_03)](slab-cell.md) | CHL | none |  | Verified | ✓ |  |
 
 ## Subroom Connections

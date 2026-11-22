@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_02
 
-**Contributors:** Herchey and Wesker (his cat)
+**Contributors:** Herchey, Wesker (his cat), Pyxl
 
 ## Subrooms
 
@@ -41,7 +41,7 @@
 | MC1 | mid climb 1 | mid climb first | mid right | none |  | Verified | ✓ | Just needs the sac pogo. |
 | MUR | mid to halfway | mid climb first | halfway up | (cling grip right AND faydown)  OR (cling grip left AND faydown AND scuttlebrace AND clawline left) OR (cling grip both AND (clawline both OR (clawline right AND drifter's cloak) OR (proficient movement AND dash both))) |  | Verified | ✓ |  |
 | MUR | mid to halfway | halfway up | mid climb first | none |  | Verified | ✓ | falling |
-| UPR | halfway to rosary | halfway up | rosary plat | faydown cloak OR (cling grip left AND intended enemy pogo off bloatroach AND (clawline right OR sharpdart OR drifter's cloak OR easy beast pogo)) |  | Verified | ✓ |  |
+| UPR | halfway to rosary | halfway up | rosary plat | faydown cloak OR (cling grip left AND intended enemy pogo off bloatroach AND (clawline right OR sharpdart OR drifter's cloak OR easy beast pogo)) OR Silk Soar |  | Verified | ✓ |  |
 | UPR | halfway to rosary | rosary plat | halfway up | none |  | Verified | ✓ | falling |
 | HUL | halfway to upper left | halfway up | up left | faydown cloak AND (cling grip both OR (cling grip left AND scuttlebrace AND proficient movement)) |  | Verified | ✓ |  |
 | HUL | halfway to upper left | up left | halfway up | none |  | Verified | ✓ | falling |

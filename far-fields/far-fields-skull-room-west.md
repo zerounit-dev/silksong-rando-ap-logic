@@ -22,7 +22,7 @@
 | UL | left1 | upper left exit area | [Far Fields Pinstress Room (Bone_East_09)](far-fields-pinstress-room.md) | UR | none |  | Verified | ✓ |  |
 | LL | left2 | lower left exit area | [Far Fields Pinstress Room (Bone_East_09)](far-fields-pinstress-room.md) | LR | none |  | Verified | ✓ |  |
 | UR | right1 | bone bridge | [Far Fields Skull Room East (Bone_East_14b)](far-fields-skull-room-east.md) | UL | none |  | Verified | ✓ |  |
-| LR | right2 | main floor | [Far Fields Skull Room East (Bone_East_14b)](far-fields-skull-room-east.md) | LL | break blast rock right |  | Verified | ✓ |  |
+| LR | right2 | main floor | [Far Fields Skull Room East (Bone_East_14b)](far-fields-skull-room-east.md) | LL | break blast rock right |  | Verified | ✓ | Rock cannot be broken from inside the wall if you enter here (ER relevant) |
 
 ## Subroom Connections
 
@@ -34,9 +34,9 @@
 | V1 | vertical 1 | upper left exit area | main floor | clear upper left blast rock blockade |  | Verified | ✓ |  |
 | V2 | vertical 2 | main floor | relic alcove | clear upper left blast rock blockade AND ( drifter's cloak OR silk soar OR (faydown AND medium damage boost off hoker AND easy pogo off hoker AND (cling grip either OR (easy drill crystal pogo AND ledge grab left))) OR (easy shaman pogo AND easy pogo off hoker AND faydown AND (cling grip either OR easy scuttlebrace))) |  | Verified | ✓ |  |
 | V2 | vertical 2 | relic alcove | main floor | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | main floor | rosary alcove | drifter's cloak  OR faydown cloak  OR silk soar  OR ((medium shaman pogo OR ledge grab right) AND ( run OR dash left OR easy beast pogo OR cling grip left OR clawline left x 2 OR sharpdart x 2 OR easy scuttlebrace OR (sharpdart AND ledge grab left))) OR (easy pogo off winged pilgrim AND (dash left OR easy damage boost off winged pilgrim OR easy beast pogo OR easy architect charge OR ledge grab)) |  | Verified | ✓ |  |
+| V3 | vertical 3 | main floor | rosary alcove | drifter's cloak  OR faydown cloak  OR silk soar  OR ((medium shaman pogo OR ledge grab right) AND ( run OR dash left OR easy beast pogo OR cling grip left OR clawline left x 2 OR sharpdart x 2 OR easy scuttlebrace OR (sharpdart AND ledge grab left))) OR (easy pogo off winged pilgrim AND (dash left OR easy damage boost off winged pilgrim OR easy beast pogo OR easy architect charge OR ledge grab both)) |  | Verified | ✓ |  |
 | V3 | vertical 3 | rosary alcove | main floor | none (falling) |  | Verified | ✓ |  |
-| V4 | vertical 4 | main floor | bone bridge | clear spine break blast rock AND ( faydown cloak OR silk soar OR ledge grab OR cling grip ) |  | Verified | ✓ |  |
+| V4 | vertical 4 | main floor | bone bridge | clear spine break blast rock AND (faydown cloak OR silk soar OR ledge grab both OR cling grip right OR easy pogo off Winged Pilgrim) |  | Verified | ✓ |  |
 | V4 | vertical 4 | bone bridge | main floor | clear spine break blast rock |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -47,11 +47,11 @@
 | 2 | relic bone scroll far fields | relic alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | rosary cache far fields 5 | rosary alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | rosary cache far fields 6 | rosary alcove | none |  | Verified | collectible | ✓ |  |
-| 5 | spine break blast rock | bone bridge | break blast rock up |  | Verified | blockade |  |  |
+| 5 | spine break blast rock | bone bridge | break blast rock up |  | Verified | blockade | ✓ |  |
 | 6 | lower left blast rock blockade | lower left exit area | break blast rock right |  | Verified | blockade |  |  |
 | 7 | Resting Site Far Fields | bone bridge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
 | 8 | upper left blast rock blockade | upper left exit area | break blast rock left |  | Verified | blockade |  |  |
-| 9 | Garmond and Zaza Act 3 Meeting Far Fields East | main floor | Act 3 |  | Verified | event | ✓ |  |
+| 9 | Garmond and Zaza Act 3 Meeting Far Fields East | main floor | Black Thread World Spawn |  | Verified | event | ✓ |  |
 | 10 | Fertid 1 | upper left exit area | none |  | Verified | enemy | ✓ |  |
 | 11 | Hoker 1 | main floor | none |  | Verified | enemy | ✓ |  |
 | 12 | Hoker 2 | main floor | none |  | Verified | enemy | ✓ |  |

@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | lower to upper | lower | upper | Scuttlebrace OR cling grip |  | Verified | ✓ |  |
+| UL | lower to upper | lower | upper | Scuttlebrace OR  cling grip left OR  (faydown AND cling grip right) |  | Verified | ✓ |  |
 | UL | lower to upper | upper | lower | none |  | Verified | ✓ |  |
 
 ## Check Locations

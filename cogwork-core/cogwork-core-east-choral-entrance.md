@@ -10,12 +10,13 @@
 | --- | --- | --- |
 | S1 | Left Side | ✓ |
 | S2 | Right Side | ✓ |
+| S3 | Right Exit | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Right Side | [Rotating Tunnel (Song_20b)](../choral-chambers/rotating-tunnel.md) | LH | Activate Cogwork Core: Flip Switch #3 |  | Verified | ✓ |  |
+| R | right1 | Right Exit | [Rotating Tunnel (Song_20b)](../choral-chambers/rotating-tunnel.md) | LH | none |  | Verified | ✓ |  |
 | L | left2 | Left Side | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | MR | Nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -24,12 +25,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | J | Jump | Left Side | Right Side | Spike Pogo OR (Clawline AND (Drifter's Cloak OR Faydown Cloak OR (Faydown Cloak AND Swift Step 2 AND (Drifter's Cloak OR Spike Pogo)))) |  | Verified | ✓ |  |
 | J | Jump | Right Side | Left Side | Spike Pogo OR (Clawline AND (Drifter's Cloak OR Faydown Cloak OR (Faydown Cloak AND Swift Step 2 AND (Drifter's Cloak OR Spike Pogo)))) |  | Verified | ✓ |  |
+| D | Door | Right Side | Right Exit | Activate Cogwork Core Right Entrance Door Switch |  | Verified | ✓ |  |
+| D | Door | Right Exit | Right Side | Activate Cogwork Core Right Entrance Door Switch |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Core: Flip Switch #3 | Right Side | Flip Switch Up |  | Verified | switch | ✓ |  |
+| 1 | Cogwork Core Right Entrance Door Switch | Right Side | Flip Switch Up |  | Verified | switch | ✓ |  |
 | 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images

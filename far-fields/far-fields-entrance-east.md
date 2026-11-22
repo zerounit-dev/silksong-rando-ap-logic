@@ -25,13 +25,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | deep docks platform | main pathway | run  OR faydown cloak  OR sharpdart  OR clawline right OR ( ledge grab right AND ( dash right OR drifter's cloak ) )  OR (proficient movement AND cling grip AND (easy beast pogo OR easy shaman pogo OR easy architect needle strike OR easy beast needle strike OR flea brew OR architect slash left)) |  | Verified | ✓ | couldn't get beast crest pogo to work, but might be possible |
+| RJ | running jump | deep docks platform | main pathway | run  OR faydown cloak  OR sharpdart  OR clawline right OR ( ledge grab right AND ( dash right OR drifter's cloak ) )  OR (proficient movement AND cling grip both AND (easy beast pogo OR easy shaman pogo OR easy architect needle strike OR easy beast needle strike OR flea brew OR architect slash left)) OR (proficient movement AND cling grip left AND hard heal stall AND (ledge grab right OR cling grip right)) |  | Verified | ✓ | couldn't get beast crest pogo to work, but might be possible |
 | RJ | running jump | main pathway | deep docks platform | ledge grab left  OR run  OR dash left  OR easy [beast, hunter, reaper, architect] pogo OR easy naked pogo  OR easy [beast, architect] needle strike  OR architect slash left OR flea brew |  | Verified | ✓ |  |
-| V1 | vertical 1 | main pathway | ceiling exit platform | silk soar  OR (faydown cloak AND (cling grip OR (ledge grab AND dash AND (clawline right OR easy architect needle strike OR easy beast needle strike)) OR clawline right x 2 )) |  | Verified | ✓ |  |
+| V1 | vertical 1 | main pathway | ceiling exit platform | silk soar  OR (faydown cloak AND (cling grip right OR (ledge grab right AND dash right AND (clawline right OR easy architect needle strike OR easy beast needle strike)) OR clawline right x 2 )) |  | Verified | ✓ |  |
 | V1 | vertical 1 | ceiling exit platform | main pathway | none (falling) |  | Verified | ✓ |  |
 | V2 | vertical 2 | main pathway | main platforms | faydown cloak  OR (proficient movement AND scuttlebrace)  OR cling grip either OR easy beast needle strike  OR (easy shaman pogo AND easy pogo off Flapping Fertid) OR (ledge grab either AND (run OR dash right)) |  | Verified | ✓ |  |
 | V2 | vertical 2 | main platforms | main pathway | none (falling) |  | Verified | ✓ |  |
-| GO | gap out | main platforms | ceiling exit platform | faydown cloak  OR clawline right  OR (ledge grab right AND (run OR dash right OR drifter's cloak OR sharpdart OR architect slash right OR easy beast pogo ) )  OR (proficient movement AND (cling grip both OR easy scuttlebrace)) OR (easy beast pogo AND easy pogo off Flapping Fertid) |  | Verified | ✓ | enemy pogo reliant on Flapping Fertid; redundant invverse connection with V2/V!; connections invalid for act 3, the connecting platform is gone |
+| GO | gap out | main platforms | ceiling exit platform | Normal World Spawn AND (faydown cloak  OR clawline right  OR (ledge grab right AND (run OR dash right OR drifter's cloak OR sharpdart OR architect slash right OR easy beast pogo ) )  OR (proficient movement AND (cling grip both OR easy scuttlebrace)) OR (easy beast pogo AND easy pogo off Flapping Fertid)) |  | Verified | ✓ |  |
 
 ## Check Locations
 

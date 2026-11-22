@@ -2,7 +2,7 @@
 
 **Game ID:** Peak_04
 
-**Contributors:** Pyxl
+**Contributors:** Pyxl, Hutyrix
 
 ## Subrooms
 
@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Left Ledge | Right Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND intended Pogo off mnemonid |  | Verified | ✓ |  |
-| IL | Ice Lake | Right Ledge | Left Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid |  | Verified | ✓ | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo off mnemonid |
+| IL | Ice Lake | Left Ledge | Right Ledge | ( ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND intended Pogo off mnemonid )  OR (hard [wanderer,hunter] voltwater pogo x 5 AND faydown AND drifters AND (cbt [hunter,wanderer] pogo AND dash left)) |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11  Ledge grabs are not accounted, same as easy, but viable damage boosts. -Hutyrix 18/11 |
+| IL | Ice Lake | Right Ledge | Left Ledge | ( ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid )  OR (hard [hunter,wanderer] voltwater pogo x 5 AND faydown AND drifters AND attack right AND (cbt [hunter,wanderer] pogo OR dash right)) |  | Verified | ✓ | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo off mnemonid |
 
 ## Check Locations
 

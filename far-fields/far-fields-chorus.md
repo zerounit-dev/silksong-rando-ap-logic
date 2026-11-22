@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_08
 
-**Contributors:** herounit
+**Contributors:** herounit, Pyxl
 
 ## Subrooms
 
@@ -30,7 +30,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V1 | vertical 1 | bone bridge | left exit area | silk soar OR drifter's cloak |  | Verified | ✓ |  |
 | V1 | vertical 1 | left exit area | bone bridge | none (falling) |  | Verified | ✓ |  |
-| G1 | gap 1 | left exit area | upper left alcove | drifter's cloak  OR clawline right OR (easy hunter pogo AND sharpdart x 2) OR (easy beast pogo AND (sharpdart x 1 OR dash right OR run)) OR (easy architect pogo AND (run AND easy voltvessels stall x 3)) |  | Verified | ✓ | one way only - or was it |
+| G1 | gap 1 | left exit area | upper left alcove | drifter's cloak  OR clawline right OR (easy hunter pogo AND ( sharpdart x 2 OR easy voltvessels stall x 3 OR Medium silkshot original stall x 3 ( silkshot only works if in a top tool slot apparently?) OR easy flea brew stall x 4) ) OR (easy beast pogo AND ( Faydown cloak OR sharpdart x 1 OR dash right OR run OR easy voltvessels stall x 2 OR Hard silkshot original stall x 2 OR easy flintslate stall x 3 OR easy plasmium stall x 3 OR easy air bind stall x 1 OR ( Ledge grab right AND flea brew )OR easy rune rage stall x 2 OR easy silkspear stall x 3 OR easy cross stitch stall x 2 OR easy pale nails stall x 2 OR easy thread storm stall x 2 OR easy flea brew stall x 3 )) OR (easy architect pogo AND ((run AND easy voltvessels stall x 3) OR medium voltvessels stall x 3 OR medium [plasmium,flea brew] stall x 4 OR hard silkshot original stall x 3 )) OR ( flea brew AND easy voltvessels stall x 6 ) |  | Verified | ✓ | one way only - or was it  Not just silkshot, you can only use tools to cancel a pogo if you are not holding down (so they have to be in the top slot). |
 | G1 | gap 1 | upper left alcove | left exit area | proficient movement  AND faydown cloak  AND cling grip left AND ((sharp dart AND (dash left OR flea brew)) OR clawline left) |  | Verified | ✓ | behold, two-way (this sucked) |
 | V2 | vertical 2 | lower left side | upper left alcove | silk soar OR drifter's cloak |  | Verified | ✓ |  |
 | V2 | vertical 2 | upper left alcove | lower left side | none (falling) |  | Verified | ✓ |  |

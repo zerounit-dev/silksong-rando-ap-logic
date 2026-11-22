@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | lower area | upper area | clawline OR (enemy pogo AND (cling grip OR ledge grab OR faydown cloak OR drifter's cloak OR dash)) |  | Verified | ✓ | converted get kidnapped into subroom connection to simplify kidnapping requirements |
+| V1 | vertical 1 | lower area | upper area | clawline right OR cling grip right OR ledge grab right OR faydown cloak OR drifter's cloak OR dash right OR easy beast pogo |  | Verified | ✓ | converted get kidnapped into subroom connection to simplify kidnapping requirements |
 | V1 | vertical 1 | upper area | lower area | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

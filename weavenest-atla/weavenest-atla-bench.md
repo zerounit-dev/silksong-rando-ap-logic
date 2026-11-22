@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SW | swim | bench area | left exit area | swim OR ( proficient movement AND ( dash left AND faydown AND ledge grab left AND hard beast crest heal stall ) ) |  | Verified | ✓ | pilky said this took them 15 minutes to record after doing it second try. hard it goes - hero, 11/3 |
-| SW | swim | left exit area | bench area | swim |  | Verified | ✓ |  |
+| SW | swim | bench area | left exit area | swim OR  ( proficient movement AND (( dash left AND faydown AND hard beast crest heal stall ) OR (( clawline left OR sharpdart )AND ( faydown OR cling grip left )))) |  | Verified | ✓ | pilky said this took them 15 minutes to record after doing it second try. hard it goes - hero, 11/3 |
+| SW | swim | left exit area | bench area | swim OR  ( proficient movement AND (( clawline right OR sharpdart ) AND faydown )) |  | Verified | ✓ |  |
 
 ## Check Locations
 

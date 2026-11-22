@@ -22,7 +22,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SR | secret room | entrance | secret room | unlock secret room lock |  | Verified | ✓ |  |
-| SR | secret room | secret room | entrance | unlock secret room lock AND ( cling grip OR silk soar OR scuttlebrace ) |  | Verified | ✓ |  |
+| SR | secret room | secret room | entrance | unlock secret room lock AND ( cling grip either OR silk soar OR scuttlebrace ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -31,14 +31,14 @@
 | 1 | silkspeed anklets | entrance | run  OR ( proficient movement AND ( architect slash right OR easy [ hunter, beast ] pogo ) ) |  | Verified | collectible | ✓ |  |
 | 2 | relic rune harp weavenest cindril | secret room | none |  | Verified | collectible | ✓ |  |
 | 3 | map of paths away from pharloom | secret room | none |  | Verified | lore | ✓ |  |
-| 4 | secret room lock | entrance | run AND silkspeed anklets AND flea brew speed |  | Verified | lock | ✓ |  |
+| 4 | secret room lock | entrance | run AND silkspeed anklets AND flea brew |  | Verified | lock | ✓ |  |
 | 5 | weavenest cindril bench | entrance | none |  | Verified | bench | ✓ |  |
-| 6 | Weaver Servitor Broken (1) 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Servitor Ignim 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Weaver Servitor Broken (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Weaver Servitor Broken (1) 1 | secret room | none |  | Verified | enemy | ✓ |  |
+| 7 | Servitor Ignim 1 | entrance | none |  | Verified | enemy | ✓ |  |
+| 8 | Weaver Servitor Broken 1 | secret room | none |  | Verified | enemy | ✓ |  |
+| 9 | Weaver Servitor Broken (2) 1 | secret room | none |  | Verified | enemy | ✓ |  |
 | 10 | Servitor Ignim 2 | entrance | needle up |  | Verified | enemy | ✓ |  |
-| 11 | Weaver Servitor Broken (1) 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Weaver Servitor Broken (1) 2 | secret room | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

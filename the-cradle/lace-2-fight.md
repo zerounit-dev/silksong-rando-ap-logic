@@ -16,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | D | door_cinematicEnd | Arena | [Cog Dancers (Cog_Dancers)](../cogwork-core/cog-dancers.md) | E | Prereq Boss: Lace 2 |  | Verified | ✓ | You know im not actually sure which of these doors is the elevator will need to double check once images are in |
-| R | right1 | Behind Right Gate | [Terminus Ventrica (Tube_Hub)](terminus-ventrica.md) | LL | None |  | Verified | ✓ |  |
+| R | right1 | Behind Right Gate | [Terminus Ventrica (Tube_Hub)](terminus-ventrica.md) | LL | Defeat Boss: Lace 2 |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

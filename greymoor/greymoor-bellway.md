@@ -27,7 +27,7 @@
 | PG1 | platform gap 1 | upper entrance | bellway zone | nothing |  | Verified | ✓ |  |
 | PG1 | platform gap 1 | bellway zone | upper entrance | ledge grab left OR cling grip either OR silk soar OR faydown cloak OR easy scuttlebrace OR easy shaman pogo OR medium flea brew stall OR easy [plasmium,voltvessels] stall OR easy beast charge |  | Verified | ✓ |  |
 | HP | hidden passage | bellway zone | lower passage | break wall left |  | Verified | ✓ |  |
-| HP | hidden passage | lower passage | bellway zone | break wall right AND (ledge grab right OR faydown cloak OR easy scuttlebrace OR cling grip right) |  | Verified | ✓ |  |
+| HP | hidden passage | lower passage | bellway zone | break wall right AND (ledge grab right OR faydown cloak OR easy scuttlebrace OR cling grip right OR easy shaman pogo) |  | Verified | ✓ |  |
 
 ## Check Locations
 

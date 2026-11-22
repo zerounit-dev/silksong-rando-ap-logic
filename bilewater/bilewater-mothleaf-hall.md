@@ -18,16 +18,16 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | left | [Bilewater Upper East Column (Shadow_26)](bilewater-upper-east-column.md) | UR | none |  | Verified | ✓ |  |
-| R | right | behind wall | [Bilewater East Bench (Shadow_08)](bilewater-east-bench.md) | L | none |  | Verified | ✓ | Only opens when breaking the left wall in shadow_08 |
+| R | right | behind wall | [Bilewater East Bench (Shadow_08)](bilewater-east-bench.md) | L | prereq Bilewater East Bench Left Exit Wall IN Bilewater East Bench |  | Verified | ✓ | Only opens when breaking the left wall in shadow_08 |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | left to center | left | center ground | (clawline right 2 OR sharpdart 2) OR swim OR (dash right AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline right)) OR (easy enemy pogo off Mothleaf Lagnia) |  | Verified | ✓ |  |
-| LC | left to center | center ground | left | (clawline left 2 OR sharpdart 2) OR swim OR (dash left AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline left)) OR (easy enemy pogo off Mothleaf Lagnia) |  | Verified | ✓ |  |
-| RC | right to center | right | center ground | run OR clawline left OR sharpdart OR (easy beast pogo AND ledge grab left) OR faydown cloak OR drifter's cloak |  | Verified | ✓ |  |
-| RC | right to center | center ground | right | (clawline right 2 OR sharpdart 2) OR swim OR easy beast pogo OR (dash right AND faydown cloak) OR (run AND (drifter's cloak OR sharpdart OR clawline right)) |  | Verified | ✓ |  |
+| LC | left to center | left | center ground | clawline right 2 OR sharpdart 2 OR swim OR (run AND (drifter's cloak OR sharpdart OR clawline right OR faydown)) OR (easy enemy pogo off Mothleaf Lagnia) OR (dash right AND faydown) |  | Verified | ✓ |  |
+| LC | left to center | center ground | left | (clawline left 2 OR sharpdart 2) OR swim  OR (run AND (drifter's cloak OR sharpdart OR clawline left OR faydown)) OR (easy enemy pogo off Mothleaf Lagnia) OR (dash left AND faydown) |  | Verified | ✓ |  |
+| RC | right to center | right | center ground | run OR clawline left OR sharpdart OR easy beast pogo OR faydown cloak OR drifter's cloak OR medium [hunter, wanderer] voltwater pogo |  | Verified | ✓ |  |
+| RC | right to center | center ground | right | Run OR clawline right OR sharpdart OR easy beast pogo OR faydown OR drifters OR medium [hunter, wanderer] voltwater pogo |  | Verified | ✓ |  |
 | RW | right to wall | right | behind wall | prereq Bilewater East - Breakable Wall |  | Verified | ✓ |  |
 | RW | right to wall | behind wall | right | prereq Bilewater East - Breakable Wall |  | Verified | ✓ |  |
 

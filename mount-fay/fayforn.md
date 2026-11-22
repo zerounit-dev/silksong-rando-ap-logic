@@ -36,6 +36,7 @@
 | CR | Crossing | Left Exit | Fayforn | Drifters Cloak |  | Verified | ✓ |  |
 | CR | Crossing | Fayforn | Left Exit | Dash Left OR Sprint Left OR Drifters Cloak OR Faydown Cloak OR Clawline Left OR Sharpdart OR Easy Beast Crest Pogo |  | Verified | ✓ |  |
 | BL | drop | Bench Entrance | Lower Entrance | none |  | Verified | ✓ |  |
+| BL | drop | Lower Entrance | Bench Entrance | Silk Soar |  | Verified | ✓ |  |
 
 ## Check Locations
 

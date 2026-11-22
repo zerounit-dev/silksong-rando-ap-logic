@@ -24,16 +24,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | left exit area | flea rescue area | ledge grab both OR faydown cloak OR silk soar OR clawline right OR cling grip both |  | Verified | ✓ |  |
+| S1 | shaft 1 | left exit area | flea rescue area | ledge grab both  OR faydown cloak  OR silk soar  OR clawline right  OR cling grip both |  | Verified | ✓ |  |
 | S1 | shaft 1 | flea rescue area | left exit area | none (falling) |  | Verified | ✓ |  |
 | S2 | shaft 2 | left exit area | camp | faydown cloak  OR silk soar OR (easy shaman pogo AND (easy pogo off Fertid OR run OR clawline right OR sharpdart)) OR (easy scuttlebrace AND easy [flea brew, cross stitch, rune rage, thread storm] stall) OR cling grip both  OR (cling grip left AND (run OR easy beast pogo  OR sharpdart  OR clawline right  OR easy [beast, architect] needle strike)) OR (cling grip right AND (dash left OR easy beast pogo  OR sharpdart  OR clawline left OR easy [beast, architect] needle strike OR drifter's cloak OR ledge grab left)) |  | Verified | ✓ |  |
 | S2 | shaft 2 | camp | left exit area | none (falling) |  | Verified | ✓ |  |
-| FA | flea ascend | flea rescue area | ceiling exit area | ledge grab both OR faydown cloak OR silk soar OR clawline left OR cling grip either |  | Verified | ✓ |  |
+| FA | flea ascend | flea rescue area | ceiling exit area | ledge grab both  OR faydown cloak  OR silk soar  OR clawline left  OR cling grip either |  | Verified | ✓ |  |
 | FA | flea ascend | ceiling exit area | flea rescue area | none (falling) |  | Verified | ✓ |  |
 | CA | camp ascend | camp | ceiling exit area | (easy pogo off Skarr Scout AND (ledge grab right OR easy scuttlebrace))  OR faydown cloak  OR silk soar  OR clawline right  OR cling grip either  OR run |  | Verified | ✓ |  |
 | CA | camp ascend | ceiling exit area | camp | none (falling) |  | Verified | ✓ |  |
 | MC | middling crossing | camp | flea rescue area | ledge grab left  OR run  OR dash right  OR sharpdart  OR drifter's cloak  OR faydown cloak  OR cling grip either  OR silk soar  OR easy scuttlebrace  OR clawline right  OR easy [shaman, beast] pogo  OR easy [beast, architect] needle strike OR architect slash right |  | Verified | ✓ |  |
-| MC | middling crossing | flea rescue area | camp | ledge grab OR run OR sharpdart OR clawline OR faydown cloak OR cling grip OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| MC | middling crossing | flea rescue area | camp | ledge grab left  OR run  OR sharpdart  OR clawline left  OR faydown cloak  OR cling grip either  OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
 
 ## Check Locations
 

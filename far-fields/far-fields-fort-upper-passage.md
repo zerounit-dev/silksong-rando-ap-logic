@@ -52,7 +52,7 @@
 | 1 | Far Fields - Fort Upper Passage - Rosaries Niche Stash 1 | check niche | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 14 |
 | 2 | Far Fields - Fort Upper Passage - Rosaries Niche Stash 2 | check niche | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 15 |
 | 3 | Far Fields - Fort Upper Passage - Stair Release Switch | karmelita's trust fund storage | flip switch up |  | Verified | switch | ✓ | formerly lower platform switch |
-| 4 | Far Fields - Fort Upper Passage - Skarr Rosaries Hoard Chest | karmelita's trust fund storage | none (attack)  OR (ponder the orb AND (((silk soar OR easy pogo off Flapping Fertid OR faydown cloak) AND needle up) OR (faydown cloak AND easy [beast, shaman, reaper] needle strike))) |  | Verified | collectible | ✓ | randomized? |
+| 4 | Far Fields - Fort Upper Passage - Skarr Rosaries Hoard Chest | karmelita's trust fund storage | activate Far Fields - Fort Upper Passage - Stair Release Switch OR (ponder the orb AND ((silk soar x 1 OR medium pogo off Flapping Fertid)  OR (faydown AND [hunter,reaper,beast,witch,architect,shaman] needle up) OR ((run right OR clawline right x 1 OR sharpdart) AND wanderer needle up AND faydown) OR (hard naked pogo AND hard pogo off Flapping Fertid))) |  | Verified | collectible | ✓ | randomized? |
 | 5 | Fertid 1 | main area | none |  | Verified | enemy | ✓ |  |
 | 6 | Flapping Fertid 1 | central rise | none |  | Verified | enemy | ✓ |  |
 | 7 | Flapping Fertid 2 | central rise | Normal World Spawn |  | Verified | enemy | ✓ |  |

@@ -2,7 +2,7 @@
 
 **Game ID:** Coral_19b
 
-**Contributors:** skai, MayaXTG
+**Contributors:** skai, MayaXTG, Pyxl
 
 ## Subrooms
 
@@ -26,13 +26,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EP1 | EntrancePharlid1 | Entrance | Pharlid1 | silk soar OR faydown cloak OR cling grip right OR (medium shaman pogo AND ledge grab left) |  | Verified | ✓ |  |
 | EP1 | EntrancePharlid1 | Pharlid1 | Entrance | Nothing (Fall) |  | Verified | ✓ |  |
-| P12 | Pharlid1to2 | Pharlid1 | Pharlid2 | cling grip right AND (easy shaman pogo OR medium beast pogo OR ((medium enemy pogo OR silk soar OR faydown cloak OR cling grip left) AND (spike pogo OR dash right OR clawline right x 1 OR sharpdart x 1))) |  | Verified | ✓ | include up slash to kill pharlid? |
+| P12 | Pharlid1to2 | Pharlid1 | Pharlid2 | ( cling grip right AND (easy shaman pogo OR medium beast pogo OR ((medium pogo off pharlid OR silk soar OR faydown cloak OR cling grip left) AND (spike pogo OR dash right OR clawline right x 1 OR sharpdart x 1))) ) OR ( medium shaman pogo AND Faydown Cloak AND Medium pogo off pharlid ) OR ( Spike pogo AND medium scuttlebrace AND Clawline right ) |  | Verified | ✓ | include up slash to kill pharlid? |
 | P12 | Pharlid1to2 | Pharlid2 | Pharlid1 | sharpdart x 1 OR clawline left x 1 OR dash left OR faydown cloak OR drifters cloak |  | Verified | ✓ |  |
-| P24 | Pharlid2to4 | Pharlid2 | Pharlid4 | (ledge grab right AND faydown cloak AND (easy shaman pogo OR easy hunter pogo OR medium reaper pogo OR medium witch pogo OR hard beast pogo OR hard architect pogo OR hard wanderer pogo)) OR ((cling grip either OR (faydown cloak AND spike pogo)) AND (drifters cloak OR faydown cloak OR clawline right x 1 OR dash right OR sharpdart x 1)) |  | Verified | ✓ | crossing the spike pit is easier or harder with some crests (the platform in the map falls and is unreliable) |
+| P24 | Pharlid2to4 | Pharlid2 | Pharlid4 | (ledge grab right AND faydown cloak AND (easy shaman pogo OR easy hunter pogo OR medium reaper pogo OR medium witch pogo OR hard beast pogo OR hard architect pogo OR hard wanderer pogo)) OR ((cling grip either OR (faydown cloak AND spike pogo)) AND (drifters cloak OR faydown cloak OR clawline right x 1 OR dash right OR sharpdart x 1))  OR ( Scuttlebrace AND easy hazard respawn AND medium scuttlebrace AND Clawline right ) |  | Verified | ✓ | crossing the spike pit is easier or harder with some crests (the platform in the map falls and is unreliable) |
 | P24 | Pharlid2to4 | Pharlid4 | Pharlid2 | ((faydown cloak OR clawline left x 1 OR dash left OR sharpdart x 1) AND cling grip left (above)) OR (spike pogo AND scuttlebrace (below)) |  | Verified | ✓ |  |
 | P4M | Pharlid4MaskShard | Pharlid4 | MaskShard | (cling grip right OR scuttlebrace) AND ((spike pogo OR dash left OR clawline left x 1 OR sharpdart x 1) AND (ledge grab left OR faydown cloak OR easy hazard respawn)) |  | Verified | ✓ |  |
 | P4M | Pharlid4MaskShard | MaskShard | Pharlid4 | dash right OR drifter's cloak OR clawline right x 1 OR sharpdart x 1 OR faydown cloak OR spike pogo |  | Verified | ✓ |  |
-| P2M | Pharlid2MaskSHard | MaskShard | Pharlid2 | spike pogo OR dash left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifter's cloak | TODO | Verified | ✓ | falling Needs an inverse, can be done with some shaman spike pogo with wings |
+| P2M | Pharlid2MaskSHard | MaskShard | Pharlid2 | spike pogo OR dash left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifter's cloak |  | Verified | ✓ |  |
+| P2M | Pharlid2MaskSHard | Pharlid2 | MaskShard | Medium shaman pogo AND Faydown Cloak AND ( Ledge grab either OR cling grip either ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

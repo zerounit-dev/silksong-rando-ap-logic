@@ -22,7 +22,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | IT | Ice Tunnel | Start | End | None |  | Verified | ✓ |  |
-| IT | Ice Tunnel | End | Start | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| IT | Ice Tunnel | End | Start | Cling Grip either OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 
 ## Check Locations
 

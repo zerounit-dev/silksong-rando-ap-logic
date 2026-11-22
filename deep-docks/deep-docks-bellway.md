@@ -24,7 +24,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | E | Entrance | Entry | Bell Beast | Nothing. (Fall) |  | Verified | ✓ |  |
-| E | Entrance | Bell Beast | Entry | Ledge Grab right OR Cling Grip right OR Faydown Cloak OR Silk Soar OR (hard beast crest heal stall AND ((cling grip left AND easy plasmium stall) OR (medium plasmium stall x 3))) |  | Verified | ✓ |  |
+| E | Entrance | Bell Beast | Entry | Ledge Grab right OR Cling Grip right OR Faydown Cloak OR Silk Soar OR (hard beast crest heal stall AND ((cling grip left AND easy plasmium stall) OR (medium plasmium stall x 3))) OR easy beast charge |  | Verified | ✓ |  |
 
 ## Check Locations
 

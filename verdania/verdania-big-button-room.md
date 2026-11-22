@@ -26,8 +26,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LL | Left Lake | Entrance | Shrine | ( Clawline Right AND ( Faydown Cloak OR Silk Soar ) ) OR ( Swim AND SIlk Soar AND Drifters Cloak ) |  | Verified | ✓ |  |
 | LL | Left Lake | Shrine | Entrance | Silk Soar AND Clawline left |  | Verified | ✓ |  |
-| RL | Right Lake | Shrine | Button LR | Swim OR ( Clawline Right AND ( easy Shaman crest pogo OR Drifters Cloak OR EAsy enemy pogo OR Faydown Cloak ) ) |  | Verified | ✓ |  |
-| RL | Right Lake | Button LR | Shrine | Swim OR ( Clawline left AND ( Easy shaman Crest pogo OR Drifters Cloak OR Easy Enemy pogo OR Faydown Cloak ) ) OR ( Cling Grip Right AND Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| RL | Right Lake | Shrine | Button LR | Swim OR ( Clawline Right AND ( easy Shaman crest pogo OR Drifters Cloak OR EAsy pogo off pendragor OR Faydown Cloak ) ) |  | Verified | ✓ |  |
+| RL | Right Lake | Button LR | Shrine | Swim OR ( Clawline left AND ( Easy shaman Crest pogo OR Drifters Cloak OR Easy pogo off pendragor OR Faydown Cloak ) ) OR ( Cling Grip Right AND Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
 | QP1 | Quick platforming 1 | Button LR | Button UR | ( Silk Soar OR Cling Grip Right ) AND ( Faydown Cloak AND Clawline Left AND ( Drifters Cloak OR Clawline Right ) ) |  | Verified | ✓ |  |
 | QP1 | Quick platforming 1 | Button UR | Button LR | None |  | Verified | ✓ |  |
 | QP2 | Quick Platforming 2 | Button LR | Button L | ( Silk Soar OR Cling Grip Right ) AND ( Faydown Cloak AND Clawline Left AND ( Drifters Cloak OR Clawline Right ) ) |  | Verified | ✓ |  |

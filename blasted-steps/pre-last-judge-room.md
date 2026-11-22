@@ -52,7 +52,7 @@
 | AC | PlatformAtoC | Platform C | Platform A | None (Fall) |  | Verified | ✓ |  |
 | BC | PlatformBtoC | Platform B | Platform C | (easy scuttlebrace AND (faydown cloak OR clawline right OR run OR easy [plasmium] stall OR medium [air bind] stall)) OR (cling grip left AND (faydown cloak OR run OR clawline right OR easy [plasmium] stall)) |  | Verified | ✓ |  |
 | BC | PlatformBtoC | Platform C | Platform B | None (Fall) |  | Verified | ✓ |  |
-| BD | PlatformBtoD | Platform B | Platform D | silk soar OR (faydown cloak AND (cling grip right OR easy scuttlebrace)) |  | Verified | ✓ |  |
+| BD | PlatformBtoD | Platform B | Platform D | silk soar OR (faydown cloak AND (cling grip right OR easy scuttlebrace)) |  | Verified | ✓ | Only subroom I changed, based on discord report ~ Hutyrix 17/11/26 |
 | BD | PlatformBtoD | Platform D | Platform B | None (Fall) |  | Verified | ✓ |  |
 | CD | PlatformCtoD | Platform C | Platform D | None (Jump) |  | Verified | ✓ |  |
 | CD | PlatformCtoD | Platform D | Platform C | faydown cloak OR ((clawline left OR run OR silk soar) AND (ledge grab left OR cling grip left)) |  | Verified | ✓ |  |
@@ -93,6 +93,7 @@
 ## Notes
 
 todo: Rewrite this room
+https://discord.com/channels/731205301247803413/1540758118361727056/1572299374933971146 <- volt wa
 
 ## Room Images
 

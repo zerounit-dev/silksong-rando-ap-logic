@@ -2,7 +2,7 @@
 
 **Game ID:** Coral_12
 
-**Contributors:** skai, MayaXTG
+**Contributors:** skai, MayaXTG, Hutyrix, Pyxl
 
 ## Subrooms
 
@@ -39,7 +39,7 @@
 | MET | Middle Entrance to Top | Middle Third (Entrance) | Top Third | Cling Grip right OR Silk Soar OR (Scuttlebrace AND Spike Pogo) OR (Faydown AND Easy Enemy Pogo) |  | Verified | ✓ |  |
 | MET | Middle Entrance to Top | Top Third | Middle Third (Entrance) | Nothing (Falling) |  | Verified | ✓ |  |
 | TTE | Top to Top Entrance | Top Third | Top Third (Entrance) | Nothing |  | Verified | ✓ |  |
-| TTE | Top to Top Entrance | Top Third (Entrance) | Top Third | dash left OR Faydown OR Clawline left x 1 OR Sharpdart OR Flea Brew   OR cling grip right OR hard hazard respawn (alternative setup, geo found it, unfortunatelly quite useless) OR easy [reaper,beast,shaman]  pogo OR (easy [hunter,wanderer,witch,architect] pogo AND ledge grab right) OR medium [hunter, wanderer] pogo OR hard [witch,architect] pogo OR medium cloakless pogo OR (easy cloakless pogo AND ledge grab right) |  | Verified | ✓ | 16/11/26 - Added Itemless syntax for Rosary Cache from Top Third Entrance ~Hutyrix |
+| TTE | Top to Top Entrance | Top Third (Entrance) | Top Third | dash Right OR Faydown OR Clawline Right x 1 OR Sharpdart OR Flea Brew   OR cling grip right OR hard hazard respawn (alternative setup, geo found it, unfortunatelly quite useless) OR easy [reaper,beast,shaman]  pogo OR (easy [hunter,wanderer,witch,architect] pogo AND ledge grab right) OR medium [hunter, wanderer] pogo OR hard [witch,architect] pogo OR medium cloakless pogo OR (easy cloakless pogo AND ledge grab right) |  | Verified | ✓ | 16/11/26 - Added Itemless syntax for Rosary Cache from Top Third Entrance ~Hutyrix  17/11/26 - Fixed the invered directions -Pyxl |
 
 ## Check Locations
 

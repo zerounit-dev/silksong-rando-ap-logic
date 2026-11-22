@@ -31,7 +31,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LWL | Behind left wall to left area | behind left wall | left area | complete Secret Wall Logic |  | Verified | ✓ |  |
-| LWL | Behind left wall to left area | left area | behind left wall | complete Secret Wall Logic AND (Silk soar OR faydown cloak OR cling grip left OR scuttlebrace) |  | Verified | ✓ |  |
+| LWL | Behind left wall to left area | left area | behind left wall | complete Secret Wall Logic AND (Silk soar OR faydown cloak OR cling grip left OR scuttlebrace OR medium [hunter,wanderer] voltwater pogo x 2) |  | Verified | ✓ |  |
 | LAM | Left area to middle area | left area | middle area | clawline right OR (sharpdart x 3 AND (drifter’s cloak OR faydown cloak)) OR (drifter’s cloak AND ((cling grip right AND ledge grab right) OR faydown cloak)) OR (swim AND ledge grab right) |  | Verified | ✓ |  |
 | LAM | Left area to middle area | middle area | left area | clawline left OR (sharpdart AND (drifter’s cloak OR faydown cloak)) OR (drifter’s cloak AND faydown cloak) OR (swim AND (ledge grab left OR cling grip left)) |  | Verified | ✓ |  |
 | MAH | Middle area to hatch | middle area | hatch | none |  | Verified | ✓ | Technically "any attack" is the requirement |
@@ -57,8 +57,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sinner's Road - Left Shards In the Hall of the Spike Swingers | left area | swim AND attack up |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #6 |
-| 2 | Sinner's Road - Right Shards In the Hall of the Spike Swingers | left area | attack up AND (swim OR clawline left OR sharpdart OR (run AND drifter's cloak)) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #7 |
+| 1 | Sinner's Road - Left Shards In the Hall of the Spike Swingers | left area | (swim AND attack up) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #6 |
+| 2 | Sinner's Road - Right Shards In the Hall of the Spike Swingers | left area | attack up AND ((swim OR clawline left OR sharpdart OR (run AND drifter's cloak) OR medium [hunter,wanderer] voltwater pogo x 2 OR hard hunter voltwater pogo x 1)) |  | Verified | collectible | ✓ | Formerly: Shell Shard Cache: Sinner’s Road #7 |
 | 3 | Sinner's Road - That Chest In the Halls of the Spike Swingers That's RIGHT THERE | chest plat | none |  | Verified | collectible | ✓ | Formerly: Sinner's Road - Rosary Chest |
 | 4 | The Lever Gettin' You Outta The North Hall | right door | hit switch up OR hit switch right OR hit switch left |  | Verified | switch | ✓ | Formerly: North Hall Door Switch |
 | 5 | Garmond and Zaza Act 3 Meeting Sinner's Road | right plat | Act 3 |  | Verified | event | ✓ |  |

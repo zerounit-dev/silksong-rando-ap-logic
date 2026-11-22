@@ -2,7 +2,7 @@
 
 **Game ID:** Bonetown
 
-**Contributors:** herounit, Super EpicGuy
+**Contributors:** herounit, Super EpicGuy, Pyxl
 
 ## Subrooms
 
@@ -41,7 +41,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | CC | climb chapel | ground level | chapel roof | silk soar  OR cling grip left OR ( easy scuttlebrace AND faydown ) |  | Verified | ✓ | cling grip only works by itself when the door has not been opened - this makes logic non-monotonic and needs a mod fix - in this case, a slow opening door |
 | CC | climb chapel | chapel roof | ground level | none (falling) |  | Verified | ✓ |  |
-| CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak AND (easy [flea brew,rune rage] stall OR hard air heal stall)) OR ( hard scuttlebrace AND (hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall OR use tool Delver's Drill) AND easy [flea brew,rune rage] stall) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
+| CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip both OR ( cling grip left AND spike pogo ) OR ( easy scuttlebrace AND faydown cloak AND (easy [flea brew,rune rage] stall OR hard air heal stall)) OR ( hard scuttlebrace AND (hard [ hunter, reaper, wanderer, beast, architect ] crest heal stall OR easy delvers drill stall) AND easy [flea brew,rune rage] stall)  OR (easy scuttlebrace AND easy shaman pogo) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
 | CR | climb roof | upper left platforms | chapel roof | none (falling) |  | Verified | ✓ |  |
 | SM | soar to middle platforms | ground level | upper middle platforms | silk soar |  | Verified | ✓ |  |
 | SSL | soar to sky exit left | ground level | sky left | silk soar |  | Verified | ✓ |  |
@@ -56,11 +56,13 @@
 | CL | clawline across the sky | upper middle platforms | upper right platforms | clawline right OR ( dash right AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR proficient movement ) ) |  | Verified | ✓ | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
 | CL | clawline across the sky | upper right platforms | upper middle platforms | clawline left OR ( dash left AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR proficient movement ) ) |  | Verified | ✓ | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
 | SR | soar to right platforms | upper right platforms | ground level | none (falling) |  | Verified | ✓ |  |
-| DL | sky drift to right platforms | sky left | upper middle platforms | drifters  OR clawline left OR faydown OR sharpdart OR dash left OR easy [ beast, hunter, architect, reaper, shaman ] pogo OR easy flea brew stall OR easy crest heal stall | TODO | Verified | ✓ | other stalls probably work here - hero, 11/3 |
-| DR | sky drift to middle platforms | sky right | upper right platforms | drifters  OR clawline right OR faydown OR sharpdart OR dash right OR easy [ beast, hunter, architect, reaper, shaman ] pogo OR easy flea brew stall OR easy crest heal stall | TODO | Verified | ✓ | other stalls probably work here - hero, 11/3 |
+| DL | sky drift to right platforms | sky left | upper middle platforms | drifters  OR clawline left OR faydown OR sharpdart OR dash left OR easy [ beast, hunter, architect, reaper, shaman ] pogo OR flea brew  OR easy air heal stall OR easy silkspear stall x 1 OR Easy thread storm stall x 1  OR easy cross stitch stall x 1  OR easy rune rage stall x 1 OR easy pale nails stall x 1  OR easy flintslate stall x 1 OR easy voltvessels stall x 1 OR easy plasmium stall x 1 OR easy wanderer charge |  | Verified | ✓ | other stalls probably work here - hero, 11/3  Other stalls did work here - Pyxl 17/11 |
+| DR | sky drift to middle platforms | sky right | upper right platforms | drifters  OR clawline right OR faydown OR sharpdart OR dash right OR easy [ beast, hunter, architect, reaper, shaman ] pogo OR flea brew  OR easy air heal stall OR easy silkspear stall x 1 OR Easy thread storm stall x 1  OR easy cross stitch stall x 1  OR easy rune rage stall x 1 OR easy pale nails stall x 1  OR easy flintslate stall x 1 OR easy voltvessels stall x 1 OR easy plasmium stall x 1 OR easy wanderer charge |  | Verified | ✓ | other stalls probably work here - hero, 11/3  Other stalls did work here - Pyxl 17/11 |
 | RC | right platform climb | ground level | shakra platform | ledge grab left OR cling grip either OR silk soar OR faydown |  | Verified | ✓ |  |
 | RC | right platform climb | shakra platform | ground level | none (falling) |  | Verified | ✓ |  |
 | RF | right platform fall | upper right platforms | shakra platform | none (falling) |  | Verified | ✓ |  |
+| why | upper left <> upper middle | upper left platforms | upper middle platforms | drifters AND clawline right x 7 AND ledge grab right |  | Verified | ✓ |  |
+| why | upper left <> upper middle | upper middle platforms | upper left platforms | drifters AND clawline left x 7 AND ledge grab left |  | Verified | ✓ |  |
 
 ## Check Locations
 

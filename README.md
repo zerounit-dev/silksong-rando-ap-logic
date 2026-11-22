@@ -21,11 +21,11 @@ Generated from the non-archived records in the accompanying frozen SQLite snapsh
 - [Bonegrave Passage (Bone_Steel_Servant)](./bone-bottom/bonegrave-passage.md)
 - [Chapel of the Wanderer (Chapel_Wanderer)](./bone-bottom/chapel-of-the-wanderer.md)
 - [The Big Fall (Aspid_01)](./bone-bottom/the-big-fall.md)
-- [Mosshome Side Room (Bone_05b)](./bone-bottom/mosshome-side-room.md)
 - [Mosshome Druid (Mosstown_02c)](./bone-bottom/mosshome-druid.md)
 - [Mosshome Upper (Mosstown_02)](./bone-bottom/mosshome-upper.md)
 - [Mosshome Middle (Mosstown_01)](./bone-bottom/mosshome-middle.md)
 - [Mosshome Lower (Bone_11)](./bone-bottom/mosshome-lower.md)
+- [Mosshome Side Room (Bone_05b)](./bone-bottom/mosshome-side-room.md)
 - [Mosshome Basement (Bone_11b)](./bone-bottom/mosshome-basement.md)
 - [Mosshome Basement Passage (Bone_01b)](./bone-bottom/mosshome-basement-passage.md)
 
@@ -513,25 +513,6 @@ Generated from the non-archived records in the accompanying frozen SQLite snapsh
 - [Seed Shooty Memorium (Arborium_03)](./memorium/seed-shooty-memorium.md)
 - [Shopkeeper Hides (Arborium_11)](./memorium/shopkeeper-hides.md)
 
-## Sands of Karak
-
-- [Coral Tower (Coral_Tower_01)](./sands-of-karak/coral-tower.md)
-- [Coral Tower Entrance (Coral_28)](./sands-of-karak/coral-tower-entrance.md)
-- [Crustnut (Coral_41)](./sands-of-karak/crustnut.md)
-- [Sands of Karak Bellshrine (Bellshrine_Coral)](./sands-of-karak/sands-of-karak-bellshrine.md)
-- [Sands of Karak Elevator to Blasted Steps (Coral_38)](./sands-of-karak/sands-of-karak-elevator-to-blasted-steps.md)
-- [Sands of Karak Entrance (Coral_25)](./sands-of-karak/sands-of-karak-entrance.md)
-- [Sands of Karak Lower Left Long Room (Coral_23)](./sands-of-karak/sands-of-karak-lower-left-long-room.md)
-- [Sands of Karak Lower Right Long Room (Coral_24)](./sands-of-karak/sands-of-karak-lower-right-long-room.md)
-- [Sands of Karak Right Side Tall room (Coral_26)](./sands-of-karak/sands-of-karak-right-side-tall-room.md)
-- [Sands of Karak Tall Centre Room (Coral_35b)](./sands-of-karak/sands-of-karak-tall-centre-room.md)
-- [Sands of Karak Upper Left Long Room (Coral_27)](./sands-of-karak/sands-of-karak-upper-left-long-room.md)
-- [Sands of Karak Upper Right Long Room (Coral_44)](./sands-of-karak/sands-of-karak-upper-right-long-room.md)
-- [Sands of Shakra (Coral_40)](./sands-of-karak/sands-of-shakra.md)
-- [Watcher at the Edge (Coral_39)](./sands-of-karak/watcher-at-the-edge.md)
-- [Voltnest (Coral_29)](./sands-of-karak/voltnest.md)
-- [Coral Tower Memory (Memory_Coral_Tower)](./sands-of-karak/coral-tower-memory.md)
-
 ## The Slab
 
 - [Slab Bridge (Slab_01)](./the-slab/slab-bridge.md)
@@ -582,6 +563,25 @@ Generated from the non-archived records in the accompanying frozen SQLite snapsh
 - [Mount Fay Right Side Middle Room (Peak_07)](./mount-fay/mount-fay-right-side-middle-room.md)
 - [Mount Fay Shakra (Peak_02)](./mount-fay/mount-fay-shakra.md)
 - [Mount Fay Upper Slope (Peak_08)](./mount-fay/mount-fay-upper-slope.md)
+
+## Sands of Karak
+
+- [Coral Tower (Coral_Tower_01)](./sands-of-karak/coral-tower.md)
+- [Coral Tower Entrance (Coral_28)](./sands-of-karak/coral-tower-entrance.md)
+- [Crustnut (Coral_41)](./sands-of-karak/crustnut.md)
+- [Sands of Karak Bellshrine (Bellshrine_Coral)](./sands-of-karak/sands-of-karak-bellshrine.md)
+- [Sands of Karak Elevator to Blasted Steps (Coral_38)](./sands-of-karak/sands-of-karak-elevator-to-blasted-steps.md)
+- [Sands of Karak Entrance (Coral_25)](./sands-of-karak/sands-of-karak-entrance.md)
+- [Sands of Karak Lower Left Long Room (Coral_23)](./sands-of-karak/sands-of-karak-lower-left-long-room.md)
+- [Sands of Karak Lower Right Long Room (Coral_24)](./sands-of-karak/sands-of-karak-lower-right-long-room.md)
+- [Sands of Karak Right Side Tall room (Coral_26)](./sands-of-karak/sands-of-karak-right-side-tall-room.md)
+- [Sands of Karak Tall Centre Room (Coral_35b)](./sands-of-karak/sands-of-karak-tall-centre-room.md)
+- [Sands of Karak Upper Left Long Room (Coral_27)](./sands-of-karak/sands-of-karak-upper-left-long-room.md)
+- [Sands of Karak Upper Right Long Room (Coral_44)](./sands-of-karak/sands-of-karak-upper-right-long-room.md)
+- [Sands of Shakra (Coral_40)](./sands-of-karak/sands-of-shakra.md)
+- [Watcher at the Edge (Coral_39)](./sands-of-karak/watcher-at-the-edge.md)
+- [Voltnest (Coral_29)](./sands-of-karak/voltnest.md)
+- [Coral Tower Memory (Memory_Coral_Tower)](./sands-of-karak/coral-tower-memory.md)
 
 ## Putrified Ducts
 

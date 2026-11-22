@@ -30,7 +30,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PS | platform switch | middle area | upper left area | activate platform switch |  | Verified | ✓ |  |
+| PS | platform switch | middle area | upper left area | activate platform switch OR (faydown AND cling grip left) OR silk soar |  | Verified | ✓ |  |
 | PS | platform switch | upper left area | middle area | none (falling) |  | Verified | ✓ |  |
 | L1 | ledges 1 | check alcove | middle area | ledge grab either OR cling grip either OR faydown OR easy scuttlebrace OR silk soar |  | Verified | ✓ |  |
 | L1 | ledges 1 | middle area | check alcove | none (falling) |  | Verified | ✓ |  |

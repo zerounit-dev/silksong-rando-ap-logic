@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_01b
 
-**Contributors:** herounit
+**Contributors:** herounit, Pyxl
 
 ## Subrooms
 
@@ -23,7 +23,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LU | lower to upper | upper level | lower level | none (falling) |  | Verified | ✓ |  |
-| LU | lower to upper | lower level | upper level | (ledge grab right OR cling grip right ) OR faydown OR silk soar OR easy shaman pogo OR easy pogo off aknid |  | Verified | ✓ |  |
+| LU | lower to upper | lower level | upper level | ledge grab right  OR cling grip right  OR faydown OR silk soar OR easy shaman pogo OR easy pogo off aknid OR easy delvers drill stall x 2 OR easy plasmium stall x 2 OR easy voltvessels stall x 2 OR ( Easy beast crest heal stall AND easy beast pogo ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

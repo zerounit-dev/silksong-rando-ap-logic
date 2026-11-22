@@ -51,7 +51,7 @@
 | 2 | Grand Gate - Breakable Chain Nyleth | Entrance upper | Silk Soar OR ((easy pogo off phacia OR clawline left) AND cling grip either AND faydown) |  | Verified | blockade | ✓ |  |
 | 3 | Grand Gate - Breakable Vines Vine hell middle | Vine hell middle | break wall either |  | Verified | blockade | ✓ |  |
 | 4 | Grand Gate - Shell Shard Cache | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
-| 5 | Grand Gate - Breakable Vines Exit Ceiling | Exit | break wall up |  | Verified | blockade | ✓ |  |
+| 5 | Grand Gate - Breakable Vines Exit Ceiling | Vine hell left | break wall up |  | Verified | blockade | ✓ |  |
 | 6 | Grand Gate - Breakable Vines Exit Wall | Exit | break wall right |  | Verified | blockade | ✓ |  |
 | 7 | Phacia 1 | Vine hell left | none |  | Verified | enemy | ✓ |  |
 | 8 | Phacia 2 | Entrance lower | none |  | Verified | enemy | ✓ |  |

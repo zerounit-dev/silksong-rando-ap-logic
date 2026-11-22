@@ -31,7 +31,6 @@
 | 1 | Map Pickup: Underworks | Map | none |  | Verified | collectible | ✓ |  |
 | 2 | Relic: Bone Scroll (Underworks) | Bone Scroll | none |  | Verified | collectible | ✓ |  |
 | 3 | Map Wall | Map | Break Wall Left |  | Verified | blockade | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

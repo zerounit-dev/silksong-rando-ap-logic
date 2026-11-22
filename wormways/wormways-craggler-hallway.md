@@ -29,7 +29,7 @@ No subroom connections defined.
 | 2 | Cragglite 1 | crab street | none |  | Verified | enemy | ✓ |  |
 | 3 | Cragglite 2 | crab street | none |  | Verified | enemy | ✓ |  |
 | 4 | Cragglite 3 | crab street | none |  | Verified | enemy | ✓ |  |
-| 5 | Craggler 1 | crab street | none |  | Verified | miniboss | ✓ | fight Spawn conditions: roofCrabDefeated=false FSM Boolean flags: roofCrabEncountered |
+| 5 | Craggler 1 | crab street | Combat Requirements |  | Verified | miniboss | ✓ | fight Spawn conditions: roofCrabDefeated=false FSM Boolean flags: roofCrabEncountered |
 
 ## Room Images
 
