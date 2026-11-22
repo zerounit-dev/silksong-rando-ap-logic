@@ -32020,10 +32020,17 @@
           "has_persisted_state": false,
           "node_id": "wormways/wormways-craggler-hallway#crab-street",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "defeat Craggler 1 AND (complete Lace Second Encounter IN Choral Chambers Eastern Shaft OR complete Lace Second Encounter IN Grand Bellway Shaft)",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "dependency:location:wormways/wormways-craggler-hallway::miniboss/craggler-1",
+                "dependency:location:choral-chambers/choral-chambers-eastern-shaft::event/lace-second-encounter"
+              ],
+              [
+                "dependency:location:wormways/wormways-craggler-hallway::miniboss/craggler-1",
+                "dependency:location:choral-chambers/grand-bellway-shaft::event/lace-second-encounter"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -32041,10 +32048,17 @@
           "has_persisted_state": false,
           "node_id": "wormways/wormways-craggler-hallway#crab-street",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "defeat Craggler 1 AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft))",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "dependency:location:wormways/wormways-craggler-hallway::miniboss/craggler-1",
+                "dependency:location:choral-chambers/choral-chambers-eastern-shaft::event/lace-second-encounter"
+              ],
+              [
+                "dependency:location:wormways/wormways-craggler-hallway::miniboss/craggler-1",
+                "dependency:location:choral-chambers/grand-bellway-shaft::event/lace-second-encounter"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -32062,10 +32076,17 @@
           "has_persisted_state": false,
           "node_id": "wormways/wormways-craggler-hallway#crab-street",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "defeat Craggler 1 AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft))",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "dependency:location:wormways/wormways-craggler-hallway::miniboss/craggler-1",
+                "dependency:location:choral-chambers/choral-chambers-eastern-shaft::event/lace-second-encounter"
+              ],
+              [
+                "dependency:location:wormways/wormways-craggler-hallway::miniboss/craggler-1",
+                "dependency:location:choral-chambers/grand-bellway-shaft::event/lace-second-encounter"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -32083,12 +32104,10 @@
           "has_persisted_state": true,
           "node_id": "wormways/wormways-craggler-hallway#crab-street",
           "requirement": {
-            "raw": "Combat Requirements",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "macro:combat-requirements"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -52410,7 +52429,7 @@
             "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": false,
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -52431,7 +52450,7 @@
             "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": false,
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -52452,7 +52471,7 @@
             "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": false,
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -52473,7 +52492,7 @@
             "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": false,
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -213327,7 +213346,7 @@
           "source_node_id": "whiteward/whiteward-unravelled-arena-room#surgery-tables-left",
           "target_node_id": "whiteward/whiteward-unravelled-arena-room#vertical-left",
           "requirement": {
-            "raw": "faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND Scuttlebrace) OR (cling grip left AND easy shaman pogo) ",
+            "raw": "faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND hard Scuttlebrace) OR (cling grip left AND easy shaman pogo) ",
             "mode": "expression",
             "dnf": [
               [
@@ -213341,7 +213360,7 @@
               ],
               [
                 "capability:proficient-movement",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:hard"
               ],
               [
                 "capability:cling-grip:left",
@@ -235895,7 +235914,7 @@
           "source_node_id": "memorium/memorium-karak#middle",
           "target_node_id": "memorium/memorium-karak#left-side",
           "requirement": {
-            "raw": "medium shaman pogo OR run OR faydown cloak  OR clawline OR drifter's cloak OR easy architect pogo OR easy hunter pogo OR easy needle strike stall(wanderers) OR easy beast pogo",
+            "raw": "medium shaman pogo OR run OR faydown cloak  OR clawline OR drifter's cloak OR easy architect pogo OR easy hunter pogo OR easy wanderer charge OR easy beast pogo",
             "mode": "unresolved",
             "dnf": [],
             "unresolved_reasons": [
@@ -237366,7 +237385,7 @@
           "source_node_id": "memorium/memorium-start-shaft#ventrica-ledge",
           "target_node_id": "memorium/memorium-start-shaft#volt-ledge",
           "requirement": {
-            "raw": "sprint OR (clawline AND silkhearts x 1) OR cling grip OR faydown cloak OR easy needle strike stall(architect) OR medium needle strike stall(wanderers) OR easy beast pogo OR (easy needle strike stall(reaper) AND ledge grab)",
+            "raw": "sprint OR (clawline AND silkhearts x 1) OR cling grip OR faydown cloak OR easy needle strike stall(architect) OR medium needle strike stall(wanderer) OR easy beast pogo OR (easy needle strike stall(reaper) AND ledge grab)",
             "mode": "unresolved",
             "dnf": [],
             "unresolved_reasons": [

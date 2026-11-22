@@ -26,10 +26,10 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wormways - Craggler Hallway - Craggler Beast Shard | crab street | defeat Craggler 1 |  | Verified | collectible | ✓ | formerly craggler beast shard |
-| 2 | Cragglite 1 | crab street | none |  | Verified | enemy | ✓ |  |
-| 3 | Cragglite 2 | crab street | none |  | Verified | enemy | ✓ |  |
-| 4 | Cragglite 3 | crab street | none |  | Verified | enemy | ✓ |  |
-| 5 | Craggler 1 | crab street | Combat Requirements |  | Verified | miniboss | ✓ | fight Spawn conditions: roofCrabDefeated=false FSM Boolean flags: roofCrabEncountered |
+| 2 | Cragglite 1 | crab street | defeat Craggler 1 AND (complete Lace Second Encounter IN Choral Chambers Eastern Shaft OR complete Lace Second Encounter IN Grand Bellway Shaft) |  | Verified | enemy | ✓ |  |
+| 3 | Cragglite 2 | crab street | defeat Craggler 1 AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
+| 4 | Cragglite 3 | crab street | defeat Craggler 1 AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
+| 5 | Craggler 1 | crab street | none |  | Verified | miniboss | ✓ | fight Spawn conditions: roofCrabDefeated=false FSM Boolean flags: roofCrabEncountered |
 
 ## Room Images
 

@@ -2732,10 +2732,10 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wormways - Craggler Hallway - Craggler Beast Shard | crab street | defeat Craggler 1 |  | Verified | collectible | ✓ | formerly craggler beast shard |
-| 2 | Cragglite 1 | crab street | none |  | Verified | enemy | ✓ |  |
-| 3 | Cragglite 2 | crab street | none |  | Verified | enemy | ✓ |  |
-| 4 | Cragglite 3 | crab street | none |  | Verified | enemy | ✓ |  |
-| 5 | Craggler 1 | crab street | Combat Requirements |  | Verified | miniboss | ✓ | fight Spawn conditions: roofCrabDefeated=false FSM Boolean flags: roofCrabEncountered |
+| 2 | Cragglite 1 | crab street | defeat Craggler 1 AND (complete Lace Second Encounter IN Choral Chambers Eastern Shaft OR complete Lace Second Encounter IN Grand Bellway Shaft) |  | Verified | enemy | ✓ |  |
+| 3 | Cragglite 2 | crab street | defeat Craggler 1 AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
+| 4 | Cragglite 3 | crab street | defeat Craggler 1 AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
+| 5 | Craggler 1 | crab street | none |  | Verified | miniboss | ✓ | fight Spawn conditions: roofCrabDefeated=false FSM Boolean flags: roofCrabEncountered |
 
 <a name="room-wormways--wormways-shaft"></a>
 
@@ -4427,10 +4427,10 @@ might need to revise the subrooms later
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flintslate | Flintslate | none |  | Verified | collectible | ✓ |  |
-| 2 | shell shard cache deep docks 6 | middle side room | none |  | Verified | resource | ✓ |  |
-| 3 | shell shard cache deep docks 7 | middle side room | none |  | Verified | resource | ✓ |  |
-| 4 | shell shard cache deep docks 8 | middle side room | none |  | Verified | resource | ✓ |  |
-| 5 | shell shard cache deep docks 9 | middle side room | none |  | Verified | resource | ✓ |  |
+| 2 | shell shard cache deep docks 6 | middle side room | none | TODO | Verified | resource | ✓ |  |
+| 3 | shell shard cache deep docks 7 | middle side room | none | TODO | Verified | resource | ✓ |  |
+| 4 | shell shard cache deep docks 8 | middle side room | none | TODO | Verified | resource | ✓ |  |
+| 5 | shell shard cache deep docks 9 | middle side room | none | TODO | Verified | resource | ✓ |  |
 | 6 | ceiling switch | middle switch platform | none |  | Verified | switch | ✓ | lowers middle chain platforms |
 | 7 | Dock Guard Thrower encounter 1 | lower left area | none |  | Verified | event | ✓ | defeatedDockForemen=false |
 | 8 | Lavalug 1 | upper chain platforms | normal world spawn |  | Verified | enemy | ✓ | ceiling switch false OR else they get sent to lower chain |
@@ -19516,7 +19516,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND Scuttlebrace) OR (cling grip left AND easy shaman pogo) |  | Verified | ✓ |  |
+| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND hard Scuttlebrace) OR (cling grip left AND easy shaman pogo) |  | Verified | ✓ |  |
 | SLV | Surgery Left to Vertical | Vertical Left | Surgery Tables (Left) | Nothing (Falling) |  | Verified | ✓ |  |
 | SRL | Surgery Right to Left | Surgery Tables (Right) | Surgery Tables (Left) | Nothing |  | Verified | ✓ |  |
 | SRL | Surgery Right to Left | Surgery Tables (Left) | Surgery Tables (Right) | Nothing |  | Verified | ✓ |  |
@@ -22034,7 +22034,7 @@ todo: rewrite this room, enemies required for sharpdart, stalls above water, top
 | rm | blind gameplay | Right side | Middle | easy enemy pogo OR ledge grab OR faydown cloak OR silk soar |  | Verified | ✓ | Room is blind unless dark stuff is removed |
 | mr | middle --> right | Middle | Right side | easy enemy pogo OR (ledge grab AND (dash OR run)) OR faydown cloak OR dash OR (run AND cling grip) |  | Verified | ✓ | theres also an enemy that you can super easily clawline even on accident to get the height you need but I have no clue what to label that as you can also clawline plus silk soar but it feels like it would fall under a skip of some kind and i feel like easy enemy pogo already covers that  damage boosts arent accounted for but if implemented "OR easy damage boost" that can be |
 | Ml | Middle <-> Left | Left side | Middle | run OR drifter's cloak OR faydown cloak OR easy architect pogo OR (clawline AND silkhearts x 1) OR easy beast pogo |  | Verified | ✓ | Room is blind unless dark stuff is removed |
-| Ml | Middle <-> Left | Middle | Left side | medium shaman pogo OR run OR faydown cloak  OR clawline OR drifter's cloak OR easy architect pogo OR easy hunter pogo OR easy needle strike stall(wanderers) OR easy beast pogo |  | Verified | ✓ | can be done no items but need a precise movement option |
+| Ml | Middle <-> Left | Middle | Left side | medium shaman pogo OR run OR faydown cloak  OR clawline OR drifter's cloak OR easy architect pogo OR easy hunter pogo OR easy wanderer charge OR easy beast pogo |  | Verified | ✓ | can be done no items but need a precise movement option |
 | lu | idk | Middle | left and up | faydown cloak OR (silk soar AND (dash OR clawline)) OR (run AND (ledge grab OR cling grip)) OR (clawline AND ledge grab) |  | Verified | ✓ |  |
 | ll | smth | Left side | left and up | faydown cloak OR (silk soar AND (dash OR (clawline AND silkhearts x 1))) OR (run AND (ledge grab OR cling grip)) OR (clawline AND silkhearts x 1 AND ledge grab) |  | Verified | ✓ |  |
 
@@ -22222,7 +22222,7 @@ No subroom connections defined.
 | V | Ventrica-slightly below | above evil wall | Ventrica ledge | ((run OR (clawline AND silkhearts x 1))AND (cling grip OR ledge grab)) OR faydown cloak OR (cling grip AND (drifters OR easy needle strike stall(architect))) |  | Verified |  | easy damage boost AND (drifter's cloak OR ledge grab) OR silk soar OR faydown cloak OR (run And ledge grab)  can be added once damage boosts are added   OR (drifter's cloak AND cling grip)  can be added but also needs some kinda precise movement setting |
 | V | Ventrica-slightly below | Ventrica ledge | above evil wall | nada |  | Verified |  |  |
 | VV | ventrica volt | Volt Ledge | Ventrica ledge | nada |  | Verified |  |  |
-| VV | ventrica volt | Ventrica ledge | Volt Ledge | sprint OR (clawline AND silkhearts x 1) OR cling grip OR faydown cloak OR easy needle strike stall(architect) OR medium needle strike stall(wanderers) OR easy beast pogo OR (easy needle strike stall(reaper) AND ledge grab) |  | Verified |  |  |
+| VV | ventrica volt | Ventrica ledge | Volt Ledge | sprint OR (clawline AND silkhearts x 1) OR cling grip OR faydown cloak OR easy needle strike stall(architect) OR medium needle strike stall(wanderer) OR easy beast pogo OR (easy needle strike stall(reaper) AND ledge grab) |  | Verified |  |  |
 | tv | top | Tippidy top | Volt Ledge | nada |  | Verified |  |  |
 | tv | top | Volt Ledge | Tippidy top | faydown cloak OR (silk soar AND silkhearts x 1) |  | Verified |  | theres is some stuff you can do to avoid needing a silkheart that requires other items |
 | wv | wall to volt | above evil wall | Volt Ledge | silk soar |  | Verified |  |  |

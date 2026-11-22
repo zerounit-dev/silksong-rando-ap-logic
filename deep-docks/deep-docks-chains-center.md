@@ -67,10 +67,10 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flintslate | Flintslate | none |  | Verified | collectible | ✓ |  |
-| 2 | shell shard cache deep docks 6 | middle side room | none |  | Verified | resource | ✓ |  |
-| 3 | shell shard cache deep docks 7 | middle side room | none |  | Verified | resource | ✓ |  |
-| 4 | shell shard cache deep docks 8 | middle side room | none |  | Verified | resource | ✓ |  |
-| 5 | shell shard cache deep docks 9 | middle side room | none |  | Verified | resource | ✓ |  |
+| 2 | shell shard cache deep docks 6 | middle side room | none | TODO | Verified | resource | ✓ |  |
+| 3 | shell shard cache deep docks 7 | middle side room | none | TODO | Verified | resource | ✓ |  |
+| 4 | shell shard cache deep docks 8 | middle side room | none | TODO | Verified | resource | ✓ |  |
+| 5 | shell shard cache deep docks 9 | middle side room | none | TODO | Verified | resource | ✓ |  |
 | 6 | ceiling switch | middle switch platform | none |  | Verified | switch | ✓ | lowers middle chain platforms |
 | 7 | Dock Guard Thrower encounter 1 | lower left area | none |  | Verified | event | ✓ | defeatedDockForemen=false |
 | 8 | Lavalug 1 | upper chain platforms | normal world spawn |  | Verified | enemy | ✓ | ceiling switch false OR else they get sent to lower chain |

@@ -27581,7 +27581,7 @@
           "friendlyName": "Middle \u003C-\u003E Left",
           "sourceSubroomReferenceText": "Middle",
           "destinationSubroomReferenceText": "Left side",
-          "requirements": "medium shaman pogo OR run OR faydown cloak  OR clawline OR drifter\u0027s cloak OR easy architect pogo OR easy hunter pogo OR easy needle strike stall(wanderers) OR easy beast pogo",
+          "requirements": "medium shaman pogo OR run OR faydown cloak  OR clawline OR drifter\u0027s cloak OR easy architect pogo OR easy hunter pogo OR easy wanderer charge OR easy beast pogo",
           "notes": "can be done no items but need a precise movement option",
           "enableAnnotation": true,
           "sceneUnitX": 23.632862091064453,
@@ -27592,7 +27592,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T19:09:41.882504Z",
-          "updatedUtc": "2026-10-01T01:19:42.8015999Z"
+          "updatedUtc": "2026-11-22T14:07:58.7732821Z"
         },
         {
           "id": "21b92f1e-bd97-48b5-94e0-63b01fd2f68b",
@@ -47104,7 +47104,7 @@
           "friendlyName": "ventrica volt",
           "sourceSubroomReferenceText": "Ventrica ledge",
           "destinationSubroomReferenceText": "Volt Ledge",
-          "requirements": "sprint OR (clawline AND silkhearts x 1) OR cling grip OR faydown cloak OR easy needle strike stall(architect) OR medium needle strike stall(wanderers) OR easy beast pogo OR (easy needle strike stall(reaper) AND ledge grab)",
+          "requirements": "sprint OR (clawline AND silkhearts x 1) OR cling grip OR faydown cloak OR easy needle strike stall(architect) OR medium needle strike stall(wanderer) OR easy beast pogo OR (easy needle strike stall(reaper) AND ledge grab)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": null,
@@ -47115,7 +47115,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-06T21:19:13.919907Z",
-          "updatedUtc": "2026-10-03T23:02:55.4567571Z"
+          "updatedUtc": "2026-11-22T14:09:55.2538236Z"
         },
         {
           "id": "4869db41-f1e6-466f-a775-f93fd91ebb82",
@@ -48329,7 +48329,7 @@
           "annotationSceneUnitX": 104.8,
           "annotationSceneUnitY": 8.14,
           "subroomReferenceText": "crab street",
-          "requirements": "none",
+          "requirements": "defeat Craggler 1 AND (complete Lace Second Encounter IN Choral Chambers Eastern Shaft OR complete Lace Second Encounter IN Grand Bellway Shaft)",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -48339,7 +48339,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-15T05:01:26.6628403Z",
-          "updatedUtc": "2026-11-15T05:14:43.5956285Z"
+          "updatedUtc": "2026-11-22T14:13:11.8903993Z"
         },
         {
           "id": "69d073d9-c43c-4803-ad47-2f55a978fa9a",
@@ -48354,7 +48354,7 @@
           "annotationSceneUnitX": 62.54,
           "annotationSceneUnitY": 7.74,
           "subroomReferenceText": "crab street",
-          "requirements": "none",
+          "requirements": "defeat Craggler 1 AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft))",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -48364,7 +48364,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-15T05:01:26.6628403Z",
-          "updatedUtc": "2026-11-15T05:14:45.0485844Z"
+          "updatedUtc": "2026-11-22T14:12:52.2213449Z"
         },
         {
           "id": "b0ea07a7-fe5e-4bc5-8180-1e94d6cc72a3",
@@ -48379,7 +48379,7 @@
           "annotationSceneUnitX": 88.609,
           "annotationSceneUnitY": 8.97,
           "subroomReferenceText": "crab street",
-          "requirements": "none",
+          "requirements": "defeat Craggler 1 AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft))",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -48389,7 +48389,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-15T05:01:26.6628403Z",
-          "updatedUtc": "2026-11-15T05:14:46.2295271Z"
+          "updatedUtc": "2026-11-22T14:12:58.0290803Z"
         },
         {
           "id": "bd44fa5c-6a68-472c-bc2e-8a9fafa9a777",
@@ -48404,7 +48404,7 @@
           "annotationSceneUnitX": 83.52,
           "annotationSceneUnitY": 14.89,
           "subroomReferenceText": "crab street",
-          "requirements": "Combat Requirements",
+          "requirements": "none",
           "notes": "fight\nSpawn conditions: roofCrabDefeated=false\nFSM Boolean flags: roofCrabEncountered",
           "locationType": "miniboss",
           "enableAnnotation": true,
@@ -48414,7 +48414,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-15T05:01:26.6628403Z",
-          "updatedUtc": "2026-11-20T03:36:12.6970776Z"
+          "updatedUtc": "2026-11-22T13:48:17.5670117Z"
         }
       ]
     },
@@ -172168,7 +172168,7 @@
           "friendlyName": "Surgery Left to Vertical",
           "sourceSubroomReferenceText": "Surgery Tables (Left)",
           "destinationSubroomReferenceText": "Vertical Left",
-          "requirements": "faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND Scuttlebrace) OR (cling grip left AND easy shaman pogo) ",
+          "requirements": "faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND hard Scuttlebrace) OR (cling grip left AND easy shaman pogo) ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 18.272472381591797,
@@ -172179,7 +172179,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T09:18:23.1017023Z",
-          "updatedUtc": "2026-10-22T21:47:28.3784372Z"
+          "updatedUtc": "2026-11-22T13:54:19.769267Z"
         },
         {
           "id": "01f710e6-6775-43f1-97f7-057310b6d4ff",
@@ -271787,12 +271787,12 @@
           "locationType": "resource",
           "enableAnnotation": true,
           "sortOrder": 1,
-          "isTodo": false,
+          "isTodo": true,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-08T21:16:45.0078069Z",
-          "updatedUtc": "2026-09-28T07:05:58.513758Z"
+          "updatedUtc": "2026-11-22T06:24:25.5637523Z"
         },
         {
           "id": "a2b7390d-bbb1-418a-8a2d-ee51e056d8ca",
@@ -271812,12 +271812,12 @@
           "locationType": "resource",
           "enableAnnotation": true,
           "sortOrder": 2,
-          "isTodo": false,
+          "isTodo": true,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-08T21:16:47.1136494Z",
-          "updatedUtc": "2026-09-28T07:05:50.6643608Z"
+          "updatedUtc": "2026-11-22T06:24:27.4437994Z"
         },
         {
           "id": "2813c358-e043-4e7c-be6e-34f4c12d566a",
@@ -271837,12 +271837,12 @@
           "locationType": "resource",
           "enableAnnotation": true,
           "sortOrder": 3,
-          "isTodo": false,
+          "isTodo": true,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-08T21:19:10.8296039Z",
-          "updatedUtc": "2026-09-28T07:05:51.7328179Z"
+          "updatedUtc": "2026-11-22T06:24:28.7299137Z"
         },
         {
           "id": "72ecde31-be2c-4de3-b3ec-a38f936a1340",
@@ -271862,12 +271862,12 @@
           "locationType": "resource",
           "enableAnnotation": true,
           "sortOrder": 4,
-          "isTodo": false,
+          "isTodo": true,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-08T21:19:13.2641814Z",
-          "updatedUtc": "2026-09-28T07:05:49.8282406Z"
+          "updatedUtc": "2026-11-22T06:24:32.0071359Z"
         },
         {
           "id": "4431485a-6f3f-46fc-9cd2-f595f370bdea",

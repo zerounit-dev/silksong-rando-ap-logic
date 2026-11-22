@@ -26,7 +26,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND Scuttlebrace) OR (cling grip left AND easy shaman pogo) |  | Verified | ✓ |  |
+| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND hard Scuttlebrace) OR (cling grip left AND easy shaman pogo) |  | Verified | ✓ |  |
 | SLV | Surgery Left to Vertical | Vertical Left | Surgery Tables (Left) | Nothing (Falling) |  | Verified | ✓ |  |
 | SRL | Surgery Right to Left | Surgery Tables (Right) | Surgery Tables (Left) | Nothing |  | Verified | ✓ |  |
 | SRL | Surgery Right to Left | Surgery Tables (Left) | Surgery Tables (Right) | Nothing |  | Verified | ✓ |  |

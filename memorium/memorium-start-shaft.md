@@ -45,7 +45,7 @@
 | V | Ventrica-slightly below | above evil wall | Ventrica ledge | ((run OR (clawline AND silkhearts x 1))AND (cling grip OR ledge grab)) OR faydown cloak OR (cling grip AND (drifters OR easy needle strike stall(architect))) |  | Verified |  | easy damage boost AND (drifter's cloak OR ledge grab) OR silk soar OR faydown cloak OR (run And ledge grab)  can be added once damage boosts are added   OR (drifter's cloak AND cling grip)  can be added but also needs some kinda precise movement setting |
 | V | Ventrica-slightly below | Ventrica ledge | above evil wall | nada |  | Verified |  |  |
 | VV | ventrica volt | Volt Ledge | Ventrica ledge | nada |  | Verified |  |  |
-| VV | ventrica volt | Ventrica ledge | Volt Ledge | sprint OR (clawline AND silkhearts x 1) OR cling grip OR faydown cloak OR easy needle strike stall(architect) OR medium needle strike stall(wanderers) OR easy beast pogo OR (easy needle strike stall(reaper) AND ledge grab) |  | Verified |  |  |
+| VV | ventrica volt | Ventrica ledge | Volt Ledge | sprint OR (clawline AND silkhearts x 1) OR cling grip OR faydown cloak OR easy needle strike stall(architect) OR medium needle strike stall(wanderer) OR easy beast pogo OR (easy needle strike stall(reaper) AND ledge grab) |  | Verified |  |  |
 | tv | top | Tippidy top | Volt Ledge | nada |  | Verified |  |  |
 | tv | top | Volt Ledge | Tippidy top | faydown cloak OR (silk soar AND silkhearts x 1) |  | Verified |  | theres is some stuff you can do to avoid needing a silkheart that requires other items |
 | wv | wall to volt | above evil wall | Volt Ledge | silk soar |  | Verified |  |  |
