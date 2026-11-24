@@ -16328,7 +16328,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "complain to Hutyrix in the ap discord about this; can just attack to get it, even naked - hero, 10/28\n\n========\nWHO EDITED THIS LOGIC. \nATTACK RIGHT IS ENOUGH\n\nNOW CLOAKLESS IS OUT OF LOGIC\n\n(not to mention attack randomizer has still imperfect syntax, for example wanderer attack up)\n\n-Hutyrix 11/23\n\nNeed to add memory crystal back but with enemy pogo? - hero, 11/24",
+          "notes": "complain to Hutyrix in the ap discord about this; can just attack to get it, even naked - hero, 10/28\n\n========\nWHO EDITED THIS LOGIC. \nATTACK RIGHT IS ENOUGH\n\nNOW CLOAKLESS IS OUT OF LOGIC\n\n(not to mention attack randomizer has still imperfect syntax, for example wanderer attack up)\n\n-Hutyrix 11/23\n\nNeed to add memory crystal back but with enemy pogo? - hero, 11/24\n\n\neasy enemy pogo alone is already accounted Hutyrix 11/24",
           "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
@@ -75235,33 +75235,6 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-skull-arena#arena>mask-alcove@la",
-          "alias": "LA",
-          "name": "lava ascend",
-          "source_node_id": "far-fields/far-fields-skull-arena#arena",
-          "target_node_id": "far-fields/far-fields-skull-arena#mask-alcove",
-          "requirement": {
-            "raw": "((cling grip both AND dash both)\nOR (cling grip either AND faydown cloak))",
-            "mode": "expression",
-            "dnf": [
-              [
-                "capability:cling-grip:both",
-                "capability:dash:both"
-              ],
-              [
-                "capability:cling-grip:either",
-                "capability:faydown-cloak"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "Might opt to retire this connection if it proves redundant after the remap.",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
           "id": "far-fields/far-fields-skull-arena#mask-alcove>entrance@ma",
           "alias": "MA",
           "name": "mask ascent",
@@ -75368,6 +75341,65 @@
             "unresolved_reasons": []
           },
           "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-skull-arena#arena>entrance@alr",
+          "alias": "ALR",
+          "name": "arena lava rise",
+          "source_node_id": "far-fields/far-fields-skull-arena#arena",
+          "target_node_id": "far-fields/far-fields-skull-arena#entrance",
+          "requirement": {
+            "raw": "clear gauntlet AND cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) ",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:far-fields/far-fields-skull-arena::gauntlet/gauntlet",
+                "capability:cling-grip:both",
+                "capability:dash:both"
+              ],
+              [
+                "dependency:location:far-fields/far-fields-skull-arena::gauntlet/gauntlet",
+                "capability:cling-grip:both",
+                "capability:clawline:both:1"
+              ],
+              [
+                "dependency:location:far-fields/far-fields-skull-arena::gauntlet/gauntlet",
+                "capability:cling-grip:both",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:far-fields/far-fields-skull-arena::gauntlet/gauntlet",
+                "capability:cling-grip:both",
+                "capability:drifters-cloak"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "One-way post arena gauntlet climb with the lava; an invisible ceiling prevents silk soaring out of the arena before finishing the gauntlet, and the walls are too short to scaffold out of, even with full mobility options.",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "far-fields/far-fields-skull-arena#dungeon-spike-pit>arena@ge",
+          "alias": "GE",
+          "name": "gauntlet entrance",
+          "source_node_id": "far-fields/far-fields-skull-arena#dungeon-spike-pit",
+          "target_node_id": "far-fields/far-fields-skull-arena#arena",
+          "requirement": {
+            "raw": "none (falling)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "One-way drop; an invisible ceiling prevents silk soaring out of the arena before finishing the gauntlet, and the walls are too short to scaffold out of, even with full mobility options.",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -109514,8 +109546,8 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Need to know how predicates for boss credits work or if this is good enough",
-          "is_todo": true,
+          "notes": "Need to know how predicates for boss credits work or if this is good enough\n\n- I made my exporter understand what this means so it's fine\n\nMoriko",
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -109562,8 +109594,8 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Need to know how predicates for boss credits work or if this is good enough",
-          "is_todo": true,
+          "notes": "Need to know how predicates for boss credits work or if this is good enough\n\n- I made my exporter understand what this means so it's fine\n\nMoriko",
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -109652,8 +109684,8 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Need to know how predicates for boss credits work or if this is good enough",
-          "is_todo": true,
+          "notes": "Need to know how predicates for boss credits work or if this is good enough\n\n- I made my exporter understand what this means so it's fine\n\nMoriko",
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -160212,7 +160244,27 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Thus marks the beginning of my insanity\n\nWhoever wrote this, yeah, you were insane.\nYou can always go from Platform E to Mid by bell pogoing, so whole of this syntax is useless. -Hutyrix 24/11",
+          "notes": "Thus marks the beginning of my insanity\n\n===============\nWhoever wrote this, yeah, you were insane.\nYou can always go from Platform E to Mid by bell pogoing, so whole transition is useless.\n\nFor that reason, I\nadded oneway EMD\nPlatformEtoMidDrop,\nwritten right below\n-Hutyrix 24/11\n================",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "blasted-steps/pre-last-judge-room#platform-e>mid@emd",
+          "alias": "EMD",
+          "name": "PlatformEtoMidDrop",
+          "source_node_id": "blasted-steps/pre-last-judge-room#platform-e",
+          "target_node_id": "blasted-steps/pre-last-judge-room#mid",
+          "requirement": {
+            "raw": "None (falling and non-crest-dependent bell pogoing)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -160478,7 +160530,7 @@
           "source_node_id": "blasted-steps/pre-last-judge-room#subplatc",
           "target_node_id": "blasted-steps/pre-last-judge-room#platform-e",
           "requirement": {
-            "raw": "silk soar x 1 OR ((faydown cloak OR drifters OR clawline right OR dash right OR sharpdart OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall) AND cling grip right) OR ((faydown OR clawline right x 1 OR dash right OR sharpdart ) AND easy scuttlebrace) OR ((drifters OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall) AND medium scuttlebrace) OR (medium naked pogo AND cling grip right AND (dash right OR proficient movement))",
+            "raw": "silk soar x 1 OR ((faydown cloak OR drifters OR clawline right OR dash right OR sharpdart OR easy [reaper,wanderer,shaman] pogo OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall OR hard [hunter,beast,witch] pogo) AND cling grip right) OR ((faydown OR clawline right x 1 OR dash right OR sharpdart OR easy [reaper,wanderer,shaman] pogo) AND easy scuttlebrace) OR ((drifters OR medium [hunter,beast,witch,architect] pogo OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall) AND medium scuttlebrace) OR (medium naked pogo AND cling grip right AND (dash right OR proficient movement))",
             "mode": "expression",
             "dnf": [
               [
@@ -160502,6 +160554,18 @@
               ],
               [
                 "capability:sharpdart:1",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:crest-pogo:reaper:easy",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:crest-pogo:wanderer:easy",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
                 "capability:cling-grip:right"
               ],
               [
@@ -160541,6 +160605,18 @@
                 "capability:cling-grip:right"
               ],
               [
+                "capability:crest-pogo:hunter:hard",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:crest-pogo:beast:hard",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:crest-pogo:witch:hard",
+                "capability:cling-grip:right"
+              ],
+              [
                 "capability:faydown-cloak",
                 "capability:scuttlebrace:easy"
               ],
@@ -160557,7 +160633,35 @@
                 "capability:scuttlebrace:easy"
               ],
               [
+                "capability:crest-pogo:reaper:easy",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:crest-pogo:wanderer:easy",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:scuttlebrace:easy"
+              ],
+              [
                 "capability:drifters-cloak",
+                "capability:scuttlebrace:medium"
+              ],
+              [
+                "capability:crest-pogo:hunter:medium",
+                "capability:scuttlebrace:medium"
+              ],
+              [
+                "capability:crest-pogo:beast:medium",
+                "capability:scuttlebrace:medium"
+              ],
+              [
+                "capability:crest-pogo:witch:medium",
+                "capability:scuttlebrace:medium"
+              ],
+              [
+                "capability:crest-pogo:architect:medium",
                 "capability:scuttlebrace:medium"
               ],
               [
@@ -160609,7 +160713,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "I couldn't get rune rage to hit here\n\n",
+          "notes": "I couldn't get rune rage to hit here\n\n\n=======\nall crests with cling grip right can pass it except architect, which of course can't use rune rage, so i don't know how to test rune rage :(\n\nalso massive overhaul\n24/11/26 - Hutyrix\n=======\n\n",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -161069,7 +161173,7 @@
           "source_node_id": "blasted-steps/pre-last-judge-room#top-entrance",
           "target_node_id": "blasted-steps/pre-last-judge-room#right-entrance",
           "requirement": {
-            "raw": "drifters OR faydown OR clawline right x 2 OR dash right OR easy plasmium stall x 2 OR easy flea brew stall x 3",
+            "raw": "drifters OR faydown OR clawline right x 2 OR sharpdart x 2 OR dash right OR easy plasmium stall x 2 OR easy flea brew stall x 3",
             "mode": "expression",
             "dnf": [
               [
@@ -161080,6 +161184,9 @@
               ],
               [
                 "capability:clawline:right:2"
+              ],
+              [
+                "capability:sharpdart:2"
               ],
               [
                 "capability:dash:right"
@@ -171997,7 +172104,7 @@
       "area_id": "sinner-s-road",
       "name": "Sinner's Road Vertical Hall West",
       "in_game_id": "Dust_02",
-      "contributors": "Gallos, herchey's going to bed",
+      "contributors": "Gallos, Hutyrix, herchey's going to bed",
       "notes": "",
       "nodes": [
         {
@@ -172264,7 +172371,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "pilky written easy scuttlebrace here",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -172408,16 +172515,20 @@
           "source_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#upper-right",
           "target_node_id": "sinner-s-road/sinner-s-road-vertical-hall-west#top",
           "requirement": {
-            "raw": "Silk soar ",
+            "raw": "Silk soar OR (faydown AND proficient movement)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "faydown spike pogos.\ncan't use faydown",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -177656,8 +177767,8 @@
       "area_id": "underworks",
       "name": "Underworks Clawline Room",
       "in_game_id": "Under_18",
-      "contributors": "Rebel",
-      "notes": "Left and right sides of this room are not connected.",
+      "contributors": "Rebel, Cry",
+      "notes": "Left and right sides of this room are not connected.\n\nNeed confirmation (and changes to the room) on the vanilla approach to Clawline in underworks/underworks-clawline-room\nThe left and top blocked-off corridors are reachable without Clawline or Faydown, but neither connects to the statue. Its only incoming route is from Main Side Door and requires Clawline or Faydown, creating a cycle when skills stay vanilla. Which connection and requirements are missing \n\n-Moriko",
       "nodes": [
         {
           "id": "underworks/underworks-clawline-room#clawline-statue",
@@ -177687,6 +177798,11 @@
         {
           "id": "underworks/underworks-clawline-room#blocked-off-corridor-top",
           "name": "Blocked Off Corridor Top",
+          "notes": ""
+        },
+        {
+          "id": "underworks/underworks-clawline-room#metalwork-barge",
+          "name": "Metalwork Barge",
           "notes": ""
         },
         {
@@ -177791,64 +177907,98 @@
       ],
       "connections": [
         {
-          "id": "underworks/underworks-clawline-room#main-side-door>arena@ap",
-          "alias": "AP",
-          "name": "Arena Path",
-          "source_node_id": "underworks/underworks-clawline-room#main-side-door",
-          "target_node_id": "underworks/underworks-clawline-room#arena",
-          "requirement": {
-            "raw": "Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Enemy Pogo)",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Clawline"
-            ]
-          },
-          "notes": "getting up here without clawline is worthless unless cause the exit needs clawline anyway lmao",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
-        },
-        {
-          "id": "underworks/underworks-clawline-room#main-side-door>clawline-statue@cp",
-          "alias": "CP",
-          "name": "Clawline Path",
-          "source_node_id": "underworks/underworks-clawline-room#main-side-door",
+          "id": "underworks/underworks-clawline-room#metalwork-barge>clawline-statue@stb",
+          "alias": "STB",
+          "name": "Shrine to Barge",
+          "source_node_id": "underworks/underworks-clawline-room#metalwork-barge",
           "target_node_id": "underworks/underworks-clawline-room#clawline-statue",
           "requirement": {
-            "raw": "Clawline OR (Faydown Cloak AND Sprint AND (Drifter's Cloak OR (Dash AND Enemy Pogo)) AND Ledge Grab)",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Clawline"
-            ]
+            "raw": "Clawline Left x 3 \nOR Sharpdart x 3\nOR Run\nOR Faydown Cloak\nOR (Medium Needle Strike AND (Cling Grip Left OR Ledge Grab Left))\nOR (Proficient Movement AND Flea Brew AND (Easy Architect Needle Strike OR Architect Slash Left OR Easy Beast Pogo OR ((Easy Flea Brew Stall OR Easy [Wanderer, Reaper] Needle Strike) AND Cling Grip Left) OR (Easy Hunter Pogo AND Cling Grip Left)))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:left:3"
+              ],
+              [
+                "capability:sharpdart:3"
+              ],
+              [
+                "capability:sprint:none"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:needle-strike-stall:none:medium",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:needle-strike-stall:none:medium",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:flea-brew-jump",
+                "capability:needle-strike-stall:architect:easy"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:flea-brew-jump",
+                "capability:needle:architect:left"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:flea-brew-jump",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:flea-brew-jump",
+                "capability:stall:flea-brew:easy:1",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:flea-brew-jump",
+                "capability:needle-strike-stall:wanderer:easy",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:flea-brew-jump",
+                "capability:needle-strike-stall:reaper:easy",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:flea-brew-jump",
+                "capability:crest-pogo:hunter:easy",
+                "capability:cling-grip:left"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
-          "id": "underworks/underworks-clawline-room#main-side-door>shard-bundle-check@sp",
-          "alias": "SP",
-          "name": "Shard Path",
-          "source_node_id": "underworks/underworks-clawline-room#main-side-door",
-          "target_node_id": "underworks/underworks-clawline-room#shard-bundle-check",
+          "id": "underworks/underworks-clawline-room#clawline-statue>metalwork-barge@stb",
+          "alias": "STB",
+          "name": "Shrine to Barge",
+          "source_node_id": "underworks/underworks-clawline-room#clawline-statue",
+          "target_node_id": "underworks/underworks-clawline-room#metalwork-barge",
           "requirement": {
-            "raw": "Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Easy Enemy Pogo)",
+            "raw": "Clawline Right x 3 OR (Sharp Dart AND Faydown Cloak AND (Swift Step 2 OR Drifter's Cloak))",
             "mode": "unresolved",
             "dnf": [],
             "unresolved_reasons": [
-              "unrecognized predicate: Clawline"
+              "unrecognized predicate: Swift Step 2"
             ]
           },
-          "notes": "same thing as the arena path but you go left at the end instead of right",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "unresolved",
@@ -177879,20 +178029,40 @@
           ]
         },
         {
-          "id": "underworks/underworks-clawline-room#arena>main-side-door@ap",
+          "id": "underworks/underworks-clawline-room#blocked-off-corridor-top>blocked-off-corridor-left@lst",
+          "alias": "LST",
+          "name": "Left Side Travel",
+          "source_node_id": "underworks/underworks-clawline-room#blocked-off-corridor-top",
+          "target_node_id": "underworks/underworks-clawline-room#blocked-off-corridor-left",
+          "requirement": {
+            "raw": "Nothing. (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "underworks/underworks-clawline-room#main-side-door>arena@ap",
           "alias": "AP",
           "name": "Arena Path",
-          "source_node_id": "underworks/underworks-clawline-room#arena",
-          "target_node_id": "underworks/underworks-clawline-room#main-side-door",
+          "source_node_id": "underworks/underworks-clawline-room#main-side-door",
+          "target_node_id": "underworks/underworks-clawline-room#arena",
           "requirement": {
-            "raw": "Clawline OR Sharp Dart OR Dash OR Sprint OR Scuttlebrace OR Drifter's Cloak OR (Faydown Cloak AND Ledge Grab)",
+            "raw": "Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Enemy Pogo)",
             "mode": "unresolved",
             "dnf": [],
             "unresolved_reasons": [
               "unrecognized predicate: Clawline"
             ]
           },
-          "notes": "",
+          "notes": "getting up here without clawline is worthless unless cause the exit needs clawline anyway lmao",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "unresolved",
@@ -177901,13 +178071,13 @@
           ]
         },
         {
-          "id": "underworks/underworks-clawline-room#clawline-statue>main-side-door@cp",
-          "alias": "CP",
-          "name": "Clawline Path",
-          "source_node_id": "underworks/underworks-clawline-room#clawline-statue",
+          "id": "underworks/underworks-clawline-room#arena>main-side-door@ap",
+          "alias": "AP",
+          "name": "Arena Path",
+          "source_node_id": "underworks/underworks-clawline-room#arena",
           "target_node_id": "underworks/underworks-clawline-room#main-side-door",
           "requirement": {
-            "raw": "Clawline OR (Sharp Dart AND Faydown Cloak AND (Swift Step 2 OR Drifter's Cloak))",
+            "raw": "Clawline OR Sharp Dart OR Dash OR Sprint OR Scuttlebrace OR Drifter's Cloak OR (Faydown Cloak AND Ledge Grab)",
             "mode": "unresolved",
             "dnf": [],
             "unresolved_reasons": [
@@ -177945,16 +178115,141 @@
           ]
         },
         {
-          "id": "underworks/underworks-clawline-room#blocked-off-corridor-top>blocked-off-corridor-left@lst",
-          "alias": "LST",
-          "name": "Left Side Travel",
-          "source_node_id": "underworks/underworks-clawline-room#blocked-off-corridor-top",
-          "target_node_id": "underworks/underworks-clawline-room#blocked-off-corridor-left",
+          "id": "underworks/underworks-clawline-room#main-side-door>shard-bundle-check@sp",
+          "alias": "SP",
+          "name": "Shard Path",
+          "source_node_id": "underworks/underworks-clawline-room#main-side-door",
+          "target_node_id": "underworks/underworks-clawline-room#shard-bundle-check",
           "requirement": {
-            "raw": "Nothing. (Fall)",
-            "mode": "none",
+            "raw": "Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Easy Enemy Pogo)",
+            "mode": "unresolved",
+            "dnf": [],
+            "unresolved_reasons": [
+              "unrecognized predicate: Clawline"
+            ]
+          },
+          "notes": "same thing as the arena path but you go left at the end instead of right",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "unresolved",
+          "unresolved_reasons": [
+            "requirement is unresolved"
+          ]
+        },
+        {
+          "id": "underworks/underworks-clawline-room#main-side-door>metalwork-barge@clb",
+          "alias": "CLB",
+          "name": "Clawline to Barge",
+          "source_node_id": "underworks/underworks-clawline-room#main-side-door",
+          "target_node_id": "underworks/underworks-clawline-room#metalwork-barge",
+          "requirement": {
+            "raw": "run \nOR easy [hunter, architect, shaman, beast] pogo\nOR easy naked pogo\nOR architect slash left\nOR easy [witch, architect, beast, wanderer] needle strike\nOR clawline left\nOR sharpdart\nOR drifter's cloak \nOR faydown cloak\nOR flea brew",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:sprint:none"
+              ],
+              [
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:naked-pogo:easy"
+              ],
+              [
+                "capability:needle:architect:left"
+              ],
+              [
+                "capability:needle-strike-stall:witch:easy"
+              ],
+              [
+                "capability:needle-strike-stall:architect:easy"
+              ],
+              [
+                "capability:needle-strike-stall:beast:easy"
+              ],
+              [
+                "capability:needle-strike-stall:wanderer:easy"
+              ],
+              [
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:flea-brew-jump"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Adding new subroom on the understanding this and the surrounding platforms in the molten steel have been updated to remain after clawline shrine's been picked up. Will adjust if not the case. - Cry 11/24 1:48 CST",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "underworks/underworks-clawline-room#metalwork-barge>main-side-door@clb",
+          "alias": "CLB",
+          "name": "Clawline to Barge",
+          "source_node_id": "underworks/underworks-clawline-room#metalwork-barge",
+          "target_node_id": "underworks/underworks-clawline-room#main-side-door",
+          "requirement": {
+            "raw": "run\nOR easy beast pogo\nOR clawline right\nOR sharpdart\nOR drifter's cloak\nOR faydown cloak\nOR flea brew\nOR easy [beast, architect] needle strike\nOR (architect slash right AND ledge grab right)\nOR easy [voltvessels, plasmium] stall",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:sprint:none"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:clawline:right:1"
+              ],
+              [
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:needle-strike-stall:beast:easy"
+              ],
+              [
+                "capability:needle-strike-stall:architect:easy"
+              ],
+              [
+                "capability:needle:architect:right",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -178016,20 +178311,20 @@
           "has_persisted_state": true,
           "node_id": "underworks/underworks-clawline-room#arena",
           "requirement": {
-            "raw": "Clawline",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Clawline"
-            ]
+            "raw": "Clawline Either",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:either:1"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:underworks/underworks-clawline-room::gauntlet/underworks-clawline-gauntlet",
@@ -188043,7 +188338,7 @@
       "name": "Underworks Shard Room",
       "in_game_id": "Under_03",
       "contributors": "samupo and Rebel",
-      "notes": "",
+      "notes": "underworks/underworks-shard-room has Entry and Shards but no connection between them\n\n-Moriko",
       "nodes": [
         {
           "id": "underworks/underworks-shard-room#entry",
@@ -188100,7 +188395,7 @@
             "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": false,
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -188126,7 +188421,7 @@
             "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": false,
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -205030,8 +205325,8 @@
       "notes": "",
       "nodes": [
         {
-          "id": "cogwork-core/cogwork-core-breakable-walls#top-entrance",
-          "name": "Top Entrance",
+          "id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft",
+          "name": "Top left shaft",
           "notes": ""
         },
         {
@@ -205070,8 +205365,8 @@
           "notes": ""
         },
         {
-          "id": "cogwork-core/cogwork-core-breakable-walls#unassigned",
-          "name": "unassigned",
+          "id": "cogwork-core/cogwork-core-breakable-walls#top-entrance",
+          "name": "Top entrance",
           "notes": ""
         }
       ],
@@ -205104,7 +205399,7 @@
           "name": "left1",
           "in_game_id": "left1",
           "is_unsafe_arrival": false,
-          "source_node_id": "cogwork-core/cogwork-core-breakable-walls#top-entrance",
+          "source_node_id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft",
           "target": "cogwork-core/cogwork-core-architect-s-melody-act-3@r",
           "requirement": {
             "raw": "Nothing.",
@@ -205123,48 +205418,122 @@
       ],
       "connections": [
         {
-          "id": "cogwork-core/cogwork-core-breakable-walls#top-entrance>steam-shaft@esh",
+          "id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft>steam-shaft@esh",
           "alias": "ESH",
           "name": "Top Entrance-Steam Shaft",
-          "source_node_id": "cogwork-core/cogwork-core-breakable-walls#top-entrance",
+          "source_node_id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#steam-shaft",
           "requirement": {
-            "raw": "(Attack Right AND (Dash OR Drifter's Cloak OR Faydown Cloak OR Sharpdart OR Clawline OR Scuttlebrace OR Cling Grip))",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Dash"
-            ]
+            "raw": "(clear Cogwork Core - vapor shaft wall AND (Dash right OR Drifter's Cloak OR Faydown Cloak OR Sharpdart OR Clawline right OR easy Scuttlebrace OR easy [beast,hunter] pogo OR easy naked pogo OR easy [flea brew,plasmium, voltvessels,parry,flintslate,rune rage,air heal, thread storm] stall))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:dash:right"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:drifters-cloak"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:sharpdart:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:clawline:right:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:naked-pogo:easy"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:stall:cross-stitch:easy:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:stall:flintslate:easy:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:stall:rune-rage:easy:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:stall:air-bind:easy:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:stall:thread-storm:easy:1"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
-          "id": "cogwork-core/cogwork-core-breakable-walls#steam-shaft>top-entrance@esh",
+          "id": "cogwork-core/cogwork-core-breakable-walls#steam-shaft>top-left-shaft@esh",
           "alias": "ESH",
           "name": "Top Entrance-Steam Shaft",
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#steam-shaft",
-          "target_node_id": "cogwork-core/cogwork-core-breakable-walls#top-entrance",
+          "target_node_id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft",
           "requirement": {
-            "raw": "(Attack Left AND (Silk Soar OR (Faydown Cloak AND (Scuttlebrace OR (Ledge Grab AND Clawline AND Cling Grip)))))",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Ledge Grab"
-            ]
+            "raw": "clear Cogwork Core - vapor shaft wall AND (Silk Soar OR cling grip either OR easy scuttlebrace)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:silk-soar:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:cling-grip:either"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+                "capability:scuttlebrace:easy"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "cogwork-core/cogwork-core-breakable-walls#steam-shaft>center-shaft@scs",
@@ -205173,11 +205542,11 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#steam-shaft",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#center-shaft",
           "requirement": {
-            "raw": "Attack Left",
+            "raw": "clear Cogwork Core - vapor shaft wall 2",
             "mode": "expression",
             "dnf": [
               [
-                "capability:needle:none:left"
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall-2"
               ]
             ],
             "unresolved_reasons": []
@@ -205195,20 +205564,41 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#center-shaft",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#steam-shaft",
           "requirement": {
-            "raw": "(Attack Right AND (Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak)))",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Cling Grip"
-            ]
+            "raw": "clear Cogwork Core - vapor shaft wall 2 AND (Silk Soar OR (cling grip both AND (faydown OR easy [wanderer, reaper] pogo)) OR (cling grip right AND easy shaman pogo))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall-2",
+                "capability:silk-soar:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall-2",
+                "capability:cling-grip:both",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall-2",
+                "capability:cling-grip:both",
+                "capability:crest-pogo:wanderer:easy"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall-2",
+                "capability:cling-grip:both",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall-2",
+                "capability:cling-grip:right",
+                "capability:crest-pogo:shaman:easy"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "cogwork-core/cogwork-core-breakable-walls#center-shaft>northern-gauntlet@sng",
@@ -205217,11 +205607,11 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#center-shaft",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#northern-gauntlet",
           "requirement": {
-            "raw": "Activate Cogwork Core: Break Wall #5",
+            "raw": "clear Cogwork Core - act 3 gauntlet wall",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-break-wall-5"
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-act-3-gauntlet-wall"
               ]
             ],
             "unresolved_reasons": []
@@ -205239,13 +205629,14 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#northern-gauntlet",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#center-shaft",
           "requirement": {
-            "raw": "Activate Cogwork Core: Break Wall #5 AND Silk Soar AND Faydown Cloak",
+            "raw": "clear Cogwork Core - act 3 gauntlet wall AND Silk Soar AND Faydown Cloak AND defeat Cogwork Core: Gauntlet #3",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-break-wall-5",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-act-3-gauntlet-wall",
                 "capability:silk-soar:1",
-                "capability:faydown-cloak"
+                "capability:faydown-cloak",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::gauntlet/cogwork-core-gauntlet-3"
               ]
             ],
             "unresolved_reasons": []
@@ -205263,7 +205654,7 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#northern-gauntlet",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#southern-shaft",
           "requirement": {
-            "raw": "Complete Cogwork Core: Gauntlet #3",
+            "raw": "defeat Cogwork Core: Gauntlet #3",
             "mode": "expression",
             "dnf": [
               [
@@ -205285,20 +205676,26 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#southern-shaft",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#northern-gauntlet",
           "requirement": {
-            "raw": "(Complete Cogwork Core: Gauntlet #3 AND (Silk Soar OR (Cling Grip AND Faydown Cloak)))",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Cling Grip"
-            ]
+            "raw": "(defeat Cogwork Core: Gauntlet #3 AND (Silk Soar OR (Cling Grip either AND Faydown Cloak)))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::gauntlet/cogwork-core-gauntlet-3",
+                "capability:silk-soar:1"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::gauntlet/cogwork-core-gauntlet-3",
+                "capability:cling-grip:either",
+                "capability:faydown-cloak"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "cogwork-core/cogwork-core-breakable-walls#southern-shaft>breakable-wall-shaft@sws",
@@ -205307,12 +205704,10 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#southern-shaft",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#breakable-wall-shaft",
           "requirement": {
-            "raw": "Attack Right",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:needle:none:right"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -205329,20 +205724,32 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#breakable-wall-shaft",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#southern-shaft",
           "requirement": {
-            "raw": "(Attack Left AND (Cling Grip OR Faydown Cloak))",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Cling Grip"
-            ]
+            "raw": "clear Cogwork Core - Wall that gives vision\nAND clear Cogwork Core - Wall that gives vision 2 AND (faydown OR cling grip right OR easy scuttlebrace)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:cling-grip:right"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:scuttlebrace:easy"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "cogwork-core/cogwork-core-breakable-walls#breakable-wall-shaft>spike-platform@wsp",
@@ -205351,11 +205758,23 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#breakable-wall-shaft",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#spike-platform",
           "requirement": {
-            "raw": "Attack Left",
+            "raw": "clear Cogwork Core - Wall that gives vision\nAND clear Cogwork Core - Wall that gives vision 2\nAND (dash right OR spike pogo OR easy naked pogo)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:needle:none:left"
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:dash:right"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:spike-pogo"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:naked-pogo:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -205373,20 +205792,43 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#spike-platform",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#breakable-wall-shaft",
           "requirement": {
-            "raw": "(Attack Right AND (Dash OR Faydown Cloak OR Drifter's Cloak OR Cling Grip OR Sharpdart OR Clawline OR Scuttlebrace OR Ledge Grab))",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Dash"
-            ]
+            "raw": "clear Cogwork Core - Wall that gives vision\nAND clear Cogwork Core - Wall that gives vision 2\nAND (ledge grab left OR faydown OR easy scuttlebrace OR cling grip left OR (easy hazard respawn AND silk soar))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:cling-grip:left"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+                "dependency:location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+                "capability:hazard-respawn:easy",
+                "capability:silk-soar:1"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "cogwork-core/cogwork-core-breakable-walls#spike-platform>bottom-entrance@spe",
@@ -205415,26 +205857,91 @@
           "source_node_id": "cogwork-core/cogwork-core-breakable-walls#bottom-entrance",
           "target_node_id": "cogwork-core/cogwork-core-breakable-walls#spike-platform",
           "requirement": {
-            "raw": "(Scuttlebrace AND (Spike Pogo OR Dash)) OR Cling Grip OR (Faydown Cloak AND (Spike Pogo OR Clawline))",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: Dash"
-            ]
+            "raw": "easy shaman pogo OR cling grip right OR faydown OR (easy scuttlebrace AND spike pogo) OR easy silk soar cancel",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "technique:silk-soar-cancel:easy:1"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "cogwork-core/cogwork-core-breakable-walls#top-entrance>top-left-shaft@tt",
+          "alias": "TT",
+          "name": "entrance to shaft left",
+          "source_node_id": "cogwork-core/cogwork-core-breakable-walls#top-entrance",
+          "target_node_id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft>top-entrance@tt",
+          "alias": "TT",
+          "name": "entrance to shaft left",
+          "source_node_id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft",
+          "target_node_id": "cogwork-core/cogwork-core-breakable-walls#top-entrance",
+          "requirement": {
+            "raw": "easy silk soar cancel x 2 OR (faydown AND (cling grip either OR easy scuttlebrace) AND spike pogo)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "technique:silk-soar-cancel:easy:2"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:either",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:easy",
+                "capability:spike-pogo"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "locations": [
         {
-          "id": "location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-break-wall-5",
-          "name": "Cogwork Core: Break Wall #5",
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-act-3-gauntlet-wall",
+          "name": "Cogwork Core - act 3 gauntlet wall",
           "in_game_id": null,
           "location_type": "blockade",
           "has_persisted_state": true,
@@ -205450,6 +205957,98 @@
             "unresolved_reasons": []
           },
           "notes": "Can't be broken from the bottom.",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall",
+          "name": "Cogwork Core - vapor shaft wall",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#top-left-shaft",
+          "requirement": {
+            "raw": "break wall either",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:either"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-vapor-shaft-wall-2",
+          "name": "Cogwork Core - vapor shaft wall 2",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#steam-shaft",
+          "requirement": {
+            "raw": "break wall either",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:either"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision",
+          "name": "Cogwork Core - Wall that gives vision",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#breakable-wall-shaft",
+          "requirement": {
+            "raw": "break wall either",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:either"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::blockade/cogwork-core-wall-that-gives-vision-2",
+          "name": "Cogwork Core - Wall that gives vision 2",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#breakable-wall-shaft",
+          "requirement": {
+            "raw": "break wall either",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:either"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -205479,28 +206078,109 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:cogwork-core/cogwork-core-breakable-walls::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "cogwork-core/cogwork-core-breakable-walls#unassigned",
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::enemy/underworker-1",
+          "name": "Underworker 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 1\"[0]/\"Understore Small\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#northern-gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::enemy/underpoke-1",
+          "name": "Underpoke 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 1\"[0]/\"Understore Poker\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#northern-gauntlet",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::enemy/undercrank-1",
+          "name": "Undercrank 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 2\"[0]/\"Understore Heavy (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#northern-gauntlet",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::enemy/underloft-1",
+          "name": "Underloft 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 2\"[0]/\"Understore Thrower\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#northern-gauntlet",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:cogwork-core/cogwork-core-breakable-walls::enemy/drapemite-1",
+          "name": "Drapemite 1",
+          "in_game_id": "\"Mite Heavy\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "cogwork-core/cogwork-core-breakable-walls#bottom-entrance",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -206664,11 +207344,6 @@
           "notes": ""
         },
         {
-          "id": "cogwork-core/cogwork-core-north-main#upper-entrance",
-          "name": "Upper Entrance",
-          "notes": ""
-        },
-        {
           "id": "cogwork-core/cogwork-core-north-main#first-safe-platform",
           "name": "First safe platform",
           "notes": ""
@@ -206689,8 +207364,13 @@
           "notes": ""
         },
         {
-          "id": "cogwork-core/cogwork-core-north-main#unassigned",
-          "name": "unassigned",
+          "id": "cogwork-core/cogwork-core-north-main#fifth-safe-platform",
+          "name": "fifth safe platform",
+          "notes": ""
+        },
+        {
+          "id": "cogwork-core/cogwork-core-north-main#upper-entrance",
+          "name": "Upper Entrance",
           "notes": ""
         }
       ],
@@ -206704,12 +207384,10 @@
           "source_node_id": "cogwork-core/cogwork-core-north-main#lower-entrance",
           "target": "cogwork-core/cog-dancers@t",
           "requirement": {
-            "raw": "activate Cog dancers - clawline mechanism 2 IN cog dancers ",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:cogwork-core/cog-dancers::switch/cog-dancers-clawline-mechanism-2"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -206728,10 +207406,25 @@
           "source_node_id": "cogwork-core/cogwork-core-north-main#upper-entrance",
           "target": "cogwork-core/cogwork-core-architect-s-melody@b",
           "requirement": {
-            "raw": "Nothing",
-            "mode": "none",
+            "raw": "cling grip left OR easy scuttlebrace OR faydown OR (easy shaman pogo AND hard pale nails stall) OR silk soar",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:stall:pale-nails:hard:1"
+              ],
+              [
+                "capability:silk-soar:1"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -207229,10 +207922,15 @@
           "source_node_id": "cogwork-core/cogwork-core-north-main#second-safe-platform",
           "target_node_id": "cogwork-core/cogwork-core-north-main#first-safe-platform",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "spike pogo OR easy naked pogo",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:naked-pogo:easy"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -207249,7 +207947,7 @@
           "source_node_id": "cogwork-core/cogwork-core-north-main#second-safe-platform",
           "target_node_id": "cogwork-core/cogwork-core-north-main#third-safe-platform",
           "requirement": {
-            "raw": "(easy shaman pogo AND spike pogo AND (faydown OR clawline left OR (clawline right AND (ledge grab left OR proficient movement)) OR (medium shaman scuttle slide AND proficient movement)))\nOR (medium [wanderer, reaper] pogo AND spike pogo AND faydown)\nOR (clawline both AND cling grip both)\nOR (clawline either AND spike pogo AND faydown)\nOR (easy Silk Soar Cancel AND elite ball knowledge)",
+            "raw": "(easy shaman pogo AND spike pogo AND (faydown OR clawline left OR (clawline right AND (ledge grab left OR proficient movement)) OR (medium shaman scuttle slide AND proficient movement)))\nOR (spike pogo AND faydown)\nOR (clawline both AND cling grip both)",
             "mode": "expression",
             "dnf": [
               [
@@ -207281,27 +207979,12 @@
                 "capability:proficient-movement"
               ],
               [
-                "capability:crest-pogo:wanderer:medium",
-                "capability:spike-pogo",
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:crest-pogo:reaper:medium",
                 "capability:spike-pogo",
                 "capability:faydown-cloak"
               ],
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both"
-              ],
-              [
-                "capability:clawline:either:1",
-                "capability:spike-pogo",
-                "capability:faydown-cloak"
-              ],
-              [
-                "technique:silk-soar-cancel:easy:1",
-                "setting:elite-ball-knowledge-on"
               ]
             ],
             "unresolved_reasons": []
@@ -207364,13 +208047,36 @@
           "unresolved_reasons": []
         },
         {
+          "id": "cogwork-core/cogwork-core-north-main#second-safe-platform>fourth-safe-platform@v2",
+          "alias": "V2",
+          "name": "fourth to second",
+          "source_node_id": "cogwork-core/cogwork-core-north-main#second-safe-platform",
+          "target_node_id": "cogwork-core/cogwork-core-north-main#fourth-safe-platform",
+          "requirement": {
+            "raw": "(easy Silk Soar Cancel AND elite ball knowledge)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "technique:silk-soar-cancel:easy:1",
+                "setting:elite-ball-knowledge-on"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
           "id": "cogwork-core/cogwork-core-north-main#third-safe-platform>fourth-safe-platform@tf",
           "alias": "TF",
           "name": "third to fourth",
           "source_node_id": "cogwork-core/cogwork-core-north-main#third-safe-platform",
           "target_node_id": "cogwork-core/cogwork-core-north-main#fourth-safe-platform",
           "requirement": {
-            "raw": "spike pogo AND (easy shaman pogo OR ledge grab right OR cling grip right OR faydown OR (silk soar AND elite ball knowledge ) OR (cling grip left AND (dash right OR clawline right OR sharpdart)))",
+            "raw": "spike pogo AND (easy shaman pogo OR ledge grab right OR cling grip right OR faydown OR easy silk soar cancel OR (cling grip left AND (dash right OR clawline right OR sharpdart)))",
             "mode": "expression",
             "dnf": [
               [
@@ -207391,8 +208097,7 @@
               ],
               [
                 "capability:spike-pogo",
-                "capability:silk-soar:1",
-                "setting:elite-ball-knowledge-on"
+                "technique:silk-soar-cancel:easy:1"
               ],
               [
                 "capability:spike-pogo",
@@ -207429,6 +208134,218 @@
             "mode": "none",
             "dnf": [
               []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "cogwork-core/cogwork-core-north-main#fourth-safe-platform>upper-entrance@fu",
+          "alias": "FU",
+          "name": "fourth to upper",
+          "source_node_id": "cogwork-core/cogwork-core-north-main#fourth-safe-platform",
+          "target_node_id": "cogwork-core/cogwork-core-north-main#upper-entrance",
+          "requirement": {
+            "raw": "(activate Cogwork Core: North switch AND ((easy shaman pogo AND spike pogo AND\n(faydown OR (clawline right AND medium shaman scuttle slide AND dash left)))\nOR (medium silk soar cancel AND proficient movement AND spike pogo)\nOR (medium reaper pogo AND faydown AND spike pogo)))\nOR (easy shaman pogo AND faydown AND spike pogo AND easy pogo off [cogwork cleanser, cogwork defender])",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:cogwork-core/cogwork-core-north-main::switch/cogwork-core-north-switch",
+                "capability:crest-pogo:shaman:easy",
+                "capability:spike-pogo",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-north-main::switch/cogwork-core-north-switch",
+                "capability:crest-pogo:shaman:easy",
+                "capability:spike-pogo",
+                "capability:clawline:right:1",
+                "capability:shaman-scuttler:medium",
+                "capability:dash:left"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-north-main::switch/cogwork-core-north-switch",
+                "technique:silk-soar-cancel:medium:1",
+                "capability:proficient-movement",
+                "capability:spike-pogo"
+              ],
+              [
+                "dependency:location:cogwork-core/cogwork-core-north-main::switch/cogwork-core-north-switch",
+                "capability:crest-pogo:reaper:medium",
+                "capability:faydown-cloak",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:faydown-cloak",
+                "capability:spike-pogo",
+                "capability:enemy-type-pogo:Song Automaton 02:easy"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:faydown-cloak",
+                "capability:spike-pogo",
+                "capability:enemy-type-pogo:Song Automaton Shield:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "cogwork-core/cogwork-core-north-main#upper-entrance>fourth-safe-platform@fu",
+          "alias": "FU",
+          "name": "fourth to upper",
+          "source_node_id": "cogwork-core/cogwork-core-north-main#upper-entrance",
+          "target_node_id": "cogwork-core/cogwork-core-north-main#fourth-safe-platform",
+          "requirement": {
+            "raw": "spike pogo OR medium naked pogo",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:naked-pogo:medium"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "cogwork-core/cogwork-core-north-main#fourth-safe-platform>fifth-safe-platform@ff",
+          "alias": "FF",
+          "name": "fourth to fifth",
+          "source_node_id": "cogwork-core/cogwork-core-north-main#fourth-safe-platform",
+          "target_node_id": "cogwork-core/cogwork-core-north-main#fifth-safe-platform",
+          "requirement": {
+            "raw": "(((clawline both AND cling grip both AND spike pogo)\nOR (cling grip right AND faydown)) AND activate Cogwork Core: North switch)\nOR easy silk soar cancel\n",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:both:1",
+                "capability:cling-grip:both",
+                "capability:spike-pogo",
+                "dependency:location:cogwork-core/cogwork-core-north-main::switch/cogwork-core-north-switch"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "dependency:location:cogwork-core/cogwork-core-north-main::switch/cogwork-core-north-switch"
+              ],
+              [
+                "technique:silk-soar-cancel:easy:1"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "cogwork-core/cogwork-core-north-main#fifth-safe-platform>fourth-safe-platform@ff",
+          "alias": "FF",
+          "name": "fourth to fifth",
+          "source_node_id": "cogwork-core/cogwork-core-north-main#fifth-safe-platform",
+          "target_node_id": "cogwork-core/cogwork-core-north-main#fourth-safe-platform",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "cogwork-core/cogwork-core-north-main#fifth-safe-platform>upper-entrance@lu",
+          "alias": "LU",
+          "name": "fifth to upper",
+          "source_node_id": "cogwork-core/cogwork-core-north-main#fifth-safe-platform",
+          "target_node_id": "cogwork-core/cogwork-core-north-main#upper-entrance",
+          "requirement": {
+            "raw": "(cling grip left AND clawline either x 3 AND faydown AND spike pogo)\nOR (clawline both x 4 AND cling grip both AND spike pogo)\nOR  (clawline both x 9 AND proficient movement AND spike pogo)\nOR (clawline either x 4 AND faydown AND spike pogo AND easy pogo off cogwork spine)\nOR (medium beast pogo AND faydown AND spike pogo)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:left",
+                "capability:clawline:either:3",
+                "capability:faydown-cloak",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:clawline:both:4",
+                "capability:cling-grip:both",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:clawline:both:9",
+                "capability:proficient-movement",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:clawline:either:4",
+                "capability:faydown-cloak",
+                "capability:spike-pogo",
+                "capability:enemy-type-pogo:Song Automaton Fly Spike:easy"
+              ],
+              [
+                "capability:crest-pogo:beast:medium",
+                "capability:faydown-cloak",
+                "capability:spike-pogo"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "cogwork-core/cogwork-core-north-main#upper-entrance>fifth-safe-platform@lu",
+          "alias": "LU",
+          "name": "fifth to upper",
+          "source_node_id": "cogwork-core/cogwork-core-north-main#upper-entrance",
+          "target_node_id": "cogwork-core/cogwork-core-north-main#fifth-safe-platform",
+          "requirement": {
+            "raw": "spike pogo AND (clawline right x 2 OR drifters OR faydown)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:spike-pogo",
+                "capability:clawline:right:2"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:spike-pogo",
+                "capability:faydown-cloak"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -207490,23 +208407,20 @@
           "in_game_id": "\"Song Automaton Goomba (7)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "cogwork-core/cogwork-core-north-main#unassigned",
+          "node_id": "cogwork-core/cogwork-core-north-main#upper-entrance",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:cogwork-core/cogwork-core-north-main::enemy/cogwork-crawler-3",
@@ -207556,23 +208470,20 @@
           "in_game_id": "\"Song Automaton Fly Spike (6)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "cogwork-core/cogwork-core-north-main#unassigned",
+          "node_id": "cogwork-core/cogwork-core-north-main#upper-entrance",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:cogwork-core/cogwork-core-north-main::enemy/cogwork-spine-2",

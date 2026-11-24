@@ -25,9 +25,15 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Underworks Big Guy's Shard Stache | Shards | Activate Underworks Big Guy's Personal Vault Door |  | Verified | collectible | ✓ |  |
-| 2 | Underworks Big Guy's Personal Vault Door | Entry | Break Wall Left OR Break Wall Up |  | Verified | blockade | ✓ |  |
+| 1 | Underworks Big Guy's Shard Stache | Shards | Activate Underworks Big Guy's Personal Vault Door | TODO | Verified | collectible | ✓ |  |
+| 2 | Underworks Big Guy's Personal Vault Door | Entry | Break Wall Left OR Break Wall Up | TODO | Verified | blockade | ✓ |  |
 | 3 | Undercrank 1 | Entry | nada |  | Verified | enemy | ✓ |  |
+
+## Notes
+
+underworks/underworks-shard-room has Entry and Shards but no connection between them
+
+-Moriko
 
 ## Room Images
 

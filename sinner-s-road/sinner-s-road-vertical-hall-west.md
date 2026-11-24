@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_02
 
-**Contributors:** Gallos, herchey's going to bed
+**Contributors:** Gallos, Hutyrix, herchey's going to bed
 
 ## Subrooms
 
@@ -36,13 +36,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BL | basement to lower | lower | basement | none |  | Verified | ✓ | Technically "any attack" is a requirement |
 | BL | basement to lower | basement | lower | cling grip right OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
-| LMR | low to mid right | lower | middle right | silk soar OR cling grip right OR (cling grip left AND (faydown OR proficient movement)) OR easy scuttlebrace |  | Verified | ✓ |  |
+| LMR | low to mid right | lower | middle right | silk soar OR cling grip right OR (cling grip left AND (faydown OR proficient movement)) OR easy scuttlebrace |  | Verified | ✓ | pilky written easy scuttlebrace here |
 | LMR | low to mid right | middle right | lower | none |  | Verified | ✓ |  |
 | MRL | mid right to middle left | middle right | middle left | silk soar OR (complete Lever That Gets You A Shortcut To The Bullshit Bench Door AND (cling grip either OR (faydown cloak AND (ledge grab either OR easy shaman pogo OR easy beast charge OR medium beast bind stall)))) |  | Verified | ✓ |  |
 | MRL | mid right to middle left | middle left | middle right | none |  | Verified | ✓ |  |
 | LUR | mid left to upper right | middle left | upper right | Cling grip right OR faydown cloak |  | Verified | ✓ |  |
 | LUR | mid left to upper right | upper right | middle left | none |  | Verified | ✓ |  |
-| URT | upper right to top | upper right | top | Silk soar |  | Verified | ✓ |  |
+| URT | upper right to top | upper right | top | Silk soar OR (faydown AND proficient movement) |  | Verified | ✓ | faydown spike pogos. can't use faydown |
 | URT | upper right to top | top | upper right | none |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | middle right | rosary cage | silk soar OR (easy enemy pogo off roachcatcher AND (drifters OR faydown OR (easy shaman pogo AND (cling grip either OR scuttlebrace)))) OR (medium enemy pogo off roachcatcher AND easy shaman pogo) |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | rosary cage | middle right | none |  | Verified | ✓ |  |

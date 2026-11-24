@@ -1017,7 +1017,7 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache bone bottom 4 | ground floor | ledge grab right OR cling grip either OR faydown cloak OR silk soar  OR easy shaman pogo OR easy pogo off [ aknid, pilgrim pouncer, pilgrim groveller ] OR [reaper, witch, shaman] needle right OR ( elite ball knowledge AND (  [hunter,beast,architect] longclaw right OR easy [threefold pin, voltvessels, pimpillo, conchcutter, sting shard, longpin, curveclaw, cogwork wheel, rosary cannon, throwing ring, silkshot original] use OR easy plasmium stall OR medium flea brew stall OR easy [wanderer, architect, beast, hunter] charge OR ( beast needle right AND easy beast crest heal stall ) ) ) OR witch attack UP OR witch attack Right OR hunter attack Right OR wanderer attack right OR Reaper attack up OR reaper attack right OR Beast attack right OR Architect attack up OR architect attack right OR shaman attack up OR shaman attack right OR easy beast charge OR easy wanderer charge | TODO | Verified | collectible | ✓ | complain to Hutyrix in the ap discord about this; can just attack to get it, even naked - hero, 10/28  ======== WHO EDITED THIS LOGIC.  ATTACK RIGHT IS ENOUGH  NOW CLOAKLESS IS OUT OF LOGIC  (not to mention attack randomizer has still imperfect syntax, for example wanderer attack up)  -Hutyrix 11/23  Need to add memory crystal back but with enemy pogo? - hero, 11/24 |
+| 1 | rosary cache bone bottom 4 | ground floor | ledge grab right OR cling grip either OR faydown cloak OR silk soar  OR easy shaman pogo OR easy pogo off [ aknid, pilgrim pouncer, pilgrim groveller ] OR [reaper, witch, shaman] needle right OR ( elite ball knowledge AND (  [hunter,beast,architect] longclaw right OR easy [threefold pin, voltvessels, pimpillo, conchcutter, sting shard, longpin, curveclaw, cogwork wheel, rosary cannon, throwing ring, silkshot original] use OR easy plasmium stall OR medium flea brew stall OR easy [wanderer, architect, beast, hunter] charge OR ( beast needle right AND easy beast crest heal stall ) ) ) OR witch attack UP OR witch attack Right OR hunter attack Right OR wanderer attack right OR Reaper attack up OR reaper attack right OR Beast attack right OR Architect attack up OR architect attack right OR shaman attack up OR shaman attack right OR easy beast charge OR easy wanderer charge | TODO | Verified | collectible | ✓ | complain to Hutyrix in the ap discord about this; can just attack to get it, even naked - hero, 10/28  ======== WHO EDITED THIS LOGIC.  ATTACK RIGHT IS ENOUGH  NOW CLOAKLESS IS OUT OF LOGIC  (not to mention attack randomizer has still imperfect syntax, for example wanderer attack up)  -Hutyrix 11/23  Need to add memory crystal back but with enemy pogo? - hero, 11/24   easy enemy pogo alone is already accounted Hutyrix 11/24 |
 | 2 | rosary cache bone bottom 5 | ground floor | ledge grab right OR cling grip either OR faydown cloak OR silk soar  OR easy shaman pogo OR easy pogo off [ aknid, pilgrim pouncer, pilgrim groveller ] OR [reaper, witch, shaman] needle right OR ( elite ball knowledge AND (  [hunter,beast,architect] longclaw right OR easy [threefold pin, voltvessels, pimpillo, conchcutter, sting shard, longpin, curveclaw, cogwork wheel, rosary cannon, throwing ring, silkshot original] use OR easy plasmium stall OR medium flea brew stall OR easy [wanderer, architect, beast, hunter] charge OR ( beast needle right AND easy beast crest heal stall ) ) ) OR witch attack UP OR witch attack Right OR hunter attack Right OR wanderer attack right OR Reaper attack up OR reaper attack right OR Beast attack right OR (have tool: Memory crystal ) OR shaman attack up OR shaman attack right OR easy beast charge OR easy wanderer charge |  | Verified | collectible | ✓ | per Hutyrix, these can reach from the ground floor just by jumping: Reaper [attack] Witch [attack] Shaman [attack] (pogo not required) Wanderer + Needle Strike Architect + Needle Strike Beast + Needle Strike Beast: Technique Heal Stall (pogo after bind) Hunter + Needle Strike Hunter + Longclaw 😄  ======= Memory crystal pogo requires any enemy, which you can already pogo off without tool  DONE Architect is not enough  Also, rosary cannon should be cbt + renewable rosaries  Remember that this is logic for RIGHT rosary string, which is deeper -Hutyrix, 11/21 ========  I wrote all of this.  - Hutryix, 22/11  ======== Fake Hutyrix doesn't know how to write american dates properly -Hutyrix, 11/22 ======== your right i forgor this was only the right string american dates are inferior - Pyxl, 23/11 |
 | 3 | Garmond and Zaza Act 3 Meeting Bone Bottom | upper right level | Act 3 |  | Verified | event | ✓ |  |
 | 4 | Pilgrim Groveller 1 | ground floor | None |  | Verified | enemy | ✓ |  |
@@ -6319,18 +6319,19 @@ No subroom connections defined.
 | CT | check tunnel | check alcove | crossing | none (falling) |  | Verified | ✓ |  |
 | AT | arena tunnel | crossing | dungeon descent | break blast rock down |  | Verified | ✓ |  |
 | AT | arena tunnel | dungeon descent | crossing | cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) |  | Verified | ✓ |  |
-| LA | lava ascend | arena | mask alcove | ((cling grip both AND dash both) OR (cling grip either AND faydown cloak)) |  | Verified | ✓ | Might opt to retire this connection if it proves redundant after the remap. |
 | MA | mask ascent | mask alcove | entrance | none (falling) |  | Verified | ✓ |  |
 | MA | mask ascent | entrance | mask alcove | clear Gauntlet AND (drifter's cloak OR (faydown cloak AND dash either AND Hard pogo off Tarmite AND (cling grip either OR easy scuttlebrace))) |  | Verified | ✓ |  |
 | DS | dungeon scaffold | dungeon descent | dungeon spike pit | none (falling) |  | Verified | ✓ |  |
 | DS | dungeon scaffold | dungeon spike pit | dungeon descent | cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) |  | Verified | ✓ |  |
+| ALR | arena lava rise | arena | entrance | clear gauntlet AND cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) |  | Verified | ✓ | One-way post arena gauntlet climb with the lava; an invisible ceiling prevents silk soaring out of the arena before finishing the gauntlet, and the walls are too short to scaffold out of, even with full mobility options. |
+| GE | gauntlet entrance | dungeon spike pit | arena | none (falling) |  | Verified | ✓ | One-way drop; an invisible ceiling prevents silk soaring out of the arena before finishing the gauntlet, and the walls are too short to scaffold out of, even with full mobility options. |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | shell shard cache far fields 8 | check alcove | none |  | Verified | collectible |  | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? |
-| 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible |  |  |
+| 1 | shell shard cache far fields 8 | check alcove | none |  | Verified | collectible | ✓ | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? |
+| 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | gauntlet blast rock | arena | none (attack) |  | Verified | logic-point | ✓ | cry - breaking this blast rock initiates the gauntlet |
 | 4 | Gauntlet | arena | Combat Requirements |  | Verified | gauntlet |  |  |
 | 5 | Beastfly 1 | arena | none |  | Verified | enemy | ✓ |  |
@@ -9323,13 +9324,13 @@ Relic slots are numbered for convenience but not for required reasons.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#room-bellhart--bellhart-relic-shop) | L | defeat THE Boss Widow | TODO | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough |
+| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#room-bellhart--bellhart-relic-shop) | L | defeat THE Boss Widow |  | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough  - I made my exporter understand what this means so it's fine  Moriko |
 | HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](#room-bellhart--bellhome) | L | Have bellhome key |  | Verified | ✓ | the randomizer makes this always accessible  ======== Not anymore, you start homeless now.  -Hutyrix, 11/22 |
-| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#room-bellhart--bellhart-pinsmith) | L | defeat THE Boss Widow | TODO | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough |
+| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#room-bellhart--bellhart-pinsmith) | L | defeat THE Boss Widow |  | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough  - I made my exporter understand what this means so it's fine  Moriko |
 | L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](#room-bellhart--bellhart-hallway-to-shellwood) | R | None |  | Verified | ✓ |  |
 | R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](#room-bellhart--bellhart-right-entrance) | LL | None |  | Verified | ✓ |  |
 | BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](#room-bellhart--bellhart-bellway) | L | None |  | Verified | ✓ |  |
-| WW | wish wall | Lower Area | [Bellhart Wish Wall](#room-wish-menus--bellhart-wish-wall) | BH | defeat THE Boss Widow | TODO | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough |
+| WW | wish wall | Lower Area | [Bellhart Wish Wall](#room-wish-menus--bellhart-wish-wall) | BH | defeat THE Boss Widow |  | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough  - I made my exporter understand what this means so it's fine  Moriko |
 | DW | delivery wishes | Upper Area | [Bellhart Deliveries](#room-wish-menus--bellhart-deliveries) | BH | complete THE my missing brother wish granted |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -13339,12 +13340,13 @@ No subroom connections defined.
 | DMD | PlatformDMid | Platform D | Mid | faydown cloak OR silk soar |  | Verified | ✓ |  |
 | DMD | PlatformDMid | Mid | Platform D | None (Fall) |  | Verified | ✓ |  |
 | MSC | MidSubPlatC | Mid | SubPlatC | None (Fall) |  | Verified | ✓ |  |
-| MSC | MidSubPlatC | SubPlatC | Mid | run OR easy scuttlebrace OR faydown cloak OR clawline left OR sharpdart OR silk soar OR flea brew OR ((ledge grab left OR cling grip left) AND (proficient movement OR (needolin AND elite ball knowledge) OR easy [air bind, thread storm, parry, rune rage, pale nails, flea brew, flintslate, plasmium] stall OR easy [reaper] needle strike OR architect hit left)) OR easy [voltvessels] stall OR easy [wanderer, beast, architect] needle strike OR medium beast pogo OR (cling grip left AND (easy [shaman] needle strike OR easy [hunter] pogo)) |  | Verified | ✓ | Thus marks the beginning of my insanity  Whoever wrote this, yeah, you were insane. You can always go from Platform E to Mid by bell pogoing, so whole of this syntax is useless. -Hutyrix 24/11 |
+| MSC | MidSubPlatC | SubPlatC | Mid | run OR easy scuttlebrace OR faydown cloak OR clawline left OR sharpdart OR silk soar OR flea brew OR ((ledge grab left OR cling grip left) AND (proficient movement OR (needolin AND elite ball knowledge) OR easy [air bind, thread storm, parry, rune rage, pale nails, flea brew, flintslate, plasmium] stall OR easy [reaper] needle strike OR architect hit left)) OR easy [voltvessels] stall OR easy [wanderer, beast, architect] needle strike OR medium beast pogo OR (cling grip left AND (easy [shaman] needle strike OR easy [hunter] pogo)) |  | Verified | ✓ | Thus marks the beginning of my insanity  =============== Whoever wrote this, yeah, you were insane. You can always go from Platform E to Mid by bell pogoing, so whole transition is useless.  For that reason, I added oneway EMD PlatformEtoMidDrop, written right below -Hutyrix 24/11 ================ |
+| EMD | PlatformEtoMidDrop | Platform E | Mid | None (falling and non-crest-dependent bell pogoing) |  | Verified |  |  |
 | SCC | SubPlatCCraftmetal | SubPlatC | ThisShit | (run AND (ledge grab left OR easy [air bind, thread storm, parry, rune rage, pale nails, plasmium, voltvessels, flintslate, flea brew] stall OR easy [hunter, shaman] pogo OR easy [wanderer, reaper, witch] needle strike)) OR dash left OR clawline left OR faydown cloak OR drifter's cloak OR sharpdart OR easy [beast] pogo OR easy scuttlebrace OR easy [beast, architect] needle strike |  | Verified | ✓ |  |
 | SCC | SubPlatCCraftmetal | ThisShit | SubPlatC | run AND cling grip right AND faydown cloak |  | Verified | ✓ |  |
 | TSC | FuckassPlatform | ThisShit | Craftmetal | None (jump) |  | Verified | ✓ | You can jump right over |
 | TSC | FuckassPlatform | Craftmetal | ThisShit | ledge grab right OR easy [air bind, thread storm, parry, rune rage, pale nails, plasmium, voltvessels, flintslate, flea brew] stall OR flea brew OR easy [hunter, reaper, beast, witch, shaman] pogo OR easy [wanderer, reaper, beast, architect, witch, shaman] needle strike OR sharpdart OR clawline right OR run OR architect hit right OR drifter's cloak OR faydown cloak |  | Verified | ✓ | You can NOT jump right over. fucking tc |
-| SCE | SubPlatCtoPlatE | SubPlatC | Platform E | silk soar x 1 OR ((faydown cloak OR drifters OR clawline right OR dash right OR sharpdart OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall) AND cling grip right) OR ((faydown OR clawline right x 1 OR dash right OR sharpdart ) AND easy scuttlebrace) OR ((drifters OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall) AND medium scuttlebrace) OR (medium naked pogo AND cling grip right AND (dash right OR proficient movement)) |  | Verified | ✓ | I couldn't get rune rage to hit here |
+| SCE | SubPlatCtoPlatE | SubPlatC | Platform E | silk soar x 1 OR ((faydown cloak OR drifters OR clawline right OR dash right OR sharpdart OR easy [reaper,wanderer,shaman] pogo OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall OR hard [hunter,beast,witch] pogo) AND cling grip right) OR ((faydown OR clawline right x 1 OR dash right OR sharpdart OR easy [reaper,wanderer,shaman] pogo) AND easy scuttlebrace) OR ((drifters OR medium [hunter,beast,witch,architect] pogo OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall) AND medium scuttlebrace) OR (medium naked pogo AND cling grip right AND (dash right OR proficient movement)) |  | Verified | ✓ | I couldn't get rune rage to hit here   ======= all crests with cling grip right can pass it except architect, which of course can't use rune rage, so i don't know how to test rune rage :(  also massive overhaul 24/11/26 - Hutyrix ======= |
 | SCE | SubPlatCtoPlatE | Platform E | SubPlatC | None (Fall) |  | Verified | ✓ |  |
 | ET | PlatformEtoTop | Platform E | Top | cling grip left OR (easy scuttlebrace AND easy [reaper,wanderer,shaman] pogo) OR easy shaman scuttle slide OR (hard scuttlebrace AND hard [hunter,beast,witch,architect] pogo) |  | Verified | ✓ |  |
 | ET | PlatformEtoTop | Top | Platform E | dash right OR clawline right x 1 OR faydown cloak OR easy scuttlebrace OR sharpdart x 1 OR drifter's cloak OR easy [air bind, thread storm, parry, rune rage, pale nails, plasmium, voltvessels, flintslate, flea brew] stall x 1 OR easy [hunter, beast, reaper, architect, witch, shaman] pogo OR easy [wanderer, reaper, beast, architect, witch, shaman] needle strike OR architect hit right |  | Verified | ✓ |  |
@@ -13354,7 +13356,7 @@ No subroom connections defined.
 | TT | TippityTop | Top Entrance | Top | clear Spiky Blockade |  | Verified | ✓ |  |
 | ER | PlatformERight | Platform E | Right Entrance | silk soar x 1 OR faydown OR (cling grip left AND (clawline right x 2 OR sharpdart x 2 OR drifter's cloak OR dash right OR easy [reaper,beast] pogo OR medium [hunter,witch,shaman] pogo OR flea brew jump OR medium wanderer charge OR (medium architect pogo AND (cling grip right OR easy [voltvessels,plasmium] stall x 2)) OR (medium wanderer pogo AND medium [air bind,voltvessels,plasmium,flintslate,thread storm,parry,rune rage,pale nails] stall x 1 )))  OR (easy scuttlebrace AND easy [reaper,wanderer,shaman] pogo) OR easy shaman scuttle slide OR (hard scuttlebrace AND hard [hunter,beast,witch,architect] pogo) OR (medium naked pogo AND cling grip left AND (dash right OR proficient movement)) |  | Verified | ✓ | cling grip left was once cling grip right |
 | ER | PlatformERight | Right Entrance | Platform E | None (Fall) |  | Verified | ✓ |  |
-| TTR | TopToRight | Top Entrance | Right Entrance | drifters OR faydown OR clawline right x 2 OR dash right OR easy plasmium stall x 2 OR easy flea brew stall x 3 |  | Verified | ✓ |  |
+| TTR | TopToRight | Top Entrance | Right Entrance | drifters OR faydown OR clawline right x 2 OR sharpdart x 2 OR dash right OR easy plasmium stall x 2 OR easy flea brew stall x 3 |  | Verified | ✓ |  |
 | TTR | TopToRight | Right Entrance | Top Entrance | faydown AND dash left AND cling grip right |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -14364,7 +14366,7 @@ this room has a few disabled battle scenes which is why there are so many disabl
 
 **Game ID:** Dust_02
 
-**Contributors:** Gallos, herchey's going to bed
+**Contributors:** Gallos, Hutyrix, herchey's going to bed
 
 #### Subrooms
 
@@ -14398,13 +14400,13 @@ this room has a few disabled battle scenes which is why there are so many disabl
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BL | basement to lower | lower | basement | none |  | Verified | ✓ | Technically "any attack" is a requirement |
 | BL | basement to lower | basement | lower | cling grip right OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
-| LMR | low to mid right | lower | middle right | silk soar OR cling grip right OR (cling grip left AND (faydown OR proficient movement)) OR easy scuttlebrace |  | Verified | ✓ |  |
+| LMR | low to mid right | lower | middle right | silk soar OR cling grip right OR (cling grip left AND (faydown OR proficient movement)) OR easy scuttlebrace |  | Verified | ✓ | pilky written easy scuttlebrace here |
 | LMR | low to mid right | middle right | lower | none |  | Verified | ✓ |  |
 | MRL | mid right to middle left | middle right | middle left | silk soar OR (complete Lever That Gets You A Shortcut To The Bullshit Bench Door AND (cling grip either OR (faydown cloak AND (ledge grab either OR easy shaman pogo OR easy beast charge OR medium beast bind stall)))) |  | Verified | ✓ |  |
 | MRL | mid right to middle left | middle left | middle right | none |  | Verified | ✓ |  |
 | LUR | mid left to upper right | middle left | upper right | Cling grip right OR faydown cloak |  | Verified | ✓ |  |
 | LUR | mid left to upper right | upper right | middle left | none |  | Verified | ✓ |  |
-| URT | upper right to top | upper right | top | Silk soar |  | Verified | ✓ |  |
+| URT | upper right to top | upper right | top | Silk soar OR (faydown AND proficient movement) |  | Verified | ✓ | faydown spike pogos. can't use faydown |
 | URT | upper right to top | top | upper right | none |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | middle right | rosary cage | silk soar OR (easy enemy pogo off roachcatcher AND (drifters OR faydown OR (easy shaman pogo AND (cling grip either OR scuttlebrace)))) OR (medium enemy pogo off roachcatcher AND easy shaman pogo) |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | rosary cage | middle right | none |  | Verified | ✓ |  |
@@ -15039,7 +15041,7 @@ No subroom connections defined.
 
 **Game ID:** Under_18
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Cry
 
 #### Subrooms
 
@@ -15051,6 +15053,7 @@ No subroom connections defined.
 | S4 | Main Side Door | ✓ |
 | S5 | Arena | ✓ |
 | S6 | Blocked Off Corridor Top | ✓ |
+| S7 | Metalwork Barge | ✓ |
 
 - **Arena:** Arena activated by Clawline Ring
 
@@ -15067,14 +15070,16 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| AP | Arena Path | Main Side Door | Arena | Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Enemy Pogo) |  | Verified | ✓ | getting up here without clawline is worthless unless cause the exit needs clawline anyway lmao |
-| CP | Clawline Path | Main Side Door | Clawline Statue | Clawline OR (Faydown Cloak AND Sprint AND (Drifter's Cloak OR (Dash AND Enemy Pogo)) AND Ledge Grab) |  | Verified | ✓ |  |
-| SP | Shard Path | Main Side Door | Shard Bundle Check | Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Easy Enemy Pogo) |  | Verified | ✓ | same thing as the arena path but you go left at the end instead of right |
+| STB | Shrine to Barge | Metalwork Barge | Clawline Statue | Clawline Left x 3  OR Sharpdart x 3 OR Run OR Faydown Cloak OR (Medium Needle Strike AND (Cling Grip Left OR Ledge Grab Left)) OR (Proficient Movement AND Flea Brew AND (Easy Architect Needle Strike OR Architect Slash Left OR Easy Beast Pogo OR ((Easy Flea Brew Stall OR Easy [Wanderer, Reaper] Needle Strike) AND Cling Grip Left) OR (Easy Hunter Pogo AND Cling Grip Left))) |  | Verified | ✓ |  |
+| STB | Shrine to Barge | Clawline Statue | Metalwork Barge | Clawline Right x 3 OR (Sharp Dart AND Faydown Cloak AND (Swift Step 2 OR Drifter's Cloak)) |  | Verified | ✓ |  |
 | LST | Left Side Travel | Blocked Off Corridor Left | Blocked Off Corridor Top | Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND (Ledge Grab OR Clawline)) |  | Verified | ✓ |  |
-| AP | Arena Path | Arena | Main Side Door | Clawline OR Sharp Dart OR Dash OR Sprint OR Scuttlebrace OR Drifter's Cloak OR (Faydown Cloak AND Ledge Grab) |  | Verified | ✓ |  |
-| CP | Clawline Path | Clawline Statue | Main Side Door | Clawline OR (Sharp Dart AND Faydown Cloak AND (Swift Step 2 OR Drifter's Cloak)) |  | Verified | ✓ |  |
-| SP | Shard Path | Shard Bundle Check | Main Side Door | Clawline OR ((Drifter's Cloak OR Progressive Swift Step 2) AND (Easy Enemy Pogo OR (Faydown Cloak AND Sharp Dart))) |  | Verified | ✓ |  |
 | LST | Left Side Travel | Blocked Off Corridor Top | Blocked Off Corridor Left | Nothing. (Fall) |  | Verified | ✓ |  |
+| AP | Arena Path | Main Side Door | Arena | Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Enemy Pogo) |  | Verified | ✓ | getting up here without clawline is worthless unless cause the exit needs clawline anyway lmao |
+| AP | Arena Path | Arena | Main Side Door | Clawline OR Sharp Dart OR Dash OR Sprint OR Scuttlebrace OR Drifter's Cloak OR (Faydown Cloak AND Ledge Grab) |  | Verified | ✓ |  |
+| SP | Shard Path | Shard Bundle Check | Main Side Door | Clawline OR ((Drifter's Cloak OR Progressive Swift Step 2) AND (Easy Enemy Pogo OR (Faydown Cloak AND Sharp Dart))) |  | Verified | ✓ |  |
+| SP | Shard Path | Main Side Door | Shard Bundle Check | Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Easy Enemy Pogo) |  | Verified | ✓ | same thing as the arena path but you go left at the end instead of right |
+| CLB | Clawline to Barge | Main Side Door | Metalwork Barge | run  OR easy [hunter, architect, shaman, beast] pogo OR easy naked pogo OR architect slash left OR easy [witch, architect, beast, wanderer] needle strike OR clawline left OR sharpdart OR drifter's cloak  OR faydown cloak OR flea brew |  | Verified | ✓ | Adding new subroom on the understanding this and the surrounding platforms in the molten steel have been updated to remain after clawline shrine's been picked up. Will adjust if not the case. - Cry 11/24 1:48 CST |
+| CLB | Clawline to Barge | Metalwork Barge | Main Side Door | run OR easy beast pogo OR clawline right OR sharpdart OR drifter's cloak OR faydown cloak OR flea brew OR easy [beast, architect] needle strike OR (architect slash right AND ledge grab right) OR easy [voltvessels, plasmium] stall |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -15082,13 +15087,18 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Clawline Pickup | Clawline Statue | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified | collectible | ✓ |  |
-| 3 | Clawline Ring | Arena | Clawline |  | Verified | switch | ✓ |  |
+| 3 | Clawline Ring | Arena | Clawline Either |  | Verified | switch | ✓ |  |
 | 4 | Underworks Clawline Gauntlet | Arena | Activate Clawline Ring AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
 Left and right sides of this room are not connected.
+
+Need confirmation (and changes to the room) on the vanilla approach to Clawline in underworks/underworks-clawline-room
+The left and top blocked-off corridors are reachable without Clawline or Faydown, but neither connects to the statue. Its only incoming route is from Main Side Door and requires Clawline or Faydown, creating a cycle when skills stay vanilla. Which connection and requirements are missing 
+
+-Moriko
 
 <a name="room-underworks--underworks-craftmetal-corridor"></a>
 
@@ -16289,9 +16299,15 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Underworks Big Guy's Shard Stache | Shards | Activate Underworks Big Guy's Personal Vault Door |  | Verified | collectible | ✓ |  |
-| 2 | Underworks Big Guy's Personal Vault Door | Entry | Break Wall Left OR Break Wall Up |  | Verified | blockade | ✓ |  |
+| 1 | Underworks Big Guy's Shard Stache | Shards | Activate Underworks Big Guy's Personal Vault Door | TODO | Verified | collectible | ✓ |  |
+| 2 | Underworks Big Guy's Personal Vault Door | Entry | Break Wall Left OR Break Wall Up | TODO | Verified | blockade | ✓ |  |
 | 3 | Undercrank 1 | Entry | nada |  | Verified | enemy | ✓ |  |
+
+#### Notes
+
+underworks/underworks-shard-room has Entry and Shards but no connection between them
+
+-Moriko
 
 <a name="room-underworks--underworks-wisp-thicket-passage"></a>
 
@@ -18073,7 +18089,7 @@ No check locations defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Top Entrance | ✓ |
+| S1 | Top left shaft | ✓ |
 | S2 | Steam Shaft | ✓ |
 | S3 | Center Shaft | ✓ |
 | S4 | Northern Gauntlet | ✓ |
@@ -18081,40 +18097,51 @@ No check locations defined.
 | S6 | Breakable Wall Shaft | ✓ |
 | S7 | Spike Platform | ✓ |
 | S8 | Bottom Entrance | ✓ |
+| S9 | Top entrance | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Bottom Entrance | [Memorium Entrance Tunnel (Song_25)](#room-choral-chambers--memorium-entrance-tunnel) | TL | Nothing. |  | Verified | ✓ |  |
-| L | left1 | Top Entrance | [Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](#room-cogwork-core--cogwork-core-architect-s-melody-act-3) | R | Nothing. |  | Verified | ✓ |  |
+| L | left1 | Top left shaft | [Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](#room-cogwork-core--cogwork-core-architect-s-melody-act-3) | R | Nothing. |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ESH | Top Entrance-Steam Shaft | Top Entrance | Steam Shaft | (Attack Right AND (Dash OR Drifter's Cloak OR Faydown Cloak OR Sharpdart OR Clawline OR Scuttlebrace OR Cling Grip)) |  | Verified | ✓ |  |
-| ESH | Top Entrance-Steam Shaft | Steam Shaft | Top Entrance | (Attack Left AND (Silk Soar OR (Faydown Cloak AND (Scuttlebrace OR (Ledge Grab AND Clawline AND Cling Grip))))) |  | Verified | ✓ |  |
-| SCS | Steam Shaft-Center Shaft | Steam Shaft | Center Shaft | Attack Left |  | Verified | ✓ |  |
-| SCS | Steam Shaft-Center Shaft | Center Shaft | Steam Shaft | (Attack Right AND (Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak))) |  | Verified | ✓ |  |
-| SNG | Center Shaft-Northern Gauntlet | Center Shaft | Northern Gauntlet | Activate Cogwork Core: Break Wall #5 |  | Verified | ✓ |  |
-| SNG | Center Shaft-Northern Gauntlet | Northern Gauntlet | Center Shaft | Activate Cogwork Core: Break Wall #5 AND Silk Soar AND Faydown Cloak |  | Verified | ✓ |  |
-| GSS | Northern Gauntlet-Southern Shaft | Northern Gauntlet | Southern Shaft | Complete Cogwork Core: Gauntlet #3 |  | Verified | ✓ |  |
-| GSS | Northern Gauntlet-Southern Shaft | Southern Shaft | Northern Gauntlet | (Complete Cogwork Core: Gauntlet #3 AND (Silk Soar OR (Cling Grip AND Faydown Cloak))) |  | Verified | ✓ |  |
-| SWS | Southern Shaft-Wall Shaft | Southern Shaft | Breakable Wall Shaft | Attack Right |  | Verified | ✓ |  |
-| SWS | Southern Shaft-Wall Shaft | Breakable Wall Shaft | Southern Shaft | (Attack Left AND (Cling Grip OR Faydown Cloak)) |  | Verified | ✓ |  |
-| WSP | Breakable Wall Shaft-Spike Platform | Breakable Wall Shaft | Spike Platform | Attack Left |  | Verified | ✓ |  |
-| WSP | Breakable Wall Shaft-Spike Platform | Spike Platform | Breakable Wall Shaft | (Attack Right AND (Dash OR Faydown Cloak OR Drifter's Cloak OR Cling Grip OR Sharpdart OR Clawline OR Scuttlebrace OR Ledge Grab)) |  | Verified | ✓ |  |
+| ESH | Top Entrance-Steam Shaft | Top left shaft | Steam Shaft | (clear Cogwork Core - vapor shaft wall AND (Dash right OR Drifter's Cloak OR Faydown Cloak OR Sharpdart OR Clawline right OR easy Scuttlebrace OR easy [beast,hunter] pogo OR easy naked pogo OR easy [flea brew,plasmium, voltvessels,parry,flintslate,rune rage,air heal, thread storm] stall)) |  | Verified | ✓ |  |
+| ESH | Top Entrance-Steam Shaft | Steam Shaft | Top left shaft | clear Cogwork Core - vapor shaft wall AND (Silk Soar OR cling grip either OR easy scuttlebrace) |  | Verified | ✓ |  |
+| SCS | Steam Shaft-Center Shaft | Steam Shaft | Center Shaft | clear Cogwork Core - vapor shaft wall 2 |  | Verified | ✓ |  |
+| SCS | Steam Shaft-Center Shaft | Center Shaft | Steam Shaft | clear Cogwork Core - vapor shaft wall 2 AND (Silk Soar OR (cling grip both AND (faydown OR easy [wanderer, reaper] pogo)) OR (cling grip right AND easy shaman pogo)) |  | Verified | ✓ |  |
+| SNG | Center Shaft-Northern Gauntlet | Center Shaft | Northern Gauntlet | clear Cogwork Core - act 3 gauntlet wall |  | Verified | ✓ |  |
+| SNG | Center Shaft-Northern Gauntlet | Northern Gauntlet | Center Shaft | clear Cogwork Core - act 3 gauntlet wall AND Silk Soar AND Faydown Cloak AND defeat Cogwork Core: Gauntlet #3 |  | Verified | ✓ |  |
+| GSS | Northern Gauntlet-Southern Shaft | Northern Gauntlet | Southern Shaft | defeat Cogwork Core: Gauntlet #3 |  | Verified | ✓ |  |
+| GSS | Northern Gauntlet-Southern Shaft | Southern Shaft | Northern Gauntlet | (defeat Cogwork Core: Gauntlet #3 AND (Silk Soar OR (Cling Grip either AND Faydown Cloak))) |  | Verified | ✓ |  |
+| SWS | Southern Shaft-Wall Shaft | Southern Shaft | Breakable Wall Shaft | none |  | Verified | ✓ |  |
+| SWS | Southern Shaft-Wall Shaft | Breakable Wall Shaft | Southern Shaft | clear Cogwork Core - Wall that gives vision AND clear Cogwork Core - Wall that gives vision 2 AND (faydown OR cling grip right OR easy scuttlebrace) |  | Verified | ✓ |  |
+| WSP | Breakable Wall Shaft-Spike Platform | Breakable Wall Shaft | Spike Platform | clear Cogwork Core - Wall that gives vision AND clear Cogwork Core - Wall that gives vision 2 AND (dash right OR spike pogo OR easy naked pogo) |  | Verified | ✓ |  |
+| WSP | Breakable Wall Shaft-Spike Platform | Spike Platform | Breakable Wall Shaft | clear Cogwork Core - Wall that gives vision AND clear Cogwork Core - Wall that gives vision 2 AND (ledge grab left OR faydown OR easy scuttlebrace OR cling grip left OR (easy hazard respawn AND silk soar)) |  | Verified | ✓ |  |
 | SPE | Spike Platform-Bottom Entrance | Spike Platform | Bottom Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
-| SPE | Spike Platform-Bottom Entrance | Bottom Entrance | Spike Platform | (Scuttlebrace AND (Spike Pogo OR Dash)) OR Cling Grip OR (Faydown Cloak AND (Spike Pogo OR Clawline)) |  | Verified | ✓ |  |
+| SPE | Spike Platform-Bottom Entrance | Bottom Entrance | Spike Platform | easy shaman pogo OR cling grip right OR faydown OR (easy scuttlebrace AND spike pogo) OR easy silk soar cancel |  | Verified | ✓ |  |
+| TT | entrance to shaft left | Top entrance | Top left shaft | none |  | Verified | ✓ |  |
+| TT | entrance to shaft left | Top left shaft | Top entrance | easy silk soar cancel x 2 OR (faydown AND (cling grip either OR easy scuttlebrace) AND spike pogo) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Core: Break Wall #5 | Center Shaft | Break Wall Down |  | Verified | blockade | ✓ | Can't be broken from the bottom. |
-| 2 | Cogwork Core: Gauntlet #3 | Northern Gauntlet | Combat Requirements |  | Verified | gauntlet |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Cogwork Core - act 3 gauntlet wall | Center Shaft | Break Wall Down |  | Verified | blockade | ✓ | Can't be broken from the bottom. |
+| 2 | Cogwork Core - vapor shaft wall | Top left shaft | break wall either |  | Verified | blockade | ✓ |  |
+| 3 | Cogwork Core - vapor shaft wall 2 | Steam Shaft | break wall either |  | Verified | blockade | ✓ |  |
+| 4 | Cogwork Core - Wall that gives vision | Breakable Wall Shaft | break wall either |  | Verified | blockade | ✓ |  |
+| 5 | Cogwork Core - Wall that gives vision 2 | Breakable Wall Shaft | break wall either |  | Verified | blockade | ✓ |  |
+| 6 | Cogwork Core: Gauntlet #3 | Northern Gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 7 | Underworker 1 | Northern Gauntlet | none |  | Verified | enemy | ✓ |  |
+| 8 | Underpoke 1 | Northern Gauntlet | none |  | Verified | enemy | ✓ |  |
+| 9 | Undercrank 1 | Northern Gauntlet | none |  | Verified | enemy | ✓ |  |
+| 10 | Underloft 1 | Northern Gauntlet | none |  | Verified | enemy | ✓ |  |
+| 11 | Drapemite 1 | Bottom Entrance | none |  | Verified | enemy | ✓ |  |
 
 <a name="room-cogwork-core--cogwork-core-east-choral-entrance"></a>
 
@@ -18279,18 +18306,19 @@ Gallosdaimonas was wondering can you scuttle there, it's easy, and with that, al
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | Lower Entrance | ✓ |
-| S2 | Upper Entrance | ✓ |
-| S3 | First safe platform | ✓ |
-| S4 | Second safe platform | ✓ |
-| S5 | third safe platform | ✓ |
-| S6 | fourth safe platform | ✓ |
+| S2 | First safe platform | ✓ |
+| S3 | Second safe platform | ✓ |
+| S4 | third safe platform | ✓ |
+| S5 | fourth safe platform | ✓ |
+| S6 | fifth safe platform | ✓ |
+| S7 | Upper Entrance | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Lower Entrance | [Cog Dancers (Cog_Dancers)](#room-cogwork-core--cog-dancers) | T | activate Cog dancers - clawline mechanism 2 IN cog dancers |  | Verified | ✓ |  |
-| T | top1 | Upper Entrance | [Cogwork Core Architect's Melody (Cog_09)](#room-cogwork-core--cogwork-core-architect-s-melody) | B | Nothing |  | Verified | ✓ |  |
+| B | bot1 | Lower Entrance | [Cog Dancers (Cog_Dancers)](#room-cogwork-core--cog-dancers) | T | none |  | Verified | ✓ |  |
+| T | top1 | Upper Entrance | [Cogwork Core Architect's Melody (Cog_09)](#room-cogwork-core--cogwork-core-architect-s-melody) | B | cling grip left OR easy scuttlebrace OR faydown OR (easy shaman pogo AND hard pale nails stall) OR silk soar |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -18299,12 +18327,19 @@ Gallosdaimonas was wondering can you scuttle there, it's easy, and with that, al
 | LF | lower <> First | Lower Entrance | First safe platform | ((clawline right OR (medium [reaper, architect,shaman] pogo AND spike pogo)) AND (ledge grab right OR cling grip right) AND (clawline left OR sharpdart OR ledge grab left OR easy beast pogo OR easy [flea brew, voltvessels,plasmium ] stall OR easy shaman scuttle slide)) OR (proficient movement AND medium shaman pogo) OR (faydown AND spike pogo) |  | Verified | ✓ |  |
 | LF | lower <> First | First safe platform | Lower Entrance | spike pogo OR easy naked pogo |  | Verified | ✓ |  |
 | FS | first <> second | First safe platform | Second safe platform | easy [beast,reaper, shaman] pogo  OR (faydown AND spike pogo) OR (spike pogo AND cling grip either AND (dash left OR clawline left OR sharpdart)) OR (hard Silk Soar Cancel AND (clawline left OR dash left OR sharpdart)) |  | Verified | ✓ |  |
-| FS | first <> second | Second safe platform | First safe platform | none |  | Verified | ✓ |  |
-| ST | second <> third | Second safe platform | third safe platform | (easy shaman pogo AND spike pogo AND (faydown OR clawline left OR (clawline right AND (ledge grab left OR proficient movement)) OR (medium shaman scuttle slide AND proficient movement))) OR (medium [wanderer, reaper] pogo AND spike pogo AND faydown) OR (clawline both AND cling grip both) OR (clawline either AND spike pogo AND faydown) OR (easy Silk Soar Cancel AND elite ball knowledge) |  | Verified | ✓ |  |
+| FS | first <> second | Second safe platform | First safe platform | spike pogo OR easy naked pogo |  | Verified | ✓ |  |
+| ST | second <> third | Second safe platform | third safe platform | (easy shaman pogo AND spike pogo AND (faydown OR clawline left OR (clawline right AND (ledge grab left OR proficient movement)) OR (medium shaman scuttle slide AND proficient movement))) OR (spike pogo AND faydown) OR (clawline both AND cling grip both) |  | Verified | ✓ |  |
 | V1 | fourth to first | fourth safe platform | First safe platform | none |  | Verified | ✓ |  |
 | V2 | fourth to second | fourth safe platform | Second safe platform | activate Cogwork Core: North switch AND (spike pogo OR proficient movement OR drifters) |  | Verified | ✓ |  |
-| TF | third to fourth | third safe platform | fourth safe platform | spike pogo AND (easy shaman pogo OR ledge grab right OR cling grip right OR faydown OR (silk soar AND elite ball knowledge ) OR (cling grip left AND (dash right OR clawline right OR sharpdart))) |  | Verified | ✓ |  |
+| V2 | fourth to second | Second safe platform | fourth safe platform | (easy Silk Soar Cancel AND elite ball knowledge) |  | Verified | ✓ |  |
+| TF | third to fourth | third safe platform | fourth safe platform | spike pogo AND (easy shaman pogo OR ledge grab right OR cling grip right OR faydown OR easy silk soar cancel OR (cling grip left AND (dash right OR clawline right OR sharpdart))) |  | Verified | ✓ |  |
 | TF | third to fourth | fourth safe platform | third safe platform | none |  | Verified | ✓ |  |
+| FU | fourth to upper | fourth safe platform | Upper Entrance | (activate Cogwork Core: North switch AND ((easy shaman pogo AND spike pogo AND (faydown OR (clawline right AND medium shaman scuttle slide AND dash left))) OR (medium silk soar cancel AND proficient movement AND spike pogo) OR (medium reaper pogo AND faydown AND spike pogo))) OR (easy shaman pogo AND faydown AND spike pogo AND easy pogo off [cogwork cleanser, cogwork defender]) |  | Verified | ✓ |  |
+| FU | fourth to upper | Upper Entrance | fourth safe platform | spike pogo OR medium naked pogo |  | Verified | ✓ |  |
+| FF | fourth to fifth | fourth safe platform | fifth safe platform | (((clawline both AND cling grip both AND spike pogo) OR (cling grip right AND faydown)) AND activate Cogwork Core: North switch) OR easy silk soar cancel |  | Verified | ✓ |  |
+| FF | fourth to fifth | fifth safe platform | fourth safe platform | none |  | Verified | ✓ |  |
+| LU | fifth to upper | fifth safe platform | Upper Entrance | (cling grip left AND clawline either x 3 AND faydown AND spike pogo) OR (clawline both x 4 AND cling grip both AND spike pogo) OR  (clawline both x 9 AND proficient movement AND spike pogo) OR (clawline either x 4 AND faydown AND spike pogo AND easy pogo off cogwork spine) OR (medium beast pogo AND faydown AND spike pogo) |  | Verified | ✓ |  |
+| LU | fifth to upper | Upper Entrance | fifth safe platform | spike pogo AND (clawline right x 2 OR drifters OR faydown) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -18312,10 +18347,10 @@ Gallosdaimonas was wondering can you scuttle there, it's easy, and with that, al
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: North switch | fourth safe platform | attack up |  | Verified | switch | ✓ |  |
 | 2 | Cogwork Crawler 1 | third safe platform | none |  | Verified | enemy | ✓ |  |
-| 3 | Cogwork Crawler 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Cogwork Crawler 2 | Upper Entrance | none |  | Verified | enemy | ✓ |  |
 | 4 | Cogwork Crawler 3 | First safe platform | none |  | Verified | enemy | ✓ |  |
 | 5 | Cogwork Cleanser 1 | First safe platform | none |  | Verified | enemy | ✓ |  |
-| 6 | Cogwork Spine 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Cogwork Spine 1 | Upper Entrance | none |  | Verified | enemy | ✓ |  |
 | 7 | Cogwork Spine 2 | First safe platform | none |  | Verified | enemy | ✓ |  |
 | 8 | Cogwork Defender 1 | fourth safe platform | none |  | Verified | enemy | ✓ |  |
 | 9 | Cogwork Spine 3 | fourth safe platform | none |  | Verified | enemy | ✓ |  |

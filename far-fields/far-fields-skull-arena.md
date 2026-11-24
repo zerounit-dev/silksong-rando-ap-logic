@@ -32,18 +32,19 @@
 | CT | check tunnel | check alcove | crossing | none (falling) |  | Verified | ✓ |  |
 | AT | arena tunnel | crossing | dungeon descent | break blast rock down |  | Verified | ✓ |  |
 | AT | arena tunnel | dungeon descent | crossing | cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) |  | Verified | ✓ |  |
-| LA | lava ascend | arena | mask alcove | ((cling grip both AND dash both) OR (cling grip either AND faydown cloak)) |  | Verified | ✓ | Might opt to retire this connection if it proves redundant after the remap. |
 | MA | mask ascent | mask alcove | entrance | none (falling) |  | Verified | ✓ |  |
 | MA | mask ascent | entrance | mask alcove | clear Gauntlet AND (drifter's cloak OR (faydown cloak AND dash either AND Hard pogo off Tarmite AND (cling grip either OR easy scuttlebrace))) |  | Verified | ✓ |  |
 | DS | dungeon scaffold | dungeon descent | dungeon spike pit | none (falling) |  | Verified | ✓ |  |
 | DS | dungeon scaffold | dungeon spike pit | dungeon descent | cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) |  | Verified | ✓ |  |
+| ALR | arena lava rise | arena | entrance | clear gauntlet AND cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) |  | Verified | ✓ | One-way post arena gauntlet climb with the lava; an invisible ceiling prevents silk soaring out of the arena before finishing the gauntlet, and the walls are too short to scaffold out of, even with full mobility options. |
+| GE | gauntlet entrance | dungeon spike pit | arena | none (falling) |  | Verified | ✓ | One-way drop; an invisible ceiling prevents silk soaring out of the arena before finishing the gauntlet, and the walls are too short to scaffold out of, even with full mobility options. |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | shell shard cache far fields 8 | check alcove | none |  | Verified | collectible |  | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? |
-| 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible |  |  |
+| 1 | shell shard cache far fields 8 | check alcove | none |  | Verified | collectible | ✓ | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? |
+| 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | gauntlet blast rock | arena | none (attack) |  | Verified | logic-point | ✓ | cry - breaking this blast rock initiates the gauntlet |
 | 4 | Gauntlet | arena | Combat Requirements |  | Verified | gauntlet |  |  |
 | 5 | Beastfly 1 | arena | none |  | Verified | enemy | ✓ |  |

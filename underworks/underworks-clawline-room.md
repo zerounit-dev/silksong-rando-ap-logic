@@ -2,7 +2,7 @@
 
 **Game ID:** Under_18
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Cry
 
 ## Subrooms
 
@@ -14,6 +14,7 @@
 | S4 | Main Side Door | ✓ |
 | S5 | Arena | ✓ |
 | S6 | Blocked Off Corridor Top | ✓ |
+| S7 | Metalwork Barge | ✓ |
 
 - **Arena:** Arena activated by Clawline Ring
 
@@ -30,14 +31,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| AP | Arena Path | Main Side Door | Arena | Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Enemy Pogo) |  | Verified | ✓ | getting up here without clawline is worthless unless cause the exit needs clawline anyway lmao |
-| CP | Clawline Path | Main Side Door | Clawline Statue | Clawline OR (Faydown Cloak AND Sprint AND (Drifter's Cloak OR (Dash AND Enemy Pogo)) AND Ledge Grab) |  | Verified | ✓ |  |
-| SP | Shard Path | Main Side Door | Shard Bundle Check | Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Easy Enemy Pogo) |  | Verified | ✓ | same thing as the arena path but you go left at the end instead of right |
+| STB | Shrine to Barge | Metalwork Barge | Clawline Statue | Clawline Left x 3  OR Sharpdart x 3 OR Run OR Faydown Cloak OR (Medium Needle Strike AND (Cling Grip Left OR Ledge Grab Left)) OR (Proficient Movement AND Flea Brew AND (Easy Architect Needle Strike OR Architect Slash Left OR Easy Beast Pogo OR ((Easy Flea Brew Stall OR Easy [Wanderer, Reaper] Needle Strike) AND Cling Grip Left) OR (Easy Hunter Pogo AND Cling Grip Left))) |  | Verified | ✓ |  |
+| STB | Shrine to Barge | Clawline Statue | Metalwork Barge | Clawline Right x 3 OR (Sharp Dart AND Faydown Cloak AND (Swift Step 2 OR Drifter's Cloak)) |  | Verified | ✓ |  |
 | LST | Left Side Travel | Blocked Off Corridor Left | Blocked Off Corridor Top | Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND (Ledge Grab OR Clawline)) |  | Verified | ✓ |  |
-| AP | Arena Path | Arena | Main Side Door | Clawline OR Sharp Dart OR Dash OR Sprint OR Scuttlebrace OR Drifter's Cloak OR (Faydown Cloak AND Ledge Grab) |  | Verified | ✓ |  |
-| CP | Clawline Path | Clawline Statue | Main Side Door | Clawline OR (Sharp Dart AND Faydown Cloak AND (Swift Step 2 OR Drifter's Cloak)) |  | Verified | ✓ |  |
-| SP | Shard Path | Shard Bundle Check | Main Side Door | Clawline OR ((Drifter's Cloak OR Progressive Swift Step 2) AND (Easy Enemy Pogo OR (Faydown Cloak AND Sharp Dart))) |  | Verified | ✓ |  |
 | LST | Left Side Travel | Blocked Off Corridor Top | Blocked Off Corridor Left | Nothing. (Fall) |  | Verified | ✓ |  |
+| AP | Arena Path | Main Side Door | Arena | Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Enemy Pogo) |  | Verified | ✓ | getting up here without clawline is worthless unless cause the exit needs clawline anyway lmao |
+| AP | Arena Path | Arena | Main Side Door | Clawline OR Sharp Dart OR Dash OR Sprint OR Scuttlebrace OR Drifter's Cloak OR (Faydown Cloak AND Ledge Grab) |  | Verified | ✓ |  |
+| SP | Shard Path | Shard Bundle Check | Main Side Door | Clawline OR ((Drifter's Cloak OR Progressive Swift Step 2) AND (Easy Enemy Pogo OR (Faydown Cloak AND Sharp Dart))) |  | Verified | ✓ |  |
+| SP | Shard Path | Main Side Door | Shard Bundle Check | Clawline OR (Faydown Cloak AND (Sharp Dart OR Swift Step 2) AND Ledge Grab AND Easy Enemy Pogo) |  | Verified | ✓ | same thing as the arena path but you go left at the end instead of right |
+| CLB | Clawline to Barge | Main Side Door | Metalwork Barge | run  OR easy [hunter, architect, shaman, beast] pogo OR easy naked pogo OR architect slash left OR easy [witch, architect, beast, wanderer] needle strike OR clawline left OR sharpdart OR drifter's cloak  OR faydown cloak OR flea brew |  | Verified | ✓ | Adding new subroom on the understanding this and the surrounding platforms in the molten steel have been updated to remain after clawline shrine's been picked up. Will adjust if not the case. - Cry 11/24 1:48 CST |
+| CLB | Clawline to Barge | Metalwork Barge | Main Side Door | run OR easy beast pogo OR clawline right OR sharpdart OR drifter's cloak OR faydown cloak OR flea brew OR easy [beast, architect] needle strike OR (architect slash right AND ledge grab right) OR easy [voltvessels, plasmium] stall |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -45,13 +48,18 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Clawline Pickup | Clawline Statue | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified | collectible | ✓ |  |
-| 3 | Clawline Ring | Arena | Clawline |  | Verified | switch | ✓ |  |
+| 3 | Clawline Ring | Arena | Clawline Either |  | Verified | switch | ✓ |  |
 | 4 | Underworks Clawline Gauntlet | Arena | Activate Clawline Ring AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 
 Left and right sides of this room are not connected.
+
+Need confirmation (and changes to the room) on the vanilla approach to Clawline in underworks/underworks-clawline-room
+The left and top blocked-off corridors are reachable without Clawline or Faydown, but neither connects to the statue. Its only incoming route is from Main Side Door and requires Clawline or Faydown, creating a cycle when skills stay vanilla. Which connection and requirements are missing 
+
+-Moriko
 
 ## Room Images
 
