@@ -24,9 +24,9 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LC | left center | left | center | none |  | Verified | ✓ |  |
-| LC | left center | center | left | ledge grab left OR cling grip left OR silk soar OR faydown cloak OR scuttlebrace |  | Verified | ✓ |  |
+| LC | left center | center | left | ledge grab left OR cling grip left OR silk soar OR faydown cloak OR scuttlebrace OR easy shaman pogo OR easy beast charge OR easy beast bind stall OR easy plasmium stall OR medium voltvessels stall |  | Verified | ✓ |  |
 | RC | right center | right | center | none |  | Verified | ✓ |  |
-| RC | right center | center | right | ledge grab right OR cling grip right OR silk soar OR faydown cloak OR scuttlebrace |  | Verified | ✓ |  |
+| RC | right center | center | right | ledge grab right OR cling grip right OR silk soar OR faydown cloak OR scuttlebrace OR easy shaman pogo OR easy beast charge OR easy beast bind stall OR easy plasmium stall OR medium voltvessels stall |  | Verified | ✓ |  |
 
 ## Check Locations
 

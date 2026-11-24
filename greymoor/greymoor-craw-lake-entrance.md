@@ -29,25 +29,26 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ASP | air shaft platform | lower left section | i should have added this before | drifters cloak OR silk soar OR (faydown cloak AND (cling grip right OR ledge grab right)) |  | Verified | ✓ |  |
-| ASP | air shaft platform | i should have added this before | lower left section | silk soar OR cling grip left OR easy pogo off craw OR (faydown cloak AND ledge grab left)  OR (medium [hunter,wanderer] voltwater pogo x 1 AND clawline left x 1 AND ledge grab left) |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11 |
-| F | fall | lower right section | middle section | silk soar OR hard pogo off craw |  | Verified | ✓ |  |
+| ASP | air shaft platform | lower left section | i should have added this before | drifters cloak OR silk soar OR (faydown cloak AND (cling grip right OR ledge grab right OR easy shaman pogo OR easy beast charge OR medium bind stall OR easy plasmium stall)) |  | Verified | ✓ |  |
+| ASP | air shaft platform | i should have added this before | lower left section | silk soar OR cling grip left OR easy pogo off craw OR faydown  OR (medium [hunter,wanderer] voltwater pogo x 1 AND clawline left x 1 AND ledge grab left) |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11 |
+| F | fall | lower right section | middle section | silk soar OR hard pogo off craw  OR (easy [hunter,wanderer] voltwater pogo AND faydown AND (cling grip left OR clawline right OR easy scuttlebrace OR drifters OR dash right))  OR (medium [wanderer,hunter] voltwater pogo x 2 AND dash left AND (clawline right OR (drifters AND ledge grab right)))  OR (hard [hunter,wanderer] voltwater pogo x 2 AND dash left AND (cling grip left OR (drifters AND scuttlebrace))) |  | Verified | ✓ |  |
 | F | fall | middle section | lower right section | nothing (just fall) |  | Verified | ✓ |  |
-| C | climb | middle section | upper section | ((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR medium scuttlebrace OR (cling grip left AND (progressive swift step 1 OR sharpdart x 1 OR clawline left x 1)) |  | Verified | ✓ |  |
+| C | climb | middle section | upper section | ((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR medium scuttlebrace OR (cling grip left AND (progressive swift step 1 OR sharpdart x 1 OR clawline left x 1)) OR (cling grip right AND (easy beast pogo OR (dash left AND easy shaman pogo))) |  | Verified | ✓ |  |
 | C | climb | upper section | middle section | nothing (just fall) |  | Verified | ✓ |  |
 | CD | closed door | the very top | craw lake middle entrance | prereq crawlake door |  | Verified | ✓ |  |
 | CD | closed door | craw lake middle entrance | the very top | prereq crawlake door |  | Verified | ✓ |  |
-| PG | platform gap | upper section | the very top | silk soar OR faydown cloak OR hard pogo off craw OR easy  beast needle strike OR ((ledge grab left OR cling grip left OR medium pogo off craw) AND (ledge grab right OR cling grip right OR medium pogo off craw)) |  | Verified | ✓ |  |
+| PG | platform gap | upper section | the very top | silk soar OR faydown cloak OR hard pogo off craw OR easy  beast needle strike OR ((ledge grab left OR cling grip left OR medium pogo off craw)) |  | Verified | ✓ |  |
 | PG | platform gap | the very top | upper section | nothing |  | Verified | ✓ |  |
-| lG | lake gap | i should have added this before | lower right section | swim OR easy pogo off craw OR flea brew OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak |  | Verified | ✓ |  |
-| lG | lake gap | lower right section | i should have added this before | (swim AND (ledge grab left OR cling grip left)) OR easy pogo off craw OR flea brew OR progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak |  | Verified | ✓ |  |
+| lG | lake gap | i should have added this before | lower right section | swim OR easy pogo off craw OR flea brew OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR easy [hunter,beast,shaman,architect] pogo OR easy [beast,architect] charge OR medium shaman pogo OR flea brew OR easy [voltvessels,plasmium,flintslate] stall OR (cling grip left AND proficient movement) |  | Verified | ✓ |  |
+| lG | lake gap | lower right section | i should have added this before | (swim AND (ledge grab left OR cling grip left OR easy shaman pogo)) OR easy pogo off craw OR flea brew OR progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR medium [shaman,hunter,architect] pogo OR easy beast pogo OR flea brew OR easy [voltvessels,plasmium,flintslate] stall OR easy [beast,architect] charge OR (cling grip right AND ledge grab left) |  | Verified | ✓ |  |
+| U | up | i should have added this before | middle section | (cling grip left AND clawline right x 2 AND faydown AND (ledge grab right OR (cling grip right AND proficient movement))) |  |  | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Frayed Rosary String from dead bug guarded by rat | middle section | nothing |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Rosary Cache at the very top | the very top | silk soar OR faydown cloak OR hard pogo off craw OR ((ledge grab left OR cling grip left OR medium pogo off craw) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1 OR drifters cloak OR flea brew)) |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Rosary Cache at the very top | the very top | silk soar OR faydown cloak OR hard pogo off craw OR ((ledge grab left OR cling grip left) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1 OR drifters cloak OR flea brew OR cling grip right)) OR easy beast pogo OR easy shaman pogo OR medium pogo off craw OR easy [voltvessels,plasmium] stall x 2 |  | Verified | resource | ✓ |  |
 | 3 | crawlake door | craw lake middle entrance | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
 | 4 | Craw Juror 1 | lower right section | Craw Summons Ready |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
 | 5 | Craw Juror 2 | lower right section | Craw Summons Ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |

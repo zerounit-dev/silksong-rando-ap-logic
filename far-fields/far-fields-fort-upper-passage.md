@@ -15,6 +15,8 @@
 | S5 | central rise | ✓ |
 | S6 | right exit ledge | ✓ |
 | S7 | karmelita's trust fund storage | ✓ |
+| S8 | rosary horde | ✓ |
+| S9 | queen's life saving | ✓ |
 
 - **fort attic exit:** formerly left exit area
 
@@ -44,6 +46,14 @@
 | CNE | central network east | right exit ledge | central rise | none (falling) |  | Verified | ✓ |  |
 | FA | fort attic | fort attic exit | karmelita's trust fund storage | none |  | Verified | ✓ |  |
 | FA | fort attic | karmelita's trust fund storage | fort attic exit | none |  | Verified | ✓ |  |
+| RN | rosary niche | check niche | rosary horde | none (jumping) |  | Verified | ✓ |  |
+| RN | rosary niche | rosary horde | check niche | none (falling) |  | Verified | ✓ |  |
+| RS1 | rosary snipe 1 | main area | rosary horde | medium [curveclaw, pimpillo] use OR (elite ball knowledge AND medium conchcutter use) |  | Verified | ✓ |  |
+| RS2 | rosary snipe 2 | central rise | rosary horde | easy [straight pin, threefold pin, throwing ring, silkshot original, rosary cannon] use OR easy pale nails use |  | Verified | ✓ |  |
+| SCS | soar chest snipe | central rise | queen's life saving | ponder the orb AND ((silk soar x 1 OR medium pogo off Flapping Fertid) AND [hunter, reaper, beast, witch, architect, shaman, wanderer] needle up) |  | Verified | ✓ |  |
+| NCS | niche ledge chest snipe | check niche | queen's life saving | ponder the orb AND faydown AND ([hunter,reaper,beast,witch,architect,shaman, wanderer] needle up OR easy [shaman, beast, reaper] needle strike) |  | Verified | ✓ |  |
+| SH | the skarr heist | karmelita's trust fund storage | queen's life saving | none |  | Verified | ✓ |  |
+| SH | the skarr heist | queen's life saving | karmelita's trust fund storage | none |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -51,8 +61,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Far Fields - Fort Upper Passage - Rosaries Niche Stash 1 | check niche | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 14 |
 | 2 | Far Fields - Fort Upper Passage - Rosaries Niche Stash 2 | check niche | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 15 |
-| 3 | Far Fields - Fort Upper Passage - Stair Release Switch | karmelita's trust fund storage | flip switch up |  | Verified | switch | ✓ | formerly lower platform switch |
-| 4 | Far Fields - Fort Upper Passage - Skarr Rosaries Hoard Chest | karmelita's trust fund storage | activate Far Fields - Fort Upper Passage - Stair Release Switch OR (ponder the orb AND ((silk soar x 1 OR medium pogo off Flapping Fertid)  OR (faydown AND [hunter,reaper,beast,witch,architect,shaman] needle up) OR ((run right OR clawline right x 1 OR sharpdart) AND wanderer needle up AND faydown) OR (hard naked pogo AND hard pogo off Flapping Fertid))) |  | Verified | collectible | ✓ | randomized? |
+| 3 | Far Fields - Fort Upper Passage - Stair Release Switch | queen's life saving | flip switch up |  | Verified | switch | ✓ | formerly lower platform switch |
+| 4 | Far Fields - Fort Upper Passage - Skarr Rosaries Hoard Chest | karmelita's trust fund storage | activate Far Fields - Fort Upper Passage - Stair Release Switch |  | Verified | collectible | ✓ | randomized? |
 | 5 | Fertid 1 | main area | none |  | Verified | enemy | ✓ |  |
 | 6 | Flapping Fertid 1 | central rise | none |  | Verified | enemy | ✓ |  |
 | 7 | Flapping Fertid 2 | central rise | Normal World Spawn |  | Verified | enemy | ✓ |  |

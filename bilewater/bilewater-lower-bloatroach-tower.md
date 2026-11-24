@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_02
 
-**Contributors:** Herchey, Wesker (his cat), Pyxl
+**Contributors:** Herchey, Wesker (his cat), Pyxl, Hutyrix
 
 ## Subrooms
 
@@ -45,7 +45,7 @@
 | UPR | halfway to rosary | rosary plat | halfway up | none |  | Verified | ✓ | falling |
 | HUL | halfway to upper left | halfway up | up left | faydown cloak AND (cling grip both OR (cling grip left AND scuttlebrace AND proficient movement)) |  | Verified | ✓ |  |
 | HUL | halfway to upper left | up left | halfway up | none |  | Verified | ✓ | falling |
-| FSC | first small climb | low left | first plat up | (faydown cloak AND (cling grip left OR (cling grip right AND (dash right OR clawline right OR sharpdart OR scuttlebrace OR easy beast pogo)))) OR (silk soar AND (clawline right OR sharpdart OR easy beast pogo)) |  | Verified | ✓ |  |
+| FSC | first small climb | low left | first plat up | (faydown cloak AND (cling grip left OR (cling grip right AND (dash right OR clawline right OR sharpdart OR scuttlebrace OR easy beast pogo)))) OR (silk soar AND (clawline right OR sharpdart OR easy beast pogo))  OR (medium [hunter,wanderer] voltwater pogo x 1 AND (hard scuttlebrace OR cling grip right) AND ((proficient movement AND clawline right x 1 AND Soul Miremite) OR (cling grip left AND (clawline right x 1 OR sharpdart x 1 OR dash right OR easy beast pogo OR medium [flea brew,plasmium,voltvessels] stall x 2 OR hard pale nails stall x 3)))) |  | Verified | ✓ | I won't incude frame perfect thorn jumps in syntax as long as i can't do them consistently 23/11/26 -Hutyrix |
 | FSC | first small climb | first plat up | low left | none |  | Verified | ✓ |  |
 | SSP | silk soar past everything | first plat up | halfway up | silk soar |  | Verified | ✓ |  |
 | SSP | silk soar past everything | halfway up | first plat up | none |  | Verified | ✓ |  |

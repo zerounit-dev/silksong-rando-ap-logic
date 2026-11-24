@@ -31,8 +31,12 @@
 | CT | check tunnel | crossing | check alcove | break blast rock up AND (medium scuttlebrace OR cling grip right OR (faydown cloak AND (cling grip left OR easy scuttlebrace OR spike pogo))) |  | Verified | ✓ |  |
 | CT | check tunnel | check alcove | crossing | none (falling) |  | Verified | ✓ |  |
 | AT | arena tunnel | crossing | dungeon descent | break blast rock down |  | Verified | ✓ |  |
-| LA | lava ascend | arena | mask alcove | ((cling grip both AND dash both) OR (cling grip either AND faydown cloak)) |  | Verified | ✓ |  |
-| MD | mask ascent | mask alcove | entrance | none (falling) |  | Verified | ✓ |  |
+| AT | arena tunnel | dungeon descent | crossing | cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) |  | Verified | ✓ |  |
+| LA | lava ascend | arena | mask alcove | ((cling grip both AND dash both) OR (cling grip either AND faydown cloak)) |  | Verified | ✓ | Might opt to retire this connection if it proves redundant after the remap. |
+| MA | mask ascent | mask alcove | entrance | none (falling) |  | Verified | ✓ |  |
+| MA | mask ascent | entrance | mask alcove | clear Gauntlet AND (drifter's cloak OR (faydown cloak AND dash either AND Hard pogo off Tarmite AND (cling grip either OR easy scuttlebrace))) |  | Verified | ✓ |  |
+| DS | dungeon scaffold | dungeon descent | dungeon spike pit | none (falling) |  | Verified | ✓ |  |
+| DS | dungeon scaffold | dungeon spike pit | dungeon descent | cling grip both AND (dash both OR clawline both OR faydown cloak OR drifter's) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -42,18 +46,18 @@
 | 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible |  |  |
 | 3 | gauntlet blast rock | arena | none (attack) |  | Verified | logic-point | ✓ | cry - breaking this blast rock initiates the gauntlet |
 | 4 | Gauntlet | arena | Combat Requirements |  | Verified | gauntlet |  |  |
-| 5 | Beastfly 1 | arena |  |  | Verified | enemy | ✓ |  |
-| 6 | Beastfly 2 | arena |  |  | Verified | enemy | ✓ |  |
-| 7 | Tarmite 1 | arena |  |  | Verified | enemy | ✓ |  |
-| 8 | Vicious Caranid 1 | arena |  |  | Verified | enemy | ✓ |  |
-| 9 | Vicious Caranid 2 | arena |  |  | Verified | enemy | ✓ |  |
-| 10 | Tarmite 2 | arena |  |  | Verified | enemy | ✓ |  |
-| 11 | Tarmite 3 | arena |  |  | Verified | enemy | ✓ |  |
-| 12 | Tarmite 4 | dungeon descent |  |  | Verified | enemy | ✓ |  |
-| 13 | Tarmite 5 | dungeon descent |  |  | Verified | enemy | ✓ |  |
-| 14 | Tarmite 6 | dungeon descent |  |  | Verified | enemy | ✓ |  |
-| 15 | Tarmite 7 | dungeon descent |  |  | Verified | enemy | ✓ |  |
-| 16 | Tarmite 8 | dungeon descent |  |  | Verified | enemy | ✓ |  |
+| 5 | Beastfly 1 | arena | none |  | Verified | enemy | ✓ |  |
+| 6 | Beastfly 2 | arena | none |  | Verified | enemy | ✓ |  |
+| 7 | Tarmite 1 | arena | none |  | Verified | enemy | ✓ |  |
+| 8 | Vicious Caranid 1 | arena | none |  | Verified | enemy | ✓ |  |
+| 9 | Vicious Caranid 2 | arena | none |  | Verified | enemy | ✓ |  |
+| 10 | Tarmite 2 | arena | none |  | Verified | enemy | ✓ |  |
+| 11 | Tarmite 3 | arena | none |  | Verified | enemy | ✓ |  |
+| 12 | Tarmite 4 | dungeon descent | none |  | Verified | enemy | ✓ |  |
+| 13 | Tarmite 5 | dungeon descent | none |  | Verified | enemy | ✓ |  |
+| 14 | Tarmite 6 | dungeon descent | none |  | Verified | enemy | ✓ |  |
+| 15 | Tarmite 7 | dungeon descent | none |  | Verified | enemy | ✓ |  |
+| 16 | Tarmite 8 | dungeon descent | none |  | Verified | enemy | ✓ |  |
 | 17 | Tarmite 9 | entrance | complete Gauntlet |  | Verified | enemy | ✓ |  |
 
 ## Notes

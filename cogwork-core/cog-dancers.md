@@ -43,7 +43,8 @@
 | 1 | Play Threefold Melody | BossArena | defeat Cogwork Dancers Boss Fight AND get 3 threefold melody parts |  | Verified | logic-point |  | Used in Liquid Lacquer wish requirements per the wiki. |
 | 2 | Cog dancers - clawline mechanism 1 | Top | attack up |  | Verified | switch | ✓ |  |
 | 3 | Cog dancers - clawline mechanism 2 | Top | clawline either |  | Verified | switch | ✓ |  |
-| 4 | Cogwork Dancers Boss Fight | BossArena | Combat Requirements |  | Verified | boss |  |  |
+| 4 | Cog dancers - Green prince meeting | BaseLeft | defeat Cogwork Dancers Boss Fight AND complete Sinner's road - Green Prince freedom IN Sinner's Road Vertical Hall West |  | Verified | event | ✓ |  |
+| 5 | Cogwork Dancers Boss Fight | BossArena | Combat Requirements |  | Verified | boss |  |  |
 
 ## Notes
 

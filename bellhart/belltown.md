@@ -15,13 +15,13 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](bellhart-relic-shop.md) | L | defeat THE Boss Widow | TODO | Verified | ✓ |  |
+| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](bellhart-relic-shop.md) | L | defeat THE Boss Widow | TODO | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough |
 | HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](bellhome.md) | L | Have bellhome key |  | Verified | ✓ | the randomizer makes this always accessible  ======== Not anymore, you start homeless now.  -Hutyrix, 11/22 |
-| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](bellhart-pinsmith.md) | L | defeat THE Boss Widow | TODO | Verified | ✓ |  |
+| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](bellhart-pinsmith.md) | L | defeat THE Boss Widow | TODO | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough |
 | L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](bellhart-hallway-to-shellwood.md) | R | None |  | Verified | ✓ |  |
 | R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | LL | None |  | Verified | ✓ |  |
 | BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](bellhart-bellway.md) | L | None |  | Verified | ✓ |  |
-| WW | wish wall | Lower Area | [Bellhart Wish Wall](../wish-menus/bellhart-wish-wall.md) | BH | defeat THE Boss Widow | TODO | Verified | ✓ |  |
+| WW | wish wall | Lower Area | [Bellhart Wish Wall](../wish-menus/bellhart-wish-wall.md) | BH | defeat THE Boss Widow | TODO | Verified | ✓ | Need to know how predicates for boss credits work or if this is good enough |
 | DW | delivery wishes | Upper Area | [Bellhart Deliveries](../wish-menus/bellhart-deliveries.md) | BH | complete THE my missing brother wish granted |  | Verified | ✓ |  |
 
 ## Subroom Connections

@@ -2,7 +2,7 @@
 
 **Game ID:** Peak_02
 
-**Contributors:** Pyxl
+**Contributors:** Pyxl and Shakra
 
 ## Subrooms
 
@@ -32,8 +32,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Shakra | Lower Left Ledge | Faydown Cloak OR Clawline Left OR ( Sharpdart AND Proficient Movement ) OR ( Easy Air Bind Stall AND Cling Grip Left AND Swim ) OR ( Dash left AND Drifters Cloak ) |  | Verified | ✓ |  |
-| IL | Ice Lake | Lower Left Ledge | Shakra | Dash Right OR Sprint Right OR Swim OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Sharpdart |  | Verified | ✓ |  |
+| IL | Ice Lake | Shakra | Lower Left Ledge | Faydown Cloak OR Clawline Left OR Sharpdart x 2 OR ( Easy Air Bind Stall AND Cling Grip Left AND Swim ) OR ( Dash left AND Drifters Cloak ) OR medium [hunter,wanderer] voltwater pogo x 2 |  | Verified | ✓ |  |
+| IL | Ice Lake | Lower Left Ledge | Shakra | Dash Right OR Sprint Right OR Swim OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Sharpdart x 2 OR medium [hunter,wanderer] voltwater pogo x 2 |  | Verified | ✓ |  |
 | PL | Platforms | Shakra | Lower Middle Hallway | Faydown Cloak OR ( Clawline Both AND ( Dash Left OR Ledge Grab Left OR Drifters Cloak ) ) OR Silk Soar |  | Verified | ✓ |  |
 | PL | Platforms | Lower Middle Hallway | Shakra | None |  | Verified | ✓ |  |
 | TS1 | Tall Shaft 1 | Middle Left Ledge | Lower Left Ledge | None |  | Verified | ✓ |  |
@@ -42,7 +42,7 @@
 | JD1 | Jump Down 1 | Upper Hallway | Upper Middle Hallway | None |  | Verified | ✓ |  |
 | JD1 | Jump Down 1 | Upper Middle Hallway | Upper Hallway | Faydown Cloak |  | Verified | ✓ |  |
 | JD2 | Jump Down 2 | Upper Left Ledge | Upper Middle Hallway | None |  | Verified | ✓ |  |
-| JD2 | Jump Down 2 | Upper Middle Hallway | Upper Left Ledge | Faydown Cloak |  | Verified | ✓ |  |
+| JD2 | Jump Down 2 | Upper Middle Hallway | Upper Left Ledge | Faydown Cloak |  | Verified | ✓ | Not sure if current patch  (cbt sting shard use AND Soul servitor boran AND cbt heal stall AND ledge grab left AND drifters) |
 | GP | Gap | Upper Left Ledge | Upper Hallway | Sprint Right OR Dash Right OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Sharpdart OR Easy Hunter Crest Pogo OR Easy Beast Crest pogo OR Easy Architect Crest pogo OR ( Ledge Grab Right AND ( Easy Reaper Crest Pogo OR ( Easy Wanderer Crest Pogo AND Easy needle strike ) OR Easy Witch Crest Pogo OR Easy Shaman Crest Pogo ) ) OR Easy Scuttlebrace |  | Verified | ✓ |  |
 | GP | Gap | Upper Hallway | Upper Left Ledge | Sprint Left OR Dash Left OR Drifters Cloak OR Faydown Cloak OR Clawline Left OR Sharpdart OR Easy Hunter Crest Pogo OR Easy Beast Crest pogo OR Easy Architect Crest pogo OR ( Ledge Grab Left AND ( Easy Reaper Crest Pogo OR ( Easy Wanderer Crest Pogo AND Easy needle strike ) OR Easy Witch Crest Pogo OR Easy Shaman Crest Pogo ) ) OR Easy Scuttlebrace |  | Verified | ✓ |  |
 

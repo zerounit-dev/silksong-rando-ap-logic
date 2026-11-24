@@ -15,23 +15,23 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Map | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | DL | Nothing. |  | Verified | ✓ |  |
+| L | left1 | Bench | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | DL | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BM | Bench-Map | Bench | Map | Silk Soar OR Cling Grip either OR easy Scuttlebrace |  | Verified | ✓ |  |
+| BM | Bench-Map | Bench | Map | Silk Soar OR Cling Grip left OR easy Scuttlebrace OR (faydown AND cling grip right) |  | Verified | ✓ |  |
 | BM | Bench-Map | Map | Bench | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Core: Flip Switch #4 | Bench | Nothing. | TODO | Verified | switch | ✓ |  |
-| 2 | Cogwork Core: Flip Switch #5 | Map | Nothing. |  | Verified | switch | ✓ |  |
-| 3 | Cogwork Core: Map | Map | Activate Cogwork Core: Flip Switch #5 |  | Verified | collectible | ✓ |  |
-| 4 | Cogwork Core: Bench | Bench | Activate Cogwork Core: Flip Switch #4 |  | Verified | bench |  |  |
+| 1 | Cogwork Core: Map | Map | activate Cogwork Core: map pressure plate |  | Verified | collectible | ✓ |  |
+| 2 | Cogwork Core: map pressure plate | Map | Nothing. |  | Verified | switch | ✓ |  |
+| 3 | Cogwork Core: bench switch | Bench | attack up |  | Verified | switch | ✓ |  |
+| 4 | Cogwork Core: Bench | Bench | Activate Cogwork Core: bench switch |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

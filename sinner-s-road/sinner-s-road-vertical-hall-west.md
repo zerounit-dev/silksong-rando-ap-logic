@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_02
 
-**Contributors:** herchey's going to bed
+**Contributors:** Gallos, herchey's going to bed
 
 ## Subrooms
 
@@ -17,6 +17,7 @@
 | S7 | rosary cage | ✓ |
 | S8 | lever room | ✓ |
 | S9 | above lever | ✓ |
+| S10 | green cell | ✓ |
 
 ## Room Transitions
 
@@ -35,24 +36,26 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BL | basement to lower | lower | basement | none |  | Verified | ✓ | Technically "any attack" is a requirement |
 | BL | basement to lower | basement | lower | cling grip right OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
-| LMR | low to mid right | lower | middle right | silk soar OR (Cling grip right AND ledge grab left) OR  (faydown cloak AND (cling grip left OR scuttlebrace)) OR  cling grip both |  | Verified | ✓ |  |
+| LMR | low to mid right | lower | middle right | silk soar OR cling grip right OR (cling grip left AND (faydown OR proficient movement)) OR easy scuttlebrace |  | Verified | ✓ |  |
 | LMR | low to mid right | middle right | lower | none |  | Verified | ✓ |  |
-| MRL | mid right to upper right | middle right | upper right | silk soar OR (complete Lever That Gets You A Shortcut To The Bullshit Bench Door AND (cling grip either OR (faydown cloak AND ledge grab either))) |  | Verified | ✓ |  |
-| MRL | mid right to upper right | upper right | middle right | none |  | Verified | ✓ |  |
+| MRL | mid right to middle left | middle right | middle left | silk soar OR (complete Lever That Gets You A Shortcut To The Bullshit Bench Door AND (cling grip either OR (faydown cloak AND (ledge grab either OR easy shaman pogo OR easy beast charge OR medium beast bind stall)))) |  | Verified | ✓ |  |
+| MRL | mid right to middle left | middle left | middle right | none |  | Verified | ✓ |  |
 | LUR | mid left to upper right | middle left | upper right | Cling grip right OR faydown cloak |  | Verified | ✓ |  |
 | LUR | mid left to upper right | upper right | middle left | none |  | Verified | ✓ |  |
 | URT | upper right to top | upper right | top | Silk soar |  | Verified | ✓ |  |
 | URT | upper right to top | top | upper right | none |  | Verified | ✓ |  |
-| MRR | mid right to rosaries | middle right | rosary cage | silk soar |  | Verified | ✓ |  |
+| MRR | mid right to rosaries | middle right | rosary cage | silk soar OR (easy enemy pogo off roachcatcher AND (drifters OR faydown OR (easy shaman pogo AND (cling grip either OR scuttlebrace)))) OR (medium enemy pogo off roachcatcher AND easy shaman pogo) |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | rosary cage | middle right | none |  | Verified | ✓ |  |
-| MLR | mid left to rosaries | middle left | rosary cage | faydown cloak OR cling grip right OR (scuttlebrace AND proficient movement) |  | Verified | ✓ |  |
-| MLR | mid left to rosaries | rosary cage | middle left | faydown cloak OR cling grip either |  | Verified | ✓ |  |
+| MLR | mid left to rosaries | middle left | rosary cage | faydown cloak OR cling grip right OR easy scuttlebrace  OR (cling grip left  AND (easy [beast,hunter,architect,shaman] pogo  OR easy [beast,architect,wanderer] charge  OR medium [reaper,witch] charge  OR sharpdart OR flea brew OR clawline right OR dash right OR medium [pale nails,cross stitch,rune rage,thread storm,flintslate] stall OR easy [plasmium,voltvessels] stall OR easy flintslate stall x 2 OR (ledge grab right AND (medium [witch,reaper] pogo OR easy [pale nails,cross stitch,rune rage,thread storm] stall OR medium silkspear stall OR (hard beast bind stall AND (clawline right)) OR (medium shaman pogo AND (sprint right OR hard pale nails stall)))))) OR (hard shaman pogo AND hard pale nails stall x 5) |  | Verified | ✓ |  |
+| MLR | mid left to rosaries | rosary cage | middle left | faydown cloak OR cling grip either OR ledge grab either OR easy shaman pogo OR easy beast charge OR (medium beast bind stall AND (easy beast pogo OR activate Lever That Gets You A Shortcut To The Bullshit Bench Door)) OR silk soar |  | Verified | ✓ |  |
 | TL | top to lever | top | above lever | none |  | Verified | ✓ |  |
 | TL | top to lever | above lever | top | silk soar OR (cling grip right AND (faydown cloak OR drifter's cloak OR (dash left AND proficient movement) OR (dash left AND ledge grab left) OR sharpdart OR clawline left OR easy beast pogo)) |  | Verified | ✓ |  |
 | LR | lever room | above lever | lever room | none |  | Verified | ✓ |  |
 | LR | lever room | lever room | above lever | silk soar OR cling grip either OR scuttlebrace |  | Verified | ✓ |  |
 | URL | upper right to lever | upper right | above lever | cling grip right OR scuttlebrace |  | Verified | ✓ |  |
 | URL | upper right to lever | above lever | upper right | none |  | Verified | ✓ |  |
+| GL | cell -> lower | green cell | lower | none |  | Verified | ✓ |  |
+| MG | middle -> cell | middle right | green cell | clawline both OR ((cling grip both OR drifters) AND dash both) OR (proficient movement AND hard shaman scuttle slide) OR (hard beast pogo AND faydown) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -62,12 +65,13 @@
 | 2 | Sinner's Road - First Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison | rosary cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #2 |
 | 3 | Sinner's Road - Second Half of the Rosaries They Took From the Gay Frog When They Put Him In Prison | rosary cage | none |  | Verified | collectible | ✓ | Formerly: Rosary Cache: Sinner’s Road #3 |
 | 4 | Lever That Gets You A Shortcut To The Bullshit Bench Door | lever room | flip switch either |  | Verified | lock | ✓ |  |
-| 5 | Amy, the Roachcatcher | middle right | none |  | Verified | enemy | ✓ | Formerly: Roachcatcher 1 |
-| 6 | Puddles, the Mite | basement | none |  | Verified | enemy | ✓ | Formerly: Mite 1 |
-| 7 | Dickson, the Roachfeeder | top | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 1 |
-| 8 | Liam, the Roachfeeder | rosary cage | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 2 |
-| 9 | Aiden, the Roachfeeder | rosary cage | Black Thread World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 3 |
-| 10 | Creed, the Roachfeeder | upper right | Black Thread World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 4 |
+| 5 | Sinner's road - Green Prince freedom | green cell | have Simple Key Green Prince |  | Verified | event | ✓ |  |
+| 6 | Amy, the Roachcatcher | middle right | none |  | Verified | enemy | ✓ | Formerly: Roachcatcher 1 |
+| 7 | Puddles, the Mite | basement | none |  | Verified | enemy | ✓ | Formerly: Mite 1 |
+| 8 | Dickson, the Roachfeeder | top | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 1 |
+| 9 | Liam, the Roachfeeder | rosary cage | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 2 |
+| 10 | Aiden, the Roachfeeder | rosary cage | Black Thread World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 3 |
+| 11 | Creed, the Roachfeeder | upper right | Black Thread World Spawn |  | Verified | enemy | ✓ | Formerly: Roachfeeder 4 |
 
 ## Room Images
 

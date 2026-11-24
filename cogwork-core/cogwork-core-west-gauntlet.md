@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right2 | Main | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | ML | Nothing. |  | Verified | ✓ |  |
-| L | left1 | Left Entrance | [Choral Chambers Over Dining (Song_09)](../choral-chambers/choral-chambers-over-dining.md) | R | Nothing. |  | Verified | ✓ |  |
+| L | left1 | Left Entrance | [Choral Chambers Over Dining (Song_09)](../choral-chambers/choral-chambers-over-dining.md) | R | silk soar OR easy scuttlebrace OR cling grip either |  | Verified | ✓ |  |
 | T | top1 | Top Entrance | [Cogwork Core Second Sentinel (Cog_10)](cogwork-core-second-sentinel.md) | B | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -27,42 +27,44 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | MT | Main-Top | Main | Top Entrance | Silk Soar OR (Faydown Cloak AND (Cling Grip either OR easy Scuttlebrace OR Ledge Grab right OR easy shaman pogo)) |  | Verified | ✓ |  |
 | MT | Main-Top | Top Entrance | Main | Nothing. (fall) |  | Verified | ✓ |  |
-| ML | Main-Left | Main | Left Entrance | (Complete Cogwork Core: Gauntlet #1 AND (Silk Soar OR Cling Grip right OR easy Scuttlebrace)) |  | Verified |  |  |
-| ML | Main-Left | Left Entrance | Main | Complete Cogwork Core: Gauntlet #1 |  | Verified |  |  |
+| MA | Main <> arena | Main | Arena | none |  | Verified | ✓ |  |
+| MA | Main <> arena | Arena | Main | Complete Cogwork Core: Gauntlet #1 |  | Verified | ✓ |  |
+| AE | Arena <> left | Left Entrance | Arena | none |  | Verified | ✓ |  |
+| AE | Arena <> left | Arena | Left Entrance | Complete Cogwork Core: Gauntlet #1 |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Gauntlet #1 | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 2 | Cogwork Choirbug 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Cogwork Choirbug 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Cogwork Spine 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Cogwork Spine 2 |  |  |  |  | enemy | ✓ |  |
-| 6 | Cogwork Spine 3 |  |  |  |  | enemy | ✓ |  |
-| 7 | Cogwork Cleanser 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Cogworker 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Cogworker 2 |  |  |  |  | enemy | ✓ |  |
-| 10 | Cogwork Choirbug 3 |  |  |  |  | enemy | ✓ |  |
-| 11 | Cogwork Defender 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Cogworker 3 |  |  |  |  | enemy | ✓ |  |
-| 13 | Cogworker 4 |  |  |  |  | enemy | ✓ |  |
-| 14 | Cogwork Defender 2 |  |  |  |  | enemy | ✓ |  |
-| 15 | Cogwork Choirbug 4 |  |  |  |  | enemy | ✓ |  |
-| 16 | Cogwork Choirbug 5 |  |  |  |  | enemy | ✓ |  |
-| 17 | Cogwork Cleanser 2 |  |  |  |  | enemy | ✓ |  |
-| 18 | Cogwork Cleanser 3 |  |  |  |  | enemy | ✓ |  |
-| 19 | Cogwork Cleanser 4 |  |  |  |  | enemy | ✓ |  |
-| 20 | Cogwork Choirbug 6 |  |  |  |  | enemy | ✓ |  |
-| 21 | Cogwork Cleanser 5 |  |  |  |  | enemy | ✓ |  |
-| 22 | Cogwork Choirbug 7 |  |  |  |  | enemy | ✓ |  |
-| 23 | Cogwork Choirbug 8 |  |  |  |  | enemy | ✓ |  |
-| 24 | Cogwork Defender 3 |  |  |  |  | enemy | ✓ |  |
-| 25 | Cogwork Choirbug 9 |  |  |  |  | enemy | ✓ |  |
-| 26 | Cogwork Defender 4 |  |  |  |  | enemy | ✓ |  |
-| 27 | Drapemite 1 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
-| 28 | Cogwork Spine 4 |  |  |  |  | enemy | ✓ |  |
-| 29 | Cogwork Spine 5 |  |  |  |  | enemy | ✓ |  |
+| 2 | Cogwork Choirbug Gauntlet 1 | Arena | none |  | Verified | enemy | ✓ |  |
+| 3 | Cogwork Choirbug Gauntlet 2 | Arena | none |  | Verified | enemy | ✓ |  |
+| 4 | Cogwork Spine Gauntlet 1 | Arena | none |  | Verified | enemy | ✓ |  |
+| 5 | Cogwork Spine Gauntlet 2 | Arena | none |  | Verified | enemy | ✓ |  |
+| 6 | Cogwork Spine Gauntlet 3 | Arena | none |  | Verified | enemy | ✓ |  |
+| 7 | Cogwork Cleanser Gauntlet 1 | Arena | none |  | Verified | enemy | ✓ |  |
+| 8 | Cogworker Gauntlet 1 | Arena | none |  | Verified | enemy | ✓ |  |
+| 9 | Cogworker Gauntlet 2 | Arena | none |  | Verified | enemy | ✓ |  |
+| 10 | Cogwork Choirbug Gauntlet 3 | Arena | none |  | Verified | enemy | ✓ |  |
+| 11 | Cogwork Defender Gauntlet 1 | Arena | none |  | Verified | enemy | ✓ |  |
+| 12 | Cogworker Gauntlet 3 | Arena | none |  | Verified | enemy | ✓ |  |
+| 13 | Cogworker Gauntlet 4 | Arena | none |  | Verified | enemy | ✓ |  |
+| 14 | Cogwork Defender Gauntlet 2 | Arena | none |  | Verified | enemy | ✓ |  |
+| 15 | Cogwork Choirbug 4 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 16 | Cogwork Choirbug 5 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 17 | Cogwork Cleanser 2 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 18 | Cogwork Cleanser 3 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 19 | Cogwork Cleanser 4 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 20 | Cogwork Choirbug 6 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 21 | Cogwork Cleanser 5 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 22 | Cogwork Choirbug 7 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 23 | Cogwork Choirbug 8 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 24 | Cogwork Defender 3 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 25 | Cogwork Choirbug 9 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 26 | Cogwork Defender 4 | Arena | Complete Cogwork Core: Gauntlet #1 |  | Verified | enemy | ✓ |  |
+| 27 | Drapemite 1 | Left Entrance | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
+| 28 | Cogwork Spine 4 | Main | none |  | Verified | enemy | ✓ |  |
+| 29 | Cogwork Spine 5 | Main | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

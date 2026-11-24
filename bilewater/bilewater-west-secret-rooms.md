@@ -58,11 +58,11 @@
 | 3 | Bilewater - Other Quick Rosaries In The Western Bilewater Rooms | bottom floor | none |  | Verified | collectible | ✓ | Formerly: Bilewater - Rosary Cache #7 |
 | 4 | Twisted Bud | bud hall | complete bud hall wall 3 |  | Verified | collectible | ✓ |  |
 | 5 | lowerable hatch | hatch | none |  | Verified | blockade | ✓ | old syntax - attack left - but you can attack down |
-| 6 | breakable wall to bud | bud wall plat | attack left |  | Verified | blockade | ✓ |  |
-| 7 | bud hall wall 1 | bud hall | attack left AND (easy damage boost OR swim OR ledge grab left OR cling grip left OR dash left OR clawline left x 1 OR sharpdart x 1 OR flea brew jump OR faydown OR drifters OR easy wanderer voltwater pogo x 1 OR easy [hunter,beast,architect] pogo) |  | Verified | blockade | ✓ | attack left AND complete breakable wall to bud AND (clawline left OR sharpdart OR swim OR enemy pogo OR dash left OR (proficient movement AND run left AND ledge grab left)) |
-| 8 | bud hall wall 2 | bud hall | (attack right AND complete bud hall wall 1 AND ( cling grip either OR silk soar x 1 OR easy scuttlebrace OR (medium damage boost AND proficient movement AND medium pogo off miremite))) OR (hard pogo off miremite AND hard naked pogo) |  | Verified | blockade | ✓ | (((cling grip OR silk soar) AND (spike pogo OR enemy pogo OR clawline x 2)) OR (scuttlebrace AND (clawline x 3 OR spike pogo))) |
-| 9 | bud hall wall 3 | bud hall | attack right AND complete bud hall wall 2 |  | Verified | blockade | ✓ |  |
-| 10 | breakable wall to locket | bottom floor | attack left |  | Verified | blockade | ✓ |  |
+| 6 | breakable wall to bud | bud wall plat | attack either |  | Verified | blockade | ✓ |  |
+| 7 | bud hall wall 1 | bud hall | attack either AND (easy damage boost OR swim OR ledge grab left OR cling grip left OR dash left OR clawline left x 1 OR sharpdart x 1 OR flea brew jump OR faydown OR drifters OR easy wanderer voltwater pogo x 1 OR easy [hunter,beast,architect] pogo) |  | Verified | blockade | ✓ | attack either AND complete breakable wall to bud AND (clawline left OR sharpdart OR swim OR enemy pogo OR dash left OR (proficient movement AND run left AND ledge grab left)) |
+| 8 | bud hall wall 2 | bud hall | (attack either AND complete bud hall wall 1 AND ( cling grip either OR silk soar x 1 OR easy scuttlebrace OR (medium damage boost AND proficient movement AND medium pogo off miremite) OR (medium damage boost AND medium pogo off miremite AND medium naked pogo AND medium heal stall) OR (hard pogo off miremite AND hard naked pogo))) |  | Verified | blockade | ✓ | (((cling grip OR silk soar) AND (spike pogo OR enemy pogo OR clawline x 2)) OR (scuttlebrace AND (clawline x 3 OR spike pogo))) |
+| 9 | bud hall wall 3 | bud hall | attack either AND complete bud hall wall 2 |  | Verified | blockade | ✓ |  |
+| 10 | breakable wall to locket | bottom floor | attack either |  | Verified | blockade | ✓ |  |
 | 11 | Swamp Squit 1 | top floor | none |  | Verified | enemy | ✓ |  |
 | 12 | Swamp Squit 2 | right room | none |  | Verified | enemy | ✓ |  |
 | 13 | Swamp Squit 3 | bud wall plat | none |  | Verified | enemy | ✓ |  |

@@ -23,6 +23,7 @@
 | S13 | plains upper right plat2 | ✓ |
 | S14 | under gate nook | ✓ |
 | S15 | bridging platform | ✓ |
+| S16 | Shell Shard Crevace | ✓ |
 
 ## Room Transitions
 
@@ -74,14 +75,17 @@
 | UAD | upper right alcove drop | upper right alcove | plains upper right platform | none (falling) |  | Verified | ✓ | certain combinations of silk soar and additional items can reach the alcove from the platform; however, these are redundant listings as there is a silk soar only connection in a lower subroom |
 | G6 | gap 6 | under gate nook | bridging platform | ((run OR clawline left OR sharp dart) AND (cling grip left OR ledge grab left OR easy beast needle strike OR easy shaman pogo OR medium plasmium stall)) OR (proficient movement AND drifter's cloak AND ledge grab left) OR faydown cloak |  | Verified | ✓ |  |
 | G6 | gap 6 | bridging platform | under gate nook | run  OR clawline right  OR sharp dart  OR cling grip right  OR ledge grab right OR easy [beast, architect, reaper, wanderer, witch] needle strike  OR easy [shaman, architect, hunter, reaper] pogo  OR easy naked pogo OR drifter's cloak OR faydown cloak |  | Verified | ✓ |  |
+| LC | lower shell crevace | Shell Shard Crevace | lower left alcove | none |  | Verified | ✓ |  |
+| LC | lower shell crevace | lower left alcove | Shell Shard Crevace | none |  | Verified | ✓ |  |
+| PSN | platform shard snipe | middle left platform | Shell Shard Crevace | (easy [curveclaw, longpin, threefold pin, straight pin, pimpillo] use AND easy damage boost) OR easy [throwing ring, conchcutter] use |  | Verified | ✓ | Tool Snipe connection. |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | right exit door switch | right exit area | flip switch down |  | Verified | switch | ✓ |  |
-| 2 | Far Fields - Deep Entrance Skarr Gate Watch Spears | lower left alcove | none |  | Verified | collectible | ✓ | formely AP Minor Cache - Shell Shard Cache: Far Fields #4 |
-| 3 | Far Fields - Deep Entrance Skarr Sentinel's Trap Shards | lower left alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #5 |
+| 2 | Far Fields - Deep Entrance Skarr Gate Watch Spears | Shell Shard Crevace | none |  | Verified | collectible | ✓ | formely AP Minor Cache - Shell Shard Cache: Far Fields #4 |
+| 3 | Far Fields - Deep Entrance Skarr Sentinel's Trap Shards | Shell Shard Crevace | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #5 |
 | 4 | Far Fields - Deep Entrance -Cage Materials | plains upper left platform | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #6 |
 | 5 | Far Fields - Deep Entrance - Curveclaw Reserve | lower right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Shell Shard Cache: Far Fields #7 |
 | 6 | Far Fields - Deep Entrance -Queen's Gate Sentry Funds | upper right alcove | none |  | Verified | collectible | ✓ | formerly AP Minor Cache - Rosary Cache: Far Fields #20 |

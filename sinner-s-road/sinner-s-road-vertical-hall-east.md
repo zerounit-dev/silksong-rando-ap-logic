@@ -42,7 +42,7 @@
 | MRC | cage traversal | mid cage | upper mid cage | (faydown cloak AND ledge grab either) OR silk soar OR cling grip either |  | Verified | ✓ |  |
 | MRC | cage traversal | upper mid cage | mid cage | none |  | Verified | ✓ | alling |
 | MDC | mid door to cage | mid cage | mid right door | none |  | Verified | ✓ | gravitytty5fdsf |
-| MDC | mid door to cage | mid right door | mid cage | ledge grab left OR cling grip left OR faydown cloak OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
+| MDC | mid door to cage | mid right door | mid cage | ledge grab left OR cling grip either OR faydown cloak OR scuttlebrace OR silk soar OR easy shaman pogo OR easy beast charge |  | Verified | ✓ |  |
 | TB | to bilewater | above bw door | bilewater door | (proficient movement AND dash right) OR (dash right AND (ledge grab right OR cling grip right)) OR clawline right OR sharpdart OR faydown cloak OR easy beast pogo OR (drifters cloak AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
 | TB | to bilewater | bilewater door | above bw door | (proficient movement AND faydown cloak) OR (cling grip left AND (clawline left OR sharpdart OR faydown cloak OR drifter's cloak OR run OR dash left OR easy beast pogo)) |  | Verified | ✓ |  |
 | MLM | mid to low mid cage | low mid cage | mid cage | (proficient movement AND (cling grip left OR (faydown cloak AND cling grip right))) OR faydown cloak OR silk soar |  | Verified | ✓ |  |
