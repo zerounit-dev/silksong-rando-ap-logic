@@ -46,10 +46,10 @@
 | PIT | The Pit | Top Third Entrances | Pit | None |  | Verified |  |  |
 | PIT | The Pit | Pit | Top Third Entrances | Silk Soar |  | Verified |  |  |
 | TTU | TopUpper | Top Third Entrances | Upper | None |  | Verified | ✓ |  |
-| TTU | TopUpper | Upper | Top Third Entrances | ((flea brew OR run OR clawline both) AND cling grip both) OR (faydown cloak AND cling grip right AND (cling grip left OR ledge grab left)) |  | Verified | ✓ |  |
+| TTU | TopUpper | Upper | Top Third Entrances | ((flea brew OR run OR clawline both) AND cling grip both) OR (faydown cloak AND cling grip right AND (cling grip left OR ledge grab left)) OR hard shaman scuttle slide |  | Verified | ✓ |  |
 | UL | UpperLever | Upper | Lever | None |  | Verified | ✓ |  |
 | UMR | UpperMiddleRight | Upper | Middle Right | None |  | Verified | ✓ |  |
-| UMR | UpperMiddleRight | Middle Right | Upper | (cling grip right AND (faydown cloak OR ((dash both OR clawline both OR sharpdart x 2) AND cling grip left))) OR silk soar |  | Verified | ✓ | Requirements are defined as if you do not hit the lever, requirements change if you do |
+| UMR | UpperMiddleRight | Middle Right | Upper | (cling grip right AND (faydown cloak OR ((dash both OR clawline both OR sharpdart x 2) AND cling grip left))) OR silk soar OR hard shaman scuttle slide |  | Verified | ✓ | Requirements are defined as if you do not hit the lever, requirements change if you do |
 | LM | LeverMid | Lever | Middle Right | None |  | Verified | ✓ | Requirements are defined as if you do not hit the lever, requirements change if you do |
 | LM | LeverMid | Middle Right | Lever | faydown cloak OR ((dash left OR clawline left OR sharpdart x 1) AND cling grip left) |  | Verified | ✓ | Requirements are defined as if you do not hit the lever, requirements change if you do |
 | LP2 | LeverPharlid2 | Lever | Pharlid 2 | None (Fall) |  | Verified | ✓ | No definition for Upper as you can just drop straight to Lever and then to Pharlid 2 |
@@ -59,7 +59,7 @@
 | RP2 | MiddlePharlid2Right | Pharlid 2 | Middle Right | (clawline right OR (drifter's cloak AND dash right AND proficient movement)) AND (ledge grab right OR cling grip right) AND faydown cloak |  | Verified | ✓ | Has no reverse route since you can just drop to Pharlid 4 |
 | RP4 | MiddlePharlid4Right | Middle Right | Pharlid 4 | None (Fall) |  | Verified | ✓ |  |
 | RP4 | MiddlePharlid4Right | Pharlid 4 | Middle Right | Silk Soar |  | Verified | ✓ |  |
-| 42 | Pharlid2to4 | Pharlid 4 | Pharlid 2 | (easy pogo off [Pharlid] AND (ledge grab left OR have: Crest: Shaman)) OR faydown cloak OR silk soar OR cling grip left | TODO | Verified | ✓ |  |
+| 42 | Pharlid2to4 | Pharlid 4 | Pharlid 2 | (easy pogo off [Pharlid] AND (ledge grab left OR have: Crest: Shaman)) OR faydown cloak OR silk soar OR cling grip left | TODO | Verified | ✓ | "Requirements are defined as if you do not hit the lever, requirements change if you do" |
 | 42 | Pharlid2to4 | Pharlid 2 | Pharlid 4 | None |  | Verified | ✓ |  |
 | 4BL | Pharlid4BottomLeft | Pharlid 4 | Bottom Left | None (Fall) |  | Verified | ✓ |  |
 | 4BR | Pharlid4BottomRight | Pharlid 4 | Bottom Right | None (Fall) |  | Verified | ✓ |  |

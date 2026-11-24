@@ -2,7 +2,7 @@
 
 **Game ID:** Cog_10_Destroyed
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Gallos
 
 ## Subrooms
 

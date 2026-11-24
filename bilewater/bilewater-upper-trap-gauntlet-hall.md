@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_12
 
-**Contributors:** Herchey and John Madden
+**Contributors:** Herchey, Hutyrix and John Madden
 
 ## Subrooms
 
@@ -18,8 +18,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | right door | [Bilewater Vertical Sac Pogo Room (Shadow_19)](bilewater-vertical-sac-pogo-room.md) | UL | run OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR swim | TODO | Verified | ✓ | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. |
-| L | left | left door | [Bilewater Groal Arena (Shadow_18)](bilewater-groal-arena.md) | R | faydown cloak OR ((ledge grab OR cling grip OR silk soar) AND (run OR clawline OR sharpdart OR drifter's cloak OR swim)) | TODO | Verified | ✓ | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. |
+| R | right | right door | [Bilewater Vertical Sac Pogo Room (Shadow_19)](bilewater-vertical-sac-pogo-room.md) | UL | run OR clawline right OR sharpdart OR drifter's cloak OR faydown cloak OR swim | TODO | Verified | ✓ | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. ============== Add which enemy souls  you can farm the silk with, Pyxl 23/11 |
+| L | left | left door | [Bilewater Groal Arena (Shadow_18)](bilewater-groal-arena.md) | R | faydown cloak OR ((ledge grab left OR cling grip left OR silk soar) AND (run OR clawline left OR sharpdart OR drifter's cloak OR swim)) | TODO | Verified | ✓ | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. ============== Add which enemy souls  you can farm the silk with, Pyxl 23/11 |
 
 ## Subroom Connections
 
@@ -29,10 +29,10 @@
 | RM | right to mid | mid rightmost | right door | none |  | Verified | ✓ |  |
 | RT | right to top | right door | top floor | silk soar |  | Verified | ✓ |  |
 | RT | right to top | top floor | right door | none |  | Verified | ✓ |  |
-| MRM | mid right to mid | mid rightmost | mid | swim OR run OR drifter's cloak OR faydown cloak OR clawline x 2 | TODO | Verified | ✓ |  |
-| MRM | mid right to mid | mid | mid rightmost | swim OR run OR drifter's cloak OR faydown cloak OR clawline x 2 | TODO | Verified | ✓ |  |
-| LM | left to mid | mid | left door | swim OR run OR clawline x 3 OR faydown cloak OR swim OR drifter's cloak | TODO | Verified | ✓ |  |
-| LM | left to mid | left door | mid | swim OR run OR clawline x 3 OR sharpdart x 3 OR faydown cloak OR swim OR drifter's cloak | TODO | Verified | ✓ |  |
+| MRM | mid right to mid | mid rightmost | mid | swim OR run OR drifter's cloak OR faydown cloak OR clawline left x 2 |  | Verified | ✓ |  |
+| MRM | mid right to mid | mid | mid rightmost | swim OR run OR drifter's cloak OR faydown cloak OR clawline right x 2 |  | Verified | ✓ |  |
+| LM | left to mid | mid | left door | swim OR run OR clawline left x 3 OR faydown cloak OR swim OR drifter's cloak |  | Verified | ✓ |  |
+| LM | left to mid | left door | mid | swim OR run OR clawline right x 3 OR sharpdart x 3 OR faydown cloak OR swim OR drifter's cloak |  | Verified | ✓ |  |
 
 ## Check Locations
 

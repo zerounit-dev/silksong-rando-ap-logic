@@ -2,7 +2,7 @@
 
 **Game ID:** Under_02
 
-**Contributors:** samupo and Rebel
+**Contributors:** samupo, Rebel, Pyxl
 
 ## Subrooms
 
@@ -38,23 +38,23 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TOT | Top to Overtop | Overtop | Top | Nothing. (Fall) |  | Verified | ✓ |  |
 | TOT | Top to Overtop | Top | Overtop | cling grip Left OR faydown cloak OR Silk Soar OR  (Activate Snapping Floor AND (Cling Grip Right)) |  | Verified | ✓ |  |
-| FT | Falling from Top | Top | Mid | Activate Platform Fall Lever |  | Verified | ✓ | falling |
+| FT | Falling from Top | Top | Mid | Activate Flick This To Say "I HATE THIS ROOM!" |  | Verified | ✓ | falling |
 | FT | Falling from Top | Mid | Top | Silk Soar OR Cling Grip Right OR  (Medium Scuttlebrace AND  (Faydown Cloak AND Ledge Grab Right)) OR  (Cling Grip Left AND Run Left AND Faydown Cloak) |  | Verified | ✓ |  |
 | FT2 | Falling from Top 2 | Top | Lever | none (Fall) |  | Verified | ✓ |  |
 | FT2 | Falling from Top 2 | Lever | Top | Silk Soar OR Cling Grip Right OR  (Medium Scuttlebrace AND  (Faydown Cloak AND Ledge Grab Right)) OR  (Cling Grip Left AND Faydown Cloak) |  | Verified | ✓ |  |
 | TOD | This Other Dude | Top | This Other Guy Too | Nothing (Fall, aggro enemy) |  | Verified | ✓ |  |
 | DbD | This Other Dude But Different | Lever | This Other Guy Too | Attack Up OR  (Jump AND  (Attack Right OR Clawline Right)) OR  Ledge Grab Right OR Cling Grip Right OR Faydown Cloak OR Silk Soar |  | Verified | ✓ | can be aggro'd by jumping into the platform without jumping onto it. can also be hit from below. |
-| LM | Lever to Mid | Mid | Lever | Activate Platform Fall Lever AND  (Cling Grip Right OR Ledge Grab Right OR Faydown Cloak OR Silk Soar OR  (Run Left AND (Cling Grip Left OR Ledge Grab Left))) |  | Verified | ✓ |  |
-| LM | Lever to Mid | Lever | Mid | Activate Platform Fall Lever |  | Verified | ✓ |  |
+| LM | Lever to Mid | Mid | Lever | Activate Flick This To Say "I HATE THIS ROOM!" AND  (Cling Grip Right OR Ledge Grab Right OR Faydown Cloak OR Silk Soar OR  (Run Left AND (Cling Grip Left OR Ledge Grab Left))) |  | Verified | ✓ |  |
+| LM | Lever to Mid | Lever | Mid | Activate Flick This To Say "I HATE THIS ROOM!" |  | Verified | ✓ |  |
 | BL | Reaching Bottom Lever | Mid | Bottom Lever | Nothing. (Fall) |  | Verified | ✓ |  |
-| BL | Reaching Bottom Lever | Bottom Lever | Mid | Activate First Ascent Lever AND  (silk soar OR Cling Grip Right OR Medium Scuttlebrace OR  (Cling Grip Left AND Faydown Cloak)) | TODO | Verified | ✓ | TODO, probably doable with more than faydown. |
+| BL | Reaching Bottom Lever | Bottom Lever | Mid | Activate First Ascent Lever AND  (silk soar OR Cling Grip Right OR Medium Scuttlebrace OR  (Cling Grip Left AND ( Faydown Cloak OR ( Proficient movement AND Clawline left AND Sprint right AND ( Dash right OR Clawline Right OR Easy hunter pogo OR easy air bind stall OR Easy wanderer charge OR Easy plasmium stall OR easy thread storm stall OR easy reaper charge OR sharpdart OR easy beast pogo OR architect attack right OR easy architect pogo OR easy flintslate stall OR medium shaman pogo OR easy voltvessels stall OR easy cross stitch stall OR easy rune rage stall OR easy pale nails stall OR medium delvers drill stall ) ) ) )) |  | Verified | ✓ | TODO, probably doable with more than faydown.  Was doable with more than faydown - Pyxl |
 | TOG | That One Guy | Mid | That Guy | Nothing (Fall, aggro enemy) |  | Verified | ✓ |  |
 | RB | Reaching Bottom | Bottom Lever | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
-| RB | Reaching Bottom | Bottom | Bottom Lever | Silk Soar OR Cling Grip Both OR (Faydown Cloak AND Cling Grip Either) OR (Hard [Rune Rage, Thread storm, Air Bind] Stall AND Cling Grip Left) OR ((Drifter's CLoak OR Clawline Left OR Sharpdart OR Dash Left OR (Proficient Movement AND Run)) AND Cling Grip Right) OR (Medium Scuttlebrace AND (Faydown Cloak OR Clawline Left OR Sharpdart OR Drifter's Cloak OR Medium [Shaman] Pogo OR Easy [Architect] Charge OR Medium [Flea Brew, Plasmium] Stall)) |  | Verified | ✓ |  |
-| VG | Void Guy | Bottom | This Guy | Silk Soar OR Cling Grip Both OR  (Faydown Cloak AND Cling Grip Either) OR  (Hard [Rune Rage, Thread storm, Air Bind] Stall AND Cling Grip Left) OR  ((Drifter's CLoak OR Clawline Left OR Sharpdart OR Dash Left OR  (Proficient Movement AND Run)) AND Cling Grip Right) OR  (Medium Scuttlebrace AND (Faydown Cloak OR Clawline Left OR Sharpdart OR Drifter's Cloak OR Medium [Shaman] Pogo OR Easy [Architect] Charge OR Medium [Flea Brew, Plasmium] Stall)) | TODO | Verified | ✓ | TODO< definitely more stall variants that work here but i cant get them to. |
+| RB | Reaching Bottom | Bottom | Bottom Lever | Silk Soar OR Cling Grip Both OR (Faydown Cloak AND Cling Grip Either) OR (Hard [Rune Rage, Thread storm, Air Bind] Stall AND Cling Grip Left) OR ((Drifter's CLoak OR Clawline Left OR Sharpdart OR Dash Left OR (Proficient Movement AND Run)) AND Cling Grip Right) OR (Medium Scuttlebrace AND (Faydown Cloak OR Clawline Left OR Sharpdart OR Drifter's Cloak OR Medium [Shaman] Pogo OR Easy [Architect] Charge OR Medium [Flea Brew, Plasmium] Stall OR Dash left )) |  | Verified | ✓ | Added scuttlebrace and dash as option |
+| VG | Void Guy | Bottom | This Guy | Silk Soar OR Cling Grip Both OR  (Faydown Cloak AND Cling Grip Either) OR  (Hard [Rune Rage, Thread storm, Air Bind] Stall AND Cling Grip Left) OR  ((Drifter's CLoak OR Clawline Left OR Sharpdart OR Dash Left OR  (Proficient Movement AND Run)) AND Cling Grip Right) OR  (Medium Scuttlebrace AND (Faydown Cloak OR Clawline Left OR Sharpdart OR Drifter's Cloak OR Medium [Shaman] Pogo OR Easy [Architect] Charge OR Medium [Flea Brew, Plasmium] Stall OR dash left OR Hard scuttlebrace ( wrote hard here but its not a very hard jump just didnt wanna get rid of all this logic without peer review ) )) | TODO | Verified | ✓ | TODO< definitely more stall variants that work here but i cant get them to.  Doable with just Scuttlebrace - Pyxl |
 | VG | Void Guy | This Guy | Bottom | Nothing (Fall) |  | Verified | ✓ |  |
-| UG | Underground | Bottom | Underground | Activate Platform Fall Lever |  | Verified | ✓ |  |
-| UG | Underground | Underground | Bottom | Activate Platform Fall Lever AND  (Silk Soar OR Cling Grip Left OR  (Cling Grip Right AND  (Ledge Grab Left OR  (Faydown Cloak AND  (Dash Left OR Clawline Left))))) |  | Verified | ✓ |  |
+| UG | Underground | Bottom | Underground | Activate Flick This To Say "I HATE THIS ROOM!" |  | Verified | ✓ |  |
+| UG | Underground | Underground | Bottom | Activate Flick This To Say "I HATE THIS ROOM!" AND  (Silk Soar OR Cling Grip Left OR  (Cling Grip Right AND  (Ledge Grab Left OR  (Faydown Cloak AND  (Dash Left OR Clawline Left))))) |  | Verified | ✓ |  |
 | FUG | From Underground | Underground Entrance | Underground | (Activate Underground Entrance Lever AND  ((Dash Both AND  (cling grip left OR ledge grab left) AND  (cling grip right OR ledge grab right)) OR  (Clawline Both AND Cling Grip Left) OR  (Faydown Cloak AND Cling Grip Either))) |  | Verified | ✓ |  |
 | FUG | From Underground | Underground | Underground Entrance | Activate Underground Entrance Lever (Fall) |  | Verified | ✓ |  |
 | DIE | DIE! | Top | This Last Guy As Well | Nothing (Fall, aggro enemy) |  | Verified | ✓ |  |
@@ -64,7 +64,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Snapping Floor | Overtop | Break Wall Down |  | Verified | blockade | ✓ |  |
-| 2 | Platform Fall Lever | Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 2 | Flick This To Say "I HATE THIS ROOM!" | Lever | Flip Switch Left |  | Verified | switch | ✓ | Platform fall lever |
 | 3 | First Ascent Lever | Bottom Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 4 | Underground Entrance Lever | Underground | Flip Switch Right |  | Verified | switch | ✓ |  |
 | 5 | Underloft 1 | Overtop | nothing |  | Verified | enemy | ✓ |  |

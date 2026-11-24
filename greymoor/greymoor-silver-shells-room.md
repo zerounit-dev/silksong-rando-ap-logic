@@ -25,7 +25,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | C1 | climb 1 | main path | hidden shaft upper | none (just fall) |  | Verified | ✓ |  |
-| C1 | climb 1 | hidden shaft upper | main path | ledge grab right OR (easy enemy pogo AND prereq Fluttermite 1) OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
+| C1 | climb 1 | hidden shaft upper | main path | ledge grab right OR easy pogo off fluttermite OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
 | C2 | climb 2 | hidden shaft loower | hidden shaft upper | cling grip either OR ledge grab left OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
 | C2 | climb 2 | hidden shaft upper | hidden shaft loower | nothing |  | Verified | ✓ |  |
 | B | blockade | hidden shaft loower | hidden area | prereq wooden wall |  | Verified | ✓ |  |

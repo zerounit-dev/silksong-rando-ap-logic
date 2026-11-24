@@ -57,15 +57,15 @@
 | 11 | Ballow Move to Control Room | forge daughter | Act 3 |  | Verified | event | ✓ |  |
 | 12 | Deep Docks Forge Door | right exit platform | Own Simple Key Deep Docks |  | Verified | logic-point |  |  |
 | 13 | Forge Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 14 | Smokerock Sifter 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
-| 15 | Flintstone Flyer 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
-| 16 | Flintstone Flyer 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
-| 17 | Flintstone Flyer 3 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
-| 18 | Smokerock Sifter 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
-| 19 | Flintstone Flyer 4 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
-| 20 | Smelt Shoveller 1 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
-| 21 | Smokerock Sifter 3 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
-| 22 | Smelt Shoveller 2 | gauntlet | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 14 | Smokerock Sifter 1 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 15 | Flintstone Flyer 1 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 16 | Flintstone Flyer 2 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 17 | Flintstone Flyer 3 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 18 | Smokerock Sifter 2 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 19 | Flintstone Flyer 4 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 20 | Smelt Shoveller 1 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 21 | Smokerock Sifter 3 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 22 | Smelt Shoveller 2 | gauntlet | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

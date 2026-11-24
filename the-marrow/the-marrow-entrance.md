@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_01
 
-**Contributors:** herounit
+**Contributors:** herounit, Pyxl
 
 ## Subrooms
 
@@ -37,9 +37,9 @@
 | SG | side gauntlet entrance | gauntlet arena | left of gauntlet | defeat gauntlet fight |  | Verified | ✓ |  |
 | LG | lower gauntlet entrance | gauntlet arena | passage right | defeat gauntlet fight |  | Verified | ✓ |  |
 | LG | lower gauntlet entrance | passage right | gauntlet arena | defeat gauntlet fight AND ( ledge grab both OR cling grip left OR ( ledge grab left AND ( cling grip right OR easy shaman pogo ) ) OR faydown OR silk soar ) |  | Verified | ✓ |  |
-| LP | lowered platform | above gauntlet | ceiling exit | silk soar  OR ( faydown AND ledge grab right ) OR ( faydown AND easy pogo off skull scuttler AND easy shaman pogo ) OR ( faydown AND run AND ( cling grip right OR dash right OR flea brew  OR easy beast pogo) ) OR ( run AND ( clawline right OR sharpdart ) AND ( ledge grab right OR cling grip right ) ) OR ( medium pogo off beastfly AND ( ledge grab right OR cling grip right ) ) OR hard pogo off beastfly OR ( activate lower platform switch other room IN the marrow map shop AND ( ledge grab either OR cling grip either OR faydown OR easy shaman pogo ) ) |  | Verified | ✓ | The platform lowering switch has the possibility of making this non-monotonic because it *seems* to require ledge grab to hop over the lowered platform.   Can we remove the bottom chunk of the block so you can still walk under it? |
+| LP | lowered platform | above gauntlet | ceiling exit | silk soar  OR ( faydown AND ledge grab right ) OR ( faydown AND easy pogo off skull scuttler AND easy shaman pogo ) OR ( faydown AND run AND ( cling grip right OR dash right OR flea brew  OR easy beast pogo) ) OR ( run AND ( clawline right OR sharpdart ) AND ( ledge grab right OR cling grip right ) ) OR ( medium pogo off beastfly AND ( ledge grab right OR cling grip right ) ) OR hard pogo off beastfly OR ( activate lower platform switch other room IN the marrow map shop AND ( ledge grab either OR cling grip either OR faydown OR easy shaman pogo ) ) OR ( hard shaman pogo AND medium scuttlebrace AND CBT pale nails stall x 4 ) |  | Verified | ✓ | The platform lowering switch has the possibility of making this non-monotonic because it *seems* to require ledge grab to hop over the lowered platform.   Can we remove the bottom chunk of the block so you can still walk under it? |
 | LP | lowered platform | ceiling exit | above gauntlet | none (falling) |  | Verified | ✓ |  |
-| LG1 | ledge grab 1 | passage left | middle left | ledge grab right OR cling grip right OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| LG1 | ledge grab 1 | passage left | middle left | ledge grab right OR cling grip right OR faydown cloak OR silk soar OR ( CBT pale nails stall x 1 AND Medium shaman pogo ) OR ( easy beast heal stall AND medium plasmium stall x 1 ) |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | middle left | passage left | none (falling) |  | Verified | ✓ |  |
 | LG2 | ledge grab 2 | left of gauntlet | middle left | ledge grab left OR cling grip either OR faydown cloak OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 | LG2 | ledge grab 2 | middle left | left of gauntlet | none (falling) |  | Verified | ✓ |  |

@@ -15,7 +15,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| YH | yanarby house | lower section | [Greymoor Yarnaby Room (Belltown_Room_doctor)](greymoor-yarnaby-room.md) | L | have crest cursed | TODO | Verified | ✓ |  |
+| YH | yanarby house | lower section | [Greymoor Yarnaby Room (Belltown_Room_doctor)](greymoor-yarnaby-room.md) | L | have crest cursed |  | Verified | ✓ |  |
 | R | right | lower section | [Greymoor Western Tower (Greymoor_06)](greymoor-western-tower.md) | YP | nothing |  | Verified | ✓ |  |
 | T | top | upper shaft | [Pimpillo Room (Wisp_06)](pimpillo-room.md) | D | prereq vine wall AND (silk soar OR cling grip left OR easy scuttlebrace) |  | Verified | ✓ |  |
 

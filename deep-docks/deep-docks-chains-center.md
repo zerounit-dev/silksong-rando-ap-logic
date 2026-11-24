@@ -18,6 +18,7 @@
 | S8 | lower chain platforms | ✓ |
 | S9 | upper right exit | ✓ |
 | S10 | Flintslate | ✓ |
+| S11 | bone shards snipe | ✓ |
 
 ## Room Transitions
 
@@ -61,16 +62,18 @@
 | UL | upper to lower | lower chain platforms | upper chain platforms | activate ceiling switch AND ( silk soar OR cling grip right OR easy Scuttlebrace OR (cling grip left AND (faydown OR (easy shaman pogo AND easy pogo off lavalug) OR clawline left OR sharpdart OR (run AND dash left) OR (drifter's AND (dash left OR easy [air heal,flea brew] stall))))) |  | Verified | ✓ |  |
 | LL | lower to lower chain | lower right area | lower chain platforms | activate ceiling switch AND ( silk soar OR (easy pogo off caranid AND easy damage boost off caranid AND (easy [air heal,plasmium, voltvessels,thread storm,rune rage,silkspear] stall x 2 OR cling grip either OR ledge grab either OR easy scuttlebrace OR faydown OR drifter's OR proficient movement)) OR easy pogo off Vicious Caranid) |  | Verified | ✓ |  |
 | LL | lower to lower chain | lower chain platforms | lower right area | activate ceiling switch |  | Verified | ✓ |  |
+| MS | mid to snipe | middle side room | bone shards snipe | none |  | Verified | ✓ |  |
+| LS | lower to snipe | lower left area | bone shards snipe | Elite ball knowledge AND medium curveclaw use AND medium threefold pin use AND medium pogo off caranid |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flintslate | Flintslate | none |  | Verified | collectible | ✓ |  |
-| 2 | shell shard cache deep docks 6 | middle side room | none | TODO | Verified | resource | ✓ |  |
-| 3 | shell shard cache deep docks 7 | middle side room | none | TODO | Verified | resource | ✓ |  |
-| 4 | shell shard cache deep docks 8 | middle side room | none | TODO | Verified | resource | ✓ |  |
-| 5 | shell shard cache deep docks 9 | middle side room | none | TODO | Verified | resource | ✓ |  |
+| 2 | shell shard cache deep docks 6 | bone shards snipe | none |  | Verified | resource | ✓ |  |
+| 3 | shell shard cache deep docks 7 | middle side room | none |  | Verified | resource | ✓ |  |
+| 4 | shell shard cache deep docks 8 | middle side room | none |  | Verified | resource | ✓ |  |
+| 5 | shell shard cache deep docks 9 | middle side room | none |  | Verified | resource | ✓ |  |
 | 6 | ceiling switch | middle switch platform | none |  | Verified | switch | ✓ | lowers middle chain platforms |
 | 7 | Dock Guard Thrower encounter 1 | lower left area | none |  | Verified | event | ✓ | defeatedDockForemen=false |
 | 8 | Lavalug 1 | upper chain platforms | normal world spawn |  | Verified | enemy | ✓ | ceiling switch false OR else they get sent to lower chain |

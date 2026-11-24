@@ -532,13 +532,23 @@
       "aliases": "barnak elevator, required surprise adoption"
     },
     {
+      "id": "f40bf726-02bf-4462-a640-fc656f5681eb",
+      "name": "Fast Needle Strike Stall",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} [{crest?}] {predicate}",
+      "outputSyntax": "capability:fast-needle-strike-stall:{crest}:{difficulty}",
+      "notes": "Implies having the required crest, having the Pin Badge, and being able to equip it.",
+      "sortOrder": 53,
+      "aliases": "fast needle strike stall, fast charge stall, fast needle strike, fast charge"
+    },
+    {
       "id": "46f3f155-b9dd-4df4-99ee-c124452abc02",
       "name": "Silk Hearts",
       "category": "Count",
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:silk-hearts:{quantity}",
       "notes": "Shorthand for have {quantity} silk hearts.",
-      "sortOrder": 53,
+      "sortOrder": 54,
       "aliases": "silk hearts x, silkhearts x"
     },
     {
@@ -548,7 +558,7 @@
       "inputSyntax": "{difficulty} {predicate} [{soul}]",
       "outputSyntax": "capability:enemy-type-pogo:{soul}:{difficulty}",
       "notes": "",
-      "sortOrder": 54,
+      "sortOrder": 55,
       "aliases": "pogo off, enemy pogo off"
     },
     {
@@ -558,7 +568,7 @@
       "inputSyntax": "{difficulty} {predicate} [{soul}]",
       "outputSyntax": "technique:damage-boost:{soul}:{difficulty}",
       "notes": "",
-      "sortOrder": 55,
+      "sortOrder": 56,
       "aliases": "damage boost off enemy, damage boost off"
     },
     {
@@ -568,7 +578,7 @@
       "inputSyntax": "{difficulty} [{method}] {predicate} {quantity?}",
       "outputSyntax": "capability:stall:{method}:{difficulty}:{quantity}",
       "notes": "Implies owning and being able to execute the stall method.",
-      "sortOrder": 56,
+      "sortOrder": 57,
       "aliases": "stall"
     },
     {
@@ -578,7 +588,7 @@
       "inputSyntax": "{difficulty} [{crest?}] {predicate}",
       "outputSyntax": "capability:bind-stall:{crest}:{difficulty}",
       "notes": "Implies owning the crest and being able to execute the bind stall.",
-      "sortOrder": 57,
+      "sortOrder": 58,
       "aliases": "bind stall, heal stall, crest bind stall, crest heal stall"
     },
     {
@@ -588,8 +598,18 @@
       "inputSyntax": "{difficulty} [{crest?}] {predicate}",
       "outputSyntax": "capability:reserve-bind-stall:{crest}:{difficulty}",
       "notes": "Implies owning the crest and being able to execute the bind stall along with having reserve bind and being able to equip it with on that crest.",
-      "sortOrder": 58,
+      "sortOrder": 59,
       "aliases": "reserve bind stall"
+    },
+    {
+      "id": "72b4fef2-8218-4740-aba2-d65311f372f3",
+      "name": "Voltvessels Water Pogo",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} [{crest}] {predicate} {quantity?}",
+      "outputSyntax": "technique:{crest}:{difficulty}:{quantity}",
+      "notes": "Implies having voltvessels, the specified crest and the slot to equip it.",
+      "sortOrder": 60,
+      "aliases": "voltvessels water pogo, voltwater pogo"
     },
     {
       "id": "888001b0-59b2-435d-8f2c-e85c0c5b6e64",
@@ -598,7 +618,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:wind-skip:{difficulty}",
       "notes": "Used in windy areas in Blasted Steps. Implies owning drifter\u0027s cloak. ",
-      "sortOrder": 59,
+      "sortOrder": 61,
       "aliases": "wind skip"
     },
     {
@@ -608,7 +628,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:cocoon-skip:{difficulty}",
       "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho, 2026",
-      "sortOrder": 60,
+      "sortOrder": 62,
       "aliases": "cocoon skip"
     },
     {
@@ -618,7 +638,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:drill-crystal-pogo:{difficulty}",
       "notes": "Implies owning tools delver\u0027s drill and memory crystal and being able to equip them both at the same time. Involves taking damage to create the crystal and then using the drill to gain vertical height from it. ",
-      "sortOrder": 61,
+      "sortOrder": 63,
       "aliases": "drill crystal pogo"
     },
     {
@@ -628,17 +648,17 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:hazard-respawn:{difficulty}",
       "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 62,
+      "sortOrder": 64,
       "aliases": "hazard respawn"
     },
     {
       "id": "e35edcc3-93b7-43c2-bd80-d30dd494d21e",
       "name": "Damage Boost",
       "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:damage-boost:{difficulty}",
+      "inputSyntax": "{difficulty} {predicate} {quantity?}",
+      "outputSyntax": "capability:damage-boost:{difficulty}:{quantity}",
       "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 63,
+      "sortOrder": 65,
       "aliases": "damage boost"
     },
     {
@@ -648,8 +668,28 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:proficient-movement",
       "notes": "For situations that do not use a specific stall or skip technique, but the traversal requires a minimum skill level.",
-      "sortOrder": 64,
+      "sortOrder": 66,
       "aliases": "proficient movement"
+    },
+    {
+      "id": "c5a087fb-8fce-469d-86c7-2100f0a97e03",
+      "name": "Advanced Knowledge",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:elite-ball-knowledge-on",
+      "notes": "Setting for knowledge of extremely specific techniques and unintuitive game possibilities, such as thorn pogo spots or novel silk soar locations.",
+      "sortOrder": 67,
+      "aliases": "advanced knowledge, elite ball knowledge, ponder the orb"
+    },
+    {
+      "id": "fe69a128-6680-4d49-b1d3-a257bc533c34",
+      "name": "Glitch",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:glitch:{difficulty}",
+      "notes": "",
+      "sortOrder": 68,
+      "aliases": "glitch"
     },
     {
       "id": "5e217266-e4d9-4a24-9c18-b5c45e89f973",
@@ -658,7 +698,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:shaman-scuttler:{difficulty}",
       "notes": "Implies ownership of the shaman crest, complete progressive swift step, the scuttlebrace, and the vesticrest to equip it.",
-      "sortOrder": 65,
+      "sortOrder": 69,
       "aliases": "shaman scuttle slide, shaman scuttler, scuttleglide, carpal tunnel express"
     },
     {
@@ -668,7 +708,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "macro:combat-requirements",
       "notes": "[insert combat requirements here]",
-      "sortOrder": 66,
+      "sortOrder": 70,
       "aliases": "combat requirements"
     },
     {
@@ -678,7 +718,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-1",
       "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
-      "sortOrder": 67,
+      "sortOrder": 71,
       "aliases": "act i, act 1"
     },
     {
@@ -688,7 +728,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-2",
       "notes": "",
-      "sortOrder": 68,
+      "sortOrder": 72,
       "aliases": "act ii, act 2"
     },
     {
@@ -698,7 +738,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-3",
       "notes": "",
-      "sortOrder": 69,
+      "sortOrder": 73,
       "aliases": "act iii, act 3"
     },
     {
@@ -708,7 +748,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:enemy-spawn-normal-world",
       "notes": "Acts 1 and 2. Used for enemy spawn requirements. Indicates the enemy only spawns in the normal world scene.",
-      "sortOrder": 70,
+      "sortOrder": 74,
       "aliases": "normal world spawn"
     },
     {
@@ -718,7 +758,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:enemy-spawn-black-thread-world",
       "notes": "Act 3. Used for enemy spawn requirements. Indicates the enemy only spawns in the black thread world scene.",
-      "sortOrder": 71,
+      "sortOrder": 75,
       "aliases": "black thread world spawn"
     },
     {
@@ -728,7 +768,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:craw-summons-ready",
       "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.\n\n\u0022To receive the Craw Summons, Hornet must have reached Act 3, completed the SEEK: Awaiting the End objective, and hit the lever inside the Craw house on Craw Lake.\u0022 - per the wiki",
-      "sortOrder": 72,
+      "sortOrder": 76,
       "aliases": "craw summons ready"
     },
     {
@@ -738,7 +778,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-shellwood",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 73,
+      "sortOrder": 77,
       "aliases": "visit shellwood"
     },
     {
@@ -748,7 +788,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-greymoor",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 74,
+      "sortOrder": 78,
       "aliases": "visit greymoor"
     },
     {
@@ -758,7 +798,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-sinners-road",
       "notes": "",
-      "sortOrder": 75,
+      "sortOrder": 79,
       "aliases": "visit sinners road"
     },
     {
@@ -768,7 +808,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-blasted-steps",
       "notes": "",
-      "sortOrder": 76,
+      "sortOrder": 80,
       "aliases": "visit blasted steps"
     },
     {
@@ -778,7 +818,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-the-citadel",
       "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
-      "sortOrder": 77,
+      "sortOrder": 81,
       "aliases": "visit the citadel"
     },
     {
@@ -788,7 +828,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-whiteward",
       "notes": "Used for the wish Balm for the Wounded.",
-      "sortOrder": 78,
+      "sortOrder": 82,
       "aliases": "visit whiteward"
     },
     {
@@ -798,7 +838,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-on",
       "notes": "",
-      "sortOrder": 79,
+      "sortOrder": 83,
       "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
     },
     {
@@ -808,7 +848,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-off",
       "notes": "",
-      "sortOrder": 80,
+      "sortOrder": 84,
       "aliases": "steel soul off"
     },
     {
@@ -818,7 +858,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-on",
       "notes": "",
-      "sortOrder": 81,
+      "sortOrder": 85,
       "aliases": "bellshrinesanity on"
     },
     {
@@ -828,7 +868,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-off",
       "notes": "",
-      "sortOrder": 82,
+      "sortOrder": 86,
       "aliases": "bellshrinesanity off"
     },
     {
@@ -838,7 +878,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-on",
       "notes": "",
-      "sortOrder": 83,
+      "sortOrder": 87,
       "aliases": "bossanity on"
     },
     {
@@ -848,7 +888,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-off",
       "notes": "",
-      "sortOrder": 84,
+      "sortOrder": 88,
       "aliases": "bossanity off"
     },
     {
@@ -858,7 +898,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-on",
       "notes": "",
-      "sortOrder": 85,
+      "sortOrder": 89,
       "aliases": "wishsanity on"
     },
     {
@@ -868,7 +908,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-off",
       "notes": "",
-      "sortOrder": 86,
+      "sortOrder": 90,
       "aliases": "wishsanity off"
     },
     {
@@ -878,7 +918,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:entrance-randomizer-on",
       "notes": "",
-      "sortOrder": 87,
+      "sortOrder": 91,
       "aliases": "entrance randomizer on"
     },
     {
@@ -888,48 +928,8 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:entrance-randomizer-off",
       "notes": "",
-      "sortOrder": 88,
-      "aliases": "entrance randomizer off"
-    },
-    {
-      "id": "c5a087fb-8fce-469d-86c7-2100f0a97e03",
-      "name": "Advanced Knowledge",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:elite-ball-knowledge-on",
-      "notes": "Setting for knowledge of extremely specific techniques and unintuitive game possibilities, such as thorn pogo spots or novel silk soar locations.",
-      "sortOrder": 89,
-      "aliases": "advanced knowledge, elite ball knowledge, ponder the orb"
-    },
-    {
-      "id": "72b4fef2-8218-4740-aba2-d65311f372f3",
-      "name": "Voltvessels Water Pogo",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} [{crest}] {predicate} {quantity?}",
-      "outputSyntax": "technique:{crest}:{difficulty}:{quantity}",
-      "notes": "Implies having voltvessels, the specified crest and the slot to equip it.",
-      "sortOrder": 90,
-      "aliases": "voltvessels water pogo, voltwater pogo"
-    },
-    {
-      "id": "fe69a128-6680-4d49-b1d3-a257bc533c34",
-      "name": "Glitch",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "technique:glitch:{difficulty}",
-      "notes": "",
-      "sortOrder": 91,
-      "aliases": "glitch"
-    },
-    {
-      "id": "f40bf726-02bf-4462-a640-fc656f5681eb",
-      "name": "Fast Needle Strike Stall",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} [{crest?}] {predicate}",
-      "outputSyntax": "capability:fast-needle-strike-stall:{crest}:{difficulty}",
-      "notes": "Implies having the required crest, having the Pin Badge, and being able to equip it.",
       "sortOrder": 92,
-      "aliases": "fast needle strike stall, fast charge stall, fast needle strike, fast charge"
+      "aliases": "entrance randomizer off"
     }
   ],
   "crests": [
@@ -1267,6 +1267,15 @@
       "notes": "Implies owning and being able to equip tool.",
       "sortOrder": 29,
       "aliases": "plasmium phial, plasmium"
+    },
+    {
+      "id": "f6a159e3-cf62-45d7-8b8b-8ee5e00c52a3",
+      "name": "Memory Crystal",
+      "category": "Blue Tool",
+      "outputValue": "memory-crystal",
+      "notes": "Implies owning and being able to equip tool.",
+      "sortOrder": 30,
+      "aliases": "memory crystal"
     }
   ],
   "items": [
@@ -4221,6 +4230,15 @@
       "notes": "Used for The Hidden Hunter wish.",
       "sortOrder": 327,
       "aliases": "grass doll"
+    },
+    {
+      "id": "146685c3-aa9d-4a23-8243-519b26e7906c",
+      "name": "Evolved Hunter Crest",
+      "category": "Crest",
+      "outputValue": "crest-hunter-evolved",
+      "notes": "",
+      "sortOrder": 328,
+      "aliases": "evolved hunter crest"
     }
   ],
   "countables": [

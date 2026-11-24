@@ -22,7 +22,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | MBS | Map <> Bone Scroll | Map | Bone Scroll | Activate Map Wall |  | Verified | ✓ |  |
-| MBS | Map <> Bone Scroll | Bone Scroll | Map | (Activate Map Wall AND (Cling Grip OR Scuttlebrace OR Silk Soar)) |  | Verified | ✓ |  |
+| MBS | Map <> Bone Scroll | Bone Scroll | Map | (Activate Map Wall AND (Cling Grip Either OR Scuttlebrace OR Silk Soar)) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -31,6 +31,7 @@
 | 1 | Map Pickup: Underworks | Map | none |  | Verified | collectible | ✓ |  |
 | 2 | Relic: Bone Scroll (Underworks) | Bone Scroll | none |  | Verified | collectible | ✓ |  |
 | 3 | Map Wall | Map | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 4 | Drapefly 1 | Bone Scroll | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

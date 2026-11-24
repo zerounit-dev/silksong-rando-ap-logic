@@ -2,7 +2,7 @@
 
 **Game ID:** Cog_08
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Gallos
 
 ## Subrooms
 
@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Lower Entrance | [Cog Dancers (Cog_Dancers)](cog-dancers.md) | T | Nothing |  | Verified | ✓ |  |
+| B | bot1 | Lower Entrance | [Cog Dancers (Cog_Dancers)](cog-dancers.md) | T | activate Cog dancers - clawline mechanism 2 IN cog dancers |  | Verified | ✓ |  |
 | T | top1 | Upper Entrance | [Cogwork Core Architect's Melody (Cog_09)](cogwork-core-architect-s-melody.md) | B | Nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -33,18 +33,17 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Flip Switch #7 | Lever Door | Nothing. |  | Verified | switch | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 3 | Cogwork Crawler 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Cogwork Crawler 2 |  |  |  |  | enemy | ✓ |  |
-| 5 | Cogwork Crawler 3 |  |  |  |  | enemy | ✓ |  |
-| 6 | Cogwork Cleanser 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Cogwork Spine 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Cogwork Spine 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Cogwork Defender 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Cogwork Spine 3 |  |  |  |  | enemy | ✓ |  |
-| 11 | Cogwork Choirbug 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Cogwork Cleanser 2 |  |  |  |  | enemy | ✓ |  |
-| 13 | Cogwork Spine 4 |  |  |  |  | enemy | ✓ |  |
+| 2 | Cogwork Crawler 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Cogwork Crawler 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Cogwork Crawler 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Cogwork Cleanser 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Cogwork Spine 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Cogwork Spine 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Cogwork Defender 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Cogwork Spine 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Cogwork Choirbug 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Cogwork Cleanser 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Cogwork Spine 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 

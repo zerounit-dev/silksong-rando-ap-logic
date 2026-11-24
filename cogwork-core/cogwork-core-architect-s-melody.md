@@ -2,7 +2,7 @@
 
 **Game ID:** Cog_09
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Gallos
 
 ## Subrooms
 
@@ -15,21 +15,22 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Bottom | [Cogwork Core North Main (Cog_08)](cogwork-core-north-main.md) | T | Nothing. |  | Verified | ✓ |  |
+| B | bot1 | Bottom | [Cogwork Core North Main (Cog_08)](cogwork-core-north-main.md) | T | ACT 2 |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TP | To Puzzle | Bottom | Melody Puzzle | Silk Soar OR Cling Grip OR (Faydown Cloak AND Scuttlebrace) |  | Verified |  |  |
-| TP | To Puzzle | Melody Puzzle | Bottom | Nothing. (Fall) |  | Verified |  |  |
+| TP | To Puzzle | Bottom | Melody Puzzle | Silk Soar OR Cling Grip either OR (Faydown Cloak AND easy Scuttlebrace) |  | Verified | ✓ |  |
+| TP | To Puzzle | Melody Puzzle | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Architect's Melody | Melody Puzzle | flip switch left AND flip switch right |  | Verified | event | ✓ | Have: Brain AND Think |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Cogwork Choirbug 1 | Bottom | none |  | Verified | enemy | ✓ |  |
+| 3 | Cogwork Choirbug 2 | Bottom | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

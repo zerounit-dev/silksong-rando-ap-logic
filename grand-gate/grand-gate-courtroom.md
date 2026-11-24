@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | lower section | [Grand Bridge (Coral_10)](grand-bridge.md) | R | activate Grand Bridge Plate IN Grand Bridge |  | Verified | ✓ | blocked |
-| TR | right1 | Maintenance side | [Grand Gate Maintenance Room (Song_01c)](grand-gate-maintenance-room.md) | L | clear Grand Gate - Courtroom metal wall OR clear Grand Gate - Maintenance metal wall IN grand gate maintenance room |  | Verified | ✓ | to fix position |
+| TR | right1 | Maintenance side | [Grand Gate Maintenance Room (Song_01c)](grand-gate-maintenance-room.md) | L | clear Grand Gate - Courtroom metal wall OR clear Grand Gate - Maintenance metal wall IN grand gate maintenance room |  | Verified | ✓ |  |
 | R | right2 | lower section | [Grand Elevator (Under_01)](grand-elevator.md) | TL | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -38,7 +38,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Spool Fragment: Grand Gate | spool room | none |  | Verified | collectible | ✓ | to fix position |
+| 1 | Spool Fragment: Grand Gate | spool room | none |  | Verified | collectible | ✓ |  |
 | 2 | Grand Gate - Courtroom metal wall | upper section | break wall right OR clear Grand Gate - Maintenance metal wall IN grand gate maintenance room |  | Verified | blockade | ✓ |  |
 | 3 | Grande Gate map purchase | lower section | spend 40 rosaries |  | Verified | collectible | ✓ |  |
 

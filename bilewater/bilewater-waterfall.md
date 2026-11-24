@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CR | crossing | left exit | trails end | faydown cloak  AND (swim OR (proficient movement AND clawline  right 2 AND cling grip right))  AND cling grip  AND ( ledge grab OR dash OR clawline OR sharpdart ) |  | Verified | ✓ |  |
-| CR | crossing | trails end | left exit | faydown cloak  AND swim  AND cling grip  AND ( ledge grab OR dash OR clawline OR sharpdart ) |  | Verified | ✓ | don't think you can get out without silk soar's height?  Yes you can. Use the wall on the other side of the room. |
+| CR | crossing | left exit | trails end | faydown cloak  AND (swim OR (proficient movement AND clawline  right 2 AND cling grip right))  AND cling grip right AND ( ledge grab right OR dash right OR clawline right OR sharpdart ) |  | Verified | ✓ |  |
+| CR | crossing | trails end | left exit | faydown cloak  AND swim  AND cling grip left  AND ( ledge grab left OR dash left OR clawline left OR sharpdart ) |  | Verified | ✓ | don't think you can get out without silk soar's height?  Yes you can. Use the wall on the other side of the room. |
 
 ## Check Locations
 

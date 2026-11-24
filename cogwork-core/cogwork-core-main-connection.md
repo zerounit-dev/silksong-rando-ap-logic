@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LU | Lower-Upper | Lower Entrance | Upper Entrance | Silk Soar OR Cling Grip either OR easy Scuttlebrace |  | Verified |  |  |
-| LU | Lower-Upper | Upper Entrance | Lower Entrance | Nothing. (Fall) |  | Verified |  |  |
+| LU | Lower-Upper | Lower Entrance | Upper Entrance | Silk Soar OR Cling Grip either OR easy Scuttlebrace |  | Verified | ✓ |  |
+| LU | Lower-Upper | Upper Entrance | Lower Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 

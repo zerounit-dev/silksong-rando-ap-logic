@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_27
 
-**Contributors:** Herchey and Sherma (he was very helpful)
+**Contributors:** Herchey, Unknown Volwater Pogo Contributor and Sherma (he was very helpful)
 
 ## Subrooms
 

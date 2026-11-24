@@ -17,7 +17,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Left | [Underworks Western Gauntlet (Under_07)](underworks-western-gauntlet.md) | R | none |  | Verified | ✓ |  |
-| T | top1 | Center | [Confession Toll (Under_08)](confession-toll.md) | B | Open Airlock Up AND (Cling Grip OR Silk Soar OR Scuttlebrace OR (Faydown Cloak AND Ledge Grab)) |  | Verified | ✓ |  |
+| T | top1 | Center | [Confession Toll (Under_08)](confession-toll.md) | B | Open Airlock Up AND (Cling Grip Either OR Silk Soar OR Scuttlebrace OR (Faydown Cloak AND Ledge Grab Either)) |  | Verified | ✓ |  |
 | R | right1 | Right | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | TL | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -26,14 +26,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LC | Left-Center | Left | Center | Nothing. |  | Verified | ✓ | unsure if Left and Center should be merged. |
 | LC | Left-Center | Center | Left | Nothing. |  | Verified | ✓ | unsure if Left and Center should be merged. |
-| RC | Right-Center | Right | Center | spike pogo OR dash OR clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ |  |
-| RC | Right-Center | Center | Right | spike pogo OR dash OR clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ | Very hard for me to verify |
+| RC | Right-Center | Right | Center | spike pogo OR dash Left OR clawline Left OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ |  |
+| RC | Right-Center | Center | Right | spike pogo OR dash right OR clawline Right OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ | Very hard for me to verify |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Underworker 1 | Left | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

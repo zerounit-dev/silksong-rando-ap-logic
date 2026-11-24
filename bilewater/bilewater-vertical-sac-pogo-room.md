@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_19
 
-**Contributors:** Herchey and someone he grabbed off the street real quick
+**Contributors:** Herchey and someone he grabbed off the street real quick (his name is robert paulson i mean hutyrix)
 
 ## Subrooms
 
@@ -26,7 +26,7 @@
 | UL | upper left | up left door platform | [Bilewater Upper Trap Gauntlet Hall (Shadow_12)](bilewater-upper-trap-gauntlet-hall.md) | R | none |  | Verified | ✓ |  |
 | UR | upper right | upper platform | [Bilewater Waterfall (Shadow_24)](bilewater-waterfall.md) | L | complete THE trails end wish promised |  | Verified | ✓ | Without Trails End quest, this is inaccessible from both sides. |
 | LR | lower right | low right door platform | [Bilewater Northeast Tiny Room (Shadow_25)](bilewater-northeast-tiny-room.md) | L | none |  | Verified | ✓ |  |
-| LL | lower left | low left platform | [Bilewater Lower Trap Gauntlet Hall (Shadow_10)](bilewater-lower-trap-gauntlet-hall.md) | R | silk soar OR cling grip |  | Verified | ✓ |  |
+| LL | lower left | low left platform | [Bilewater Lower Trap Gauntlet Hall (Shadow_10)](bilewater-lower-trap-gauntlet-hall.md) | R | silk soar OR cling grip either |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -36,7 +36,7 @@
 | lp | lower platform crossing | climb start wall | low left platform | dash left OR clawline left OR swim  OR (easy [hunter,wanderer] voltwater pogo AND faydown) OR (medium voltvessels stall x 2 AND faydown) |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11 |
 | CR | climb wall to right | climb start wall | low right door platform | swim OR (clawline right OR (sharpdart AND (ledge grab right OR cling grip right)))  OR (easy [hunter,wanderer] voltwater pogo AND faydown) OR (medium voltvessels stall x 2 AND faydown) |  | Verified | ✓ | Anything other than swim is a bit narrow of a window. Easy_skip? |
 | CR | climb wall to right | low right door platform | climb start wall | (cling grip right AND (swim OR faydown cloak)) OR (easy [hunter,wanderer] voltwater pogo AND faydown) OR (medium voltvessels stall x 2 AND faydown) OR (faydown AND medium beast pogo) |  | Verified | ✓ | faydown is a pretty narrow window. easy_skip? |
-| CUL | climb to upper left | climb start wall | up left door platform | (clawline left OR intended enemy pogo off Swamp Squit) AND (faydown cloak OR drifter's cloak) | TODO | Needs verification | ✓ | Marked as todo, because it is 100% NOT possible to do with clawline left AND drifters (without ememy pogo offs) |
+| CUL | climb to upper left | climb start wall | up left door platform | (((clawline left x 1 OR (dash left AND drifters)) AND faydown AND cling grip right)) OR (faydown AND drifters AND (easy pogo off swamp squit)) |  | Verified | ✓ | Marked as todo, because it is 100% NOT possible to do with clawline left AND drifters (without ememy pogo offs)  (clawline left OR intended enemy pogo off Swamp Squit) AND (faydown cloak OR drifter's cloak) ^ old logic |
 | CUL | climb to upper left | up left door platform | climb start wall | drifter's cloak OR (faydown cloak AND clawline right) |  | Verified | ✓ |  |
 | ULL | upper left to lower left | up left door platform | low left platform | drifter's cloak OR (faydown cloak AND clawline left) |  | Verified | ✓ |  |
 | ULT | upper left to top | up left door platform | upper platform | faydown cloak AND (cling grip left OR (scuttlebrace AND (drifter's cloak OR easy beast pogo OR clawline right OR sharpdart))) |  | Verified | ✓ |  |
@@ -46,12 +46,12 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Rosary Cache #4 | upper platform | none |  | Verified | resource | ✓ |  |
-| 2 | Bilewater - Rosary Cache #5 | upper platform | none |  | Verified | resource | ✓ |  |
+| 1 | Bilewater - Some Venue Fee Rosaries For the Waterfall | upper platform | none |  | Verified | resource | ✓ | Formerly: Bilewater - Rosary Cache #4 |
+| 2 | Bilewater - More Venue Fee Rosaries For the Waterfall | upper platform | none |  | Verified | resource | ✓ | Formerly: Bilewater - Rosary Cache #5 |
 | 3 | Stilkin Trapper 1 | up left door platform | invalid |  | Verified | enemy | ✓ | swampMuckmanTallInvades == true |
-| 4 | Swamp Squit 1 | climb start wall | cling grip AND (swim OR faydown cloak) |  | Verified | enemy | ✓ |  |
-| 5 | Swamp Squit 2 | climb start wall | cling grip AND (swim OR faydown cloak) |  | Verified | enemy | ✓ |  |
-| 6 | Swamp Squit 3 | climb start wall | cling grip AND (swim OR faydown cloak) |  | Verified | enemy | ✓ |  |
+| 4 | Swamp Squit 1 | climb start wall | cling grip right AND (swim OR faydown cloak) |  | Verified | enemy | ✓ |  |
+| 5 | Swamp Squit 2 | climb start wall | cling grip right AND (swim OR faydown cloak) |  | Verified | enemy | ✓ |  |
+| 6 | Swamp Squit 3 | climb start wall | cling grip right AND (swim OR faydown cloak) |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

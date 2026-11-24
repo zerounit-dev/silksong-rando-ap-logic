@@ -21,14 +21,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| E | The only one in this room | Entrance | Guy i forgot the name of im sorry im a fraud | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| E | The only one in this room | Entrance | Guy i forgot the name of im sorry im a fraud | Cling Grip Either OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | E | The only one in this room | Guy i forgot the name of im sorry im a fraud | Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+No check locations defined.
 
 ## Room Images
 

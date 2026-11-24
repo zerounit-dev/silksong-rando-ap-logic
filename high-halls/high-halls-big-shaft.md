@@ -38,7 +38,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TF | Falling from Top | Top | Clawline Gate 1 | none |  | Verified | ✓ |  |
 | TF | Falling from Top | Clawline Gate 1 | Top | silk soar OR (faydown AND (( medium beast crest bind stall) OR medium flea brew stall OR proficient movement) AND cling grip right AND spike pogo) |  | Verified | ✓ |  |
-| C1 | ClawGate 1 to 2 | Clawline Gate 1 | Clawline Gate 2 | (Activate Clawline Gate 1 AND ((proficient movement AND spike pogo AND clawline left AND (medium [wanderer,reaper,shaman] pogo OR hard [hunter,architect,beast,witch] pogo)) OR ((faydown cloak OR drifter's) AND spike pogo AND clawline either))) |  | Verified | ✓ |  |
+| C1 | ClawGate 1 to 2 | Clawline Gate 1 | Clawline Gate 2 | (Activate Clawline Gate 1 AND ((proficient movement AND spike pogo AND clawline left AND (medium [wanderer,reaper,shaman] pogo OR hard [hunter,architect,beast,witch] pogo)) OR (drifter's AND spike pogo AND clawline either))) OR (proficient movement AND faydown AND clawline either AND spike pogo) |  | Verified | ✓ |  |
 | C1 | ClawGate 1 to 2 | Clawline Gate 2 | Clawline Gate 1 | activate CLawline gate 1 AND (proficient movement AND spike pogo AND (medium [beast,reaper,shaman, architect, witch] pogo OR faydown cloak OR (medium [wanderer, hunter] pogo AND cling grip left))) |  | Verified | ✓ |  |
 | C2 | Clawline | Clawline Gate 2 | Middle | clawline either AND Activate Clawline Gate 2 |  | Verified | ✓ |  |
 | C2 | Clawline | Middle | Clawline Gate 2 | Activate Clawline Gate 2 AND ((faydown cloak AND easy pogo off Minister) OR silk soar OR (medium pogo off Minister AND cling grip either)) |  | Verified | ✓ |  |

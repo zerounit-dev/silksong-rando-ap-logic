@@ -25,11 +25,11 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | PB | Platforms Bottom | Platforms | Bottom | none (falling) |  | Verified | ✓ |  |
-| PB | Platforms Bottom | Bottom | Platforms | ((faydown cloak OR cling grip any OR ledge grab any) AND medium enemy pogo) OR silk soar |  | Verified | ✓ |  |
+| PB | Platforms Bottom | Bottom | Platforms | ((faydown cloak OR cling grip any OR ledge grab any) AND medium pogo off guardfly ) OR silk soar |  | Verified | ✓ |  |
 | BL | Bottom Left | Left | Bottom | none (falling) |  | Verified | ✓ |  |
-| BL | Bottom Left | Bottom | Left | ledge grab left OR easy enemy pogo OR cling grip left OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| BL | Bottom Left | Bottom | Left | ledge grab left OR easy pogo off guardfly OR cling grip left OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | PL | Platforms Left | Platforms | Left | none (falling) |  | Verified | ✓ |  |
-| PL | Platforms Left | Left | Platforms | cling grip right OR medium enemy pogo OR faydown cloak OR silk soar OR (dash right AND ledge grab right) |  | Verified | ✓ |  |
+| PL | Platforms Left | Left | Platforms | cling grip right OR medium pogo off guardfly OR faydown cloak OR silk soar OR (dash right AND ledge grab right) |  | Verified | ✓ |  |
 
 ## Check Locations
 

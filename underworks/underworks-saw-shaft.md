@@ -11,6 +11,7 @@
 | S1 | Top | ✓ |
 | S2 | Left Entry | ✓ |
 | S3 | Right Entry | ✓ |
+| S4 | The Mite Guy | ✓ |
 
 ## Room Transitions
 
@@ -28,13 +29,14 @@
 | H | Horizontal | Right Entry | Left Entry | dash left OR clawline left OR Sharpdart OR faydown cloak OR spike pogo OR drifter's cloak OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Easy Flea Brew Stall OR Flea Brew OR ((Proficient Movement OR Medium Flintslate Stall) AND Ledge Grab left) |  | Verified | ✓ |  |
 | V | Vertical | Top | Left Entry | nothing |  | Verified | ✓ | falling |
 | V | Vertical | Left Entry | Top | cling grip left OR easy Scuttlebrace OR (cling grip right AND (faydown OR silk soar OR easy shaman pogo)) |  | Verified | ✓ |  |
+| MDR | KILL!!! MURDER!!! | Top | The Mite Guy | Cling Grip Either OR Easy Scuttlebrace OR Silk Soar OR (Faydown Cloak AND Ledge Grab Left AND Easy Air Bind Stall) |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Snapping Floor | Right Entry | Break Wall Down |  | Verified | blockade | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Drapemite 1 | The Mite Guy | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

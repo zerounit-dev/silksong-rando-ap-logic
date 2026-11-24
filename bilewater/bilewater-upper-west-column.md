@@ -10,6 +10,10 @@
 | --- | --- | --- |
 | S1 | lower | ✓ |
 | S2 | upper | ✓ |
+| S3 | LL wall | ✓ |
+| S4 | LM wall | ✓ |
+| S5 | UL wall | ✓ |
+| S6 | rose plat | ✓ |
 
 ## Room Transitions
 
@@ -22,17 +26,26 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LM | low to up | lower | upper | cling grip AND (Faydown cloak OR enemy pogo) AND (clawline OR sharpdart) |  | Verified | ✓ | crest_pogo should be an easy or medium skip since it requires a one-hit death enemy that you need to let float up before pogoing |
-| LM | low to up | upper | lower | Cling grip AND (Drifter’s cloak OR faydown cloak OR clawline OR sharpdart OR dash) |  | Verified | ✓ | Clawline, sharpdart, dash are pretty annoying to hit without a cloak, so easy/medium skips |
+| LM | low to up | upper | lower | drifter's OR  ((proficient movement OR Cling grip right) AND (faydown OR clawline right OR sharpdart OR dash right)) |  | Verified | ✓ | Clawline, sharpdart, dash are pretty annoying to hit without a cloak, so easy/medium skips |
+| LLW | low to left wall | lower | LL wall | cling grip left AND (clawline left OR sharpdart OR dash left OR (faydown AND drifter's)) |  | Verified | ✓ |  |
+| LLW | low to left wall | LL wall | lower | dash right OR clawline right OR sharpdart OR faydown OR drifter's OR easy beast pogo |  | Verified | ✓ |  |
+| LLM | LL to LM walls | LL wall | LM wall | cling grip right |  | Verified | ✓ |  |
+| LLM | LL to LM walls | LM wall | LL wall | cling grip left |  | Verified | ✓ |  |
+| LMD | LM to door | LM wall | upper | cling grip right AND    ((proficient movement AND dash right AND clawline right) OR   (faydown AND (clawline right OR sharpdart OR dash right OR drifter's)   )) |  | Verified | ✓ |  |
+| LMD | LM to door | upper | LM wall | cling grip right |  | Verified | ✓ |  |
+| UUL | upper to ul | upper | UL wall | cling grip left AND  ((faydown cloak OR medium pogo off Mothleaf Lagnia) AND (clawline left OR sharpdart OR dash left OR drifter's)) |  | Verified | ✓ |  |
+| UUL | upper to ul | UL wall | upper | dash right OR clawline right OR sharpdart OR easy beast pogo OR faydown OR drifter's |  | Verified | ✓ |  |
+| ULR | UL to rose | UL wall | rose plat | clawline right OR sharpdart OR faydown OR (faydown AND (dash right OR drifter's)) OR  (drifter's AND (dash right AND (cling grip right OR ledge grab right))) |  | Verified | ✓ |  |
+| ULR | UL to rose | rose plat | UL wall | drifter's OR clawline left OR sharpdart OR dash left OR (proficient movement AND scuttlebrace) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Rosary Cache #3 | upper | cling grip AND ((faydown cloak AND (drifter's cloak OR clawline OR sharpdart)) OR (easy pogo off Mothleaf Lagnia AND ((drifter's cloak AND dash) OR sharpdart x 2 OR clawline x 2)) OR clawline x 3) |  | Verified | resource | ✓ |  |
+| 1 | Bilewater - Rosaries Above The Moths And Thorns | rose plat | none |  | Verified | resource | ✓ | Formerly: Bilewater - Rosary Cache #3 |
 | 2 | Mothleaf Lagnia 1 | upper | none |  | Verified | enemy | ✓ |  |
 | 3 | Mothleaf Lagnia 2 | upper | none |  | Verified | enemy | ✓ |  |
-| 4 | Mothleaf Lagnia 3 | upper | none |  | Verified | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 3 | LL wall | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

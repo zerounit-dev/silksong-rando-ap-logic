@@ -2,7 +2,7 @@
 
 **Game ID:** Cog_Bench
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Gallos
 
 ## Subrooms
 
@@ -21,18 +21,17 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BM | Bench-Map | Bench | Map | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |  |
-| BM | Bench-Map | Map | Bench | Nothing. (Fall) |  | Verified |  |  |
+| BM | Bench-Map | Bench | Map | Silk Soar OR Cling Grip either OR easy Scuttlebrace |  | Verified | ✓ |  |
+| BM | Bench-Map | Map | Bench | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Core: Flip Switch #4 | Bench | Nothing. |  | Verified | switch | ✓ |  |
+| 1 | Cogwork Core: Flip Switch #4 | Bench | Nothing. | TODO | Verified | switch | ✓ |  |
 | 2 | Cogwork Core: Flip Switch #5 | Map | Nothing. |  | Verified | switch | ✓ |  |
 | 3 | Cogwork Core: Map | Map | Activate Cogwork Core: Flip Switch #5 |  | Verified | collectible | ✓ |  |
 | 4 | Cogwork Core: Bench | Bench | Activate Cogwork Core: Flip Switch #4 |  | Verified | bench |  |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

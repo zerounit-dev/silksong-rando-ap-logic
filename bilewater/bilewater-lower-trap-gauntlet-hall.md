@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_10
 
-**Contributors:** Herchey and Leon Sexgod Kennedy
+**Contributors:** Herchey, Hutyrix, The Voltwater Vigilante and Leon Sexgod Kennedy
 
 ## Subrooms
 

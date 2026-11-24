@@ -11,9 +11,10 @@
 | S1 | Ground Level | ✓ |
 | S2 | Shakra Ledge | ✓ |
 | S3 | Stalactite | ✓ |
-| S4 | Crust Nut Ledge | ✓ |
-| S5 | Bridge Level | ✓ |
-| S6 | Voltnest Level | ✓ |
+| S4 | Stalactite 2 | ✓ |
+| S5 | Crust Nut Ledge | ✓ |
+| S6 | Bridge Level | ✓ |
+| S7 | Voltnest Level | ✓ |
 
 ## Room Transitions
 
@@ -40,17 +41,18 @@
 | St2 | Stalactite2 | Stalactite | Shakra Ledge | None |  | Verified | ✓ |  |
 | US1 | Upper Shaft1 | Shakra Ledge | Crust Nut Ledge | ( ( Scuttlebrace  OR  Cling grip both )  AND  ( ( Dash both AND ( Ledge Grab either OR easy Shaman Crest pogo ) ) OR Faydown Cloak OR Sharpdart ) ) OR ( Cling Grip both AND ( easy Beast Crest pogo OR easy Hunter Crest pogo OR ( easy Reaper Crest pogo AND easy Needle Strike stall ) ) ) |  | Verified | ✓ |  |
 | US1 | Upper Shaft1 | Crust Nut Ledge | Shakra Ledge | None |  | Verified | ✓ |  |
-| US2 | Upper Shaft2 | Crust Nut Ledge | Bridge Level | Prereq Stalactite 2 AND ( (  Scuttlebrace OR ( Cling grip Right AND ( Cling grip left OR ledge grab left ) )OR  Faydown Cloak  OR (  Silk Soar AND ( easy Architect Crest pogo OR easy Witch Crest pogo OR easy Reaper Crest pogo OR easy Shaman Crest pogo OR ( easy Wanderer Crest pogo AND ( ledge grab left OR Sharpdart OR Drifters Cloak ) ) ) ) ) ) |  | Verified | ✓ |  |
+| US2 | Upper Shaft2 | Crust Nut Ledge | Bridge Level | clear Stalactite 2 AND ( (  Scuttlebrace OR ( Cling grip Right AND ( Cling grip left OR ledge grab left ) )OR  Faydown Cloak  OR (  Silk Soar AND ( easy Architect Crest pogo OR easy Witch Crest pogo OR easy Reaper Crest pogo OR easy Shaman Crest pogo OR ( easy Wanderer Crest pogo AND ( ledge grab left OR Sharpdart OR Drifters Cloak ) ) ) ) ) ) |  | Verified | ✓ |  |
 | US2 | Upper Shaft2 | Bridge Level | Crust Nut Ledge | Prereq Stalactite 2 |  | Verified | ✓ |  |
 | VS | Voltwyrm Shaft | Bridge Level | Voltnest Level | ( Cling Grip both AND Faydown Cloak AND ( Clawline right OR Dash right OR Sharpdart OR ( ( Medium Beast Crest pogo AND medium Needle Strike stall AND Cling Grip both )  OR ( ( ( medium Architect Crest pogo OR medium Reaper Crest pogo )  AND medium Needle Strike stall ) OR medium Shaman Crest pogo )  )  )  ) OR (  Silk soar AND ( Cling Grip left OR Faydown Cloak OR Scuttlebrace ) ) |  | Verified | ✓ |  |
 | VS | VoltWyrm Shaft | Voltnest Level | Bridge Level | None |  | Verified | ✓ |  |
+| BS | bridge to stalactite 2 | Bridge Level | Stalactite 2 | medium curveclaw use x 3 OR ((faydown OR easy scuttlebrace) AND shaman attack up) OR cling grip left OR silk soar x 2 OR medium conchcutter use x 3 |  | Verified | ✓ | damn someone beat to it |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Stalactite | Stalactite | None |  | Verified | blockade |  |  |
-| 2 | Stalactite 2 | Bridge Level | None |  | Verified | blockade |  |  |
+| 1 | Stalactite | Stalactite | None |  | Verified | blockade | ✓ |  |
+| 2 | Stalactite 2 | Stalactite 2 | None |  | Verified | blockade | ✓ |  |
 | 3 | Pokenabbin 1 | Crust Nut Ledge | None |  | Verified | enemy | ✓ |  |
 | 4 | Pokenabbin 2 | Stalactite | None |  | Verified | enemy | ✓ |  |
 | 5 | Pokenabbin 3 | Ground Level | None |  | Verified | enemy | ✓ |  |

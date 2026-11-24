@@ -23,7 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Mask Shard |  | (cling grip right  AND  ( (faydown cloak AND drifter's cloak) OR ((clawline right OR sharpdart OR drifter's cloak) AND (faydown cloak OR medium pogo off Slubberlug)))) OR ( Scuttlebrace AND Clawline right AND medium pogo off slubberlug ) |  | Verified | collectible | ✓ |  |
-| 2 | Slubberlug 1 |  | none |  | Verified | enemy | ✓ |  |
+| 2 | Slubberlug 1 |  | (Get 1 needle upgrades AND    ([hunter, wanderer, beast, architect, shaman] needle all OR   (have Ability: Needle Strike AND ([hunter, reaper, wanderer, beast, architect]       needle left OR [hunter, reaper, wanderer, beast, architect]       needle right)))) OR (Get 2 needle upgrades AND    (needle left OR needle right)) |  | Verified | enemy | ✓ |  |
 | 3 | Slubberlug 2 |  | none |  | Verified | enemy | ✓ |  |
 | 4 | Slubberlug 3 |  | none |  | Verified | enemy | ✓ |  |
 | 5 | Slubberlug 4 |  | none |  | Verified | enemy | ✓ |  |

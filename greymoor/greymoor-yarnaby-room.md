@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Infestation Operation Wish Promised |  | complete THE rite of rebirth wish granted AND have crest cursed | TODO | Verified | event |  |  |
+| 1 | Infestation Operation Wish Promised |  | complete THE rite of rebirth wish granted AND have crest cursed |  | Verified | event |  |  |
 | 2 | Infestation Operation Wish Granted |  | complete Infestation Operation Wish Promised AND have Steel Spines |  | Verified | event |  |  |
 | 3 | Crest: Witch |  | complete Infestation Operation Wish Granted |  | Verified | collectible |  |  |
 

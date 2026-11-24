@@ -28,16 +28,21 @@
 | LA | Left <> Arena | Arena | Left Entry | Clear Steam Gauntlet |  | Verified | ✓ |  |
 | RA | Right <> Arena | Right Entry | Arena | Nothing |  | Verified | ✓ |  |
 | RA | Right <> Arena | Arena | Right Entry | Clear Steam Gauntlet |  | Verified | ✓ |  |
-| RR | Rosary <> Right | Right Entry | Rosary | cling grip OR silk soar OR faydown cloak OR Scuttlebrace |  | Verified | ✓ |  |
+| RR | Rosary <> Right | Right Entry | Rosary | cling grip Either OR silk soar OR faydown cloak OR Scuttlebrace |  | Verified | ✓ |  |
 | RR | Rosary <> Right | Rosary | Right Entry | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Underworks #1 | Rosary | Nothing. |  | Verified | collectible | ✓ |  |
+| 1 | Underworks Arena Station Payroll | Rosary | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Steam Gauntlet | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Undercrank 1 | Arena | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 4 | Undercrank 2 | Arena | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 5 | Underpoke 1 | Arena | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 6 | Undercrank 3 | Arena | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 7 | Underloft 1 | Arena | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 8 | Undersweep 1 | Left Entry | nada |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

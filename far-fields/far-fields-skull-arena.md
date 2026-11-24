@@ -8,29 +8,31 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | entrance |  |
-| S2 | arena |  |
-| S3 | crossing |  |
-| S4 | check alcove |  |
-| S5 | mask alcove |  |
+| S1 | entrance | ✓ |
+| S2 | arena | ✓ |
+| S3 | crossing | ✓ |
+| S4 | check alcove | ✓ |
+| S5 | mask alcove | ✓ |
+| S6 | dungeon descent | ✓ |
+| S7 | dungeon spike pit | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | entrance | [Far Fields Skull Room East (Bone_East_14b)](far-fields-skull-room-east.md) | D | none |  | Verified | ✓ |  |
+| L | left1 | entrance | [Far Fields Skull Room East (Bone_East_14b)](far-fields-skull-room-east.md) | D | none |  | Verified | ✓ | soft Gauntlet req? Once you enter the room fully, the entrance is ceiled w/ rubble until you clear it. |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ET | entrance tunnel | entrance | crossing | break blast rock down AND ( spike pogo OR drifter's cloak OR faydown cloak OR clawline OR dash OR scuttlebrace ) |  | Verified |  |  |
-| ET | entrance tunnel | crossing | entrance | ( cling grip OR scuttlebrace ) AND ( spike pogo OR dash OR clawline OR drifter's cloak OR faydown cloak  ) |  | Verified |  |  |
-| CT | check tunnel | crossing | check alcove | break blast rock up AND ( scuttlebrace OR cling grip ) |  | Verified |  |  |
-| CT | check tunnel | check alcove | crossing | none (falling) |  | Verified |  |  |
-| AT | arena tunnel | crossing | arena | break blast rock down |  | Verified |  |  |
-| LA | lava ascend | arena | mask alcove | cling grip AND drifter's cloak AND faydown cloak AND dash |  | Verified |  |  |
-| MD | mask descend | mask alcove | entrance | none (falling) |  | Verified |  |  |
+| ET | entrance tunnel | entrance | crossing | break blast rock down AND ( spike pogo OR drifter's cloak OR faydown cloak OR  dash left OR scuttlebrace ) |  | Verified | ✓ |  |
+| ET | entrance tunnel | crossing | entrance | cling grip both OR (faydown cloak AND (cling grip right OR easy scuttlebrace)) OR (faydown cloak AND cling grip left AND (medium shaman pogo OR (medium flea brew stall AND medium reaper pogo))) |  | Verified | ✓ |  |
+| CT | check tunnel | crossing | check alcove | break blast rock up AND (medium scuttlebrace OR cling grip right OR (faydown cloak AND (cling grip left OR easy scuttlebrace OR spike pogo))) |  | Verified | ✓ |  |
+| CT | check tunnel | check alcove | crossing | none (falling) |  | Verified | ✓ |  |
+| AT | arena tunnel | crossing | dungeon descent | break blast rock down |  | Verified | ✓ |  |
+| LA | lava ascend | arena | mask alcove | ((cling grip both AND dash both) OR (cling grip either AND faydown cloak)) |  | Verified | ✓ |  |
+| MD | mask ascent | mask alcove | entrance | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -38,20 +40,21 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | shell shard cache far fields 8 | check alcove | none |  | Verified | collectible |  | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? |
 | 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible |  |  |
-| 3 | Gauntlet | arena | Combat Requirements |  | Verified | gauntlet |  |  |
-| 4 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Beastfly 2 |  |  |  |  | enemy | ✓ |  |
-| 6 | Tarmite 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Vicious Caranid 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Vicious Caranid 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Tarmite 2 |  |  |  |  | enemy | ✓ |  |
-| 10 | Tarmite 3 |  |  |  |  | enemy | ✓ |  |
-| 11 | Tarmite 4 |  |  |  |  | enemy | ✓ |  |
-| 12 | Tarmite 5 |  |  |  |  | enemy | ✓ |  |
-| 13 | Tarmite 6 |  |  |  |  | enemy | ✓ |  |
-| 14 | Tarmite 7 |  |  |  |  | enemy | ✓ |  |
-| 15 | Tarmite 8 |  |  |  |  | enemy | ✓ |  |
-| 16 | Tarmite 9 |  |  |  |  | enemy | ✓ |  |
+| 3 | gauntlet blast rock | arena | none (attack) |  | Verified | logic-point | ✓ | cry - breaking this blast rock initiates the gauntlet |
+| 4 | Gauntlet | arena | Combat Requirements |  | Verified | gauntlet |  |  |
+| 5 | Beastfly 1 | arena |  |  | Verified | enemy | ✓ |  |
+| 6 | Beastfly 2 | arena |  |  | Verified | enemy | ✓ |  |
+| 7 | Tarmite 1 | arena |  |  | Verified | enemy | ✓ |  |
+| 8 | Vicious Caranid 1 | arena |  |  | Verified | enemy | ✓ |  |
+| 9 | Vicious Caranid 2 | arena |  |  | Verified | enemy | ✓ |  |
+| 10 | Tarmite 2 | arena |  |  | Verified | enemy | ✓ |  |
+| 11 | Tarmite 3 | arena |  |  | Verified | enemy | ✓ |  |
+| 12 | Tarmite 4 | dungeon descent |  |  | Verified | enemy | ✓ |  |
+| 13 | Tarmite 5 | dungeon descent |  |  | Verified | enemy | ✓ |  |
+| 14 | Tarmite 6 | dungeon descent |  |  | Verified | enemy | ✓ |  |
+| 15 | Tarmite 7 | dungeon descent |  |  | Verified | enemy | ✓ |  |
+| 16 | Tarmite 8 | dungeon descent |  |  | Verified | enemy | ✓ |  |
+| 17 | Tarmite 9 | entrance | complete Gauntlet |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

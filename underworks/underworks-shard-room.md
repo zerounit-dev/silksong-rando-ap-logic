@@ -6,13 +6,16 @@
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Entry | ✓ |
+| S2 | Shards | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Underworks Saw Shaft (Under_03c)](underworks-saw-shaft.md) | L1 | none |  | Verified | ✓ |  |
+| R | right1 | Entry | [Underworks Saw Shaft (Under_03c)](underworks-saw-shaft.md) | L1 | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,9 +25,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shard Bundle: Underworks #1 |  | Activate Shard Bundle Wall |  | Verified | collectible | ✓ |  |
-| 2 | Shard Bundle Wall |  | Break Wall Left OR Break Wall Up |  | Verified | blockade | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Underworks Big Guy's Shard Stache | Shards | Activate Underworks Big Guy's Personal Vault Door |  | Verified | collectible | ✓ |  |
+| 2 | Underworks Big Guy's Personal Vault Door | Entry | Break Wall Left OR Break Wall Up |  | Verified | blockade | ✓ |  |
+| 3 | Undercrank 1 | Entry | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

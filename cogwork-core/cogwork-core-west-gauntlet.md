@@ -2,7 +2,7 @@
 
 **Game ID:** Cog_05
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Gallos
 
 ## Subrooms
 
@@ -25,9 +25,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MT | Main-Top | Main | Top Entrance | (Silk Soar OR (Faydown Cloak AND (Cling Grip OR Scuttlebrace OR Ledge Grab))) |  | Verified | ✓ |  |
+| MT | Main-Top | Main | Top Entrance | Silk Soar OR (Faydown Cloak AND (Cling Grip either OR easy Scuttlebrace OR Ledge Grab right OR easy shaman pogo)) |  | Verified | ✓ |  |
 | MT | Main-Top | Top Entrance | Main | Nothing. (fall) |  | Verified | ✓ |  |
-| ML | Main-Left | Main | Left Entrance | (Complete Cogwork Core: Gauntlet #1 AND (Silk Soar OR Cling Grip OR Scuttlebrace)) |  | Verified |  |  |
+| ML | Main-Left | Main | Left Entrance | (Complete Cogwork Core: Gauntlet #1 AND (Silk Soar OR Cling Grip right OR easy Scuttlebrace)) |  | Verified |  |  |
 | ML | Main-Left | Left Entrance | Main | Complete Cogwork Core: Gauntlet #1 |  | Verified |  |  |
 
 ## Check Locations
@@ -35,7 +35,34 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Gauntlet #1 | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Cogwork Choirbug 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Cogwork Choirbug 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Cogwork Spine 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Cogwork Spine 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Cogwork Spine 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Cogwork Cleanser 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Cogworker 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Cogworker 2 |  |  |  |  | enemy | ✓ |  |
+| 10 | Cogwork Choirbug 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Cogwork Defender 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Cogworker 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Cogworker 4 |  |  |  |  | enemy | ✓ |  |
+| 14 | Cogwork Defender 2 |  |  |  |  | enemy | ✓ |  |
+| 15 | Cogwork Choirbug 4 |  |  |  |  | enemy | ✓ |  |
+| 16 | Cogwork Choirbug 5 |  |  |  |  | enemy | ✓ |  |
+| 17 | Cogwork Cleanser 2 |  |  |  |  | enemy | ✓ |  |
+| 18 | Cogwork Cleanser 3 |  |  |  |  | enemy | ✓ |  |
+| 19 | Cogwork Cleanser 4 |  |  |  |  | enemy | ✓ |  |
+| 20 | Cogwork Choirbug 6 |  |  |  |  | enemy | ✓ |  |
+| 21 | Cogwork Cleanser 5 |  |  |  |  | enemy | ✓ |  |
+| 22 | Cogwork Choirbug 7 |  |  |  |  | enemy | ✓ |  |
+| 23 | Cogwork Choirbug 8 |  |  |  |  | enemy | ✓ |  |
+| 24 | Cogwork Defender 3 |  |  |  |  | enemy | ✓ |  |
+| 25 | Cogwork Choirbug 9 |  |  |  |  | enemy | ✓ |  |
+| 26 | Cogwork Defender 4 |  |  |  |  | enemy | ✓ |  |
+| 27 | Drapemite 1 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
+| 28 | Cogwork Spine 4 |  |  |  |  | enemy | ✓ |  |
+| 29 | Cogwork Spine 5 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

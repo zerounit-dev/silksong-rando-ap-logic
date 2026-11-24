@@ -2,7 +2,7 @@
 
 **Game ID:** Cog_Dancers
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -19,29 +19,31 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | BaseRight | [Memorium Entrance Tunnel (Song_25)](../choral-chambers/memorium-entrance-tunnel.md) | L | none |  | Verified | ✓ |  |
 | L | left1 | BaseLeft | [High Halls Corridor (Hang_07)](../choral-chambers/high-halls-corridor.md) | R | none |  | Verified | ✓ |  |
-| B1 | bot1 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TL | Defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
-| B2 | bot2 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TR | Defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
-| E | elevator | BossArena | [Lace 2 Fight (Song_Tower_01)](../the-cradle/lace-2-fight.md) | D |  | TODO |  | ✓ | TODO: Check all that's needed for the elevator to work |
-| D | door1 | Top | [Cogwork Core Main Connection (Cog_Pass)](cogwork-core-main-connection.md) | TL | Nothing. |  |  | ✓ | TODO |
-| T | top1 | Top | [Cogwork Core North Main (Cog_08)](cogwork-core-north-main.md) | B | clawline |  |  | ✓ | probably one way |
+| B1 | bot1 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TL | none |  | Verified | ✓ |  |
+| B2 | bot2 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TR | none |  | Verified | ✓ |  |
+| E | elevator | BossArena | [Lace 2 Fight (Song_Tower_01)](../the-cradle/lace-2-fight.md) | D | activate Play Threefold Melody |  | Verified | ✓ |  |
+| D | door1 | Top | [Cogwork Core Main Connection (Cog_Pass)](cogwork-core-main-connection.md) | TL | Nothing. |  | Verified | ✓ |  |
+| T | top1 | Top | [Cogwork Core North Main (Cog_08)](cogwork-core-north-main.md) | B | activate Cog dancers - clawline mechanism 2 AND (cling grip left OR easy scuttlebrace OR (faydown AND (ledge grab right OR easy [reaper,architect,beast,shaman] pogo))) |  | Verified | ✓ | probably one way |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | BossArena | Top | Defeat Cogwork Dancers Boss Fight AND Silk Soar |  | Verified | ✓ |  |
-| V | Vertical | Top | BossArena | Nothing | TODO |  | ✓ | falling, check if dancers boss is required on a new save |
+| V | Vertical | BossArena | Top | defeat Cogwork Dancers Boss Fight AND (Silk Soar OR (activate Cog dancers - clawline mechanism 1 AND clawline either)) |  | Verified | ✓ |  |
+| V | Vertical | Top | BossArena | defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
 | R | RightSide | BaseRight | BossArena | none |  | Verified | ✓ |  |
-| R | RightSide | BossArena | BaseRight | Defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
-| L | LeftSide | BossArena | BaseLeft | Defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
-| L | LeftSide | BaseLeft | BossArena | Nothing |  | Verified | ✓ |  |
+| R | RightSide | BossArena | BaseRight | defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
+| L | LeftSide | BossArena | BaseLeft | defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
+| L | LeftSide | BaseLeft | BossArena | none |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Dancers Boss Fight | BossArena | Combat Requirements | TODO | Verified | boss |  |  |
-| 2 | Play Threefold Melody | BossArena | defeat Cogwork Dancers Boss Fight AND get 3 threefold melody parts |  | Verified | logic-point |  | Used in Liquid Lacquer wish requirements per the wiki. |
+| 1 | Play Threefold Melody | BossArena | defeat Cogwork Dancers Boss Fight AND get 3 threefold melody parts |  | Verified | logic-point |  | Used in Liquid Lacquer wish requirements per the wiki. |
+| 2 | Cog dancers - clawline mechanism 1 | Top | attack up |  | Verified | switch | ✓ |  |
+| 3 | Cog dancers - clawline mechanism 2 | Top | clawline either |  | Verified | switch | ✓ |  |
+| 4 | Cogwork Dancers Boss Fight | BossArena | Combat Requirements |  | Verified | boss |  |  |
 
 ## Notes
 

@@ -2,7 +2,7 @@
 
 **Game ID:** Coral_32
 
-**Contributors:** skai, MayaXTG
+**Contributors:** skai, MayaXTG, Hutyrix
 
 ## Subrooms
 
@@ -65,16 +65,18 @@
 | SCC | SubPlatCCraftmetal | ThisShit | SubPlatC | run AND cling grip right AND faydown cloak |  | Verified | ✓ |  |
 | TSC | FuckassPlatform | ThisShit | Craftmetal | None (jump) |  | Verified | ✓ | You can jump right over |
 | TSC | FuckassPlatform | Craftmetal | ThisShit | ledge grab right OR easy [air bind, thread storm, parry, rune rage, pale nails, plasmium, voltvessels, flintslate, flea brew] stall OR flea brew OR easy [hunter, reaper, beast, witch, shaman] pogo OR easy [wanderer, reaper, beast, architect, witch, shaman] needle strike OR sharpdart OR clawline right OR run OR architect hit right OR drifter's cloak OR faydown cloak |  | Verified | ✓ | You can NOT jump right over. fucking tc |
-| SCE | SubPlatCtoPlatE | SubPlatC | Platform E | ((faydown cloak OR clawline right OR dash right OR sharpdart OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall) AND cling grip right) OR silk soar |  | Verified | ✓ | I couldn't get rune rage to hit here |
+| SCE | SubPlatCtoPlatE | SubPlatC | Platform E | silk soar x 1 OR ((faydown cloak OR drifters OR clawline right OR dash right OR sharpdart OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall) AND cling grip right) OR ((faydown OR clawline right x 1 OR dash right OR sharpdart ) AND easy scuttlebrace) OR ((drifters OR easy [air bind, thread storm, parry, pale nails, flea brew, voltvessels, flintslate, plasmium] stall OR medium rune rage stall) AND medium scuttlebrace) OR (medium naked pogo AND cling grip right AND (dash right OR proficient movement)) |  | Verified | ✓ | I couldn't get rune rage to hit here |
 | SCE | SubPlatCtoPlatE | Platform E | SubPlatC | None (Fall) |  | Verified | ✓ |  |
-| ET | PlatformEtoTop | Platform E | Top | cling grip right OR medium scuttlebrace |  | Verified | ✓ |  |
-| ET | PlatformEtoTop | Top | Platform E | dash right OR clawline right OR faydown cloak OR easy scuttlebrace OR sharpdart OR drifter's cloak OR easy [air bind, thread storm, parry, rune rage, pale nails, plasmium, voltvessels, flintslate, flea brew] stall OR easy [hunter, beast, reaper, architect, witch, shaman] pogo OR easy [wanderer, reaper, beast, architect, witch, shaman] needle strike OR architect hit right |  | Verified | ✓ |  |
+| ET | PlatformEtoTop | Platform E | Top | cling grip left OR (easy scuttlebrace AND easy [reaper,wanderer,shaman] pogo) OR easy shaman scuttle slide OR (hard scuttlebrace AND hard [hunter,beast,witch,architect] pogo) |  | Verified | ✓ |  |
+| ET | PlatformEtoTop | Top | Platform E | dash right OR clawline right x 1 OR faydown cloak OR easy scuttlebrace OR sharpdart x 1 OR drifter's cloak OR easy [air bind, thread storm, parry, rune rage, pale nails, plasmium, voltvessels, flintslate, flea brew] stall x 1 OR easy [hunter, beast, reaper, architect, witch, shaman] pogo OR easy [wanderer, reaper, beast, architect, witch, shaman] needle strike OR architect hit right |  | Verified | ✓ |  |
 | SCT | SubPlatCtoTop | SubPlatC | Top | silk soar |  | Verified | ✓ |  |
 | SCT | SubPlatCtoTOp | Top | SubPlatC | None (Fall) |  | Verified | ✓ |  |
 | TT | TippityTop | Top | Top Entrance | clear Spiky Blockade |  | Verified | ✓ |  |
 | TT | TippityTop | Top Entrance | Top | clear Spiky Blockade |  | Verified | ✓ |  |
-| ER | PlatformERight | Platform E | Right Entrance | silk soar OR (cling grip right AND (clawline right OR drifter's cloak OR faydown cloak OR sharpdart OR dash right OR easy [beast] pogo)) |  | Verified | ✓ |  |
+| ER | PlatformERight | Platform E | Right Entrance | silk soar x 1 OR faydown OR (cling grip left AND (clawline right x 2 OR sharpdart x 2 OR drifter's cloak OR dash right OR easy [reaper,beast] pogo OR medium [hunter,witch,shaman] pogo OR flea brew jump OR medium wanderer charge OR (medium architect pogo AND (cling grip right OR easy [voltvessels,plasmium] stall x 2)) OR (medium wanderer pogo AND medium [air bind,voltvessels,plasmium,flintslate,thread storm,parry,rune rage,pale nails] stall x 1 )))  OR (easy scuttlebrace AND easy [reaper,wanderer,shaman] pogo) OR easy shaman scuttle slide OR (hard scuttlebrace AND hard [hunter,beast,witch,architect] pogo) OR (medium naked pogo AND cling grip left AND (dash right OR proficient movement)) |  | Verified | ✓ | cling grip left was once cling grip right |
 | ER | PlatformERight | Right Entrance | Platform E | None (Fall) |  | Verified | ✓ |  |
+| TTR | TopToRight | Top Entrance | Right Entrance | drifters OR faydown OR clawline right x 2 OR dash right OR easy plasmium stall x 2 OR easy flea brew stall x 3 |  | Verified | ✓ |  |
+| TTR | TopToRight | Right Entrance | Top Entrance | faydown AND dash left AND cling grip right |  | Verified | ✓ |  |
 
 ## Check Locations
 

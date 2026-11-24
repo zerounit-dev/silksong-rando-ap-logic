@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_05
 
-**Contributors:** herchey boi
+**Contributors:** herchey boi and hutyrix who inhaled some noxious fumes around the corner
 
 ## Subrooms
 

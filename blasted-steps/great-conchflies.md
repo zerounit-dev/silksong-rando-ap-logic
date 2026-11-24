@@ -24,9 +24,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RP | RightPlatforms | Right | Platforms | run OR ((dash left OR flea brew) AND ledge grab left) OR faydown cloak OR clawline left x 1 OR sharpdart x 1 OR medium enemy pogo |  | Verified | ✓ |  |
-| RP | RightPlatforms | Platforms | Right | dash right OR faydown cloak OR clawline right x 1 OR sharpdart x 1 OR medium enemy pogo |  | Verified | ✓ |  |
-| PA | PlatformsArena | Platforms | Arena | run OR dash left OR faydown cloak OR clawline left x 1 OR sharpdart x 1 OR medium enemy pogo |  | Verified | ✓ |  |
+| RP | RightPlatforms | Right | Platforms | run OR ((dash left OR flea brew) AND ledge grab left) OR faydown cloak OR clawline left x 1 OR sharpdart x 1 OR medium pogo off driznit |  | Verified | ✓ |  |
+| RP | RightPlatforms | Platforms | Right | dash right OR faydown cloak OR clawline right x 1 OR sharpdart x 1 OR medium pogo off driznit |  | Verified | ✓ |  |
+| PA | PlatformsArena | Platforms | Arena | run OR dash left OR faydown cloak OR clawline left x 1 OR sharpdart x 1 OR medium pogo off driznit |  | Verified | ✓ |  |
 | PA | PlatformsArena | Arena | Platforms | (run OR dash right OR faydown cloak OR clawline right x 1 OR sharpdart x 1) AND defeat Boss: Great Conchflies |  | Verified | ✓ |  |
 | LA | LeftArena | LeftDoor | Arena | Nothing |  | Verified |  |  |
 | LA | LeftArena | Arena | LeftDoor | defeat Boss: Great Conchflies |  | Verified |  |  |
@@ -36,7 +36,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Great Conchflies | Arena | defeat Coral Conch Driller Giant 1 AND Combat Requirements |  | Verified | boss | ✓ |  |
-| 2 | Driznit 1 | Platforms | ledge grab right OR faydown cloak OR medium enemy pogo OR silk soar |  | Verified | enemy | ✓ | upper ceiling spawn |
+| 2 | Driznit 1 | Platforms | ledge grab right OR faydown cloak OR medium pogo off driznit OR silk soar |  | Verified | enemy | ✓ | upper ceiling spawn |
 | 3 | Coral Conch Driller Giant 1 | Arena | act 1 OR act 2 |  | Verified | enemy | ✓ |  |
 | 4 | Coral Conch Driller Giant 2 | Arena | act 1 OR act 2 |  | Verified | enemy | ✓ |  |
 | 5 | Driznit 2 | Platforms | act 1 OR act 2 |  | Verified | enemy | ✓ |  |

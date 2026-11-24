@@ -23,17 +23,19 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | ledge grab OR dash OR clawline OR Sharpdart OR Easy Architect Charge OR Easy Beast Pogo |  | Verified | ✓ |  |
-| H | Horizontal | Right | Left | ledge grab OR dash OR clawline OR Sharpdart OR Easy Architect Charge OR Easy Beast Pogo |  | Verified | ✓ |  |
-| V | Vertical | Right | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
-| V | Vertical | Bottom | Right | Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| H | Horizontal | Left | Right | ledge grab Right OR dash Right OR clawline Right OR Sharpdart OR Easy Architect Charge OR Easy Beast Pogo |  | Verified | ✓ |  |
+| H | Horizontal | Right | Left | ledge grab Left OR dash Left OR clawline Left OR Sharpdart OR Easy Architect Charge OR Easy Beast Pogo |  | Verified | ✓ |  |
+| V1 | Vertical | Right | Bottom | Nothing. (Fall) |  | Verified |  |  |
+| V1 | Vertical | Bottom | Right | Cling Grip Right OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |  |
+| V2 | Vertical 2 | Left | Bottom | Nothing. (Fall) |  | Verified |  |  |
+| V2 | Vertical 2 | Bottom | Left | (Faydown Cloak AND (Ledge Grab Left OR Cling Grip Left)) |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shell Shard Cache: Underworks #12 | Bottom | none |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Underworks Sawblade Scraps Pile | Bottom | none |  | Verified | collectible | ✓ | Shell Shards |
+| 2 | Underscrub 1 | Bottom | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 
