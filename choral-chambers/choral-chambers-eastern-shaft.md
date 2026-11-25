@@ -42,13 +42,13 @@
 | 1 | Lace Second Encounter | Section 1 | none |  | Verified | event | ✓ |  |
 | 2 | Choir Bellbearer 1 | Section 4 | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 3 | Choir Bellbearer 2 | Section 1 | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 4 | Choir Hornhead 1 | Section 1 | (prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 4 | Choir Hornhead 1 | Section 1 | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
 | 5 | Choir Hornhead 2 | Section 1 | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 6 | Choir Pouncer 1 | Section 2 | invalid |  | Verified | enemy | ✓ |  |
 | 7 | Choir Pouncer 2 | Section 2 | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 8 | Choristor 1 | Section 3 | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 9 | Choristor 2 | Section 1 | invalid |  | Verified | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
-| 10 | Envoy 1 | Section 1 | (prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 10 | Envoy 1 | Section 1 | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
 | 11 | Envoy 2 | Section 1 | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
 | 12 | Reed 1 | Section 4 | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 13 | Reed 2 | Section 1 | Normal World Spawn |  | Verified | enemy | ✓ |  |

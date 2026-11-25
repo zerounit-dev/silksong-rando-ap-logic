@@ -48,15 +48,15 @@
 | 5 | Below Ventrica - Window's cleaning fees | Middle | none |  | Verified | collectible | ✓ | rosary cache |
 | 6 | Below Ventrica - Lever | Middle | none |  | Verified | switch | ✓ |  |
 | 7 | Below Ventrica - Breakable Floor | Bottom | [hunter,wanderer,reaper,beast, architect,witch,shaman] attack down OR clear Grand Gate - Maintenance Ceiling IN grand gate maintenance room |  | Verified | blockade | ✓ |  |
-| 8 | Choir Flyer 1 | Bottom | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
-| 9 | Choir Hornhead 1 | Middle | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
-| 10 | Choir Hornhead 2 | Bottom | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
-| 11 | Choir Pouncer 1 | Bottom | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
-| 12 | Choir Pouncer 2 | Bottom | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
-| 13 | Choir Pouncer 3 | Middle | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
+| 8 | Choir Flyer 1 | Bottom | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ |  |
+| 9 | Choir Hornhead 1 | Middle | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ |  |
+| 10 | Choir Hornhead 2 | Bottom | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ |  |
+| 11 | Choir Pouncer 1 | Bottom | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ |  |
+| 12 | Choir Pouncer 2 | Bottom | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ |  |
+| 13 | Choir Pouncer 3 | Middle | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ |  |
 | 14 | Choristor 1 | Middle | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 15 | Envoy 1 | Bottom | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 16 | Envoy 2 | Middle | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 15 | Envoy 1 | Bottom | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 16 | Envoy 2 | Middle | Normal World Spawn AND (complete Lace Second Encounter IN choral chambers eastern shaft OR complete Lace Second Encounter IN grand bellway shaft) |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 | 17 | Reed 1 | Middle | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 18 | Void Mass 1 | Middle | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 

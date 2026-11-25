@@ -18,7 +18,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | D | door1 | Bank | [High Halls Rosary Bank (Hang_06_bank)](high-halls-rosary-bank.md) | L | Unlock Rosary Bank Door |  | Verified | ✓ |  |
 | L | left1 | Floor | [High Halls Arena (Hang_04)](high-halls-arena.md) | R | none |  | Verified | ✓ |  |
-| B | bot1 | Floor | [High Halls Corridor (Hang_07)](../choral-chambers/high-halls-corridor.md) | T | Activate High Halls Vault - Floor lever |  | Verified | ✓ |  |
+| B | bot1 | Floor | [High Halls Corridor (Hang_07)](../choral-chambers/high-halls-corridor.md) | T | Activate High Halls Vault - Floor lever OR prereq THE Final Audience Wish Promised |  | Verified | ✓ |  |
 | R | right1 | Floor | [High Halls Ventrica (Hang_06b)](high-halls-ventrica.md) | L | none |  | Verified | ✓ |  |
 | T | top1 | Top Exit | [High Halls Big Shaft (Hang_08)](high-halls-big-shaft.md) | B | none |  | Verified | ✓ |  |
 

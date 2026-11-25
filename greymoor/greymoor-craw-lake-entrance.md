@@ -41,7 +41,7 @@
 | PG | platform gap | the very top | upper section | nothing |  | Verified | ✓ |  |
 | lG | lake gap | i should have added this before | lower right section | swim OR easy pogo off craw OR flea brew OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR easy [hunter,beast,shaman,architect] pogo OR easy [beast,architect] charge OR medium shaman pogo OR flea brew OR easy [voltvessels,plasmium,flintslate] stall OR (cling grip left AND proficient movement) |  | Verified | ✓ |  |
 | lG | lake gap | lower right section | i should have added this before | (swim AND (ledge grab left OR cling grip left OR easy shaman pogo)) OR easy pogo off craw OR flea brew OR progressive swift step 1 OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR medium [shaman,hunter,architect] pogo OR easy beast pogo OR flea brew OR easy [voltvessels,plasmium,flintslate] stall OR easy [beast,architect] charge OR (cling grip right AND ledge grab left) |  | Verified | ✓ |  |
-| U | up | i should have added this before | middle section | (cling grip left AND clawline right x 2 AND faydown AND (ledge grab right OR (cling grip right AND proficient movement))) |  |  | ✓ |  |
+| U | up | i should have added this before | middle section | (cling grip left AND clawline right x 2 AND faydown AND (ledge grab right OR (cling grip right AND proficient movement))) |  | Verified | ✓ |  |
 
 ## Check Locations
 

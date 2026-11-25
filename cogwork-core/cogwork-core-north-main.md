@@ -41,7 +41,7 @@
 | FU | fourth to upper | Upper Entrance | fourth safe platform | spike pogo OR medium naked pogo |  | Verified | ✓ |  |
 | FF | fourth to fifth | fourth safe platform | fifth safe platform | (((clawline both AND cling grip both AND spike pogo) OR (cling grip right AND faydown)) AND activate Cogwork Core: North switch) OR easy silk soar cancel |  | Verified | ✓ |  |
 | FF | fourth to fifth | fifth safe platform | fourth safe platform | none |  | Verified | ✓ |  |
-| LU | fifth to upper | fifth safe platform | Upper Entrance | (cling grip left AND clawline either x 3 AND faydown AND spike pogo) OR (clawline both x 4 AND cling grip both AND spike pogo) OR  (clawline both x 9 AND proficient movement AND spike pogo) OR (clawline either x 4 AND faydown AND spike pogo AND easy pogo off cogwork spine) OR (medium beast pogo AND faydown AND spike pogo) |  | Verified | ✓ |  |
+| LU | fifth to upper | fifth safe platform | Upper Entrance | (cling grip left AND clawline either x 3 AND faydown AND spike pogo) OR (clawline both x 4 AND cling grip both AND spike pogo) OR  (clawline both x 9 AND proficient movement AND spike pogo) OR (clawline either x 4 AND faydown AND spike pogo AND easy pogo off cogwork spine) OR (medium beast pogo AND faydown AND spike pogo) OR (run AND dash both AND faydown AND spike pogo) OR (hard shaman scuttle slide AND spike pogo AND proficient movement) |  | Verified | ✓ |  |
 | LU | fifth to upper | Upper Entrance | fifth safe platform | spike pogo AND (clawline right x 2 OR drifters OR faydown) |  | Verified | ✓ |  |
 
 ## Check Locations

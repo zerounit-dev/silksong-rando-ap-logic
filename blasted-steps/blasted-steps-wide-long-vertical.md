@@ -2,7 +2,7 @@
 
 **Game ID:** Coral_03
 
-**Contributors:** skai, MayaXTG
+**Contributors:** skai, MayaXTG, Hutyrix
 
 ## Subrooms
 
