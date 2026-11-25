@@ -2,7 +2,7 @@
 
 **Game ID:** Under_19c
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Cry
 
 ## Subrooms
 
@@ -24,16 +24,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BC | B-C | Bottom | Center | Silk Soar OR Cling Grip OR (Scuttlebrace AND (Easy Shaman Pogo OR (Faydown Cloak AND (Ledge Grab OR Clawline)))) |  | Verified | ✓ |  |
+| BC | B-C | Bottom | Center | Silk Soar  OR Cling Grip Either  OR (Easy Scuttlebrace AND (Easy Shaman Pogo  OR Faydown Cloak  OR Easy Flea Brew Stall)) OR (Faydown Cloak  AND (Ledge Grab Left  OR (Elite Ball Knowledge AND Dash Left  AND (Medium [Flea Brew] Stall x 2  OR (Medium Beast Heal Stall AND Medium [Beast, Shaman] Pogo))))) |  | Verified | ✓ |  |
 | BC | B-C | Center | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
-| CT | C-T | Center | Top | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| CT | C-T | Top | Center | Nothing. (Fall) |  | Verified | ✓ |  |
+| CT | C-T | Center | Top | Silk Soar OR Cling Grip Either OR Easy Scuttlebrace |  | Verified |  |  |
+| CT | C-T | Top | Center | Nothing. (Fall) |  | Verified |  |  |
 
 ## Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+No check locations defined.
 
 ## Room Images
 

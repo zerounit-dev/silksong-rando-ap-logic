@@ -55,9 +55,10 @@
 | 2 | moss grotto shell shard cache 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
 | 3 | moss grotto beast shard | beast alcove | defeat Marrowmaw 1 |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto rosary chest | side room | none |  | Verified | collectible | ✓ |  |
-| 5 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ |  |
-| 6 | Mossmir 2 | side room | None |  | Verified | enemy | ✓ |  |
-| 7 | Marrowmaw 1 | beast alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | moss grotto vanilla spawn | rock bottom | none |  | Verified | spawn |  |  |
+| 6 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ |  |
+| 7 | Mossmir 2 | side room | None |  | Verified | enemy | ✓ |  |
+| 8 | Marrowmaw 1 | beast alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

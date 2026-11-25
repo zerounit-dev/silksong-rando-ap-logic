@@ -32,8 +32,8 @@
 | FM | Floor to middle | middle | floor | none |  | Verified | ✓ |  |
 | MU | middle to upper | middle | upper | Silk soar OR scuttlebrace OR (cling grip left AND faydown) OR (cling grip right AND  (clawline left OR sharpdart OR easy beast pogo OR dash left OR faydown OR drifter's)) |  | Verified | ✓ |  |
 | MU | middle to upper | upper | middle | none |  | Verified | ✓ |  |
-| FN | floor to nest | floor | nest | swim |  | Verified | ✓ |  |
-| FN | floor to nest | nest | floor | swim OR (proficient movement AND medium flintslate stall AND clawline right AND faydown cloak AND drifter's cloak AND ledge grab right) |  | Verified | ✓ |  |
+| FN | floor to nest | floor | nest | swim OR (proficient movement AND medium flintslate stall x 5 AND clawline left x 6 AND faydown cloak) |  | Verified | ✓ |  |
+| FN | floor to nest | nest | floor | swim OR (proficient movement AND medium flintslate stall x 5 AND clawline right x 6 AND faydown cloak) |  | Verified | ✓ |  |
 | MBW | middle to behind wall | middle | behind wall | break wall left |  | Verified | ✓ |  |
 | MBW | middle to behind wall | behind wall | middle | break wall right |  | Verified | ✓ |  |
 | FSP | floor to small plat | floor | small plat | cling grip left OR scuttlebrace OR (faydown AND (ledge grab either OR cling grip right)) |  | Verified | ✓ |  |

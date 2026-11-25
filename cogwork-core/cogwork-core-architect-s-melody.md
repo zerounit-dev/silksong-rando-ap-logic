@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TP | To Puzzle | Bottom | Melody Puzzle | Silk Soar OR Cling Grip either OR (Faydown Cloak AND easy Scuttlebrace) |  | Verified | ✓ |  |
+| TP | To Puzzle | Bottom | Melody Puzzle | Silk Soar OR Cling Grip either OR easy Scuttlebrace OR (faydown AND ledge grab left AND (easy shaman pogo OR (hard beast pogo AND hard beast reserve bind stall))) |  | Verified | ✓ |  |
 | TP | To Puzzle | Melody Puzzle | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations

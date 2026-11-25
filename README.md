@@ -468,7 +468,7 @@ Generated from the non-archived records in the accompanying frozen SQLite snapsh
 
 - [Bilewater Arena Shack (Shadow_Bilehaven_Room)](./bilewater/bilewater-arena-shack.md)
 - [Bilewater Bellway (Bellway_Shadow)](./bilewater/bilewater-bellway.md)
-- [Bilewater Bullshit Bench (Shadow_15)](./bilewater/bilewater-bullshit-bench.md)
+- [Bilewater Fake Bench (Shadow_15)](./bilewater/bilewater-fake-bench.md)
 - [Bilewater Citadel Exit (Shadow_22)](./bilewater/bilewater-citadel-exit.md)
 - [Bilewater East Bench (Shadow_08)](./bilewater/bilewater-east-bench.md)
 - [Bilewater East Column (Shadow_09)](./bilewater/bilewater-east-column.md)

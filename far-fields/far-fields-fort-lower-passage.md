@@ -10,6 +10,8 @@
 | --- | --- | --- |
 | S1 | the pit of despair | ✓ |
 | S2 | the highest highs | ✓ |
+| S3 | rosary threads | ✓ |
+| S4 | this god damn single thread | ✓ |
 
 ## Room Transitions
 
@@ -24,14 +26,18 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | MJ | massive jump | the highest highs | the pit of despair | none (falling) |  | Verified | ✓ |  |
 | MJ | massive jump | the pit of despair | the highest highs | ledge grab right OR cling grip right OR easy scuttlebrace OR easy shaman pogo OR (easy pogo off Fertid AND easy reaper pogo) OR silk soar OR faydown cloak |  | Verified | ✓ |  |
+| RC | rosary connection | the highest highs | rosary threads | none |  | Verified |  |  |
+| RC | rosary connection | rosary threads | the highest highs | none |  | Verified |  |  |
+| RTS | rosary thread snipe | the pit of despair | rosary threads | easy [curveclaw, conchcutter] use  OR medium pimpillo use |  | Verified | ✓ |  |
+| SRS | sentry rosaries snipe | the pit of despair | this god damn single thread | easy [curveclaw, conchcutter] use  OR hard pimpillo use |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Far Fields - Lower Fort Sentry's Rosaries Bonds | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 11 |
-| 2 | Far Fields - Lower Fort Sentry's Personal Rosaries | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 12 |
-| 3 | Far Fields Lower Fort Last Rosaries Stipend - Queen's Final Support | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 13 |
+| 1 | Far Fields - Lower Fort Sentry's Rosaries Bonds | this god damn single thread | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 11 |
+| 2 | Far Fields - Lower Fort Sentry's Personal Rosaries | rosary threads | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 12 |
+| 3 | Far Fields - Lower Fort - Last Rosaries Stipend | rosary threads | none |  | Verified | collectible | ✓ | formerly Far Fields Lower Fort Last Rosaries Stipend - Queen's Final Support |
 | 4 | Fertid 1 | the pit of despair | none |  | Verified | enemy | ✓ |  |
 | 5 | Skarr Stalker 1 | the highest highs | Normal World Spawn |  | Verified | enemy | ✓ |  |
 

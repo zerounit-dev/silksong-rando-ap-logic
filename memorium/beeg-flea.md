@@ -8,8 +8,10 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | volt |  |
-| S2 | left |  |
+| S1 | volt | ✓ |
+| S2 | left | ✓ |
+| S3 | middle | ✓ |
+| S4 | upper | ✓ |
 
 ## Room Transitions
 
@@ -22,16 +24,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| vl | volt left | volt | left | cling grip OR silk soar |  | Verified |  |  |
-| vl | volt left | left | volt | cling grip OR (silk soar AND silkhearts x 1) |  | Verified |  |  |
+| ML | middle to left | middle | left | none (fall) |  | Verified | ✓ |  |
+| ML | middle to left | left | middle | cling grip either OR (faydown AND ledge grab left AND medium beast reserve bind stall) |  | Verified | ✓ |  |
+| MR | middle to right | middle | volt | none (fall) |  | Verified | ✓ |  |
+| MR | middle to right | volt | middle | cling grip either OR easy silk soar cancel OR (faydown AND ledge grab left AND medium beast reserve bind stall) |  | Verified | ✓ |  |
+| HF | huge flea | upper | middle | none (fall) |  | Verified | ✓ |  |
+| HF | huge flea | middle | upper | cling grip either OR ledge grab either OR faydown OR silk soar OR easy [beast,shaman] pogo OR easy beast charge OR easy [plasmium,voltvessels] stall OR medium beast bind stall OR hard bind stall |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Big flea wall | left | nada |  | Verified | blockade | ✓ | custom name |
-| 2 | Flea: Memorium - Huge Flea | left | cling grip OR (silk soar AND silkhearts x 1) OR (easy scuttlebrace AND clawline AND silkhearts x 1 AND (ledge grab OR faydown cloak OR medium shaman pogo)) |  | Verified | collectible |  | technically should be a subroom so silkhearts arent needed one way |
-| 3 | Huge Flea 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Flea: Memorium - Huge Flea | upper | cling grip either OR ledge grab either OR faydown OR silk soar OR easy shaman pogo OR easy beast charge OR medium beast bind stall OR easy plasmium stall   OR easy [pimpillo,thread storm] use OR easy curveclaw use x 2 OR medium voltvessels use x 2 OR medium [throwing ring,threefold pin,pale nails] use x 4 OR hard [silkshot twelfth architect] use x 4 |  | Verified | collectible | ✓ | either reach the actual flea platform      or break the cage from below |
+| 3 | Huge Flea 1 | upper |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

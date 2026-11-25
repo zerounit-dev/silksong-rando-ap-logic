@@ -68,6 +68,8 @@
 
 known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot, pimpillo, and needle strikes from hunter, reaper, beast, and shaman
 
+also all other silk skills with Shaman (cross stitch needs to lure an enemy)
+
 ## Room Images
 
 ### Connections

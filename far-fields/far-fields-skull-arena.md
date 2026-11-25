@@ -43,8 +43,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | shell shard cache far fields 8 | check alcove | none |  | Verified | collectible | ✓ | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? |
-| 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible | ✓ |  |
+| 1 | Far Fields - Skull Arena - Shell Shard Cache | check alcove | none |  | Verified | collectible | ✓ | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? formerly shell shard cache far fields 8 |
+| 2 | Far Fields - Skull Arena - Mask Shard | mask alcove | none |  | Verified | collectible | ✓ | mask shard far fields skull cave |
 | 3 | gauntlet blast rock | arena | none (attack) |  | Verified | logic-point | ✓ | cry - breaking this blast rock initiates the gauntlet |
 | 4 | Gauntlet | arena | Combat Requirements |  | Verified | gauntlet |  |  |
 | 5 | Beastfly 1 | arena | none |  | Verified | enemy | ✓ |  |

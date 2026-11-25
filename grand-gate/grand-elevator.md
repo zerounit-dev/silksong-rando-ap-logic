@@ -19,7 +19,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TL | left1 | elevator | [Grand Gate Courtroom (Song_19_entrance)](grand-gate-courtroom.md) | R | none |  | Verified | ✓ |  |
 | SLB | left3 | Crash Site | [Entrance to Nyleth (Under_27)](entrance-to-nyleth.md) | LR | clear Grand Gate - Vine door IN Entrance to Nyleth |  | Verified | ✓ |  |
-| SLT | left2 | Crash Site | [Entrance to Nyleth (Under_27)](entrance-to-nyleth.md) | UR | none |  | Verified | ✓ |  |
+| SLT | left2 | Nyleth shaft | [Entrance to Nyleth (Under_27)](entrance-to-nyleth.md) | UR | none |  | Verified | ✓ |  |
 | R | right1 | Crash Site | [Broken Elevator (Under_01b)](../underworks/broken-elevator.md) | L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -27,7 +27,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | Falling | elevator | Crash Site | none |  | Verified | ✓ | Just once |
-| ET | elevator <> top | elevator | Top | silk soar |  | Verified | ✓ |  |
+| ET | elevator <> top | elevator | Top | silk soar OR (faydown AND cling grip either AND proficient movement AND (hard beast bind stall OR hard shaman pogo OR hard reserve bind stall OR hard flea brew stall x 2)) |  | Verified | ✓ |  |
 | ET | elevator <> top | Top | elevator | none |  | Verified | ✓ |  |
 | TC | top <> crash | Top | Crash Site | activate Grand Gate - Elevator lever |  | Verified | ✓ |  |
 | TC | top <> crash | Crash Site | Top | activate Grand Gate - Elevator lever AND silk soar AND (cling grip either OR easy scuttlebrace OR elite ball knowledge) |  | Verified | ✓ |  |

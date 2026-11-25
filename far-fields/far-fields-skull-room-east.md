@@ -35,7 +35,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | G1 | gap 1 | main floor | weavenest platform | run  OR flea brew OR dash right  OR easy [hunter, architect, beast, shaman] pogo  OR easy naked pogo OR easy [beast, architect, wanderer, witch] needle strike OR drifters cloak  OR faydown cloak  OR clawline right  OR sharpdart  OR easy scuttlebrace OR easy [thread storm, rune rage, voltvessels, plasmium] stall OR medium [air bind, cross stitch] stall OR (ledge grab right AND medium [flintslate, pale nails] stall) |  | Verified | ✓ |  |
 | G1 | gap 1 | weavenest platform | main floor | run  OR flea brew OR dash left  OR easy [beast, architect, wanderer] needle strike OR easy [hunter, architect, beast, shaman] pogo  OR easy naked pogo OR drifters cloak  OR faydown cloak  OR clawline left  OR sharpdart  OR easy scuttlebrace OR (cling grip right AND (proficient movement OR ledge grab left)) OR (ledge grab left AND medium [flintslate, pale nails] stall) |  | Verified | ✓ |  |
-| V1 | vertical 1 | main floor | skull platform | silk soar  OR (faydown cloak AND (clawline right OR cling grip right OR ledge grab right OR sharpdart x 2 OR (easy flea brew stall AND scuttlebrace) OR (dash right AND easy beast needle strike AND easy beast pogo)))  OR (run AND proficient movement AND (faydown cloak AND (drifter's cloak OR sharpdart OR (flea brew AND (easy beast pogo OR (easy architect needle strike AND architect slash right))))))  OR (run AND clawline right AND ledge grab right) |  | Verified | ✓ |  |
+| V1 | vertical 1 | main floor | skull platform | silk soar  OR (faydown cloak AND  (cling grip right OR ledge grab right OR (medium flea brew stall x 2 AND scuttlebrace))) |  | Verified | ✓ |  |
 | V1 | vertical 1 | skull platform | main floor | none (falling) |  | Verified | ✓ |  |
 | V2 | vertical 2 | herald lifted platform | rosary platform | faydown cloak OR ( (ledge grab left OR cling grip left) AND ( run OR dash right OR drifter's cloak OR clawline right OR sharpdart OR easy [shaman, reaper, architect] pogo OR easy pogo off Hoker ) ) OR cling grip right |  | Verified | ✓ |  |
 | V2 | vertical 2 | rosary platform | herald lifted platform | none (falling) |  | Verified | ✓ |  |
@@ -56,6 +56,10 @@
 | RSG | rosary spike gap | rosary platform | upper passage spike exit | none (falling) |  | Verified | ✓ |  |
 | HP2 | herald platform link | herald platform | herald lifted platform | silk soar OR ledge grab either OR cling grip either OR faydown cloak |  | Verified | ✓ |  |
 | HP2 | herald platform link | herald lifted platform | herald platform | none (falling) |  | Verified | ✓ |  |
+| MTA | main to acrobatics | main floor | clawline acrobatics | ledge grab left  OR cling grip left OR medium scuttlebrace OR faydown cloak OR silk soar OR ((clawline left OR sharpdart) AND (medium [flea brew] stall OR ledge grab right)) OR (proficient movement AND architect slash left AND (medium [plasmium, flea brew] stall)) |  | Verified | ✓ |  |
+| MTA | main to acrobatics | clawline acrobatics | main floor | none (falling) |  | Verified | ✓ |  |
+| ATS | acrobatics to skull platform | clawline acrobatics | skull platform | (faydown cloak AND (clawline right OR sharpdart x 2 OR (dash right AND easy beast needle strike AND easy beast pogo)))  OR (run AND proficient movement AND (faydown cloak AND (drifter's cloak OR sharpdart OR (flea brew AND (easy beast pogo OR (easy architect needle strike AND architect slash right))))))  OR (run AND clawline right AND (ledge grab right OR cling grip right)) OR (cling grip left AND clawline right x 2) |  | Verified | ✓ |  |
+| ATS | acrobatics to skull platform | skull platform | clawline acrobatics | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -64,8 +68,8 @@
 | 1 | rosary cache far fields 7 | rosary platform | none |  | Verified | collectible | ✓ |  |
 | 2 | rosary cache far fields 8 | rosary platform | none |  | Verified | collectible | ✓ |  |
 | 3 | Mister Mushroom Meeting Far Fields | herald platform | after THE Mister Mushroom Meeting Bone Bottom AND Needolin |  | Verified | event | ✓ |  |
-| 4 | Tarmite 1 | clawline acrobatics | complete Gauntlet IN Far Fields Skull Arena |  | Verified | enemy | ✓ | shells shard |
-| 5 | Tarmite 2 | clawline acrobatics | complete Gauntlet IN Far Fields Skull Arena |  | Verified | enemy | ✓ | shells shard |
+| 4 | Tarmite 1 | clawline acrobatics | complete Gauntlet IN Far Fields Skull Arena |  | Verified | enemy | ✓ | shell shards |
+| 5 | Tarmite 2 | clawline acrobatics | complete Gauntlet IN Far Fields Skull Arena |  | Verified | enemy | ✓ | shell shards |
 | 6 | Fertid 1 | main floor | none |  | Verified | enemy | ✓ |  |
 | 7 | Fertid 2 | main floor | none |  | Verified | enemy | ✓ |  |
 | 8 | Fertid 3 | upper exit channel | none |  | Verified | enemy | ✓ |  |

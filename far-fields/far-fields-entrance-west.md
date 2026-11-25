@@ -13,6 +13,7 @@
 | S3 | lower right exit platform | ✓ |
 | S4 | upper left platforms | ✓ |
 | S5 | check alcove | ✓ |
+| S6 | alcove statue | ✓ |
 
 ## Room Transitions
 
@@ -33,18 +34,21 @@
 | LC | lava crossing | lower right exit platform | lower walkway | run left OR dash left  OR clawline left  OR sharpdart  OR cling grip both  OR silk soar  OR drifter's cloak  OR faydown cloak  OR easy [beast, architect] needle strike OR (ledge grab left AND (easy naked pogo OR easy [hunter, architect, shaman] pogo)) OR (architect slash left AND easy architect pogo) |  | Verified | ✓ |  |
 | V2 | vertical 2 | lower walkway | upper left platforms | silk soar |  | Verified | ✓ |  |
 | V2 | vertical 2 | upper left platforms | lower walkway | none (falling) |  | Verified | ✓ |  |
-| UC | upper crossing | upper right platforms | upper left platforms | run left OR dash left OR clawline left OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak OR (proficient movement AND cling grip right) |  | Verified | ✓ |  |
-| UC | upper crossing | upper left platforms | upper right platforms | run left  OR dash right  OR clawline right  OR sharpdart  OR silk soar  OR drifter's cloak  OR faydown cloak  OR cling grip both |  | Verified | ✓ |  |
+| UC | upper crossing | upper right platforms | upper left platforms | run left  OR dash left  OR clawline left  OR sharpdart  OR silk soar  OR drifter's cloak  OR faydown cloak  OR (proficient movement AND cling grip right) |  | Verified | ✓ |  |
+| UC | upper crossing | upper left platforms | upper right platforms | run right OR dash right  OR clawline right  OR sharpdart  OR silk soar  OR drifter's cloak  OR faydown cloak  OR cling grip both |  | Verified | ✓ |  |
 | V3 | vertical 3 | lower right exit platform | upper right platforms | cling grip right OR silk soar OR Scuttlebrace |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right platforms | lower right exit platform | none (falling) |  | Verified | ✓ |  |
 | AC | alcove access | lower walkway | check alcove | ledge grab either OR silk soar OR faydown cloak OR easy shaman pogo OR easy beast needle strike OR (easy [beast, architect, reaper] pogo AND easy damage boost off enemy Flapping Fertid) OR cling grip either |  | Verified | ✓ | i love shaman pogo |
 | AC | alcove access | check alcove | lower walkway | none (falling) |  | Verified | ✓ |  |
+| SAS | statue alcove snipe | lower walkway | check alcove | easy curveclaw use |  | Verified | ✓ |  |
+| AS | alcove shard statue | check alcove | alcove statue | none |  | Verified | ✓ |  |
+| AS | alcove shard statue | alcove statue | check alcove | none |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | shell shard cache far fields 1 | check alcove | none |  | Verified | collectible |  |  |
+| 1 | Far Fields - Entrance - Memorial Shard Statue | check alcove | none |  | Verified | collectible | ✓ | shell shard cache far fields 1 |
 | 2 | Skarr Scout 1 | lower walkway | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 3 | Skarr Stalker 1 | lower walkway | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 4 | Spear Skarr 1 | lower walkway | Black Thread World Spawn |  | Verified | enemy | ✓ |  |

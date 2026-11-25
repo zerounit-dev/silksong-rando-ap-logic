@@ -18,8 +18,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | right door | [Bilewater Vertical Sac Pogo Room (Shadow_19)](bilewater-vertical-sac-pogo-room.md) | UL | run OR clawline right OR sharpdart OR drifter's cloak OR faydown cloak OR swim | TODO | Verified | ✓ | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. ============== Add which enemy souls  you can farm the silk with, Pyxl 23/11 |
-| L | left | left door | [Bilewater Groal Arena (Shadow_18)](bilewater-groal-arena.md) | R | faydown cloak OR ((ledge grab left OR cling grip left OR silk soar) AND (run OR clawline left OR sharpdart OR drifter's cloak OR swim)) | TODO | Verified | ✓ | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. ============== Add which enemy souls  you can farm the silk with, Pyxl 23/11 |
+| R | right | right door | [Bilewater Vertical Sac Pogo Room (Shadow_19)](bilewater-vertical-sac-pogo-room.md) | UL | run OR clawline right x 6 OR (sharpdart x 3 AND soul swamp squit) OR drifter's cloak OR faydown cloak OR swim |  | Verified | ✓ | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. ============== Add which enemy souls  you can farm the silk with, Pyxl 23/11 |
+| L | left | left door | [Bilewater Groal Arena (Shadow_18)](bilewater-groal-arena.md) | R | faydown cloak OR ((ledge grab left OR cling grip left OR silk soar) AND (run OR clawline left OR sharpdart x 6 OR (sharpdart x 3 AND soul swamp squit) OR drifter's cloak OR swim)) |  | Verified | ✓ | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. ============== Add which enemy souls  you can farm the silk with, Pyxl 23/11 |
 
 ## Subroom Connections
 

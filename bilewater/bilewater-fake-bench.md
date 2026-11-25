@@ -1,8 +1,8 @@
-# Bilewater Bullshit Bench (Shadow_15)
+# Bilewater Fake Bench (Shadow_15)
 
 **Game ID:** Shadow_15
 
-**Contributors:** Herchey and The Black Dahlia Murder (band)
+**Contributors:** Herchey, hutyrix and The Black Dahlia Murder (band)
 
 ## Subrooms
 
@@ -32,21 +32,25 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater Bullshit Bench Exit Wall | lower | break wall right |  | Verified | blockade | ✓ |  |
-| 2 | Mothleaf Lagnia 1 | fall | none |  | Verified | enemy | ✓ |  |
-| 3 | Mothleaf Lagnia 2 | fall | none |  | Verified | enemy | ✓ |  |
-| 4 | Mothleaf Lagnia 3 | fall | none |  | Verified | enemy | ✓ |  |
+| 1 | Fake Bench collapser | upper | none |  | Verified | blockade | ✓ |  |
+| 2 | Mothleaf Lagnia 1 | fall | attack up OR activate Fake Bench |  | Verified | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 2 | fall | attack up OR activate Fake Bench |  | Verified | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 3 | fall | attack up OR activate Fake Bench |  | Verified | enemy | ✓ |  |
+
+## Notes
+
+archived non-existent wall, added needle rando support 11/25/26 Hutyrix
 
 ## Room Images
 
 ### Connections
 
-[![Connections for Bilewater Bullshit Bench (Shadow_15)](../00-annotations/bilewater/bilewater-bullshit-bench-connections.png)](../00-annotations/bilewater/bilewater-bullshit-bench-connections.png)
+[![Connections for Bilewater Fake Bench (Shadow_15)](../00-annotations/bilewater/bilewater-fake-bench-connections.png)](../00-annotations/bilewater/bilewater-fake-bench-connections.png)
 
 ### Checks
 
-[![Checks for Bilewater Bullshit Bench (Shadow_15)](../00-annotations/bilewater/bilewater-bullshit-bench-checks.png)](../00-annotations/bilewater/bilewater-bullshit-bench-checks.png)
+[![Checks for Bilewater Fake Bench (Shadow_15)](../00-annotations/bilewater/bilewater-fake-bench-checks.png)](../00-annotations/bilewater/bilewater-fake-bench-checks.png)
 
 ### Scene
 
-[![Scene for Bilewater Bullshit Bench (Shadow_15)](../00-annotations/bilewater/bilewater-bullshit-bench-scene.png)](../00-annotations/bilewater/bilewater-bullshit-bench-scene.png)
+[![Scene for Bilewater Fake Bench (Shadow_15)](../00-annotations/bilewater/bilewater-fake-bench-scene.png)](../00-annotations/bilewater/bilewater-fake-bench-scene.png)

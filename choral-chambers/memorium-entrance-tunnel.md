@@ -15,7 +15,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TL | top2 | Secret Platform | [Cogwork Core Breakable Walls (Cog_10_Destroyed)](../cogwork-core/cogwork-core-breakable-walls.md) | B | ACT 3 AND silk soar |  | Verified | ✓ |  |
+| TL | top2 | Secret Platform | [Cogwork Core Breakable Walls (Cog_10_Destroyed)](../cogwork-core/cogwork-core-breakable-walls.md) | B | None |  | Verified | ✓ |  |
 | L | left1 | Base | [Cog Dancers (Cog_Dancers)](../cogwork-core/cog-dancers.md) | R | none |  | Verified | ✓ |  |
 | T | top1 | Base | [Memorium Start Shaft (Arborium_01)](../memorium/memorium-start-shaft.md) | B | silk soar OR ((ledge grab both OR faydown cloak OR cling grip either OR easy scuttlebrace) AND easy pogo off Grand Reed) OR (faydown cloak AND (ledge grab either OR easy scuttlebrace OR cling grip either OR easy plasmium stall)) |  | Verified | ✓ |  |
 | R | right1 | Base | [Songclave (Song_Enclave)](songclave.md) | TL | none |  | Verified | ✓ |  |
@@ -26,7 +26,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical Secret | Base | Secret Platform | ACT 3 AND silk soar |  | Verified |  |  |
-| V | Vertical Secret | Secret Platform | Base | none |  | Verified |  | falling |
+| V | Vertical Secret | Secret Platform | Base | ACT 3 |  | Verified |  | falling |
 
 ## Check Locations
 

@@ -26,7 +26,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TR | Top Right | Arena | [Underworks Twelfth Architect (Under_17)](underworks-twelfth-architect.md) | BR | (Clear Underworks Clawline Gauntlet AND (Cling Grip OR Scuttlebrace OR Silk Soar OR (Faydown Cloak AND (Easy Shaman Pogo OR Easy Beast Charge)))) |  | Verified | ✓ |  |
+| TR | Top Right | Arena | [Underworks Twelfth Architect (Under_17)](underworks-twelfth-architect.md) | BR | (Clear Underworks Clawline Gauntlet AND (Cling Grip Right OR Easy Scuttlebrace OR Silk Soar OR (Faydown Cloak AND (Easy Shaman Pogo OR Easy Beast Charge OR (Elite Ball Knowledge AND Dash Either AND (Cling Grip Left OR Medium [Flea Brew, Air Bind, Plasmium] Stall )))))) |  | Verified | ✓ |  |
 | L | Left | Blocked Off Corridor Left | [Underworks East Shaft (Under_13)](underworks-east-shaft.md) | MR | Nothing. |  | Verified | ✓ |  |
 | R | Right | Main Side Door | [Underworks Clawline Entrance (Under_19c)](underworks-clawline-entrance.md) | TL | Invalid |  | Verified | ✓ |  |
 | TL | Top Left | Blocked Off Corridor Top | [Underworks Twelfth Architect (Under_17)](underworks-twelfth-architect.md) | BL | Nothing. |  | Verified | ✓ |  |
@@ -51,20 +51,20 @@
 | RSC | rafter shard crossing | Shard Bundle Check | Clawline Shrine Rafter | run AND (clawline right OR sharpdart OR (dash right AND faydown cloak)) |  | Verified | ✓ |  |
 | STA | soar to arena | Metalwork Barge | Arena | silk soar AND (proficient movement OR dash right OR easy [hunter, architect, shaman, reaper, beast, witch] pogo OR faydown cloak OR flea brew OR drifter's cloak) |  | Verified | ✓ |  |
 | STA | soar to arena | Arena | Metalwork Barge | none (falling) |  | Verified | ✓ |  |
-| A1S | airspace 1 shard clawline | Cogfly Airspace 1 | Shard Bundle Check | Clawline Left AND intended pogo off Cogwork Underfly |  | Verified | ✓ |  |
-| A1S | airspace 1 shard clawline | Shard Bundle Check | Cogfly Airspace 1 | Clawline Right AND intended pogo off Cogwork Underfly |  | Verified | ✓ |  |
-| A1R | airspace 1 rafter clawline | Clawline Shrine Rafter | Cogfly Airspace 1 | Clawline Left AND intended pogo off Cogwork Underfly |  | Verified | ✓ |  |
-| A1R | airspace 1 rafter clawline | Cogfly Airspace 1 | Clawline Shrine Rafter | Clawline Left AND intended pogo off Cogwork Underfly |  | Verified | ✓ |  |
+| A1S | airspace 1 shard clawline | Cogfly Airspace 1 | Shard Bundle Check | (Clawline Left AND Intended Pogo Off Cogwork Underfly) OR (Run AND Easy Pogo Off Cogwork Underfly AND (Drifter's Cloak OR Sharpdart OR (Dash Left AND (Cling Grip Left OR Ledge Grab Left)) OR Faydown Cloak)) |  | Verified | ✓ |  |
+| A1S | airspace 1 shard clawline | Shard Bundle Check | Cogfly Airspace 1 | (Clawline Right AND Intended pogo Off Cogwork Underfly) OR (Run AND Easy Pogo Off Cogwork Underfly AND (Drifter's Cloak OR Sharpdart OR Dash Right OR Faydown Cloak)) |  | Verified | ✓ |  |
+| A1R | airspace 1 rafter clawline | Clawline Shrine Rafter | Cogfly Airspace 1 | (Clawline Left AND Intended Pogo Off Cogwork Underfly) OR (Run AND Easy Pogo Off Cogwork Underfly AND (Drifter's Cloak OR Sharpdart OR (Dash Left AND (Cling Grip Left OR Ledge Grab Left)) OR Faydown Cloak)) |  | Verified | ✓ |  |
+| A1R | airspace 1 rafter clawline | Cogfly Airspace 1 | Clawline Shrine Rafter | (Clawline Right AND Intended Pogo Off Cogwork Underfly) OR (Run AND Easy Pogo Off Cogwork Underfly AND (Drifter's Cloak OR Sharpdart OR Dash Right OR Faydown Cloak)) |  | Verified | ✓ |  |
 | RUG | Rafter Union Gap | Clawline Entrance Rafter | Clawline Shrine Rafter | Run AND ((Faydown Cloak AND Dash Left AND (Drifter's Cloak OR Hard Beast Needle Strike OR (Hard Architect Needle Strike AND Ledge Grab Right))) OR ((Clawline Left x 2 OR Sharpdart x 2) AND ((Drifter's Cloak AND (Ledge Grab Left OR Cling Grip Left)) OR Faydown Cloak))) |  | Verified | ✓ |  |
 | RUG | Rafter Union Gap | Clawline Shrine Rafter | Clawline Entrance Rafter | (Drifter's Cloak AND (Run OR Dash Right OR Easy [Architect, Beast, Shaman] Pogo OR Easy [Architect, Beast, Reaper, Wanderer] Needle Strike OR Easy [Plasmium, Voltvessels, FLintslate, Pale Nails, Rune Rage, Air Bind, Cross Stitch, Flea Brew] Stall OR Flea Brew)) OR (Clawline Right x 2 OR Sharpdart x 2) OR (Run AND (Dash Right AND Faydown Cloak AND (Easy [Architect, Beast] Pogo OR Easy [Architect, Beast, Wanderer, Reaper] Needle Strike))) |  | Verified | ✓ |  |
 | SRG | Shrine Rafter Gap | Clawline Statue | Clawline Shrine Rafter | Cling Grip Left AND (Clawline Right x 3 AND (Dash Right OR Drifter's Cloak OR Proficient Movement) AND Faydown Cloak) |  | Verified | ✓ |  |
 | SRG | Shrine Rafter Gap | Clawline Shrine Rafter | Clawline Statue | (Run AND (Dash Right OR Faydown Cloak OR Easy [Hunter, Reaper] Pogo OR Easy Wanderer Needle Strike)) OR Clawline Left OR Easy [Architect, Beast] Pogo |  | Verified | ✓ |  |
-| A2E | Airspace 2 Entrance Clawline | Clawline Entrance Rafter | Cogfly Airspace 2 | (Clawline Left x 2 AND Intended Pogo Off Cogwork Underfly)  OR (Run AND Faydown Cloak AND Easy Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
+| A2E | Airspace 2 Entrance Clawline | Clawline Entrance Rafter | Cogfly Airspace 2 | (Clawline Left x 2 AND Intended Pogo Off Cogwork Underfly)  OR (Run AND (Faydown Cloak OR (Drifter's Cloak AND Dash Left)) AND Easy Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
 | A2E | Airspace 2 Entrance Clawline | Cogfly Airspace 2 | Clawline Entrance Rafter | (Clawline Right AND Intended Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
-| A2S | Airspace 2 Shrine Clawline | Cogfly Airspace 2 | Clawline Shrine Rafter | (Clawline Left x 2 AND Intended Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
-| A2S | Airspace 2 Shrine Clawline | Clawline Shrine Rafter | Cogfly Airspace 2 | (Clawline Right AND Intended Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
-| A2A | Airspace 2 Arena Clawline | Cogfly Airspace 2 | Arena | (Clawline Right x 2 AND Intended Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
-| A2A | Airspace 2 Arena Clawline | Arena | Cogfly Airspace 2 | (Clawline Left AND Intended Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
+| A2S | Airspace 2 Shrine Clawline | Cogfly Airspace 2 | Clawline Shrine Rafter | (Clawline Left x 2 AND Intended Pogo Off Cogwork Underfly) OR (Run AND (Faydown Cloak OR (Drifter's Cloak AND Dash Left)) AND Easy Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
+| A2S | Airspace 2 Shrine Clawline | Clawline Shrine Rafter | Cogfly Airspace 2 | (Clawline Right AND Intended Pogo Off Cogwork Underfly) OR (Run AND (Faydown Cloak AND (Drifter's Cloak OR Dash Right OR Flea Brew)) AND Easy Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
+| A2A | Airspace 2 Arena Clawline | Cogfly Airspace 2 | Arena | (Clawline Right x 2 AND Intended Pogo Off Cogwork Underfly) OR (Run AND (Faydown Cloak AND (Drifter's Cloak OR Dash Right OR Flea Brew)) AND Easy Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
+| A2A | Airspace 2 Arena Clawline | Arena | Cogfly Airspace 2 | (Clawline Left AND Intended Pogo Off Cogwork Underfly)  OR (Run AND (Faydown Cloak OR Drifter's Cloak OR Dash Left OR Flea Brew) AND Easy Pogo Off Cogwork Underfly) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -103,6 +103,8 @@ The left and top blocked-off corridors are reachable without Clawline or Faydown
 Also the room has been modified that R can be left even after entering/obtaining Clawline and the platforms also don't sink anymore
 
 -Moriko
+
+A nice dip in the molten steel will warm the senses after re-mapping this room. - Cry 11/24
 
 ## Room Images
 

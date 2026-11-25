@@ -17,7 +17,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LR | lower right | lower right | [Bilewater Bellway (Bellway_Shadow)](bilewater-bellway.md) | L | break wall right |  | Verified | ✓ |  |
+| LR | lower right | lower right | [Bilewater Bellway (Bellway_Shadow)](bilewater-bellway.md) | L | break wall either |  | Verified | ✓ |  |
 | L | left | left | [Exhaust Organ Exterior (Dust_09)](exhaust-organ-exterior.md) | R | none |  | Verified | ✓ |  |
 | C | ceiling | ceiling | [Bilewater West Secret Rooms (Shadow_20)](bilewater-west-secret-rooms.md) | L | cling grip right OR scuttlebrace OR silk soar OR (faydown cloak AND easy pogo off Swamp Squit) |  | Verified | ✓ |  |
 | UR | upper right | up right | [Bilewater West Hall (Shadow_04b)](bilewater-west-hall.md) | L | none |  | Verified | ✓ |  |

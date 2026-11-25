@@ -28,7 +28,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Silkeater: Blasted Steps | Silkeater Area | Nothing |  | Verified | collectible | ✓ |  |
+| 1 | Silkeater: Blasted Steps | Silkeater Area | Steel Soul Off |  | Verified | collectible | ✓ | silkeater is removed by Steel Soul |
 | 2 | A Vassal Lost Wish Promised | Steel Soul Area | Steel Soul On AND Get 1 Maps |  | Verified | event | ✓ | must have a map requirement per the wiki |
 | 3 | A Vassal Lost Wish Granted | Steel Soul Area | defeat THE Summoned Savior Boss Fight |  | Verified | event | ✓ |  |
 | 4 | Growstone | Steel Soul Area | complete A Vassal Lost Wish Granted |  | Verified | collectible | ✓ |  |

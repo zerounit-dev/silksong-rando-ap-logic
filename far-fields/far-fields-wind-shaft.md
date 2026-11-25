@@ -22,6 +22,7 @@
 | S12 | the bottom | ✓ |
 | S13 | wind shaft rock steps | ✓ |
 | S14 | middle crossing lower platform | ✓ |
+| S15 | scaffold rosaries | ✓ |
 
 ## Room Transitions
 
@@ -83,12 +84,15 @@
 | R5M | r5 midplat jump | middle crossing lower platform | R5 area | none (falling) |  | Verified | ✓ |  |
 | MCP | midplat to midcross | middle crossing lower platform | middle crossing | drifter's cloak OR silk soar OR (elite ball knowledge AND faydown cloak AND (medium [shaman, architect, beast, reaper] pogo OR (proficient movement AND medium flea brew stall AND medium hunter pogo) OR (medium wanderer pogo AND medium flea brew stall x 2))) |  | Verified | ✓ |  |
 | MCP | midplat to midcross | middle crossing | middle crossing lower platform | none (falling) |  | Verified | ✓ |  |
+| SR | stowaway rosaries | scaffold rosaries | rosary cache spot | none |  | Verified | ✓ |  |
+| SR | stowaway rosaries | rosary cache spot | scaffold rosaries | none |  | Verified | ✓ |  |
+| RSN | rosary scaffold snipe | wind shaft rock steps | scaffold rosaries | easy [curveclaw, straight pin, threefold pin, throwing ring, longpin, conchcutter, pimpillo] use OR easy [pale nails, thread storm, silkspear] use |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache far fields 1 | rosary cache spot | none |  | Verified | collectible | ✓ |  |
+| 1 | Far Fields Wind Shaft - Rosary Stowaway | rosary cache spot | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 1 |
 | 2 | Tool Weighted Belt | mort corpse platform | act 3 |  | Verified | collectible | ✓ | according to the wiki you can either buy it from pilgrim's rest in act 1/2 OR you can grab it from mort's corpse here in act 3 |
 | 3 | r4 blast rock | R4 left | none (attack) |  | Verified | blockade | ✓ |  |
 | 4 | Fertid 1 | left almost bottom | none |  | Verified | enemy | ✓ |  |

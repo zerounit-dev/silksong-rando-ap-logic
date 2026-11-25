@@ -6,13 +6,15 @@
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | shakra's far off bazaar | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R5 | none |  | Verified | ✓ |  |
+| L | left1 | shakra's far off bazaar | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R5 | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,7 +24,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | map purchase far fields |  | none |  | Verified | collectible |  | shakra shop |
+| 1 | map purchase far fields | shakra's far off bazaar | none |  | Verified | collectible | ✓ | shakra shop |
 
 ## Room Images
 

@@ -49,7 +49,7 @@
 | HH | Hut to HUB | Hut Door | Hutledge | Faydown Cloak OR Sprint Right OR Dash Right OR Drifters Cloak OR Clawline Right OR Sharpdart OR Cling grip both OR Easy Cross stitch stall OR medium pale nails stall OR flea brew jump OR Easy Voltvessels stall OR Easy flintslate stall OR Easy Plasmium stall OR Easy beast pogo |  | Verified | ✓ |  |
 | HH | Hut to HUB | Hutledge | Hut Door | Swim OR Sprint left OR Dash Left OR Drifters Cloak OR Faydown Cloak OR Clawline Left OR Sharpdart OR easy Hunter Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR ( easy Wanderer charge AND Ledge Grab left ) OR Easy Plasmium stall OR Easy Flintslate stall OR Easy Flea brew stall OR Flea Brew jump OR Easy Voltvessels stall OR Easy Thread storm stall OR Easy Cross stitch stall OR medium pale nails stall |  | Verified | ✓ |  |
 | HHW | HutHub | Hutledge | Hub Area | Prereq Breakable Wall From Hut Door |  | Verified | ✓ |  |
-| HHW | HutHub | Hub Area | Hutledge | Prereq Breakable Wall From Hut Door |  | Verified | ✓ |  |
+| HHW | HutHub | Hub Area | Hutledge | Prereq Breakable Wall From Hut Door OR cbt silkspear use (ghost spear) |  | Verified | ✓ |  |
 | HHH | Hubhub | Hub Area | Upper Hub Zone | Silk Soar OR ( Faydown Cloak AND ( Scuttlebrace OR Cling grip Either ) ) OR ( Cling grip Both AND Clawline left ) |  | Verified | ✓ |  |
 | HHH | Hubhub | Upper Hub Zone | Hub Area | None |  | Verified | ✓ |  |
 

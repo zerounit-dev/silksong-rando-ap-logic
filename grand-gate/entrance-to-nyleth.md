@@ -32,7 +32,7 @@
 | V | upper <> lower | Entrance lower | Entrance upper | silk soar OR (faydown AND cling grip left) |  | Verified | ✓ |  |
 | EV | entrance <> vine hell | Entrance lower | Vine hell right | activate Grand Gate - Breakable Chain Nyleth |  | Verified | ✓ |  |
 | EV | entrance <> vine hell | Vine hell right | Entrance lower | activate Grand Gate - Breakable Chain Nyleth AND (silk soar OR cling grip either OR easy scuttlebrace OR (faydown AND ledge grab either)) |  | Verified | ✓ |  |
-| H | vine hell right <> exit | Vine hell right | Exit | clear Grand Gate - Breakable Vines Exit Wall AND (dash left OR faydown OR clawline left OR easy beast pogo OR easy architect charge) |  | Verified | ✓ |  |
+| H | vine hell right <> exit | Vine hell right | Exit | (clear Grand Gate - Breakable Vines Exit Wall OR cbt silkspear use (ghost spear)) AND (dash left OR faydown OR clawline left OR drifters OR easy beast pogo OR easy architect charge OR (medium shaman pogo AND hard pale nails stall x 3) OR (medium voltvessels stall AND (medium hunter pogo OR medium architect pogo)) OR (cling grip left AND (easy [architect,hunter] pogo OR easy [voltvessels,flea brew,plasmium] stall OR medium [flintslate] stall OR medium wanderer charge OR medium shaman pogo))) |  | Verified | ✓ |  |
 | H | vine hell right <> exit | Exit | Vine hell right | clear Grand Gate - Breakable Vines Exit Wall |  | Verified | ✓ |  |
 | RM | right <> middle | Vine hell right | Vine hell middle | clawline both OR (faydown AND drifters AND (ledge grab left OR clawline left OR sharpdart OR cling grip left)) OR (faydown AND dash right AND (clawline left OR sharpdart)) OR (clawline either AND sharpdart) OR (medium beast pogo AND cling grip right AND (cling grip left OR clawline left OR sharpdart)) |  | Verified | ✓ |  |
 | RM | right <> middle | Vine hell middle | Vine hell right | faydown AND cling grip both AND clawline left |  | Verified | ✓ |  |
@@ -48,7 +48,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Grand Gate - Vine door | Entrance lower | break wall right |  | Verified | blockade | ✓ |  |
-| 2 | Grand Gate - Breakable Chain Nyleth | Entrance upper | Silk Soar OR ((easy pogo off phacia OR clawline left) AND cling grip either AND faydown) |  | Verified | blockade | ✓ |  |
+| 2 | Grand Gate - Breakable Chain Nyleth | Entrance upper | Silk Soar OR (faydown AND (cling grip left OR (cling grip right AND (hard beast bind stall OR easy pogo off phacia OR clawline left OR (clawline right AND medium shaman pogo))))) OR (cling grip left AND easy shaman pogo AND medium pogo off phacia) |  | Verified | blockade | ✓ |  |
 | 3 | Grand Gate - Breakable Vines Vine hell middle | Vine hell middle | break wall either |  | Verified | blockade | ✓ |  |
 | 4 | Grand Gate - Shell Shard Cache | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
 | 5 | Grand Gate - Breakable Vines Exit Ceiling | Vine hell left | break wall up |  | Verified | blockade | ✓ |  |

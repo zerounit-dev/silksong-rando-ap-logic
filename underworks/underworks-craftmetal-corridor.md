@@ -2,7 +2,7 @@
 
 **Game ID:** Under_19b
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Cry
 
 ## Subrooms
 
@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| J | Jump | Fuckass Jump Left | Fuckass Jump Right | Ledge Grab OR Clawline OR Sharp Dart OR Cling Grip OR Scuttlebrace OR Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak  OR Easy Shaman Pogo  OR Easy Beast Pogo OR Easy Architect Pogo OR Easy Hunter Pogo OR Easy Reaper Pogo  OR Easy Witch Needle Strike OR Easy Wanderer Needle Strike |  | Verified | ✓ | why couldnt you have been TWO pixels shorter? |
+| J | Jump | Fuckass Jump Left | Fuckass Jump Right | Ledge Grab Right  OR Clawline Right  OR Sharp Dart  OR Cling Grip Right  OR Scuttlebrace  OR Sprint  OR Dash Right  OR Faydown Cloak  OR Drifter's Cloak  OR Easy [Hunter, Shaman, Architect, Beast, Reaper] Pogo OR Easy [Witch, Beast, Wanderer, Architect] Needle Strike OR Easy Naked Pogo OR Architect Slash Right OR Flea Brew |  | Verified | ✓ | why couldnt you have been TWO pixels shorter? |
 | J | Jump | Fuckass Jump Right | Fuckass Jump Left | Nothing. |  | Verified | ✓ |  |
 
 ## Check Locations

@@ -16,6 +16,7 @@
 | S6 | lower right side | ✓ |
 | S7 | bone bridge | ✓ |
 | S8 | drifter ledge | ✓ |
+| S9 | last rites beads | ✓ |
 
 ## Room Transitions
 
@@ -40,19 +41,22 @@
 | BR | boss right entrance | boss arena | lower right side | none |  | Verified | ✓ |  |
 | V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( (silk soar OR faydown cloak OR (proficient movement AND run AND dash left) ) AND (easy scuttlebrace OR cling grip left)) |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right alcove | lower right side | none (falling) |  | Verified | ✓ |  |
-| LBG | lower bridge gap | bone bridge | lower left side | none (jump) |  | Verified | ✓ |  |
-| LBG | lower bridge gap | lower left side | bone bridge | none (jump) |  | Verified | ✓ |  |
+| LBG | lower bridge gap | bone bridge | lower left side | none (jump) |  | Verified |  |  |
+| LBG | lower bridge gap | lower left side | bone bridge | none (jump) |  | Verified |  |  |
 | BAC | bridge alcove vault | bone bridge | upper left alcove | (faydown cloak AND medium [rune rage, cross stitch, air bind, thread storm, flea brew] stall AND (cling grip right OR ledge grab right)) OR (proficient movement AND (cling grip right OR ledge grab right) AND faydown cloak) |  | Verified | ✓ |  |
 | BAC | bridge alcove vault | upper left alcove | bone bridge | none (falling) |  | Verified | ✓ |  |
 | G2 | gap 2 | drifter ledge | upper left alcove | clawline right x 3  OR (cling grip left AND (easy beast pogo AND sharpdart x 2)) OR (run AND sharpdart x 2 AND (dash right OR faydown cloak)) |  | Verified | ✓ | redundant inverse connection |
 | VHF | vertical half | bone bridge | drifter ledge | silk soar  OR drifter's cloak  OR (faydown cloak AND ((proficient movement AND (cling grip left OR ledge grab left))  OR ((cling grip left OR ledge grab left) AND medium [flea brew, rune rage, thread storm, air bind] stall))) |  | Verified | ✓ |  |
 | VHF | vertical half | drifter ledge | bone bridge | none (falling) |  | Verified | ✓ |  |
+| LRC | last rites cache | upper left alcove | last rites beads | none |  | Verified | ✓ |  |
+| LRC | last rites cache | last rites beads | upper left alcove | none |  | Verified | ✓ |  |
+| RBS | rites beads snipe | bone bridge | upper left alcove | easy curveclaw use |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Far Fields Chorus - Choir's Final Rites Beads | upper left alcove | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 2 |
+| 1 | Far Fields Chorus - Choir's Final Rites Beads | last rites beads | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 2 |
 | 2 | Far Fields Chorus - silk | upper right alcove | none |  | Verified | resource | ✓ | silk webs |
 | 3 | Far Fields Chorus - Horn Fragment | boss arena | defeat savage beastfly 2 boss fight |  | Verified | collectible |  |  |
 | 4 | fourth chorus boss fight | boss arena | Combat Requirements AND complete THE flexible spines wish granted |  | Verified | boss |  |  |
