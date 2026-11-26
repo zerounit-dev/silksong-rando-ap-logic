@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Ledge | [Coral Tower Entrance (Coral_28)](coral-tower-entrance.md) | R | None |  | Verified | ✓ |  |
+| L | left1 | Left Ledge | [Coral Tower Entrance (Coral_28)](coral-tower-entrance.md) | R | defeat THE Boss: Raging Conchfly |  | Verified | ✓ |  |
 | R | right1 | Right Ledge | [Sands of Karak Tall Centre Room (Coral_35b)](sands-of-karak-tall-centre-room.md) | UL | None |  | Verified | ✓ |  |
 
 ## Subroom Connections

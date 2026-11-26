@@ -22,8 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Putrified Ducts - thread memory Map Room |  | Needolin AND ( Intended pogo off barnak OR Silk Soar ) |  | Verified | lore | ✓ |  |
-| 2 | Putrified Ducts - Map Pickup |  | Intended pogo off barnak OR Silk Soar |  | Verified | collectible | ✓ |  |
+| 1 | Putrified Ducts - thread memory Map Room |  | Needolin AND ( required surprise adoption OR Silk Soar ) |  | Verified | lore | ✓ |  |
+| 2 | Putrified Ducts - Map Pickup |  | required surprise adoption OR Silk Soar |  | Verified | collectible | ✓ |  |
 | 3 | Barnak 1 |  | None |  | Verified | enemy | ✓ |  |
 | 4 | Barnak 2 |  | None |  | Verified | enemy | ✓ |  |
 

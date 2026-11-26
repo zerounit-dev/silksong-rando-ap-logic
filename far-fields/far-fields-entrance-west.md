@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_02b
 
-**Contributors:** herounit, Pyxl
+**Contributors:** herounit, Pyxl, Cry
 
 ## Subrooms
 
@@ -14,6 +14,7 @@
 | S4 | upper left platforms | ✓ |
 | S5 | check alcove | ✓ |
 | S6 | alcove statue | ✓ |
+| S7 | exit to lower fort | ✓ |
 
 ## Room Transitions
 
@@ -22,7 +23,7 @@
 | UR | right1 | upper right platforms | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | L1 | none |  | Verified | ✓ |  |
 | LR | right2 | lower right exit platform | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | L2 | none |  | Verified | ✓ |  |
 | L | left1 | lower walkway | [Far Fields Entrance East (Bone_East_02)](far-fields-entrance-east.md) | R | none |  | Verified | ✓ |  |
-| C | top3 | upper left platforms | [Far Fields Fort Lower Passage (Bone_East_16)](far-fields-fort-lower-passage.md) | F | none |  | Verified | ✓ |  |
+| C | top3 | exit to lower fort | [Far Fields Fort Lower Passage (Bone_East_16)](far-fields-fort-lower-passage.md) | F | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -43,6 +44,8 @@
 | SAS | statue alcove snipe | lower walkway | check alcove | easy curveclaw use |  | Verified | ✓ |  |
 | AS | alcove shard statue | check alcove | alcove statue | none |  | Verified | ✓ |  |
 | AS | alcove shard statue | alcove statue | check alcove | none |  | Verified | ✓ |  |
+| LFP | lower fort path | upper left platforms | exit to lower fort | ledge grab right OR faydown cloak OR cling grip left OR (cling grip right AND (easy beast pogo OR architect slash right OR flea brew)) OR (elite ball knowledge AND dash either AND (easy beast pogo OR medium [flea brew, plasmium] stall OR medium reaper needle strike OR clawline right OR sharpdart)) OR easy beast needle strike |  | Verified | ✓ |  |
+| LFP | lower fort path | exit to lower fort | upper left platforms | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 

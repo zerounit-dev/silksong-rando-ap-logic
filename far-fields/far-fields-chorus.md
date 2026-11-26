@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_08
 
-**Contributors:** herounit, Pyxl
+**Contributors:** herounit, Pyxl, Cry
 
 ## Subrooms
 
@@ -50,7 +50,7 @@
 | VHF | vertical half | drifter ledge | bone bridge | none (falling) |  | Verified | ✓ |  |
 | LRC | last rites cache | upper left alcove | last rites beads | none |  | Verified | ✓ |  |
 | LRC | last rites cache | last rites beads | upper left alcove | none |  | Verified | ✓ |  |
-| RBS | rites beads snipe | bone bridge | upper left alcove | easy curveclaw use |  | Verified | ✓ |  |
+| RBS | rites beads snipe | bone bridge | upper left alcove | easy curveclaw use | TODO | Verified | ✓ | threefold pin also works |
 
 ## Check Locations
 

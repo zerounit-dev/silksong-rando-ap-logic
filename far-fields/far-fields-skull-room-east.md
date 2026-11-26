@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_14b
 
-**Contributors:** herounit
+**Contributors:** herounit, Cry
 
 ## Subrooms
 

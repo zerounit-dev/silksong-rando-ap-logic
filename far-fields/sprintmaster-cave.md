@@ -2,7 +2,7 @@
 
 **Game ID:** Sprintmaster_Cave
 
-**Contributors:** herounit
+**Contributors:** herounit, Cry
 
 ## Subrooms
 

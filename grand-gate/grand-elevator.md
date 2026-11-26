@@ -12,6 +12,7 @@
 | S2 | Crash Site | ✓ |
 | S3 | elevator | ✓ |
 | S4 | Nyleth shaft | ✓ |
+| S5 | walls | ✓ |
 
 ## Room Transitions
 
@@ -35,14 +36,17 @@
 | CS | crash <> shaft | Nyleth shaft | Crash Site | clear Grand Gate - Elevator Wall AND clear Grand Gate - Elevator Vine Wall AND (cling grip either OR easy scuttlebrace OR silk soar) |  | Verified | ✓ |  |
 | ST | shaft <> | Nyleth shaft | Top | (cling grip either OR easy scuttlebrace) AND  clear Grand Gate - Elevator Wall AND clear Grand Gate - Elevator Vine Wall AND activate Grand Gate - Elevator lever |  | Verified | ✓ |  |
 | ST | shaft <> | Top | Nyleth shaft | clear Grand Gate - Elevator Wall AND clear Grand Gate - Elevator Vine Wall AND activate Grand Gate - Elevator lever |  | Verified | ✓ |  |
+| WA | Top to wall | Top | walls | activate Grand Gate - Elevator lever AND attack left |  | Verified | ✓ |  |
+| WB | Crash to wall | Crash Site | walls | attack left AND silk soar |  | Verified | ✓ |  |
+| WC | nyleth to wall | Nyleth shaft | walls | attack right AND (cling grip either OR easy scuttlebrace OR silk soar) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Grand Gate - Elevator lever | Top | hit switch left |  | Verified | switch | ✓ |  |
-| 2 | Grand Gate - Elevator Wall | Nyleth shaft | break wall either |  | Verified | blockade | ✓ |  |
-| 3 | Grand Gate - Elevator Vine Wall | Nyleth shaft | break wall either |  | Verified | blockade | ✓ |  |
+| 2 | Grand Gate - Elevator Wall | walls | break wall either |  | Verified | blockade | ✓ |  |
+| 3 | Grand Gate - Elevator Vine Wall | walls | break wall either |  | Verified | blockade | ✓ |  |
 | 4 | Drapefly 1 | Top | none |  | Verified | enemy | ✓ |  |
 | 5 | Drapemite 1 | Top | none |  | Verified | enemy | ✓ |  |
 

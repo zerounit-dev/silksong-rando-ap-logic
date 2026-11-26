@@ -23,7 +23,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | main section | upper corridor | silk soar OR cling grip left OR medium scuttlebrace OR (faydown cloak AND hard pogo off Roachcatcher) |  | Verified | ✓ |  |
+| S1 | shaft 1 | main section | upper corridor | silk soar OR cling grip left OR medium scuttlebrace OR (faydown cloak AND (hard pogo off Roachcatcher OR (cling grip right AND easy [wanderer, reaper, shaman] pogo))) |  | Verified | ✓ |  |
 | S1 | shaft 1 | upper corridor | main section | none (just fall) |  | Verified | ✓ |  |
 | D1 | drop 1 | main section | airstream lever | none (just fall) |  | Verified | ✓ |  |
 | D1 | drop 1 | airstream lever | main section | spike pogo OR silk soar OR ledge grab right OR (easy pogo off mite) OR cling grip right OR faydown cloak |  | Verified | ✓ |  |

@@ -25,7 +25,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WC | wisp climb | main path | the fire tower | silk soar OR ((cling grip right  OR (faydown cloak AND ledge grab left)) AND (cling grip left OR (faydown cloak AND easy [hunter, wanderer, beast, architect, witch, shaman] pogo))) |  | Verified | ✓ |  |
+| WC | wisp climb | main path | the fire tower | silk soar OR ((cling grip right  OR (faydown cloak AND (ledge grab left OR cling grip left))) AND (cling grip left OR (faydown cloak AND easy [hunter, wanderer, beast, architect, witch, shaman] pogo))) |  | Verified | ✓ |  |
 | WC | wisp climb | the fire tower | main path | nothing |  | Verified | ✓ |  |
 | VG | vertical gap | main path | high up platform | silk soar OR ledge grab left OR faydown cloak OR easy shaman pogo |  | Verified | ✓ |  |
 | VG | vertical gap | high up platform | main path | nothing |  | Verified | ✓ |  |

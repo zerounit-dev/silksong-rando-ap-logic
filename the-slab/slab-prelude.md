@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LU | Lower Upper | lower | upper | (faydown AND (cling grip any OR scuttlebrace)) OR silk soar |  | Verified | ✓ |  |
+| LU | Lower Upper | lower | upper | (faydown AND (cling grip any OR scuttlebrace)) OR silk soar OR (proficient movement AND hard beast bind stall AND cling grip left AND (dash left OR clawline left OR sharpdart OR medium plasmium stall OR cling grip right)) OR (proficient movement AND cling grip both AND cbt shaman pogo AND cbt pale nails stall) |  | Verified | ✓ |  |
 | LU | Lower Upper | upper | lower | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

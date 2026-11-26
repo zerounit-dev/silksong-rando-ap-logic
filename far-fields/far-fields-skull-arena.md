@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_LavaChallenge
 
-**Contributors:** herounit
+**Contributors:** herounit, Cry
 
 ## Subrooms
 

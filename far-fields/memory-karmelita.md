@@ -2,7 +2,7 @@
 
 **Game ID:** Memory_Ant_Queen
 
-**Contributors:** herounit
+**Contributors:** herounit, Cry
 
 ## Subrooms
 

@@ -22,7 +22,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Flea Chase | [Whispering Vaults Totally Not White Palace (Library_07)](whispering-vaults-totally-not-white-palace.md) | T | Nothing. |  | Verified | ✓ |  |
+| B | bot1 | Flea Chase | [Whispering Vaults Totally Not White Palace (Library_07)](whispering-vaults-totally-not-white-palace.md) | T | None |  | Verified | ✓ |  |
 | L | left1 | Room With Stuff | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | TR | Activate Whispering Vaults: Flip Switch #6 |  | Verified | ✓ |  |
 
 ## Subroom Connections

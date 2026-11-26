@@ -30,8 +30,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TP | teleporter | upper telepad | lower telepad | complete THE weavenest atla power activation |  | Verified | ✓ |  |
 | TP | teleporter | lower telepad | upper telepad | complete THE weavenest atla power activation |  | Verified | ✓ |  |
-| SM | shaft middle | lower telepad | upper shaft | cling grip right OR silk soar OR ( faydown cloak AND easy scuttlebrace ) |  | Verified | ✓ |  |
-| SM | shaft middle | upper shaft | lower telepad | none (falling) |  | Verified | ✓ |  |
+| SM | shaft middle | lower shaft | upper shaft | cling grip either OR silk soar OR ( easy scuttlebrace AND (medium beast bind stall OR medium shaman pogo OR (easy [shaman,reaper,beast,architect] pogo AND medium pogo off servitor ignim)) ) |  | Verified | ✓ |  |
+| SM | shaft middle | upper shaft | lower shaft | none (falling) |  | Verified | ✓ |  |
 | SB | shaft base | lower telepad | lower shaft | cling grip right  OR silk soar  OR ( faydown AND easy scuttlebrace ) OR ( cling grip left AND faydown AND ( clawline right OR sharpdart ) ) OR ( medium shaman pogo AND medium scuttlebrace ) |  | Verified | ✓ |  |
 | SB | shaft base | lower shaft | lower telepad | none (falling) |  | Verified | ✓ |  |
 

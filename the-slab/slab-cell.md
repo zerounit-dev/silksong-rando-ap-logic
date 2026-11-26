@@ -25,13 +25,12 @@
 | S15 | Bridge Center Top | ✓ |
 | S16 | Flea2 | ✓ |
 | S17 | Cavern | ✓ |
-| S18 | Fall1 | ✓ |
-| S19 | Prelude1 | ✓ |
-| S20 | Prelude2 | ✓ |
-| S21 | Poodle Top | ✓ |
-| S22 | Poodle Bottom | ✓ |
-| S23 | Window | ✓ |
-| S24 | Bottom | ✓ |
+| S18 | Prelude1 | ✓ |
+| S19 | Prelude2 | ✓ |
+| S20 | Poodle Top | ✓ |
+| S21 | Poodle Bottom | ✓ |
+| S22 | Window | ✓ |
+| S23 | Almost Bottom | ✓ |
 
 - **Why2:** Entering via WHY will block you behind a door you can't open from that side
 
@@ -92,27 +91,25 @@
 | N | InternalCenter | Bridge Upper Internal | Bridge Center | activate heretic lever upper |  | Verified | ✓ | falling |
 | N | InternalCenter | Bridge Center | Bridge Upper Internal | activate heretic lever upper AND (cling grip any OR (faydown cloak AND ledge grab left) OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
 | O | CenterTop | Bridge Center | Bridge Center Top | activate heretic lever lower |  | Verified | ✓ | falling |
-| O | CenterTop | Bridge Center Top | Bridge Center | activate heretic lever lower AND (cling grip any OR scuttlebrace) |  | Verified | ✓ |  |
+| O | CenterTop | Bridge Center Top | Bridge Center | activate heretic lever lower AND (cling grip any OR scuttlebrace OR faydown) |  | Verified | ✓ |  |
 | P | Center Cavern | Bridge Center Top | Cavern | none (falling) |  | Verified | ✓ |  |
-| P | Center Cavern | Cavern | Bridge Center Top | cling grip right OR (faydown cloak AND scuttlebrace) |  | Verified | ✓ |  |
-| Q | Flea2 | Flea2 | Bridge Center Top | faydown cloak AND (scuttlebrace OR cling grip left) |  | Verified | ✓ |  |
-| Q | Flea2 | Bridge Center Top | Flea2 | faydown cloak OR dash left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR medium beast needle strike OR medium beast pogo |  | Verified | ✓ | with no horizontal you miss the platform and land in Fall1 |
-| R | FleaFall | Flea2 | Fall1 | none (falling) |  | Verified | ✓ |  |
-| R | FleaFall | Fall1 | Flea2 | cling grip left OR ledge grab left OR medium shaman pogo OR scuttlebrace OR faydown cloak OR silk soar |  | Verified | ✓ |  |
-| S | CavernFall | Cavern | Fall1 | none (jump) |  | Verified | ✓ |  |
-| S | CavernFall | Fall1 | Cavern | faydown cloak OR cling grip right OR scuttlebrace OR (medium beast needle strike AND ledge grab right) |  | Verified | ✓ |  |
-| T | FallPrelude | Fall1 | Prelude1 | none (falling) |  | Verified | ✓ |  |
-| T | FallPrelude | Prelude1 | Fall1 | cling grip right OR scuttlebrace OR (faydown cloak AND cling grip left) OR silk soar |  | Verified | ✓ |  |
-| U | PreludePoodle | Prelude1 | Poodle Top | clear poodle blockade |  | Verified | ✓ |  |
-| U | PreludePoodle | Poodle Top | Prelude1 | clear poodle blockade AND (cling grip any OR scuttlebrace) |  | Verified | ✓ |  |
-| V | PreludeBottom | Prelude1 | Bottom | swim |  | Verified | ✓ |  |
-| W | PoodleBottom | Poodle Top | Bottom | swim |  | Verified | ✓ |  |
-| X | PoodleBB | Poodle Bottom | Bottom | swim |  | Verified | ✓ |  |
-| X | PoodleBB | Bottom | Poodle Bottom | swim |  | Verified | ✓ |  |
-| Y | BottomWindow | Window | Bottom | swim |  | Verified | ✓ |  |
-| Y | BottomWindow | Bottom | Window | swim |  | Verified | ✓ |  |
+| P | Center Cavern | Cavern | Bridge Center Top | cling grip either OR silk soar OR (easy scuttlebrace AND (faydown OR medium shaman pogo OR medium beast bind stall)) |  | Verified | ✓ |  |
+| R | CavernCrossing | Flea2 | Cavern | sprint right OR faydown OR sharpdart OR clawline right OR cling grip either OR easy beast pogo OR flea brew OR (medium [hunter,architect] pogo AND (medium voltvessels stall OR medium plasmium stall x 2 OR ((medium silkshot original stall OR easy plasmium stall) AND ledge grab right))) |  | Verified | ✓ |  |
+| R | CavernCrossing | Cavern | Flea2 | sprint left OR cling grip left OR ledge grab left OR sharpdart OR clawline left OR easy flea brew stall OR (easy [hunter,architect] pogo AND medium silkshot original stall) OR easy [voltvessels,plasmium] stall OR easy shaman pogo OR easy beast pogo |  | Verified | ✓ |  |
+| S | DropPrelude | Flea2 | Prelude1 | none (falling) |  | Verified | ✓ |  |
+| T | FallPrelude | Cavern | Prelude1 | none (falling) |  | Verified | ✓ |  |
+| T | FallPrelude | Prelude1 | Cavern | cling grip right  OR (medium scuttlebrace AND (medium shaman pogo OR easy beast bind stall))  OR (faydown cloak AND cling grip left) OR silk soar |  | Verified | ✓ |  |
+| U | PreludePoodle | Prelude1 | Almost Bottom | none (falling) |  | Verified | ✓ |  |
+| U | PreludePoodle | Almost Bottom | Prelude1 | (cling grip any OR scuttlebrace) |  | Verified | ✓ |  |
+| V | PreludeBottom | Almost Bottom | Window | swim OR dash right OR clawline right OR faydown OR drifters OR sharpdart |  | Verified | ✓ |  |
+| W | PoodleBottom | Almost Bottom | Poodle Bottom | swim OR dash left OR clawline left OR faydown OR drifters OR sharpdart |  | Verified | ✓ |  |
+| W | PoodleBottom | Poodle Bottom | Almost Bottom | (proficient movement AND faydown AND dash left AND cling grip left) OR (cling grip either AND ((faydown AND easy [hunter,wanderer] voltwater pogo) OR medium wanderer voltwater pogo)) OR (cling grip left AND medium hunter voltwater pogo x 2) |  | Verified | ✓ |  |
+| X | PoodleBB | Poodle Bottom | Window | swim  OR sprint right  OR clawline right  OR faydown  OR drifters OR easy beast pogo OR easy [architect,beast] charge OR (ledge grab right AND (medium architect pogo OR easy voltvessels stall x 2 OR ((medium hunter pogo OR hard shaman pogo) AND cling grip left AND proficient movement))) OR (easy [hunter,architect] pogo AND medium [voltvessels,silkshot original] stall) OR easy [hunter,wanderer] voltwater pogo |  | Verified | ✓ |  |
+| X | PoodleBB | Window | Poodle Bottom | swim  OR sprint left  OR clawline left  OR faydown  OR drifters  OR easy beast pogo  OR ((ledge grab left OR cling grip left) AND (easy architect charge)) OR (easy [hunter,architect] pogo AND medium [voltvessels,silkshot original] stall) OR easy [hunter,wanderer] voltwater pogo |  | Verified | ✓ |  |
 | PRE | PreludeInternal | Prelude1 | Prelude2 | unlock heretic door first sinner |  | Verified |  |  |
 | PRE | PreludeInternal | Prelude2 | Prelude1 | unlock heretic door first sinner |  | Verified |  |  |
+| Y | PoodleTopCross | Poodle Top | Almost Bottom | unlock poodle blockade |  | Verified | ✓ |  |
+| Y | PoodleTopCross | Almost Bottom | Poodle Top | unlock poodle blockade |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -126,7 +123,7 @@
 | 6 | upper blockade | Mid | none |  | Verified | blockade | ✓ |  |
 | 7 | upper bridge key | Bridge Upper | have key of heretic |  | Verified | lock | ✓ |  |
 | 8 | Guardfly 1 | Before Indolent | none |  | Verified | enemy | ✓ |  |
-| 9 | Guardfly 2 | Fall1 | none |  | Verified | enemy | ✓ |  |
+| 9 | Guardfly 2 | Flea2 | none |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

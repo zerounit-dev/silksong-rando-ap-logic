@@ -12,6 +12,7 @@
 | S2 | Top | ✓ |
 | S3 | BaseRight | ✓ |
 | S4 | BossArena | ✓ |
+| S5 | post mechanism | ✓ |
 
 ## Room Transitions
 
@@ -19,11 +20,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | BaseRight | [Memorium Entrance Tunnel (Song_25)](../choral-chambers/memorium-entrance-tunnel.md) | L | none |  | Verified | ✓ |  |
 | L | left1 | BaseLeft | [High Halls Corridor (Hang_07)](../choral-chambers/high-halls-corridor.md) | R | none |  | Verified | ✓ |  |
-| B1 | bot1 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TL | none |  | Verified | ✓ |  |
-| B2 | bot2 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TR | none |  | Verified | ✓ |  |
+| B1 | bot1 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TL | defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
+| B2 | bot2 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TR | defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
 | E | elevator | BossArena | [Lace 2 Fight (Song_Tower_01)](../the-cradle/lace-2-fight.md) | D | activate Play Threefold Melody |  | Verified | ✓ |  |
 | D | door1 | Top | [Cogwork Core Main Connection (Cog_Pass)](cogwork-core-main-connection.md) | TL | Nothing. |  | Verified | ✓ |  |
-| T | top1 | Top | [Cogwork Core North Main (Cog_08)](cogwork-core-north-main.md) | B | activate Cog dancers - clawline mechanism 2 AND (cling grip left OR easy scuttlebrace OR (faydown AND (ledge grab right OR easy [reaper,architect,beast,shaman] pogo))) |  | Verified | ✓ | probably one way |
+| T | top1 | post mechanism | [Cogwork Core North Main (Cog_08)](cogwork-core-north-main.md) | B | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -35,6 +36,8 @@
 | R | RightSide | BossArena | BaseRight | defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
 | L | LeftSide | BossArena | BaseLeft | defeat Cogwork Dancers Boss Fight |  | Verified | ✓ |  |
 | L | LeftSide | BaseLeft | BossArena | none |  | Verified | ✓ |  |
+| PM | post mechanism | Top | post mechanism | activate Cog dancers - clawline mechanism 2 AND (cling grip left OR easy scuttlebrace OR (faydown AND (ledge grab right OR easy [reaper,architect,beast,shaman] pogo))) |  | Verified | ✓ |  |
+| PM | post mechanism | post mechanism | Top | activate Cog dancers - clawline mechanism 2 |  | Verified | ✓ |  |
 
 ## Check Locations
 

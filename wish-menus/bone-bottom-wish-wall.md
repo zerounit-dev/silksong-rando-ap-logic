@@ -35,7 +35,7 @@ No subroom connections defined.
 | 13 | a lifesaving bridge wish granted |  | complete a lifesaving bridge wish promised AND spend 300 shell shards |  | Verified | event |  | reward is a breakable bridge |
 | 14 | an icon of hope wish promised |  | ( act 1 OR act 2 ) AND  complete a lifesaving bridge wish granted AND ( visit the citadel ) |  | Verified | event |  |  |
 | 15 | an icon of hope wish granted |  | complete an icon of hope wish promised AND spend 440 shell shards |  | Verified | event |  | reward is hornet statuette AND flick breakable statue |
-| 16 | hornet statuette |  | complete an icon of hope wish granted |  | Verified | collectible |  |  |
+| 16 | Hornet Statuette |  | complete an icon of hope wish granted |  | Verified | collectible |  |  |
 
 ## Notes
 
