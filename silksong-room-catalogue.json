@@ -51554,7 +51554,7 @@
           "friendlyName": "middle to left",
           "sourceSubroomReferenceText": "left",
           "destinationSubroomReferenceText": "middle",
-          "requirements": "cling grip either OR (faydown AND ledge grab left AND medium beast reserve bind stall)",
+          "requirements": "cling grip either \nOR (faydown cloak AND easy scuttlebrace AND (ledge grab right OR (clawline right x 1 AND proficient movement)))\n\nOR (faydown cloak AND medium scuttlebrace AND (drifters cloak OR clawline left x 1) AND (ledge grab right OR (clawline right x 1 AND proficient movement)))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 17.497791290283203,
@@ -51565,7 +51565,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-25T04:52:51.0274239Z",
-          "updatedUtc": "2026-11-25T05:18:28.956914Z"
+          "updatedUtc": "2026-11-26T16:04:47.3883631Z"
         },
         {
           "id": "e1ece36d-e93d-4cfb-814f-87cfd6ad9bdf",
@@ -51592,7 +51592,7 @@
           "friendlyName": "middle to right",
           "sourceSubroomReferenceText": "volt",
           "destinationSubroomReferenceText": "middle",
-          "requirements": "cling grip either OR easy silk soar cancel OR (faydown AND ledge grab left AND medium beast reserve bind stall)",
+          "requirements": "cling grip either OR easy silk soar cancel OR (faydown AND ledge grab left) \nOR (easy scuttlebrace AND (drifters cloak OR clawline right x 1) AND (ledge grab left OR faydown cloak))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 44.67479705810547,
@@ -51603,7 +51603,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-25T04:52:52.0436825Z",
-          "updatedUtc": "2026-11-25T05:18:27.5647868Z"
+          "updatedUtc": "2026-11-26T16:26:42.5694277Z"
         },
         {
           "id": "3d931ed9-8832-4c66-9cbe-f6f445221795",
@@ -51630,8 +51630,8 @@
           "friendlyName": "huge flea",
           "sourceSubroomReferenceText": "middle",
           "destinationSubroomReferenceText": "upper",
-          "requirements": "cling grip either OR ledge grab either OR faydown OR silk soar OR easy [beast,shaman] pogo OR easy beast charge OR easy [plasmium,voltvessels] stall OR medium beast bind stall OR hard bind stall",
-          "notes": "",
+          "requirements": "cling grip either OR ledge grab either OR faydown OR silk soar OR easy scuttlebrace OR easy [beast,shaman] pogo  OR easy [plasmium,flea brew] stall OR medium beast bind stall OR hard bind stall OR silksoar x 1 OR easy beast needle strike",
+          "notes": "heric: someone listed a hard bind stall and im prob just bad but couldnt recreate",
           "enableAnnotation": true,
           "sceneUnitX": 31.925090789794922,
           "sceneUnitY": 27.33598518371582,
@@ -51641,7 +51641,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-25T04:52:22.8618621Z",
-          "updatedUtc": "2026-11-25T05:18:25.939919Z"
+          "updatedUtc": "2026-11-26T16:14:38.0075961Z"
         }
       ],
       "checks": [
@@ -51683,7 +51683,7 @@
           "annotationSceneUnitX": 30.604869842529297,
           "annotationSceneUnitY": 39.99928665161133,
           "subroomReferenceText": "upper",
-          "requirements": "cling grip either OR ledge grab either OR faydown OR silk soar OR easy shaman pogo OR easy beast charge OR medium beast bind stall OR easy plasmium stall \n\nOR easy [pimpillo,thread storm] use OR easy curveclaw use x 2 OR medium voltvessels use x 2 OR medium [throwing ring,threefold pin,pale nails] use x 4 OR hard [silkshot twelfth architect] use x 4",
+          "requirements": "cling grip either OR ledge grab either OR faydown OR silk soar OR easy shaman pogo OR easy beast charge OR medium beast bind stall OR easy plasmium stall OR easy scuttlebrace\n\nOR easy [pimpillo,thread storm] use OR easy curveclaw use x 2 OR medium voltvessels use x 2 OR medium [throwing ring,threefold pin,pale nails] use x 4 OR hard [silkshot twelfth architect] use x 4",
           "notes": "either reach the actual flea platform\n\n\n\n\n\nor break the cage from below",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -51693,7 +51693,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-09T12:18:17.317204Z",
-          "updatedUtc": "2026-11-25T05:18:14.7583931Z"
+          "updatedUtc": "2026-11-26T16:29:34.9215547Z"
         },
         {
           "id": "6053d9c5-64f9-4da2-85f1-dbb4ecae173d",
@@ -53343,8 +53343,8 @@
           "friendlyName": "top/fragment",
           "sourceSubroomReferenceText": "Top",
           "destinationSubroomReferenceText": "Fragment",
-          "requirements": "clawline AND faydown cloak AND dash AND cling grip AND drifter\u0027s cloak",
-          "notes": "clawline AND faydown cloak AND precise movement OR dash AND faydown cloak AND cling grip AND (precise movement OR drifter\u0027s cloak) with precise movement clause",
+          "requirements": "(Faydown cloak AND (easy scuttlebrace AND (clawline both x 3))) \n\nOR\n\n(Faydown cloak AND (cling grip right AND (elite ball knowledge OR(proficient movement AND  (run right OR clawline right x 1 ) AND (clawline left x 1 OR dash left)))))",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 30.36180877685547,
           "sceneUnitY": 65.59719848632812,
@@ -53354,7 +53354,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-06T14:21:32.634941Z",
-          "updatedUtc": "2026-10-01T01:20:34.0941126Z"
+          "updatedUtc": "2026-11-26T17:23:35.5675311Z"
         },
         {
           "id": "51ac8dd4-5e5d-41c5-87f8-02e7572b3b35",
@@ -53400,7 +53400,7 @@
           "friendlyName": "fragment/bottom",
           "sourceSubroomReferenceText": "Bottom",
           "destinationSubroomReferenceText": "Fragment",
-          "requirements": "silk soar OR cling grip OR (faydown cloak AND ledge grab AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge grab OR easy shaman pogo OR easy architect pogo OR easy wanderer pogo OR easy reaper pogo OR medium hunter pogo OR easy beast pogo))",
+          "requirements": "silk soar OR cling grip left OR (faydown cloak AND ledge grab either AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge  grab either OR easy [reaper, shaman, wanderer,architect,witch,beast] pogo OR medium hunter pogo OR easy plasmium stall))",
           "notes": "Room is blind unless dark stuff is removed",
           "enableAnnotation": true,
           "sceneUnitX": 9.510969161987305,
@@ -53411,7 +53411,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-06T14:21:43.152223Z",
-          "updatedUtc": "2026-10-01T01:20:26.7397803Z"
+          "updatedUtc": "2026-11-26T16:46:57.4294657Z"
         }
       ],
       "checks": [
@@ -53477,18 +53477,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 32.98,
           "annotationSceneUnitY": 12.8658781,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "Bottom",
+          "requirements": "none",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 2,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:51.8866989Z",
-          "updatedUtc": "2026-10-05T00:51:51.8866989Z"
+          "updatedUtc": "2026-11-26T17:25:23.4624178Z"
         },
         {
           "id": "6b8ae87c-9c91-4aa7-a50b-e10932f6bcf0",
@@ -53502,18 +53502,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 56.05,
           "annotationSceneUnitY": 18.8773727,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "Bottom",
+          "requirements": "nada",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 3,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:51.8866989Z",
-          "updatedUtc": "2026-10-05T00:51:51.8866989Z"
+          "updatedUtc": "2026-11-26T17:26:17.1245923Z"
         },
         {
           "id": "df6b9d7b-e3b8-45cf-bd0f-2ff0dda55f3f",
@@ -53527,18 +53527,18 @@
           "localPositionZ": 0,
           "annotationSceneUnitX": 51.87,
           "annotationSceneUnitY": 12.7996378,
-          "subroomReferenceText": null,
-          "requirements": "",
+          "subroomReferenceText": "Bottom",
+          "requirements": "zilch",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 4,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:51.8866989Z",
-          "updatedUtc": "2026-10-05T00:51:51.8866989Z"
+          "updatedUtc": "2026-11-26T17:25:24.6606085Z"
         },
         {
           "id": "19e0bb69-c189-457d-b6b3-a13709b096a4",
@@ -53554,7 +53554,7 @@
           "annotationSceneUnitY": 78.98,
           "subroomReferenceText": null,
           "requirements": "",
-          "notes": "",
+          "notes": "nonexistant pretty sure",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 5,
@@ -53563,7 +53563,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:51.8866989Z",
-          "updatedUtc": "2026-10-05T00:51:51.8866989Z"
+          "updatedUtc": "2026-11-26T17:26:25.0591711Z"
         },
         {
           "id": "ae243c98-b35e-4abf-90f9-d0df41d5a2fb",
@@ -53579,7 +53579,7 @@
           "annotationSceneUnitY": 78.98,
           "subroomReferenceText": null,
           "requirements": "",
-          "notes": "",
+          "notes": "nonexistant pretty sure",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 6,
@@ -53588,7 +53588,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:51:51.8866989Z",
-          "updatedUtc": "2026-10-05T00:51:51.8866989Z"
+          "updatedUtc": "2026-11-26T17:26:25.544263Z"
         }
       ]
     },
@@ -61434,7 +61434,7 @@
           "annotationSceneUnitX": 180.5,
           "annotationSceneUnitY": 6,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "center section",
+          "sourceSubroomReferenceText": "right section",
           "destinationRoomReferenceText": "greymoor west bellshrine room",
           "destinationTransitionAliasText": "LL",
           "requirements": "nothing",
@@ -61445,7 +61445,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T06:02:42.416757Z",
-          "updatedUtc": "2026-10-03T22:37:39.1468936Z",
+          "updatedUtc": "2026-11-26T14:14:54.9695763Z",
           "isUnsafeArrival": false
         },
         {
@@ -79034,10 +79034,10 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": 82.32660675048828,
-          "annotationSceneUnitY": 176.03961181640625,
+          "annotationSceneUnitX": 81.44454193115234,
+          "annotationSceneUnitY": 193.40780639648438,
           "subroomReferenceText": "Slab Spool Room",
-          "requirements": "cling grip Either OR Scuttlebrace OR Silk Soar",
+          "requirements": "silk soar OR cling grip left OR (cling grip right AND (proficient movement OR faydown)) OR (faydown AND easy scuttlebrace)",
           "notes": "Duplicate check name for spool fragment? \n\nthe one shown in \u0022Slab flea prison\u0022 was a placeholder till i did this room, remove other one if still present - Pyxl",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -79047,7 +79047,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-02T05:44:51.5124855Z",
-          "updatedUtc": "2026-10-20T08:27:43.3509555Z"
+          "updatedUtc": "2026-11-26T12:50:44.7342166Z"
         },
         {
           "id": "b333bba5-8fb1-4ded-8534-8a199de9c550",
@@ -81674,8 +81674,8 @@
       "referenceId": "Sinner\u0027s Road Chef\u0027s Kitchen",
       "friendlyName": "Sinner\u0027s Road Chef\u0027s Kitchen",
       "inGameId": "Dust_Chef",
-      "contributors": "herchey and some pop-tarts",
-      "comments": null,
+      "contributors": "herchey, hutyrix and some pop-tarts",
+      "comments": "minor overhaul (faydown leftledge, various shaman techs) - hutyrix, 11/26/26",
       "sceneMinX": 0,
       "sceneMinY": 0,
       "sceneMaxX": 60,
@@ -81692,7 +81692,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-19T00:05:19.3784023Z",
-      "updatedUtc": "2026-11-01T20:19:17.8152604Z",
+      "updatedUtc": "2026-11-26T15:38:11.4516002Z",
       "subrooms": [
         {
           "id": "46bbf278-0890-4af1-95cc-feacc23c70f6",
@@ -81761,15 +81761,15 @@
           "sourceSubroomReferenceText": "lower",
           "destinationRoomReferenceText": "Sinner\u0027s Road Hanging Cages",
           "destinationTransitionAliasText": "R",
-          "requirements": "prereq Unlock the Kitchen Deadbolt",
-          "notes": "",
+          "requirements": "prereq Unlock the Kitchen Deadbolt\n\nOR (elite ball knowledge AND \n\n([reaper,witch,architect,shaman] attack right OR easy [hunter,wanderer,beast] charge OR (easy beast heal stall AND beast longclaw right)))",
+          "notes": "ebk shouldn\u0027t be considered outside entrance randomizer, because Dust_04 prereq unlock stays the same\n-Hutyrix 11/26",
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:05:19.3784023Z",
-          "updatedUtc": "2026-10-25T05:21:30.3446247Z",
+          "updatedUtc": "2026-11-26T17:13:26.1499867Z",
           "isUnsafeArrival": false
         },
         {
@@ -81808,8 +81808,8 @@
           "friendlyName": "lower to upper",
           "sourceSubroomReferenceText": "lower",
           "destinationSubroomReferenceText": "upper",
-          "requirements": "faydown cloak OR silk soar",
-          "notes": "",
+          "requirements": "faydown cloak OR silk soar x 1\n\nOR (cbt shaman pogo AND cbt pale nails stall x 3 AND ledge grab right)",
+          "notes": "Could be better.\ndon\u0027t want to include cling grip right for now\n-Hutyrix 11/26/26",
           "enableAnnotation": true,
           "sceneUnitX": 17.347822189331055,
           "sceneUnitY": 40.369197845458984,
@@ -81819,7 +81819,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:23:23.2393735Z",
-          "updatedUtc": "2026-09-24T02:08:04.638507Z"
+          "updatedUtc": "2026-11-26T17:24:27.5331663Z"
         },
         {
           "id": "cdd6e88f-a90a-4fd0-a790-a2696d889a03",
@@ -81846,7 +81846,7 @@
           "friendlyName": "basement to lower",
           "sourceSubroomReferenceText": "basement",
           "destinationSubroomReferenceText": "lower",
-          "requirements": "scuttlebrace OR cling grip either OR silk soar",
+          "requirements": "scuttlebrace OR cling grip either OR silk soar x 1 OR (faydown AND ledge grab left) OR (medium pale nails stall x 1 AND medium shaman pogo AND faydown)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 7.173546314239502,
@@ -81857,7 +81857,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T01:23:29.0027009Z",
-          "updatedUtc": "2026-11-01T20:20:17.6489722Z"
+          "updatedUtc": "2026-11-26T14:45:02.9120904Z"
         },
         {
           "id": "aad4e8bb-0d12-43ad-b5de-1db9b87ee73c",
@@ -81928,7 +81928,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-24T02:04:08.3181629Z",
-          "updatedUtc": "2026-10-25T05:21:08.018447Z"
+          "updatedUtc": "2026-11-26T14:56:42.0125033Z"
         },
         {
           "id": "28a7159b-b6d6-4e4e-9f0b-475e66837021",
@@ -90451,15 +90451,15 @@
           "friendlyName": "Bottom",
           "notes": "",
           "sceneUnitX": 31.394,
-          "sceneUnitY": 4.622696399688721,
-          "sceneUnitWidth": 39.37892633056641,
-          "sceneUnitHeight": 82.98430360031128,
+          "sceneUnitY": 4.623,
+          "sceneUnitWidth": 33.71928216552734,
+          "sceneUnitHeight": 82.98384967041015,
           "enableAnnotation": true,
           "sortOrder": 4,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T16:06:21.2623174Z",
-          "updatedUtc": "2026-08-21T16:06:34.7125691Z"
+          "updatedUtc": "2026-11-26T12:09:23.3030667Z"
         },
         {
           "id": "0c5d9268-2c9d-4d15-8d32-1e27847075ae",
@@ -91023,9 +91023,9 @@
           "localPositionZ": -0.00999999,
           "annotationSceneUnitX": 28.38,
           "annotationSceneUnitY": 6.85,
-          "subroomReferenceText": "Silk Spool",
+          "subroomReferenceText": "Bottom",
           "requirements": "Break Wall Left",
-          "notes": "",
+          "notes": "Fixed subroom assignment\n- Morch",
           "locationType": "blockade",
           "enableAnnotation": true,
           "sortOrder": 9,
@@ -91034,7 +91034,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T15:56:17.5771117Z",
-          "updatedUtc": "2026-10-03T04:49:51.23324Z"
+          "updatedUtc": "2026-11-26T12:13:42.7886426Z"
         },
         {
           "id": "064ab87f-f72c-4d71-b1ba-07919b109d45",
@@ -105128,7 +105128,7 @@
           "friendlyName": "swim transition",
           "sourceSubroomReferenceText": "entrance section",
           "destinationSubroomReferenceText": "bug resting place",
-          "requirements": "swim OR (clawline right x 2 AND hard [flintslate] stall)",
+          "requirements": "swim OR (clawline right x 2 AND (hard [flintslate] stall OR hard [hunter, reaper, wanderer, beast, architect, witch] bind stall))",
           "notes": "i do not habe the skill to test more stalls in here",
           "enableAnnotation": true,
           "sceneUnitX": 33.37811279296875,
@@ -105139,7 +105139,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T18:02:04.6538271Z",
-          "updatedUtc": "2026-10-25T23:30:36.787715Z"
+          "updatedUtc": "2026-11-26T14:26:29.7931868Z"
         },
         {
           "id": "40a4f4ba-4b56-4eb9-95be-cdb4e21f8ff5",
@@ -121876,6 +121876,25 @@
           "updatedUtc": "2026-11-25T18:05:11.2315929Z"
         },
         {
+          "id": "e7ce94b3-dd15-4cd4-a376-34d4aea42d3d",
+          "alias": "WA",
+          "friendlyName": "Top to wall",
+          "sourceSubroomReferenceText": "walls thingy",
+          "destinationSubroomReferenceText": "Top",
+          "requirements": "(cling grip either OR easy scuttlebrace) AND  clear Grand Gate - Elevator Wall AND clear Grand Gate - Elevator Vine Wall AND activate Grand Gate - Elevator lever",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 10,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": true,
+          "archivedUtc": "2026-11-26T14:22:12.5673846Z",
+          "createdUtc": "2026-11-26T14:19:07.5263422Z",
+          "updatedUtc": "2026-11-26T14:22:12.5673846Z"
+        },
+        {
           "id": "5c15a86f-c651-4933-b51e-b713d78b2d1c",
           "alias": "WB",
           "friendlyName": "Crash to wall",
@@ -121886,13 +121905,32 @@
           "enableAnnotation": true,
           "sceneUnitX": 34.829952239990234,
           "sceneUnitY": 35.56332015991211,
-          "sortOrder": 10,
+          "sortOrder": 11,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-25T18:05:15.3815955Z",
-          "updatedUtc": "2026-11-25T18:10:36.342012Z"
+          "updatedUtc": "2026-11-26T14:19:09.7207824Z"
+        },
+        {
+          "id": "e5f3b8e9-d70a-47da-9120-cb4221e86ac9",
+          "alias": "WB",
+          "friendlyName": "Crash to wall",
+          "sourceSubroomReferenceText": "walls thingy",
+          "destinationSubroomReferenceText": "Crash Site",
+          "requirements": "clear Grand Gate - Elevator Wall AND clear Grand Gate - Elevator Vine Wall AND (cling grip either OR easy scuttlebrace OR silk soar)",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 12,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": true,
+          "archivedUtc": "2026-11-26T14:22:08.2405701Z",
+          "createdUtc": "2026-11-26T14:19:33.3137278Z",
+          "updatedUtc": "2026-11-26T14:22:08.2405701Z"
         },
         {
           "id": "b17062c9-925e-46b0-b7c5-3666acdd5870",
@@ -121905,13 +121943,32 @@
           "enableAnnotation": true,
           "sceneUnitX": 15.106189727783203,
           "sceneUnitY": 65.14897918701172,
-          "sortOrder": 11,
+          "sortOrder": 13,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-25T18:05:43.2836844Z",
-          "updatedUtc": "2026-11-25T18:10:16.4215264Z"
+          "updatedUtc": "2026-11-26T14:19:35.8866341Z"
+        },
+        {
+          "id": "62081ff1-eedd-4e61-8d4b-c02e29b40b4e",
+          "alias": "WC",
+          "friendlyName": "nyleth to wall",
+          "sourceSubroomReferenceText": "walls thingy",
+          "destinationSubroomReferenceText": "Nyleth shaft",
+          "requirements": "clear Grand Gate - Elevator Wall AND clear Grand Gate - Elevator Vine Wall AND activate Grand Gate - Elevator lever",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 14,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": true,
+          "archivedUtc": "2026-11-26T14:22:06.3962987Z",
+          "createdUtc": "2026-11-26T14:20:02.4546805Z",
+          "updatedUtc": "2026-11-26T14:22:06.3962987Z"
         }
       ],
       "checks": [
@@ -137133,8 +137190,8 @@
           "friendlyName": "Left \u003C\u003E Arena",
           "sourceSubroomReferenceText": "Left Entry",
           "destinationSubroomReferenceText": "Arena",
-          "requirements": "Nothing",
-          "notes": "",
+          "requirements": "Clear Steam Gauntlet",
+          "notes": "steam wall till gauntlet done",
           "enableAnnotation": true,
           "sceneUnitX": 32.021907806396484,
           "sceneUnitY": 12.44908332824707,
@@ -137144,7 +137201,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-03T23:58:13.0535312Z",
-          "updatedUtc": "2026-10-03T23:58:33.5342976Z"
+          "updatedUtc": "2026-11-26T17:38:04.7754546Z"
         },
         {
           "id": "ca96c5ec-930f-40a0-9189-14dbcb9d15dc",
@@ -148607,8 +148664,8 @@
           "friendlyName": "Falling from Top",
           "sourceSubroomReferenceText": "Mid",
           "destinationSubroomReferenceText": "Top",
-          "requirements": "Silk Soar OR Cling Grip Right OR \n(Medium Scuttlebrace AND \n(Faydown Cloak AND Ledge Grab Right)) OR \n(Cling Grip Left AND Run Left AND Faydown Cloak)",
-          "notes": "",
+          "requirements": "Activate Flick This To Say \u0022I HATE THIS ROOM!\u0022 AND (Silk Soar OR Cling Grip Right OR \n(Medium Scuttlebrace AND \n(Faydown Cloak AND Ledge Grab Right)) OR \n(Cling Grip Left AND Run Left AND Faydown Cloak))",
+          "notes": "missing lever req - Gallos 11/26",
           "enableAnnotation": true,
           "sceneUnitX": 30.06943702697754,
           "sceneUnitY": 173.11317443847656,
@@ -148618,7 +148675,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-04T01:41:10.0921632Z",
-          "updatedUtc": "2026-11-20T01:08:12.584646Z"
+          "updatedUtc": "2026-11-26T17:32:40.1095984Z"
         },
         {
           "id": "06af9da1-e135-4c22-80c4-5242894bae83",
@@ -163998,8 +164055,8 @@
       "referenceId": "Sinner\u0027s Road Muckroach Cages",
       "friendlyName": "Sinner\u0027s Road Muckroach Cages",
       "inGameId": "Dust_03",
-      "contributors": "Gallos,herchey and NOT these shitty muckroaches",
-      "comments": "this room has a few disabled battle scenes which is why there are so many disabled and invalid enemies - hero, 10/29",
+      "contributors": "Gallos, hutyrix, herchey and NOT these shitty muckroaches",
+      "comments": "this room has a few disabled battle scenes which is why there are so many disabled and invalid enemies - hero, 10/29\n\nminor overhaul - hutyrix, 11/26/26",
       "sceneMinX": 0,
       "sceneMinY": 0,
       "sceneMaxX": 145,
@@ -164016,7 +164073,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-18T23:58:06.943228Z",
-      "updatedUtc": "2026-11-14T15:38:46.3655677Z",
+      "updatedUtc": "2026-11-26T14:30:26.5448774Z",
       "subrooms": [
         {
           "id": "c1db22e6-0d6b-454d-a2de-bc6b62be852f",
@@ -164085,7 +164142,7 @@
           "sourceSubroomReferenceText": "right half",
           "destinationRoomReferenceText": "Sinner\u0027s Road Chef\u0027s Kitchen",
           "destinationTransitionAliasText": "H",
-          "requirements": "((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar",
+          "requirements": "((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar x 2 OR ((medium pogo off roachfeeder OR easy scuttlebrace) AND faydown)",
           "notes": "",
           "sortOrder": 0,
           "isTodo": false,
@@ -164093,7 +164150,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T23:58:06.943228Z",
-          "updatedUtc": "2026-11-14T15:39:36.5467287Z",
+          "updatedUtc": "2026-11-26T14:40:57.0471218Z",
           "isUnsafeArrival": false
         },
         {
@@ -164179,7 +164236,7 @@
           "friendlyName": "left to right",
           "sourceSubroomReferenceText": "right half",
           "destinationSubroomReferenceText": "left half",
-          "requirements": "Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR  scuttlebrace",
+          "requirements": "Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR scuttlebrace OR easy shaman pogo",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 94.190673828125,
@@ -164190,7 +164247,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T00:56:20.6508698Z",
-          "updatedUtc": "2026-11-01T20:55:45.8201992Z"
+          "updatedUtc": "2026-11-26T14:29:25.7558932Z"
         },
         {
           "id": "2226f242-e301-4c3e-9212-64f603bd4fed",
@@ -164954,7 +165011,7 @@
       "friendlyName": "Slab Bellway",
       "inGameId": "Slab_06",
       "contributors": "MayaXTG, Gallos",
-      "comments": null,
+      "comments": "gonna add subrooms here",
       "sceneMinX": 0,
       "sceneMinY": 0,
       "sceneMaxX": 101,
@@ -164971,7 +165028,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-21T14:00:51.9070266Z",
-      "updatedUtc": "2026-11-14T12:40:10.2907071Z",
+      "updatedUtc": "2026-11-26T12:52:41.8363065Z",
       "subrooms": [],
       "transitions": [
         {
@@ -215825,14 +215882,14 @@
           "destinationRoomReferenceText": "Coral Tower Entrance",
           "destinationTransitionAliasText": "R",
           "requirements": "defeat THE Boss: Raging Conchfly",
-          "notes": "",
+          "notes": "This is corect and important for souls/credit rando\n- Moriko",
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T12:41:09.7580266Z",
-          "updatedUtc": "2026-11-26T10:19:16.5592532Z",
+          "updatedUtc": "2026-11-26T11:43:33.0323551Z",
           "isUnsafeArrival": false
         },
         {
@@ -223294,8 +223351,8 @@
           "friendlyName": "Top Right to Bottom Right",
           "sourceSubroomReferenceText": "Bottom Right Section",
           "destinationSubroomReferenceText": "Top Right Section",
-          "requirements": "Ledge Grab left OR Faydown OR cling grip left OR easy shaman pogo OR easy flea brew stall OR (cling grip right AND (clawline left x 1 OR sharpdart x 1)) OR medium [hunter, wanderer] voltwater pogo x 2 OR hard [hunter,wanderer] voltwater pogo x 1",
-          "notes": "Voltvessel water pogo crusade was here 17/11",
+          "requirements": "Ledge Grab left OR Faydown OR cling grip left OR easy shaman pogo OR easy flea brew stall OR (cling grip right AND (clawline left x 1 OR sharpdart x 1)) OR medium [hunter, wanderer] voltwater pogo x 2 OR hard [hunter,wanderer] voltwater pogo x 1 OR easy [beast] bind stall ",
+          "notes": "Voltvessel water pogo crusade was here 17/11\n===========\ni dont have the skill to test more stalls so stall crusade is needed in here\n- Isssma 26/11",
           "enableAnnotation": true,
           "sceneUnitX": 151.22604370117188,
           "sceneUnitY": 24.51573944091797,
@@ -223305,7 +223362,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T07:17:05.3471927Z",
-          "updatedUtc": "2026-11-19T04:15:34.2786098Z"
+          "updatedUtc": "2026-11-26T14:28:36.5450594Z"
         },
         {
           "id": "6c5e65c9-d7a8-4da5-94ef-aab766eeaa01",
@@ -266848,7 +266905,7 @@
           "friendlyName": "PinstressTop",
           "sourceSubroomReferenceText": "Top Entrance",
           "destinationSubroomReferenceText": "Pinstress",
-          "requirements": "silk soar\nOR drifters \nOR dash right\nOR clawline right\nOR easy [hunter,beast,architect] pogo \nOR (medium shaman pogo AND proficient movement (fall down, then pogo balloon))\nOR (faydown cloak AND proficient movement (fall down, then pogo balloon))\nOR sharpdart \nOR easy [voltvessels,plasmium,flea brew] stall x 4\nOR medium flea brew stall x 3\nOR medium flintslate stall x 5\nOR hard [pale nails, thread storm] stall x 5\nOR hard cross stitch stall x 6",
+          "requirements": "silk soar\nOR drifters \nOR dash right\nOR clawline right\nOR easy [hunter,beast,architect] pogo \nOR (medium shaman pogo AND proficient movement (fall down, then pogo balloon))\nOR (faydown cloak AND proficient movement (fall down, then pogo balloon))\nOR sharpdart \nOR easy [voltvessels,plasmium,flea brew] stall x 4\nOR medium flea brew stall x 3\nOR medium flintslate stall x 5\nOR hard [pale nails, thread storm] stall x 5\nOR hard cross stitch stall x 6 OR easy naked pogo",
           "notes": "First logic ever written in zerounit website by Hutyrix, 15/11/26",
           "enableAnnotation": true,
           "sceneUnitX": 96.10697937011719,
@@ -266859,7 +266916,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-11-16T01:26:18.4123859Z",
-          "updatedUtc": "2026-11-16T05:44:58.7205868Z"
+          "updatedUtc": "2026-11-26T13:24:19.3028319Z"
         },
         {
           "id": "39314a8a-be94-446c-a10d-e0640f2403dd",
@@ -283678,7 +283735,7 @@
       "referenceId": "Bilewater Upper Bloatroach Tower",
       "friendlyName": "Bilewater Upper Bloatroach Tower",
       "inGameId": "Shadow_01",
-      "contributors": "Herchey, Hutyrix and Red (his cat)",
+      "contributors": "Hutyrix, Herchey and Red (his cat)",
       "comments": "MASSIVE OVERHAUL - 11/25/26 by Hutyrix",
       "sceneMinX": 0,
       "sceneMinY": 0,
@@ -283696,7 +283753,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T22:53:18.3795228Z",
-      "updatedUtc": "2026-11-25T12:17:47.8375054Z",
+      "updatedUtc": "2026-11-26T14:58:47.7478914Z",
       "subrooms": [
         {
           "id": "d9e709b1-c448-43ab-81f3-cf255b9cc294",
@@ -284566,8 +284623,8 @@
           "localPositionX": 47.1743355,
           "localPositionY": 89.59681,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 48.0714225769043,
-          "annotationSceneUnitY": 92.96063995361328,
+          "annotationSceneUnitX": 47.59568786621094,
+          "annotationSceneUnitY": 91.30575561523438,
           "subroomReferenceText": "upper left",
           "requirements": "faydown",
           "notes": "Can be better. Crests, tools, silk spells",
@@ -284579,7 +284636,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:57.0259955Z",
-          "updatedUtc": "2026-11-25T12:49:43.1009793Z"
+          "updatedUtc": "2026-11-26T13:08:50.6461022Z"
         },
         {
           "id": "4dd88bf8-248b-4307-94c0-06699a980912",
@@ -290482,15 +290539,15 @@
           "requirements": "silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 90.47244262695312,
+          "sceneUnitY": 60.433040618896484,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T01:18:50.6305749Z",
-          "updatedUtc": "2026-10-13T01:19:40.0977125Z"
+          "updatedUtc": "2026-11-26T12:33:37.0916232Z"
         },
         {
           "id": "4e643e91-4a0d-4c03-8141-9e125710d4f1",
@@ -290501,15 +290558,15 @@
           "requirements": "none (falling)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 90.47244262695312,
+          "sceneUnitY": 60.433040618896484,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T01:19:32.7416601Z",
-          "updatedUtc": "2026-10-13T01:19:41.3351711Z"
+          "updatedUtc": "2026-11-26T12:33:37.0916232Z"
         },
         {
           "id": "917eb669-ab4a-4004-85ef-65f20344a485",
@@ -290536,18 +290593,18 @@
           "friendlyName": "Mid Right",
           "sourceSubroomReferenceText": "Mid",
           "destinationSubroomReferenceText": "Right",
-          "requirements": "cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left))",
+          "requirements": "cling grip right OR easy scuttlebrace OR (faydown AND cling grip left)",
           "notes": "scuttlebrace on the right does not go high enough",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 89.47594451904297,
+          "sceneUnitY": 37.114967346191406,
           "sortOrder": 2,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T01:20:01.6817345Z",
-          "updatedUtc": "2026-10-13T01:21:54.7901364Z"
+          "updatedUtc": "2026-11-26T12:35:09.5091785Z"
         },
         {
           "id": "b0d49e49-6a91-4450-aa89-15cacabfda6b",
@@ -290577,15 +290634,15 @@
           "requirements": "none (falling)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 89.47594451904297,
+          "sceneUnitY": 37.114967346191406,
           "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T01:21:57.7260039Z",
-          "updatedUtc": "2026-10-13T01:23:23.2598537Z"
+          "updatedUtc": "2026-11-26T12:33:41.1629099Z"
         },
         {
           "id": "db07e95d-1599-41a2-b6ed-d8e30ec9cb75",
@@ -290596,15 +290653,15 @@
           "requirements": "none (falling)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 23.906322479248047,
+          "sceneUnitY": 19.37728500366211,
           "sortOrder": 4,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T01:22:07.9070877Z",
-          "updatedUtc": "2026-10-13T01:23:24.0961547Z"
+          "updatedUtc": "2026-11-26T12:33:49.2568646Z"
         },
         {
           "id": "27bbe701-977b-46ad-9aaf-c152fed13a35",
@@ -290612,18 +290669,18 @@
           "friendlyName": "Mid Bottom",
           "sourceSubroomReferenceText": "Bottom",
           "destinationSubroomReferenceText": "Mid",
-          "requirements": "silk soar OR scuttlebrace OR cling grip any OR (faydown cloak AND ledge grab any)",
+          "requirements": "silk soar OR scuttlebrace OR cling grip any \nOR (faydown cloak AND (ledge grab any \nOR medium beast reserve bind stall \nOR (easy beast bind stall AND medium plasmium stall) \nOR (medium reserve bind stall AND hard plasmium stall)\nOR easy enemy pogo off drapemite))\nOR (medium enemy pogo off drapemite AND ((ledge grab either AND easy [wanderer,shaman,reaper,witch,architect] pogo) OR medium shaman pogo))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 23.906322479248047,
+          "sceneUnitY": 19.37728500366211,
           "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T01:22:16.9591505Z",
-          "updatedUtc": "2026-10-16T00:08:31.1793335Z"
+          "updatedUtc": "2026-11-26T12:43:17.1492914Z"
         }
       ],
       "checks": [

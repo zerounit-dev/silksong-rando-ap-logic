@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ST | swim transition | entrance section | bug resting place | swim OR (clawline right x 2 AND hard [flintslate] stall) |  | Verified | ✓ | i do not habe the skill to test more stalls in here |
+| ST | swim transition | entrance section | bug resting place | swim OR (clawline right x 2 AND (hard [flintslate] stall OR hard [hunter, reaper, wanderer, beast, architect, witch] bind stall)) |  | Verified | ✓ | i do not habe the skill to test more stalls in here |
 | ST | swim transition | bug resting place | entrance section | swim AND (ledge grab left OR cling grip left OR faydown cloak) |  | Verified | ✓ |  |
 
 ## Check Locations

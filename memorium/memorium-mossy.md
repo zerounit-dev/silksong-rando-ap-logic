@@ -23,9 +23,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| tf | top/fragment | Top | Fragment | clawline AND faydown cloak AND dash AND cling grip AND drifter's cloak |  | Verified | ✓ | clawline AND faydown cloak AND precise movement OR dash AND faydown cloak AND cling grip AND (precise movement OR drifter's cloak) with precise movement clause |
+| tf | top/fragment | Top | Fragment | (Faydown cloak AND (easy scuttlebrace AND (clawline both x 3)))   OR  (Faydown cloak AND (cling grip right AND (elite ball knowledge OR(proficient movement AND  (run right OR clawline right x 1 ) AND (clawline left x 1 OR dash left))))) |  | Verified | ✓ |  |
 | fb | fragment/bottom | Fragment | Bottom | nada |  | Verified | ✓ |  |
-| fb | fragment/bottom | Bottom | Fragment | silk soar OR cling grip OR (faydown cloak AND ledge grab AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge grab OR easy shaman pogo OR easy architect pogo OR easy wanderer pogo OR easy reaper pogo OR medium hunter pogo OR easy beast pogo)) |  | Verified | ✓ | Room is blind unless dark stuff is removed |
+| fb | fragment/bottom | Bottom | Fragment | silk soar OR cling grip left OR (faydown cloak AND ledge grab either AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge  grab either OR easy [reaper, shaman, wanderer,architect,witch,beast] pogo OR medium hunter pogo OR easy plasmium stall)) |  | Verified | ✓ | Room is blind unless dark stuff is removed |
 
 ## Check Locations
 
@@ -33,11 +33,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Spool Fragment | Fragment | none |  | Verified | collectible | ✓ |  |
 | 2 | Memorium Mossy wall | Bottom | none |  | Verified | blockade |  | custom name |
-| 3 | Massive Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Massive Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
-| 6 | Nuphar 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Nuphar 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Massive Mossgrub 1 | Bottom | none |  | Verified | enemy | ✓ |  |
+| 4 | Mossgrub 1 | Bottom | nada |  | Verified | enemy | ✓ |  |
+| 5 | Massive Mossgrub 2 | Bottom | zilch |  | Verified | enemy | ✓ |  |
+| 6 | Nuphar 1 |  |  |  |  | enemy | ✓ | nonexistant pretty sure |
+| 7 | Nuphar 2 |  |  |  |  | enemy | ✓ | nonexistant pretty sure |
 
 ## Room Images
 

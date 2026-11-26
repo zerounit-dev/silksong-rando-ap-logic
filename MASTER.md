@@ -10086,7 +10086,7 @@ One of the small craw here is an impostor
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | left section | [Greymoor Halfway Home Exterior (Greymoor_03)](#room-greymoor--greymoor-halfway-home-exterior) | LR | nothing |  | Verified | ✓ |  |
-| R | right | center section | [Greymoor West Bellshrine Room (Greymoor_01)](#room-greymoor--greymoor-west-bellshrine-room) | LL | nothing |  | Verified | ✓ |  |
+| R | right | right section | [Greymoor West Bellshrine Room (Greymoor_01)](#room-greymoor--greymoor-west-bellshrine-room) | LL | nothing |  | Verified | ✓ |  |
 | D | down | down and under | [Greymoor Bone Scroll Room (Greymoor_21)](#room-greymoor--greymoor-bone-scroll-room) | T | nothing |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -10378,7 +10378,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ST | swim transition | entrance section | bug resting place | swim OR (clawline right x 2 AND hard [flintslate] stall) |  | Verified | ✓ | i do not habe the skill to test more stalls in here |
+| ST | swim transition | entrance section | bug resting place | swim OR (clawline right x 2 AND (hard [flintslate] stall OR hard [hunter, reaper, wanderer, beast, architect, witch] bind stall)) |  | Verified | ✓ | i do not habe the skill to test more stalls in here |
 | ST | swim transition | bug resting place | entrance section | swim AND (ledge grab left OR cling grip left OR faydown cloak) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -10566,7 +10566,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TBM | Top to Bottom Middle | Top Section | Bottom Right Section | prereq tied airstream |  | Verified | ✓ |  |
 | TBM | Top to Bottom Middle | Bottom Right Section | Top Section | (Drifters Cloak OR Silk Soar OR (Faydown AND Cling Grip right)) AND prereq tied airstream |  | Verified | ✓ |  |
-| TRB | Top Right to Bottom Right | Bottom Right Section | Top Right Section | Ledge Grab left OR Faydown OR cling grip left OR easy shaman pogo OR easy flea brew stall OR (cling grip right AND (clawline left x 1 OR sharpdart x 1)) OR medium [hunter, wanderer] voltwater pogo x 2 OR hard [hunter,wanderer] voltwater pogo x 1 |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11 |
+| TRB | Top Right to Bottom Right | Bottom Right Section | Top Right Section | Ledge Grab left OR Faydown OR cling grip left OR easy shaman pogo OR easy flea brew stall OR (cling grip right AND (clawline left x 1 OR sharpdart x 1)) OR medium [hunter, wanderer] voltwater pogo x 2 OR hard [hunter,wanderer] voltwater pogo x 1 OR easy [beast] bind stall |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11 =========== i dont have the skill to test more stalls so stall crusade is needed in here - Isssma 26/11 |
 | TRB | Top Right to Bottom Right | Top Right Section | Bottom Right Section | nothing (Fall) |  | Verified | ✓ |  |
 | BC | Bottom Crossing | Bottom Left Section | Bottom Right Section | Dash right OR Sprint right OR Ledge Grab right OR Silk Soar OR Faydown OR Clawline right x 1 OR Cling Grip right OR easy flea brew stall OR sharpdart x 1 OR drifters cloak OR easy beast needle strike OR easy beast pogo OR easy architect needle strike OR easy [hunter, wanderer] voltwater pogo x 1 |  | Verified | ✓ | swim is possible but like other greymoor spots, clearing tied airstream removes the swim option |
 | BC | Bottom Crossing | Bottom Right Section | Bottom Left Section | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR silk soar OR swim OR faydown cloak OR (flea brew AND (ledge grab left OR cling grip left OR prereq tied airstream)) OR easy beast needle strike OR drifters cloak OR easy beast pogo OR easy architect needle strike OR easy [hunter, wanderer] voltwater pogo x 1 |  | Verified | ✓ | Voltvessel water pogo crusade was here 17/11 |
@@ -13451,7 +13451,7 @@ https://discord.com/channels/731205301247803413/1540758118361727056/157229937493
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | RP | RightPinstress | Right Entrance | Pinstress | (Clawline both x 8 AND proficient movement (fifth clawline can be shoot onto the balloon)) OR (Clawline both AND silkhearts x 1)  OR Clawline both x 12  OR (clawline left x 4 AND drifters AND proficient movement (third clawline cam be shoot onto baloon)) OR (Flea Brew jump AND ((Dash both AND Ledge Grab both) OR (Easy Beast Crest Pogo AND Ledge Grab both))) OR (Dash left AND (run right AND ledge grab both AND (drifters OR sharpdart))) OR ((Dash left OR clawline left x 7) AND clawline right x 3 AND ledge grab left) OR (run right AND clawline left x 8 AND drifters AND ledge grab right) OR (Faydown AND (drifters OR run left OR flea brew jump OR clawline left x 2 OR easy [beast,architect] pogo OR easy [voltvessels] stall x 3 OR medium [flintslate] stall x 4 OR sharpdart x 2)) OR (Faydown AND Ledge grab left AND ((medium [hunter] pogo) OR (medium [flintslate] stall x 4) OR easy [shaman] pogo)) OR (Dash both AND medium [Beast] Pogo (pogo balloon from underneath, then right)) OR ((Dash left OR clawline left x 5 OR faydown) AND (medium [Shaman] Pogo (pogo balloon from underneath, then up))) OR (run left AND clawline right AND silkhearts x 1 AND ledge grab left AND easy [voltvessels, flea brew, plasmium] stall x 3) OR (run both AND ledge grab both AND (drifters OR sharpdart) AND easy [voltvessels, flea brew, plasmium] stall x 3) OR (Silk Soar AND (Progressive Swift Step 2 left OR clawline left x 5))  OR (Silk Soar AND Faydown Cloak AND silkhearts x 1 AND ((hard [hunter,reaper,wanderer,witch] reserve bind stall) OR (medium [thread storm,cross stitch,pale nails] stall x 3))) |  | Verified | ✓ | This is Skai's logic, not Maya's. don't blame me  okay, i'll do it ~Hutyrix you can blame me. |
 | PT | PinstressTop | Pinstress | Top Entrance | (((Clawline both x 7 AND silkhearts x 1) OR (Clawline both x 12) OR (easy [beast] pogo AND Clawline both x 5 AND silkhearts x 1) OR (easy [beast] pogo AND Clawline both x 10)) AND (Cling Grip both OR medium Scuttlebrace)) OR (silk soar AND Silkhearts x 1 ) OR (cling grip left AND faydown AND clawline both x 6) OR (cling grip left AND drifters AND clawline left x 5) |  | Verified | ✓ | Pretty good can be better can be done with just silk soar |
-| PT | PinstressTop | Top Entrance | Pinstress | silk soar OR drifters  OR dash right OR clawline right OR easy [hunter,beast,architect] pogo  OR (medium shaman pogo AND proficient movement (fall down, then pogo balloon)) OR (faydown cloak AND proficient movement (fall down, then pogo balloon)) OR sharpdart  OR easy [voltvessels,plasmium,flea brew] stall x 4 OR medium flea brew stall x 3 OR medium flintslate stall x 5 OR hard [pale nails, thread storm] stall x 5 OR hard cross stitch stall x 6 |  | Verified | ✓ | First logic ever written in zerounit website by Hutyrix, 15/11/26 |
+| PT | PinstressTop | Top Entrance | Pinstress | silk soar OR drifters  OR dash right OR clawline right OR easy [hunter,beast,architect] pogo  OR (medium shaman pogo AND proficient movement (fall down, then pogo balloon)) OR (faydown cloak AND proficient movement (fall down, then pogo balloon)) OR sharpdart  OR easy [voltvessels,plasmium,flea brew] stall x 4 OR medium flea brew stall x 3 OR medium flintslate stall x 5 OR hard [pale nails, thread storm] stall x 5 OR hard cross stitch stall x 6 OR easy naked pogo |  | Verified | ✓ | First logic ever written in zerounit website by Hutyrix, 15/11/26 |
 | RP | RightPinstress | Pinstress | Right Entrance | drifters  OR run right OR clawline right x 4 OR sharpdart x 4 OR medium flea brew stall x 4 OR (Faydown AND (easy [hunter,beast,architect] pogo OR medium [reaper,witch,shaman] pogo OR easy wanderer charge OR flea brew jump OR sharpdart OR clawline right x 1 OR easy [reaper,wanderer,witch] heal stall OR easy [voltvessels,flea brew, flintslate, thread storm, parry, rune rage, pale nails] stall)) OR (Silk soar AND (medium [voltvessels,plasmium] stall x 6 OR (medium voltvessels stall x 3 AND medium plasmium stall x 3))) OR (easy beast pogo AND (easy hazard respawn OR easy [flea brew,plasmium,voltvessels,parry,rune rage,air heal, flintslate,pale nails,thread storm] stall )) |  | Verified | ✓ | Hutyrix's logic, was none before (humble ER betatesters crying in the corner) |
 
 #### Check Locations
@@ -13863,7 +13863,7 @@ No subroom connections defined.
 
 **Game ID:** Dust_Chef
 
-**Contributors:** herchey and some pop-tarts
+**Contributors:** herchey, hutyrix and some pop-tarts
 
 #### Subrooms
 
@@ -13877,16 +13877,16 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left | lower | [Sinner's Road Hanging Cages (Dust_04)](#room-sinner-s-road--sinner-s-road-hanging-cages) | R | prereq Unlock the Kitchen Deadbolt |  | Verified | ✓ |  |
+| L | left | lower | [Sinner's Road Hanging Cages (Dust_04)](#room-sinner-s-road--sinner-s-road-hanging-cages) | R | prereq Unlock the Kitchen Deadbolt  OR (elite ball knowledge AND   ([reaper,witch,architect,shaman] attack right OR easy [hunter,wanderer,beast] charge OR (easy beast heal stall AND beast longclaw right))) |  | Verified | ✓ | ebk shouldn't be considered outside entrance randomizer, because Dust_04 prereq unlock stays the same -Hutyrix 11/26 |
 | H | hatch | basement | [Sinner's Road Muckroach Cages (Dust_03)](#room-sinner-s-road--sinner-s-road-muckroach-cages) | C | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LU | lower to upper | lower | upper | faydown cloak OR silk soar |  | Verified | ✓ |  |
+| LU | lower to upper | lower | upper | faydown cloak OR silk soar x 1  OR (cbt shaman pogo AND cbt pale nails stall x 3 AND ledge grab right) |  | Verified | ✓ | Could be better. don't want to include cling grip right for now -Hutyrix 11/26/26 |
 | LU | lower to upper | upper | lower | none |  | Verified | ✓ |  |
-| BL | basement to lower | basement | lower | scuttlebrace OR cling grip either OR silk soar |  | Verified | ✓ |  |
+| BL | basement to lower | basement | lower | scuttlebrace OR cling grip either OR silk soar x 1 OR (faydown AND ledge grab left) OR (medium pale nails stall x 1 AND medium shaman pogo AND faydown) |  | Verified | ✓ |  |
 | BL | basement to lower | lower | basement | invalid (true one-way) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -13901,6 +13901,10 @@ No subroom connections defined.
 | 6 | Roachserver 3 | upper | invalid |  | Verified | enemy | ✓ | Just fucks off as soon as the fight starts and never comes back. |
 | 7 | Roachserver 4 | upper | invalid |  | Verified | enemy | ✓ | WHERE  these are the background dudes; you can't fight them - hero, 10/29 |
 | 8 | Roachserver 5 | upper | invalid |  | Verified | enemy | ✓ | WHERE  these are the background dudes; you can't fight them - hero, 10/29 |
+
+#### Notes
+
+minor overhaul (faydown leftledge, various shaman techs) - hutyrix, 11/26/26
 
 <a name="room-sinner-s-road--sinner-s-road-entrance"></a>
 
@@ -14104,7 +14108,7 @@ No check locations defined.
 
 **Game ID:** Dust_03
 
-**Contributors:** Gallos,herchey and NOT these shitty muckroaches
+**Contributors:** Gallos, hutyrix, herchey and NOT these shitty muckroaches
 
 #### Subrooms
 
@@ -14118,7 +14122,7 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](#room-sinner-s-road--sinner-s-road-chef-s-kitchen) | H | ((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar |  | Verified | ✓ |  |
+| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](#room-sinner-s-road--sinner-s-road-chef-s-kitchen) | H | ((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar x 2 OR ((medium pogo off roachfeeder OR easy scuttlebrace) AND faydown) |  | Verified | ✓ |  |
 | LR | lower right | right half | [Sinner's Road Spike Basement (Dust_Barb)](#room-sinner-s-road--sinner-s-road-spike-basement) | C | none |  | Verified | ✓ |  |
 | L | left | left half | [Sinner's Road Vertical Hall West (Dust_02)](#room-sinner-s-road--sinner-s-road-vertical-hall-west) | LR | none |  | Verified | ✓ |  |
 
@@ -14127,7 +14131,7 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LR | left to right | left half | right half | none |  | Verified | ✓ |  |
-| LR | left to right | right half | left half | Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR  scuttlebrace |  | Verified | ✓ |  |
+| LR | left to right | right half | left half | Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | LA | left to attic | left half | attic | Silk soar OR ledge grab either OR cling grip either OR faydown cloak OR easy pogo off roachfeeder OR easy scuttlebrace |  | Verified | ✓ |  |
 | LA | left to attic | attic | left half | none |  | Verified | ✓ |  |
 | RA | right to attic | right half | attic | silk soar OR cling grip either OR easy scuttlebrace OR (faydown AND ledge grab left) OR easy pogo off roachfeeder |  | Verified | ✓ |  |
@@ -14168,6 +14172,8 @@ No check locations defined.
 #### Notes
 
 this room has a few disabled battle scenes which is why there are so many disabled and invalid enemies - hero, 10/29
+
+minor overhaul - hutyrix, 11/26/26
 
 <a name="room-sinner-s-road--sinner-s-road-north-hall"></a>
 
@@ -15640,7 +15646,7 @@ Rest in peace Rebel's original subroom names, very on point descriptions of this
 | 5 | Underworks: Shell Shard Cache #2 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
 | 6 | Underworks: Shell Shard Cache #3 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
 | 7 | Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified | collectible | ✓ |  |
-| 8 | Underworks Silk Spool Wall | Silk Spool | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 8 | Underworks Silk Spool Wall | Bottom | Break Wall Left |  | Verified | blockade | ✓ | Fixed subroom assignment - Morch |
 | 9 | Memory Orb Challenge (1) |  |  | TODO |  |  | ✓ | what the hell is this? |
 | 10 | Underloft 1 | Bottom | nada |  | Verified | enemy | ✓ |  |
 | 11 | Underloft 2 | Upper Right | free |  | Verified | enemy | ✓ |  |
@@ -16031,7 +16037,7 @@ floor connection that is seemingly not in game
 | TOT | Top to Overtop | Overtop | Top | Nothing. (Fall) |  | Verified | ✓ |  |
 | TOT | Top to Overtop | Top | Overtop | cling grip Left OR faydown cloak OR Silk Soar OR  (Activate Snapping Floor AND (Cling Grip Right)) |  | Verified | ✓ |  |
 | FT | Falling from Top | Top | Mid | Activate Flick This To Say "I HATE THIS ROOM!" |  | Verified | ✓ | falling |
-| FT | Falling from Top | Mid | Top | Silk Soar OR Cling Grip Right OR  (Medium Scuttlebrace AND  (Faydown Cloak AND Ledge Grab Right)) OR  (Cling Grip Left AND Run Left AND Faydown Cloak) |  | Verified | ✓ |  |
+| FT | Falling from Top | Mid | Top | Activate Flick This To Say "I HATE THIS ROOM!" AND (Silk Soar OR Cling Grip Right OR  (Medium Scuttlebrace AND  (Faydown Cloak AND Ledge Grab Right)) OR  (Cling Grip Left AND Run Left AND Faydown Cloak)) |  | Verified | ✓ | missing lever req - Gallos 11/26 |
 | FT2 | Falling from Top 2 | Top | Lever | none (Fall) |  | Verified | ✓ |  |
 | FT2 | Falling from Top 2 | Lever | Top | Silk Soar OR Cling Grip Right OR  (Medium Scuttlebrace AND  (Faydown Cloak AND Ledge Grab Right)) OR  (Cling Grip Left AND Faydown Cloak) |  | Verified | ✓ |  |
 | TOD | This Other Dude | Top | This Other Guy Too | Nothing (Fall, aggro enemy) |  | Verified | ✓ |  |
@@ -16098,7 +16104,7 @@ floor connection that is seemingly not in game
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Left <> Arena | Left Entry | Arena | Nothing |  | Verified | ✓ |  |
+| LA | Left <> Arena | Left Entry | Arena | Clear Steam Gauntlet |  | Verified | ✓ | steam wall till gauntlet done |
 | LA | Left <> Arena | Arena | Left Entry | Clear Steam Gauntlet |  | Verified | ✓ |  |
 | RA | Right <> Arena | Right Entry | Arena | Nothing |  | Verified | ✓ |  |
 | RA | Right <> Arena | Arena | Right Entry | Clear Steam Gauntlet |  | Verified | ✓ |  |
@@ -21612,7 +21618,7 @@ No subroom connections defined.
 
 **Game ID:** Shadow_01
 
-**Contributors:** Herchey, Hutyrix and Red (his cat)
+**Contributors:** Hutyrix, Herchey and Red (his cat)
 
 #### Subrooms
 
@@ -22272,18 +22278,18 @@ MAJOR rework 22/11/26 - Hutyrix
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ML | middle to left | middle | left | none (fall) |  | Verified | ✓ |  |
-| ML | middle to left | left | middle | cling grip either OR (faydown AND ledge grab left AND medium beast reserve bind stall) |  | Verified | ✓ |  |
+| ML | middle to left | left | middle | cling grip either  OR (faydown cloak AND easy scuttlebrace AND (ledge grab right OR (clawline right x 1 AND proficient movement)))  OR (faydown cloak AND medium scuttlebrace AND (drifters cloak OR clawline left x 1) AND (ledge grab right OR (clawline right x 1 AND proficient movement))) |  | Verified | ✓ |  |
 | MR | middle to right | middle | volt | none (fall) |  | Verified | ✓ |  |
-| MR | middle to right | volt | middle | cling grip either OR easy silk soar cancel OR (faydown AND ledge grab left AND medium beast reserve bind stall) |  | Verified | ✓ |  |
+| MR | middle to right | volt | middle | cling grip either OR easy silk soar cancel OR (faydown AND ledge grab left)  OR (easy scuttlebrace AND (drifters cloak OR clawline right x 1) AND (ledge grab left OR faydown cloak)) |  | Verified | ✓ |  |
 | HF | huge flea | upper | middle | none (fall) |  | Verified | ✓ |  |
-| HF | huge flea | middle | upper | cling grip either OR ledge grab either OR faydown OR silk soar OR easy [beast,shaman] pogo OR easy beast charge OR easy [plasmium,voltvessels] stall OR medium beast bind stall OR hard bind stall |  | Verified | ✓ |  |
+| HF | huge flea | middle | upper | cling grip either OR ledge grab either OR faydown OR silk soar OR easy scuttlebrace OR easy [beast,shaman] pogo  OR easy [plasmium,flea brew] stall OR medium beast bind stall OR hard bind stall OR silksoar x 1 OR easy beast needle strike |  | Verified | ✓ | heric: someone listed a hard bind stall and im prob just bad but couldnt recreate |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Big flea wall | left | nada |  | Verified | blockade | ✓ | custom name |
-| 2 | Flea: Memorium - Huge Flea | upper | cling grip either OR ledge grab either OR faydown OR silk soar OR easy shaman pogo OR easy beast charge OR medium beast bind stall OR easy plasmium stall   OR easy [pimpillo,thread storm] use OR easy curveclaw use x 2 OR medium voltvessels use x 2 OR medium [throwing ring,threefold pin,pale nails] use x 4 OR hard [silkshot twelfth architect] use x 4 |  | Verified | collectible | ✓ | either reach the actual flea platform      or break the cage from below |
+| 2 | Flea: Memorium - Huge Flea | upper | cling grip either OR ledge grab either OR faydown OR silk soar OR easy shaman pogo OR easy beast charge OR medium beast bind stall OR easy plasmium stall OR easy scuttlebrace  OR easy [pimpillo,thread storm] use OR easy curveclaw use x 2 OR medium voltvessels use x 2 OR medium [throwing ring,threefold pin,pale nails] use x 4 OR hard [silkshot twelfth architect] use x 4 |  | Verified | collectible | ✓ | either reach the actual flea platform      or break the cage from below |
 | 3 | Huge Flea 1 | upper |  |  |  | enemy | ✓ |  |
 
 <a name="room-memorium--memorium-bench"></a>
@@ -22421,9 +22427,9 @@ MAJOR rework 22/11/26 - Hutyrix
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| tf | top/fragment | Top | Fragment | clawline AND faydown cloak AND dash AND cling grip AND drifter's cloak |  | Verified | ✓ | clawline AND faydown cloak AND precise movement OR dash AND faydown cloak AND cling grip AND (precise movement OR drifter's cloak) with precise movement clause |
+| tf | top/fragment | Top | Fragment | (Faydown cloak AND (easy scuttlebrace AND (clawline both x 3)))   OR  (Faydown cloak AND (cling grip right AND (elite ball knowledge OR(proficient movement AND  (run right OR clawline right x 1 ) AND (clawline left x 1 OR dash left))))) |  | Verified | ✓ |  |
 | fb | fragment/bottom | Fragment | Bottom | nada |  | Verified | ✓ |  |
-| fb | fragment/bottom | Bottom | Fragment | silk soar OR cling grip OR (faydown cloak AND ledge grab AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge grab OR easy shaman pogo OR easy architect pogo OR easy wanderer pogo OR easy reaper pogo OR medium hunter pogo OR easy beast pogo)) |  | Verified | ✓ | Room is blind unless dark stuff is removed |
+| fb | fragment/bottom | Bottom | Fragment | silk soar OR cling grip left OR (faydown cloak AND ledge grab either AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge  grab either OR easy [reaper, shaman, wanderer,architect,witch,beast] pogo OR medium hunter pogo OR easy plasmium stall)) |  | Verified | ✓ | Room is blind unless dark stuff is removed |
 
 #### Check Locations
 
@@ -22431,11 +22437,11 @@ MAJOR rework 22/11/26 - Hutyrix
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Spool Fragment | Fragment | none |  | Verified | collectible | ✓ |  |
 | 2 | Memorium Mossy wall | Bottom | none |  | Verified | blockade |  | custom name |
-| 3 | Massive Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Massive Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
-| 6 | Nuphar 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Nuphar 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Massive Mossgrub 1 | Bottom | none |  | Verified | enemy | ✓ |  |
+| 4 | Mossgrub 1 | Bottom | nada |  | Verified | enemy | ✓ |  |
+| 5 | Massive Mossgrub 2 | Bottom | zilch |  | Verified | enemy | ✓ |  |
+| 6 | Nuphar 1 |  |  |  |  | enemy | ✓ | nonexistant pretty sure |
+| 7 | Nuphar 2 |  |  |  |  | enemy | ✓ | nonexistant pretty sure |
 
 <a name="room-memorium--memorium-puzzle"></a>
 
@@ -23237,6 +23243,10 @@ No subroom connections defined.
 | 3 | Bellway Rosary Lock |  | spend 40 rosaries |  | Verified | lock |  |  |
 | 4 | Slab - Bellway Bench |  | none |  | Verified | bench | ✓ |  |
 
+#### Notes
+
+gonna add subrooms here
+
 <a name="room-the-slab--slab-cave-entrance"></a>
 
 ### Slab Cave Entrance (Slab_08)
@@ -23911,12 +23921,12 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RU | Right Upper | Right | Upper | silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace |  | Verified |  |  |
-| RU | Right Upper | Upper | Right | none (falling) |  | Verified |  |  |
-| RM | Mid Right | Mid | Right | cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left)) |  | Verified |  | scuttlebrace on the right does not go high enough |
-| RM | Mid Right | Right | Mid | none (falling) |  | Verified |  |  |
-| BM | Mid Bottom | Mid | Bottom | none (falling) |  | Verified |  |  |
-| BM | Mid Bottom | Bottom | Mid | silk soar OR scuttlebrace OR cling grip any OR (faydown cloak AND ledge grab any) |  | Verified |  |  |
+| RU | Right Upper | Right | Upper | silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace |  | Verified | ✓ |  |
+| RU | Right Upper | Upper | Right | none (falling) |  | Verified | ✓ |  |
+| RM | Mid Right | Mid | Right | cling grip right OR easy scuttlebrace OR (faydown AND cling grip left) |  | Verified | ✓ | scuttlebrace on the right does not go high enough |
+| RM | Mid Right | Right | Mid | none (falling) |  | Verified | ✓ |  |
+| BM | Mid Bottom | Mid | Bottom | none (falling) |  | Verified | ✓ |  |
+| BM | Mid Bottom | Bottom | Mid | silk soar OR scuttlebrace OR cling grip any  OR (faydown cloak AND (ledge grab any  OR medium beast reserve bind stall  OR (easy beast bind stall AND medium plasmium stall)  OR (medium reserve bind stall AND hard plasmium stall) OR easy enemy pogo off drapemite)) OR (medium enemy pogo off drapemite AND ((ledge grab either AND easy [wanderer,shaman,reaper,witch,architect] pogo) OR medium shaman pogo)) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -24130,7 +24140,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Shell shard cache #1 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
 | 2 | Mount Fay - Shell shard cache #2 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
-| 3 | The Slab - Spool Fragment | Slab Spool Room | cling grip Either OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ | Duplicate check name for spool fragment?   the one shown in "Slab flea prison" was a placeholder till i did this room, remove other one if still present - Pyxl |
+| 3 | The Slab - Spool Fragment | Slab Spool Room | silk soar OR cling grip left OR (cling grip right AND (proficient movement OR faydown)) OR (faydown AND easy scuttlebrace) |  | Verified | collectible | ✓ | Duplicate check name for spool fragment?   the one shown in "Slab flea prison" was a placeholder till i did this room, remove other one if still present - Pyxl |
 | 4 | Breakable Wall - Mount Fay Entrance | Upper Left Exit | None |  | Verified | blockade | ✓ |  |
 | 5 | Driftlin 1 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Air Bind Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
 | 6 | Driftlin 2 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Air Bind Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
@@ -25397,7 +25407,7 @@ Minor overhaul 11/23/26 - faydown, crest pogo, stalls and scuttlebrace support -
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Ledge | [Coral Tower Entrance (Coral_28)](#room-sands-of-karak--coral-tower-entrance) | R | defeat THE Boss: Raging Conchfly |  | Verified | ✓ |  |
+| L | left1 | Left Ledge | [Coral Tower Entrance (Coral_28)](#room-sands-of-karak--coral-tower-entrance) | R | defeat THE Boss: Raging Conchfly |  | Verified | ✓ | This is corect and important for souls/credit rando - Moriko |
 | R | right1 | Right Ledge | [Sands of Karak Tall Centre Room (Coral_35b)](#room-sands-of-karak--sands-of-karak-tall-centre-room) | UL | None |  | Verified | ✓ |  |
 
 #### Subroom Connections

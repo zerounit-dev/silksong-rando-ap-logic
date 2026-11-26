@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_03
 
-**Contributors:** Gallos,herchey and NOT these shitty muckroaches
+**Contributors:** Gallos, hutyrix, herchey and NOT these shitty muckroaches
 
 ## Subrooms
 
@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | H | ((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar |  | Verified | ✓ |  |
+| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | H | ((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar x 2 OR ((medium pogo off roachfeeder OR easy scuttlebrace) AND faydown) |  | Verified | ✓ |  |
 | LR | lower right | right half | [Sinner's Road Spike Basement (Dust_Barb)](sinner-s-road-spike-basement.md) | C | none |  | Verified | ✓ |  |
 | L | left | left half | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | LR | none |  | Verified | ✓ |  |
 
@@ -25,7 +25,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LR | left to right | left half | right half | none |  | Verified | ✓ |  |
-| LR | left to right | right half | left half | Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR  scuttlebrace |  | Verified | ✓ |  |
+| LR | left to right | right half | left half | Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | LA | left to attic | left half | attic | Silk soar OR ledge grab either OR cling grip either OR faydown cloak OR easy pogo off roachfeeder OR easy scuttlebrace |  | Verified | ✓ |  |
 | LA | left to attic | attic | left half | none |  | Verified | ✓ |  |
 | RA | right to attic | right half | attic | silk soar OR cling grip either OR easy scuttlebrace OR (faydown AND ledge grab left) OR easy pogo off roachfeeder |  | Verified | ✓ |  |
@@ -66,6 +66,8 @@
 ## Notes
 
 this room has a few disabled battle scenes which is why there are so many disabled and invalid enemies - hero, 10/29
+
+minor overhaul - hutyrix, 11/26/26
 
 ## Room Images
 

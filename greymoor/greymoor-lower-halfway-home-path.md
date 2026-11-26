@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | left section | [Greymoor Halfway Home Exterior (Greymoor_03)](greymoor-halfway-home-exterior.md) | LR | nothing |  | Verified | ✓ |  |
-| R | right | center section | [Greymoor West Bellshrine Room (Greymoor_01)](greymoor-west-bellshrine-room.md) | LL | nothing |  | Verified | ✓ |  |
+| R | right | right section | [Greymoor West Bellshrine Room (Greymoor_01)](greymoor-west-bellshrine-room.md) | LL | nothing |  | Verified | ✓ |  |
 | D | down | down and under | [Greymoor Bone Scroll Room (Greymoor_21)](greymoor-bone-scroll-room.md) | T | nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections

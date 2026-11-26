@@ -39,7 +39,7 @@
 | TOT | Top to Overtop | Overtop | Top | Nothing. (Fall) |  | Verified | ✓ |  |
 | TOT | Top to Overtop | Top | Overtop | cling grip Left OR faydown cloak OR Silk Soar OR  (Activate Snapping Floor AND (Cling Grip Right)) |  | Verified | ✓ |  |
 | FT | Falling from Top | Top | Mid | Activate Flick This To Say "I HATE THIS ROOM!" |  | Verified | ✓ | falling |
-| FT | Falling from Top | Mid | Top | Silk Soar OR Cling Grip Right OR  (Medium Scuttlebrace AND  (Faydown Cloak AND Ledge Grab Right)) OR  (Cling Grip Left AND Run Left AND Faydown Cloak) |  | Verified | ✓ |  |
+| FT | Falling from Top | Mid | Top | Activate Flick This To Say "I HATE THIS ROOM!" AND (Silk Soar OR Cling Grip Right OR  (Medium Scuttlebrace AND  (Faydown Cloak AND Ledge Grab Right)) OR  (Cling Grip Left AND Run Left AND Faydown Cloak)) |  | Verified | ✓ | missing lever req - Gallos 11/26 |
 | FT2 | Falling from Top 2 | Top | Lever | none (Fall) |  | Verified | ✓ |  |
 | FT2 | Falling from Top 2 | Lever | Top | Silk Soar OR Cling Grip Right OR  (Medium Scuttlebrace AND  (Faydown Cloak AND Ledge Grab Right)) OR  (Cling Grip Left AND Faydown Cloak) |  | Verified | ✓ |  |
 | TOD | This Other Dude | Top | This Other Guy Too | Nothing (Fall, aggro enemy) |  | Verified | ✓ |  |

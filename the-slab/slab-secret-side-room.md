@@ -26,12 +26,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RU | Right Upper | Right | Upper | silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace |  | Verified |  |  |
-| RU | Right Upper | Upper | Right | none (falling) |  | Verified |  |  |
-| RM | Mid Right | Mid | Right | cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left)) |  | Verified |  | scuttlebrace on the right does not go high enough |
-| RM | Mid Right | Right | Mid | none (falling) |  | Verified |  |  |
-| BM | Mid Bottom | Mid | Bottom | none (falling) |  | Verified |  |  |
-| BM | Mid Bottom | Bottom | Mid | silk soar OR scuttlebrace OR cling grip any OR (faydown cloak AND ledge grab any) |  | Verified |  |  |
+| RU | Right Upper | Right | Upper | silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace |  | Verified | ✓ |  |
+| RU | Right Upper | Upper | Right | none (falling) |  | Verified | ✓ |  |
+| RM | Mid Right | Mid | Right | cling grip right OR easy scuttlebrace OR (faydown AND cling grip left) |  | Verified | ✓ | scuttlebrace on the right does not go high enough |
+| RM | Mid Right | Right | Mid | none (falling) |  | Verified | ✓ |  |
+| BM | Mid Bottom | Mid | Bottom | none (falling) |  | Verified | ✓ |  |
+| BM | Mid Bottom | Bottom | Mid | silk soar OR scuttlebrace OR cling grip any  OR (faydown cloak AND (ledge grab any  OR medium beast reserve bind stall  OR (easy beast bind stall AND medium plasmium stall)  OR (medium reserve bind stall AND hard plasmium stall) OR easy enemy pogo off drapemite)) OR (medium enemy pogo off drapemite AND ((ledge grab either AND easy [wanderer,shaman,reaper,witch,architect] pogo) OR medium shaman pogo)) |  | Verified | ✓ |  |
 
 ## Check Locations
 

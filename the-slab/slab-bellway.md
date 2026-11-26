@@ -29,6 +29,10 @@ No subroom connections defined.
 | 3 | Bellway Rosary Lock |  | spend 40 rosaries |  | Verified | lock |  |  |
 | 4 | Slab - Bellway Bench |  | none |  | Verified | bench | ✓ |  |
 
+## Notes
+
+gonna add subrooms here
+
 ## Room Images
 
 ### Connections

@@ -72,7 +72,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Shell shard cache #1 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
 | 2 | Mount Fay - Shell shard cache #2 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
-| 3 | The Slab - Spool Fragment | Slab Spool Room | cling grip Either OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ | Duplicate check name for spool fragment?   the one shown in "Slab flea prison" was a placeholder till i did this room, remove other one if still present - Pyxl |
+| 3 | The Slab - Spool Fragment | Slab Spool Room | silk soar OR cling grip left OR (cling grip right AND (proficient movement OR faydown)) OR (faydown AND easy scuttlebrace) |  | Verified | collectible | ✓ | Duplicate check name for spool fragment?   the one shown in "Slab flea prison" was a placeholder till i did this room, remove other one if still present - Pyxl |
 | 4 | Breakable Wall - Mount Fay Entrance | Upper Left Exit | None |  | Verified | blockade | ✓ |  |
 | 5 | Driftlin 1 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Air Bind Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
 | 6 | Driftlin 2 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Air Bind Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |

@@ -2,7 +2,7 @@
 
 **Game ID:** Shadow_01
 
-**Contributors:** Herchey, Hutyrix and Red (his cat)
+**Contributors:** Hutyrix, Herchey and Red (his cat)
 
 ## Subrooms
 

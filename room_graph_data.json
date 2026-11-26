@@ -121593,7 +121593,7 @@
           "name": "right",
           "in_game_id": "right1",
           "is_unsafe_arrival": false,
-          "source_node_id": "greymoor/greymoor-lower-halfway-home-path#center-section",
+          "source_node_id": "greymoor/greymoor-lower-halfway-home-path#right-section",
           "target": "greymoor/greymoor-west-bellshrine-room@ll",
           "requirement": {
             "raw": "nothing",
@@ -125326,7 +125326,7 @@
           "source_node_id": "greymoor/greymoor-bone-scroll-room#entrance-section",
           "target_node_id": "greymoor/greymoor-bone-scroll-room#bug-resting-place",
           "requirement": {
-            "raw": "swim OR (clawline right x 2 AND hard [flintslate] stall)",
+            "raw": "swim OR (clawline right x 2 AND (hard [flintslate] stall OR hard [hunter, reaper, wanderer, beast, architect, witch] bind stall))",
             "mode": "expression",
             "dnf": [
               [
@@ -125335,6 +125335,30 @@
               [
                 "capability:clawline:right:2",
                 "capability:stall:flintslate:hard:1"
+              ],
+              [
+                "capability:clawline:right:2",
+                "capability:bind-stall:hunter:hard"
+              ],
+              [
+                "capability:clawline:right:2",
+                "capability:bind-stall:reaper:hard"
+              ],
+              [
+                "capability:clawline:right:2",
+                "capability:bind-stall:wanderer:hard"
+              ],
+              [
+                "capability:clawline:right:2",
+                "capability:bind-stall:beast:hard"
+              ],
+              [
+                "capability:clawline:right:2",
+                "capability:bind-stall:architect:hard"
+              ],
+              [
+                "capability:clawline:right:2",
+                "capability:bind-stall:witch:hard"
               ]
             ],
             "unresolved_reasons": []
@@ -127257,7 +127281,7 @@
           "source_node_id": "greymoor/greymoor-entry-to-bellhart#bottom-right-section",
           "target_node_id": "greymoor/greymoor-entry-to-bellhart#top-right-section",
           "requirement": {
-            "raw": "Ledge Grab left OR Faydown OR cling grip left OR easy shaman pogo OR easy flea brew stall OR (cling grip right AND (clawline left x 1 OR sharpdart x 1)) OR medium [hunter, wanderer] voltwater pogo x 2 OR hard [hunter,wanderer] voltwater pogo x 1",
+            "raw": "Ledge Grab left OR Faydown OR cling grip left OR easy shaman pogo OR easy flea brew stall OR (cling grip right AND (clawline left x 1 OR sharpdart x 1)) OR medium [hunter, wanderer] voltwater pogo x 2 OR hard [hunter,wanderer] voltwater pogo x 1 OR easy [beast] bind stall ",
             "mode": "expression",
             "dnf": [
               [
@@ -127294,11 +127318,14 @@
               ],
               [
                 "technique:wanderer:hard:1"
+              ],
+              [
+                "capability:bind-stall:beast:easy"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "Voltvessel water pogo crusade was here 17/11",
+          "notes": "Voltvessel water pogo crusade was here 17/11\n===========\ni dont have the skill to test more stalls so stall crusade is needed in here\n- Isssma 26/11",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -163543,7 +163570,7 @@
           "source_node_id": "blasted-steps/windy-pinstress-entrance#top-entrance",
           "target_node_id": "blasted-steps/windy-pinstress-entrance#pinstress",
           "requirement": {
-            "raw": "silk soar\nOR drifters \nOR dash right\nOR clawline right\nOR easy [hunter,beast,architect] pogo \nOR (medium shaman pogo AND proficient movement (fall down, then pogo balloon))\nOR (faydown cloak AND proficient movement (fall down, then pogo balloon))\nOR sharpdart \nOR easy [voltvessels,plasmium,flea brew] stall x 4\nOR medium flea brew stall x 3\nOR medium flintslate stall x 5\nOR hard [pale nails, thread storm] stall x 5\nOR hard cross stitch stall x 6",
+            "raw": "silk soar\nOR drifters \nOR dash right\nOR clawline right\nOR easy [hunter,beast,architect] pogo \nOR (medium shaman pogo AND proficient movement (fall down, then pogo balloon))\nOR (faydown cloak AND proficient movement (fall down, then pogo balloon))\nOR sharpdart \nOR easy [voltvessels,plasmium,flea brew] stall x 4\nOR medium flea brew stall x 3\nOR medium flintslate stall x 5\nOR hard [pale nails, thread storm] stall x 5\nOR hard cross stitch stall x 6 OR easy naked pogo",
             "mode": "expression",
             "dnf": [
               [
@@ -163601,6 +163628,9 @@
               ],
               [
                 "capability:stall:cross-stitch:hard:6"
+              ],
+              [
+                "capability:naked-pogo:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -168263,8 +168293,8 @@
       "area_id": "sinner-s-road",
       "name": "Sinner's Road Chef's Kitchen",
       "in_game_id": "Dust_Chef",
-      "contributors": "herchey and some pop-tarts",
-      "notes": "",
+      "contributors": "herchey, hutyrix and some pop-tarts",
+      "notes": "minor overhaul (faydown leftledge, various shaman techs) - hutyrix, 11/26/26",
       "nodes": [
         {
           "id": "sinner-s-road/sinner-s-road-chef-s-kitchen#lower",
@@ -168292,16 +168322,49 @@
           "source_node_id": "sinner-s-road/sinner-s-road-chef-s-kitchen#lower",
           "target": "sinner-s-road/sinner-s-road-hanging-cages@r",
           "requirement": {
-            "raw": "prereq Unlock the Kitchen Deadbolt",
+            "raw": "prereq Unlock the Kitchen Deadbolt\n\nOR (elite ball knowledge AND \n\n([reaper,witch,architect,shaman] attack right OR easy [hunter,wanderer,beast] charge OR (easy beast heal stall AND beast longclaw right)))",
             "mode": "expression",
             "dnf": [
               [
                 "dependency:location:sinner-s-road/sinner-s-road-chef-s-kitchen::switch/unlock-the-kitchen-deadbolt"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:needle:reaper:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:needle:witch:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:needle:architect:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:needle:shaman:right"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:needle-strike-stall:hunter:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:needle-strike-stall:wanderer:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:needle-strike-stall:beast:easy"
+              ],
+              [
+                "setting:elite-ball-knowledge-on",
+                "capability:bind-stall:beast:easy",
+                "capability:longclaw:beast:right"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "ebk shouldn't be considered outside entrance randomizer, because Dust_04 prereq unlock stays the same\n-Hutyrix 11/26",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -168338,7 +168401,7 @@
           "source_node_id": "sinner-s-road/sinner-s-road-chef-s-kitchen#lower",
           "target_node_id": "sinner-s-road/sinner-s-road-chef-s-kitchen#upper",
           "requirement": {
-            "raw": "faydown cloak OR silk soar",
+            "raw": "faydown cloak OR silk soar x 1\n\nOR (cbt shaman pogo AND cbt pale nails stall x 3 AND ledge grab right)",
             "mode": "expression",
             "dnf": [
               [
@@ -168346,11 +168409,16 @@
               ],
               [
                 "capability:silk-soar:1"
+              ],
+              [
+                "capability:crest-pogo:shaman:cbt",
+                "capability:stall:pale-nails:cbt:3",
+                "capability:ledge-grab:right"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Could be better.\ndon't want to include cling grip right for now\n-Hutyrix 11/26/26",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -168383,7 +168451,7 @@
           "source_node_id": "sinner-s-road/sinner-s-road-chef-s-kitchen#basement",
           "target_node_id": "sinner-s-road/sinner-s-road-chef-s-kitchen#lower",
           "requirement": {
-            "raw": "scuttlebrace OR cling grip either OR silk soar",
+            "raw": "scuttlebrace OR cling grip either OR silk soar x 1 OR (faydown AND ledge grab left) OR (medium pale nails stall x 1 AND medium shaman pogo AND faydown)",
             "mode": "expression",
             "dnf": [
               [
@@ -168394,6 +168462,15 @@
               ],
               [
                 "capability:silk-soar:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:stall:pale-nails:medium:1",
+                "capability:crest-pogo:shaman:medium",
+                "capability:faydown-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -170770,8 +170847,8 @@
       "area_id": "sinner-s-road",
       "name": "Sinner's Road Muckroach Cages",
       "in_game_id": "Dust_03",
-      "contributors": "Gallos,herchey and NOT these shitty muckroaches",
-      "notes": "this room has a few disabled battle scenes which is why there are so many disabled and invalid enemies - hero, 10/29",
+      "contributors": "Gallos, hutyrix, herchey and NOT these shitty muckroaches",
+      "notes": "this room has a few disabled battle scenes which is why there are so many disabled and invalid enemies - hero, 10/29\n\nminor overhaul - hutyrix, 11/26/26",
       "nodes": [
         {
           "id": "sinner-s-road/sinner-s-road-muckroach-cages#left-half",
@@ -170799,7 +170876,7 @@
           "source_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#right-half",
           "target": "sinner-s-road/sinner-s-road-chef-s-kitchen@h",
           "requirement": {
-            "raw": "((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar",
+            "raw": "((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar x 2 OR ((medium pogo off roachfeeder OR easy scuttlebrace) AND faydown)",
             "mode": "expression",
             "dnf": [
               [
@@ -170815,7 +170892,15 @@
                 "capability:cling-grip:either"
               ],
               [
-                "capability:silk-soar:1"
+                "capability:silk-soar:2"
+              ],
+              [
+                "capability:enemy-type-pogo:Roachfeeder Tall:medium",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:faydown-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -170899,7 +170984,7 @@
           "source_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#right-half",
           "target_node_id": "sinner-s-road/sinner-s-road-muckroach-cages#left-half",
           "requirement": {
-            "raw": "Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR  scuttlebrace",
+            "raw": "Cling grip either OR ledge grab left OR silk soar OR run OR easy pogo off muckroach OR faydown cloak OR scuttlebrace OR easy shaman pogo",
             "mode": "expression",
             "dnf": [
               [
@@ -170922,6 +171007,9 @@
               ],
               [
                 "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -186367,7 +186455,7 @@
           "in_game_id": "plank_wall_cluster_metal (1)",
           "location_type": "blockade",
           "has_persisted_state": true,
-          "node_id": "underworks/underworks-silk-spool#silk-spool",
+          "node_id": "underworks/underworks-silk-spool#bottom",
           "requirement": {
             "raw": "Break Wall Left",
             "mode": "expression",
@@ -186378,7 +186466,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Fixed subroom assignment\n- Morch",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -189600,21 +189688,25 @@
           "source_node_id": "underworks/underworks-shaft#mid",
           "target_node_id": "underworks/underworks-shaft#top",
           "requirement": {
-            "raw": "Silk Soar OR Cling Grip Right OR \n(Medium Scuttlebrace AND \n(Faydown Cloak AND Ledge Grab Right)) OR \n(Cling Grip Left AND Run Left AND Faydown Cloak)",
+            "raw": "Activate Flick This To Say \"I HATE THIS ROOM!\" AND (Silk Soar OR Cling Grip Right OR \n(Medium Scuttlebrace AND \n(Faydown Cloak AND Ledge Grab Right)) OR \n(Cling Grip Left AND Run Left AND Faydown Cloak))",
             "mode": "expression",
             "dnf": [
               [
+                "dependency:location:underworks/underworks-shaft::switch/flick-this-to-say-i-hate-this-room",
                 "capability:silk-soar:1"
               ],
               [
+                "dependency:location:underworks/underworks-shaft::switch/flick-this-to-say-i-hate-this-room",
                 "capability:cling-grip:right"
               ],
               [
+                "dependency:location:underworks/underworks-shaft::switch/flick-this-to-say-i-hate-this-room",
                 "capability:scuttlebrace:medium",
                 "capability:faydown-cloak",
                 "capability:ledge-grab:right"
               ],
               [
+                "dependency:location:underworks/underworks-shaft::switch/flick-this-to-say-i-hate-this-room",
                 "capability:cling-grip:left",
                 "capability:sprint:left",
                 "capability:faydown-cloak"
@@ -189622,7 +189714,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "missing lever req - Gallos 11/26",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -190790,14 +190882,16 @@
           "source_node_id": "underworks/underworks-western-gauntlet#left-entry",
           "target_node_id": "underworks/underworks-western-gauntlet#arena",
           "requirement": {
-            "raw": "Nothing",
-            "mode": "none",
+            "raw": "Clear Steam Gauntlet",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "dependency:location:underworks/underworks-western-gauntlet::gauntlet/steam-gauntlet"
+              ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "steam wall till gauntlet done",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -241612,7 +241706,7 @@
       "area_id": "bilewater",
       "name": "Bilewater Upper Bloatroach Tower",
       "in_game_id": "Shadow_01",
-      "contributors": "Herchey, Hutyrix and Red (his cat)",
+      "contributors": "Hutyrix, Herchey and Red (his cat)",
       "notes": "MASSIVE OVERHAUL - 11/25/26 by Hutyrix",
       "nodes": [
         {
@@ -250445,7 +250539,7 @@
           "source_node_id": "memorium/beeg-flea#left",
           "target_node_id": "memorium/beeg-flea#middle",
           "requirement": {
-            "raw": "cling grip either OR (faydown AND ledge grab left AND medium beast reserve bind stall)",
+            "raw": "cling grip either \nOR (faydown cloak AND easy scuttlebrace AND (ledge grab right OR (clawline right x 1 AND proficient movement)))\n\nOR (faydown cloak AND medium scuttlebrace AND (drifters cloak OR clawline left x 1) AND (ledge grab right OR (clawline right x 1 AND proficient movement)))",
             "mode": "expression",
             "dnf": [
               [
@@ -250453,8 +250547,40 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:ledge-grab:left",
-                "capability:reserve-bind-stall:beast:medium"
+                "capability:scuttlebrace:easy",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:easy",
+                "capability:clawline:right:1",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:medium",
+                "capability:drifters-cloak",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:medium",
+                "capability:drifters-cloak",
+                "capability:clawline:right:1",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:medium",
+                "capability:clawline:left:1",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:medium",
+                "capability:clawline:left:1",
+                "capability:clawline:right:1",
+                "capability:proficient-movement"
               ]
             ],
             "unresolved_reasons": []
@@ -250492,7 +250618,7 @@
           "source_node_id": "memorium/beeg-flea#volt",
           "target_node_id": "memorium/beeg-flea#middle",
           "requirement": {
-            "raw": "cling grip either OR easy silk soar cancel OR (faydown AND ledge grab left AND medium beast reserve bind stall)",
+            "raw": "cling grip either OR easy silk soar cancel OR (faydown AND ledge grab left) \nOR (easy scuttlebrace AND (drifters cloak OR clawline right x 1) AND (ledge grab left OR faydown cloak))",
             "mode": "expression",
             "dnf": [
               [
@@ -250503,8 +250629,27 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:ledge-grab:left",
-                "capability:reserve-bind-stall:beast:medium"
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:drifters-cloak",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:drifters-cloak",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:clawline:right:1",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:clawline:right:1",
+                "capability:faydown-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -250542,7 +250687,7 @@
           "source_node_id": "memorium/beeg-flea#middle",
           "target_node_id": "memorium/beeg-flea#upper",
           "requirement": {
-            "raw": "cling grip either OR ledge grab either OR faydown OR silk soar OR easy [beast,shaman] pogo OR easy beast charge OR easy [plasmium,voltvessels] stall OR medium beast bind stall OR hard bind stall",
+            "raw": "cling grip either OR ledge grab either OR faydown OR silk soar OR easy scuttlebrace OR easy [beast,shaman] pogo  OR easy [plasmium,flea brew] stall OR medium beast bind stall OR hard bind stall OR silksoar x 1 OR easy beast needle strike",
             "mode": "expression",
             "dnf": [
               [
@@ -250558,30 +250703,36 @@
                 "capability:silk-soar:1"
               ],
               [
+                "capability:scuttlebrace:easy"
+              ],
+              [
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "capability:needle-strike-stall:beast:easy"
-              ],
-              [
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
-                "capability:stall:voltvessels:easy:1"
+                "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:bind-stall:beast:medium"
               ],
               [
                 "capability:bind-stall:none:hard"
+              ],
+              [
+                "capability:silk-soar:1"
+              ],
+              [
+                "capability:needle-strike-stall:beast:easy"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "heric: someone listed a hard bind stall and im prob just bad but couldnt recreate",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -250618,7 +250769,7 @@
           "has_persisted_state": true,
           "node_id": "memorium/beeg-flea#upper",
           "requirement": {
-            "raw": "cling grip either OR ledge grab either OR faydown OR silk soar OR easy shaman pogo OR easy beast charge OR medium beast bind stall OR easy plasmium stall \n\nOR easy [pimpillo,thread storm] use OR easy curveclaw use x 2 OR medium voltvessels use x 2 OR medium [throwing ring,threefold pin,pale nails] use x 4 OR hard [silkshot twelfth architect] use x 4",
+            "raw": "cling grip either OR ledge grab either OR faydown OR silk soar OR easy shaman pogo OR easy beast charge OR medium beast bind stall OR easy plasmium stall OR easy scuttlebrace\n\nOR easy [pimpillo,thread storm] use OR easy curveclaw use x 2 OR medium voltvessels use x 2 OR medium [throwing ring,threefold pin,pale nails] use x 4 OR hard [silkshot twelfth architect] use x 4",
             "mode": "expression",
             "dnf": [
               [
@@ -250644,6 +250795,9 @@
               ],
               [
                 "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:use-tool:pimpillo:easy:1"
@@ -251790,20 +251944,55 @@
           "source_node_id": "memorium/memorium-mossy#top",
           "target_node_id": "memorium/memorium-mossy#fragment",
           "requirement": {
-            "raw": "clawline AND faydown cloak AND dash AND cling grip AND drifter's cloak",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: clawline"
-            ]
+            "raw": "(Faydown cloak AND (easy scuttlebrace AND (clawline both x 3))) \n\nOR\n\n(Faydown cloak AND (cling grip right AND (elite ball knowledge OR(proficient movement AND  (run right OR clawline right x 1 ) AND (clawline left x 1 OR dash left)))))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:easy",
+                "capability:clawline:both:3"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right",
+                "setting:elite-ball-knowledge-on"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right",
+                "capability:proficient-movement",
+                "capability:sprint:right",
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right",
+                "capability:proficient-movement",
+                "capability:sprint:right",
+                "capability:dash:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right",
+                "capability:proficient-movement",
+                "capability:clawline:right:1",
+                "capability:clawline:left:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right",
+                "capability:proficient-movement",
+                "capability:clawline:right:1",
+                "capability:dash:left"
+              ]
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "clawline AND faydown cloak AND precise movement OR dash AND faydown cloak AND cling grip AND (precise movement OR drifter's cloak) with precise movement clause",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "memorium/memorium-mossy#fragment>bottom@fb",
@@ -251832,20 +252021,68 @@
           "source_node_id": "memorium/memorium-mossy#bottom",
           "target_node_id": "memorium/memorium-mossy#fragment",
           "requirement": {
-            "raw": "silk soar OR cling grip OR (faydown cloak AND ledge grab AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge grab OR easy shaman pogo OR easy architect pogo OR easy wanderer pogo OR easy reaper pogo OR medium hunter pogo OR easy beast pogo))",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: cling grip"
-            ]
+            "raw": "silk soar OR cling grip left OR (faydown cloak AND ledge grab either AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge  grab either OR easy [reaper, shaman, wanderer,architect,witch,beast] pogo OR medium hunter pogo OR easy plasmium stall))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar:1"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:either",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:ledge-grab:either"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:crest-pogo:wanderer:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:crest-pogo:witch:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:crest-pogo:hunter:medium"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:stall:plasmium-phial:easy:1"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "Room is blind unless dark stuff is removed",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "locations": [
@@ -251897,23 +252134,20 @@
           "in_game_id": "MossBone Crawler Fat (1)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "memorium/memorium-mossy#unassigned",
+          "node_id": "memorium/memorium-mossy#bottom",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:memorium/memorium-mossy::enemy/mossgrub-1",
@@ -251921,23 +252155,20 @@
           "in_game_id": "MossBone Crawler (1)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "memorium/memorium-mossy#unassigned",
+          "node_id": "memorium/memorium-mossy#bottom",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:memorium/memorium-mossy::enemy/massive-mossgrub-2",
@@ -251945,23 +252176,20 @@
           "in_game_id": "MossBone Crawler Fat",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "memorium/memorium-mossy#unassigned",
+          "node_id": "memorium/memorium-mossy#bottom",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "zilch",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:memorium/memorium-mossy::enemy/nuphar-1",
@@ -251978,7 +252206,7 @@
               "requirement is blank"
             ]
           },
-          "notes": "",
+          "notes": "nonexistant pretty sure",
           "is_todo": false,
           "is_verified": null,
           "logic_status": "unresolved",
@@ -252002,7 +252230,7 @@
               "requirement is blank"
             ]
           },
-          "notes": "",
+          "notes": "nonexistant pretty sure",
           "is_todo": false,
           "is_verified": null,
           "logic_status": "unresolved",
@@ -260223,7 +260451,7 @@
       "name": "Slab Bellway",
       "in_game_id": "Slab_06",
       "contributors": "MayaXTG, Gallos",
-      "notes": "",
+      "notes": "gonna add subrooms here",
       "nodes": [
         {
           "id": "the-slab/slab-bellway#room",
@@ -264655,15 +264883,14 @@
           "source_node_id": "the-slab/slab-secret-side-room#mid",
           "target_node_id": "the-slab/slab-secret-side-room#right",
           "requirement": {
-            "raw": "cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left))",
+            "raw": "cling grip right OR easy scuttlebrace OR (faydown AND cling grip left)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:right"
               ],
               [
-                "capability:faydown-cloak",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:faydown-cloak",
@@ -264725,7 +264952,7 @@
           "source_node_id": "the-slab/slab-secret-side-room#bottom",
           "target_node_id": "the-slab/slab-secret-side-room#mid",
           "requirement": {
-            "raw": "silk soar OR scuttlebrace OR cling grip any OR (faydown cloak AND ledge grab any)",
+            "raw": "silk soar OR scuttlebrace OR cling grip any \nOR (faydown cloak AND (ledge grab any \nOR medium beast reserve bind stall \nOR (easy beast bind stall AND medium plasmium stall) \nOR (medium reserve bind stall AND hard plasmium stall)\nOR easy enemy pogo off drapemite))\nOR (medium enemy pogo off drapemite AND ((ledge grab either AND easy [wanderer,shaman,reaper,witch,architect] pogo) OR medium shaman pogo))",
             "mode": "expression",
             "dnf": [
               [
@@ -264740,6 +264967,53 @@
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:any"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:reserve-bind-stall:beast:medium"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:bind-stall:beast:easy",
+                "capability:stall:plasmium-phial:medium:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:reserve-bind-stall:none:medium",
+                "capability:stall:plasmium-phial:hard:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Mite Heavy:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Mite Heavy:medium",
+                "capability:ledge-grab:either",
+                "capability:crest-pogo:wanderer:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Mite Heavy:medium",
+                "capability:ledge-grab:either",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Mite Heavy:medium",
+                "capability:ledge-grab:either",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Mite Heavy:medium",
+                "capability:ledge-grab:either",
+                "capability:crest-pogo:witch:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Mite Heavy:medium",
+                "capability:ledge-grab:either",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Mite Heavy:medium",
+                "capability:crest-pogo:shaman:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -267042,17 +267316,26 @@
           "has_persisted_state": true,
           "node_id": "mount-fay/mount-fay-entrance#slab-spool-room",
           "requirement": {
-            "raw": "cling grip Either OR Scuttlebrace OR Silk Soar",
+            "raw": "silk soar OR cling grip left OR (cling grip right AND (proficient movement OR faydown)) OR (faydown AND easy scuttlebrace)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:either"
-              ],
-              [
-                "capability:scuttlebrace:none"
-              ],
-              [
                 "capability:silk-soar:1"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -277682,7 +277965,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "This is corect and important for souls/credit rando\n- Moriko",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",

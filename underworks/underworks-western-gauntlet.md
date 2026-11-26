@@ -24,7 +24,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Left <> Arena | Left Entry | Arena | Nothing |  | Verified | ✓ |  |
+| LA | Left <> Arena | Left Entry | Arena | Clear Steam Gauntlet |  | Verified | ✓ | steam wall till gauntlet done |
 | LA | Left <> Arena | Arena | Left Entry | Clear Steam Gauntlet |  | Verified | ✓ |  |
 | RA | Right <> Arena | Right Entry | Arena | Nothing |  | Verified | ✓ |  |
 | RA | Right <> Arena | Arena | Right Entry | Clear Steam Gauntlet |  | Verified | ✓ |  |

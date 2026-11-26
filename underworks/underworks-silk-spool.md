@@ -50,7 +50,7 @@
 | 5 | Underworks: Shell Shard Cache #2 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
 | 6 | Underworks: Shell Shard Cache #3 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
 | 7 | Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified | collectible | ✓ |  |
-| 8 | Underworks Silk Spool Wall | Silk Spool | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 8 | Underworks Silk Spool Wall | Bottom | Break Wall Left |  | Verified | blockade | ✓ | Fixed subroom assignment - Morch |
 | 9 | Memory Orb Challenge (1) |  |  | TODO |  |  | ✓ | what the hell is this? |
 | 10 | Underloft 1 | Bottom | nada |  | Verified | enemy | ✓ |  |
 | 11 | Underloft 2 | Upper Right | free |  | Verified | enemy | ✓ |  |
