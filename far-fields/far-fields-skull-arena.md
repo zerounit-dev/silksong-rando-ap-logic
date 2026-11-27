@@ -45,19 +45,19 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Far Fields - Skull Arena - Shell Shard Cache | check alcove | none |  | Verified | collectible | ✓ | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? formerly shell shard cache far fields 8 |
 | 2 | Far Fields - Skull Arena - Mask Shard | mask alcove | none |  | Verified | collectible | ✓ | mask shard far fields skull cave |
-| 3 | gauntlet blast rock | arena | none (attack) |  | Verified | logic-point | ✓ | cry - breaking this blast rock initiates the gauntlet |
-| 4 | Gauntlet | arena | Combat Requirements |  | Verified | gauntlet |  |  |
-| 5 | Beastfly 1 | arena | none |  | Verified | enemy | ✓ |  |
-| 6 | Beastfly 2 | arena | none |  | Verified | enemy | ✓ |  |
-| 7 | Tarmite 1 | arena | none |  | Verified | enemy | ✓ |  |
-| 8 | Vicious Caranid 1 | arena | none |  | Verified | enemy | ✓ |  |
-| 9 | Vicious Caranid 2 | arena | none |  | Verified | enemy | ✓ |  |
-| 10 | Tarmite 2 | arena | none |  | Verified | enemy | ✓ |  |
-| 11 | Tarmite 3 | arena | none |  | Verified | enemy | ✓ |  |
-| 12 | Tarmite 4 | dungeon descent | none |  | Verified | enemy | ✓ |  |
-| 13 | Tarmite 5 | dungeon descent | none |  | Verified | enemy | ✓ |  |
-| 14 | Tarmite 6 | dungeon descent | none |  | Verified | enemy | ✓ |  |
-| 15 | Tarmite 7 | dungeon descent | none |  | Verified | enemy | ✓ |  |
+| 3 | gauntlet blast rock | arena | none (attack) |  | Verified | blockade | ✓ | cry - breaking this blast rock initiates the gauntlet |
+| 4 | Gauntlet | arena | Combat Requirements AND clear gauntlet blast rock |  | Verified | gauntlet | ✓ |  |
+| 5 | Beastfly 1 | arena | clear gauntlet blast rock |  | Verified | enemy | ✓ |  |
+| 6 | Beastfly 2 | arena | clear gauntlet blast rock |  | Verified | enemy | ✓ |  |
+| 7 | Tarmite 1 | arena | clear gauntlet blast rock |  | Verified | enemy | ✓ |  |
+| 8 | Vicious Caranid 1 | arena | clear gauntlet blast rock |  | Verified | enemy | ✓ |  |
+| 9 | Vicious Caranid 2 | arena | clear gauntlet blast rock |  | Verified | enemy | ✓ |  |
+| 10 | Tarmite 2 | arena | can miss |  | Verified | enemy | ✓ |  |
+| 11 | Tarmite 3 | arena | can miss |  | Verified | enemy | ✓ |  |
+| 12 | Tarmite 4 | dungeon descent | can miss |  | Verified | enemy | ✓ |  |
+| 13 | Tarmite 5 | dungeon descent | can miss |  | Verified | enemy | ✓ |  |
+| 14 | Tarmite 6 | dungeon descent | can miss |  | Verified | enemy | ✓ |  |
+| 15 | Tarmite 7 | dungeon descent | can miss |  | Verified | enemy | ✓ |  |
 | 16 | Tarmite 8 | dungeon descent | none |  | Verified | enemy | ✓ |  |
 | 17 | Tarmite 9 | entrance | complete Gauntlet |  | Verified | enemy | ✓ |  |
 

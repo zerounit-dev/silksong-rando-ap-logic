@@ -506,11 +506,11 @@ Generated from the non-archived records in the accompanying frozen SQLite snapsh
 - [Memorium Mossy (Arborium_09)](./memorium/memorium-mossy.md)
 - [Memorium Puzzle (Arborium_10)](./memorium/memorium-puzzle.md)
 - [Memorium Rhino Room (Arborium_02)](./memorium/memorium-rhino-room.md)
+- [Memorium Seed Shooty (Arborium_03)](./memorium/memorium-seed-shooty.md)
 - [Memorium Start Shaft (Arborium_01)](./memorium/memorium-start-shaft.md)
 - [Memorium Ventrica (Arborium_Tube)](./memorium/memorium-ventrica.md)
 - [Memorium Voltnest (Arborium_07)](./memorium/memorium-voltnest.md)
 - [Memorium Water Room (Arborium_05)](./memorium/memorium-water-room.md)
-- [Seed Shooty Memorium (Arborium_03)](./memorium/seed-shooty-memorium.md)
 - [Shopkeeper Hides (Arborium_11)](./memorium/shopkeeper-hides.md)
 
 ## The Slab

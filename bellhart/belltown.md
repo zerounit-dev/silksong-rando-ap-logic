@@ -48,6 +48,7 @@
 | 11 | Gramophone | Lower Area | Get 6 Psalm Cylinders Turned In AND Spend 490 Rosaries AND Prereq Visit Bellhome IN Bellhome AND Prereq Desk |  | Verified | collectible | ✓ |  |
 | 12 | Bench | Lower Area | none |  | Verified | bench | ✓ |  |
 | 13 | Craw Summons | Lower Area | Craw Summons Ready |  | Verified | collectible | ✓ |  |
+| 14 | Bellhart Spawn | Lower Area | none |  | Verified | spawn |  |  |
 
 ## Room Images
 

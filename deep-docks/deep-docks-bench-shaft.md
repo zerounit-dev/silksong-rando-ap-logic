@@ -30,6 +30,7 @@ No subroom connections defined.
 | 4 | Deep Docks - Rosary Cache #8 |  | Nothing. |  | Verified | resource | ✓ |  |
 | 5 | Deep Docks - Shell Shard Cache #4 |  | Nothing. |  | Verified | resource | ✓ |  |
 | 6 | Song_Gate_small |  | Activate Deep Docks Upper Spire Gate Lever IN Deep Docks Upper Spire |  | Verified | logic-point | ✓ | again, iunno if this is needed. |
+| 7 | Deep Docks Spawn |  | none |  | Verified | spawn |  |  |
 
 ## Room Images
 

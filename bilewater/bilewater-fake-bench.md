@@ -33,9 +33,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Fake Bench collapser | upper | none |  | Verified | blockade | ✓ |  |
-| 2 | Mothleaf Lagnia 1 | fall | attack up OR activate Fake Bench |  | Verified | enemy | ✓ |  |
-| 3 | Mothleaf Lagnia 2 | fall | attack up OR activate Fake Bench |  | Verified | enemy | ✓ |  |
-| 4 | Mothleaf Lagnia 3 | fall | attack up OR activate Fake Bench |  | Verified | enemy | ✓ |  |
+| 2 | Mothleaf Lagnia 1 | fall | Attack Up OR Activate Fake Bench collapser |  | Verified | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 2 | fall | Attack Up OR Activate Fake Bench collapser |  | Verified | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 3 | fall | Attack Up OR Activate Fake Bench collapser |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

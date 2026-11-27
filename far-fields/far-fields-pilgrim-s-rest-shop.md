@@ -28,8 +28,9 @@ No subroom connections defined.
 | 2 | Far Fields - Pilgrim's Rest Shop - Mort's Sin Memory Locket | Mort is in the Shop | none (shop) |  | Verified | collectible | ✓ | formerly memory locket pilgrims rest shop |
 | 3 | Far Fields - Pilgrim's Rest Shop - Mort's Door Tools Pouch | Mort is in the Shop | none (shop) |  | Verified | collectible | ✓ | formerly tool pouch pilgrim's rest shop |
 | 4 | pilgrims rest supplies wish granted | Mort is in the Shop | complete THE pilgrims rest supplies wish promised |  | Verified | collectible |  | formerly pilgrims rest supplies wish granted |
-| 5 | Rhinogrund 1 | Mort is in the Shop | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 6 | Snitchfly 1 | Mort is in the Shop | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Pilgrim's Rest Spawn | Mort is in the Shop | none |  | Verified | spawn |  |  |
+| 6 | Rhinogrund 1 | Mort is in the Shop | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Snitchfly 1 | Mort is in the Shop | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

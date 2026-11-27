@@ -1,4 +1,4 @@
-# Seed Shooty Memorium (Arborium_03)
+# Memorium Seed Shooty (Arborium_03)
 
 **Game ID:** Arborium_03
 
@@ -53,12 +53,12 @@
 
 ### Connections
 
-[![Connections for Seed Shooty Memorium (Arborium_03)](../00-annotations/memorium/seed-shooty-memorium-connections.png)](../00-annotations/memorium/seed-shooty-memorium-connections.png)
+[![Connections for Memorium Seed Shooty (Arborium_03)](../00-annotations/memorium/memorium-seed-shooty-connections.png)](../00-annotations/memorium/memorium-seed-shooty-connections.png)
 
 ### Checks
 
-[![Checks for Seed Shooty Memorium (Arborium_03)](../00-annotations/memorium/seed-shooty-memorium-checks.png)](../00-annotations/memorium/seed-shooty-memorium-checks.png)
+[![Checks for Memorium Seed Shooty (Arborium_03)](../00-annotations/memorium/memorium-seed-shooty-checks.png)](../00-annotations/memorium/memorium-seed-shooty-checks.png)
 
 ### Scene
 
-[![Scene for Seed Shooty Memorium (Arborium_03)](../00-annotations/memorium/seed-shooty-memorium-scene.png)](../00-annotations/memorium/seed-shooty-memorium-scene.png)
+[![Scene for Memorium Seed Shooty (Arborium_03)](../00-annotations/memorium/memorium-seed-shooty-scene.png)](../00-annotations/memorium/memorium-seed-shooty-scene.png)

@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Entrance | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | LR | nada |  | Verified | ✓ |  |
+| L | left1 | Entrance | [Memorium Seed Shooty (Arborium_03)](memorium-seed-shooty.md) | LR | nada |  | Verified | ✓ |  |
 | R | right1 | Memorium exit | [Putrified Ducts Entrance (Aqueduct_01)](../putrified-ducts/putrified-ducts-entrance.md) | L | nada |  | Verified | ✓ |  |
 
 ## Subroom Connections

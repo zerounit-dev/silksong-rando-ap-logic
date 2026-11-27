@@ -44,11 +44,11 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks: Shell Shard Rock #3 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
-| 2 | Underworks: Shell Shard Rock #4 | Shell Shard Alcove #2 | Nothing. |  | Verified | collectible | ✓ |  |
-| 3 | Underworks: Shell Shard Rock #5 | Shell Shard Alcove #2 | Nothing. |  | Verified | collectible | ✓ |  |
+| 2 | Underworks: Shell Shard Rock #4 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ | Changed from 2 |
+| 3 | Underworks: Shell Shard Rock #5 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ | Changed from 2 |
 | 4 | Underworks: Shell Shard Rock #6 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
-| 5 | Underworks: Shell Shard Cache #2 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
-| 6 | Underworks: Shell Shard Cache #3 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
+| 5 | Underworks: Shell Shard Cache #2 | Shell Shard Alcove #2 | Nothing. |  | Verified | collectible | ✓ | Changed from 1 |
+| 6 | Underworks: Shell Shard Cache #3 | Shell Shard Alcove #2 | Nothing. |  | Verified | collectible | ✓ | Changed from 1 |
 | 7 | Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified | collectible | ✓ |  |
 | 8 | Underworks Silk Spool Wall | Bottom | Break Wall Left |  | Verified | blockade | ✓ | Fixed subroom assignment - Morch |
 | 9 | Memory Orb Challenge (1) |  |  | TODO |  |  | ✓ | what the hell is this? |

@@ -82,13 +82,14 @@
 | 12 | simple key | ground level | ( act 1 OR act 2 ) AND spend 500 rosaries |  | Verified | collectible | ✓ | pebb's shop |
 | 13 | reach bone bottom | ground level | none |  | Verified | logic-point |  | addresses the loading zone blocker in moss grotto center ceiling that only goes away once you've been up here - remove this/requirement in moss grotto center if/when this is removed in the randomizer |
 | 14 | Mister Mushroom Meeting Bone Bottom | shakra platform | after THE Mister Mushroom Meeting Moss Grotto AND Needolin |  | Verified | event | ✓ |  |
-| 15 | skull tyrant bone bottom boss fight | ground level | complete THE the terrible tyrant wish granted AND ( visit blasted steps  OR visit the citadel  OR visit sinners road ) AND Combat Requirements |  | Verified | boss | ✓ | may be other hidden requirements. wiki says 30% chance of spawn after reaching key areas and using a bench in the zone. |
-| 16 | Aknid 1 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 17 | Aknid 2 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: bonetownAspidBerryCollected=false |
-| 18 | Aknid 3 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 19 | Snitchfly 1 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 20 | Snitchfly 2 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 21 | Snitchfly 3 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Bone Bottom Spawn | ground level | none |  | Verified | spawn |  |  |
+| 16 | skull tyrant bone bottom boss fight | ground level | complete THE the terrible tyrant wish granted AND ( visit blasted steps  OR visit the citadel  OR visit sinners road ) AND Combat Requirements |  | Verified | boss | ✓ | may be other hidden requirements. wiki says 30% chance of spawn after reaching key areas and using a bench in the zone. |
+| 17 | Aknid 1 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Aknid 2 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: bonetownAspidBerryCollected=false |
+| 19 | Aknid 3 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Snitchfly 1 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Snitchfly 2 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 22 | Snitchfly 3 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

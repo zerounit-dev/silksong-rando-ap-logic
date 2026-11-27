@@ -575,9 +575,9 @@
       "id": "fb44fc2e-9f92-4467-8528-e15844f59961",
       "name": "Damage Boost Off Enemy",
       "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate} [{soul}]",
-      "outputSyntax": "technique:damage-boost:{soul}:{difficulty}",
-      "notes": "",
+      "inputSyntax": "{difficulty} {predicate} [{soul}] {quantity?}",
+      "outputSyntax": "technique:damage-boost:{soul}:{difficulty}:{quantity}",
+      "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
       "sortOrder": 57,
       "aliases": "damage boost off enemy, damage boost off"
     },

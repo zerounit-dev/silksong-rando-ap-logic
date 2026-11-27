@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | H | ((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar x 2 OR ((medium pogo off roachfeeder OR easy scuttlebrace) AND faydown) |  | Verified | ✓ |  |
+| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | H | ((faydown cloak OR medium pogo off muckroach OR easy pogo off roachfeeder) AND cling grip either) OR silk soar x 2 OR ((medium pogo off roachfeeder OR easy scuttlebrace) AND faydown) OR (hard pogo off roachfeeder AND hard scuttlebrace (rough with bad crests, that's why hard diff)) |  | Verified | ✓ |  |
 | LR | lower right | right half | [Sinner's Road Spike Basement (Dust_Barb)](sinner-s-road-spike-basement.md) | C | none |  | Verified | ✓ |  |
 | L | left | left half | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | LR | none |  | Verified | ✓ |  |
 

@@ -21,13 +21,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Entrance | Arena | none |  | Verified |  | falling |
+| V | Vertical | Entrance | Arena | none |  | Verified | ✓ | falling |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bell Eater | Arena | defeat bell beast boss fight IN the marrow bellway  AND ACT 3  AND Combat Requirements |  | Verified | boss | ✓ | Bell Eater soul |
+| 1 | Bell Eater | Arena | Combat Requirements |  | Verified | boss | ✓ | Bell Eater soul |
 
 ## Room Images
 

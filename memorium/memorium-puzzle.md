@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | R | nada |  | Verified | ✓ |  |
+| L | left1 |  | [Memorium Seed Shooty (Arborium_03)](memorium-seed-shooty.md) | R | nada |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

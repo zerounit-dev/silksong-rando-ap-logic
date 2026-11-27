@@ -16,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Pre Wall | [Memorium Start Shaft (Arborium_01)](memorium-start-shaft.md) | LLR | nada |  | Verified | ✓ |  |
-| R | right1 | Post Wall | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | BL | nada |  | Verified | ✓ |  |
+| R | right1 | Post Wall | [Memorium Seed Shooty (Arborium_03)](memorium-seed-shooty.md) | BL | nada |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

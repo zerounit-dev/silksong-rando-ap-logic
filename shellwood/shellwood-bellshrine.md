@@ -26,6 +26,7 @@ No subroom connections defined.
 | 1 | Bell: Shellwood |  | activate bellshrine switch |  | Verified | collectible | ✓ |  |
 | 2 | bench |  | activate bellshrine switch |  | Verified | bench | ✓ |  |
 | 3 | bellshrine switch |  | flip switch down |  | Verified | switch | ✓ |  |
+| 4 | Shellwood Bellshrine |  | none |  | Verified | spawn |  |  |
 
 ## Room Images
 

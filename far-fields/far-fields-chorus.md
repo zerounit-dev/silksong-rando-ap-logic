@@ -50,7 +50,8 @@
 | VHF | vertical half | drifter ledge | bone bridge | none (falling) |  | Verified | ✓ |  |
 | LRC | last rites cache | upper left alcove | last rites beads | none |  | Verified | ✓ |  |
 | LRC | last rites cache | last rites beads | upper left alcove | none |  | Verified | ✓ |  |
-| RBS | rites beads snipe | bone bridge | upper left alcove | easy curveclaw use | TODO | Verified | ✓ | threefold pin also works |
+| RBS | rites beads snipe | bone bridge | upper left alcove | easy curveclaw use OR (faydown cloak AND (easy threefold pin use OR easy pale nails use)) |  | Verified | ✓ | threefold pin also works |
+| DSG | drifter's sniper galley | drifter ledge | last rites beads | (run AND (easy straight pin use OR (faydown cloak AND medium conchcutter use) OR (faydown cloak AND dash right AND medium voltvessels use))) |  | Verified | ✓ | Connection for Tool Snipes. |
 
 ## Check Locations
 

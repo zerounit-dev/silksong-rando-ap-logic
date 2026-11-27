@@ -32,8 +32,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | RSL | right ledge to shard ledge | right ledge | shard ledge | (Faydown cloak AND (ledge grab either OR cling grip either)) OR silk soar |  | Verified | ✓ |  |
 | RSL | right ledge to shard ledge | shard ledge | right ledge | none |  | Verified | ✓ |  |
-| UES | upper entry to shack | plat above upper door | shack | Clawline right 3 OR ((Cling grip left OR silk soar) AND (drifter’s cloak OR sharpdart 2 OR clawline right 2)) |  | Verified | ✓ |  |
-| UES | upper entry to shack | shack | plat above upper door | (run AND (drifter's cloak OR clawline left OR sharpdart)) OR (dash left AND faydown cloak) OR clawline left 2 OR sharpdart 2 |  | Verified | ✓ |  |
+| UES | upper entry to shack | plat above upper door | shack | Clawline right 3 OR easy shaman scuttle slide OR ((Cling grip left OR silk soar) AND (drifter’s cloak OR sharpdart 2 OR clawline right 2)) |  | Verified | ✓ |  |
+| UES | upper entry to shack | shack | plat above upper door | (run AND (drifter's cloak OR clawline left OR sharpdart OR easy shaman pogo)) OR (dash left AND faydown cloak) OR clawline left 2 OR sharpdart 2 |  | Verified | ✓ |  |
 | RLS | right ledge to shack | right ledge | shack | silk soar |  | Verified | ✓ |  |
 | RLS | right ledge to shack | shack | right ledge | none |  | Verified | ✓ |  |
 | LP | lower entry to lower platform | lower entry | lower platform | ledge grab right OR cling grip right OR clawline right OR sharpdart OR run OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike |  | Verified | ✓ |  |
@@ -48,7 +48,7 @@
 | LEM | lower entry to mid left plat | middle left plat | lower entry | none |  | Verified | ✓ |  |
 | LMU | middle left plat to upper | middle left plat | plat above upper door | silk soar OR (cling grip left AND spike pogo) OR faydown cloak OR easy [reaper,wanderer,beast,witch,architect,shaman] pogo OR easy naked pogo OR (easy hunter pogo AND easy damage boost x 1) |  | Verified | ✓ | Again, every crest works for something except hunter (the last time this happened was in Peak_01)  even naked is better, beacuse it CAN for some reason pogo those spike balls, lol  refined - 11/24 Hutyrix |
 | LMU | middle left plat to upper | plat above upper door | middle left plat | none |  | Verified | ✓ |  |
-| MLS | middle left to shard | middle left plat | shard ledge | faydown cloak OR (run AND (ledge grab right OR cling grip right)) OR (clawline right AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
+| MLS | middle left to shard | middle left plat | shard ledge | faydown cloak OR easy shaman scuttle slide OR (run AND (ledge grab right OR cling grip right)) OR (clawline right AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
 | MLS | middle left to shard | shard ledge | middle left plat | ((ledge grab left OR cling grip left) AND (dash left OR clawline left x 2 OR sharpdart x 2)) |  | Verified | ✓ |  |
 | RML | right ledge to middle left | right ledge | middle left plat | (cling grip left OR silk soar x 1 OR easy scuttlebrace OR (faydown cloak AND (ledge grab either OR cling grip right))) AND (clawline left x 2 OR dash left OR drifters OR faydown OR sharpdart x 2 OR ledge grab left OR cling grip left OR easy [hunter,reaper,beast,architect,shaman] pogo OR medium [wanderer,witch] pogo OR medium naked pogo) |  | Verified | ✓ | refined - 11/24 Hutyrix  completly removed enemy pogo syntax, because it is quite irrelevant |
 | RML | right ledge to middle left | middle left plat | right ledge | run right OR clawline right OR sharpdart OR drifter's cloak OR faydown cloak |  | Verified | ✓ |  |

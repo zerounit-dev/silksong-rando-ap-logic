@@ -19,7 +19,7 @@
 | L | left1 | Base | [Grand Bellway Shaft (Song_20)](grand-bellway-shaft.md) | BR | none |  | Verified | ✓ |  |
 | BW | door_fastTravelExit | Base | [Bellway Menu](../fast-travel/bellway-menu.md) | GB | unlock Bellway: Grand Bellway |  | Verified | ✓ |  |
 | VT | door_tubeEnter | Base | [Ventrica Menu](../fast-travel/ventrica-menu.md) | GB | unlock Ventrica: Grand Bellway |  | Verified | ✓ |  |
-| BB | BE Arena | Base | [Bellway Centipede Arena (Bellway_Centipede_Arena)](bellway-centipede-arena.md) | T | defeat Bell Eater IN Bellway Centipede Arena AND ACT 3 |  | Verified | ✓ | And Beastling = false |
+| BB | BE Arena | Base | [Bellway Centipede Arena (Bellway_Centipede_Arena)](bellway-centipede-arena.md) | T | defeat bell beast boss fight IN the marrow bellway AND ACT 3 |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

@@ -30,8 +30,8 @@
 | HR | High Right | Distant Platform | [Whispering Vaults Silkeater (Library_14)](whispering-vaults-silkeater.md) | L | Nothing |  | Verified | ✓ |  |
 | CR | Center Right | Middle Hallway | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | TL | Nothing |  | Verified | ✓ |  |
 | BL | Bottom Left | Lowest Hallway | [Whispering Vaults Music Box (Library_16)](whispering-vaults-music-box.md) | R | Nothing |  | Verified | ✓ |  |
-| CL | Center Left | Middle Hallway | [Trobbio Entrance (Library_13b)](trobbio-entrance.md) | R | Nothing |  | Verified | ✓ |  |
-| LL | Low Left | Left Side Shaft | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | BR | Nothing |  | Verified | ✓ |  |
+| CL | Center Left | Left Side Shaft | [Trobbio Entrance (Library_13b)](trobbio-entrance.md) | R | Nothing |  | Verified | ✓ | These 2 subrooms were inverted, fixed them  - Moriko |
+| LL | Low Left | Middle Hallway | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | BR | Nothing |  | Verified | ✓ | These 2 subrooms were inverted, fixed them  - Moriko |
 | LR | Low Right | Upper Low Hallway | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | BL | Nothing |  | Verified | ✓ |  |
 | TR | Top Right | Top Hallway | [Whispering Vaults Jumps (Library_09)](whispering-vaults-jumps.md) | L | Activate Whispering Vaults: Flip Switch #6 IN Whispering Vaults Jumps |  | Verified | ✓ |  |
 | TL | Top Left | Top Hallway | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | TR | Nothing |  | Verified | ✓ |  |

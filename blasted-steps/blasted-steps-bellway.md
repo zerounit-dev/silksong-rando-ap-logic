@@ -28,6 +28,7 @@ No subroom connections defined.
 | 2 | Bellway Rosary Lock |  | Spend 60 Rosaries |  | Verified | lock | ✓ |  |
 | 3 | Blasted Steps: Bellway Bench |  | Unlock Bench Rosary Lock |  | Verified | bench | ✓ |  |
 | 4 | Bench Rosary Lock |  | Spend 40 Rosaries |  | Verified | lock | ✓ |  |
+| 5 | Blasted Steps Bellway Spawn |  | none |  | Verified | spawn |  |  |
 
 ## Room Images
 

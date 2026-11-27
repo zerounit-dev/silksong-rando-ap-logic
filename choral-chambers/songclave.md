@@ -38,6 +38,7 @@
 | 3 | Meet the Caretaker | Base | activate Bellshrine Enclave - lever  IN bellshrine-enclave |  | Verified | logic-point | ✓ |  |
 | 4 | Reach Songclave | Base | none |  | Verified | logic-point |  | Used for Savage Beastfly wish. |
 | 5 | Songclave - bench | Base | none |  | Verified | bench | ✓ |  |
+| 6 | Songclave Spawn | Base | none |  | Verified | spawn |  |  |
 
 ## Room Images
 

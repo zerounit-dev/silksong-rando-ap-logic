@@ -16,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Center | [Memorium Karak (Arborium_06)](memorium-karak.md) | B | silk soar OR (faydown cloak AND break wall up) |  | Verified | ✓ |  |
-| r | right1 | right side | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | T | none |  | Verified | ✓ |  |
+| R | right1 | right side | [Memorium Seed Shooty (Arborium_03)](memorium-seed-shooty.md) | T | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

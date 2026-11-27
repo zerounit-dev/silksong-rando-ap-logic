@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | LL | none |  | Verified | ✓ |  |
+| R | right1 |  | [Memorium Seed Shooty (Arborium_03)](memorium-seed-shooty.md) | LL | none |  | Verified | ✓ |  |
 | L | left1 |  | [Memorium Start Shaft (Arborium_01)](memorium-start-shaft.md) | LR | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
