@@ -40,7 +40,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | silk buds | silk bud ledge | none |  | Verified | collectible | ✓ | farmable source of silk |
+| 1 | silk buds | silk bud ledge | none |  | Verified | resource | ✓ | farmable source of silk |
 | 2 | Skarr Stalker 1 | thorn thicket plateau | none |  | Verified | enemy | ✓ |  |
 | 3 | Fertid 1 | ceiling exit ledge | none |  | Verified | enemy | ✓ |  |
 | 4 | Spear Skarr 1 | thorn thicket plateau | none |  | Verified | enemy | ✓ |  |

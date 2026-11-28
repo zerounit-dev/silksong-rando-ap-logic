@@ -47,19 +47,19 @@
 | AE | Ascent East | Crossing Climb Nook | Loop Back Surface | none (falling) |  | Verified | ✓ |  |
 | AW | Ascent West | Cross Climb Link | Loop Back Surface | none (falling) |  | Verified | ✓ |  |
 | AW | Ascent West | Loop Back Surface | Cross Climb Link | cling grip either  OR silk soar OR (easy scuttlebrace AND (faydown cloak OR easy flea brew stall)) |  | Verified | ✓ |  |
-| CLR | Climb Link Right | Cross Climb Link | Crossing Climb Nook | none (falling) |  | Verified |  |  |
-| CLR | Climb Link Right | Crossing Climb Nook | Cross Climb Link | (faydown cloak AND ledge grab left)  OR cling grip either OR silk soar |  | Verified |  |  |
+| CLR | Climb Link Right | Cross Climb Link | Crossing Climb Nook | none (falling) |  | Verified | ✓ |  |
+| CLR | Climb Link Right | Crossing Climb Nook | Cross Climb Link | (faydown cloak AND ledge grab left)  OR cling grip either OR silk soar |  | Verified | ✓ |  |
 | CS | Crossing Soar | Crossing Climb Nook | Upper Crossing Climb | silk soar |  | Verified |  |  |
-| RC | Right Cross Climb | Windstream Hangoff | Upper Crossing Climb | cling grip left OR (faydown cloak AND (ledge grab left OR easy shaman pogo OR easy [flea brew, thread storm, rune rage] stall OR easy beast needle strike OR (proficient movement AND (medium beast pogo OR hard cross stitch stall x 2)))) OR easy scuttlebrace |  | Verified |  |  |
-| RC | Right Cross Climb | Upper Crossing Climb | Windstream Hangoff | none (falling) |  | Verified |  |  |
+| RC | Right Cross Climb | Windstream Hangoff | Upper Crossing Climb | cling grip left OR (faydown cloak AND (ledge grab left OR easy shaman pogo OR easy [flea brew, thread storm, rune rage] stall OR easy beast needle strike OR (proficient movement AND (medium beast pogo OR hard cross stitch stall x 2)))) OR easy scuttlebrace |  | Verified | ✓ |  |
+| RC | Right Cross Climb | Upper Crossing Climb | Windstream Hangoff | none (falling) |  | Verified | ✓ |  |
 | LC | Left Cross Climb | Cross Climb Link | Upper Crossing Climb | silk soar OR cling grip right OR (faydown cloak AND easy scuttlebrace) |  | Verified | ✓ |  |
 | LC | Left Cross Climb | Upper Crossing Climb | Cross Climb Link | none (falling) |  | Verified | ✓ |  |
 | SCH | Shrine Crossing Hop | Upper Crossing Climb | Dock Fields Bell Entrance | none |  | Verified | ✓ |  |
 | SCH | Shrine Crossing Hop | Dock Fields Bell Entrance | Upper Crossing Climb | none |  | Verified | ✓ |  |
 | WC2 | Windstream Connector | Windstream Passage | Windstream Hangoff | faydown cloak OR drifter's cloak OR cling grip left OR (ledge grab left AND (easy shaman pogo OR easy flea brew stall)) |  | Verified | ✓ |  |
 | WC2 | Windstream Connector | Windstream Hangoff | Windstream Passage | none (falling) |  | Verified | ✓ |  |
-| CWJ | Climb Wind Junction | Cross Climb Link | Windstream Hangoff | ledge grab right  OR cling grip either  OR easy scuttlebrace  OR faydown cloak OR easy shaman pogo OR easy beast needle strike OR (easy beast pogo AND easy [flea brew, thread storm, rune rage] stall) |  | Verified |  |  |
-| CWJ | Climb Wind Junction | Windstream Hangoff | Cross Climb Link | none (falling) |  | Verified |  |  |
+| CWJ | Climb Wind Junction | Cross Climb Link | Windstream Hangoff | ledge grab right  OR cling grip either  OR easy scuttlebrace  OR faydown cloak OR easy shaman pogo OR easy beast needle strike OR (easy beast pogo AND easy [flea brew, thread storm, rune rage] stall) |  | Verified | ✓ |  |
+| CWJ | Climb Wind Junction | Windstream Hangoff | Cross Climb Link | none (falling) |  | Verified | ✓ |  |
 | CS | Crossing Soar | Upper Crossing Climb | Crossing Climb Nook | none (falling) |  | Verified |  |  |
 
 ## Check Locations

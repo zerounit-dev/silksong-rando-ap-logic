@@ -33,15 +33,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| GTF | Ground to First | Ground Floor | First Floor | Clawline OR (Faydown Cloak AND (Cling Grip OR Ledge Grab OR Scuttlebrace)) |  | Verified | ✓ |  |
+| GTF | Ground to First | Ground Floor | First Floor | Clawline Right OR (Faydown Cloak AND (Cling Grip Either OR Ledge Grab Either OR Scuttlebrace)) |  | Verified | ✓ |  |
+| GTF | Ground to First | First Floor | Ground Floor | Nothing. (Fall) |  | Verified | ✓ |  |
 | FTS | First to Second | First Floor | Second Floor | Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Clawline)) OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| FTS | First to Second | Second Floor | First Floor | Nothing. (Fall) |  | Verified | ✓ |  |
 | NC | Needolin Check | First Floor | Needolin Check Guy | Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Clawline)) OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | same requirements lmao |
 | NC | Needolin Check | Needolin Check Guy | First Floor | Nothing. (Fall) |  | Verified | ✓ |  |
-| FTS | First to Second | Second Floor | First Floor | Nothing. (Fall) |  | Verified | ✓ |  |
-| GTF | Ground to First | First Floor | Ground Floor | Nothing. (Fall) |  | Verified | ✓ |  |
+| TE | Top Entrance | Ground Floor | One-way Entrance (Top) | invalid |  | Verified | ✓ |  |
 | TE | Top Entrance | One-way Entrance (Top) | Ground Floor | Nothing. (Fall) |  | Verified | ✓ |  |
 | BE | Bottom Entrance | One-way Entrance (Bottom) | Ground Floor | Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Clawline)) OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| TE | Top Entrance | Ground Floor | One-way Entrance (Top) | invalid |  | Verified | ✓ |  |
 | BE | Bottom Entrance | Ground Floor | One-way Entrance (Bottom) | invalid |  | Verified | ✓ |  |
 | CS | Collect Shards | Ground Floor | Shell Shard Cache | Nothing. (Fall) |  | Verified | ✓ |  |
 | CS | Collect Shards | Shell Shard Cache | Ground Floor | Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Clawline)) OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | LOTTA this in this room. |

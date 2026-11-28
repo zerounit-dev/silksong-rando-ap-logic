@@ -17,6 +17,8 @@
 | S7 | Spike Platform | ✓ |
 | S8 | Bottom Entrance | ✓ |
 | S9 | Top entrance | ✓ |
+| S10 | wall subroom | ✓ |
+| S11 | steam wall subroom | ✓ |
 
 ## Room Transitions
 
@@ -29,7 +31,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ESH | Top Entrance-Steam Shaft | Top left shaft | Steam Shaft | (clear Cogwork Core - vapor shaft wall AND (Dash right OR Drifter's Cloak OR Faydown Cloak OR Sharpdart OR Clawline right OR easy Scuttlebrace OR easy [beast,hunter] pogo OR easy naked pogo OR easy [flea brew,plasmium, voltvessels,parry,flintslate,rune rage,air heal, thread storm] stall)) |  | Verified | ✓ |  |
+| ESH | Top Entrance-Steam Shaft | Top left shaft | Steam Shaft | clear Cogwork Core - vapor shaft wall AND (Dash right OR Drifter's Cloak OR Faydown Cloak OR Sharpdart OR Clawline right OR easy Scuttlebrace OR easy [beast,hunter] pogo OR easy naked pogo OR easy [flea brew,plasmium, voltvessels,parry,flintslate,rune rage,air heal, thread storm] stall) |  | Verified | ✓ |  |
 | ESH | Top Entrance-Steam Shaft | Steam Shaft | Top left shaft | clear Cogwork Core - vapor shaft wall AND (Silk Soar OR cling grip either OR easy scuttlebrace) |  | Verified | ✓ |  |
 | SCS | Steam Shaft-Center Shaft | Steam Shaft | Center Shaft | clear Cogwork Core - vapor shaft wall 2 |  | Verified | ✓ |  |
 | SCS | Steam Shaft-Center Shaft | Center Shaft | Steam Shaft | clear Cogwork Core - vapor shaft wall 2 AND (easy Silk Soar cancel x 3 OR (cling grip both AND (faydown OR easy [wanderer, reaper] pogo)) OR (cling grip right AND easy shaman pogo)) |  | Verified | ✓ |  |
@@ -45,16 +47,22 @@
 | SPE | Spike Platform-Bottom Entrance | Bottom Entrance | Spike Platform | easy shaman pogo OR cling grip right OR faydown OR (easy scuttlebrace AND spike pogo) OR easy silk soar cancel |  | Verified | ✓ |  |
 | TT | entrance to shaft left | Top entrance | Top left shaft | none |  | Verified | ✓ |  |
 | TT | entrance to shaft left | Top left shaft | Top entrance | easy silk soar cancel x 2 OR (faydown AND (cling grip either OR easy scuttlebrace) AND spike pogo) |  | Verified | ✓ |  |
+| SW | southern to walls | Southern Shaft | wall subroom | none |  | Verified | ✓ |  |
+| WS | spike to walls | Spike Platform | wall subroom | ledge grab left OR faydown OR easy scuttlebrace OR cling grip left OR (easy hazard respawn AND silk soar) |  | Verified | ✓ |  |
+| WW | break to walls | Breakable Wall Shaft | wall subroom | none |  | Verified | ✓ |  |
+| TW | top to steam walls | Top left shaft | steam wall subroom | Dash right OR Drifter's Cloak OR Faydown Cloak OR Sharpdart OR Clawline right OR easy Scuttlebrace OR easy [beast,hunter] pogo OR easy naked pogo OR easy [flea brew,plasmium, voltvessels,parry,flintslate,rune rage,air heal, thread storm] stall |  | Verified | ✓ |  |
+| WT | center to steam walls | Center Shaft | steam wall subroom | easy Silk Soar cancel x 3 OR (cling grip both AND (faydown OR easy [wanderer, reaper] pogo)) OR (cling grip right AND easy shaman pogo) |  | Verified | ✓ |  |
+| SS | steam to steam walls | Steam Shaft | steam wall subroom | none |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Core - act 3 gauntlet wall | Center Shaft | Break Wall Down |  | Verified | blockade | ✓ | Can't be broken from the bottom. |
-| 2 | Cogwork Core - vapor shaft wall | Top left shaft | break wall either |  | Verified | blockade | ✓ |  |
-| 3 | Cogwork Core - vapor shaft wall 2 | Steam Shaft | break wall either |  | Verified | blockade | ✓ |  |
-| 4 | Cogwork Core - Wall that gives vision | Breakable Wall Shaft | break wall either |  | Verified | blockade | ✓ |  |
-| 5 | Cogwork Core - Wall that gives vision 2 | Breakable Wall Shaft | break wall either |  | Verified | blockade | ✓ |  |
+| 1 | Cogwork Core - act 3 gauntlet wall | Center Shaft | Break Wall Down OR (defeat Cogwork Core: Gauntlet #3 AND elite ball knowledge) |  | Verified | blockade | ✓ | broken from above or removed post gauntlet scene |
+| 2 | Cogwork Core - vapor shaft wall | steam wall subroom | break wall either |  | Verified | blockade | ✓ |  |
+| 3 | Cogwork Core - vapor shaft wall 2 | steam wall subroom | break wall either |  | Verified | blockade | ✓ |  |
+| 4 | Cogwork Core - Wall that gives vision | wall subroom | break wall either |  | Verified | blockade | ✓ |  |
+| 5 | Cogwork Core - Wall that gives vision 2 | wall subroom | break wall either |  | Verified | blockade | ✓ |  |
 | 6 | Cogwork Core: Gauntlet #3 | Northern Gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 7 | Underworker Cogwork Core - Gauntlet | Northern Gauntlet | none |  | Verified | enemy | ✓ |  |
 | 8 | Underpoke Cogwork Core - Gauntlet | Northern Gauntlet | none |  | Verified | enemy | ✓ |  |

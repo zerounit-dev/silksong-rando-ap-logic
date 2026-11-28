@@ -17,6 +17,12 @@
 | S7 | beast alcove | ✓ |
 | S8 | dead ledge | ✓ |
 
+## Explanations
+
+| Name | Reference | Notes |
+| --- | --- | --- |
+| [Vanilla Start Guide](https://youtu.be/dQw4w9WgXcQ) | start guide | Best place to get started with default randomizer settings&#33; |
+
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
@@ -55,7 +61,7 @@
 | 2 | moss grotto shell shard cache 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
 | 3 | moss grotto beast shard | beast alcove | defeat Marrowmaw 1 |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto rosary chest | side room | none |  | Verified | collectible | ✓ |  |
-| 5 | moss grotto vanilla spawn | rock bottom | none |  | Verified | spawn |  |  |
+| 5 | moss grotto vanilla spawn | rock bottom | none (see [Vanilla Start Guide](https://youtu.be/dQw4w9WgXcQ)) |  | Verified | spawn |  |  |
 | 6 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ |  |
 | 7 | Mossmir 2 | side room | None |  | Verified | enemy | ✓ |  |
 | 8 | Marrowmaw 1 | beast alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |

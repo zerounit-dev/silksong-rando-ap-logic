@@ -16,6 +16,7 @@
 | S6 | up left | ✓ |
 | S7 | first plat up | ✓ |
 | S8 | mid climb first | ✓ |
+| S9 | halfway plat | ✓ |
 
 ## Room Transitions
 
@@ -41,14 +42,18 @@
 | MC1 | mid climb 1 | mid climb first | mid right | none |  | Verified | ✓ | Just needs the sac pogo. |
 | MUR | mid to halfway | mid climb first | halfway up | (cling grip right AND faydown)  OR (cling grip left AND faydown AND scuttlebrace AND clawline left) OR (cling grip both AND (clawline both OR (clawline right AND drifter's cloak) OR (proficient movement AND dash both))) |  | Verified | ✓ |  |
 | MUR | mid to halfway | halfway up | mid climb first | none |  | Verified | ✓ | falling |
-| UPR | halfway to rosary | halfway up | rosary plat | faydown cloak OR (cling grip left AND intended enemy pogo off bloatroach AND (clawline right OR sharpdart OR drifter's cloak OR easy beast pogo)) OR Silk Soar |  | Verified | ✓ |  |
-| UPR | halfway to rosary | rosary plat | halfway up | none |  | Verified | ✓ | falling |
-| HUL | halfway to upper left | halfway up | up left | faydown cloak AND (cling grip both OR (cling grip left AND scuttlebrace AND proficient movement)) |  | Verified | ✓ |  |
-| HUL | halfway to upper left | up left | halfway up | none |  | Verified | ✓ | falling |
+| UPR | halfway to rosary | halfway plat | rosary plat | faydown cloak OR (cling grip left AND intended enemy pogo off bloatroach AND (clawline right OR sharpdart OR drifter's cloak OR easy beast pogo)) OR Silk Soar |  | Verified | ✓ |  |
+| UPR | halfway to rosary | rosary plat | halfway plat | none |  | Verified | ✓ | falling |
+| HUL | halfway to upper left | halfway plat | up left | faydown cloak AND (cling grip both OR (cling grip left AND scuttlebrace AND proficient movement)) |  | Verified | ✓ |  |
+| HUL | halfway to upper left | up left | halfway plat | none |  | Verified | ✓ | falling |
 | FSC | first small climb | low left | first plat up | (faydown cloak AND (cling grip left OR (cling grip right AND (dash right OR clawline right OR sharpdart OR scuttlebrace OR easy beast pogo)))) OR (silk soar AND (clawline right OR sharpdart OR easy beast pogo))  OR (medium [hunter,wanderer] voltwater pogo x 1 AND (hard scuttlebrace OR cling grip right) AND ((proficient movement AND clawline right x 1 AND Soul Miremite) OR (cling grip left AND (clawline right x 1 OR sharpdart x 1 OR dash right OR easy beast pogo OR medium [flea brew,plasmium,voltvessels] stall x 2 OR hard pale nails stall x 3)))) |  | Verified | ✓ | I won't incude frame perfect thorn jumps in syntax as long as i can't do them consistently 23/11/26 -Hutyrix |
 | FSC | first small climb | first plat up | low left | none |  | Verified | ✓ |  |
 | SSP | silk soar past everything | first plat up | halfway up | silk soar |  | Verified | ✓ |  |
 | SSP | silk soar past everything | halfway up | first plat up | none |  | Verified | ✓ |  |
+| HP | halfway platting | halfway up | halfway plat | (cling grip left AND faydown) OR  (easy shaman pogo AND faydown AND (drifter's OR clawline left)) |  | Verified | ✓ |  |
+| HP | halfway platting | halfway plat | halfway up | none |  | Verified | ✓ |  |
+| RT | rosary to top | rosary plat | up left | faydown AND easy pogo off bloatroach AND cling grip right |  | Verified | ✓ |  |
+| RT | rosary to top | up left | rosary plat | clawline right OR sharpdart OR drifter's OR faydown OR dash right |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -59,7 +64,7 @@
 | 3 | Bloatroach 2 | up left | none |  | Verified | enemy | ✓ |  |
 | 4 | Bloatroach 3 | halfway up | none |  | Verified | enemy | ✓ |  |
 | 5 | Bloatroach 4 | halfway up | none |  | Verified | enemy | ✓ |  |
-| 6 | Miremite 1 | halfway up | none |  | Verified | enemy | ✓ |  |
+| 6 | Miremite 1 | halfway plat | none |  | Verified | enemy | ✓ |  |
 | 7 | Miremite 2 | mid right | none |  | Verified | enemy | ✓ |  |
 | 8 | Miremite 3 | first plat up | none |  | Verified | enemy | ✓ |  |
 

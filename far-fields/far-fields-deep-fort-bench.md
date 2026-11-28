@@ -30,7 +30,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bench | bench area | none |  | Verified | bench | ✓ |  |
+| 1 | Far Fields - Deep Fort - Bench | bench area | none |  | Verified | bench | ✓ | formerly bench |
 | 2 | Craw Summons | bench area | craw summons ready |  | Verified | collectible | ✓ | one of several possible craw summons locations |
 
 ## Room Images

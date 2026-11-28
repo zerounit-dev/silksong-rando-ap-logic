@@ -65,8 +65,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache far fields 7 | rosary platform | none |  | Verified | collectible | ✓ |  |
-| 2 | rosary cache far fields 8 | rosary platform | none |  | Verified | collectible | ✓ |  |
+| 1 | Far Fields - Skull Room East - Hoker Grave Beads | rosary platform | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 7 |
+| 2 | Far Fields - Skull Room East - Hoker Grave Beads 2 | rosary platform | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 8 |
 | 3 | Mister Mushroom Meeting Far Fields | herald platform | after THE Mister Mushroom Meeting Bone Bottom AND Needolin |  | Verified | event | ✓ |  |
 | 4 | Tarmite 1 | clawline acrobatics | complete Gauntlet IN Far Fields Skull Arena |  | Verified | enemy | ✓ | shell shards |
 | 5 | Tarmite 2 | clawline acrobatics | complete Gauntlet IN Far Fields Skull Arena |  | Verified | enemy | ✓ | shell shards |

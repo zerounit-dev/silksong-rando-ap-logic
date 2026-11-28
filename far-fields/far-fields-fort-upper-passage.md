@@ -53,7 +53,7 @@
 | SCS | soar chest snipe | central rise | queen's life saving | ponder the orb AND ((silk soar x 1 OR medium pogo off Flapping Fertid) AND [hunter, reaper, beast, witch, architect, shaman, wanderer] needle up) |  | Verified | ✓ |  |
 | NCS | niche ledge chest snipe | check niche | queen's life saving | ponder the orb AND faydown AND ([hunter,reaper,beast,witch,architect,shaman, wanderer] needle up OR easy [shaman, beast, reaper] needle strike) |  | Verified | ✓ |  |
 | SH | the skarr heist | karmelita's trust fund storage | queen's life saving | none |  | Verified | ✓ |  |
-| SH | the skarr heist | queen's life saving | karmelita's trust fund storage | none |  | Verified | ✓ |  |
+| SH | the skarr heist | queen's life saving | karmelita's trust fund storage | invalid (if set to none, the game will think you can noclip through a wall) |  | Verified | ✓ |  |
 
 ## Check Locations
 

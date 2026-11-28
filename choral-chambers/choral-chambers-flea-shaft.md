@@ -16,6 +16,7 @@
 | S6 | Top Section 2 | ✓ |
 | S7 | Top Section 3 Left | ✓ |
 | S8 | Top Section 3 Right | ✓ |
+| S9 | rosaries snipe | ✓ |
 
 - **Base Upper Right:** 
 
@@ -36,7 +37,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VS | Vertical Base | Base Bottom | Base Middle | (cling grip left AND (dash left OR clawline left OR sharpdart OR flea brew)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR medium plasmium stall OR cling grip either)) OR silk soar OR  (cling grip both AND drifter's cloak) OR silk soar OR (easy scuttlebrace AND dash both AND (clawline left OR sharpdart OR faydown cloak OR ledge grab left OR cling grip left OR flea brew OR  easy [rune rage, air heal, flintslate, cross stitch, thread storm, pale nails] stall)) OR easy shaman scuttle slide |  | Verified | ✓ |  |
+| VS | Vertical Base | Base Bottom | Base Middle | silk soar OR (cling grip left AND (dash left OR clawline left OR sharpdart OR flea brew OR (easy shaman pogo AND medium pale nails stall x 2)))  OR (cling grip both AND drifter's cloak)  OR (easy scuttlebrace AND dash both AND (clawline left OR sharpdart OR faydown cloak OR ledge grab left OR cling grip left OR flea brew OR  easy [rune rage, air heal, flintslate, cross stitch, thread storm, pale nails] stall))  OR easy shaman scuttle slide OR ((easy pogo off choir flyer OR faydown) AND (ledge grab either OR easy shaman pogo OR cling grip either OR easy [plasmium,flea brew ,voltvessels, air heal] stall)) OR (easy shaman pogo AND medium pale nails stall x 3 AND cling grip right) OR (easy pogo off choir flyer AND medium damage boost off choir flyer) OR (faydown AND easy pogo off choir flyer) |  | Verified | ✓ |  |
 | VS | Vertical Base | Base Middle | Base Bottom | none |  | Verified | ✓ | falling |
 | VR | Vertical Middle | Base Middle | Base Upper Right | faydown cloak OR hard pogo off [Choir hornhead, Choir Pouncer] OR ((Dash right OR sharpdart OR clawline right) AND (ledge grab right OR cling grip right)) OR (run AND (ledge grab right OR cling grip right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy [air heal, voltvessels, plasmium, flintslate] stall)))) OR silk soar OR easy scuttlebrace OR (clawline right AND easy damage boost off [Choir Hornhead,Choir pouncer]) OR (cling grip left AND ((flea brew AND dash right) OR sharpdart OR clawline right)) OR (flea brew AND medium plasmium stall) |  | Verified | ✓ |  |
 | VR | Vertical Middle | Base Upper Right | Base Middle | none |  | Verified | ✓ | falling |
@@ -52,15 +53,17 @@
 | H | Top Horizontal Traversal | Top Section 3 Left | Top Section 3 Right | Clawline right OR sharpdart OR faydown cloak OR (run AND (easy beast pogo OR architect attack right OR easy wanderer needle strike OR dash right OR ledge grab right OR easy [air heal, voltvessels, plasmium, flintslate, rune rage, pale nails, cross stitch, thread storm, flea brew] stall)) OR (silk soar AND (ledge grab right OR dash right OR drifter's cloak  OR easy pogo off Choir Flyer)) OR cling grip right OR easy scuttlebrace OR (easy pogo off Choir Flyer AND (spike pogo OR easy [air heal, voltvessels, plasmium, flintslate, rune rage, pale nails, cross stitch, thread storm, flea brew] stall)) |  | Verified | ✓ |  |
 | BU | Bottom to upper left | Base Bottom | Base Upper Left | silk soar OR  (hard pogo off Choir Flyer AND (ledge grab both OR easy scuttlebrace) AND hard damage boost off Choir Flyer) |  | Verified | ✓ |  |
 | BU | Bottom to upper left | Base Upper Left | Base Bottom | none |  | Verified | ✓ | falling |
+| BS | base to snipe | Base Upper Right | rosaries snipe | none |  | Verified | ✓ |  |
+| WTF | bottom to snipe | Base Bottom | rosaries snipe | (cling grip left OR easy scuttlebrace OR ((easy pogo off choir flyer OR faydown) AND (ledge grab either OR easy shaman pogo OR cling grip right OR easy [plasmium,voltvessels,flea brew, air heal] stall)) OR (easy shaman pogo AND medium pale nails stall AND cling grip right) OR (easy pogo off choir flyer AND medium damage boost off choir flyer)) AND Elite ball knowledge AND medium curveclaw use AND medium voltvessels use |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Choral Chambers - Flea professional saws dodger | Top Section 2 | activate Choral Chambers Flea Shaft Flea Wall AND (silk soar OR (drifter's cloak AND activate Choral Chambers Flea shaft - Air current) OR (faydown cloak AND (easy [Hunter, Wanderer, Architect,Witch] pogo OR hard Beast pogo)) OR easy [reaper,shaman] pogo OR (medium wanderer pogo AND (wanderer longclaw down OR cling grip right)) OR (advanced knowledge AND hard wanderer pogo)) |  | Verified | collectible | ✓ |  |
-| 2 | Choral Chambers - Saw Flea's stolen rosaries | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
-| 3 | Choral Chambers - Saw Flea's bounty | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
-| 4 | Choral Chambers - Saw Flea's kidnappers bonus | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
+| 2 | Choral Chambers - Saw Flea's stolen rosaries | rosaries snipe | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Choral Chambers - Saw Flea's bounty | rosaries snipe | none |  | Verified | collectible | ✓ | rosary cache |
+| 4 | Choral Chambers - Saw Flea's kidnappers bonus | rosaries snipe | none |  | Verified | collectible | ✓ | rosary cache |
 | 5 | Choral Chambers Flea Shaft - Lever 1 | Top Section 1 | none |  | Verified | switch | ✓ |  |
 | 6 | Choral Chambers Flea Shaft - Lever 2 | Top Section 3 Right | none |  | Verified | switch | ✓ |  |
 | 7 | Choral Chambers Flea shaft - Air current | Top Section 2 | attack either |  | Verified | switch | ✓ |  |

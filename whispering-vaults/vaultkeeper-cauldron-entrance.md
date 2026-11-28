@@ -23,20 +23,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| W | Walk | Right Side | Left Side | Activate Whispering Vaults: Flip Switch #1 |  | Verified | ✓ |  |
-| W | Walk | Left Side | Right Side | Activate Whispering Vaults: Flip Switch #1 |  | Verified | ✓ |  |
-| J | Jump | Right Side | Top Room | Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND Ledge Grab) |  | Verified | ✓ |  |
-| J | Jump | Top Room | Right Side | Nothing. (Fall) |  | Verified | ✓ |  |
+| W | Walk | Right Side | Left Side | Activate Whispering Vaults: Cauldron switch |  | Verified | ✓ |  |
+| W | Walk | Left Side | Right Side | Activate Whispering Vaults: Cauldron switch |  | Verified | ✓ |  |
+| J | Jump | Right Side | Top Room | clear Whispering Vaults: Cauldron ceiling AND (cling grip left OR (faydown AND (ledge grab either OR cling grip right OR (easy shaman pogo AND medium pale nails stall x 2))) OR silk soar OR easy scuttlebrace) |  | Verified | ✓ |  |
+| J | Jump | Top Room | Right Side | clear Whispering Vaults: Cauldron ceiling |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Whispering Vaults: Break Wall #1 (Up) | Right Side | Nothing. |  | Verified | blockade | ✓ |  |
+| 1 | Whispering Vaults: Cauldron ceiling | Right Side | Nothing. |  | Verified | blockade | ✓ |  |
 | 2 | Sacred Cylinder | Left Side | Nothing. |  | Verified | collectible | ✓ |  |
-| 3 | Whispering Vaults: Flip Switch #1 | Right Side | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 3 | Whispering Vaults: Cauldron switch | Right Side | none |  | Verified | switch | ✓ |  |
 | 4 | Whispering Vaults: Needolin Lore #1 | Left Side | Needolin |  | Verified | event | ✓ |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 5 | Whispering Vaults - Cauldron Bench | Right Side | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

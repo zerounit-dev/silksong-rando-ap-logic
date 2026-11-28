@@ -2,7 +2,7 @@
 
 **Game ID:** Slab_12
 
-**Contributors:** MayaXTG
+**Contributors:** MayaXTG, Gallos
 
 ## Subrooms
 
@@ -23,12 +23,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LS | Shards Left | left | shards | none |  | Verified | ✓ | fall and hit left before water |
-| RS | Shards Right | center | shards | none |  |  | ✓ | same as above |
-| FJ | First Jump | left | center | cling grip either OR faydown OR sprint right OR clawline right OR sharpdart OR easy beast pogo OR medium shaman pogo OR (ledge grab right AND (proficient movement OR flea brew OR drifters OR easy voltvessels stall OR easy shaman pogo OR easy architect charge)) |  | Verified | ✓ | clawline and sharpdart are a little tight, but I wouldn't call them 'proficient movement' |
-| FJ | First Jump | center | left | sprint left OR faydown OR drifters OR ledge grab left OR cling grip either OR clawline left OR sharpdart |  |  | ✓ |  |
-| SJ | Second Jump | center | effigy | sharpdart OR clawline right OR drifters OR (sprint right AND (dash right OR easy beast pogo OR easy beast charge OR (medium architect charge AND ledge grab right)))  OR (faydown AND (proficient movement OR flea brew OR cling grip right OR easy [voltvessels,plasmium,flintslate,pale nails,thread storm,rune rage,cross stitch] stall OR easy bind stall OR easy [hunter,beast,architect,shaman,reaper,witch] pogo OR easy [beast,architect,wanderer] charge))  OR (cling grip right AND (flea brew OR easy voltvessels stall OR easy [hunter,beast,reaper,architect] pogo OR easy [flintslate,thread storm,cross stitch,pale nails] stall x 2))  OR (ledge grab right AND (easy beast charge OR medium beast pogo)) |  | Verified | ✓ |  |
-| SJ | Second Jump | effigy | center | clawline left OR sharpdart OR (sprint left AND (dash left OR faydown)) OR (cling grip right AND faydown) |  |  | ✓ |  |
+| LS | Shards Left | left | shards | attack left AND clear Slab - Window Breakable floor |  | Verified | ✓ | fall and hit left before water |
+| RS | Shards Right | center | shards | attack left AND clear Slab - Window Breakable floor |  | Verified | ✓ | same as above |
+| FJ | First Jump | left | center | (cling grip either OR faydown OR sprint right OR clawline right OR sharpdart OR easy scuttlebrace OR easy beast pogo OR medium shaman pogo OR (ledge grab right AND (proficient movement OR flea brew OR drifters OR easy voltvessels stall OR easy shaman pogo OR easy architect charge))) AND clear Slab - Window Spikes wall 1 AND clear Slab - Window Spikes wall 2 |  | Verified | ✓ | clawline and sharpdart are a little tight, but I wouldn't call them 'proficient movement' |
+| FJ | First Jump | center | left | (sprint left OR faydown OR drifters OR ledge grab left OR cling grip either OR clawline left OR easy scuttlebrace OR sharpdart)  AND clear Slab - Window Spikes wall 1 AND clear Slab - Window Spikes wall 2 |  | Verified | ✓ |  |
+| SJ | Second Jump | center | effigy | (sharpdart OR clawline right OR drifters OR easy shaman scuttle slide OR (sprint right AND (dash right OR easy beast pogo OR easy beast charge OR (medium architect charge AND ledge grab right)))  OR (faydown AND (proficient movement OR flea brew OR cling grip right OR easy [voltvessels,plasmium,flintslate,pale nails,thread storm,rune rage,cross stitch] stall OR easy bind stall OR easy [hunter,beast,architect,shaman,reaper,witch] pogo OR easy [beast,architect,wanderer] charge))  OR (cling grip right AND (flea brew OR easy voltvessels stall OR easy [hunter,beast,reaper,architect] pogo OR easy [flintslate,thread storm,cross stitch,pale nails] stall x 2))  OR (ledge grab right AND (easy beast charge OR medium beast pogo))) AND clear Slab - Window Spikes wall 4 AND clear Slab - Window Spikes wall 5 |  | Verified | ✓ |  |
+| SJ | Second Jump | effigy | center | (clawline left OR sharpdart OR medium shaman scuttle slide OR (sprint left AND (dash left OR faydown)) OR (cling grip right AND faydown))  AND clear Slab - Window Spikes wall 4 AND clear Slab - Window Spikes wall 5 |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -37,6 +37,13 @@
 | 1 | The Slab - Shell Shard Cache #4 | shards | none |  | Verified | collectible | ✓ |  |
 | 2 | The Slab - Shell Shard Cache #5 | shards | none |  | Verified | collectible | ✓ |  |
 | 3 | Relic: Weaver Effigy (Atla, The Slab) | effigy | none |  | Verified | collectible | ✓ |  |
+| 4 | Slab - Window Spikes wall 1 | left | break wall right |  | Verified | blockade | ✓ |  |
+| 5 | Slab - Window Spikes wall 2 | left | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
+| 6 | Slab - Window Spikes wall 3 | center | break wall right |  | Verified | blockade | ✓ |  |
+| 7 | Slab - Window Spikes wall 4 | center | break wall right |  | Verified | blockade | ✓ |  |
+| 8 | Slab - Window Spikes wall 5 | center | break wall right |  | Verified | blockade | ✓ |  |
+| 9 | Slab - Window Breakable floor | left | none |  | Verified | blockade | ✓ |  |
+| 10 | Slab - Window Breakable floor 2 | center | none |  | Verified | blockade | ✓ |  |
 
 ## Room Images
 

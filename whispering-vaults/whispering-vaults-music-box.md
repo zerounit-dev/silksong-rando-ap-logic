@@ -2,7 +2,7 @@
 
 **Game ID:** Library_16
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Gallos
 
 ## Subrooms
 
@@ -23,7 +23,6 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Cogheart Piece |  | Flip Switch Down OR Flip Switch UP |  | Verified | collectible | ✓ | (Aka Nothing.) |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

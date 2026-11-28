@@ -2,7 +2,7 @@
 
 **Game ID:** Library_13b
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Gallos
 
 ## Subrooms
 
@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| J | Jump | The Only Jump In This Entire Room | Not The Jump. | Ledge Grab OR Cling Grip OR Faydown Cloak OR Clawline OR Easy Needle Strike Stall (Beast) OR Scuttlebrace OR Sprint |  | Verified | ✓ |  |
-| J | Jump | Not The Jump. | The Only Jump In This Entire Room | Spike Pogo OR Clawline OR Dash OR Sprint OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace OR Cling Grip OR Sharpdart |  | Verified | ✓ |  |
+| J | Jump | The Only Jump In This Entire Room | Not The Jump. | ledge grab left OR cling grip left OR faydown OR easy scuttlebrace OR easy shaman pogo OR medium hazard respawn  OR easy beast charge |  | Verified | ✓ |  |
+| J | Jump | Not The Jump. | The Only Jump In This Entire Room | faydown OR ((ledge grab right OR cling grip right OR silk soar) AND (easy naked pogo OR spike pogo OR dash right OR run)) OR easy scuttlebrace OR easy shaman pogo OR easy beast charge |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -31,9 +31,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Collectable Item Pickup - Quill Red | Not The Jump. | Nothing. |  | Verified | collectible | ✓ | Missable (Exclusive with other Quills |
 | 2 | Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  | Verified | collectible | ✓ | Missable (Exclusive with other Quills) |
-| 3 | Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
-| 4 | Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Whispering Vaults - Quill Lore 1 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
+| 4 | Whispering Vaults - Quill Lore 2 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
 
 ## Room Images
 

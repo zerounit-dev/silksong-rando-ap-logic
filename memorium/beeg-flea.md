@@ -37,7 +37,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Big flea wall | left | nada |  | Verified | blockade | ✓ | custom name |
 | 2 | Flea: Memorium - Huge Flea | upper | cling grip either OR ledge grab either OR faydown OR silk soar OR easy shaman pogo OR easy beast charge OR medium beast bind stall OR easy plasmium stall OR easy scuttlebrace  OR easy [pimpillo,thread storm] use OR easy curveclaw use x 2 OR medium voltvessels use x 2 OR medium [throwing ring,threefold pin,pale nails] use x 4 OR hard [silkshot twelfth architect] use x 4 |  | Verified | collectible | ✓ | either reach the actual flea platform      or break the cage from below |
-| 3 | Huge Flea 1 | upper |  |  |  | enemy | ✓ |  |
+| 3 | Huge Flea 1 | upper | none |  | Verified | enemy | ✓ | Put his reqs as none because he doesn't have any particular combat reqs   - Moriko |
 
 ## Room Images
 

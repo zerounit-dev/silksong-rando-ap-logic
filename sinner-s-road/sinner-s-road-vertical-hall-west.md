@@ -42,7 +42,7 @@
 | MRL | mid right to middle left | middle left | middle right | none |  | Verified | ✓ |  |
 | LUR | mid left to upper right | middle left | upper right | Cling grip right OR faydown cloak |  | Verified | ✓ |  |
 | LUR | mid left to upper right | upper right | middle left | none |  | Verified | ✓ |  |
-| URT | upper right to top | upper right | top | Silk soar OR (faydown AND proficient movement) |  | Verified | ✓ | faydown spike pogos. can't use faydown |
+| URT | upper right to top | upper right | top | Silk soar OR (faydown AND proficient movement) |  | Verified | ✓ | faydown spike pogos. naked can't use faydown |
 | URT | upper right to top | top | upper right | none |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | middle right | rosary cage | silk soar OR (easy enemy pogo off roachcatcher AND (drifters OR faydown OR (easy shaman pogo AND (cling grip either OR scuttlebrace)))) OR (medium enemy pogo off roachcatcher AND easy shaman pogo) |  | Verified | ✓ |  |
 | MRR | mid right to rosaries | rosary cage | middle right | none |  | Verified | ✓ |  |

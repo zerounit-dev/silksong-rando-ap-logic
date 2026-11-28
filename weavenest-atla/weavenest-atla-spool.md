@@ -29,7 +29,7 @@
 | V1 | vertical 1 | mid passage | upper left passage | ledge grab both OR cling grip either OR ( easy pogo off marrowmaw AND ledge grab right ) OR faydown OR easy scuttlebrace OR ( ledge grab right AND easy beast bind stall AND easy plasmium stall ) OR ( ledge grab left AND medium beast bind stall AND medium plasmium stall ) |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper left passage | mid passage | none (falling) |  | Verified | ✓ |  |
 | F1 | fall 1 | upper left passage | spool spot | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | mid passage | spool spot | faydown cloak |  | Verified | ✓ |  |
+| V2 | vertical 2 | mid passage | spool spot | faydown cloak OR easy [hunter,wanderer] voltwater pogo |  | Verified | ✓ |  |
 | V2 | vertical 2 | spool spot | mid passage | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

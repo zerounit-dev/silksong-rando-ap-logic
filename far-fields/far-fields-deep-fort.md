@@ -29,7 +29,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | memory locket far fields | prison | none |  | Verified | collectible | ✓ | name says act 3 but is not actually gated by act 3 |
+| 1 | Far Fields - Deep Fort - Last Skarr Records - Memory Locket | prison | none |  | Verified | collectible | ✓ | name says act 3 but is not actually gated by act 3 memory locket far fields |
 | 2 | grunt | main area | none |  | Verified | miniboss |  | does not respawn |
 | 3 | Skarrgard 1 | main area | none |  | Verified | enemy | ✓ |  |
 | 4 | Flapping Fertid 1 | main area | none |  | Verified | enemy | ✓ |  |

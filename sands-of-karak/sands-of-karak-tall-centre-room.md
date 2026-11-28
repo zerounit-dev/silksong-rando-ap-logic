@@ -46,6 +46,7 @@
 | VS | Voltwyrm Shaft | Bridge Level | Voltnest Level | ( Cling Grip both AND Faydown Cloak AND ( Clawline right OR Dash right OR Sharpdart OR ( ( Medium Beast Crest pogo AND medium Needle Strike stall AND Cling Grip both )  OR ( ( ( medium Architect Crest pogo OR medium Reaper Crest pogo )  AND medium Needle Strike stall ) OR medium Shaman Crest pogo )  )  )  ) OR (  Silk soar AND ( Cling Grip left OR Faydown Cloak OR Scuttlebrace ) ) |  | Verified | ✓ |  |
 | VS | VoltWyrm Shaft | Voltnest Level | Bridge Level | None |  | Verified | ✓ |  |
 | BS | bridge to stalactite 2 | Bridge Level | Stalactite 2 | medium curveclaw use x 3 OR ((faydown OR easy scuttlebrace) AND shaman attack up) OR cling grip left OR silk soar x 2 OR medium conchcutter use x 3 |  | Verified | ✓ | damn someone beat to it |
+| WTF | What the fuck | Crust Nut Ledge | Stalactite 2 | Elite ball knowledge AND ( CBT curveclaw use x 3 OR ( Medium curveclaw use x 3 AND medium voltvessels use x 3 ) ) AND ( (  Scuttlebrace OR ( Cling grip Right AND ( Cling grip left OR ledge grab left ) )OR  Faydown Cloak  OR (  Silk Soar AND ( easy Architect Crest pogo OR easy Witch Crest pogo OR easy Reaper Crest pogo OR easy Shaman Crest pogo OR ( easy Wanderer Crest pogo AND ( ledge grab left OR Sharpdart OR Drifters Cloak ) ) ) ) ) ) |  | Verified | ✓ | Blame nio for discovering this |
 
 ## Check Locations
 

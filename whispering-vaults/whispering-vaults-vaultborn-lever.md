@@ -2,28 +2,39 @@
 
 **Game ID:** Library_15
 
-**Contributors:** Rebel
+**Contributors:** Rebel, Gallos
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | entry | ✓ |
+| S2 | lever room | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | BL | Nothing. |  | Verified | ✓ |  |
+| R | right1 | entry | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | BL | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| H | transit | entry | lever room | spike pogo OR easy naked pogo OR dash left OR clawline left OR drifters OR faydown |  | Verified | ✓ |  |
+| H | transit | lever room | entry | spike pogo OR (cling grip left AND dash right) OR clawline right OR faydown |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Whispering Vaults: Flip Switch #5 |  | Flip Switch Left |  | Verified | switch | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Whispering Vaults: Release the mosquitoes | lever room | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 2 | Vaultborn 1 | lever room | activate Whispering Vaults: Release the mosquitoes |  | Verified | enemy | ✓ | FSM Boolean flags: seenScholarAcolytes |
+| 3 | Vaultborn 2 | lever room | activate Whispering Vaults: Release the mosquitoes |  | Verified | enemy | ✓ | FSM Boolean flags: seenScholarAcolytes |
+| 4 | Vaultborn 3 | lever room | activate Whispering Vaults: Release the mosquitoes |  | Verified | enemy | ✓ | FSM Boolean flags: seenScholarAcolytes |
+| 5 | Vaultborn 4 | lever room | activate Whispering Vaults: Release the mosquitoes |  | Verified | enemy | ✓ | FSM Boolean flags: seenScholarAcolytes |
+| 6 | Vaultborn 5 | lever room | activate Whispering Vaults: Release the mosquitoes |  | Verified | enemy | ✓ | FSM Boolean flags: seenScholarAcolytes |
+| 7 | Vaultborn 6 | lever room | activate Whispering Vaults: Release the mosquitoes |  | Verified | enemy | ✓ | FSM Boolean flags: seenScholarAcolytes |
 
 ## Room Images
 

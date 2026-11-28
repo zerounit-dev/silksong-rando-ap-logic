@@ -32,7 +32,7 @@
 | D2 | drift passage 2 | thorn pit under spire | thorn pit spire landing | drifter's cloak |  | Verified | ✓ | inverse traversal possible but redundant |
 | D3 | drift passage 3 | upper right area | ceiling exit | drifter's cloak  AND (cling grip left  OR (faydown cloak AND medium scuttlebrace)) |  | Verified | ✓ | one way - might need some further validation |
 | DL1 | driftless 1 | bellway thicket entrance | thorn pit rose pogo | ((run OR cling grip left) AND faydown cloak AND (clawline right x 2 OR sharpdart x 2))  OR (proficient movement AND faydown cloak AND clawline right x 1 AND easy beast pogo) |  | Verified | ✓ |  |
-| DL2 | driftless 2 | thorn pit rose pogo | thorn pit spire landing | faydown cloak AND (((sharpdart OR clawline right OR easy reaper pogo) AND (cling grip right OR ledge grab right)) OR easy shaman pogo) |  | Verified | ✓ |  |
+| DL2 | driftless 2 | thorn pit rose pogo | thorn pit spire landing | faydown cloak AND (((sharpdart OR clawline right OR medium reaper pogo) AND (cling grip right OR ledge grab right)) OR easy shaman pogo OR easy pogo off [Caranid, Vicious Caranid, Flapping Fertid]) |  | Verified | ✓ |  |
 | DL2 | driftless 2 | thorn pit spire landing | thorn pit rose pogo | none (falling) |  | Verified | ✓ |  |
 | SR | spire rise | thorn pit spire landing | upper right area | silk soar OR drifter's cloak OR (faydown cloak AND (cling grip left OR ledge grab left OR proficient movement) AND (medium pogo off [Skarr Scout, Caranid])) OR (faydown cloak AND cling grip left AND (elite ball knowledge AND dash either AND hard air bind stall x 2 AND own crest beast)) |  | Verified | ✓ |  |
 | SR | spire rise | upper right area | thorn pit spire landing | none (falling) |  | Verified | ✓ |  |

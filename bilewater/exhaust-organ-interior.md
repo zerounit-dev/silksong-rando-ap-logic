@@ -11,17 +11,21 @@
 | S1 | elevator | ✓ |
 | S2 | top layer | ✓ |
 | S3 | ground floor | ✓ |
-| S4 | maze | ✓ |
+| S4 | junction | ✓ |
 | S5 | bench room | ✓ |
 | S6 | right column | ✓ |
 | S7 | broken elevator | ✓ |
+| S8 | upper door | ✓ |
+| S9 | cocoon nursery | ✓ |
+| S10 | upper junction | ✓ |
+| S11 | quick stop | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UE | Underworks Elevator | elevator | [Underworks Exhaust Organ Transit (Library_12)](../underworks/underworks-exhaust-organ-transit.md) | EV | none |  | Verified | ✓ |  |
-| ML | mid left | maze | [Exhaust Organ Exterior (Dust_09)](exhaust-organ-exterior.md) | UD | none |  | Verified | ✓ |  |
+| ML | mid left | upper door | [Exhaust Organ Exterior (Dust_09)](exhaust-organ-exterior.md) | UD | none |  | Verified | ✓ |  |
 | LL | low left | ground floor | [Exhaust Organ Exterior (Dust_09)](exhaust-organ-exterior.md) | LD | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -30,31 +34,41 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TE | top to elevator | top layer | elevator | complete Boss: Phantom |  | Verified | ✓ |  |
 | TE | top to elevator | elevator | top layer | complete Boss: Phantom |  | Verified | ✓ |  |
-| GBE | ground to broken elevator | ground floor | broken elevator | (cling grip either AND complete Exhaust Organ - Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly) OR silk soar |  | Verified | ✓ |  |
+| GBE | ground to broken elevator | ground floor | broken elevator | (cling grip either AND complete Exhaust Organ - Fix The Broken Elevator) OR (faydown cloak AND easy enemy pogo off Drapefly AND attack up) OR silk soar |  | Verified | ✓ |  |
 | GBE | ground to broken elevator | broken elevator | ground floor | complete Exhaust Organ - Fix The Broken Elevator |  | Verified | ✓ |  |
-| GRC | ground to right column | ground floor | right column | silk soar OR cling grip right OR ledge grab right |  | Verified | ✓ |  |
+| GRC | ground to right column | ground floor | right column | silk soar OR cling grip right OR ledge grab right OR faydown OR scuttlebrace |  | Verified | ✓ |  |
 | GRC | ground to right column | right column | ground floor | none |  | Verified | ✓ |  |
-| MRC | maze to right column | maze | right column | cling grip AND faydown cloak |  | Verified | ✓ |  |
-| MRC | maze to right column | right column | maze | cling grip both OR (cling grip right AND (spike pogo AND (easy [reaper, architect, shaman] pogo OR faydown cloak))) OR (cling grip left AND (proficient movement OR (spike pogo AND easy [hunter, reaper, wanderer, witch, architect, shaman] pogo))) |  | Verified | ✓ |  |
-| MT | maze to top | maze | top layer | cling grip |  | Verified | ✓ |  |
-| MT | maze to top | top layer | maze | cling grip |  | Verified | ✓ |  |
+| MRC | maze to right column | junction | right column | (cling grip either AND faydown cloak) OR  ((easy [hunter, reaper, wanderer, architect, shaman] pogo OR medium witch pogo) AND spike pogo) |  | Verified | ✓ |  |
+| MRC | maze to right column | right column | junction | cling grip both OR (cling grip right AND (spike pogo AND (easy [reaper, architect, shaman] pogo OR faydown cloak))) OR (cling grip left AND (proficient movement OR (spike pogo AND easy [hunter, reaper, wanderer, witch, architect, shaman] pogo) OR faydown)) |  | Verified | ✓ |  |
 | GB | ground to bench room | ground floor | bench room | silk soar OR cling grip either OR scuttlebrace |  | Verified | ✓ |  |
 | GB | ground to bench room | bench room | ground floor | none |  | Verified | ✓ |  |
-| MBE | maze to broken elevator | maze | broken elevator | complete Exhaust Organ - Fix The Broken Elevator |  | Verified | ✓ |  |
-| MBE | maze to broken elevator | broken elevator | maze | none |  | Verified | ✓ |  |
+| MBE | maze to broken elevator | junction | broken elevator | attack left |  | Verified | ✓ |  |
+| MBE | maze to broken elevator | broken elevator | junction | none |  | Verified | ✓ |  |
+| NA | nursery access | junction | cocoon nursery | none |  | Verified | ✓ |  |
+| NA | nursery access | cocoon nursery | junction | scuttlebrace OR silk soar OR cling grip either |  | Verified | ✓ |  |
+| EU | elevator to upper | broken elevator | upper junction | silk soar OR cling grip left OR scuttlebrace OR (cling grip right AND faydown) |  | Verified | ✓ |  |
+| EU | elevator to upper | upper junction | broken elevator | none |  | Verified | ✓ |  |
+| UDA | upper door access | upper junction | upper door | none |  | Verified | ✓ |  |
+| UDA | upper door access | upper door | upper junction | scuttlebrace OR cling grip either |  | Verified | ✓ |  |
+| UT | upper to stop | upper junction | quick stop | ledge grab right OR cling grip right OR dash right OR sharpdart OR clawline right OR scuttlebrace OR faydown OR drifter's OR easy beast pogo OR (spike pogo AND (easy [hunter, reaper, wanderer, witch, architect, shaman] pogo)) |  | Verified | ✓ |  |
+| UT | upper to stop | quick stop | upper junction | cling grip left OR (faydown AND (ledge grab left OR cling grip right)) OR (spike pogo AND  (easy [hunter, reaper, wanderer, witch, architect, shaman] pogo)) |  | Verified | ✓ |  |
+| STT | stop to top | quick stop | top layer | cling grip both OR  (faydown AND cling grip either) OR (spike pogo AND  ((easy [hunter, reaper, wanderer, architect, shaman] pogo) OR medium witch pogo)) |  | Verified | ✓ |  |
+| STT | stop to top | top layer | quick stop | none |  | Verified | ✓ |  |
+| JT | junction transfer | junction | upper junction | cling grip left OR scuttlebrace OR (faydown AND cling grip right) |  | Verified | ✓ |  |
+| JT | junction transfer | upper junction | junction | none |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Exhaust Organ - Silk Grub Listening To Mozart In the Cocoon | maze | none |  | Verified | collectible | ✓ | Formerly: Silk Grub Large Cocoon |
-| 2 | Exhaust Organ - Backstage Organ Bench | bench room | silk soar OR cling grip |  | Verified | bench | ✓ | Formerly: Organ Bench |
-| 3 | Exhaust Organ - Fix The Broken Elevator | broken elevator | attack left OR attack up |  | Verified | blockade | ✓ |  |
-| 4 | Boss: Phantom | top layer | ( dash OR run ) AND Combat Requirements |  | Verified | boss | ✓ |  |
-| 5 | Phantom 1 | top layer | dash OR run |  | Verified | enemy | ✓ |  |
+| 1 | Exhaust Organ - Silk Grub Listening To Mozart In the Cocoon | cocoon nursery | none |  | Verified | collectible | ✓ | Formerly: Silk Grub Large Cocoon |
+| 2 | Exhaust Organ - Backstage Organ Bench | bench room | none |  | Verified | bench | ✓ | Formerly: Organ Bench |
+| 3 | Exhaust Organ - Fix The Broken Elevator | broken elevator | none |  | Verified | blockade | ✓ |  |
+| 4 | Boss: Phantom | top layer | ( dash either OR run ) AND Combat Requirements |  | Verified | boss | ✓ |  |
+| 5 | Phantom 1 | top layer | (dash either OR run) AND Combat Requirements |  | Verified | enemy | ✓ |  |
 | 6 | Drapefly 1 | ground floor | none |  | Verified | enemy | ✓ |  |
 | 7 | Drapefly 2 | ground floor | none |  | Verified | enemy | ✓ |  |
-| 8 | Drapefly 3 | maze | none |  | Verified | enemy | ✓ |  |
+| 8 | Drapefly 3 | cocoon nursery | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

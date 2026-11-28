@@ -14,6 +14,13 @@
 | S4 | Right Stage | ✓ |
 | S5 | Bottom Left | ✓ |
 | S6 | Bottom Right | ✓ |
+| S7 | Reed snipe | ✓ |
+
+## Explanations
+
+| Name | Reference | Notes |
+| --- | --- | --- |
+| [Choristor pogo skip any crest](https://youtu.be/Ha06kRLfJEk) | Choristor pogo skip any crest |  |
 
 ## Room Transitions
 
@@ -30,7 +37,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RL | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak OR easy [flea brew,air heal] stall OR easy shaman pogo)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer, Architect] pogo))) OR easy scuttlebrace OR (faydown AND easy pogo off CHoristor) |  | Verified | ✓ |  |
+| RL | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar  OR cling grip left  OR easy scuttlebrace OR &#40;cling grip right AND &#40;easy pogo off &#91;Choristor&#44; Envoy&#93; OR faydown cloak OR easy &#91;flea brew&#44;air heal&#93; stall OR easy shaman pogo&#41;&#41;   OR &#40;&#40;&#40;&#40;faydown OR easy shaman pogo&#41; AND easy pogo off Choristor&#41; OR &#40;ledge grab either AND CBT pogo off Choristor AND &#40;CBT &#91;Hunter&#44; Beast&#93; pogo OR &#40;CBT architect pogo AND CBT damage boost off Choristor&#41;&#41;&#41; OR &#40;ledge grab either AND hard pogo off Choristor AND hard witch pogo&#41; OR &#40;ledge grab either AND medium pogo off Choristor AND medium &#91;reaper&#44;wanderer&#93; pogo&#41;&#41; AND none (see [Choristor pogo skip any crest](https://youtu.be/Ha06kRLfJEk))&#41; |  | Verified | ✓ |  |
 | RL | Bottom Right to Bottom Left | Bottom Left | Bottom Right | none |  | Verified | ✓ | falling |
 | V1 | Bottom Left to Right Stage | Bottom Left | Right Stage | silk soar OR cling grip either OR ((ledge grab right OR clawline right OR sharpdart OR easy scuttlebrace OR easy shaman pogo OR easy [air heal, flea brew, plasmium, voltvessels, thread storm, cross stitch, rune rage, pale nails, flintslate] stall OR silkspear OR proficient movement) AND faydown cloak) OR easy pogo off Reed OR (medium scuttlebrace AND (easy [shaman, reaper] pogo OR (easy air heal stall AND easy [Wanderer, Witch, Architect, hunter] pogo))) |  | Verified | ✓ |  |
 | V1 | Bottom Left to Right Stage | Right Stage | Bottom Left | none |  | Verified | ✓ | falling |
@@ -40,6 +47,9 @@
 | V3 | Upper Left to Upper Right | Upper | Middle | none |  | Verified | ✓ | falling |
 | V4 | Upper Right to Top | Upper | Top | ledge grab left OR silk soar OR clawline left OR faydown cloak OR easy pogo off Reed OR sharpdart OR easy scuttlebrace OR easy damage boost off Choir Bellbearer |  | Verified | ✓ |  |
 | V4 | Upper Right to Top | Top | Upper | none |  | Verified | ✓ | falling |
+| RE1 | bottom to reed | Bottom Right | Reed snipe | medium curveclaw use |  | Verified | ✓ |  |
+| RE2 | bottom to reed 2 | Bottom Left | Reed snipe | none |  | Verified | ✓ |  |
+| RE3 | right stage to reed | Right Stage | Reed snipe | none |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -55,7 +65,7 @@
 | 8 | Choristor 3 | Upper | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 9 | Envoy 1 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
 | 10 | Envoy 2 | Bottom Right | activate Bellshrine Enclave - lever IN bellshrine-enclave |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
-| 11 | Reed 1 | Right Stage | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Reed 1 | Reed snipe | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 12 | Reed 2 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 13 | Reed 3 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 14 | Reed 4 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |

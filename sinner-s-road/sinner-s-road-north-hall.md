@@ -31,8 +31,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LWL | Behind left wall to left area upper | behind left wall | left area upper | complete Secret Wall Logic |  | Verified | ✓ |  |
-| LWL | Behind left wall to left area upper | left area upper | behind left wall | (Silk soar OR faydown cloak OR cling grip left OR scuttlebrace OR medium [hunter,wanderer] voltwater pogo x 1) |  | Verified | ✓ | Should NOT be problematic until breakable wall rando  temporarily removed "complete Secret Wall Logic AND" before whole syntax, it feels like it could disallow any mist logic:  https://discord.com/channels/522404910445232130/1539856853159387137/1575010264678662174 |
+| LWL | Behind left wall to left area upper | behind left wall | left area upper | attack right |  | Verified | ✓ |  |
+| LWL | Behind left wall to left area upper | left area upper | behind left wall | attack left AND (Silk soar OR faydown cloak OR cling grip left OR scuttlebrace OR medium [hunter,wanderer] voltwater pogo x 1) |  | Verified | ✓ | Should NOT be problematic until breakable wall rando  temporarily removed "complete Secret Wall Logic AND" before whole syntax, it feels like it could disallow any mist logic:  https://discord.com/channels/522404910445232130/1539856853159387137/1575010264678662174 |
 | LAM | Left area to middle area | left area | middle area | clawline right OR (sharpdart x 3 AND (drifter’s cloak OR faydown cloak)) OR (drifter’s cloak AND ((cling grip right AND ledge grab right) OR faydown cloak)) OR (swim AND ledge grab right)  OR proficient movement |  | Verified | ✓ |  |
 | LAM | Left area to middle area | middle area | left area | clawline left OR (sharpdart AND (drifter’s cloak OR faydown cloak)) OR (drifter’s cloak AND faydown cloak) OR (swim AND (ledge grab left OR cling grip left))  OR proficient movement |  | Verified | ✓ |  |
 | MAH | Middle area to hatch | middle area | hatch | none OR  attack either |  | Verified | ✓ | Technically "any attack" is the requirement  Fair point! |
@@ -65,16 +65,14 @@
 | 3 | Sinner's Road - That Rosary Chest in the Halls of the Spike Swingers that's RIGHT THERE | chest plat | none |  | Verified | collectible | ✓ | Formerly: Sinner's Road - Rosary Chest |
 | 4 | The Lever Gettin' You Outta The North Hall | right door | hit switch up OR hit switch right OR hit switch left |  | Verified | switch | ✓ | Formerly: North Hall Door Switch |
 | 5 | Garmond and Zaza Act 3 Meeting Sinner's Road | right plat | Act 3 |  | Verified | event | ✓ |  |
-| 6 | Secret Wall To The Mists Left | behind left wall | break wall right |  | Verified | blockade | ✓ |  |
-| 7 | Secret Wall To The Mists Right | behind left wall | break wall left |  | Verified | blockade | ✓ |  |
-| 8 | Secret Wall Logic | behind left wall | complete Secret Wall to The Mists Left OR complete Secret Wall to The Mists Right |  | Verified | logic-point | ✓ | Should NOT be problematic until breakable wall rando |
-| 9 | Steven, the Roachkeeper | right plat | none |  | Verified | enemy | ✓ | Formerly: Roachkeeper 1 |
-| 10 | Sturgis, the Roachkeeper | left area upper | none |  | Verified | enemy | ✓ | Formerly: Roachkeeper 2 |
-| 11 | Phillip, the Roachkeeper | right keeper plat | none |  | Verified | enemy | ✓ | Formerly: Roachkeeper 3 |
-| 12 | Trash, the Muckroach | low right | none |  | Verified | enemy | ✓ | Formerly: Muckroach 1 |
-| 13 | Aneurysm, the Muckroach | low right | none |  | Verified | enemy | ✓ | Formerly: Muckroach 2 |
-| 14 | Tumor, the Muckroach | low right | none |  | Verified | enemy | ✓ | Formerly: Muckroach 3 |
-| 15 | Leech, the Muckroach | low right | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Muckroach 4 |
+| 6 | Secret Wall Logic | behind left wall | complete Secret Wall to The Mists Left OR complete Secret Wall to The Mists Right |  | Verified | logic-point | ✓ | Should NOT be problematic until breakable wall rando |
+| 7 | Steven, the Roachkeeper | right plat | none |  | Verified | enemy | ✓ | Formerly: Roachkeeper 1 |
+| 8 | Sturgis, the Roachkeeper | left area upper | none |  | Verified | enemy | ✓ | Formerly: Roachkeeper 2 |
+| 9 | Phillip, the Roachkeeper | right keeper plat | none |  | Verified | enemy | ✓ | Formerly: Roachkeeper 3 |
+| 10 | Trash, the Muckroach | low right | none |  | Verified | enemy | ✓ | Formerly: Muckroach 1 |
+| 11 | Aneurysm, the Muckroach | low right | none |  | Verified | enemy | ✓ | Formerly: Muckroach 2 |
+| 12 | Tumor, the Muckroach | low right | none |  | Verified | enemy | ✓ | Formerly: Muckroach 3 |
+| 13 | Leech, the Muckroach | low right | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Muckroach 4 |
 
 ## Room Images
 
